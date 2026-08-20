@@ -49,7 +49,9 @@ async function main() {
 
   // 5) Haberler (ilişkiler slug üzerinden bağlanır)
   for (const post of posts) {
-    const { authorSlug, categorySlug, tagSlugs, philosopherSlugs, publishedAt, ...rest } = post;
+    // `sources` ilişki tablosudur; haber verisine karışmamalı.
+    const { authorSlug, categorySlug, tagSlugs, philosopherSlugs, publishedAt, sources, ...rest } =
+      post;
 
     const relations = {
       publishedAt: publishedAt ? new Date(publishedAt) : null,
@@ -57,7 +59,7 @@ async function main() {
       category: { connect: { slug: categorySlug } },
     };
 
-    await prisma.post.upsert({
+    const saved = await prisma.post.upsert({
       where: { slug: post.slug },
       update: {
         ...rest,
@@ -74,6 +76,23 @@ async function main() {
         philosophers: { connect: philosopherSlugs.map((slug) => ({ slug })) },
       },
     });
+
+    // Kaynak künyesi
+    await prisma.postSource.deleteMany({ where: { postId: saved.id } });
+
+    if (sources?.length) {
+      await prisma.postSource.createMany({
+        data: sources.map((source, index) => ({
+          postId: saved.id,
+          title: source.title,
+          publisher: source.publisher ?? null,
+          date: source.date ?? null,
+          url: source.url,
+          primary: source.primary ?? false,
+          order: index,
+        })),
+      });
+    }
   }
   console.log(`   ✓ ${posts.length} haber`);
 

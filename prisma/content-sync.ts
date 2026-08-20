@@ -70,7 +70,9 @@ async function main() {
 
   // 5) Haberler ve kalıcı içerikler
   for (const post of posts) {
-    const { authorSlug, categorySlug, tagSlugs, philosopherSlugs, publishedAt, ...rest } = post;
+    // `sources` bir ilişki tablosudur; aşağıda ayrıca yazılır, buradaki veriye karışmamalı.
+    const { authorSlug, categorySlug, tagSlugs, philosopherSlugs, publishedAt, sources, ...rest } =
+      post;
 
     const data = {
       ...rest,
@@ -100,9 +102,9 @@ async function main() {
     // (Bunlar haberin alt kayıtlarıdır; içerik silme sayılmaz.)
     await prisma.postSource.deleteMany({ where: { postId: saved.id } });
 
-    if (post.sources?.length) {
+    if (sources?.length) {
       await prisma.postSource.createMany({
-        data: post.sources.map((source, index) => ({
+        data: sources.map((source, index) => ({
           postId: saved.id,
           title: source.title,
           publisher: source.publisher ?? null,
