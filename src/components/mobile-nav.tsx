@@ -53,7 +53,7 @@ export function MobileNav({ categories }: { categories: CategoryWithCount[] }) {
             {categories.map((category) => (
               <Link
                 key={category.id}
-                href={`/kategori/${category.slug}`}
+                href={category.slug === "konferanslar" ? "/konferanslar" : `/kategori/${category.slug}`}
                 onClick={() => setOpen(false)}
                 className="flex items-center justify-between rounded-lg px-3 py-2.5 text-sm text-ink-soft transition-colors hover:bg-accent-soft hover:text-accent"
               >

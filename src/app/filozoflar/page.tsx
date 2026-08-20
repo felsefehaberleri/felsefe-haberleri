@@ -20,8 +20,9 @@ export default async function PhilosophersPage() {
         <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Dizin</p>
         <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">Filozoflar</h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
-          Haberlerini izlediğimiz düşünürler. Bir isme tıklayarak o filozofla ilgili tüm
-          haberleri ve kitaplarını tek sayfada görebilirsiniz.
+          Haberlerini izlediğimiz düşünürler. Bir isme tıklayarak filozofun künyesini —
+          dönemi, akımı, çalışma alanları, temel eserleri ve kavramları — ilgili haberler ve
+          kitaplarla birlikte tek sayfada görebilirsiniz.
         </p>
       </header>
 

@@ -4,7 +4,9 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { BookCard } from "@/components/book-card";
 import { Container } from "@/components/container";
+import { Markdown } from "@/components/markdown";
 import { PhilosopherAvatar } from "@/components/philosopher-card";
+import { PhilosopherProfile } from "@/components/philosopher-profile";
 import { getBooksByPhilosopher, getPhilosopherBySlug, getPosts } from "@/lib/queries";
 
 export const dynamic = "force-dynamic";
@@ -32,11 +34,12 @@ export default async function PhilosopherPage({ params }: Props) {
     getBooksByPhilosopher(slug),
   ]);
 
-  const meta = [
-    philosopher.affiliation,
-    philosopher.country,
-    philosopher.birthYear ? `d. ${philosopher.birthYear}` : null,
-  ]
+  // Yaşayan filozofa ölüm tarihi yazılmaz (33. kural).
+  const years = philosopher.alive
+    ? philosopher.birthDate ?? (philosopher.birthYear ? String(philosopher.birthYear) : null)
+    : [philosopher.birthDate, philosopher.deathDate].filter(Boolean).join(" — ") || null;
+
+  const meta = [philosopher.affiliation, philosopher.country, years ? `d. ${years}` : null]
     .filter(Boolean)
     .join(" · ");
 
@@ -71,6 +74,18 @@ export default async function PhilosopherPage({ params }: Props) {
           </div>
         </div>
       </header>
+
+      {/* Ayrıntılı biyografi (Markdown) */}
+      {philosopher.longBio && (
+        <section className="border-b border-line py-10">
+          <div className="max-w-3xl">
+            <Markdown content={philosopher.longBio} />
+          </div>
+        </section>
+      )}
+
+      {/* Ansiklopedik künye */}
+      <PhilosopherProfile philosopher={philosopher} />
 
       <section className="py-12">
         <h2 className="font-serif text-2xl font-bold">Haberler</h2>

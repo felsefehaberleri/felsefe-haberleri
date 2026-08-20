@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { centerThinker, leftThinkers, rightThinkers, type Thinker } from "@/lib/thinkers";
+import { thinkers, type Thinker } from "@/lib/thinkers";
 
 /**
  * Sayfanın en üstündeki portre şeridi.
@@ -10,29 +10,32 @@ import { centerThinker, leftThinkers, rightThinkers, type Thinker } from "@/lib/
  * İki çalışma biçimi vardır:
  *
  * 1) TEK GÖRSEL — `NEXT_PUBLIC_BANNER_IMAGE` tanımlıysa (ör. "/banner.jpg")
- *    o dosya tek parça bir şerit olarak basılır. Kendi hazırladığınız toplu
- *    fotoğrafı `public/` klasörüne koyup bu değişkeni tanımlamanız yeterlidir.
+ *    o dosya tek parça bir şerit olarak basılır.
  *
- * 2) BİRLEŞİK ŞERİT (varsayılan) — portreler aralıksız yan yana dizilir; ortak
- *    sepya işlemi, degrade ve iç gölge sayesinde tek bir görsel gibi görünür.
- *    Yazı yoktur, yalnızca portreler.
+ * 2) BİRLEŞİK ŞERİT (varsayılan) — 13 portre eşit genişlikte, aralıksız yan yana
+ *    dizilir. Eşit genişlik sayesinde ortadaki portre (Nietzsche) her ekranda tam
+ *    merkezde kalır. Ortak sepya işlemi ve degrade, şeridi tek bir görsel gibi
+ *    gösterir; üzerinde yazı yoktur.
  *
- * Dizilim: sol grup ve sağ grup kalan genişliği eşit paylaşır, ortadaki portre
- * her ekranda tam merkezde kalır (bkz. src/lib/thinkers.ts).
+ * Kırpma noktası her portre için ayrı ayarlanır (bkz. `focus`, src/lib/thinkers.ts),
+ * böylece yüzler kadrajın ortasında kalır, kafalar kesilmez.
  */
 const bannerImage = process.env.NEXT_PUBLIC_BANNER_IMAGE;
 
 /** Tek portre. Görsel yüklenmezse önce yedeği, o da olmazsa sade koyu doku kalır. */
-function Portrait({ thinker, emphasized = false }: { thinker: Thinker; emphasized?: boolean }) {
+function Portrait({ thinker }: { thinker: Thinker }) {
   const [source, setSource] = useState(thinker.image);
   const [failed, setFailed] = useState(false);
 
+  // Tüm kutular aynı genişlikte: şerit boyunca eşit bölünür.
+  const cell = "h-full min-w-0 flex-1 basis-0";
+
   if (failed) {
-    // Sessiz yedek: adı yazmadan, şeridin dokusunu sürdüren koyu bir alan.
+    // Sessiz yedek: ad yazmadan, şeridin dokusunu sürdüren koyu bir alan.
     return (
       <span
         aria-hidden
-        className="h-full min-w-0 flex-1 bg-[radial-gradient(circle_at_50%_35%,#3a342e,#1c1917)]"
+        className={`${cell} bg-[radial-gradient(circle_at_50%_35%,#3a342e,#1c1917)]`}
       />
     );
   }
@@ -44,6 +47,7 @@ function Portrait({ thinker, emphasized = false }: { thinker: Thinker; emphasize
       alt={`${thinker.name} — ${thinker.era}`}
       title={thinker.name}
       loading="eager"
+      style={{ objectPosition: thinker.focus }}
       onError={() => {
         if (thinker.altImage && source !== thinker.altImage) {
           setSource(thinker.altImage);
@@ -51,9 +55,7 @@ function Portrait({ thinker, emphasized = false }: { thinker: Thinker; emphasize
         }
         setFailed(true);
       }}
-      className={`h-full min-w-0 object-cover object-top opacity-90 grayscale-[0.9] sepia-[0.25] transition duration-500 hover:opacity-100 hover:grayscale-0 hover:sepia-0 ${
-        emphasized ? "w-[13%] shrink-0" : "flex-1"
-      }`}
+      className={`${cell} object-cover opacity-90 grayscale-[0.9] sepia-[0.25] transition duration-500 hover:opacity-100 hover:grayscale-0 hover:sepia-0`}
     />
   );
 }
@@ -65,7 +67,7 @@ export function ThinkerBanner() {
 
   return (
     <div className="border-b border-line bg-ink">
-      <div className="relative h-[104px] w-full overflow-hidden sm:h-[132px] lg:h-[150px]">
+      <div className="relative h-[110px] w-full overflow-hidden sm:h-[140px] lg:h-[164px]">
         {bannerImage ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -76,31 +78,20 @@ export function ThinkerBanner() {
           />
         ) : (
           <div className="flex h-full w-full">
-            {/* Sol grup ve sağ grup eşit genişlikte; ortadaki portre tam merkezde kalır. */}
-            <div className="flex h-full min-w-0 flex-1">
-              {leftThinkers.map((thinker) => (
-                <Portrait key={thinker.name} thinker={thinker} />
-              ))}
-            </div>
-
-            <Portrait thinker={centerThinker} emphasized />
-
-            <div className="flex h-full min-w-0 flex-1">
-              {rightThinkers.map((thinker) => (
-                <Portrait key={thinker.name} thinker={thinker} />
-              ))}
-            </div>
+            {thinkers.map((thinker) => (
+              <Portrait key={thinker.name} thinker={thinker} />
+            ))}
           </div>
         )}
 
         {/* Şeridi tek bir görsel gibi bütünleyen degrade ve iç gölge */}
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/35 via-transparent to-black/55 mix-blend-multiply"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-transparent to-black/45 mix-blend-multiply"
         />
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 shadow-[inset_0_0_120px_rgba(0,0,0,0.55)]"
+          className="pointer-events-none absolute inset-0 shadow-[inset_0_0_90px_rgba(0,0,0,0.45)]"
         />
       </div>
     </div>

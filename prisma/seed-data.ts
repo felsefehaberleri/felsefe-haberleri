@@ -24,6 +24,75 @@ export type SeedPhilosopher = {
   affiliation: string | null;
   website: string | null;
   featured: boolean;
+
+  /* --- Filozof Dizini alanları (hepsi isteğe bağlı) ---
+     Emin olunmayan alan boş bırakılır; uydurma bilgi yazılmaz. */
+  fullName?: string;
+  /** "1953", "MÖ 470 civarı" gibi serbest biçim. */
+  birthDate?: string;
+  /** Yaşayan filozoflarda yazılmaz. */
+  deathDate?: string;
+  /** Varsayılan true; vefat etmiş filozoflarda false. */
+  alive?: boolean;
+  period?: string;
+  school?: string;
+  /** Virgülle ayrılmış çalışma alanları. */
+  areas?: string;
+  /** Her satırda bir eser. */
+  majorWorks?: string;
+  /** Virgülle ayrılmış temel kavramlar. */
+  keyConcepts?: string;
+  influencedBy?: string;
+  influenced?: string;
+  /** Ayrıntılı biyografi (Markdown). */
+  longBio?: string;
+  /** Her satırda "Başlık — URL". */
+  sources?: string;
+};
+
+/** Haberin dayandığı kaynaklardan biri (6. ve 26. kural). */
+export type SeedSource = {
+  title: string;
+  publisher?: string;
+  /** Serbest biçim: "12 Ağustos 2026". */
+  date?: string;
+  url: string;
+  /** Birincil kaynak künyede önce gösterilir. */
+  primary?: boolean;
+};
+
+/** Konferans, sempozyum, seminer, webinar, çalıştay ya da bildiri çağrısı. */
+export type SeedEvent = {
+  title: string;
+  slug: string;
+  summary?: string;
+  /** Markdown. */
+  description?: string;
+  /** KONFERANS | KONGRE | SEMPOZYUM | CALISTAY | SEMINER | WEBINAR | PANEL | DERS | KOLOKYUM | YAZ_OKULU | KIS_OKULU | CFP */
+  kind?: string;
+  speakers?: string;
+  organizer?: string;
+  topic?: string;
+  /** ONLINE | FIZIKSEL | HIBRIT */
+  format?: string;
+  /** ISO 8601. Saat bilgisi yoksa gün başlangıcı yazılır ve hasTime false bırakılır. */
+  startsAt: string;
+  endsAt?: string;
+  timezone?: string;
+  hasTime?: boolean;
+  city?: string;
+  country?: string;
+  venue?: string;
+  registrationUrl?: string;
+  fee?: string;
+  deadline?: string;
+  cfpDeadline?: string;
+  website?: string;
+  sourceName?: string;
+  sourceUrl?: string;
+  coverImage?: string;
+  featured?: boolean;
+  publishedAt?: string | null;
 };
 
 export type SeedBook = {
@@ -48,6 +117,12 @@ export type SeedPost = {
   slug: string;
   summary: string;
   content: string;
+  /** SEO başlığı — boş bırakılırsa `title` kullanılır. */
+  seoTitle?: string;
+  /** Arama sonucu açıklaması — boş bırakılırsa `summary` kullanılır. */
+  metaDescription?: string;
+  /** HABER | ANALIZ | PORTRE | KITAP | ROPORTAJ | ETKINLIK | TARIH | KAVRAM */
+  contentType?: string;
   coverImage: string;
   imageCredit: string | null;
   featured: boolean;
@@ -59,6 +134,8 @@ export type SeedPost = {
   categorySlug: string;
   tagSlugs: string[];
   philosopherSlugs: string[];
+  /** Ek kaynaklar. `sourceName`/`sourceUrl` ana kaynaktır; burada tümü listelenir. */
+  sources?: SeedSource[];
 };
 
 /* ------------------------------------------------------------------ */
@@ -144,6 +221,15 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Harvard Üniversitesi",
     website: "https://scholar.harvard.edu/sandel",
     featured: true,
+    birthDate: "1953",
+    alive: true,
+    period: "Çağdaş",
+    school: "Komüniteryanizm",
+    areas: "Siyaset felsefesi, Ahlak felsefesi, Hukuk felsefesi",
+    majorWorks: "Liberalism and the Limits of Justice (1982)\nJustice: What's the Right Thing to Do? (2009)\nWhat Money Can't Buy (2012)\nThe Tyranny of Merit (2020)",
+    keyConcepts: "Adalet, Liyakat tiranlığı, Piyasaların ahlaki sınırları, Ortak iyi",
+    influencedBy: "Aristoteles, Hegel, John Rawls (eleştirel)",
+    sources: "Harvard Üniversitesi profil sayfası — https://scholar.harvard.edu/sandel",
   },
   {
     name: "Martha Nussbaum",
@@ -156,6 +242,14 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Chicago Üniversitesi Hukuk Fakültesi",
     website: "https://www.law.uchicago.edu/faculty/nussbaum",
     featured: true,
+    birthDate: "1947",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Etik, Siyaset felsefesi, Antik Yunan felsefesi, Hukuk felsefesi, Duygular kuramı",
+    majorWorks: "The Fragility of Goodness (1986)\nUpheavals of Thought (2001)\nCreating Capabilities (2011)\nThe Republic of Love: Opera and Political Freedom (2026)",
+    keyConcepts: "Yetenekler yaklaşımı, Duyguların bilişsel kuramı, İnsani gelişme",
+    influencedBy: "Aristoteles, Stoacılar, John Stuart Mill, Amartya Sen",
+    sources: "Chicago Üniversitesi profil sayfası — https://www.law.uchicago.edu/faculty/nussbaum",
   },
   {
     name: "Byung-Chul Han",
@@ -168,6 +262,13 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Berlin Sanat Üniversitesi (UdK)",
     website: null,
     featured: true,
+    birthDate: "1959",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Kültür kuramı, Medya felsefesi, Toplum felsefesi",
+    majorWorks: "Yorgunluk Toplumu (2010)\nŞeffaflık Toplumu (2012)\nPsikopolitika (2014)\nAnlatının Krizi (2023)",
+    keyConcepts: "Performans toplumu, Şeffaflık toplumu, Psikopolitika, Anlatı kaybı",
+    influencedBy: "Martin Heidegger, Michel Foucault, Walter Benjamin",
   },
   {
     name: "Luciano Floridi",
@@ -180,6 +281,12 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Yale Üniversitesi",
     website: null,
     featured: true,
+    birthDate: "1964",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Bilgi felsefesi, Dijital etik, Yapay zekâ etiği, Teknoloji felsefesi",
+    majorWorks: "The Philosophy of Information (2011)\nThe Ethics of Information (2013)\nThe Fourth Revolution (2014)",
+    keyConcepts: "İnfosfer, Bilgi felsefesi, Dijital etik, Dördüncü devrim",
   },
   {
     name: "Eric Schwitzgebel",
@@ -192,6 +299,11 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Riverside",
     website: null,
     featured: false,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Zihin felsefesi, Bilinç araştırmaları, Ahlak psikolojisi",
+    majorWorks: "Perplexities of Consciousness (2011)\nA Theory of Jerks and Other Philosophical Misadventures (2019)",
+    keyConcepts: "Zemin esnekliği, İçgözlemin güvenilmezliği",
   },
   {
     name: "Jeremy Pober",
@@ -204,6 +316,9 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Lizbon Üniversitesi",
     website: null,
     featured: false,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Zihin felsefesi, Bilinç araştırmaları",
   },
   {
     name: "Peter Singer",
@@ -216,6 +331,14 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Princeton Üniversitesi",
     website: null,
     featured: false,
+    birthDate: "1946",
+    alive: true,
+    period: "Çağdaş",
+    school: "Faydacılık",
+    areas: "Uygulamalı etik, Hayvan etiği, Biyoetik, Küresel yoksulluk",
+    majorWorks: "Animal Liberation (1975)\nPractical Ethics (1979)\nThe Life You Can Save (2009)",
+    keyConcepts: "Türcülük, Etkili özgecilik, Çıkarların eşit değerlendirilmesi",
+    influencedBy: "Jeremy Bentham, John Stuart Mill, R. M. Hare",
   },
   {
     name: "Judith Butler",
@@ -228,6 +351,14 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Berkeley",
     website: null,
     featured: false,
+    birthDate: "1956",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi, Post-yapısalcılık",
+    areas: "Siyaset felsefesi, Dil felsefesi, Toplumsal cinsiyet kuramı, Etik",
+    majorWorks: "Gender Trouble (1990)\nBodies That Matter (1993)\nPrecarious Life (2004)\nWho's Afraid of Gender (2024)",
+    keyConcepts: "Performatiflik, Kırılganlık, Tanınma, Yas",
+    influencedBy: "G. W. F. Hegel, Michel Foucault, Jacques Derrida, J. L. Austin",
   },
   {
     name: "Örsan K. Öymen",
@@ -240,8 +371,12 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Felsefe Sanat Bilim Derneği",
     website: null,
     featured: true,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Felsefe etkinlikleri, Aydınlanma felsefesi",
   },
 ];
+
 
 /* ------------------------------------------------------------------ */
 /* Haberler                                                            */
@@ -488,6 +623,19 @@ Kitabın künye bilgileri ve baskı ayrıntıları için yayınevinin sayfasına
     categorySlug: "konferanslar",
     tagSlugs: ["sempozyum", "akademi"],
     philosopherSlugs: ["orsan-k-oymen"],
+    sources: [
+      {
+        title: "26 yıllık gelenek: \"Assos'ta Felsefe\" sempozyumu kapılarını açıyor",
+        publisher: "Cumhuriyet",
+        url: "https://www.cumhuriyet.com.tr/kultur-sanat/26-yillik-gelenek-assos-ta-felsefe-sempozyumu-kapilarini-aciyor-2471919",
+        primary: true,
+      },
+      {
+        title: "\"Assos'ta Felsefe\" sempozyumu kapılarını açıyor",
+        publisher: "Serbestiyet",
+        url: "https://serbestiyet.com/haberler/kultur-sanat/assosta-felsefe-sempozyumu-kapilarini-aciyor-231138/",
+      },
+    ],
     content: `Aristoteles'in bir dönem ders verdiği Assos'ta 26 yıldır sürdürülen "Assos'ta Felsefe" sempozyumu, 6-7 Şubat 2026 tarihlerinde toplandı.
 
 ## Bu yılın başlığı
@@ -838,5 +986,45 @@ export const books: SeedBook[] = [
     link: null,
     philosopherSlug: "peter-singer",
     postSlug: null,
+  },
+];
+
+/* ------------------------------------------------------------------ */
+/* Etkinlikler (Konferanslar bölümü)                                   */
+/* ------------------------------------------------------------------ */
+/*
+ * Buraya yalnızca doğrulanmış etkinlikler girilir: kaynağı olmayan,
+ * tarihi belirsiz ya da resmî olarak duyurulmamış etkinlik eklenmez (45. kural).
+ * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
+ */
+export const events: SeedEvent[] = [
+  {
+    title: "Assos'ta Felsefe — 26. Sempozyum",
+    slug: "assosta-felsefe-2026",
+    summary:
+      "Felsefe Sanat Bilim Derneği'nin 26 yıldır sürdürdüğü sempozyum, 'Felsefe, Sanat, Bilim ve Siyaset' başlığıyla toplandı. Katılım ücretsizdi.",
+    description: `Aristoteles'in bir dönem ders verdiği Assos'ta düzenlenen sempozyum, Prof. Dr. Örsan K. Öymen'in öncülüğünde 26. kez toplandı.
+
+İki gün süren programda Aydınlanma felsefesinden küresel göçe, post-doğruluk çağından Adorno ve Hegel'in sanat kuramlarına uzanan sunumlar yer aldı.
+
+Toplantılar felsefeye ilgi duyan herkese açık ve ücretsizdi; katılım için organizasyonun resmî sitesinden kayıt isteniyordu.`,
+    kind: "SEMPOZYUM",
+    organizer: "Felsefe Sanat Bilim Derneği",
+    speakers: "Örsan K. Öymen",
+    topic: "Felsefe, Sanat, Bilim ve Siyaset",
+    format: "FIZIKSEL",
+    startsAt: "2026-02-06T00:00:00.000Z",
+    endsAt: "2026-02-07T00:00:00.000Z",
+    hasTime: false,
+    city: "Çanakkale",
+    country: "Türkiye",
+    venue: "Nazlıhan Otel, Assos-Behramkale",
+    fee: "Ücretsiz",
+    sourceName: "Cumhuriyet",
+    sourceUrl:
+      "https://www.cumhuriyet.com.tr/kultur-sanat/26-yillik-gelenek-assos-ta-felsefe-sempozyumu-kapilarini-aciyor-2471919",
+    coverImage: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1600&q=80",
+    featured: false,
+    publishedAt: "2026-08-02T10:30:00.000Z",
   },
 ];

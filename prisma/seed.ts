@@ -4,7 +4,7 @@
  */
 import { PrismaClient } from "@prisma/client";
 
-import { authors, books, categories, philosophers, posts, tags } from "./seed-data";
+import { authors, books, categories, events, philosophers, posts, tags } from "./seed-data";
 
 const prisma = new PrismaClient();
 
@@ -90,6 +90,20 @@ async function main() {
     await prisma.book.upsert({ where: { slug: book.slug }, update: data, create: data });
   }
   console.log(`   ✓ ${books.length} kitap`);
+
+  // 7) Etkinlikler
+  for (const event of events) {
+    const data = {
+      ...event,
+      startsAt: new Date(event.startsAt),
+      endsAt: event.endsAt ? new Date(event.endsAt) : null,
+      deadline: event.deadline ? new Date(event.deadline) : null,
+      cfpDeadline: event.cfpDeadline ? new Date(event.cfpDeadline) : null,
+      publishedAt: event.publishedAt ? new Date(event.publishedAt) : null,
+    };
+    await prisma.event.upsert({ where: { slug: event.slug }, update: data, create: data });
+  }
+  console.log(`   ✓ ${events.length} etkinlik`);
 
   console.log("✅ Tohumlama tamamlandı.");
 }

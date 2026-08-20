@@ -55,7 +55,8 @@ export async function SiteHeader() {
             {categories.map((category) => (
               <li key={category.id}>
                 <Link
-                  href={`/kategori/${category.slug}`}
+                  // "Konferanslar" bölümü etkinlik takvimine gider; diğerleri haber arşivine.
+                  href={category.slug === "konferanslar" ? "/konferanslar" : `/kategori/${category.slug}`}
                   className="text-[12.5px] font-medium tracking-wide whitespace-nowrap text-ink-soft uppercase transition-colors hover:text-accent"
                 >
                   {category.name}

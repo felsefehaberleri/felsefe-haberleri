@@ -43,12 +43,29 @@ export interface PhilosopherSummary {
   affiliation: string | null;
 }
 
-/** Filozof profil sayfası için tüm alanlar. */
+/** Filozof profil sayfası için tüm alanlar (Filozof Dizini). */
 export interface PhilosopherDetail extends PhilosopherSummary {
   bio: string | null;
   birthYear: number | null;
   website: string | null;
   featured: boolean;
+
+  fullName: string | null;
+  birthDate: string | null;
+  deathDate: string | null;
+  alive: boolean;
+  period: string | null;
+  school: string | null;
+  /** Virgülle ayrılmış. */
+  areas: string | null;
+  /** Her satırda bir eser. */
+  majorWorks: string | null;
+  keyConcepts: string | null;
+  influencedBy: string | null;
+  influenced: string | null;
+  longBio: string | null;
+  /** Her satırda "Başlık — URL". */
+  sources: string | null;
 }
 
 export interface PhilosopherWithCount extends PhilosopherSummary {
@@ -85,9 +102,54 @@ export interface PostListItem {
   philosophers: PhilosopherSummary[];
 }
 
+/** Haberin dayandığı kaynaklardan biri. */
+export interface SourceRef {
+  id: string;
+  title: string;
+  publisher: string | null;
+  date: string | null;
+  url: string;
+  primary: boolean;
+}
+
+/** Konferans, sempozyum, seminer, webinar, çalıştay ya da bildiri çağrısı. */
+export interface EventItem {
+  id: string;
+  title: string;
+  slug: string;
+  summary: string | null;
+  description: string | null;
+  kind: string;
+  speakers: string | null;
+  organizer: string | null;
+  topic: string | null;
+  format: string;
+  startsAt: Date;
+  endsAt: Date | null;
+  timezone: string | null;
+  hasTime: boolean;
+  city: string | null;
+  country: string | null;
+  venue: string | null;
+  registrationUrl: string | null;
+  fee: string | null;
+  deadline: Date | null;
+  cfpDeadline: Date | null;
+  website: string | null;
+  sourceName: string | null;
+  sourceUrl: string | null;
+  coverImage: string | null;
+  featured: boolean;
+}
+
 /** Detay sayfası için Markdown gövdesini de içeren haber. */
 export interface PostDetail extends PostListItem {
   content: string;
+  seoTitle: string | null;
+  metaDescription: string | null;
+  contentType: string;
+  /** Haberin kaynak künyesi (birden çok olabilir). */
+  sources: SourceRef[];
   imageCredit: string | null;
   sourceName: string | null;
   sourceUrl: string | null;

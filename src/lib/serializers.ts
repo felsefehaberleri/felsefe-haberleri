@@ -1,6 +1,7 @@
 import { readingTime } from "@/lib/utils";
 import type {
   BookSummary,
+  EventItem,
   CategoryWithCount,
   PhilosopherDetail,
   PhilosopherSummary,
@@ -29,6 +30,21 @@ export interface ApiPhilosopherDetail extends ApiPhilosopherSummary {
   website: string | null;
   featured: boolean;
   postCount?: number;
+
+  /* Filozof Dizini alanları */
+  fullName: string | null;
+  birthDate: string | null;
+  deathDate: string | null;
+  alive: boolean;
+  period: string | null;
+  school: string | null;
+  areas: string | null;
+  majorWorks: string | null;
+  keyConcepts: string | null;
+  influencedBy: string | null;
+  influenced: string | null;
+  longBio: string | null;
+  sources: string | null;
 }
 
 export interface ApiBook {
@@ -60,13 +76,52 @@ export interface ApiPostSummary {
   philosophers: ApiPhilosopherSummary[];
 }
 
+export interface ApiSource {
+  title: string;
+  publisher: string | null;
+  date: string | null;
+  url: string;
+  primary: boolean;
+}
+
+export interface ApiEvent {
+  id: string;
+  title: string;
+  slug: string;
+  summary: string | null;
+  description: string | null;
+  kind: string;
+  speakers: string | null;
+  organizer: string | null;
+  topic: string | null;
+  format: string;
+  startsAt: string;
+  endsAt: string | null;
+  timezone: string | null;
+  hasTime: boolean;
+  city: string | null;
+  country: string | null;
+  venue: string | null;
+  registrationUrl: string | null;
+  fee: string | null;
+  deadline: string | null;
+  cfpDeadline: string | null;
+  website: string | null;
+  source: { name: string; url: string | null } | null;
+  coverImage: string | null;
+  featured: boolean;
+}
+
 export interface ApiPostDetail extends ApiPostSummary {
   /** Markdown gövde — istemci tarafında render edilir. */
   content: string;
   /** Tahmini okuma süresi (dakika). */
   readingMinutes: number;
   imageCredit: string | null;
+  /** Ana kaynak (geriye dönük uyumluluk için). */
   source: { name: string; url: string | null } | null;
+  /** Tüm kaynak künyesi — birincil kaynak başta. */
+  sources: ApiSource[];
   updatedAt: string;
   authorBio: string | null;
 }
@@ -101,6 +156,19 @@ export function toApiPhilosopherDetail(
     birthYear: philosopher.birthYear,
     website: philosopher.website,
     featured: philosopher.featured,
+    fullName: philosopher.fullName,
+    birthDate: philosopher.birthDate,
+    deathDate: philosopher.deathDate,
+    alive: philosopher.alive,
+    period: philosopher.period,
+    school: philosopher.school,
+    areas: philosopher.areas,
+    majorWorks: philosopher.majorWorks,
+    keyConcepts: philosopher.keyConcepts,
+    influencedBy: philosopher.influencedBy,
+    influenced: philosopher.influenced,
+    longBio: philosopher.longBio,
+    sources: philosopher.sources,
     ...(postCount === undefined ? {} : { postCount }),
   };
 }
@@ -156,6 +224,13 @@ export function toApiPostDetail(post: PostDetail): ApiPostDetail {
     readingMinutes: readingTime(post.content),
     imageCredit: post.imageCredit,
     source: post.sourceName ? { name: post.sourceName, url: post.sourceUrl } : null,
+    sources: post.sources.map((item) => ({
+      title: item.title,
+      publisher: item.publisher,
+      date: item.date,
+      url: item.url,
+      primary: item.primary,
+    })),
     updatedAt: post.updatedAt.toISOString(),
     authorBio: post.author.bio,
   };
@@ -168,5 +243,36 @@ export function toApiCategory(category: CategoryWithCount): ApiCategory {
     slug: category.slug,
     description: category.description,
     postCount: category.postCount,
+  };
+}
+
+
+export function toApiEvent(event: EventItem): ApiEvent {
+  return {
+    id: event.id,
+    title: event.title,
+    slug: event.slug,
+    summary: event.summary,
+    description: event.description,
+    kind: event.kind,
+    speakers: event.speakers,
+    organizer: event.organizer,
+    topic: event.topic,
+    format: event.format,
+    startsAt: event.startsAt.toISOString(),
+    endsAt: event.endsAt ? event.endsAt.toISOString() : null,
+    timezone: event.timezone,
+    hasTime: event.hasTime,
+    city: event.city,
+    country: event.country,
+    venue: event.venue,
+    registrationUrl: event.registrationUrl,
+    fee: event.fee,
+    deadline: event.deadline ? event.deadline.toISOString() : null,
+    cfpDeadline: event.cfpDeadline ? event.cfpDeadline.toISOString() : null,
+    website: event.website,
+    source: event.sourceName ? { name: event.sourceName, url: event.sourceUrl } : null,
+    coverImage: event.coverImage,
+    featured: event.featured,
   };
 }

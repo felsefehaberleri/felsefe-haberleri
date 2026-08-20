@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/article-card";
 import { BookCard } from "@/components/book-card";
 import { Container } from "@/components/container";
+import { EventCard } from "@/components/event-card";
 import { HeadlineSlider } from "@/components/headline-slider";
 import { Pagination } from "@/components/pagination";
 import { PhilosopherAvatar } from "@/components/philosopher-card";
@@ -17,6 +18,7 @@ import {
   getPhilosophers,
   getPosts,
   getTags,
+  getUpcomingEvents,
 } from "@/lib/queries";
 import { formatDate } from "@/lib/utils";
 
@@ -36,13 +38,15 @@ export default async function HomePage({
   const headlines = firstPage ? await getFeaturedPosts(5) : [];
   const headlineSlugs = headlines.map((post) => post.slug);
 
-  const [{ items: posts, pagination }, categories, tags, philosophers, books] = await Promise.all([
-    getPosts({ page: currentPage, limit: 8 }),
-    getCategories(),
-    getTags(14),
-    getPhilosophers({ onlyFeatured: true, take: 5 }),
-    getBooks(3),
-  ]);
+  const [{ items: posts, pagination }, categories, tags, philosophers, books, events] =
+    await Promise.all([
+      getPosts({ page: currentPage, limit: 8 }),
+      getCategories(),
+      getTags(14),
+      getPhilosophers({ onlyFeatured: true, take: 5 }),
+      getBooks(3),
+      getUpcomingEvents(3),
+    ]);
 
   // Manşetteki haberleri listede tekrar göstermeyelim.
   const listed = firstPage ? posts.filter((post) => !headlineSlugs.includes(post.slug)) : posts;
@@ -118,6 +122,18 @@ export default async function HomePage({
             )}
 
             <Pagination pagination={pagination} basePath="/" />
+
+            {/* Yaklaşan konferanslar */}
+            {firstPage && events.length > 0 && (
+              <div className="mt-16">
+                <SectionHeading title="Yaklaşan Konferanslar" href="/konferanslar" />
+                <div className="mt-6 grid gap-4">
+                  {events.map((event) => (
+                    <EventCard key={event.id} event={event} />
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Yeni kitaplar */}
             {firstPage && books.length > 0 && (

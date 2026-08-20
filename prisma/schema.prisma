@@ -82,6 +82,38 @@ model Philosopher {
   website     String?
   /// Ana sayfadaki "Takip Edilen Filozoflar" şeridinde gösterilir.
   featured    Boolean  @default(false)
+
+  /* --- Filozof Dizini alanları (ansiklopedik) ------------------------
+     Tarihler String tutulur: bazı kaynaklarda yalnızca yıl bilinir
+     ("MÖ 470 civarı", "1953"). Listeler satır satır yazılır; böylece
+     veritabanına özgü dizi tipine bağımlı kalınmaz.                   */
+
+  /// Tam adı (varsa göbek adları dâhil).
+  fullName     String?
+  /// "1953", "MÖ 470 civarı" gibi serbest biçim.
+  birthDate    String?
+  /// Yaşayan filozoflarda boş bırakılır.
+  deathDate    String?
+  /// Yaşayan filozofları ayırt etmek için.
+  alive        Boolean @default(true)
+  /// "Çağdaş", "20. yüzyıl", "Antik Yunan" gibi.
+  period       String?
+  /// Felsefe akımı: "Analitik felsefe", "Varoluşçuluk" ...
+  school       String?
+  /// Ana çalışma alanları — virgülle ayrılır.
+  areas        String?
+  /// Önemli eserleri — her satırda bir eser.
+  majorWorks   String?
+  /// Temel kavramları — virgülle ayrılır.
+  keyConcepts  String?
+  /// Etkilendiği filozoflar — virgülle ayrılır.
+  influencedBy String?
+  /// Etkilediği filozoflar — virgülle ayrılır.
+  influenced   String?
+  /// Ayrıntılı biyografi (Markdown).
+  longBio      String?
+  /// Kaynaklar — her satırda "Başlık — URL".
+  sources      String?
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
@@ -139,6 +171,14 @@ model Post {
   sourceName  String?
   /// Kaynağın adresi. Haber sitesinde şeffaflık için zorunlu sayılmalıdır.
   sourceUrl   String?
+  /// SEO başlığı — boşsa `title` kullanılır.
+  seoTitle        String?
+  /// Arama sonuçlarında görünen açıklama — boşsa `summary` kullanılır.
+  metaDescription String?
+  /// İçerik türü: HABER | ANALIZ | PORTRE | KITAP | ROPORTAJ | ETKINLIK | TARIH | KAVRAM
+  /// Haber ile kalıcı (evergreen) içeriği ayırmak için.
+  contentType String @default("HABER")
+
   /// null ise taslaktır; hiçbir genel uçta görünmez.
   publishedAt DateTime?
   createdAt   DateTime  @default(now())
@@ -154,6 +194,7 @@ model Post {
   philosophers Philosopher[] @relation("PostToPhilosopher")
   book         Book?
   comments     Comment[]
+  sources      PostSource[]
 
   @@index([publishedAt])
   @@index([categoryId])
@@ -236,4 +277,87 @@ model Message {
 
   @@index([status, createdAt])
   @@map("messages")
+}
+
+
+/// Haberin dayandığı kaynaklar. Bir haberin birden çok kaynağı olabilir;
+/// aynı olayı farklı yayınlar duyurduğunda hepsi tek haberde listelenir (6. kural).
+model PostSource {
+  id     String @id @default(cuid())
+  postId String
+  post   Post   @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  title     String
+  publisher String?
+  /// Yayın tarihi — serbest biçim ("12 Ağustos 2026").
+  date      String?
+  url       String
+  /// Birincil kaynak mı? Künyede önce gösterilir.
+  primary   Boolean @default(false)
+  order     Int     @default(0)
+
+  createdAt DateTime @default(now())
+
+  @@index([postId])
+  @@map("post_sources")
+}
+
+/// Konferans, sempozyum, seminer, webinar, çalıştay, CFP ...
+/// "Konferanslar" bölümü bu tablo üzerinden bir etkinlik takvimi gibi çalışır.
+model Event {
+  id      String  @id @default(cuid())
+  title   String
+  slug    String  @unique
+  summary String?
+  /// Ayrıntılı açıklama (Markdown).
+  description String?
+
+  /// KONFERANS | KONGRE | SEMPOZYUM | CALISTAY | SEMINER | WEBINAR | PANEL |
+  /// DERS | KOLOKYUM | YAZ_OKULU | KIS_OKULU | CFP
+  kind String @default("KONFERANS")
+
+  /// Konuşmacılar — virgülle ayrılır.
+  speakers  String?
+  /// Düzenleyen kurum.
+  organizer String?
+  /// Konu başlığı / tema.
+  topic     String?
+
+  /// ONLINE | FIZIKSEL | HIBRIT
+  format String @default("FIZIKSEL")
+
+  startsAt DateTime
+  endsAt   DateTime?
+  /// "Europe/Istanbul" gibi; saat bilgisi verildiğinde anlam kazanır.
+  timezone String?
+  /// Saat bilgisi kaynakta yoksa false; arayüzde yalnızca tarih gösterilir.
+  hasTime  Boolean @default(false)
+
+  city    String?
+  country String?
+  venue   String?
+
+  registrationUrl String?
+  /// "Ücretsiz", "50 EUR" gibi serbest biçim.
+  fee             String?
+  /// Kayıt son tarihi.
+  deadline        DateTime?
+  /// Bildiri çağrısı son tarihi.
+  cfpDeadline     DateTime?
+  website         String?
+
+  sourceName String?
+  sourceUrl  String?
+  coverImage String?
+
+  featured    Boolean   @default(false)
+  /// null ise taslak; listelerde görünmez.
+  publishedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([startsAt])
+  @@index([publishedAt])
+  @@map("events")
 }

@@ -3,6 +3,7 @@ import "server-only";
 import { prisma } from "@/lib/prisma";
 import type {
   BookSummary,
+  EventItem,
   CategoryWithCount,
   Paginated,
   PhilosopherDetail,
@@ -154,10 +155,17 @@ export async function getPostBySlug(slug: string): Promise<PostDetail | null> {
     select: {
       ...listSelect,
       content: true,
+      seoTitle: true,
+      metaDescription: true,
+      contentType: true,
       imageCredit: true,
       sourceName: true,
       sourceUrl: true,
       updatedAt: true,
+      sources: {
+        orderBy: [{ primary: "desc" }, { order: "asc" }],
+        select: { id: true, title: true, publisher: true, date: true, url: true, primary: true },
+      },
     },
   });
 }
@@ -242,7 +250,26 @@ export async function getPhilosophers(
 export async function getPhilosopherBySlug(slug: string): Promise<PhilosopherDetail | null> {
   return prisma.philosopher.findUnique({
     where: { slug },
-    select: { ...philosopherSelect, bio: true, birthYear: true, website: true, featured: true },
+    select: {
+      ...philosopherSelect,
+      bio: true,
+      birthYear: true,
+      website: true,
+      featured: true,
+      fullName: true,
+      birthDate: true,
+      deathDate: true,
+      alive: true,
+      period: true,
+      school: true,
+      areas: true,
+      majorWorks: true,
+      keyConcepts: true,
+      influencedBy: true,
+      influenced: true,
+      longBio: true,
+      sources: true,
+    },
   });
 }
 
@@ -264,6 +291,84 @@ export async function getBooks(take?: number): Promise<BookSummary[]> {
     orderBy: [{ year: "desc" }, { createdAt: "desc" }],
     take,
     select: bookSelect,
+  });
+}
+
+/* ------------------------------------------------------------------ */
+/* Etkinlikler (Konferanslar)                                          */
+/* ------------------------------------------------------------------ */
+
+const eventSelect = {
+  id: true,
+  title: true,
+  slug: true,
+  summary: true,
+  description: true,
+  kind: true,
+  speakers: true,
+  organizer: true,
+  topic: true,
+  format: true,
+  startsAt: true,
+  endsAt: true,
+  timezone: true,
+  hasTime: true,
+  city: true,
+  country: true,
+  venue: true,
+  registrationUrl: true,
+  fee: true,
+  deadline: true,
+  cfpDeadline: true,
+  website: true,
+  sourceName: true,
+  sourceUrl: true,
+  coverImage: true,
+  featured: true,
+} as const;
+
+/** Yalnızca yayımlanmış etkinlikler. */
+const publishedEventFilter = () => ({ publishedAt: { not: null, lte: new Date() } });
+
+/**
+ * Yaklaşan etkinlikler — bugünü de kapsar.
+ * Çok günlü etkinliklerde bitiş tarihi geçmediyse etkinlik hâlâ "yaklaşan" sayılır.
+ */
+export async function getUpcomingEvents(take?: number): Promise<EventItem[]> {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+  return prisma.event.findMany({
+    where: {
+      ...publishedEventFilter(),
+      OR: [{ endsAt: { gte: today } }, { endsAt: null, startsAt: { gte: today } }],
+    },
+    orderBy: { startsAt: "asc" },
+    take,
+    select: eventSelect,
+  });
+}
+
+/** Geçmiş etkinlikler — arşiv olarak listelenir, silinmez. */
+export async function getPastEvents(take = 20): Promise<EventItem[]> {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+  return prisma.event.findMany({
+    where: {
+      ...publishedEventFilter(),
+      OR: [{ endsAt: { lt: today } }, { endsAt: null, startsAt: { lt: today } }],
+    },
+    orderBy: { startsAt: "desc" },
+    take,
+    select: eventSelect,
+  });
+}
+
+export async function getEventBySlug(slug: string): Promise<EventItem | null> {
+  return prisma.event.findFirst({
+    where: { slug, ...publishedEventFilter() },
+    select: eventSelect,
   });
 }
 

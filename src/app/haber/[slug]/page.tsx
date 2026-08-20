@@ -24,8 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: "Haber bulunamadı" };
 
   return {
-    title: post.title,
-    description: post.summary,
+    // SEO alanları doldurulmuşsa onlar, değilse başlık ve özet kullanılır.
+    title: post.seoTitle ?? post.title,
+    description: post.metaDescription ?? post.summary,
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -114,7 +115,7 @@ export default async function ArticlePage({ params }: Props) {
       <Container size="reading" className="mt-12">
         <Markdown content={post.content} />
 
-        <SourceNote name={post.sourceName} url={post.sourceUrl} />
+        <SourceNote name={post.sourceName} url={post.sourceUrl} sources={post.sources} />
 
         {post.tags.length > 0 && (
           <div className="mt-10 flex flex-wrap gap-2 border-t border-line pt-8">

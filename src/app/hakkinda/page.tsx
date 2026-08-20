@@ -50,6 +50,7 @@ export default function AboutPage() {
           <li><code>GET /api/categories</code></li>
           <li><code>GET /api/philosophers</code> ve <code>/api/philosophers/[slug]</code></li>
           <li><code>GET /api/books</code></li>
+          <li><code>GET /api/events?scope=upcoming</code></li>
           <li><code>GET /api/tags</code></li>
         </ul>
       </div>

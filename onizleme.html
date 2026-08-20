@@ -35,13 +35,11 @@
 
   /* filozof portre şeridi — tek bant */
   .thinkers{background:#23201c;border-bottom:1px solid var(--line)}
-  .band{position:relative;height:150px;overflow:hidden;display:flex}
-  .band .side{display:flex;flex:1;min-width:0;height:100%}
-  .band .mid{width:13%;flex:none;height:100%}
-  .band img{flex:1;min-width:0;height:100%;object-fit:cover;object-position:top;filter:grayscale(.9) sepia(.25);opacity:.9;transition:filter .5s,opacity .5s}
+  .band{position:relative;height:164px;overflow:hidden;display:flex}
+  .band img{flex:1 1 0;min-width:0;height:100%;object-fit:cover;filter:grayscale(.9) sepia(.25);opacity:.9;transition:filter .5s,opacity .5s}
   .band img:hover{filter:none;opacity:1}
-  .band .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom,rgba(0,0,0,.35),transparent 45%,rgba(0,0,0,.6));mix-blend-mode:multiply}
-  .band .vig{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 120px rgba(0,0,0,.55)}
+  .band .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom,rgba(0,0,0,.25),transparent 45%,rgba(0,0,0,.45));mix-blend-mode:multiply}
+  .band .vig{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 90px rgba(0,0,0,.45)}
 
   /* künye */
   .topbar{border-bottom:1px solid var(--line);background:var(--surface)}
@@ -202,7 +200,7 @@
     .slide{height:420px}.slide h2{font-size:26px}.slide .txt{padding:0 24px 44px}
     .article h1{font-size:26px}.profile{flex-direction:column}
     .contact-grid{grid-template-columns:1fr;gap:28px}
-    .band{height:104px}
+    .band{height:110px}
     .thinkers .row{justify-content:flex-start}
   }
 </style>
@@ -223,10 +221,7 @@
 
 <!-- filozof portre banner'ı: tek şerit -->
 <div class="thinkers">
-  <div class="band">
-    <div class="side" id="bandLeft"></div>
-    <img class="mid" id="bandCenter" alt="">
-    <div class="side" id="bandRight"></div>
+  <div class="band" id="band">
     <div class="fade"></div><div class="vig"></div>
   </div>
 </div>
@@ -715,50 +710,40 @@
       .format(new Date());
 
   // --- filozof portreleri (Wikimedia Commons, kamuya açık) ---
-  // Sıra: sol grup — Nietzsche (tam merkez) — sağ grup
-  var LEFT = [
-    ['Sokrates', 'Socrates_Louvre.jpg'],
-    ['Platon', 'Plato_Silanion_Musei_Capitolini_MC1377.jpg'],
-    ['Aristoteles', 'Aristotle_Altemps_Inv8575.jpg'],
-    ['Descartes', 'Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg'],
-    ['Hume', 'Painting_of_David_Hume.jpg'],
-    ['Spinoza', 'Spinoza.jpg']
+  // 13 portre eşit genişlikte; 7. sıradaki Nietzsche tam merkezde kalır.
+  // Üçüncü değer kırpma odağı: küçüldükçe üst, büyüdükçe alt taraf görünür.
+  var THINKERS = [
+    ['Sokrates', 'Socrates_Louvre.jpg', 'center 38%'],
+    ['Platon', 'Plato_Silanion_Musei_Capitolini_MC1377.jpg', 'center 40%'],
+    ['Aristoteles', 'Aristotle_Altemps_Inv8575.jpg', 'center 32%'],
+    ['Descartes', 'Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg', 'center 30%'],
+    ['Hume', 'Painting_of_David_Hume.jpg', 'center 28%'],
+    ['Spinoza', 'Spinoza.jpg', 'center 32%'],
+    ['Nietzsche', 'Nietzsche187a.jpg', 'center 35%'],
+    ['Kant', 'Immanuel_Kant_(painted_portrait).jpg', 'center 30%'],
+    ['Hegel', 'Hegel_portrait_by_Schlesinger_1831.jpg', 'center 28%'],
+    ['Marx', 'Karl_Marx_001.jpg', 'center 24%'],
+    ['Sartre', 'Jean-Paul_Sartre_FP.JPG', 'center 26%'],
+    ['Simone de Beauvoir', 'Simone_de_Beauvoir_1967_(cropped).jpg', 'center 30%'],
+    ['Hannah Arendt', 'Hannah_Arendt_1975_(cropped).jpg', 'center 30%']
   ];
-  var CENTER = ['Nietzsche', 'Nietzsche187a.jpg'];
-  var RIGHT = [
-    ['Kant', 'Immanuel_Kant_(painted_portrait).jpg'],
-    ['Hegel', 'Hegel_portrait_by_Schlesinger_1831.jpg'],
-    ['Marx', 'Karl_Marx_001.jpg'],
-    ['Sartre', 'Jean-Paul_Sartre_FP.JPG'],
-    ['Hannah Arendt', 'Hannah_Arendt_1958_(cropped).jpg']
-  ];
 
-  function commons(file, width) {
-    return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + file + '?width=' + (width || 400);
-  }
-
-  function fill(container, list) {
-    list.forEach(function (t) {
-      var img = document.createElement('img');
-      img.src = commons(t[1]);
-      img.alt = t[0];
-      img.title = t[0];
-      // Yüklenmezse sessizce koyu doku bırak (isim yazılmaz).
-      img.onerror = function () {
-        var span = document.createElement('span');
-        span.style.cssText = 'flex:1;min-width:0;height:100%;background:radial-gradient(circle at 50% 35%,#3a342e,#1c1917)';
-        container.replaceChild(span, img);
-      };
-      container.appendChild(img);
-    });
-  }
-
-  fill(document.getElementById('bandLeft'), LEFT);
-  fill(document.getElementById('bandRight'), RIGHT);
-  var mid = document.getElementById('bandCenter');
-  mid.src = commons(CENTER[1], 520);
-  mid.alt = CENTER[0];
-  mid.title = CENTER[0];
+  var band = document.getElementById('band');
+  var fade = band.querySelector('.fade');
+  THINKERS.forEach(function (t) {
+    var img = document.createElement('img');
+    img.src = 'https://commons.wikimedia.org/wiki/Special:FilePath/' + t[1] + '?width=500';
+    img.alt = t[0];
+    img.title = t[0];
+    img.style.objectPosition = t[2];
+    // Yüklenemezse ad yazmadan koyu doku bırak; genişlik korunur.
+    img.onerror = function () {
+      var span = document.createElement('span');
+      span.style.cssText = 'flex:1 1 0;min-width:0;height:100%;background:radial-gradient(circle at 50% 35%,#3a342e,#1c1917)';
+      band.replaceChild(span, img);
+    };
+    band.insertBefore(img, fade);
+  });
 
   // --- tema ---
   var html = document.documentElement;
