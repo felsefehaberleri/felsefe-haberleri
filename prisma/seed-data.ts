@@ -23,7 +23,19 @@ export type SeedPhilosopher = {
   birthYear: number | null;
   affiliation: string | null;
   website: string | null;
+  /** Ana sayfadaki "Takipteki Filozoflar" şeridinde gösterilsin mi? */
   featured: boolean;
+  /**
+   * ONAY LİSTESİ — zorunlu alan.
+   *
+   * `true`  → Filozof Dizini'nde ve "Takipteki Filozoflar" şeridinde görünür.
+   * `false` → Hiçbir listede görünmez. Kaydı silinmez, yalnızca gizlenir;
+   *           böylece eski bağlantılar ve haber künyeleri kırılmaz.
+   *
+   * Bu alan isteğe bağlı değildir: her isim için açık bir karar verilmesi
+   * gerekir, "gelişigüzel" isim eklenmesini bu engeller.
+   */
+  listed: boolean;
 
   /* --- Filozof Dizini alanları (hepsi isteğe bağlı) ---
      Emin olunmayan alan boş bırakılır; uydurma bilgi yazılmaz. */
@@ -215,6 +227,17 @@ export const authors: SeedAuthor[] = [
 /* Filozoflar                                                          */
 /* ------------------------------------------------------------------ */
 
+/**
+ * FİLOZOF ONAY LİSTESİ
+ *
+ * Buradaki hiçbir isim "gelişigüzel" eklenmez. Bir filozofun Filozof Dizini'nde
+ * ya da ana sayfadaki "Takipteki Filozoflar" şeridinde görünmesi için
+ * `listed: true` olması gerekir; bu karar yayın sahibine aittir.
+ *
+ * Bir ismi listeden çıkarmak için kaydı SİLİNMEZ, `listed: false` yapılır.
+ * Böylece o filozofa verilmiş eski bağlantılar kırılmaz, haber künyeleri bozulmaz;
+ * isim yalnızca dizinden, şeritten ve site haritasından kalkar.
+ */
 export const philosophers: SeedPhilosopher[] = [
   {
     name: "Michael Sandel",
@@ -227,6 +250,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Harvard Üniversitesi",
     website: "https://scholar.harvard.edu/sandel",
     featured: true,
+    listed: true,
     birthDate: "1953",
     alive: true,
     period: "Çağdaş",
@@ -248,6 +272,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Chicago Üniversitesi Hukuk Fakültesi",
     website: "https://www.law.uchicago.edu/faculty/nussbaum",
     featured: true,
+    listed: true,
     birthDate: "1947",
     alive: true,
     period: "Çağdaş",
@@ -268,6 +293,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Berlin Sanat Üniversitesi (UdK)",
     website: null,
     featured: true,
+    listed: true,
     birthDate: "1959",
     alive: true,
     period: "Çağdaş",
@@ -287,6 +313,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Yale Üniversitesi",
     website: null,
     featured: true,
+    listed: true,
     birthDate: "1964",
     alive: true,
     period: "Çağdaş",
@@ -305,6 +332,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Riverside",
     website: null,
     featured: false,
+    listed: true,
     alive: true,
     period: "Çağdaş",
     areas: "Zihin felsefesi, Bilinç araştırmaları, Ahlak psikolojisi",
@@ -322,6 +350,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Lizbon Üniversitesi",
     website: null,
     featured: false,
+    listed: true,
     alive: true,
     period: "Çağdaş",
     areas: "Zihin felsefesi, Bilinç araştırmaları",
@@ -337,6 +366,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Princeton Üniversitesi",
     website: null,
     featured: false,
+    listed: true,
     birthDate: "1946",
     alive: true,
     period: "Çağdaş",
@@ -357,6 +387,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Berkeley",
     website: null,
     featured: false,
+    listed: true,
     birthDate: "1956",
     alive: true,
     period: "Çağdaş",
@@ -377,6 +408,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Balliol College, Oxford",
     website: null,
     featured: false,
+    listed: true,
     birthDate: "1931",
     deathDate: "3 Ağustos 2026",
     alive: false,
@@ -398,6 +430,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: null,
     website: null,
     featured: false,
+    listed: true,
     fullName: "Friedrich Wilhelm Joseph von Schelling",
     birthDate: "1775",
     deathDate: "20 Ağustos 1854",
@@ -421,6 +454,7 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Irvine",
     website: "https://www.duncanpritchard.org/",
     featured: false,
+    listed: true,
     alive: true,
     period: "Çağdaş",
     school: "Analitik felsefe",
@@ -439,7 +473,11 @@ export const philosophers: SeedPhilosopher[] = [
     birthYear: null,
     affiliation: "Felsefe Sanat Bilim Derneği",
     website: null,
-    featured: true,
+    // Onay listesine alınmadı: dizinde ve "Takipteki Filozoflar" şeridinde
+    // görünmez. Kaydı, Assos sempozyumu haberiyle olan bağı korunsun diye
+    // silinmedi; yalnızca gizlendi.
+    featured: false,
+    listed: false,
     alive: true,
     period: "Çağdaş",
     areas: "Felsefe etkinlikleri, Aydınlanma felsefesi",
@@ -691,7 +729,9 @@ Kitabın künye bilgileri ve baskı ayrıntıları için yayınevinin sayfasına
     authorSlug: "haber-merkezi",
     categorySlug: "konferanslar",
     tagSlugs: ["sempozyum", "akademi"],
-    philosopherSlugs: ["orsan-k-oymen"],
+    // Düzenleyicinin adı haber metninde ve etkinlik künyesinde geçiyor; ancak
+    // onay listesinde olmadığı için filozof etiketi olarak bağlanmıyor.
+    philosopherSlugs: [],
     sources: [
       {
         title: "26 yıllık gelenek: \"Assos'ta Felsefe\" sempozyumu kapılarını açıyor",

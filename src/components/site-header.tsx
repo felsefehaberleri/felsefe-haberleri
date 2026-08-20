@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Container } from "@/components/container";
+import { Logo } from "@/components/logo";
 import { MobileNav } from "@/components/mobile-nav";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { getCategories } from "@/lib/queries";
@@ -36,9 +37,16 @@ export async function SiteHeader() {
         </Container>
       </div>
 
-      {/* Künye */}
-      <Container size="wide" className="py-7 text-center sm:py-9">
-        <Link href="/" className="inline-block">
+      {/* Künye — amblem, ad ve slogan tek eksende ortalanır */}
+      <Container size="wide" className="py-6 text-center sm:py-8">
+        <Link href="/" className="inline-flex flex-col items-center gap-3 sm:gap-4">
+          <Logo
+            variant="owl-mark"
+            className="h-14 w-auto sm:h-20"
+            alt="Felsefe Haberleri amblemi"
+            priority
+            sizes="(min-width: 640px) 80px, 56px"
+          />
           <span className="block font-serif text-3xl leading-none font-black tracking-[0.06em] sm:text-5xl">
             FELSEFE HABERLERİ
           </span>
@@ -52,6 +60,13 @@ export async function SiteHeader() {
       <nav className="sticky top-0 z-40 border-y-2 border-ink bg-paper/95 backdrop-blur">
         <Container size="wide">
           <ul className="scrollbar-none flex items-center gap-6 overflow-x-auto py-2.5">
+            {/* Küçük simge: künye yukarı kaydığında markayı görünür tutar ve ana sayfaya döner. */}
+            <li className="shrink-0 border-r border-line pr-5">
+              <Link href="/" aria-label="Ana sayfa" className="block transition-opacity hover:opacity-70">
+                <Logo variant="mark" className="h-6 w-auto" alt="Felsefe Haberleri" sizes="24px" />
+              </Link>
+            </li>
+
             {categories.map((category) => (
               <li key={category.id}>
                 <Link

@@ -83,9 +83,16 @@ function layout(title: string, body: string, footerNote?: string): string {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding:32px 16px">
     <tr><td align="center">
       <table role="presentation" width="100%" style="max-width:560px;background:#ffffff;border:1px solid #e6e0d6;border-radius:14px;overflow:hidden">
-        <tr><td style="padding:26px 30px;border-bottom:2px solid #23201c">
-          <div style="font-family:Georgia,serif;font-weight:800;letter-spacing:.06em;font-size:19px">FELSEFE HABERLERİ</div>
-          <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#78716a;margin-top:6px">Çağdaş filozoflar &middot; fikirler &middot; kitaplar</div>
+        <tr><td style="padding:24px 30px;border-bottom:2px solid #23201c">
+          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+            <td style="padding-right:14px;vertical-align:middle">
+              <img src="${siteUrl}/logo-mark.png" width="44" height="51" alt="Felsefe Haberleri" style="display:block;border:0">
+            </td>
+            <td style="vertical-align:middle">
+              <div style="font-family:Georgia,serif;font-weight:800;letter-spacing:.06em;font-size:19px">FELSEFE HABERLERİ</div>
+              <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#78716a;margin-top:5px">Çağdaş filozoflar &middot; fikirler &middot; kitaplar</div>
+            </td>
+          </tr></table>
         </td></tr>
         <tr><td style="padding:30px">
           <h1 style="font-family:Georgia,serif;font-size:21px;margin:0 0 16px">${title}</h1>

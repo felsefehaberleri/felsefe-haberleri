@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import { Footer } from "@/components/footer";
 import { SiteHeader } from "@/components/site-header";
@@ -23,6 +23,17 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     siteName: "Felsefe Haberleri",
   },
+  // Paylaşım görseli, sekme ve uygulama simgeleri src/app altındaki dosyalardan
+  // kendiliğinden bağlanır: opengraph-image.png, icon.png, apple-icon.png, favicon.ico
+  twitter: { card: "summary_large_image" },
+};
+
+/** Mobil tarayıcı çubuğunun rengi — logonun laciverti ve kağıt tonu. */
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf7f2" },
+    { media: "(prefers-color-scheme: dark)", color: "#1f4354" },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

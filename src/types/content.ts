@@ -49,6 +49,8 @@ export interface PhilosopherDetail extends PhilosopherSummary {
   birthYear: number | null;
   website: string | null;
   featured: boolean;
+  /** Onay listesinde mi? Listede olmayan filozof dizinde ve şeritte görünmez. */
+  listed: boolean;
 
   fullName: string | null;
   birthDate: string | null;

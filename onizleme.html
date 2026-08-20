@@ -47,7 +47,8 @@
   .topbar p{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
   .toggle{width:34px;height:34px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
   .toggle:hover{border-color:var(--accent);color:var(--accent)}
-  .masthead{text-align:center;padding:34px 24px}
+  .masthead{text-align:center;padding:28px 24px}
+  .masthead .emblem{display:block;margin:0 auto 14px;height:80px;width:auto}
   .masthead .name{font-family:Merriweather,serif;font-weight:900;font-size:52px;letter-spacing:.06em;line-height:1}
   .masthead .tag{margin-top:12px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
   nav.sections{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--paper) 95%,transparent);backdrop-filter:blur(8px)}
@@ -155,6 +156,7 @@
   footer.site{margin-top:64px;border-top:2px solid var(--ink);background:var(--surface)}
   footer.site .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding:48px 0}
   footer.site .logo{font-family:Merriweather,serif;font-weight:900;font-size:18px;letter-spacing:.04em}
+  footer.site .logo-img{display:block;height:96px;width:auto}
   footer.site .desc{margin-top:12px;font-size:14px;color:var(--muted);max-width:30em}
   footer.site h4{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
   footer.site ul{list-style:none;margin-top:14px}
@@ -239,6 +241,7 @@
 </div>
 
 <div class="masthead">
+  <img class="emblem" src="public/logo-owl-mark.png" alt="Felsefe Haberleri amblemi">
   <div class="name serif">FELSEFE HABERLERİ</div>
   <div class="tag">Çağdaş filozoflar · fikirler · kitaplar</div>
 </div>
@@ -398,7 +401,6 @@
               <span class="cat">Konferanslar</span>
               <h3>"Assos'ta Felsefe" 26. kez toplandı</h3>
               <p>Sempozyum 6-7 Şubat 2026'da "Felsefe, Sanat, Bilim ve Siyaset" başlığıyla yapıldı; katılım ücretsizdi.</p>
-              <div class="who">Örsan K. Öymen</div>
               <div class="by">Haber Merkezi · 2 Ağustos 2026</div>
             </div>
           </article>
@@ -451,7 +453,7 @@
             <li><a href="#"><span class="avatar">LF</span><span><b>Luciano Floridi</b><small>1 haber · İtalya / ABD</small></span></a></li>
             <li><a href="#"><span class="avatar">MN</span><span><b>Martha Nussbaum</b><small>2 haber · ABD</small></span></a></li>
             <li><a href="#"><span class="avatar">MS</span><span><b>Michael Sandel</b><small>1 haber · ABD</small></span></a></li>
-            <li><a href="#"><span class="avatar">ÖÖ</span><span><b>Örsan K. Öymen</b><small>1 haber · Türkiye</small></span></a></li>
+            <li><a href="#"><span class="avatar">PS</span><span><b>Peter Singer</b><small>1 haber · Avustralya</small></span></a></li>
           </ul>
         </div>
 
@@ -685,7 +687,7 @@
 <footer class="site">
   <div class="wrap cols">
     <div>
-      <p class="logo">FELSEFE HABERLERİ</p>
+      <img class="logo-img" src="public/logo-eagle.png" alt="Felsefe Haberleri">
       <p class="desc">Çağdaş filozofların konuşmaları, açıklamaları, fikirleri ve yeni kitapları. Her haberin kaynağı künyesinde belirtilir.</p>
       <h4 style="margin-top:20px">İletişim</h4>
       <p style="margin-top:8px"><a href="mailto:info@felsefehaberleri.com" style="color:var(--accent);font-size:14px">info@felsefehaberleri.com</a></p>

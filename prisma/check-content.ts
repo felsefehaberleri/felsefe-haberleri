@@ -12,6 +12,7 @@
  *   3. Slug'lar benzersiz mi?
  *   4. Kaynak adresleri geçerli mi?
  *   5. Yaşayan filozoflara ölüm tarihi yazılmış mı? (33. kural)
+ *   6. Onay listesinde olmayan bir filozof dizine ya da habere bağlanmış mı?
  *
  * Hata bulursa çıkış kodu 1 döner; böylece derleme zincirinde de kullanılabilir.
  */
@@ -131,6 +132,11 @@ checkUnique("Etkinlik", events.map((item) => item.slug));
 checkUnique("Filozof", philosophers.map((item) => item.slug));
 checkUnique("Kitap", books.map((item) => item.slug));
 
+/** Onay listesindeki (dizinde görünen) filozoflar. */
+const listedPhilosophers = new Set(
+  philosophers.filter((philosopher) => philosopher.listed).map((philosopher) => philosopher.slug),
+);
+
 for (const post of posts as SeedPost[]) {
   if (!categorySlugs.has(post.categorySlug)) {
     problems.push(`Haber '${post.slug}': '${post.categorySlug}' bölümü tanımlı değil.`);
@@ -144,6 +150,10 @@ for (const post of posts as SeedPost[]) {
   post.philosopherSlugs.forEach((slug) => {
     if (!philosopherSlugs.has(slug)) {
       problems.push(`Haber '${post.slug}': '${slug}' filozofu tanımlı değil.`);
+    } else if (!listedPhilosophers.has(slug)) {
+      problems.push(
+        `Haber '${post.slug}': '${slug}' onay listesinde değil, filozof etiketi olarak bağlanamaz.`,
+      );
     }
   });
   (post.sources ?? []).forEach((source) => {
@@ -165,10 +175,16 @@ books.forEach((book) => {
   }
 });
 
-// 33. kural: yaşayan filozofa ölüm tarihi yazılmaz.
 philosophers.forEach((philosopher) => {
+  // 33. kural: yaşayan filozofa ölüm tarihi yazılmaz.
   if (philosopher.alive !== false && philosopher.deathDate) {
     problems.push(`Filozof '${philosopher.slug}': yaşayan olarak işaretli ama ölüm tarihi var.`);
+  }
+  // Onay listesi: dizinde olmayan bir isim ana sayfada öne çıkarılamaz.
+  if (philosopher.featured && !philosopher.listed) {
+    problems.push(
+      `Filozof '${philosopher.slug}': onay listesinde değil (listed: false) ama öne çıkarılmış (featured: true).`,
+    );
   }
 });
 

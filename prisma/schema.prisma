@@ -80,8 +80,13 @@ model Philosopher {
   affiliation String?
   /// Kişisel ya da kurumsal sayfa.
   website     String?
-  /// Ana sayfadaki "Takip Edilen Filozoflar" şeridinde gösterilir.
+  /// Ana sayfadaki "Takipteki Filozoflar" şeridinde gösterilir.
   featured    Boolean  @default(false)
+  /// ONAY LİSTESİ. Filozof Dizini'nde ve "Takipteki Filozoflar" şeridinde
+  /// yalnızca `listed = true` olan isimler görünür. Varsayılan `false`'tur:
+  /// hiçbir isim, açıkça onaylanmadan dizine giremez (bkz. EDITORYAL.md).
+  /// Listeden çıkarılan filozofun kaydı silinmez; yalnızca gizlenir.
+  listed      Boolean  @default(false)
 
   /* --- Filozof Dizini alanları (ansiklopedik) ------------------------
      Tarihler String tutulur: bazı kaynaklarda yalnızca yıl bilinir

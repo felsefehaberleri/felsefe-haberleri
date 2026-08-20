@@ -21,6 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: philosopher.name,
     description: philosopher.headline ?? philosopher.bio ?? undefined,
+    // Onay listesinde olmayan filozofun sayfası çalışmaya devam eder (eski
+    // bağlantılar kırılmasın diye) ama arama motorlarına bildirilmez.
+    robots: philosopher.listed ? undefined : { index: false, follow: true },
   };
 }
 

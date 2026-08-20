@@ -169,10 +169,49 @@ klasik tipografi, siyah/beyaz/kremsi palet, akademik görünüm, mevcut navigasy
 Eski içerik sırf eski olduğu için silinmez; yanlış veya tekrar eden içerik önce düzeltilir,
 birleştirilir ya da güncellenir.
 
-## 18. İlkeler
+## 18. Filozof onay listesi
+
+**61.** Filozof Dizini ve ana sayfadaki "Takipteki Filozoflar" şeridi serbest liste
+değildir. Bir isim, yayın sahibinin onayı olmadan bu listelere **eklenmez**. Haberde adı
+geçen her düşünür otomatik olarak dizine girmez.
+
+**62.** Onay, `prisma/seed-data.ts` içindeki filozof kaydında `listed: true` ile verilir.
+Bu alan zorunludur; her isim için açık bir karar gerektirir. `listed: false` olan filozof
+hiçbir listede, şeritte ve site haritasında görünmez.
+
+**63.** Listeden çıkarılan filozofun kaydı **silinmez**, yalnızca `listed: false` yapılır.
+Böylece eski bağlantılar kırılmaz, geçmiş haberlerin künyesi bozulmaz (bkz. 17. bölüm).
+Sayfası çalışmaya devam eder ama arama motorlarına bildirilmez.
+
+**64.** Onay listesinde olmayan bir isim, haberlerin `philosopherSlugs` alanına da
+bağlanamaz. Kişinin adı haber metninde ve etkinlik künyesinde elbette geçebilir —
+bu, haberin kendisidir; ancak filozof etiketi olarak işlenmez.
+`npm run content:check` bu kuralı otomatik denetler.
+
+**65.** Yeni listeler yayın sahibinden gelir. Liste verilene kadar mevcut onaylı isimlere
+dokunulmaz, kendiliğinden yeni isim eklenmez.
+
+## 19. Logo ve marka kullanımı
+
+**66.** Sitenin iki logosu vardır:
+
+| Logo | Dosya | Kullanım yeri |
+| --- | --- | --- |
+| **Baykuş** (ana logo) | `public/logo-owl*.png` | Üst künye (masthead) |
+| **Kartal ve yılan** (küçük simge) | `public/logo-mark*.png`, `logo-eagle*.png` | Sekme ikonu (favicon), yapışkan menü çubuğu, mobil menü, alt bilgi, e-postalar, paylaşım görseli |
+
+**67.** Her logonun iki renk sürümü vardır: açık zemin için lacivert (`logo-….png`),
+koyu zemin için krem (`logo-…-dark.png`). Doğru sürüm `Logo` bileşeni tarafından CSS ile
+seçilir; elle `<img>` yazılmaz.
+
+**68.** Logolar gerilmez, döndürülmez, rengi değiştirilmez; oranı korunur
+(`w-auto` ile yalnızca yükseklik verilir). Küçültme ikonu her zaman kartal-yılan
+amblemidir.
+
+## 20. İlkeler
 
 DOĞRULUK > HIZ · KALİTE > MİKTAR · KAYNAK > TAHMİN · ÖZGÜN ANLATIM > KOPYALAMA ·
-HABER DEĞERİ > İÇERİK SAYISI
+HABER DEĞERİ > İÇERİK SAYISI · ONAYLI LİSTE > GELİŞİGÜZEL EKLEME
 
 ---
 
@@ -194,3 +233,7 @@ Her haber kaydında kullanılabilir alanlar: `title`, `slug`, `summary`, `conten
 `seoTitle`, `metaDescription`, `contentType`, `coverImage`, `imageCredit`, `featured`,
 `sourceName`, `sourceUrl`, `publishedAt`, `authorSlug`, `categorySlug`, `tagSlugs`,
 `philosopherSlugs`.
+
+Yayına almadan önce `npm run content:check` çalıştırılır: tohum verisi ile veritabanı
+şeması arasındaki uyuşmazlıkları, kırık bağlantıları, tekrar eden slug'ları ve onay
+listesi ihlallerini derleme durmadan önce yakalar.

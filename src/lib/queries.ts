@@ -235,7 +235,8 @@ export async function getPhilosophers(
   options: { onlyFeatured?: boolean; take?: number } = {},
 ): Promise<PhilosopherWithCount[]> {
   const rows = await prisma.philosopher.findMany({
-    where: options.onlyFeatured ? { featured: true } : undefined,
+    // Onay listesi: yalnızca `listed = true` olan isimler dizine ve şeride girer.
+    where: { listed: true, ...(options.onlyFeatured ? { featured: true } : {}) },
     orderBy: { name: "asc" },
     take: options.take,
     select: {
@@ -256,6 +257,7 @@ export async function getPhilosopherBySlug(slug: string): Promise<PhilosopherDet
       birthYear: true,
       website: true,
       featured: true,
+      listed: true,
       fullName: true,
       birthDate: true,
       deathDate: true,
@@ -383,6 +385,7 @@ export async function getAllPostSlugs(): Promise<string[]> {
 }
 
 export async function getAllPhilosopherSlugs(): Promise<string[]> {
-  const rows = await prisma.philosopher.findMany({ select: { slug: true } });
+  // Site haritasına yalnızca onaylı filozoflar girer.
+  const rows = await prisma.philosopher.findMany({ where: { listed: true }, select: { slug: true } });
   return rows.map((row) => row.slug);
 }

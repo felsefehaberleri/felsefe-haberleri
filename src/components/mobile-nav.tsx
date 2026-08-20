@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { Logo } from "@/components/logo";
 import type { CategoryWithCount } from "@/types/content";
 
 /** Küçük ekranlarda bölümleri açan yan çekmece (drawer). */
@@ -38,8 +39,17 @@ export function MobileNav({ categories }: { categories: CategoryWithCount[] }) {
             className="absolute inset-0 bg-black/40 backdrop-blur-sm"
           />
           <nav className="absolute top-0 right-0 flex h-full w-72 flex-col gap-1 overflow-y-auto border-l border-line bg-surface p-6">
-            <div className="mb-4 flex items-center justify-between">
-              <span className="font-serif text-lg font-bold">Bölümler</span>
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <Link
+                href="/"
+                onClick={() => setOpen(false)}
+                className="flex min-w-0 items-center gap-2.5"
+              >
+                <Logo variant="mark" className="h-8 w-auto shrink-0" sizes="32px" />
+                <span className="truncate font-serif text-base leading-tight font-bold">
+                  Felsefe Haberleri
+                </span>
+              </Link>
               <button
                 type="button"
                 aria-label="Menüyü kapat"

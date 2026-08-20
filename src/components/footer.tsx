@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Container } from "@/components/container";
+import { Logo } from "@/components/logo";
 import { SubscribeForm } from "@/components/subscribe-form";
 import { getCategories } from "@/lib/queries";
 
@@ -14,8 +15,16 @@ export async function Footer() {
     <footer className="mt-24 border-t border-line bg-surface">
       <Container size="wide" className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
-          <p className="font-serif text-lg font-bold">Felsefe Haberleri</p>
-          <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
+          {/* İkincil logo (kartal ve yılan) tam kilit hâliyle alt bilgide durur. */}
+          <Link href="/" className="inline-block">
+            <Logo
+              variant="eagle"
+              className="h-24 w-auto"
+              alt="Felsefe Haberleri"
+              sizes="96px"
+            />
+          </Link>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
             Çağdaş filozofların konuşmaları, açıklamaları, fikirleri ve yeni kitapları.
             Her haberin kaynağı künyesinde belirtilir.
           </p>
