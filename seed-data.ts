@@ -24,6 +24,75 @@ export type SeedPhilosopher = {
   affiliation: string | null;
   website: string | null;
   featured: boolean;
+
+  /* --- Filozof Dizini alanları (hepsi isteğe bağlı) ---
+     Emin olunmayan alan boş bırakılır; uydurma bilgi yazılmaz. */
+  fullName?: string;
+  /** "1953", "MÖ 470 civarı" gibi serbest biçim. */
+  birthDate?: string;
+  /** Yaşayan filozoflarda yazılmaz. */
+  deathDate?: string;
+  /** Varsayılan true; vefat etmiş filozoflarda false. */
+  alive?: boolean;
+  period?: string;
+  school?: string;
+  /** Virgülle ayrılmış çalışma alanları. */
+  areas?: string;
+  /** Her satırda bir eser. */
+  majorWorks?: string;
+  /** Virgülle ayrılmış temel kavramlar. */
+  keyConcepts?: string;
+  influencedBy?: string;
+  influenced?: string;
+  /** Ayrıntılı biyografi (Markdown). */
+  longBio?: string;
+  /** Her satırda "Başlık — URL". */
+  sources?: string;
+};
+
+/** Haberin dayandığı kaynaklardan biri (6. ve 26. kural). */
+export type SeedSource = {
+  title: string;
+  publisher?: string;
+  /** Serbest biçim: "12 Ağustos 2026". */
+  date?: string;
+  url: string;
+  /** Birincil kaynak künyede önce gösterilir. */
+  primary?: boolean;
+};
+
+/** Konferans, sempozyum, seminer, webinar, çalıştay ya da bildiri çağrısı. */
+export type SeedEvent = {
+  title: string;
+  slug: string;
+  summary?: string;
+  /** Markdown. */
+  description?: string;
+  /** KONFERANS | KONGRE | SEMPOZYUM | CALISTAY | SEMINER | WEBINAR | PANEL | DERS | KOLOKYUM | YAZ_OKULU | KIS_OKULU | CFP */
+  kind?: string;
+  speakers?: string;
+  organizer?: string;
+  topic?: string;
+  /** ONLINE | FIZIKSEL | HIBRIT */
+  format?: string;
+  /** ISO 8601. Saat bilgisi yoksa gün başlangıcı yazılır ve hasTime false bırakılır. */
+  startsAt: string;
+  endsAt?: string;
+  timezone?: string;
+  hasTime?: boolean;
+  city?: string;
+  country?: string;
+  venue?: string;
+  registrationUrl?: string;
+  fee?: string;
+  deadline?: string;
+  cfpDeadline?: string;
+  website?: string;
+  sourceName?: string;
+  sourceUrl?: string;
+  coverImage?: string;
+  featured?: boolean;
+  publishedAt?: string | null;
 };
 
 export type SeedBook = {
@@ -65,6 +134,8 @@ export type SeedPost = {
   categorySlug: string;
   tagSlugs: string[];
   philosopherSlugs: string[];
+  /** Ek kaynaklar. `sourceName`/`sourceUrl` ana kaynaktır; burada tümü listelenir. */
+  sources?: SeedSource[];
 };
 
 /* ------------------------------------------------------------------ */
@@ -107,6 +178,12 @@ export const tags: SeedTag[] = [
   { name: "Kant", slug: "kant" },
   { name: "Nietzsche", slug: "nietzsche" },
   { name: "Platon", slug: "platon" },
+  { name: "Sinema", slug: "sinema" },
+  { name: "Epistemoloji", slug: "epistemoloji" },
+  { name: "Alman İdealizmi", slug: "alman-idealizmi" },
+  { name: "Açık Erişim", slug: "acik-erisim" },
+  { name: "Risk", slug: "risk" },
+  { name: "Ortaçağ Felsefesi", slug: "ortacag-felsefesi" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -150,6 +227,15 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Harvard Üniversitesi",
     website: "https://scholar.harvard.edu/sandel",
     featured: true,
+    birthDate: "1953",
+    alive: true,
+    period: "Çağdaş",
+    school: "Komüniteryanizm",
+    areas: "Siyaset felsefesi, Ahlak felsefesi, Hukuk felsefesi",
+    majorWorks: "Liberalism and the Limits of Justice (1982)\nJustice: What's the Right Thing to Do? (2009)\nWhat Money Can't Buy (2012)\nThe Tyranny of Merit (2020)",
+    keyConcepts: "Adalet, Liyakat tiranlığı, Piyasaların ahlaki sınırları, Ortak iyi",
+    influencedBy: "Aristoteles, Hegel, John Rawls (eleştirel)",
+    sources: "Harvard Üniversitesi profil sayfası — https://scholar.harvard.edu/sandel",
   },
   {
     name: "Martha Nussbaum",
@@ -162,6 +248,14 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Chicago Üniversitesi Hukuk Fakültesi",
     website: "https://www.law.uchicago.edu/faculty/nussbaum",
     featured: true,
+    birthDate: "1947",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Etik, Siyaset felsefesi, Antik Yunan felsefesi, Hukuk felsefesi, Duygular kuramı",
+    majorWorks: "The Fragility of Goodness (1986)\nUpheavals of Thought (2001)\nCreating Capabilities (2011)\nThe Republic of Love: Opera and Political Freedom (2026)",
+    keyConcepts: "Yetenekler yaklaşımı, Duyguların bilişsel kuramı, İnsani gelişme",
+    influencedBy: "Aristoteles, Stoacılar, John Stuart Mill, Amartya Sen",
+    sources: "Chicago Üniversitesi profil sayfası — https://www.law.uchicago.edu/faculty/nussbaum",
   },
   {
     name: "Byung-Chul Han",
@@ -174,6 +268,13 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Berlin Sanat Üniversitesi (UdK)",
     website: null,
     featured: true,
+    birthDate: "1959",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Kültür kuramı, Medya felsefesi, Toplum felsefesi",
+    majorWorks: "Yorgunluk Toplumu (2010)\nŞeffaflık Toplumu (2012)\nPsikopolitika (2014)\nAnlatının Krizi (2023)",
+    keyConcepts: "Performans toplumu, Şeffaflık toplumu, Psikopolitika, Anlatı kaybı",
+    influencedBy: "Martin Heidegger, Michel Foucault, Walter Benjamin",
   },
   {
     name: "Luciano Floridi",
@@ -186,6 +287,12 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Yale Üniversitesi",
     website: null,
     featured: true,
+    birthDate: "1964",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Bilgi felsefesi, Dijital etik, Yapay zekâ etiği, Teknoloji felsefesi",
+    majorWorks: "The Philosophy of Information (2011)\nThe Ethics of Information (2013)\nThe Fourth Revolution (2014)",
+    keyConcepts: "İnfosfer, Bilgi felsefesi, Dijital etik, Dördüncü devrim",
   },
   {
     name: "Eric Schwitzgebel",
@@ -198,6 +305,11 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Riverside",
     website: null,
     featured: false,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Zihin felsefesi, Bilinç araştırmaları, Ahlak psikolojisi",
+    majorWorks: "Perplexities of Consciousness (2011)\nA Theory of Jerks and Other Philosophical Misadventures (2019)",
+    keyConcepts: "Zemin esnekliği, İçgözlemin güvenilmezliği",
   },
   {
     name: "Jeremy Pober",
@@ -210,6 +322,9 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Lizbon Üniversitesi",
     website: null,
     featured: false,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Zihin felsefesi, Bilinç araştırmaları",
   },
   {
     name: "Peter Singer",
@@ -222,6 +337,14 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Princeton Üniversitesi",
     website: null,
     featured: false,
+    birthDate: "1946",
+    alive: true,
+    period: "Çağdaş",
+    school: "Faydacılık",
+    areas: "Uygulamalı etik, Hayvan etiği, Biyoetik, Küresel yoksulluk",
+    majorWorks: "Animal Liberation (1975)\nPractical Ethics (1979)\nThe Life You Can Save (2009)",
+    keyConcepts: "Türcülük, Etkili özgecilik, Çıkarların eşit değerlendirilmesi",
+    influencedBy: "Jeremy Bentham, John Stuart Mill, R. M. Hare",
   },
   {
     name: "Judith Butler",
@@ -234,6 +357,77 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "California Üniversitesi, Berkeley",
     website: null,
     featured: false,
+    birthDate: "1956",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi, Post-yapısalcılık",
+    areas: "Siyaset felsefesi, Dil felsefesi, Toplumsal cinsiyet kuramı, Etik",
+    majorWorks: "Gender Trouble (1990)\nBodies That Matter (1993)\nPrecarious Life (2004)\nWho's Afraid of Gender (2024)",
+    keyConcepts: "Performatiflik, Kırılganlık, Tanınma, Yas",
+    influencedBy: "G. W. F. Hegel, Michel Foucault, Jacques Derrida, J. L. Austin",
+  },
+  {
+    name: "Anthony Kenny",
+    slug: "anthony-kenny",
+    headline: "Felsefe tarihçisi ve zihin felsefecisi — Oxford Üniversitesi",
+    bio: "Ortaçağ felsefesi, Aquinas ve Wittgenstein üzerine çalışmalarıyla tanınan İngiliz filozof. Dört ciltlik 'A New History of Western Philosophy' onun en kapsamlı eseridir. 1978-1989 arasında Balliol College'ın başkanlığını yaptı.",
+    avatar: null,
+    country: "Birleşik Krallık",
+    birthYear: 1931,
+    affiliation: "Balliol College, Oxford",
+    website: null,
+    featured: false,
+    birthDate: "1931",
+    deathDate: "3 Ağustos 2026",
+    alive: false,
+    period: "20.-21. yüzyıl",
+    school: "Analitik felsefe",
+    areas: "Zihin felsefesi, Felsefe tarihi, Ortaçağ felsefesi, Din felsefesi",
+    majorWorks: "A New History of Western Philosophy (4 cilt)\nAquinas üzerine incelemeler\nWittgenstein üzerine incelemeler",
+    keyConcepts: "Felsefe tarihi yazımı, Eylem felsefesi",
+    sources: "Sir Anthony Kenny 1931-2026 — https://www.balliol.ox.ac.uk/news/2026/august/sir-anthony-kenny-1931-2026",
+  },
+  {
+    name: "Friedrich Wilhelm Joseph Schelling",
+    slug: "schelling",
+    headline: "Alman idealizminin üç büyük isminden biri",
+    bio: "Fichte ve Hegel'le birlikte Alman idealizminin en etkili üç düşünüründen biri. Doğa felsefesi, özdeşlik felsefesi ve geç dönem 'olumlu felsefe' çalışmalarıyla tanınır.",
+    avatar: null,
+    country: "Almanya",
+    birthYear: 1775,
+    affiliation: null,
+    website: null,
+    featured: false,
+    fullName: "Friedrich Wilhelm Joseph von Schelling",
+    birthDate: "1775",
+    deathDate: "20 Ağustos 1854",
+    alive: false,
+    period: "Alman idealizmi (18.-19. yüzyıl)",
+    school: "Alman idealizmi",
+    areas: "Doğa felsefesi, Metafizik, Sanat felsefesi, Din felsefesi",
+    keyConcepts: "Doğa felsefesi, Özdeşlik felsefesi, Olumlu felsefe, Özgürlük ve kötülük",
+    influencedBy: "Immanuel Kant, J. G. Fichte, Spinoza",
+    influenced: "G. W. F. Hegel, Søren Kierkegaard, Martin Heidegger",
+    sources: "Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/schelling/",
+  },
+  {
+    name: "Duncan Pritchard",
+    slug: "duncan-pritchard",
+    headline: "Bilgi felsefecisi — California Üniversitesi, Irvine",
+    bio: "Epistemoloji, şüphecilik ve epistemik şans üzerine çalışıyor. 2026'da Princeton University Press'ten çıkan kitabında riski olasılık yerine kırılganlık üzerinden açıklayan bir kuram öneriyor.",
+    avatar: null,
+    country: "Birleşik Krallık / ABD",
+    birthYear: null,
+    affiliation: "California Üniversitesi, Irvine",
+    website: "https://www.duncanpritchard.org/",
+    featured: false,
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe",
+    areas: "Epistemoloji, Erdem epistemolojisi, Şüphecilik, Risk kuramı",
+    majorWorks: "Epistemic Luck (2005)\nEpistemological Disjunctivism (2012)\nTempting Fate: A Philosophical Guide to Risk, Luck, and a Meaningful Life (2026)",
+    keyConcepts: "Epistemik şans, Kırılganlık kuramı, Epistemolojik ayrıklık",
+    sources: "Kişisel sayfa — https://www.duncanpritchard.org/",
   },
   {
     name: "Örsan K. Öymen",
@@ -246,8 +440,12 @@ export const philosophers: SeedPhilosopher[] = [
     affiliation: "Felsefe Sanat Bilim Derneği",
     website: null,
     featured: true,
+    alive: true,
+    period: "Çağdaş",
+    areas: "Felsefe etkinlikleri, Aydınlanma felsefesi",
   },
 ];
+
 
 /* ------------------------------------------------------------------ */
 /* Haberler                                                            */
@@ -494,6 +692,19 @@ Kitabın künye bilgileri ve baskı ayrıntıları için yayınevinin sayfasına
     categorySlug: "konferanslar",
     tagSlugs: ["sempozyum", "akademi"],
     philosopherSlugs: ["orsan-k-oymen"],
+    sources: [
+      {
+        title: "26 yıllık gelenek: \"Assos'ta Felsefe\" sempozyumu kapılarını açıyor",
+        publisher: "Cumhuriyet",
+        url: "https://www.cumhuriyet.com.tr/kultur-sanat/26-yillik-gelenek-assos-ta-felsefe-sempozyumu-kapilarini-aciyor-2471919",
+        primary: true,
+      },
+      {
+        title: "\"Assos'ta Felsefe\" sempozyumu kapılarını açıyor",
+        publisher: "Serbestiyet",
+        url: "https://serbestiyet.com/haberler/kultur-sanat/assosta-felsefe-sempozyumu-kapilarini-aciyor-231138/",
+      },
+    ],
     content: `Aristoteles'in bir dönem ders verdiği Assos'ta 26 yıldır sürdürülen "Assos'ta Felsefe" sempozyumu, 6-7 Şubat 2026 tarihlerinde toplandı.
 
 ## Bu yılın başlığı
@@ -758,6 +969,333 @@ Ekran, algoritma ve enformasyon tartışmalarında mağara benzetmesine sık ba�
 
 Alegorinin kendi içindeki en ilginç ayrıntı da burada: dışarı çıkan kişi geri döndüğünde ikna edemez. Platon, hakikate ulaşmanın onu paylaşmayı kolaylaştırmadığını baştan söyler.`,
   },
+  {
+    title: "Anthony Kenny (1931-2026): Batı felsefesinin tarihini yeniden yazan filozof",
+    slug: "anthony-kenny-1931-2026",
+    summary:
+      "Ortaçağ felsefesi, Aquinas ve Wittgenstein üzerine çalışmalarıyla tanınan İngiliz filozof Sir Anthony Kenny 3 Ağustos'ta 95 yaşında öldü. Balliol College başkanlığı da yapan Kenny, dört ciltlik felsefe tarihiyle tanınıyordu.",
+    seoTitle: "Anthony Kenny kimdir? (1931-2026) — Oxford'lu filozofun mirası",
+    metaDescription:
+      "Sir Anthony Kenny 3 Ağustos 2026'da 95 yaşında öldü. Aquinas ve Wittgenstein çalışmaları, dört ciltlik Batı felsefesi tarihi ve Balliol College yılları.",
+    contentType: "PORTRE",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    sourceName: "Balliol College, Oxford",
+    sourceUrl: "https://www.balliol.ox.ac.uk/news/2026/august/sir-anthony-kenny-1931-2026",
+    publishedAt: "2026-08-20T07:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["vefat", "akademi", "ortacag-felsefesi"],
+    philosopherSlugs: ["anthony-kenny"],
+    sources: [
+      {
+        title: "Sir Anthony Kenny 1931-2026",
+        publisher: "Balliol College, Oxford",
+        url: "https://www.balliol.ox.ac.uk/news/2026/august/sir-anthony-kenny-1931-2026",
+        primary: true,
+      },
+      {
+        title: "Anthony Kenny (1931-2026)",
+        publisher: "Daily Nous",
+        date: "6 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/06/anthony-kenny-1931-2026/",
+      },
+      {
+        title: "In Memoriam: Anthony Kenny (1931-2026)",
+        publisher: "Leiter Reports",
+        date: "6 Ağustos 2026",
+        url: "https://leiterreports.com/2026/08/06/in-memoriam-anthony-kenny-1931-2026/",
+      },
+    ],
+    content: `Britanya felsefesinin son yarım yüzyıldaki en üretken isimlerinden biri olan **Sir Anthony Kenny**, 3 Ağustos 2026'da 95 yaşında hayatını kaybetti.
+
+## Balliol yılları
+
+Kenny, 1964-1978 arasında Oxford'daki Balliol College'da felsefe öğretim üyesiydi; 1978'den 1989'a kadar da aynı kolejin başkanlığını (Master) yürüttü. Akademik kariyerinin tamamını Oxford'da geçirdi ve üniversitenin yönetiminde uzun yıllar görev aldı.
+
+## Neyle tanınıyordu?
+
+Kenny'nin ilgi alanı alışılmadık ölçüde genişti: felsefe, teoloji, klasik düşünce ve fikirler tarihi. Özellikle iki isim üzerine yaptığı çalışmalar alanın standart referansları arasına girdi:
+
+- **Thomas Aquinas** — ortaçağ felsefesini analitik felsefenin araçlarıyla okuyan yorumları
+- **Ludwig Wittgenstein** — dil ve zihin üzerine geç dönem düşüncesinin açıklamaları
+
+Zihin felsefesi ve eylem kuramı üzerine yazdıkları da uzun süre tartışıldı.
+
+## Dört ciltlik tarih
+
+En iddialı işi **A New History of Western Philosophy** oldu. Dört cilt hâlinde yayımlanan ve sonradan tek ciltte toplanan bu çalışma, Batı felsefesini antik Yunan'dan ortaçağa, oradan erken modern ve modern döneme kadar izliyordu.
+
+Felsefe tarihini tek bir yazarın kaleminden, tutarlı bir üslupla anlatma girişimi bugün nadir görülen bir iş; Kenny'nin metni bu yüzden hem giriş düzeyindeki okur hem de uzman için başvuru kaynağı olarak kullanılmaya devam ediyor.
+
+## Ardında bıraktığı
+
+Balliol College'ın duyurusu, Kenny'nin "uzun kariyerinin felsefeyi, teolojiyi, klasik düşünceyi ve fikirler tarihini kapsadığını" belirtiyor. Ölüm haberi Daily Nous ve Leiter Reports gibi alanın önde gelen yayınlarında da duyuruldu.`,
+  },
+  {
+    title: "Paul Schrader'ın yeni filminin kahramanı bir felsefe profesörü",
+    slug: "paul-schrader-the-basics-of-philosophy-venedik",
+    summary:
+      "Taxi Driver'ın senaristi Paul Schrader'ın yönettiği 'The Basics of Philosophy', 4 Eylül'de Venedik Film Festivali'nde yarışma dışı gösterilecek. Filmin merkezinde geçmişteki bir kararın suçluluğuyla yaşayan bir felsefe profesörü var.",
+    seoTitle: "Paul Schrader'ın felsefe filmi Venedik'te: The Basics of Philosophy",
+    metaDescription:
+      "Paul Schrader'ın yeni filmi 'The Basics of Philosophy' 4 Eylül 2026'da Venedik'te prömiyer yapıyor. Jack Huston bir felsefe profesörünü canlandırıyor.",
+    contentType: "HABER",
+    coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    sourceName: "La Biennale di Venezia",
+    sourceUrl: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+    publishedAt: "2026-08-20T09:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "gundem",
+    tagSlugs: ["sinema", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The Basics of Philosophy — Venice Open, yarışma dışı",
+        publisher: "La Biennale di Venezia",
+        url: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+        primary: true,
+      },
+      {
+        title: "Venice Film Festival Lineup",
+        publisher: "Variety",
+        url: "https://variety.com/2026/film/global/venice-film-festival-2026-lineup-1236818922/",
+      },
+      {
+        title: "Venice Film Festival 2026 Movies — Full Lineup",
+        publisher: "Deadline",
+        url: "https://deadline.com/2026/07/venice-film-festival-lineup-2026-1237001062/",
+      },
+    ],
+    content: `Paul Schrader'ın yeni filmi **The Basics of Philosophy**, 83. Venedik Uluslararası Film Festivali'nde 4 Eylül 2026'da dünya prömiyerini yapacak. Film yarışma dışı bölümde gösterilecek.
+
+## Konu
+
+Merkezde bir felsefe profesörü var. Jack Huston'ın canlandırdığı karakter, geçmişte verdiği bir kararın suçluluğuyla yaşarken, o kararın mağduru aniden hayatına geri döner.
+
+Oyuncu kadrosunda Sofia Boutella, Daniel Zovatto, Bill Pullman ve Dana Delany de yer alıyor.
+
+## Schrader'ın "odadaki adam" hattı
+
+Filmin, Schrader'ın kariyerinin başından beri sürdürdüğü bir anlatı çizgisini devam ettirdiği belirtiliyor: Martin Scorsese'nin *Taxi Driver* filmi için yazdığı senaryoyla başlayan, *First Reformed*, *The Card Counter* ve *Master Gardener* ile süren "odadaki adam" hikâyeleri.
+
+Bu filmlerin ortak yapısı tanıdıktır: kendi ahlaki hesabıyla yalnız kalmış bir adam, günlük tutar, disiplinli bir hayat kurar ve geçmişin bir borcu kapıya dayandığında bu düzen çöker.
+
+## Neden felsefe sayfalarında?
+
+Schrader'ın sinemasının uzun süredir suçluluk, kefaret ve ahlaki sorumluluk üzerine kurulu olduğu biliniyor. Bu kez ana karakterin doğrudan bir felsefe hocası olması, filmi etik tartışmalarının sinemadaki temsili açısından ilgi çekici kılıyor.
+
+Filmin felsefi içeriğine dair değerlendirme, gösterim sonrasında yapılabilir; şimdilik elimizde festival programı ve künye bilgileri var.`,
+  },
+  {
+    title: "Matematiksel felsefeye ilk açık erişimli dergi kuruldu",
+    slug: "journal-of-mathematical-philosophy-kuruldu",
+    summary:
+      "Münih LMU bünyesindeki Matematiksel Felsefe Merkezi'nin çıkardığı Journal of Mathematical Philosophy, yazardan da okurdan da ücret almayan 'elmas' açık erişim modeliyle yayına başladı.",
+    seoTitle: "Journal of Mathematical Philosophy: ücretsiz açık erişimli yeni dergi",
+    metaDescription:
+      "LMU Münih'in yeni dergisi Journal of Mathematical Philosophy, yazar ve okur ücreti almayan elmas açık erişim modeliyle makale kabulüne başladı.",
+    contentType: "HABER",
+    coverImage: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/03/new-journal-of-mathematical-philosophy/",
+    publishedAt: "2026-08-20T10:15:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "acik-erisim", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "New: Journal of Mathematical Philosophy",
+        publisher: "Daily Nous",
+        date: "3 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/03/new-journal-of-mathematical-philosophy/",
+        primary: true,
+      },
+      {
+        title: "Journal of Mathematical Philosophy — derginin resmî sayfası",
+        publisher: "LMU München",
+        url: "https://mathematicalphilosophy.org/mathphil",
+      },
+    ],
+    content: `Ludwig-Maximilians-Universität München bünyesindeki **Matematiksel Felsefe Merkezi** (MCMP), matematiksel felsefeye ayrılmış ilk açık erişimli dergiyi kurdu. *Journal of Mathematical Philosophy* makale kabulüne başladı.
+
+## "Elmas" açık erişim
+
+Derginin ayırt edici yanı finansman modeli: ne yazardan makale işlem ücreti alınıyor ne de okurdan abonelik. Bu model literatürde *elmas açık erişim* olarak anılıyor.
+
+Kuruluş gerekçesi de buradan geliyor: açık erişimli yayıncılık pek çok yazar ve kurum için yüksek makale işlem ücretleri nedeniyle hâlâ zor. Dergi bu engeli aşmayı hedefliyor.
+
+## Kapsam
+
+Yayın alanları oldukça geniş:
+
+- Biçimsel epistemoloji
+- Felsefi mantık
+- Bilim felsefesi
+- Karar kuramı
+- Matematik felsefesi
+- Biçimsel metafizik
+- Dil felsefesi
+- Biçimsel etik
+- Yapay zekâ felsefesi
+
+Değerlendirme çift kör hakemlikle yapılıyor. Derginin genel yayın yönetmenliğini LMU Münih'ten Jürgen Landes ve Lennart Ackermans birlikte yürütüyor.
+
+## Neden önemli?
+
+Felsefede açık erişim tartışması uzun süredir sürüyor: yüksek işlem ücretleri, bütçesi sınırlı kurumlardaki araştırmacıları dezavantajlı duruma sokuyor. Ne yazardan ne okurdan ücret alan bir derginin, üstelik biçimsel yöntemlerin yoğun kullanıldığı bir alanda kurulması, bu tartışmada somut bir örnek oluşturuyor.`,
+  },
+  {
+    title: "Duncan Pritchard'dan risk felsefesi: 'Olasılık değil, kırılganlık'",
+    slug: "duncan-pritchard-tempting-fate-risk-felsefesi",
+    summary:
+      "Princeton University Press'ten çıkan 'Tempting Fate', riski olasılık üzerinden değil kırılganlık üzerinden açıklayan bir kuram öneriyor. Pritchard'ın örneği, Alex Honnold'un ipsiz El Capitan tırmanışı.",
+    seoTitle: "Tempting Fate: Duncan Pritchard'ın risk ve şans felsefesi",
+    metaDescription:
+      "Duncan Pritchard'ın yeni kitabı Tempting Fate, riski kırılganlıkla açıklıyor ve şansın anlamlı bir hayattaki yerini tartışıyor. Princeton UP, 2026.",
+    contentType: "KITAP",
+    coverImage: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    sourceName: "Princeton University Press",
+    sourceUrl: "https://press.princeton.edu/books/hardcover/9780691259512/tempting-fate",
+    publishedAt: "2026-08-20T11:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "risk", "epistemoloji"],
+    philosopherSlugs: ["duncan-pritchard"],
+    sources: [
+      {
+        title: "Tempting Fate: A Philosophical Guide to Risk, Luck, and a Meaningful Life",
+        publisher: "Princeton University Press",
+        url: "https://press.princeton.edu/books/hardcover/9780691259512/tempting-fate",
+        primary: true,
+      },
+      {
+        title: "Books — Duncan Pritchard",
+        publisher: "duncanpritchard.org",
+        url: "https://www.duncanpritchard.org/books",
+      },
+    ],
+    content: `Epistemoloji alanının tanınmış isimlerinden **Duncan Pritchard**'ın yeni kitabı *Tempting Fate: A Philosophical Guide to Risk, Luck, and a Meaningful Life*, Princeton University Press tarafından yayımlandı. 216 sayfalık kitap ABD'de 25 Ağustos 2026'da, Birleşik Krallık'ta 20 Ekim 2026'da raflarda.
+
+## Tez: risk bir olasılık meselesi değil
+
+Pritchard'ın önerdiği kuram, riski **olasılıkla değil kırılganlıkla** açıklıyor. Bir eylemin riskli olması, kötü sonucun ne kadar olası olduğuyla değil, iyi sonucun ne kadar kolay bozulabileceğiyle ilgilidir.
+
+Bu ayrım pratikte fark yaratıyor: kırılganlık çerçevesi, kaçınılmaz biçimde yüksek riskli bir etkinlikte bile beceri ve hazırlığın neden belirleyici olduğunu açıklayabiliyor.
+
+## Örnek: El Capitan
+
+Kitabın merkezî örneği, dağcı Alex Honnold'un ipsiz (free solo) El Capitan tırmanışı. Pritchard bunu "hayranlık uyandıran risk alma"nın örnek vakası olarak ele alıyor: yıllara yayılan hazırlık, tekrar ve ustalık, riski ortadan kaldırmıyor ama onu anlamlı kılıyor.
+
+## Şans ve anlam
+
+Kitabın ikinci hattı şans kavramı. Pritchard'a göre risk almak, şansına güvenmeyi de içerir; risk ve şans, otantik ve anlamlı bir hayatın kurucu unsurlarıdır. Yazar bu çerçevenin hukuk, sanat ve spor gibi alanlardaki karşılıklarını da tartışıyor.
+
+## Karşı okuma
+
+Riski olasılıktan koparan her yaklaşımın karşılaşacağı itiraz açık: karar kuramı ve risk yönetimi pratiğinde olasılık hesabı vazgeçilmez bir araç. Kırılganlık çerçevesinin bu araçların yerini mi aldığı yoksa onları tamamlayan farklı bir soruya mı yanıt verdiği, kitabın tartışılacak yanlarından biri olacak.`,
+  },
+  {
+    title: "FLSF dergisinden yapay zekâ ve felsefe temalı makale yarışması",
+    slug: "flsf-yapay-zeka-felsefe-makale-yarismasi",
+    summary:
+      "Felsefe ve Sosyal Bilimler Dergisi (FLSF), ağustos ayı boyunca yalnızca 'Yapay Zekânın Gölgesinde ve Işığında Felsefe' başlıklı yarışma için gönderilen makaleleri kabul ediyor. Son gün 31 Ağustos.",
+    seoTitle: "FLSF yapay zekâ ve felsefe makale yarışması — son gün 31 Ağustos",
+    metaDescription:
+      "FLSF Felsefe ve Sosyal Bilimler Dergisi'nin 'Yapay Zekânın Gölgesinde ve Işığında Felsefe' makale yarışması için başvurular 31 Ağustos 2026'da kapanıyor.",
+    contentType: "HABER",
+    coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    sourceName: "FLSF Felsefe ve Sosyal Bilimler Dergisi",
+    sourceUrl: "https://dergipark.org.tr/tr/pub/flsf",
+    publishedAt: "2026-08-20T12:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["yapay-zeka", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "FLSF Felsefe ve Sosyal Bilimler Dergisi — duyurular",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/flsf",
+        primary: true,
+      },
+    ],
+    content: `**FLSF Felsefe ve Sosyal Bilimler Dergisi**, ağustos ayı boyunca olağan makale kabulünü askıya alarak yalnızca bir yarışma için gönderilen çalışmaları değerlendiriyor: **"Yapay Zekânın Gölgesinde ve Işığında Felsefe."**
+
+Derginin duyurusuna göre 1-31 Ağustos 2026 tarihleri arasında yalnızca bu yarışma kapsamındaki makaleler kabul ediliyor.
+
+## Neden dikkate değer?
+
+Türkiye'deki akademik felsefe dergilerinin çoğu tematik dosyalarını yıl içine yayar; bir dergiye ait tüm kabul penceresinin tek bir konuya ayrılması sık rastlanan bir uygulama değil.
+
+Başlığın kuruluşu da ilgi çekici: "gölgesinde ve ışığında" ifadesi, yapay zekâyı yalnızca tehdit ya da yalnızca fırsat olarak kuran iki kolaycı çerçeveyi de dışarıda bırakıyor.
+
+## Felsefi arka plan
+
+Yapay zekâ tartışması felsefede birden çok alanı aynı anda ilgilendiriyor:
+
+- **Zihin felsefesi** — makine bilinci ve zihin-beden sorunu
+- **Etik** — sorumluluk, hesap verebilirlik, algoritmik adalet
+- **Epistemoloji** — makine üretimi bilginin güvenilirliği
+- **Siyaset felsefesi** — otomasyonun emek ve iktidar üzerindeki etkisi
+
+Başvuru koşulları ve biçimsel kurallar için derginin DergiPark sayfasındaki duyuru bölümüne bakılabilir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 20 Ağustos: Schelling'in ölümü",
+    slug: "felsefe-tarihinde-bugun-20-agustos-schelling",
+    summary:
+      "Alman idealizminin üç büyük isminden biri olan Friedrich Wilhelm Joseph Schelling, 20 Ağustos 1854'te İsviçre'nin Bad Ragaz kentinde öldü. Berlin'de Hegel'in kürsüsünü devralmıştı.",
+    seoTitle: "20 Ağustos 1854: Schelling'in ölümü — Alman idealizminin üçüncü ismi",
+    metaDescription:
+      "Friedrich Schelling 20 Ağustos 1854'te Bad Ragaz'da öldü. Doğa felsefesi, Hegel'in kürsüsü ve Kierkegaard'ın dinlediği Berlin dersleri.",
+    contentType: "TARIH",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/schelling/",
+    publishedAt: "2026-08-20T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "alman-idealizmi"],
+    philosopherSlugs: ["schelling"],
+    sources: [
+      {
+        title: "Friedrich Wilhelm Joseph von Schelling",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/schelling/",
+        primary: true,
+      },
+    ],
+    content: `**20 Ağustos 1854** — Friedrich Wilhelm Joseph Schelling, İsviçre'nin Bad Ragaz kentinde öldü.
+
+## Üç isimden biri
+
+Schelling; J. G. Fichte ve G. W. F. Hegel'le birlikte **Alman idealizmi** geleneğinin en etkili üç düşünüründen biri sayılır. Doğa felsefesi, özdeşlik felsefesi ve geç dönemindeki "olumlu felsefe" arayışı, birbirinden hayli farklı üç evre oluşturur — bu yüzden "tek bir Schelling" yerine "Schelling'ler"den söz edilir.
+
+## Berlin: Hegel'in kürsüsü
+
+1841'de Berlin'e giderek Hegel'in boşalan felsefe kürsüsünü devraldı. İlk dersleri dönemin dikkat çekici isimlerini çekti: dinleyiciler arasında **Kierkegaard, Engels, Bakunin, Ranke, Burckhardt** ve **Alexander von Humboldt** vardı.
+
+Ancak Stanford Felsefe Ansiklopedisi'nin aktardığına göre Schelling, kısa süre sonra dönemin önde gelen düşünürlerinin büyük bölümü tarafından göz ardı edilmeye başlandı.
+
+## Neden bugün yeniden okunuyor?
+
+Doğa felsefesi, çevre felsefesi ve yeni materyalizm tartışmalarıyla; özgürlük ve kötülük üzerine 1809 tarihli incelemesi ise varoluşçu geleneğe uzanan hattıyla gündemde kalmayı sürdürüyor.
+
+> Schelling'in kaderi felsefe tarihinde ilginç bir örnek: hem çok erken tanınmış (yirmili yaşlarında profesör olmuştu) hem de kendi sağlığında unutulmuş bir düşünür.`,
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -780,6 +1318,22 @@ export const books: SeedBook[] = [
     link: "https://global.oup.com/academic/product/the-republic-of-love-9780197812556",
     philosopherSlug: "martha-nussbaum",
     postSlug: "nussbaum-yeni-kitap-republic-of-love",
+  },
+  {
+    title: "Tempting Fate: A Philosophical Guide to Risk, Luck, and a Meaningful Life",
+    slug: "tempting-fate",
+    originalTitle: null,
+    publisher: "Princeton University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780691259512",
+    coverImage: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80",
+    description:
+      "Pritchard riski olasılık yerine kırılganlık üzerinden açıklıyor; Alex Honnold'un ipsiz El Capitan tırmanışı üzerinden şansın ve riskin anlamlı bir hayattaki yerini tartışıyor. 216 sayfa.",
+    year: 2026,
+    link: "https://press.princeton.edu/books/hardcover/9780691259512/tempting-fate",
+    philosopherSlug: "duncan-pritchard",
+    postSlug: "duncan-pritchard-tempting-fate-risk-felsefesi",
   },
   {
     title: "Anlatının Krizi",
@@ -844,5 +1398,95 @@ export const books: SeedBook[] = [
     link: null,
     philosopherSlug: "peter-singer",
     postSlug: null,
+  },
+];
+
+/* ------------------------------------------------------------------ */
+/* Etkinlikler (Konferanslar bölümü)                                   */
+/* ------------------------------------------------------------------ */
+/*
+ * Buraya yalnızca doğrulanmış etkinlikler girilir: kaynağı olmayan,
+ * tarihi belirsiz ya da resmî olarak duyurulmamış etkinlik eklenmez (45. kural).
+ * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
+ */
+export const events: SeedEvent[] = [
+  {
+    title: "Assos'ta Felsefe — 26. Sempozyum",
+    slug: "assosta-felsefe-2026",
+    summary:
+      "Felsefe Sanat Bilim Derneği'nin 26 yıldır sürdürdüğü sempozyum, 'Felsefe, Sanat, Bilim ve Siyaset' başlığıyla toplandı. Katılım ücretsizdi.",
+    description: `Aristoteles'in bir dönem ders verdiği Assos'ta düzenlenen sempozyum, Prof. Dr. Örsan K. Öymen'in öncülüğünde 26. kez toplandı.
+
+İki gün süren programda Aydınlanma felsefesinden küresel göçe, post-doğruluk çağından Adorno ve Hegel'in sanat kuramlarına uzanan sunumlar yer aldı.
+
+Toplantılar felsefeye ilgi duyan herkese açık ve ücretsizdi; katılım için organizasyonun resmî sitesinden kayıt isteniyordu.`,
+    kind: "SEMPOZYUM",
+    organizer: "Felsefe Sanat Bilim Derneği",
+    speakers: "Örsan K. Öymen",
+    topic: "Felsefe, Sanat, Bilim ve Siyaset",
+    format: "FIZIKSEL",
+    startsAt: "2026-02-06T00:00:00.000Z",
+    endsAt: "2026-02-07T00:00:00.000Z",
+    hasTime: false,
+    city: "Çanakkale",
+    country: "Türkiye",
+    venue: "Nazlıhan Otel, Assos-Behramkale",
+    fee: "Ücretsiz",
+    sourceName: "Cumhuriyet",
+    sourceUrl:
+      "https://www.cumhuriyet.com.tr/kultur-sanat/26-yillik-gelenek-assos-ta-felsefe-sempozyumu-kapilarini-aciyor-2471919",
+    coverImage: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1600&q=80",
+    featured: false,
+    publishedAt: "2026-08-02T10:30:00.000Z",
+  },
+  {
+    title: "Dünya Felsefe Günü 2026",
+    slug: "dunya-felsefe-gunu-2026",
+    summary:
+      "UNESCO'nun her yıl kasım ayının üçüncü perşembesi kutladığı Dünya Felsefe Günü, 2026'da 19 Kasım'a denk geliyor. Dünya genelinde söyleşi, panel, atölye ve tartışma etkinlikleri düzenleniyor.",
+    description: `UNESCO, 2002'den bu yana her yıl kasım ayının üçüncü perşembesini **Dünya Felsefe Günü** olarak anıyor. 2026'da bu tarih **19 Kasım Perşembe**.
+
+Gün kapsamında UNESCO ortakları ve üye devletler; felsefi diyaloglar, tartışmalar, konferanslar, atölyeler, kültürel etkinlikler ve sunumlar düzenlemeye çağrılıyor.
+
+Türkiye'de üniversitelerin felsefe bölümleri, felsefe dernekleri ve kültür merkezleri genellikle bu tarihe kendi programlarını yerleştirir. Etkinlik duyurunuzu iletişim sayfasından gönderirseniz takvime ekleyebiliriz.`,
+    kind: "PANEL",
+    organizer: "UNESCO",
+    topic: "Felsefi diyalog ve kamusal tartışma",
+    format: "HIBRIT",
+    startsAt: "2026-11-19T00:00:00.000Z",
+    hasTime: false,
+    country: "Dünya geneli",
+    fee: "Etkinliğe göre değişir",
+    website: "https://www.unesco.org/en/days/philosophy",
+    sourceName: "UNESCO",
+    sourceUrl: "https://www.unesco.org/en/days/philosophy",
+    coverImage: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80",
+    featured: true,
+    publishedAt: "2026-08-20T08:00:00.000Z",
+  },
+  {
+    title: "FLSF Makale Yarışması: Yapay Zekânın Gölgesinde ve Işığında Felsefe",
+    slug: "flsf-makale-yarismasi-2026",
+    summary:
+      "FLSF Felsefe ve Sosyal Bilimler Dergisi, ağustos ayı boyunca yalnızca bu yarışma için gönderilen makaleleri kabul ediyor. Son başvuru: 31 Ağustos 2026.",
+    description: `FLSF Felsefe ve Sosyal Bilimler Dergisi, 1-31 Ağustos 2026 tarihleri arasında olağan makale kabulünü askıya alarak yalnızca **"Yapay Zekânın Gölgesinde ve Işığında Felsefe"** başlıklı yarışma kapsamındaki çalışmaları değerlendiriyor.
+
+Başvuru koşulları, biçimsel kurallar ve değerlendirme süreci için derginin DergiPark sayfasındaki duyuru bölümüne bakılabilir.`,
+    kind: "CFP",
+    organizer: "FLSF Felsefe ve Sosyal Bilimler Dergisi",
+    topic: "Yapay zekâ ve felsefe",
+    format: "ONLINE",
+    startsAt: "2026-08-01T00:00:00.000Z",
+    endsAt: "2026-08-31T00:00:00.000Z",
+    hasTime: false,
+    country: "Türkiye",
+    cfpDeadline: "2026-08-31T00:00:00.000Z",
+    fee: "Ücretsiz",
+    website: "https://dergipark.org.tr/tr/pub/flsf",
+    sourceName: "DergiPark — FLSF",
+    sourceUrl: "https://dergipark.org.tr/tr/pub/flsf",
+    coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
+    featured: false,
+    publishedAt: "2026-08-20T12:00:00.000Z",
   },
 ];
