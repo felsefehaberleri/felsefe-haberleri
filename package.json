@@ -5,7 +5,7 @@
   "description": "Felsefe Haberleri — yaşayan filozoflardan haberler; Next.js tabanlı haber sitesi ve mobil uygulama için headless API.",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma migrate deploy && tsx prisma/seed-if-empty.ts && next build",
+    "build": "prisma generate && prisma db push --skip-generate && tsx prisma/seed-if-empty.ts && next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
@@ -16,7 +16,8 @@
     "db:studio": "prisma studio",
     "setup": "prisma migrate dev --name init && prisma db seed",
     "db:deploy": "prisma migrate deploy",
-    "db:seed:auto": "tsx prisma/seed-if-empty.ts"
+    "db:seed:auto": "tsx prisma/seed-if-empty.ts",
+    "db:push": "prisma db push"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
