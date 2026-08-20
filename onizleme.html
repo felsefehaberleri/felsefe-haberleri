@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="tr" class="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Felsefe Haberleri — Önizleme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#faf7f2; --surface:#ffffff; --ink:#23201c; --ink-soft:#4a453e;
+    --muted:#78716a; --line:#e6e0d6; --accent:#8f4b2e; --accent-soft:#f2e6df;
+  }
+  html.dark{
+    --paper:#121212; --surface:#1a1917; --ink:#ece7de; --ink-soft:#cfc9bf;
+    --muted:#948d83; --line:#2c2a27; --accent:#e0a074; --accent-soft:#2a211c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;transition:background-color .2s,color .2s}
+  a{color:inherit;text-decoration:none}
+  img{display:block;width:100%;height:100%;object-fit:cover}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  .reading{max-width:760px;margin:0 auto;padding:0 24px}
+  .serif{font-family:Merriweather,Georgia,serif}
+  .noscroll{-ms-overflow-style:none;scrollbar-width:none}
+  .noscroll::-webkit-scrollbar{display:none}
+
+  /* önizleme şeridi */
+  .demo-bar{background:var(--accent-soft);border-bottom:1px solid var(--line);font-size:13px;color:var(--ink-soft)}
+  .demo-bar .wrap{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:10px 24px}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap}
+  .tab{border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);padding:5px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;font-family:inherit}
+  .tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  /* filozof portre şeridi — tek bant */
+  .thinkers{background:#23201c;border-bottom:1px solid var(--line)}
+  .band{position:relative;height:150px;overflow:hidden;display:flex}
+  .band .side{display:flex;flex:1;min-width:0;height:100%}
+  .band .mid{width:13%;flex:none;height:100%}
+  .band img{flex:1;min-width:0;height:100%;object-fit:cover;object-position:top;filter:grayscale(.9) sepia(.25);opacity:.9;transition:filter .5s,opacity .5s}
+  .band img:hover{filter:none;opacity:1}
+  .band .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom,rgba(0,0,0,.35),transparent 45%,rgba(0,0,0,.6));mix-blend-mode:multiply}
+  .band .vig{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 120px rgba(0,0,0,.55)}
+
+  /* künye */
+  .topbar{border-bottom:1px solid var(--line);background:var(--surface)}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:40px;gap:16px}
+  .topbar p{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .toggle{width:34px;height:34px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+  .toggle:hover{border-color:var(--accent);color:var(--accent)}
+  .masthead{text-align:center;padding:34px 24px}
+  .masthead .name{font-family:Merriweather,serif;font-weight:900;font-size:52px;letter-spacing:.06em;line-height:1}
+  .masthead .tag{margin-top:12px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
+  nav.sections{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--paper) 95%,transparent);backdrop-filter:blur(8px)}
+  nav.sections ul{list-style:none;display:flex;gap:22px;align-items:center;overflow-x:auto;padding:10px 24px;max-width:1180px;margin:0 auto}
+  nav.sections a{font-size:12.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap}
+  nav.sections a:hover{color:var(--accent)}
+  nav.sections .right{margin-left:auto;display:flex;gap:22px}
+  nav.sections .right a{color:var(--accent)}
+
+  /* manşet slider */
+  .slider{position:relative}
+  .track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth}
+  .slide{flex:none;width:100%;scroll-snap-align:start;position:relative;height:520px}
+  .slide .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85),rgba(0,0,0,.45) 45%,rgba(0,0,0,.1))}
+  .slide .txt{position:absolute;left:0;right:0;bottom:0;max-width:1020px;margin:0 auto;padding:0 40px 52px}
+  .kicker{display:inline-block;background:var(--accent);color:#fff;font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;padding:4px 10px}
+  .slide h2{font-family:Merriweather,serif;font-size:38px;line-height:1.18;color:#fff;margin-top:16px;max-width:24em}
+  .slide p{color:rgba(255,255,255,.8);font-size:14.5px;margin-top:12px;max-width:44em}
+  .slide .by{color:rgba(255,255,255,.6);font-size:12.5px;margin-top:16px}
+  .arrow{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.3);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;backdrop-filter:blur(4px)}
+  .arrow:hover{background:rgba(0,0,0,.55)}
+  .arrow.prev{left:14px}.arrow.next{right:14px}
+  .dots{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px}
+  .dot{height:6px;width:6px;border-radius:999px;background:rgba(255,255,255,.5);border:0;cursor:pointer;padding:0;transition:all .3s}
+  .dot.on{width:28px;background:#fff}
+
+  /* bölüm başlığı */
+  .sec{display:flex;align-items:center;gap:16px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+  .sec h2{font-family:Merriweather,serif;font-size:18px;letter-spacing:.02em}
+  .sec .line{flex:1;height:1px;background:var(--line)}
+  .sec .note{font-size:12px;color:var(--muted)}
+  .sec a{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:500}
+
+  .grid{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:56px;padding:40px 0}
+  .lead{display:grid;grid-template-columns:1fr 240px;gap:24px;border-bottom:1px solid var(--line);padding:28px 0}
+  .lead h3{font-family:Merriweather,serif;font-size:27px;line-height:1.2;margin-top:8px}
+  .lead p{margin-top:12px;color:var(--ink-soft);font-size:15px}
+  .lead .by{margin-top:14px;font-size:12px;color:var(--muted)}
+  .lead .pic{height:160px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .cat{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px}
+  .card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface);display:flex;flex-direction:column}
+  .card:hover{box-shadow:0 8px 30px rgba(0,0,0,.07)}
+  .card .thumb{aspect-ratio:16/9;overflow:hidden}
+  .card .thumb img{transition:transform .5s}
+  .card:hover .thumb img{transform:scale(1.03)}
+  .card .body{padding:18px;display:flex;flex-direction:column;flex:1}
+  .card h3{font-family:Merriweather,serif;font-size:17px;line-height:1.35;margin-top:8px}
+  .card p{margin-top:10px;font-size:13.5px;color:var(--muted);flex:1}
+  .card .who{margin-top:10px;font-size:12px;color:var(--ink-soft)}
+  .card .by{margin-top:12px;font-size:12px;color:var(--muted)}
+
+  aside .blk+.blk{margin-top:36px}
+  aside ul{list-style:none;margin-top:14px}
+  .plist li a{display:flex;gap:12px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)}
+  .plist b{font-family:Merriweather,serif;font-size:13.5px;display:block}
+  .plist small{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}
+  .avatar{width:40px;height:40px;border-radius:999px;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-family:Merriweather,serif;font-weight:700;font-size:13px;flex:none}
+  .slist li a{display:flex;justify-content:space-between;padding:7px 8px;border-radius:7px;font-size:14px;color:var(--ink-soft)}
+  .slist li a:hover{background:var(--accent-soft);color:var(--accent)}
+  .slist span{font-size:12px;color:var(--muted)}
+  .pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+  .pill{border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:12px;color:var(--ink-soft)}
+  .pill:hover{border-color:var(--accent);color:var(--accent)}
+
+  .books{display:grid;gap:16px;margin-top:22px}
+  .book{display:flex;gap:16px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:16px}
+  .book .cover{width:78px;height:110px;flex:none;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+  .book h3{font-family:Merriweather,serif;font-size:15.5px;line-height:1.35}
+  .book .orig{font-size:11.5px;color:var(--muted);font-style:italic;margin-top:4px}
+  .book .who{font-size:13.5px;color:var(--accent);margin-top:6px}
+  .book p{font-size:13.5px;color:var(--muted);margin-top:8px}
+  .book .pub{font-size:11.5px;color:var(--muted);margin-top:8px}
+
+  .article{padding:44px 0 28px}
+  .article h1{font-family:Merriweather,serif;font-size:38px;line-height:1.2;margin-top:16px}
+  .article .summary{font-family:Merriweather,serif;font-size:18px;color:var(--muted);margin-top:16px;line-height:1.7}
+  .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+  .chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:4px 12px 4px 4px;font-size:13px;color:var(--ink-soft)}
+  .chip .avatar{width:24px;height:24px;font-size:9px}
+  .author{display:flex;gap:12px;align-items:center;margin-top:26px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .author .pic{width:44px;height:44px;border-radius:999px;overflow:hidden;flex:none}
+  .cover-wide{aspect-ratio:21/9;border-radius:16px;overflow:hidden;border:1px solid var(--line);margin:32px auto 0;max-width:1000px}
+  .credit{max-width:1000px;margin:8px auto 0;font-size:11.5px;color:var(--muted);padding:0 24px}
+  .prose{font-family:Merriweather,Georgia,serif;font-size:17.5px;line-height:1.85;color:var(--ink-soft);margin-top:36px}
+  .prose p{margin-top:22px}
+  .prose h2{font-family:Merriweather,serif;font-size:24px;color:var(--ink);margin-top:38px;line-height:1.3}
+  .prose ol{margin:22px 0 0 24px}
+  .prose li{margin-top:9px}
+  .prose strong{color:var(--ink)}.prose em{font-style:italic}
+  .source{margin-top:36px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:20px}
+  .source .lbl{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .source a{color:var(--accent);font-size:14px}
+  .source small{display:block;color:var(--muted);font-size:12px;margin-top:8px}
+
+  .profile{display:flex;gap:24px;padding:44px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+  .profile .avatar{width:96px;height:96px;font-size:34px}
+  .profile h1{font-family:Merriweather,serif;font-size:33px;margin-top:6px}
+  .profile .head{font-size:15.5px;color:var(--ink-soft);margin-top:8px}
+  .profile .m2{font-size:13.5px;color:var(--muted);margin-top:8px}
+  .profile p.bio{margin-top:16px;color:var(--ink-soft);max-width:52em;font-size:15px}
+
+  footer.site{margin-top:64px;border-top:2px solid var(--ink);background:var(--surface)}
+  footer.site .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding:48px 0}
+  footer.site .logo{font-family:Merriweather,serif;font-weight:900;font-size:18px;letter-spacing:.04em}
+  footer.site .desc{margin-top:12px;font-size:14px;color:var(--muted);max-width:30em}
+  footer.site h4{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  footer.site ul{list-style:none;margin-top:14px}
+  footer.site li{font-size:14px;color:var(--ink-soft);margin-top:8px}
+  .copy{border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);padding:18px 0}
+  code{background:var(--accent-soft);padding:2px 6px;border-radius:5px;font-size:13px}
+  /* üyelik kutusu */
+  .subs{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:22px}
+  .subs .kick{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+  .subs h3{font-family:Merriweather,serif;font-size:18px;margin-top:10px}
+  .subs p{font-size:13.5px;color:var(--muted);margin-top:8px;line-height:1.6}
+  .field{width:100%;border:1px solid var(--line);background:var(--paper);border-radius:9px;padding:10px 12px;font-size:14px;font-family:inherit;color:inherit;outline:none}
+  .field:focus{border-color:var(--accent)}
+  .btn{background:var(--ink);color:var(--paper);border:0;border-radius:9px;padding:10px 20px;font-size:14px;font-family:inherit;cursor:pointer;white-space:nowrap}
+  .btn.round{border-radius:999px}
+  .btn:hover{opacity:.9}
+  .hint{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6}
+  .ok{font-size:12px;color:var(--accent);margin-top:10px}
+
+  /* yorumlar */
+  .cmt{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:16px}
+  .cmt .who{font-family:Merriweather,serif;font-size:13.5px;font-weight:700}
+  .cmt time{font-size:11.5px;color:var(--muted);margin-left:10px}
+  .cmt p{font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.7}
+  .cmt .reply{font-size:11.5px;color:var(--accent);margin-top:10px;display:inline-block}
+  .cmt-list{list-style:none;margin-top:22px;display:grid;gap:18px}
+  .cmt-list .sub{list-style:none;margin-top:14px;display:grid;gap:14px;border-left:2px solid var(--line);padding-left:18px}
+  .cmt-form{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:22px;margin-top:28px}
+
+  /* iletişim */
+  .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;padding:36px 0}
+  .info{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:22px}
+  .info h3{font-family:Merriweather,serif;font-size:15.5px;margin-top:10px}
+  .info p{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.6}
+  .info a{color:var(--accent);font-size:14px;word-break:break-all}
+  .icon{width:20px;height:20px;color:var(--accent)}
+
+  .hidden{display:none}
+  @media(max-width:980px){
+    .grid,.cards,.lead,footer.site .cols{grid-template-columns:1fr;gap:28px}
+    nav.sections .right{display:none}
+    .masthead .name{font-size:30px}
+    .slide{height:420px}.slide h2{font-size:26px}.slide .txt{padding:0 24px 44px}
+    .article h1{font-size:26px}.profile{flex-direction:column}
+    .contact-grid{grid-template-columns:1fr;gap:28px}
+    .band{height:104px}
+    .thinkers .row{justify-content:flex-start}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-bar">
+  <div class="wrap">
+    <span>👀 <strong>Önizleme</strong> — gerçek sitenin görünümü. Yayında içerik veritabanından gelir.</span>
+    <div class="tabs">
+      <button class="tab active" data-view="home">Ana Sayfa</button>
+      <button class="tab" data-view="article">Haber Sayfası</button>
+      <button class="tab" data-view="profile">Filozof Profili</button>
+      <button class="tab" data-view="contact">İletişim</button>
+    </div>
+  </div>
+</div>
+
+<!-- filozof portre banner'ı: tek şerit -->
+<div class="thinkers">
+  <div class="band">
+    <div class="side" id="bandLeft"></div>
+    <img class="mid" id="bandCenter" alt="">
+    <div class="side" id="bandRight"></div>
+    <div class="fade"></div><div class="vig"></div>
+  </div>
+</div>
+
+<!-- künye -->
+<div class="topbar">
+  <div class="wrap">
+    <p id="dateline">—</p>
+    <div style="display:flex;gap:12px;align-items:center">
+      <a href="#" style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Hakkında</a>
+      <a href="#" style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">İletişim</a>
+      <button class="toggle" id="themeBtn" title="Koyu / açık mod">🌙</button>
+    </div>
+  </div>
+</div>
+
+<div class="masthead">
+  <div class="name serif">FELSEFE HABERLERİ</div>
+  <div class="tag">Çağdaş filozoflar · fikirler · kitaplar</div>
+</div>
+
+<nav class="sections">
+  <ul class="noscroll">
+    <li><a href="#">Gündem</a></li>
+    <li><a href="#">Çağdaş Filozoflar</a></li>
+    <li><a href="#">Türkiye</a></li>
+    <li><a href="#">Dünya</a></li>
+    <li><a href="#">Konferanslar</a></li>
+    <li><a href="#">Filozoflar Hakkında</a></li>
+    <li><a href="#">Yeni Kitaplar</a></li>
+    <li><a href="#">Ödüller</a></li>
+    <li><a href="#">Felsefe Tarihinde Bugün</a></li>
+    <li class="right"><a href="#">Filozof Dizini</a><a href="#">Kitaplık</a></li>
+  </ul>
+</nav>
+
+<!-- ============ ANA SAYFA ============ -->
+<main id="view-home">
+
+  <div class="slider">
+    <div class="track noscroll" id="track">
+      <article class="slide">
+        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80" alt="">
+        <div class="shade"></div>
+        <div class="txt">
+          <span class="kicker">Gündem</span>
+          <h2>Yapay zekâ şirketleri filozof işe alıyor</h2>
+          <p>Etik, akıl yürütme ve güvenlik ekiplerinde felsefe eğitimli isimlere talep artıyor. Luciano Floridi, bölümlerden teknoloji şirketlerine geçişi "kanama" olarak tanımlıyor.</p>
+          <div class="by">Dış Haberler Servisi · 14 Ağustos 2026 · Luciano Floridi</div>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1600&q=80" alt="">
+        <div class="shade"></div>
+        <div class="txt">
+          <span class="kicker">Dünya</span>
+          <h2>Yanmış Herculaneum papirüsleri yapay zekâyla okundu</h2>
+          <p>Vezüv'ün MS 79'daki patlamasında kömürleşen tomarlar açılmadan okundu; Philodemus'un kayıp metinlerinden yaklaşık 70 sütun deşifre edildi.</p>
+          <div class="by">Dış Haberler Servisi · 13 Ağustos 2026</div>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&q=80" alt="">
+        <div class="shade"></div>
+        <div class="txt">
+          <span class="kicker">Ödüller</span>
+          <h2>Berggruen Felsefe ve Kültür Ödülü Michael Sandel'in</h2>
+          <p>1 milyon dolarlık ödülün dokuzuncu sahibi, adalet ve piyasaların ahlaki sınırları üzerine çalışmalarıyla tanınan Harvard'lı siyaset felsefecisi oldu.</p>
+          <div class="by">Dış Haberler Servisi · 8 Ağustos 2026 · Michael Sandel</div>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=1600&q=80" alt="">
+        <div class="shade"></div>
+        <div class="txt">
+          <span class="kicker">Yeni Kitaplar</span>
+          <h2>Nussbaum'un yeni kitabı: Opera ve siyasal özgürlük</h2>
+          <p>Oxford University Press, "The Republic of Love"u nisanda yayımladı. Nussbaum, Mozart'tan Verdi'ye operayı siyasal düşüncenin bir alanı olarak okuyor.</p>
+          <div class="by">Kültür Servisi · 6 Ağustos 2026 · Martha Nussbaum</div>
+        </div>
+      </article>
+
+      <article class="slide">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80" alt="">
+        <div class="shade"></div>
+        <div class="txt">
+          <span class="kicker">Türkiye</span>
+          <h2>Türkiye'de felsefe takvimi yoğunlaşıyor</h2>
+          <p>Bilkent'in felsefe şenliği PhilFest'26 söyleşiler, sergi ve yarışmalarla düzenleniyor; "Savaş ve Felsefe" başlıklı kadın felsefeciler kongresi de toplandı.</p>
+          <div class="by">Haber Merkezi · 30 Temmuz 2026</div>
+        </div>
+      </article>
+    </div>
+
+    <button class="arrow prev" id="prev" aria-label="Önceki manşet">‹</button>
+    <button class="arrow next" id="next" aria-label="Sonraki manşet">›</button>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <div class="wrap">
+    <div class="grid">
+      <section>
+        <div class="sec"><h2 class="serif">Son Haberler</h2><span class="line"></span><span class="note">15 haber</span></div>
+
+        <article class="lead">
+          <div>
+            <span class="cat">Filozoflar Hakkında</span>
+            <h3 class="serif">Kant'ın kesin buyruğu: ahlakın tek bir ilkesi olabilir mi?</h3>
+            <p>Immanuel Kant, ahlaki doğruluğun ölçüsünü sonuçlarda değil, eylemin ilkesinde arar. Kesin buyruğun üç formülü ve bugün neden hâlâ tartışıldığı.</p>
+            <div class="by">Haber Merkezi · 12 Ağustos 2026</div>
+          </div>
+          <div class="pic"><img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt=""></div>
+        </article>
+
+        <div class="cards">
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Dünya</span>
+              <h3>İngiltere'de felsefe bölümleri kapanıyor: Dundee ve Hertfordshire</h3>
+              <p>Dundee felsefeyi 2027'den itibaren müstakil lisans programı olmaktan çıkarmayı öneriyor; Hertfordshire programını tamamen kapatıyor.</p>
+              <div class="by">Dış Haberler Servisi · 11 Ağustos 2026</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Çağdaş Filozoflar</span>
+              <h3>Schwitzgebel ve Pober: Bilinç yalnızca karbona özgü olmayabilir</h3>
+              <p>Philosophers' Imprint'te yayımlanan çalışma, bilincin "zemin esnek" olduğunu savunuyor.</p>
+              <div class="who">Eric Schwitzgebel, Jeremy Pober</div>
+              <div class="by">Dış Haberler Servisi · 10 Ağustos 2026</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Filozoflar Hakkında</span>
+              <h3>Nietzsche'nin soykütüğü: değerlerin değerini sormak</h3>
+              <p>Soykütük yöntemi ahlakı çürütmeye çalışmaz; onun bir tarihi olduğunu hatırlatır. Efendi-köle ahlakı ve ressentiment.</p>
+              <div class="by">Haber Merkezi · 9 Ağustos 2026</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Filozoflar Hakkında</span>
+              <h3>Platon'un mağarası: iki bin yıldır anlatılan alegori ne söylüyor?</h3>
+              <p>Devlet'in yedinci kitabındaki alegori, bilgi ile görünüş arasındaki farkı anlatır. Bugün ekran ve algoritma tartışmalarında sıkça anılıyor.</p>
+              <div class="by">Haber Merkezi · 7 Ağustos 2026</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Yeni Kitaplar</span>
+              <h3>Byung-Chul Han'ın "Anlatının Krizi" Türkçede</h3>
+              <p>Ketebe Yayınları'ndan Murat Erşen çevirisiyle çıkan kitapta Han, anlatının "hikâye satıcılığına" dönüşümünü tartışıyor.</p>
+              <div class="who">Byung-Chul Han</div>
+              <div class="by">Kültür Servisi · 4 Ağustos 2026</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80" alt=""></div>
+            <div class="body">
+              <span class="cat">Konferanslar</span>
+              <h3>"Assos'ta Felsefe" 26. kez toplandı</h3>
+              <p>Sempozyum 6-7 Şubat 2026'da "Felsefe, Sanat, Bilim ve Siyaset" başlığıyla yapıldı; katılım ücretsizdi.</p>
+              <div class="who">Örsan K. Öymen</div>
+              <div class="by">Haber Merkezi · 2 Ağustos 2026</div>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top:56px">
+          <div class="sec"><h2 class="serif">Yeni Kitaplar</h2><span class="line"></span><a href="#">Tümü →</a></div>
+          <div class="books">
+            <article class="book">
+              <div class="cover"><img src="https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=400&q=80" alt=""></div>
+              <div>
+                <h3>The Republic of Love: Opera and Political Freedom</h3>
+                <div class="who">Martha Nussbaum</div>
+                <p>Mozart'tan Verdi ve Britten'a uzanan hatta operayı siyasal özgürlüğün bir alanı olarak okuyor. 312 sayfa.</p>
+                <div class="pub">Oxford University Press · 2026 · İngilizce</div>
+              </div>
+            </article>
+            <article class="book">
+              <div class="cover"><img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&q=80" alt=""></div>
+              <div>
+                <h3>Anlatının Krizi</h3>
+                <div class="orig">Die Krise der Narration</div>
+                <div class="who">Byung-Chul Han</div>
+                <p>Anlatının "hikâye satıcılığına" dönüşümü ve dijitalleşmeyle derinleşen anlatı kaybı.</p>
+                <div class="pub">Ketebe Yayınları · Türkçe · Çeviri: Murat Erşen</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="blk subs">
+          <div class="kick">Üyelik</div>
+          <h3>Yeni haberler e-postanıza gelsin</h3>
+          <p>Üye olun; yeni haberler yayımlandığında kısa bir bülten gönderelim. Ücretsiz, tek tıkla çıkabilirsiniz.</p>
+          <form onsubmit="demoNotice(event,'subsOk')" style="margin-top:14px;display:grid;gap:10px">
+            <input class="field" type="text" placeholder="Adınız (isteğe bağlı)">
+            <input class="field" type="email" placeholder="e-posta adresiniz" required>
+            <button class="btn" type="submit">Üye ol</button>
+          </form>
+          <div class="ok hidden" id="subsOk">Onay e-postası gönderildi. Gelen kutunuzu kontrol edin.</div>
+          <p class="hint">Kaydolduktan sonra adresinize onay bağlantısı gönderilir; onaylamadan bülten başlamaz.</p>
+        </div>
+
+        <div class="blk">
+          <div class="sec"><h2 class="serif">Takipteki Filozoflar</h2><span class="line"></span><a href="#">Tümü →</a></div>
+          <ul class="plist">
+            <li><a href="#"><span class="avatar">BH</span><span><b>Byung-Chul Han</b><small>1 haber · Almanya</small></span></a></li>
+            <li><a href="#"><span class="avatar">LF</span><span><b>Luciano Floridi</b><small>1 haber · İtalya / ABD</small></span></a></li>
+            <li><a href="#"><span class="avatar">MN</span><span><b>Martha Nussbaum</b><small>2 haber · ABD</small></span></a></li>
+            <li><a href="#"><span class="avatar">MS</span><span><b>Michael Sandel</b><small>1 haber · ABD</small></span></a></li>
+            <li><a href="#"><span class="avatar">ÖÖ</span><span><b>Örsan K. Öymen</b><small>1 haber · Türkiye</small></span></a></li>
+          </ul>
+        </div>
+
+        <div class="blk">
+          <div class="sec"><h2 class="serif">Bölümler</h2><span class="line"></span></div>
+          <ul class="slist">
+            <li><a href="#">Gündem <span>2</span></a></li>
+            <li><a href="#">Çağdaş Filozoflar <span>1</span></a></li>
+            <li><a href="#">Türkiye <span>1</span></a></li>
+            <li><a href="#">Dünya <span>2</span></a></li>
+            <li><a href="#">Konferanslar <span>1</span></a></li>
+            <li><a href="#">Filozoflar Hakkında <span>4</span></a></li>
+            <li><a href="#">Yeni Kitaplar <span>2</span></a></li>
+            <li><a href="#">Ödüller <span>1</span></a></li>
+            <li><a href="#">Felsefe Tarihinde Bugün <span>1</span></a></li>
+          </ul>
+        </div>
+
+        <div class="blk">
+          <div class="sec"><h2 class="serif">Etiketler</h2><span class="line"></span></div>
+          <div class="pills">
+            <span class="pill">Yapay Zekâ</span><span class="pill">Etik</span><span class="pill">Bilinç</span>
+            <span class="pill">Akademi</span><span class="pill">Kavram</span><span class="pill">Kant</span>
+            <span class="pill">Nietzsche</span><span class="pill">Platon</span><span class="pill">Ödül</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<!-- ============ HABER SAYFASI ============ -->
+<main id="view-article" class="hidden">
+  <div class="reading article">
+    <div class="meta">
+      <span class="cat">Gündem</span><span>·</span><span>14 Ağustos 2026</span><span>·</span><span>2 dk okuma</span>
+    </div>
+    <h1 class="serif">Yapay zekâ şirketleri filozof işe alıyor</h1>
+    <p class="summary">Etik, akıl yürütme ve güvenlik ekiplerinde felsefe eğitimli isimlere talep artıyor. Luciano Floridi, bölümlerden teknoloji şirketlerine geçişi "kanama" olarak tanımlıyor.</p>
+    <div class="chips"><a class="chip" href="#"><span class="avatar">LF</span>Luciano Floridi</a></div>
+    <div class="author">
+      <div class="pic"><img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=200&q=80" alt=""></div>
+      <div>
+        <div style="font-size:14px;font-weight:500">Dış Haberler Servisi</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:2px">Yurt dışı felsefe gündemini izler.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-wide"><img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80" alt=""></div>
+  <div class="credit">Temsilî görsel: Unsplash</div>
+
+  <div class="reading">
+    <div class="prose">
+      <p>Yapay zekâ yatırımlarının beklenmedik kazananlarından biri felsefe oldu. Teknoloji şirketleri etik, akıl yürütme ve yapay zekâ güvenliği alanlarında uzmanlık ararken, felsefe mezunlarına ve akademisyenlerine olan talep hızla artıyor.</p>
+
+      <h2>Rakamlar ne söylüyor?</h2>
+      <p>New York Federal Rezerv Bankası'nın verilerine göre 2024'te ABD'de felsefe mezunlarının işsizlik oranı <strong>yüzde 5,1</strong>, bilgisayar bilimleri mezunlarınınki ise <strong>yüzde 7</strong> olarak ölçüldü.</p>
+
+      <h2>"Kanama"</h2>
+      <p>Yale Üniversitesi'nden felsefe profesörü Luciano Floridi, akademisyenlerin felsefe bölümlerinden teknoloji sektörüne geçişini <em>kanama</em> sözcüğüyle tanımlıyor. Anthropic, Google DeepMind, IBM ve OpenAI gibi şirketler bugün ya doğrudan filozof istihdam ediyor ya da modellerinin tasarımına felsefi ilkeler yerleştiriyor.</p>
+
+      <h2>Felsefe modelin neresinde?</h2>
+      <p>Şirketlerin başvurduğu kaynaklar şaşırtıcı derecede klasik: Sokratik sorgulama, Kant ve Locke'un değer kuramları.</p>
+    </div>
+
+    <div class="source">
+      <div class="lbl">Kaynak</div>
+      <a href="https://philosophynow.org/issues/175/News_August_September_2026" target="_blank" rel="noopener">Philosophy Now, Sayı 175</a>
+      <small>Bu haber yukarıdaki kaynaktan derlenmiştir. Düzeltme talepleri için iletişime geçebilirsiniz.</small>
+    </div>
+
+    <div class="pills" style="margin-top:28px;padding-top:24px;border-top:1px solid var(--line)">
+      <span class="pill">Yapay Zekâ</span><span class="pill">Etik</span><span class="pill">Akademi</span>
+    </div>
+
+    <!-- yorumlar -->
+    <section style="margin-top:48px;border-top:1px solid var(--line);padding-top:32px">
+      <div class="sec"><h2 class="serif">Yorumlar</h2><span class="line"></span><span class="note">3</span></div>
+
+      <ul class="cmt-list">
+        <li>
+          <article class="cmt">
+            <div><span class="who">Deniz</span><time>14 Ağustos 2026 21:40</time></div>
+            <p>Floridi'nin "kanama" ifadesi çarpıcı ama bir yandan da felsefenin uygulama alanına açılması olumlu değil mi?</p>
+            <a class="reply" href="#">Yanıtla</a>
+          </article>
+          <ul class="sub">
+            <li>
+              <article class="cmt">
+                <div><span class="who">Anonim</span><time>15 Ağustos 2026 09:12</time></div>
+                <p>İkisi aynı anda doğru olabilir: bölümler küçülürken uygulama alanı büyüyor.</p>
+                <a class="reply" href="#">Yanıtla</a>
+              </article>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <article class="cmt">
+            <div><span class="who">Anonim</span><time>15 Ağustos 2026 11:03</time></div>
+            <p>Kant ve Locke'un değer kuramlarının model tasarımında kullanılması ilginç. Kaynak metinler nereden okunabilir?</p>
+            <a class="reply" href="#">Yanıtla</a>
+          </article>
+        </li>
+      </ul>
+
+      <form class="cmt-form" onsubmit="demoNotice(event,'cmtOk')">
+        <p style="font-family:Merriweather,serif;font-size:15.5px;font-weight:700">Yorum yazın</p>
+        <p class="hint" style="margin-top:6px">Üyelik gerekmez. Ad ve e-posta alanlarını boş bırakırsanız yorumunuz <strong>Anonim</strong> olarak yayımlanır. E-posta yayımlanmaz.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px">
+          <input class="field" type="text" placeholder="Adınız (isteğe bağlı)">
+          <input class="field" type="email" placeholder="E-posta (isteğe bağlı, yayımlanmaz)">
+        </div>
+        <textarea class="field" rows="5" placeholder="Düşünceniz…" required style="margin-top:10px;resize:vertical"></textarea>
+        <div style="margin-top:14px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+          <button class="btn round" type="submit">Yorumu gönder</button>
+          <span class="hint" style="margin:0">0/2000</span>
+          <span class="ok hidden" id="cmtOk" style="margin:0">Yorumunuz yayımlandı.</span>
+        </div>
+      </form>
+    </section>
+  </div>
+</main>
+
+<!-- ============ FİLOZOF PROFİLİ ============ -->
+<main id="view-profile" class="hidden">
+  <div class="wrap">
+    <div class="profile">
+      <span class="avatar">MS</span>
+      <div>
+        <span class="cat">Filozof</span>
+        <h1 class="serif">Michael Sandel</h1>
+        <p class="head">Siyaset felsefecisi — Harvard Üniversitesi</p>
+        <p class="m2">Harvard Üniversitesi · ABD · d. 1953</p>
+        <p class="bio">Adalet, piyasaların ahlaki sınırları ve liyakat tartışmalarıyla tanınıyor. Harvard'daki "Justice" dersi milyonlarca kişi tarafından izlendi. 2025 Berggruen Felsefe ve Kültür Ödülü'nün sahibi.</p>
+        <p class="m2" style="margin-top:16px">1 haber · <a href="#" style="color:var(--accent)">Resmî sayfa →</a></p>
+      </div>
+    </div>
+
+    <section style="padding:36px 0">
+      <div class="sec"><h2 class="serif">Haberler</h2><span class="line"></span></div>
+      <div class="cards" style="grid-template-columns:1fr 1fr 1fr">
+        <article class="card">
+          <div class="thumb"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt=""></div>
+          <div class="body">
+            <span class="cat">Ödüller</span>
+            <h3>Berggruen Felsefe ve Kültür Ödülü Michael Sandel'in</h3>
+            <p>1 milyon dolarlık ödülün dokuzuncu sahibi Harvard'lı siyaset felsefecisi oldu.</p>
+            <div class="by">Dış Haberler Servisi · 8 Ağustos 2026</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section style="padding:8px 0 36px">
+      <div class="sec"><h2 class="serif">Kitapları</h2><span class="line"></span></div>
+      <div class="books">
+        <article class="book">
+          <div class="cover"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&q=80" alt=""></div>
+          <div>
+            <h3>Adalet: Yapılması Gereken Doğru Şey Nedir?</h3>
+            <div class="orig">Justice: What's the Right Thing to Do?</div>
+            <div class="who">Michael Sandel</div>
+            <p>Sandel'in Harvard'daki ünlü dersinden doğan kitap; faydacılık, özgürlükçülük ve erdem etiği tartışmalarını güncel vakalarla ele alıyor.</p>
+            <div class="pub">Türkçe</div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- ============ İLETİŞİM ============ -->
+<main id="view-contact" class="hidden">
+  <div class="wrap">
+    <header style="border-bottom:2px solid var(--ink);padding:36px 0 20px">
+      <span class="cat">İletişim</span>
+      <h1 class="serif" style="font-size:34px;margin-top:10px">Bize yazın</h1>
+      <p style="margin-top:14px;color:var(--muted);max-width:44em;font-size:15px">Haber önerisi, etkinlik duyurusu, düzeltme talebi ya da iş birliği için aşağıdaki formu kullanabilir, dilerseniz doğrudan e-posta gönderebilirsiniz.</p>
+    </header>
+
+    <div class="contact-grid">
+      <form class="cmt-form" style="margin-top:0" onsubmit="demoNotice(event,'msgOk')">
+        <p style="font-family:Merriweather,serif;font-size:19px;font-weight:700">Mesaj gönderin</p>
+        <p class="hint" style="margin-top:8px">Mesajınız hem kaydedilir hem de e-posta olarak iletilir.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px">
+          <input class="field" type="text" placeholder="Adınız" required>
+          <input class="field" type="email" placeholder="E-posta adresiniz" required>
+        </div>
+        <input class="field" type="text" placeholder="Konu (isteğe bağlı)" style="margin-top:10px">
+        <textarea class="field" rows="7" placeholder="Mesajınız…" required style="margin-top:10px;resize:vertical"></textarea>
+        <div style="margin-top:16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+          <button class="btn round" type="submit">Mesajı gönder</button>
+          <span class="ok hidden" id="msgOk" style="margin:0">Mesajınız iletildi. En kısa sürede yanıtlayacağız.</span>
+        </div>
+      </form>
+
+      <aside style="display:grid;gap:16px;align-content:start">
+        <div class="info">
+          <div class="cat">E-posta</div>
+          <h3>info@felsefehaberleri.com</h3>
+          <p>Genellikle iki iş günü içinde yanıtlıyoruz.</p>
+        </div>
+        <div class="info">
+          <div class="cat">Etkinlik duyurusu</div>
+          <h3>Konferans ve seminerler</h3>
+          <p>Duyuru gönderirken başlık, tarih, yer ve kayıt bağlantısını eklemeniz yeterli.</p>
+        </div>
+        <div class="info">
+          <div class="cat">Düzeltme</div>
+          <h3>Hata bildirimi</h3>
+          <p>Haberin adresini ve doğru bilgiyi yazın; düzeltmeyi haberin içinde görünür biçimde yaparız.</p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="subs" style="margin-bottom:48px">
+      <div class="kick">Üyelik</div>
+      <h3>Yeni haberler e-postanıza gelsin</h3>
+      <p>Üye olun; yeni haberler yayımlandığında kısa bir bülten gönderelim. Ücretsiz, tek tıkla çıkabilirsiniz.</p>
+      <form onsubmit="demoNotice(event,'subsOk2')" style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+        <input class="field" type="text" placeholder="Adınız (isteğe bağlı)" style="width:180px">
+        <input class="field" type="email" placeholder="e-posta adresiniz" required style="flex:1;min-width:200px">
+        <button class="btn" type="submit">Üye ol</button>
+      </form>
+      <div class="ok hidden" id="subsOk2">Onay e-postası gönderildi.</div>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap cols">
+    <div>
+      <p class="logo">FELSEFE HABERLERİ</p>
+      <p class="desc">Çağdaş filozofların konuşmaları, açıklamaları, fikirleri ve yeni kitapları. Her haberin kaynağı künyesinde belirtilir.</p>
+      <h4 style="margin-top:20px">İletişim</h4>
+      <p style="margin-top:8px"><a href="mailto:info@felsefehaberleri.com" style="color:var(--accent);font-size:14px">info@felsefehaberleri.com</a></p>
+      <p style="margin-top:4px;font-size:14px;color:var(--ink-soft)">Mesaj gönderme formu →</p>
+    </div>
+    <div>
+      <h4>Bölümler</h4>
+      <ul><li>Gündem</li><li>Çağdaş Filozoflar</li><li>Türkiye</li><li>Dünya</li><li>Ödüller</li><li>Yeni Kitaplar</li></ul>
+    </div>
+    <div>
+      <h4>Geliştiriciler</h4>
+      <ul><li><code>/api/posts</code></li><li><code>/api/philosophers</code></li><li><code>/api/books</code></li></ul>
+    </div>
+  </div>
+  <div class="wrap copy">© 2026 Felsefe Haberleri — Haberler kaynak gösterilerek derlenir.</div>
+</footer>
+
+<script>
+  // --- tarih ---
+  document.getElementById('dateline').textContent =
+    new Intl.DateTimeFormat('tr-TR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })
+      .format(new Date());
+
+  // --- filozof portreleri (Wikimedia Commons, kamuya açık) ---
+  // Sıra: sol grup — Nietzsche (tam merkez) — sağ grup
+  var LEFT = [
+    ['Sokrates', 'Socrates_Louvre.jpg'],
+    ['Platon', 'Plato_Silanion_Musei_Capitolini_MC1377.jpg'],
+    ['Aristoteles', 'Aristotle_Altemps_Inv8575.jpg'],
+    ['Descartes', 'Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg'],
+    ['Hume', 'Painting_of_David_Hume.jpg'],
+    ['Spinoza', 'Spinoza.jpg']
+  ];
+  var CENTER = ['Nietzsche', 'Nietzsche187a.jpg'];
+  var RIGHT = [
+    ['Kant', 'Immanuel_Kant_(painted_portrait).jpg'],
+    ['Hegel', 'Hegel_portrait_by_Schlesinger_1831.jpg'],
+    ['Marx', 'Karl_Marx_001.jpg'],
+    ['Sartre', 'Jean-Paul_Sartre_FP.JPG'],
+    ['Hannah Arendt', 'Hannah_Arendt_1958_(cropped).jpg']
+  ];
+
+  function commons(file, width) {
+    return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + file + '?width=' + (width || 400);
+  }
+
+  function fill(container, list) {
+    list.forEach(function (t) {
+      var img = document.createElement('img');
+      img.src = commons(t[1]);
+      img.alt = t[0];
+      img.title = t[0];
+      // Yüklenmezse sessizce koyu doku bırak (isim yazılmaz).
+      img.onerror = function () {
+        var span = document.createElement('span');
+        span.style.cssText = 'flex:1;min-width:0;height:100%;background:radial-gradient(circle at 50% 35%,#3a342e,#1c1917)';
+        container.replaceChild(span, img);
+      };
+      container.appendChild(img);
+    });
+  }
+
+  fill(document.getElementById('bandLeft'), LEFT);
+  fill(document.getElementById('bandRight'), RIGHT);
+  var mid = document.getElementById('bandCenter');
+  mid.src = commons(CENTER[1], 520);
+  mid.alt = CENTER[0];
+  mid.title = CENTER[0];
+
+  // --- tema ---
+  var html = document.documentElement;
+  var btn = document.getElementById('themeBtn');
+  btn.addEventListener('click', function () {
+    var dark = html.classList.toggle('dark');
+    btn.textContent = dark ? '☀️' : '🌙';
+  });
+
+  // --- manşet slider ---
+  var track = document.getElementById('track');
+  var slides = track.children.length;
+  var dots = document.getElementById('dots');
+  var active = 0;
+
+  for (var i = 0; i < slides; i++) {
+    (function (index) {
+      var d = document.createElement('button');
+      d.className = 'dot' + (index === 0 ? ' on' : '');
+      d.setAttribute('aria-label', (index + 1) + '. manşet');
+      d.addEventListener('click', function () { go(index); });
+      dots.appendChild(d);
+    })(i);
+  }
+
+  function go(index) {
+    active = Math.max(0, Math.min(slides - 1, index));
+    track.scrollTo({ left: active * track.clientWidth, behavior: 'smooth' });
+  }
+
+  function paint() {
+    var kids = dots.children;
+    for (var i = 0; i < kids.length; i++) kids[i].className = 'dot' + (i === active ? ' on' : '');
+  }
+
+  track.addEventListener('scroll', function () {
+    active = Math.round(track.scrollLeft / track.clientWidth);
+    paint();
+  }, { passive: true });
+
+  document.getElementById('prev').addEventListener('click', function () { go(active - 1); });
+  document.getElementById('next').addEventListener('click', function () { go(active + 1); });
+
+  document.addEventListener('keydown', function (e) {
+    if (document.getElementById('view-home').classList.contains('hidden')) return;
+    if (e.key === 'ArrowRight') go(active + 1);
+    if (e.key === 'ArrowLeft') go(active - 1);
+  });
+
+  // --- form denemeleri (önizlemede gerçek gönderim yok) ---
+  function demoNotice(event, id) {
+    event.preventDefault();
+    var el = document.getElementById(id);
+    if (el) el.classList.remove('hidden');
+    event.target.reset();
+  }
+  window.demoNotice = demoNotice;
+
+  // --- görünüm sekmeleri ---
+  document.querySelectorAll('.tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      var view = tab.dataset.view;
+      ['home', 'article', 'profile', 'contact'].forEach(function (name) {
+        document.getElementById('view-' + name).classList.toggle('hidden', name !== view);
+      });
+      window.scrollTo(0, 0);
+    });
+  });
+</script>
+</body>
+</html>
