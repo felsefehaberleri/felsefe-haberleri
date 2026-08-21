@@ -1364,6 +1364,27 @@ export const philosophers: SeedPhilosopher[] = [
     majorWorks: "Sinik Aklın Eleştirisi (1983)\nKüreler üçlemesi (1998-2004)\nİnsanat Bahçesi İçin Kurallar (1999)\nSen Hayatını Değiştirmelisin (2009)",
     keyConcepts: "Küreler, Sinik akıl, Antropoteknik, Egzersiz ve terbiye",
   },
+  {
+    name: "Ahmet İnam",
+    slug: "ahmet-inam",
+    headline: "Mantık ve bilim felsefecisi — ODTÜ Felsefe Bölümü (emeritus)",
+    bio: "Mantık, bilim felsefesi ve bilgi kuramı başta olmak üzere geniş bir alanda çalışan filozof, şair ve çevirmen. Nietzsche ve Feyerabend çevirileriyle Türkçedeki felsefe diline katkı yaptı; 'gönül felsefesi' adını verdiği düşünsel yolculuğunu sürdürüyor.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1947,
+    affiliation: "Orta Doğu Teknik Üniversitesi (emeritus)",
+    website: "https://www.ahmetinam.com/",
+    featured: false,
+    listed: true,
+    birthDate: "1947",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Mantık, Bilim felsefesi, Bilgi kuramı, Felsefe tarihi, Kültür felsefesi, Ahlak felsefesi",
+    majorWorks: "Edmund Husserl'de Mantığın Yeri (doktora tezi, 1980)\nÇeviriler: Nietzsche — İyinin ve Kötünün Ötesinde\nÇeviriler: Nietzsche — Ahlakın Soykütüğü Üzerine\nÇeviriler: Paul Feyerabend — Yönteme Hayır",
+    keyConcepts: "Gönül felsefesi, Felsefi metin okuma, İnsanı bilim-sanat-din-kültür içinde kavramak",
+    influencedBy: "Husserl, Nietzsche, Heidegger, Kant",
+    sources: "ODTÜ Felsefe Bölümü — Ahmet İnam özgeçmiş — https://phil.metu.edu.tr/tr/ahmet-inam-ozgecmis\nAhmet İnam kişisel sitesi — https://www.ahmetinam.com/",
+  },
 ];
 
 
@@ -2937,6 +2958,296 @@ Harari'ye yönelik akademik eleştiriler genellikle iki başlıkta toplanıyor: 
 
 *Sapiens*, *Homo Deus*, *21. Yüzyıl İçin 21 Ders* ve *Nexus* Türkçeye çevrildi.`,
   },
+  {
+    title: "Ahmet İnam'ın YouTube dersleri: Türkiye'de felsefenin dijital hafızası",
+    slug: "ahmet-inam-youtube-dersleri-dijital-arsiv",
+    summary: "ODTÜ Felsefe Bölümü'nün emekli öğretim üyesi Ahmet İnam'ın metin okumaları, 2017'den bu yana bir YouTube kanalında kayda geçiyor. Ortaya çıkan şey bir video serisinden çok, felsefe yapma pratiğinin arşivi.",
+    coverImage: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "Ahmet İnam'ın YouTube dersleri ve Düşün Yolcuları arşivi",
+    metaDescription: "Ahmet İnam'ın YouTube'daki felsefi metin okumaları, Düşün Yolcuları geleneği ve Türkiye'de dijital felsefe arşivinin anlamı üzerine dosya.",
+    contentType: "ANALIZ",
+    sourceName: "ODTÜ Felsefe Bölümü · ahmetinam.com · YouTube",
+    sourceUrl: "https://www.ahmetinam.com/",
+    publishedAt: "2026-08-22T07:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "nietzsche", "fenomenoloji", "kavram"],
+    philosopherSlugs: ["ahmet-inam"],
+    sources: [
+      { title: "Ahmet İnam — Özgeçmiş", publisher: "ODTÜ Felsefe Bölümü", url: "https://phil.metu.edu.tr/tr/ahmet-inam-ozgecmis", primary: true },
+      { title: "Prof. Dr. Ahmet İnam'ın kişisel sayfası — Özgeçmiş", publisher: "ODTÜ", url: "https://users.metu.edu.tr/phil/ahmet-inam/ozgecmis.htm" },
+      { title: "Ahmet İnam — kişisel web sitesi", publisher: "ahmetinam.com", url: "https://www.ahmetinam.com/" },
+      { title: "Düşün Yolcuları Topluluğu", publisher: "ahmetinam.com", url: "https://www.ahmetinam.com/blog/dusun-yolculari-toplulugu" },
+      { title: "Yıldız Işık — YouTube kanalı", publisher: "YouTube", url: "https://www.youtube.com/@yldzisk8501" },
+    ],
+    content: `Türkiye'de felsefenin üniversite koridorlarının dışına taşınması bakımından dikkat çekici bir dijital arşiv, yıllardır sessizce büyüyor.
+
+Arşivin merkezinde ODTÜ Felsefe Bölümü'nün emekli öğretim üyesi Prof. Dr. Ahmet İnam ve onun sürdürdüğü felsefi metin okumaları var. YouTube'da **Yıldız Işık** adıyla yayın yapan ve \`@yldzisk8501\` adresinden erişilebilen kanal, 2017'den bu yana İnam'ın ders, metin okuma ve felsefi konuşmalarının önemli bir bölümünü kayıt altına alıyor.
+
+Kanalın arkasındaki yapı yalnızca bir içerik üretimi değil. İnam'ın kişisel sitesinde yer alan "Düşün Yolcuları Topluluğu" yazısına göre bu kayıtlar, 2002'den beri sürdürülen felsefi metin okumalarının dijital uzantısı.
+
+## Bir kanal değil, bir gelenek
+
+Düşün Yolcuları, İnam'la birlikte 2002'den itibaren felsefi metin okumalarını sürdüren gönüllü bir topluluk. Başlangıçta yüz yüze yapılan çalışmalar 2020'den sonra çevrimiçi devam etti.
+
+Topluluk, herhangi bir kurum ya da ticari yapı tarafından finanse edilen bir eğitim programı değil. Farklı mesleklerden ve yaş gruplarından insanların felsefi metinleri birlikte okumaya çalıştığı bir düşünce çevresi.
+
+YouTube kayıtlarının asıl önemi burada. Amaç bir konferansı belgelemek değil; **felsefe yapma pratiğinin kendisini** belgelemek.
+
+## "Filozof ne dedi" değil, "metin nasıl okunur"
+
+Bugün dijital ortamdaki felsefe içeriklerinin büyük bölümü özet mantığıyla kuruluyor: "Nietzsche'yi on dakikada anlayın", "Stoacılık nedir", "Kant'ın beş fikri". Felsefi düşünce, hızla tüketilebilir bilgiye dönüştürülüyor.
+
+İnam'ın kayıtlarındaki fark tam bu noktada. Burada felsefe, hızlı tüketilen bir bilgi değil; üzerinde uzun süre çalışılması gereken bir etkinlik.
+
+Kanalın erken kayıtlarından biri, Nietzsche'nin *Tragedyanın Doğuşu* üzerine yapılan ve on beş bölüme yayılan metin okumasından oluşuyor. İlk bölüm Nisan 2017'de yayımlandı.
+
+Böyle bir seri, YouTube'un olağan içerik mantığı açısından sıra dışı. Çünkü ölçüt izlenme süresi ya da viralleşme değil: **metinle kalabilmek**. Bir kavramın ne anlama geldiğini tartışmak, bir cümlenin öncesi ve sonrasıyla ilişkisini incelemek, bir terimin Türkçe karşılığının düşünsel sonuçlarını sorgulamak, bazen tek bir pasajda uzun süre durmak.
+
+## Ahmet İnam kimdir?
+
+1947 Sandıklı doğumlu İnam, 1971'de ODTÜ Elektrik Mühendisliği Bölümü'nü bitirdi. 1972'de İstanbul Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'ne doktora öğrencisi olarak girdi; tezini verinceye kadar aynı fakültede Latince ve Eski Yunanca derslerini izledi.
+
+1980'de, ana dalı Sistematik Felsefe ve Mantık, yardımcı dalı Eski Yunan Edebiyatı olmak üzere doktorasını tamamladı. Tezinin başlığı: **"Edmund Husserl'de Mantığın Yeri"**.
+
+Aynı yıl ODTÜ'ye girdi; 1981'de yardımcı doçent, 1983'te doçent, Nisan 1989'da profesör oldu. 16 Mayıs 1994 – 5 Haziran 2000 arasında ve ardından 2003'ten itibaren ODTÜ Felsefe Bölümü başkanlığı yaptı. 2014'te emekli oldu ve emekliliğinden sonra da ders vermeyi sürdürdü.
+
+İngilizcenin yanı sıra Almanca, Fransızca, Latince ve Eski Yunancadan okuma yapabiliyor.
+
+## Çeviriler: Nietzsche ve Feyerabend
+
+İnam'ın felsefe okumaları, Türkçedeki felsefe diline doğrudan katkı yapmış bir çevirmenin okumaları.
+
+Nietzsche'nin *İyinin ve Kötünün Ötesinde* ve *Ahlakın Soykütüğü Üzerine* kitapları ile Paul Feyerabend'in *Yönteme Hayır* adlı çalışması onun çevirisiyle Türkçeye kazandırıldı; bu çeviriler 1980'lerin sonu ile 1990'ların başında Ara Yayıncılık tarafından yayımlandı.
+
+Bu ayrıntı önemli. İnam'ın Nietzsche okumaları, Nietzsche hakkında konuşan bir akademisyenin yorumlarından ibaret değil; aynı metinlerle kurulmuş uzun süreli bir çeviri ve öğretim ilişkisinin devamı.
+
+## Ödüller
+
+Prof. Dr. Mustafa Parlar Vakfı 1995-1996 En İyi Eğitimci Ödülü, ODTÜ'nün 2000 yılı Üstün Akademik Başarı Ödülü ve Türkiye Yazarlar Birliği'nin 2003 yılı Yılın Fikiradamı ödülü İnam'ın aldığı ödüller arasında.
+
+## Arşivin değeri: üç açıdan
+
+**Pedagojik.** Videolar, bir felsefi metnin nasıl okunabileceğini gösteriyor. Öğrenci yalnızca sonuçtaki yorumu değil, yoruma ulaşma sürecini izliyor. Felsefe eğitiminin asıl güçlüğü çoğu zaman "filozof ne dedi" sorusu değil, "bu metin nasıl okunur" sorusudur.
+
+**Kültürel.** Türkiye'de akademik felsefenin önemli bir bölümü kitaplar, makaleler ve tezler içinde kalıyor. Video kayıtları bu üretime farklı bir erişim biçimi sağlıyor ve yakın dönem felsefe kültürünün sözlü tarihine malzeme oluşturuyor.
+
+**Arşivsel.** İnternette çok sayıda felsefe videosu var; ama sayı nitelikli arşiv anlamına gelmiyor. Düzenli sürdürülen, belirli bir yönteme dayanan, yıllara yayılan ve aynı topluluk tarafından üretilen arşivler nadir.
+
+## Gönül felsefesi
+
+İnam söz konusu olduğunda yalnızca uzmanlık alanlarından söz etmek yetmiyor. Onun düşüncesinde **gönül** kavramı merkezî bir yer tutuyor.
+
+Buradaki "gönül", aklın karşısına yerleştirilen duygusal bir alan değil. İnam'ın çerçevesinde felsefe; akıl, insan, yaşam, kültür, sanat, dil ve anlam sorunlarının birbirinden koparılmadığı geniş bir bütünlük içinde ele alınıyor. Kendi ifadesiyle amacı, "çağımızdaki insanı bilim, sanat, din ve kültür etkinlikleri içinde kavramaya çalışmak".
+
+Bu yüzden YouTube derslerinde de yalnızca teknik kavram çözümlemesi değil, felsefenin insanın yaşamıyla ilişkisi üzerine daha geniş bir soruşturma yürüyor.
+
+## Devam eden bir pratik
+
+İnam 2026 itibarıyla 79 yaşında ve yazmayı sürdürüyor. Kişisel sitesinde ağustos ayında yayımlanan yazıları arasında "Neredesin Nietzsche", "Hayat Taşır mı Hakikati" ve "Seksen Yaş Dörtlükleri" gibi başlıklar bulunuyor.
+
+Bu, arşivi yalnızca geçmişten kalan ders kayıtları olarak görmeyi güçleştiriyor. Karşımızda tamamlanmış bir kariyerin belgesi değil, **devam eden bir düşünme pratiğinin dijital kaydı** var.
+
+## Neden önemli?
+
+Türkiye'de felsefenin kamusal görünürlüğü son yıllarda YouTube, podcast ve sosyal medya sayesinde belirgin biçimde arttı. Ama bu gelişmenin bir paradoksu var: Felsefeye erişim kolaylaşırken, felsefi düşünce daha kısa, daha hızlı ve daha yüzeysel biçimlere indirgeniyor.
+
+İnam'ın kayıtları bu eğilime karşı farklı bir örnek. Yüzlerce dakikalık oturumlar tek bir filozofun tek bir metni, bazen tek bir kavramı üzerinde yoğunlaşabiliyor.
+
+Arşivin değeri "çok sayıda felsefe videosu bulunması" değil; **felsefenin yavaş yapılabileceğini göstermesi**. Bugünün hızlı tüketim kültüründe belki de en anlamlı felsefi direnç biçimlerinden biri bu.
+
+---
+
+### İzleme ve kaynaklar
+
+- Yıldız Işık — Ahmet İnam felsefe arşivi: [youtube.com/@yldzisk8501](https://www.youtube.com/@yldzisk8501)
+- Ahmet İnam'ın kişisel sitesi: [ahmetinam.com](https://www.ahmetinam.com/)
+- Düşün Yolcuları Topluluğu: [ahmetinam.com/blog/dusun-yolculari-toplulugu](https://www.ahmetinam.com/blog/dusun-yolculari-toplulugu)
+- ODTÜ Felsefe Bölümü özgeçmiş sayfası: [phil.metu.edu.tr](https://phil.metu.edu.tr/tr/ahmet-inam-ozgecmis)
+
+*Not: Kanalın içerik dökümü ve Düşün Yolcuları'nın çalışma biçimine ilişkin bilgiler, topluluğun kendi yayınlarına ve İnam'ın kişisel sitesine dayanmaktadır.*`,
+  },
+  {
+    title: "Agamben'in Heidegger defterleri kitaplaştı: Le Thor seminerleri",
+    slug: "agamben-le-thor-seminerleri-heidegger",
+    summary: "Giorgio Agamben'in 1966 ve 1968'de Heidegger'in Provence'taki Le Thor seminerlerinde tuttuğu notlar 'The Time of Thinking' adıyla yayımlandı. Zone Books da filozofun 'Profanations' derlemesini yeniden bastı.",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "Agamben'in Le Thor seminer notları kitap oldu",
+    metaDescription: "Giorgio Agamben'in Heidegger'le 1966 ve 1968 Le Thor seminerlerinde tuttuğu notlar The Time of Thinking adıyla yayımlandı.",
+    contentType: "HABER",
+    sourceName: "University of Chicago Press",
+    sourceUrl: "https://press.uchicago.edu/ucp/books/book/distributed/T/bo281230666.html",
+    publishedAt: "2026-08-22T08:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["yeni-kitap", "fenomenoloji", "siyaset-felsefesi"],
+    philosopherSlugs: ["giorgio-agamben"],
+    sources: [
+      { title: "The Time of Thinking: The Le Thor Seminars with Heidegger (1966 and 1968)", publisher: "University of Chicago Press", date: "2026", url: "https://press.uchicago.edu/ucp/books/book/distributed/T/bo281230666.html", primary: true },
+      { title: "Profanations", publisher: "Zone Books", date: "2026", url: "https://www.zonebooks.org/books/90-profanations" },
+    ],
+    content: `Giorgio Agamben'in yirmili yaşlarındayken tuttuğu defterler yayımlandı. *The Time of Thinking: The Le Thor Seminars with Heidegger (1966 and 1968)*, genç Agamben'in Martin Heidegger'in Provence'taki Le Thor köyünde düzenlediği iki seminerde aldığı notlardan oluşuyor.
+
+## Le Thor nedir?
+
+Heidegger, 1966, 1968 ve 1969 yıllarında Fransa'nın güneyinde, şair René Char'ın daveti üzerine küçük gruplarla seminerler yaptı. Katılımcı sayısı azdı; oturumlar bir bahçede ya da köy evinde, neredeyse özel dersler biçiminde geçiyordu.
+
+Agamben o sırada henüz yirmi dört yaşındaydı. Sonradan bu seminerlerin kendi düşüncesinin kurucu deneyimlerinden biri olduğunu söyleyecekti.
+
+## Neden önemli?
+
+Agamben'in olgun dönem çalışmaları — *Kutsal İnsan*, *İstisna Hâli*, *Tanık ve Arşiv* — siyaset felsefesi ve hukuk üzerine görünür. Ancak bu metinlerin altında yatan yöntem büyük ölçüde Heidegger'den gelir: Bir kavramın tarihini kazarak onun bugünkü işleyişini görünür kılmak.
+
+Le Thor notları, bu bağın nasıl kurulduğunu doğrudan gösteren birincil bir belge. Kitap, İtalyanca aslından İngilizceye çevrildi ve Chicago Üniversitesi Yayınları'nın dağıtımıyla çıktı.
+
+## İkinci kitap
+
+Zone Books da 2026 baharında Agamben'in *Profanations* derlemesini yeniden yayımladı. Kitap, filozofun fotoğraf, roman ve sinema üzerine yazdığı denemeleri bir araya getiriyor.
+
+Başlıktaki *profanation* (kutsallıktan çıkarma), Agamben'in kendi kavram dağarcığında özel bir yer tutuyor: Bir şeyi kutsal alandan çekip yeniden ortak kullanıma açmak. Agamben'e göre çağdaş kapitalizm bunun tersini yapıyor — her şeyi tüketime açarken, hiçbir şeyi gerçekten kullanılabilir bırakmıyor.
+
+## Türkçedeki Agamben
+
+*Kutsal İnsan*, *İstisna Hâli*, *Tanık ve Arşiv*, *Çıplaklıklar* ve *Nesir Fikri* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Catherine Malabou'ya Leiden'den fahri doktora: 'Koşulsuzun plastisitesi'",
+    slug: "catherine-malabou-leiden-fahri-doktora",
+    summary: "Fransız filozof, 9 Şubat 2026'da Leiden Üniversitesi'nden fahri doktora aldı. Ertesi gün verdiği açık derste Derrida'nın 'koşulsuz üniversite' fikrinden yola çıkarak bugünün üniversitesini tartıştı.",
+    coverImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Catherine Malabou'ya Leiden Üniversitesi'nden fahri doktora",
+    metaDescription: "Catherine Malabou 9 Şubat 2026'da Leiden'den fahri doktora aldı; 'On the Plasticity of the Unconditional' başlıklı açık dersi verdi.",
+    contentType: "HABER",
+    sourceName: "Leiden Üniversitesi Felsefe Enstitüsü",
+    sourceUrl: "https://www.universiteitleiden.nl/en/events/2026/02/institute-for-philosophy-prof.-malabou-on-the-plasticity-of-the-unconditional",
+    publishedAt: "2026-08-22T09:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["akademi", "kavram", "konferans"],
+    philosopherSlugs: ["catherine-malabou"],
+    sources: [
+      { title: "Prof. Catherine Malabou — On the Plasticity of the Unconditional", publisher: "Leiden Üniversitesi Felsefe Enstitüsü", date: "9-10 Şubat 2026", url: "https://www.universiteitleiden.nl/en/events/2026/02/institute-for-philosophy-prof.-malabou-on-the-plasticity-of-the-unconditional", primary: true },
+    ],
+    content: `Fransız filozof Catherine Malabou, 9 Şubat 2026'da Leiden Üniversitesi'nden *doctor honoris causa* unvanı aldı. Ertesi gün üniversitenin Felsefe Enstitüsü'nde halka açık bir ders verdi: *"On the Plasticity of the Unconditional"*.
+
+## Dersin çıkış noktası
+
+Malabou konuşmasını Jacques Derrida'nın *Koşulsuz Üniversite* metninden başlatıp ona karşı geliştirdi. Derrida bu metinde üniversiteyi, hiçbir dış koşula boyun eğmeden her şeyi sorgulayabilme hakkına sahip bir kurum olarak tanımlamıştı: Üniversite, "koşulsuz direniş"in yeriydi.
+
+Malabou'nun sorusu şu: Bugünün üniversitesi — performans ölçütleri, proje fonları, sıralamalar ve piyasa baskısı altındaki üniversite — böyle bir koşulsuzluğu hâlâ taşıyabilir mi? Yoksa koşulsuzluğun kendisi mi biçim değiştirmek zorunda?
+
+## Plastisite
+
+Malabou'nun otuz yıldır işlediği kavram **plastisite**. Sözcük iki yönlü: Plastik olan hem biçim alır hem biçim verir — ve plastik patlayıcıda olduğu gibi biçimi yok da edebilir.
+
+Malabou kavramı önce Hegel okumasından çıkardı (*Hegel'in Geleceği*, 1996), sonra sinirbilimle buluşturdu (*Beynimizle Ne Yapmalı?*, 2004). Beynin plastik olması, yani deneyimle yeniden şekillenmesi, ona göre yalnızca biyolojik bir olgu değil; siyasal bir soru. Çünkü "esneklik" (flexibility) ile "plastisite" aynı şey değildir: Esneklik yalnızca dışarıdan gelen biçime uyum sağlar, plastisite biçim verme gücünü de içerir.
+
+Neoliberal çalışma kültürünün insandan istediği şey esneklik; Malabou'nun savunduğu ise plastisite.
+
+## Yıkıcı plastisite
+
+Malabou'nun üçüncü katmanı *yıkıcı plastisite*: Bir kaza, travma ya da hastalık sonrasında ortaya çıkan ve eskisiyle sürekliliği olmayan yeni bir kimlik. *Ontology of the Accident* (2009) bu tabloyu işler — psikanalizin "bastırılan geri döner" şemasına karşı, geri dönmeyen, tamamen kopan bir dönüşüm fikri.
+
+## Türkçedeki Malabou
+
+*Beynimizle Ne Yapmalı?* ve *Kaza Ontolojisi* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Sloterdijk'ten Avrupa kitabı: 'Nitelikleri Olmayan Kıta'",
+    slug: "sloterdijk-nitelikleri-olmayan-kita",
+    summary: "Alman filozofun Avrupa üzerine denemeleri, Robert Hughes çevirisiyle Polity'den İngilizce olarak yayımlandı. Başlık, Musil'in ünlü romanına açık bir gönderme taşıyor.",
+    coverImage: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Peter Sloterdijk'in yeni kitabı: The Continent Without Qualities",
+    metaDescription: "Peter Sloterdijk'in Avrupa üzerine kitabı The Continent Without Qualities, Polity tarafından 2026'da yayımlandı.",
+    contentType: "HABER",
+    sourceName: "Polity / Progressive Geographies",
+    sourceUrl: "https://progressivegeographies.com/category/people/peter-sloterdijk/",
+    publishedAt: "2026-08-22T10:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["yeni-kitap", "siyaset-felsefesi", "ceviri"],
+    philosopherSlugs: ["peter-sloterdijk"],
+    sources: [
+      { title: "Peter Sloterdijk — The Continent Without Qualities: Bookmarks in the Book of Europe", publisher: "Polity / Progressive Geographies", date: "2026", url: "https://progressivegeographies.com/category/people/peter-sloterdijk/", primary: true },
+    ],
+    content: `Peter Sloterdijk'in Avrupa üzerine denemeleri, *The Continent Without Qualities: Bookmarks in the Book of Europe* adıyla Polity tarafından yayımlandı. Kitabı İngilizceye Robert Hughes çevirdi.
+
+## Başlıktaki gönderme
+
+*Nitelikleri Olmayan Kıta* başlığı, Robert Musil'in *Niteliksiz Adam* romanına doğrudan gönderme yapıyor. Musil'in kahramanı Ulrich, hangi hayatı yaşayacağına karar veremeyen, olasılıklar arasında askıda kalmış bir figürdü.
+
+Sloterdijk aynı askıda kalışı kıtaya taşıyor: Avrupa, kendini ne olarak tanımlayacağını bilemeyen bir siyasal özne. Kitabın alt başlığındaki "kitap ayraçları" imgesi de bu belirsizliği anlatıyor — Avrupa'nın tarihi, kapanmamış bir kitapta bırakılmış işaretler dizisi gibi okunuyor.
+
+## Sloterdijk'in yeri
+
+1947 doğumlu Sloterdijk, adını 1983 tarihli *Sinik Aklın Eleştirisi* ile duyurdu. Kitap, Frankfurt Okulu'nun ideoloji eleştirisine önemli bir itiraz getiriyordu: Çağdaş özne yanılmıyor, biliyor — ve yine de öyle davranmayı sürdürüyor. Bu tutuma Sloterdijk *sinizm* diyordu.
+
+Sonraki büyük çalışması, 1998-2004 arasında yayımlanan üç ciltlik *Küreler*'dir. Sloterdijk burada insanın her zaman bir "içeride" — bir kürede, bir kabarcıkta, bir bağışıklık alanında — yaşadığını savunur. Modernlik, bu koruyucu kürelerin patlaması olarak okunur.
+
+1999 tarihli *İnsanat Bahçesi İçin Kurallar* konuşması ise Almanya'da sert bir tartışma başlatmış; Sloterdijk ile Jürgen Habermas arasındaki mesafe bu vesileyle kamuoyuna taşınmıştı.
+
+## Türkçedeki Sloterdijk
+
+*Sinik Aklın Eleştirisi*, *Kapitalist Dünyanın İç-Evreninde*, *İnsanat Bahçesi İçin Kurallar* ve *Derrida, Bir Mısırlı* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Appiah'a Yale'den fahri doktora; yeni kitabı 'Captive Gods' çıktı",
+    slug: "appiah-yale-fahri-doktora-captive-gods",
+    summary: "New York Üniversitesi'nden filozof, Yale'in 325. mezuniyet töreninde Beşerî Bilimler Doktoru unvanı aldı. Din ile sosyal bilimlerin doğuşunu ele alan yeni kitabı Yale University Press'ten yayımlandı.",
+    coverImage: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Kwame Anthony Appiah'a Yale'den fahri doktora ve yeni kitabı Captive Gods",
+    metaDescription: "Kwame Anthony Appiah, Yale'in 2026 mezuniyet töreninde fahri doktora aldı; yeni kitabı Captive Gods yayımlandı.",
+    contentType: "HABER",
+    sourceName: "Yale Üniversitesi",
+    sourceUrl: "https://yale2026.yale.edu/hd-recipients/kwame-anthony-appiah/",
+    publishedAt: "2026-08-22T11:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["odul", "yeni-kitap", "etik", "akademi"],
+    philosopherSlugs: ["kwame-anthony-appiah"],
+    sources: [
+      { title: "Kwame Anthony Appiah, Doctor of Humanities — Yale 2026", publisher: "Yale Üniversitesi", date: "2026", url: "https://yale2026.yale.edu/hd-recipients/kwame-anthony-appiah/", primary: true },
+      { title: "Captive Gods", publisher: "Yale University Press", url: "https://yalebooks.yale.edu/book/9780300233063/captive-gods/" },
+      { title: "Book review: Captive Gods: Religion and the rise of social science", publisher: "Church Times", date: "6 Şubat 2026", url: "https://www.churchtimes.co.uk/articles/2026/6-february/books-arts/book-reviews/book-review-captive-gods-religion-and-the-rise-of-social-science-by-kwame-anthony-appiah" },
+    ],
+    content: `Kwame Anthony Appiah, Yale Üniversitesi'nin 325. mezuniyet töreninde Beşerî Bilimler Doktoru (Doctor of Humanities) fahri unvanını aldı.
+
+Üniversite Rektörü Maurie McInnis'in okuduğu gerekçe metni, filozofun temel savını iki cümlede özetliyordu: Appiah'ın çalışmaları, "milliyet, din ve gelenek fikirlerinin bizi ayıran duvarlar değil, konuşmanın başlangıç noktaları olduğunu" göstermiştir. Metin onu "kozmopolit haritacı" olarak nitelendirdi.
+
+## Yale'e dönüş
+
+Bağın kendisi eski. Appiah, Cambridge'deki doktorasını tamamlarken Yale'den ortak kadro teklifi almış; Henry Louis Gates Jr.'ın teşvikiyle üniversitenin Felsefe ile Afrika ve Afrikalı Amerikalı Çalışmaları bölümlerine katılmıştı. İkili daha sonra Afrika ve Afrikalı Amerikalı kültürü üzerine kapsamlı bir başvuru kaynağı olan *Africana* projesinde birlikte çalıştı.
+
+Appiah bugün New York Üniversitesi'nde Silver Felsefe ve Hukuk Profesörü. Cornell, Duke, Harvard ve Princeton'da da görev yaptı.
+
+## Yeni kitap: Captive Gods
+
+Appiah'ın yeni kitabı *Captive Gods: Religion and the Rise of Social Science*, Yale University Press'ten yayımlandı; Church Times kitabı şubat ayında değerlendirdi.
+
+Kitap, sosyal bilimlerin doğuşu ile din arasındaki ilişkiyi ele alıyor. On dokuzuncu yüzyılda antropoloji, sosyoloji ve din bilimleri kurulurken "din" kavramının kendisi de bu disiplinler tarafından biçimlendirildi. Appiah bu karşılıklı kuruluşu izliyor.
+
+## Kozmopolitanizm
+
+Appiah'ın en bilinen kitabı 2006 tarihli *Cosmopolitanism*. Oradaki öneri, evrenselcilik ile kültürel görecelik arasındaki kısır tartışmadan çıkmaya çalışır: İnsanlar her yerde aynı değerlere sahip değildir; ama bu, birbirlerini anlayamayacakları anlamına gelmez. Kozmopolitanizm, tam anlaşma vaadi değil, konuşmayı sürdürme yükümlülüğüdür.
+
+Babasının kendisine ve kardeşlerine verdiği öğüdü sık aktarır: "Dünyanın yurttaşı olduğunuzu unutmayın."
+
+## Ödüller ve görevler
+
+Appiah, 2007'de Arthur Ross Kitap Ödülü'nü, 2012'de Başkan Barack Obama'dan Ulusal Beşerî Bilimler Madalyası'nı, 2022'de Cambridge Üniversitesi'nden fahri doktorayı ve son olarak Kongre Kütüphanesi'nin Kluge Ödülü'nü aldı. Amerikan Felsefe Derneği Doğu Şubesi ile Modern Diller Derneği başkanlığı yaptı; hâlen Amerikan Sanat ve Edebiyat Akademisi başkanı.
+
+*The New York Times Magazine*'de on yıldır yazdığı *The Ethicist* köşesi, felsefeyi gündelik ahlaki ikilemler üzerinden geniş bir okur kitlesine ulaştırıyor.`,
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -3103,6 +3414,54 @@ export const books: SeedBook[] = [
     link: null,
     philosopherSlug: "jurgen-habermas",
     postSlug: "jurgen-habermas-1929-2026",
+  },
+  {
+    title: "The Time of Thinking: The Le Thor Seminars with Heidegger (1966 and 1968)",
+    slug: "the-time-of-thinking-le-thor",
+    originalTitle: null,
+    publisher: "University of Chicago Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Giorgio Agamben'in, Heidegger'in Provence'taki Le Thor seminerlerinde (1966 ve 1968) tuttuğu notlar. Genç Agamben'in düşüncesinin kuruluşunu gösteren birincil bir belge.",
+    year: 2026,
+    link: "https://press.uchicago.edu/ucp/books/book/distributed/T/bo281230666.html",
+    philosopherSlug: "giorgio-agamben",
+    postSlug: "agamben-le-thor-seminerleri-heidegger",
+  },
+  {
+    title: "The Continent Without Qualities: Bookmarks in the Book of Europe",
+    slug: "the-continent-without-qualities",
+    originalTitle: null,
+    publisher: "Polity",
+    translator: "Robert Hughes (İngilizce çeviri)",
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Peter Sloterdijk'in Avrupa üzerine denemeleri. Başlık, Robert Musil'in 'Niteliksiz Adam' romanına gönderme yapıyor: kendini ne olarak tanımlayacağını bilemeyen bir kıta.",
+    year: 2026,
+    link: null,
+    philosopherSlug: "peter-sloterdijk",
+    postSlug: "sloterdijk-nitelikleri-olmayan-kita",
+  },
+  {
+    title: "Captive Gods: Religion and the Rise of Social Science",
+    slug: "captive-gods",
+    originalTitle: null,
+    publisher: "Yale University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Kwame Anthony Appiah, sosyal bilimlerin doğuşu ile din arasındaki karşılıklı kuruluşu inceliyor: On dokuzuncu yüzyılda disiplinler kurulurken 'din' kavramının kendisi de yeniden biçimlendi.",
+    year: 2026,
+    link: "https://yalebooks.yale.edu/book/9780300233063/captive-gods/",
+    philosopherSlug: "kwame-anthony-appiah",
+    postSlug: "appiah-yale-fahri-doktora-captive-gods",
   },
 ];
 
