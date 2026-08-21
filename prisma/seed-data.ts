@@ -206,6 +206,12 @@ export const tags: SeedTag[] = [
   { name: "Konferans", slug: "konferans" },
   { name: "Söyleşi", slug: "soylesi" },
   { name: "Zihin Felsefesi", slug: "zihin-felsefesi" },
+  { name: "Din Felsefesi", slug: "din-felsefesi" },
+  { name: "Mantık", slug: "mantik" },
+  { name: "Bilim Felsefesi", slug: "bilim-felsefesi" },
+  { name: "Rönesans", slug: "ronesans" },
+  { name: "İslam Felsefesi", slug: "islam-felsefesi" },
+  { name: "Postmodernizm", slug: "postmodernizm" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -2251,7 +2257,7 @@ Doğa felsefesi, çevre felsefesi ve yeni materyalizm tartışmalarıyla; özgü
     contentType: "HABER",
     sourceName: "Associated Press / PBS News",
     sourceUrl: "https://www.pbs.org/newshour/world/influential-german-philosopher-jurgen-habermas-dies-at-96",
-    publishedAt: "2026-08-21T07:00:00.000Z",
+    publishedAt: "2026-08-20T21:00:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "filozoflar-hakkinda",
     tagSlugs: ["vefat", "elestirel-teori", "demokrasi", "siyaset-felsefesi"],
@@ -2307,7 +2313,7 @@ Eşi Ute Habermas-Wesselhoeft geçen yıl ölmüştü. Çiftin üç çocuğu old
     contentType: "ANALIZ",
     sourceName: "Daily Nous",
     sourceUrl: "https://dailynous.com/2025/05/22/alasdair-macintyre-1929-2025/",
-    publishedAt: "2026-08-21T08:00:00.000Z",
+    publishedAt: "2026-08-20T18:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "filozoflar-hakkinda",
     tagSlugs: ["etik", "vefat", "kavram"],
@@ -2356,7 +2362,7 @@ Eleştirmenleri, MacIntyre'ın modernlik tablosunu fazla karanlık çizdiğini v
     contentType: "HABER",
     sourceName: "LSE Review of Books · Bloomsbury",
     sourceUrl: "https://blogs.lse.ac.uk/lsereviewofbooks/2026/01/21/book-review-against-progress-zero-point-slavoj-zizek/",
-    publishedAt: "2026-08-21T09:00:00.000Z",
+    publishedAt: "2026-08-20T20:00:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "yeni-kitaplar",
     tagSlugs: ["yeni-kitap", "marksizm", "siyaset-felsefesi", "psikanaliz"],
@@ -2397,7 +2403,7 @@ Bloomsbury, filozofun *Žižek's Essays* dizisinden çıkacak *Signs from the Fu
     contentType: "HABER",
     sourceName: "OfficeChai · ABC News",
     sourceUrl: "https://officechai.com/ai/david-chalmers-raises-provocative-questions-about-ai-consciousness-in-new-paper/",
-    publishedAt: "2026-08-21T10:00:00.000Z",
+    publishedAt: "2026-08-20T19:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi"],
@@ -2441,7 +2447,7 @@ Chalmers'ın konumu ise tanıdık: Bilincin zor problemi, yapay zekâ söz konus
     contentType: "HABER",
     sourceName: "Erasmus Üniversitesi Felsefe Fakültesi",
     sourceUrl: "https://www.eur.nl/en/esphil/news/yuk-hui-publishes-new-book-kant-machine",
-    publishedAt: "2026-08-21T11:00:00.000Z",
+    publishedAt: "2026-08-20T18:30:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "yeni-kitaplar",
     tagSlugs: ["yeni-kitap", "yapay-zeka", "teknoloji-felsefesi", "kant"],
@@ -2482,7 +2488,7 @@ Bu bakış, yapay zekâ tartışmasına da bir itiraz taşıyor: Tek bir "yapay 
     contentType: "HABER",
     sourceName: "Inamori Vakfı",
     sourceUrl: "https://www.newswise.com/articles/multimedia-artist-laurie-anderson-to-receive-2026-kyoto-prize-in-arts-and-philosophy",
-    publishedAt: "2026-08-21T12:00:00.000Z",
+    publishedAt: "2026-08-20T14:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "oduller",
     tagSlugs: ["odul"],
@@ -2520,7 +2526,7 @@ Kyoto Ödülü'nün "Sanat ve Felsefe" dalı, felsefe camiası için önemli bir
     contentType: "HABER",
     sourceName: "Holberg Ödülü · Oxford Üniversitesi",
     sourceUrl: "https://www.ox.ac.uk/news/2026-03-17-oxford-historian-named-2026-holberg-prize-laureate",
-    publishedAt: "2026-08-21T12:30:00.000Z",
+    publishedAt: "2026-08-20T14:00:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "oduller",
     tagSlugs: ["odul", "akademi", "tarih"],
@@ -2556,7 +2562,7 @@ Roper'ın Reform dönemi çalışmaları, modern öznellik kavramının kökenle
     contentType: "HABER",
     sourceName: "Uehiro Oxford Enstitüsü",
     sourceUrl: "https://www.uehiro.ox.ac.uk/2026-lectures-miranda-fricker",
-    publishedAt: "2026-08-21T13:00:00.000Z",
+    publishedAt: "2026-08-20T17:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["epistemoloji", "etik", "konferans", "akademi"],
@@ -2596,7 +2602,7 @@ Fricker 2026'da Columbia Üniversitesi'nin John Dewey Konferansları'nı da verd
     contentType: "HABER",
     sourceName: "Lund Üniversitesi Pufendorf Konferansları",
     sourceUrl: "https://www.fil.lu.se/pufendorf/lectures/2026-elizabeth-anderson/",
-    publishedAt: "2026-08-21T13:30:00.000Z",
+    publishedAt: "2026-08-20T17:00:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["siyaset-felsefesi", "demokrasi", "konferans"],
@@ -2634,7 +2640,7 @@ Dizi, adını on yedinci yüzyıl doğal hukuk kuramcısı Samuel von Pufendorf'
     contentType: "HABER",
     sourceName: "Oxford Üniversitesi · PhilEvents",
     sourceUrl: "https://www.philosophy.ox.ac.uk/people/timothy-williamson",
-    publishedAt: "2026-08-21T14:00:00.000Z",
+    publishedAt: "2026-08-20T16:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "dunya",
     tagSlugs: ["epistemoloji", "akademi", "konferans"],
@@ -2676,7 +2682,7 @@ Williamson'ın diğer ünlü tezi belirsizlik (vagueness) üzerine. *Vagueness* 
     contentType: "HABER",
     sourceName: "Al Jazeera",
     sourceUrl: "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/1/25/cornel-west-us-is-facing-moral-collapse-and-democratic-decay",
-    publishedAt: "2026-08-21T14:30:00.000Z",
+    publishedAt: "2026-08-20T16:00:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["siyaset-felsefesi", "demokrasi", "soylesi"],
@@ -2716,7 +2722,7 @@ West, Union Theological Seminary'de Dietrich Bonhoeffer Felsefe ve Hıristiyan P
     contentType: "ANALIZ",
     sourceName: "Bulgar Telgraf Ajansı (BTA)",
     sourceUrl: "https://www.bta.bg/en/news/archives/1153750-june-24-2026-world-famous-french-bulgarian-philosopher-julia-kristeva-turns-85",
-    publishedAt: "2026-08-21T15:00:00.000Z",
+    publishedAt: "2026-08-20T15:30:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["psikanaliz", "toplumsal-cinsiyet", "kavram"],
@@ -2765,7 +2771,7 @@ Kavram, edebiyat eleştirisinden korku sinemasına, milliyetçilik çözümlemel
     contentType: "HABER",
     sourceName: "UCLA Karşılaştırmalı Edebiyat Bölümü",
     sourceUrl: "https://complit.ucla.edu/news/professor-reinhard-alain-badiou/",
-    publishedAt: "2026-08-21T15:30:00.000Z",
+    publishedAt: "2026-08-20T15:00:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["sinema", "siyaset-felsefesi"],
@@ -2803,7 +2809,7 @@ Felsefe belgeselleri son yıllarda festivallerde giderek daha çok yer buluyor. 
     contentType: "HABER",
     sourceName: "Daily Nous",
     sourceUrl: "https://dailynous.com/2026/08/13/philosophy-journal-publishes-largely-ai-authored-article-on-purpose-guest-post/",
-    publishedAt: "2026-08-21T16:00:00.000Z",
+    publishedAt: "2026-08-20T20:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "gundem",
     tagSlugs: ["yapay-zeka", "akademi", "dergi", "etik"],
@@ -2845,7 +2851,7 @@ Sitemizde daha önce yer verdiğimiz *"Yapay zekâ şirketleri filozof işe alı
     contentType: "HABER",
     sourceName: "Daily Nous",
     sourceUrl: "https://dailynous.com/2026/07/05/nyt-the-revenge-of-the-philosophy-major/",
-    publishedAt: "2026-08-21T16:30:00.000Z",
+    publishedAt: "2026-08-20T13:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "dunya",
     tagSlugs: ["akademi", "yapay-zeka"],
@@ -2886,7 +2892,7 @@ Yani felsefenin "değeri" yükselirken, felsefe bölümlerinin bütçesi aynı y
     contentType: "HABER",
     sourceName: "The New School · Student Life (WashU)",
     sourceUrl: "https://event.newschool.edu/contemporaryfascistpassions",
-    publishedAt: "2026-08-21T17:00:00.000Z",
+    publishedAt: "2026-08-20T19:00:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["toplumsal-cinsiyet", "siyaset-felsefesi", "konferans"],
@@ -2929,7 +2935,7 @@ Bu tez, otuz beş yıldır hem feminist kuramın hem de eleştirmenlerinin başv
     contentType: "HABER",
     sourceName: "Book Notification · NewBooksAlert",
     sourceUrl: "https://www.booknotification.com/authors/yuval-noah-harari/",
-    publishedAt: "2026-08-21T17:30:00.000Z",
+    publishedAt: "2026-08-20T13:00:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "yeni-kitaplar",
     tagSlugs: ["yeni-kitap", "tarih"],
@@ -2970,7 +2976,7 @@ Harari'ye yönelik akademik eleştiriler genellikle iki başlıkta toplanıyor: 
     contentType: "ANALIZ",
     sourceName: "ODTÜ Felsefe Bölümü · ahmetinam.com · YouTube",
     sourceUrl: "https://www.ahmetinam.com/",
-    publishedAt: "2026-08-22T07:00:00.000Z",
+    publishedAt: "2026-08-20T23:30:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "turkiye",
     tagSlugs: ["akademi", "nietzsche", "fenomenoloji", "kavram"],
@@ -3081,7 +3087,7 @@ Arşivin değeri "çok sayıda felsefe videosu bulunması" değil; **felsefenin 
     contentType: "HABER",
     sourceName: "University of Chicago Press",
     sourceUrl: "https://press.uchicago.edu/ucp/books/book/distributed/T/bo281230666.html",
-    publishedAt: "2026-08-22T08:00:00.000Z",
+    publishedAt: "2026-08-20T23:00:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["yeni-kitap", "fenomenoloji", "siyaset-felsefesi"],
@@ -3126,7 +3132,7 @@ Başlıktaki *profanation* (kutsallıktan çıkarma), Agamben'in kendi kavram da
     contentType: "HABER",
     sourceName: "Leiden Üniversitesi Felsefe Enstitüsü",
     sourceUrl: "https://www.universiteitleiden.nl/en/events/2026/02/institute-for-philosophy-prof.-malabou-on-the-plasticity-of-the-unconditional",
-    publishedAt: "2026-08-22T09:00:00.000Z",
+    publishedAt: "2026-08-20T22:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["akademi", "kavram", "konferans"],
@@ -3170,7 +3176,7 @@ Malabou'nun üçüncü katmanı *yıkıcı plastisite*: Bir kaza, travma ya da h
     contentType: "HABER",
     sourceName: "Polity / Progressive Geographies",
     sourceUrl: "https://progressivegeographies.com/category/people/peter-sloterdijk/",
-    publishedAt: "2026-08-22T10:00:00.000Z",
+    publishedAt: "2026-08-20T22:00:00.000Z",
     authorSlug: "kultur-servisi",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["yeni-kitap", "siyaset-felsefesi", "ceviri"],
@@ -3210,7 +3216,7 @@ Sonraki büyük çalışması, 1998-2004 arasında yayımlanan üç ciltlik *Kü
     contentType: "HABER",
     sourceName: "Yale Üniversitesi",
     sourceUrl: "https://yale2026.yale.edu/hd-recipients/kwame-anthony-appiah/",
-    publishedAt: "2026-08-22T11:00:00.000Z",
+    publishedAt: "2026-08-20T21:30:00.000Z",
     authorSlug: "dis-haberler",
     categorySlug: "cagdas-filozoflar",
     tagSlugs: ["odul", "yeni-kitap", "etik", "akademi"],
@@ -3247,6 +3253,451 @@ Babasının kendisine ve kardeşlerine verdiği öğüdü sık aktarır: "Dünya
 Appiah, 2007'de Arthur Ross Kitap Ödülü'nü, 2012'de Başkan Barack Obama'dan Ulusal Beşerî Bilimler Madalyası'nı, 2022'de Cambridge Üniversitesi'nden fahri doktorayı ve son olarak Kongre Kütüphanesi'nin Kluge Ödülü'nü aldı. Amerikan Felsefe Derneği Doğu Şubesi ile Modern Diller Derneği başkanlığı yaptı; hâlen Amerikan Sanat ve Edebiyat Akademisi başkanı.
 
 *The New York Times Magazine*'de on yıldır yazdığı *The Ethicist* köşesi, felsefeyi gündelik ahlaki ikilemler üzerinden geniş bir okur kitlesine ulaştırıyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 6 Ağustos: Theodor Adorno'nun ölümü",
+    slug: "felsefe-tarihinde-bugun-6-agustos-adorno",
+    summary: "Frankfurt Okulu'nun en tanınan ismi Theodor W. Adorno, 6 Ağustos 1969'da İsviçre'de öldü. Aynı gün 1638'de Nicolas Malebranche doğmuştu.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "6 Ağustos: Theodor Adorno'nun ölümü",
+    metaDescription: "Theodor W. Adorno 6 Ağustos 1969'da öldü. Kültür endüstrisi, negatif diyalektik ve Aydınlanmanın Diyalektiği.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-06T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "elestirel-teori", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `Theodor W. Adorno, 6 Ağustos 1969'da İsviçre'de, tatildeyken geçirdiği kalp krizi sonucu hayatını kaybetti. Altmış beş yaşındaydı.
+
+## Kültür endüstrisi
+
+Adorno'nun en çok dolaşan kavramı, Max Horkheimer ile birlikte yazdıkları *Aydınlanmanın Diyalektiği*'nde (1944) geçen **kültür endüstrisi**dir.
+
+Kavramın çıkış noktası basit ama sarsıcıdır: Kitle kültürü halktan kendiliğinden doğmaz; sanayi ürünü gibi üretilir, standartlaştırılır ve dağıtılır. Sinema, radyo ve popüler müzik farklı ürünler sunuyormuş gibi görünürken aslında aynı şemayı tekrar eder. Adorno'ya göre buradaki sorun "kalitesizlik" değil, tüketicinin kendi tercihini yaptığını sanırken seçeneklerin çoktan belirlenmiş olmasıdır.
+
+## Aydınlanmanın kendine dönmesi
+
+*Aydınlanmanın Diyalektiği*'nin ana tezi daha da rahatsız edicidir: Aydınlanma, insanı mitten kurtarmak için doğaya hükmetmeyi öğretti; ama bu hükmetme aklı, sonunda insanın kendisine de yöneldi. Akıl, amaçları tartışan bir yeti olmaktan çıkıp yalnızca en verimli aracı hesaplayan bir işleme dönüştü.
+
+Kitap 1944'te, sürgünde, Nazizmin ve savaşın gölgesinde yazıldı. Yazarlarının sorusu şuydu: Avrupa'nın en "aydınlanmış" ülkelerinden biri nasıl olup da barbarlığa varabildi?
+
+## Negatif diyalektik
+
+Adorno'nun 1966 tarihli *Negatif Diyalektik*'i, Hegel'in diyalektiğine bir itirazdır. Hegel'de çelişkiler daha yüksek bir birlikte çözülür. Adorno bu çözülmeyi reddeder: Kavram, kavradığı şeyle asla tam olarak örtüşmez; her zaman bir artık kalır. Felsefenin görevi, bu artığı — kavrama sığmayanı — silmek değil, korumaktır.
+
+Buradan çıkan ünlü cümle şudur: "Bütün, doğru olmayandır."
+
+## Son yılı
+
+Adorno'nun ölümünden aylar önce Frankfurt'ta öğrenci hareketiyle sert bir kopuş yaşanmıştı. Eleştirel teoriyi kuran isim, eylemcilik çağrılarına mesafeli durduğu için genç kuşağın hedefi hâline geldi; dersleri kesintiye uğradı. Bu gerilim, kuramsal düşünce ile siyasal eylem arasındaki ilişki üzerine bugün de süren bir tartışmanın erken sahnelerinden biriydi.
+
+## Aynı gün: Malebranche
+
+6 Ağustos 1638'de, Kartezyen geleneğin en özgün isimlerinden Fransız filozof **Nicolas Malebranche** doğdu. Zihin ile beden arasındaki etkileşim sorununa verdiği yanıt — *aracılık öğretisi* (occasionalism) — on yedinci yüzyıl metafiziğinin en tartışılan konumlarından biri oldu: Ona göre nedensel gücün asıl sahibi Tanrı'dır; bedenin ve zihnin hâlleri yalnızca "vesile"dir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 7 Ağustos: Tagore'un ölümü, Goodman'ın doğumu",
+    slug: "felsefe-tarihinde-bugun-7-agustos-tagore-goodman",
+    summary: "Rabindranath Tagore 7 Ağustos 1941'de Kalküta'da öldü. Aynı gün 1906'da, tümevarım ve sanat felsefesini yeniden kuran Nelson Goodman doğdu.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "7 Ağustos: Rabindranath Tagore ve Nelson Goodman",
+    metaDescription: "7 Ağustos 1941'de Tagore öldü, 1906'da Nelson Goodman doğdu. İki farklı düşünce geleneği.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-07T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `7 Ağustos, felsefe takviminde birbirinden çok uzak iki adı yan yana getiriyor.
+
+## Rabindranath Tagore (1861 – 7 Ağustos 1941)
+
+Bengalli şair, besteci ve düşünür Tagore, 1913'te Nobel Edebiyat Ödülü'nü kazanan ilk Avrupalı olmayan yazardı. Ama yalnızca bir şair değildi: eğitim, milliyetçilik ve insanın doğayla ilişkisi üzerine yazdıkları onu yirminci yüzyılın düşünce tartışmalarına da soktu.
+
+Tagore'un milliyetçilik eleştirisi bugün de anılır. Ona göre ulus-devlet, insanı bir "makinenin parçası" hâline getiren örgütlenme biçimidir; oysa kültürler arası alışverişin kendisi bir değerdir. Bu görüş, bağımsızlık mücadelesinin en ateşli döneminde yazıldığı için Hindistan'da sert tartışmalara yol açtı; Gandhi ile aralarındaki nazik anlaşmazlık da bu eksende gelişti.
+
+Kurduğu Visva-Bharati okulu, sınıf duvarları yerine açık havada, doğayla temas içinde öğrenmeyi esas alan bir eğitim anlayışının denemesiydi.
+
+## Nelson Goodman (7 Ağustos 1906 – 1998)
+
+Amerikalı filozof Nelson Goodman, analitik felsefede iki ayrı alanı birden dönüştürdü.
+
+**Tümevarımın yeni bilmecesi.** *Fact, Fiction, and Forecast* (1954) kitabında ünlü "grue" örneğini kurdu. Şöyle bir yüklem düşünün: Bir nesne, *belirli bir tarihten önce incelenip yeşil bulunmuşsa* ya da *o tarihten sonra incelenip mavi bulunmuşsa* "grue"dur. Şimdiye kadar gördüğümüz bütün zümrütler hem "yeşil" hem "grue" yüklemini doğrular. Peki gelecekteki zümrütlerin yeşil olacağını neden düşünüyoruz da grue olacağını düşünmüyoruz?
+
+Goodman'ın gösterdiği şey şuydu: Tümevarım, yalnızca gözlem sayısıyla temellendirilemez. Hangi yüklemlerin genellemeye elverişli olduğu sorusu, mantığın değil dilin ve alışkanlığın alanına aittir.
+
+**Sanatın dilleri.** *Languages of Art* (1968) ise sanat yapıtını bir gösterge sistemi olarak ele alır. Goodman'a göre resim "benzerlik" yoluyla temsil etmez; temsil, tıpkı dil gibi, kurulmuş bir göndergesel ilişkidir. Kitabın sorduğu asıl soru da şudur: "Sanat nedir?" değil, **"Ne zaman sanattır?"**`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 8 Ağustos: Arnauld'nun ölümü, Hutcheson'ın doğumu",
+    slug: "felsefe-tarihinde-bugun-8-agustos-arnauld-hutcheson",
+    summary: "Port-Royal mantığının yazarı Antoine Arnauld 8 Ağustos 1694'te öldü. Aynı gün, ahlaki duyu kuramının kurucusu Francis Hutcheson doğdu.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "8 Ağustos: Antoine Arnauld ve Francis Hutcheson",
+    metaDescription: "8 Ağustos 1694: Antoine Arnauld öldü, Francis Hutcheson doğdu. Port-Royal mantığı ve ahlaki duyu kuramı.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-08T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "mantik", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `8 Ağustos 1694, felsefe tarihinde iki olayın aynı güne düştüğü ender tarihlerden biri: Bir düşünür ölürken bir başkası doğuyor.
+
+## Antoine Arnauld (1612 – 8 Ağustos 1694)
+
+Fransız teolog ve filozof Arnauld, Paris yakınlarındaki Port-Royal manastırı çevresinde toplanan Jansenist hareketin en güçlü kalemiydi. Ama felsefe tarihinde adı iki ayrı katkıyla anılır.
+
+**Port-Royal Mantığı.** Pierre Nicole ile birlikte yazdığı *La Logique ou l'art de penser* (1662), yüz elli yıl boyunca Avrupa'da mantık öğretiminin standart kitabı oldu. Kitabın yeniliği, mantığı kısır kıyas alıştırmalarından çıkarıp **doğru düşünmenin sanatı** olarak sunmasıydı. Bugün hâlâ kullanılan bir ayrımı — bir kavramın *kaplamı* ile *içlemi* arasındaki ayrımı — yaygınlaştıran da bu kitaptır.
+
+**Descartes'a itirazlar.** Arnauld, Descartes'ın *Meditasyonlar*'ına yöneltilen itirazların dördüncüsünü yazdı. Orada dile getirdiği eleştiri bugün "Kartezyen çember" adıyla anılır: Descartes, açık ve seçik algılarımızın doğruluğunu Tanrı'nın varlığıyla temellendiriyor; ama Tanrı'nın varlığını da açık ve seçik algılarla kanıtlıyorsa, kanıt kendi kuyruğunu ısırmış olmuyor mu?
+
+Arnauld ayrıca Leibniz ve Malebranche ile de uzun yazışmalar yürüttü. On yedinci yüzyıl felsefesi büyük ölçüde bu mektuplarda şekillendi.
+
+## Francis Hutcheson (8 Ağustos 1694 – 1746)
+
+Aynı gün doğan İskoç filozof Francis Hutcheson, İskoç Aydınlanması'nın kurucu adlarından sayılır. Glasgow Üniversitesi'nde ahlak felsefesi kürsüsünü yürüttü; Adam Smith onun öğrencisiydi.
+
+Hutcheson'ın merkezi kavramı **ahlaki duyu**dur. Ona göre iyiyi kötüden ayırma yetimiz, çıkar hesabından ya da soyut akıl yürütmeden türemez. Tıpkı gözün rengi görmesi gibi, insanda erdemi doğrudan onaylayan bir duyu vardır. Bir davranışı "iyi" bulduğumuzda, önce bir çıkar hesabı yapıp sonra onaylamayız; onay kendiliğinden gelir.
+
+Bu görüş Thomas Hobbes'un insan doğası tablosuna açık bir karşı çıkıştı. Hutcheson'ın bir cümlesi ise çok daha uzun yaşadı: **"En büyük mutluluğu en çok sayıda insana sağlayan eylem en iyisidir."** Faydacılığın klasik formülü, Jeremy Bentham'dan yarım yüzyıl önce burada dile gelmişti.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 9 Ağustos: Ernst Haeckel'in ölümü",
+    slug: "felsefe-tarihinde-bugun-9-agustos-haeckel",
+    summary: "Darwin'in Almanya'daki en gür sesi, 'ekoloji' terimini türeten ve monizmi bir dünya görüşüne dönüştüren Ernst Haeckel, 9 Ağustos 1919'da Jena'da öldü.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "9 Ağustos: Ernst Haeckel'in ölümü",
+    metaDescription: "Ernst Haeckel 9 Ağustos 1919'da Jena'da öldü. Monizm, ekoloji kavramı ve bilim ile felsefe arasındaki sınır.",
+    contentType: "TARIH",
+    sourceName: "Ernst Haeckel — Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Ernst_Haeckel",
+    publishedAt: "2026-08-09T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Ernst Haeckel", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Ernst_Haeckel", primary: true },
+      { title: "Ernst Haeckel — German Naturalist & Evolutionary Biologist", publisher: "Britannica", url: "https://www.britannica.com/biography/Ernst-Haeckel" },
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `Alman zoolog ve düşünür Ernst Haeckel, 9 Ağustos 1919'da Jena'daki evi Villa Medusa'da öldü. Hayatının son elli sekiz yılını bu kentte geçirmişti.
+
+## Darwin'in Almancası
+
+Haeckel, *Türlerin Kökeni*'nin yayımlanmasından sonra evrim kuramının Almanya'daki en etkili savunucusu oldu. Ama yalnızca aktarmakla yetinmedi; kuramı kendi felsefi çerçevesine yerleştirdi.
+
+Bugün kullandığımız birçok terim ondan geliyor: **ekoloji**, **filogeni**, **kök hücre** (Stammzelle) gibi sözcükleri bilim diline o kazandırdı.
+
+En bilinen — ve en tartışmalı — savı ise "biyogenetik yasa"dır: *Ontogenez filogenezi tekrarlar.* Yani bireyin embriyo gelişimi, türün evrim tarihini kısaltılmış biçimde yeniden oynar. Bu formül yirminci yüzyılda büyük ölçüde terk edildi; Haeckel'in bazı embriyo çizimlerinin gerçeğe göre fazla düzenlenmiş olduğu da tespit edildi. Yine de kavram, bilim tarihinde "güçlü ama yanlış genelleme"nin ders kitabı örneklerinden biri olarak yerini korudu.
+
+## Monizm: bilim mi, dünya görüşü mü?
+
+Haeckel'in felsefe açısından asıl önemi, evrimi bir **dünya görüşü**ne dönüştürmesindedir. 1899'da yayımlanan *Kâinatın Bilmeceleri* (Die Welträthsel) yüz binlerce sattı ve döneminin en çok okunan popüler bilim kitaplarından biri oldu.
+
+Kitabın tezi **monizm**dir: Ruh ile madde, doğa ile Tanrı ayrı iki gerçeklik değildir; tek bir doğa vardır ve her şey ona içkindir. Haeckel bu görüşü bir "bilimsel din" gibi örgütlemeye de çalıştı; 1906'da Monist Birlik'i kurdu.
+
+## Bıraktığı soru
+
+Haeckel'in mirası bugün ikili bir okumaya konu. Bir yandan doğa bilimlerinin felsefeyle kesiştiği alanı — bugün "bilim felsefesi" ve "doğallaştırılmış metafizik" başlıkları altında sürdürülen tartışmayı — geniş bir okur kitlesine taşıdı. Öte yandan, bilimsel bulgulardan doğrudan toplumsal ve siyasal sonuçlar çıkarma eğilimi, sonraki kuşaklarda tehlikeli biçimler aldı; Haeckel'in ırk ve toplum üzerine yazdıkları bu yüzden eleştirel biçimde ele alınır.
+
+Bıraktığı asıl soru hâlâ açık: Bir bilimsel kuram, ne zaman bir dünya görüşüne dönüşmeye başlar — ve dönüştüğü anda hâlâ bilim midir?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 10 Ağustos: Jean-François Lyotard'ın doğumu",
+    slug: "felsefe-tarihinde-bugun-10-agustos-lyotard",
+    summary: "'Postmodern durum'u tanımlayan ve büyük anlatıların sonunu ilan eden Fransız filozof Jean-François Lyotard, 10 Ağustos 1924'te doğdu.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "10 Ağustos: Jean-François Lyotard'ın doğumu",
+    metaDescription: "Jean-François Lyotard 10 Ağustos 1924'te doğdu. Postmodern Durum, büyük anlatılar ve uyuşmazlık kavramı.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-10T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "postmodernizm", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `Jean-François Lyotard 10 Ağustos 1924'te doğdu. Adı, yirminci yüzyılın son çeyreğine damgasını vuran tek bir tanımla anılır.
+
+## "Büyük anlatılara karşı inançsızlık"
+
+1979'da Québec hükümetinin isteği üzerine hazırladığı rapor, *La condition postmoderne* adıyla yayımlandığında beklenmedik bir etki yarattı. Kitabın en çok alıntılanan cümlesi şudur:
+
+> "Postmodern'i, en yalın biçimde, büyük anlatılara karşı inançsızlık olarak tanımlıyorum."
+
+**Büyük anlatı** (grand récit), tek tek bilgileri meşrulaştıran kapsayıcı hikâyedir: İnsanlığın özgürleşmesi, aklın ilerleyişi, tarihin bir amaca doğru yürüyüşü. Aydınlanma da Marksizm de bu tür anlatılara yaslanır. Lyotard'ın tespiti, bu anlatıların yanlış olduğu değil; **inandırıcılıklarını yitirdiği**dir.
+
+Yerlerini ne alıyor? Lyotard'ın yanıtı Wittgenstein'dan geliyor: birbirine indirgenemeyen çok sayıda "dil oyunu". Bilim kendi kurallarına göre işler, adalet başka kurallara göre, sanat başka. Hiçbiri diğerinin ölçüsü olamaz.
+
+## Bilgi kime ait?
+
+Kitabın az konuşulan ama belki daha kalıcı olan bölümü bilginin statüsü üzerinedir. Lyotard, 1979'da, bilginin giderek "bilgisayarlaştırılabilir" olana indirgeneceğini; bu forma girmeyenin terk edileceğini yazar. Bilgi artık kendi başına bir amaç değil, alınıp satılan bir üründür — ve asıl soru "bu doğru mu?" değil, "buna kim sahip?" hâline gelir.
+
+Yapay zekâ ve veri sahipliği tartışmalarının bugün geldiği nokta, bu bölümü yazıldığı günden daha güncel kılıyor.
+
+## Uyuşmazlık
+
+Lyotard'ın 1983 tarihli *Le Différend*'ı çoğu kez daha önemli yapıtı sayılır. *Différend* (uyuşmazlık), tarafların anlaşmazlığını çözebilecek ortak bir kuralın bulunmadığı çatışmadır. Böyle bir durumda uyuşmazlığı "adil" biçimde karara bağlamak imkânsızdır: Hangi dil seçilirse, taraflardan biri baştan haksız duruma düşer.
+
+Lyotard'ın bundan çıkardığı sonuç karamsar değil, uyarıcıdır: Felsefenin görevi, dile getirilemeyeni dile getirilmiş saymak değil; dile getirilemediğine tanıklık etmektir.
+
+## Türkçedeki Lyotard
+
+*Postmodern Durum* ve *Postmodern Çocuklara Açıklamalar* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 12 Ağustos: Alessandro Achillini'nin ölümü",
+    slug: "felsefe-tarihinde-bugun-12-agustos-achillini",
+    summary: "Bologna'nın 'ikinci Aristoteles' diye anılan hocası Alessandro Achillini 12 Ağustos 1512'de öldü. Rönesans'ta felsefe ile tıp aynı kürsüde buluşuyordu.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "12 Ağustos: Alessandro Achillini'nin ölümü",
+    metaDescription: "Alessandro Achillini 12 Ağustos 1512'de öldü. Rönesans Aristotelesçiliği ve felsefe ile tıbbın kesişimi.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-12T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ronesans", "ortacag-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `İtalyan filozof ve hekim Alessandro Achillini 12 Ağustos 1512'de öldü.
+
+## Bologna'da felsefe
+
+Achillini, Bologna Üniversitesi'nde hem felsefe hem tıp okuttu. Bu ikili görev, dönemin üniversite düzeninin tipik bir örneğiydi: On beşinci ve on altıncı yüzyıl İtalya'sında doğa felsefesi ile tıp birbirinden ayrı alanlar değildi. Bedenin işleyişini anlamak, doğanın ilkelerini anlamanın bir parçasıydı.
+
+Çağdaşları arasında "ikinci Aristoteles" olarak anıldığı aktarılır — Rönesans üniversitelerinde bir hocaya verilebilecek en yüksek övgülerden biri.
+
+## Aristoteles'in birden çok yorumu
+
+Achillini'nin çalıştığı dönem, felsefe tarihinde çoğu zaman gözden kaçan bir gerilim taşır. Rönesans genellikle "Platon'un yeniden keşfi" olarak anlatılır; oysa üniversitelerde Aristoteles hâkimdi ve asıl tartışma Aristoteles'in *nasıl* okunacağı üzerineydi.
+
+İki yorum hattı çarpışıyordu:
+
+- **İbn Rüşdcü okuma:** İnsanlarda düşünen aklın tek ve ortak olduğunu savunur. Bu görüş, bireysel ruhun ölümsüzlüğü öğretisiyle çatıştığı için sürekli tartışma konusuydu.
+- **İskenderci okuma:** Aklı bedenle birlikte sona eren bir yeti sayar.
+
+Achillini, İbn Rüşdcü çizgiye yakın duran adlar arasında sayılır. Bu tartışma yalnızca teknik bir metafizik meselesi değildi: "Ölümsüz olan nedir?" sorusu, teolojiyle doğrudan temas ettiği için siyasi sonuçları da olan bir sorundu.
+
+## Neden anılmalı?
+
+Achillini'nin adı bugün Descartes ya da Bacon kadar bilinmiyor. Ama onun gibi isimlerin çalıştığı kürsüler, on yedinci yüzyıl "bilimsel devrimi"nin üzerine kurulduğu zemindi. Modern felsefe boşlukta doğmadı; skolastik tartışmanın araçlarını devraldı, sonra onlara karşı çıktı.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 13 Ağustos: Jeremy Taylor'ın ölümü",
+    slug: "felsefe-tarihinde-bugun-13-agustos-jeremy-taylor",
+    summary: "Vicdan üzerine yazdıklarıyla İngiliz ahlak düşüncesini etkileyen Jeremy Taylor, 13 Ağustos 1667'de öldü. Hoşgörü savunusu iç savaş yıllarında yazılmıştı.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "13 Ağustos: Jeremy Taylor'ın ölümü",
+    metaDescription: "Jeremy Taylor 13 Ağustos 1667'de öldü. Vicdan, kazuistik ve din özgürlüğü üzerine yazdıkları.",
+    contentType: "TARIH",
+    sourceName: "Jeremy Taylor — Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Jeremy_Taylor",
+    publishedAt: "2026-08-13T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Jeremy Taylor", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Jeremy_Taylor", primary: true },
+    ],
+    content: `İngiliz din adamı ve yazar Jeremy Taylor, 13 Ağustos 1667'de İrlanda'nın Lisburn kentinde, elli üç yaşında öldü. 1613'te Cambridge'de vaftiz edilmişti.
+
+## İç savaşın içinde yazmak
+
+Taylor'ın verimli dönemi, İngiltere'nin en çalkantılı yıllarına denk düşer. İç savaş, kralın idamı, Cromwell yönetimi — dinsel farklılığın doğrudan siyasal şiddete dönüştüğü bir çağ.
+
+Bu ortamda yazdığı *The Liberty of Prophesying* (1647), erken dönem hoşgörü metinleri arasında sayılır. Argümanı bugün de tanıdık gelen bir epistemolojik alçakgönüllülüğe dayanır: İnsan aklı, tartışmalı teolojik sorularda kesinliğe ulaşamaz. Kesin olmayan bir konuda başkasını zorlamak ise akla da vicdana da aykırıdır.
+
+## Vicdanın kuralları
+
+Taylor'ın felsefe açısından asıl ilginç yapıtı *Ductor Dubitantium*'dur (1660). Kitabın konusu **kazuistik**tir: Genel ahlak ilkelerinin tek tek durumlara nasıl uygulanacağı sorunu.
+
+Kazuistik bugün çoğu zaman olumsuz bir çağrışım taşır — kuralı eğip bükme sanatı gibi. Oysa asıl işlevi başkaydı: İlkeler soyuttur, hayat ise ayrıntıyla doludur. "Yalan söyleme" kuralı açıktır; ama bir insanın canını kurtarmak için söylenen yalan? İki ödev çarpıştığında ne yapılır?
+
+Taylor'ın yanıtı vicdanı merkeze alır. Ona göre vicdan, dışarıdan gelen bir buyruk listesi değil; failin kendi durumu hakkında verdiği pratik yargıdır. Kural bilgisi bu yargının malzemesidir, yerine geçemez.
+
+## Bugüne uzanan hat
+
+Bu tartışma kapanmadı, yalnızca yer değiştirdi. Tıp etiği, hukuk etiği ve yapay zekâ etiğinde bugün sorulan soru aynıdır: Genel bir ilke, karşılaştığımız somut duruma nasıl uygulanır — ve uygulamayı yapan yargı gücünün kendisi nasıl eğitilir?
+
+Taylor'ın düzyazısı ayrıca İngiliz edebiyatının klasikleri arasında sayılır; *Holy Living* ve *Holy Dying* uzun süre yalnızca dinsel metin olarak değil, üslup örneği olarak da okundu.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 15 Ağustos: İbn Hazm'ın ölümü",
+    slug: "felsefe-tarihinde-bugun-15-agustos-ibn-hazm",
+    summary: "Endülüs'ün en keskin kalemi İbn Hazm, 15 Ağustos 1064'te Sevilla yakınlarında öldü. Hem bir aşk kitabının hem de sert bir mantık savunusunun yazarıydı.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "15 Ağustos: İbn Hazm'ın ölümü",
+    metaDescription: "İbn Hazm 15 Ağustos 1064'te öldü. Zâhirîlik, Güvercin Gerdanlığı ve karşılaştırmalı din incelemesi.",
+    contentType: "TARIH",
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Ibn-Hazm",
+    publishedAt: "2026-08-15T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "islam-felsefesi", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Ibn Ḥazm — Andalusian Poet, Philosopher & Jurist", publisher: "Britannica", url: "https://www.britannica.com/biography/Ibn-Hazm", primary: true },
+      { title: "Ibn Hazm", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Ibn_Hazm" },
+    ],
+    content: `Endülüslü filozof, hukukçu, tarihçi ve şair İbn Hazm, 15 Ağustos 1064'te Sevilla yakınlarındaki Manta Lisham'da öldü. 994'te Kurtuba'da doğmuştu.
+
+## Sarayın içinden sürgüne
+
+İbn Hazm, Emevî Kurtuba'sının çöküş yıllarında, yüksek bir devlet görevlisinin oğlu olarak büyüdü. Kendisi de vezirlik yaptı, birkaç kez hapse girdi, defalarca sürgün edildi. Siyasetten uzaklaştıktan sonra hayatının geri kalanını yazmaya ayırdı; kaynaklar dört yüze yakın eser kaleme aldığını aktarır.
+
+## Güvercin Gerdanlığı
+
+En çok okunan kitabı, felsefeyle değil aşkla ilgilidir. *Tavku'l-hamâme* (Güvercin Gerdanlığı), aşkın doğuşunu, belirtilerini, ayrılığı ve unutuşu sınıflandıran bir inceleme. Kitabın yöntemi dikkat çekicidir: Şiir ve anı ile örneklendirilmiş, neredeyse gözleme dayalı bir psikoloji denemesidir.
+
+Bu metin, İbn Hazm'ın düşüncesinin merkezindeki ısrarı da gösterir: Genel iddialar somut örneklerle sınanmalıdır.
+
+## Zâhirîlik: metnin görünen anlamı
+
+Hukuk ve din felsefesinde İbn Hazm, **Zâhirî** okulun en güçlü savunucusudur. Zâhir "görünen, açık olan" demektir. Okulun ilkesi şudur: Bir metin, açık anlamına göre anlaşılmalıdır; yorumcunun kıyas ya da sezgiyle metne anlam eklemesi keyfîliğe kapı açar.
+
+Bu tutum onu döneminin baskın hukuk okullarıyla karşı karşıya getirdi. Ama arkasında yalnızca bir gelenek tercihi değil, epistemolojik bir kaygı vardı: **Yorumun sınırı nerededir?** Metne dayandığını söyleyen bir akıl yürütme, hangi noktada metni aşıp kendi tercihini metne söyletmeye başlar?
+
+## Karşılaştırmalı din incelemesi
+
+*el-Fasl fi'l-milel*, dönemin dinsel ve felsefi öğretilerini karşılaştırmalı biçimde ele alan erken bir çalışmadır. İbn Hazm burada yalnızca kendi konumunu savunmaz; karşı görüşleri de sistematik olarak sıralar ve tartışır. Yöntem sert, üslup polemiktir — ama farklı inanç sistemlerini bir arada ve düzenli biçimde inceleme çabası, karşılaştırmalı din çalışmalarının erken örneklerinden sayılır.
+
+İbn Hazm'ın mantığa verdiği önem de bu çerçevede anlaşılır: Aristoteles mantığını, dinsel metinleri doğru anlamanın aracı olarak savundu.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 19 Ağustos: Blaise Pascal'ın ölümü",
+    slug: "felsefe-tarihinde-bugun-19-agustos-pascal",
+    summary: "Matematikçi, fizikçi ve düşünür Blaise Pascal 19 Ağustos 1662'de otuz dokuz yaşında öldü. Geriye tamamlanmamış bir kitabın notları kaldı: Düşünceler.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "19 Ağustos: Blaise Pascal'ın ölümü",
+    metaDescription: "Blaise Pascal 19 Ağustos 1662'de öldü. Düşünceler, bahis argümanı ve 'kalbin kendine özgü nedenleri'.",
+    contentType: "TARIH",
+    sourceName: "Felsefe anniversary listesi",
+    sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
+    publishedAt: "2026-08-19T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "List of philosophy anniversaries", publisher: "Wikipedia / EverybodyWiki", url: "https://en.everybodywiki.com/List_of_philosophy_anniversaries" },
+    ],
+    content: `Blaise Pascal 19 Ağustos 1662'de, otuz dokuz yaşında Paris'te öldü. Kısa hayatına matematik, fizik ve felsefede birbirinden bağımsız görünen çalışmalar sığdırdı.
+
+## Önce matematik ve makine
+
+Pascal on altı yaşında konikler üzerine bir inceleme yazdı. Yirmili yaşlarında, vergi memuru olan babasının hesaplarını kolaylaştırmak için mekanik bir hesap makinesi tasarladı. Boşluk ve hava basıncı üzerine yaptığı deneyler, dönemin "doğa boşluktan tiksinir" ilkesini sarstı.
+
+Pierre de Fermat ile yazışmaları ise olasılık kuramının kurucu metinleri arasında sayılır. Bir kumar sorusundan doğan bu yazışma, belirsizlik altında karar vermeyi matematiğin konusu hâline getirdi.
+
+## Bahis
+
+Pascal'ın felsefede en çok tartışılan argümanı, tam da bu olasılık düşüncesinden doğar. **Bahis** (le pari), Tanrı'nın varlığını kanıtlamaya çalışmaz; kanıtın mümkün olmadığını kabul ederek başlar.
+
+Argümanın yapısı bir karar problemidir: Akıl bu soruda karar veremiyorsa, yine de yaşamak zorundayız ve yaşarken taraf tutmuş oluruz. Pascal, olası kazanç ve kayıpları karşılaştırır. Bugün karar kuramı diliyle okunduğunda, argüman beklenen fayda hesabının erken bir örneği olarak görülür — bu yüzden teologlardan çok iktisatçıların ve karar kuramcılarının ilgisini çeker.
+
+Yaygın bir yanlış anlama şudur: Bahis, "inanmayı seçebilirsin" demez. Pascal inancın iradeyle üretilemeyeceğini bilir; önerisi, insanın kendini inanca açık kılacak bir yaşayış içine sokmasıdır.
+
+## Kalbin nedenleri
+
+*Düşünceler* (Pensées), Pascal'ın tamamlayamadığı bir savunma kitabı için tuttuğu notlardan derlendi. Kopuk, bazen tek cümlelik parçalardan oluşan bu metin, biçimsel dağınıklığına rağmen Fransız düzyazısının doruklarından sayılır.
+
+En bilinen cümlesi de oradadır: **"Kalbin, aklın bilmediği kendine özgü nedenleri vardır."**
+
+Bu cümle çoğu zaman akıl karşıtı bir slogan gibi kullanılır; oysa Pascal'ın söylediği daha incedir. Ona göre ilk ilkeler — uzay, zaman, sayı — kanıtlanarak bilinmez, doğrudan kavranır. Akıl, kanıtlarını bu doğrudan kavrayışların üzerine kurar. Yani kalp aklın düşmanı değil, temelidir.
+
+## İki sonsuz arasında
+
+Pascal'ın insan tablosu da buradan çıkar: İnsan, sonsuz büyük ile sonsuz küçük arasında asılı kalmış, kendi konumunu kavrayamayan bir varlıktır. Ama bu zayıflığın içinde bir ayrıcalık taşır — **"düşünen bir kamış"**tır. Evren onu ezebilir; ama evren ezdiğini bilmez, o bilir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 21 Ağustos: Alexander of Hales'in ölümü",
+    slug: "felsefe-tarihinde-bugun-21-agustos-alexander-of-hales",
+    summary: "Paris Üniversitesi'nde skolastik öğretimin biçimini değiştiren Fransisken ilahiyatçı Alexander of Hales, 21 Ağustos 1245'te öldü.",
+    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "21 Ağustos: Alexander of Hales'in ölümü",
+    metaDescription: "Alexander of Hales 21 Ağustos 1245'te Paris'te öldü. Skolastik yöntem ve Sententiae'nin ders kitabı hâline gelişi.",
+    contentType: "TARIH",
+    sourceName: "Britannica · Wikipedia",
+    sourceUrl: "https://www.britannica.com/biography/Alexander-of-Hales",
+    publishedAt: "2026-08-21T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "ortacag-felsefesi", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Alexander Of Hales — Thirteenth-Century, Scholasticism, Theology", publisher: "Britannica", url: "https://www.britannica.com/biography/Alexander-of-Hales", primary: true },
+      { title: "Alexander of Hales", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Alexander_of_Hales" },
+    ],
+    content: `İngiliz asıllı ilahiyatçı ve filozof Alexander of Hales, 21 Ağustos 1245'te Paris'te öldü. 1185 dolaylarında İngiltere'nin Halesowen bölgesinde doğduğu kabul edilir.
+
+## Ders kitabını değiştiren adam
+
+Alexander'ın felsefe tarihindeki yeri, yazdığı bir kitaptan çok, **nasıl ders verdiğiyle** ilgilidir.
+
+On üçüncü yüzyılın başında Paris'te teoloji öğretimi doğrudan Kutsal Kitap üzerinden yürüyordu. Alexander, Petrus Lombardus'un *Sententiae* adlı derlemesini düzenli ders kitabı olarak okutan ilk hocalar arasındaydı. Bu, görünüşte teknik bir tercihti; sonucu ise büyük oldu.
+
+*Sententiae* konuları başlık başlık düzenliyordu. Metni ders kitabı yapmak, öğretimi de aynı biçimde düzenledi: Her başlık bir soru, her soru için karşıt görüşler, sonra çözüm. Sonraki üç yüz yıl boyunca Avrupa üniversitelerinde teoloji ve felsefe bu kalıpla öğretildi. Thomas Aquinas'ın *Summa Theologiae*'sinin yapısı da bu geleneğin ürünüdür.
+
+## Fransiskenlerin ilk kürsüsü
+
+Alexander, kariyerinin zirvesinde, 1236 dolaylarında Fransisken tarikatına katıldı. O sırada Paris Üniversitesi'nde tanınmış bir teoloji hocasıydı; kürsüsünü de yanında götürdü. Böylece Fransiskenler üniversitede ilk teoloji kürsülerine kavuştu.
+
+Bu tercihin sonuçları düşünce tarihine yayıldı. Bonaventura onun öğrencisiydi; Fransisken düşünce geleneği — Duns Scotus ve Ockham'a uzanan hat — bu kürsüden büyüdü.
+
+## Summa meselesi
+
+Adına bağlanan *Summa Theologica* (ya da *Summa fratris Alexandri*), tümüyle onun kaleminden çıkmadı. Öğrencileri ve sonraki Fransisken hocaların katkılarıyla oluşmuş ortak bir yapıt olduğu kabul edilir. Bu durum ortaçağ metinlerinde sık görülür ve "yazar" kavramının bugünkünden ne kadar farklı işlediğini gösterir: Bir *summa*, tek bir zihnin ürünü olmaktan çok, bir okulun birikimidir.
+
+## Neden önemli?
+
+Skolastik yöntem bugün çoğu zaman kılı kırk yaran bir tartışma biçimi olarak anılır. Oysa yaptığı iş şuydu: Bir soruyu ortaya koymak, ona verilebilecek en güçlü karşıt yanıtları toplamak, sonra kendi konumunu bu itirazlara cevap vererek kurmak.
+
+Bu, bugün akademik makalelerin hâlâ izlediği yapıdır. Alexander of Hales'in yaptığı da tam olarak bu yapıyı bir öğretim düzenine dönüştürmekti.`,
   },
 ];
 
@@ -3578,7 +4029,7 @@ Kongre, analitik felsefe ile Çin felsefesi arasındaki temasın son yıllarda a
     sourceUrl: "https://philevents.org/event/show/144458",
     coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
     featured: false,
-    publishedAt: "2026-08-21T14:00:00.000Z",
+    publishedAt: "2026-08-20T13:00:00.000Z",
   },
   {
     title: "41. Kyoto Ödülü Töreni",
@@ -3603,6 +4054,6 @@ Sanat ve Felsefe dalı geçmişte Jürgen Habermas (2004), Charles Taylor (2008)
     sourceUrl: "https://www.newswise.com/articles/inamori-foundation-announces-2026-kyoto-prize-laureates",
     coverImage: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80",
     featured: false,
-    publishedAt: "2026-08-21T12:00:00.000Z",
+    publishedAt: "2026-08-20T13:00:00.000Z",
   },
 ];

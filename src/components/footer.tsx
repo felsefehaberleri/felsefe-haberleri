@@ -6,6 +6,7 @@ import { SubscribeForm } from "@/components/subscribe-form";
 import { getCategories } from "@/lib/queries";
 
 const contactEmail = process.env.CONTACT_EMAIL ?? "info@felsefehaberleri.com";
+const contactEmailAlt = process.env.CONTACT_EMAIL_ALT ?? "felsefehaberleri@gmail.com";
 
 export async function Footer() {
   const categories = await getCategories();
@@ -32,9 +33,15 @@ export async function Footer() {
           <p className="mt-5 text-xs font-semibold tracking-widest text-muted uppercase">İletişim</p>
           <a
             href={`mailto:${contactEmail}`}
-            className="mt-2 inline-block text-sm text-accent hover:underline"
+            className="mt-2 block text-sm text-accent hover:underline"
           >
             {contactEmail}
+          </a>
+          <a
+            href={`mailto:${contactEmailAlt}`}
+            className="mt-1 block text-sm text-accent hover:underline"
+          >
+            {contactEmailAlt}
           </a>
           <p className="mt-1 text-sm">
             <Link href="/iletisim" className="text-ink-soft transition-colors hover:text-accent">

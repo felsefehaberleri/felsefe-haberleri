@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 };
 
 const contactEmail = process.env.CONTACT_EMAIL ?? "info@felsefehaberleri.com";
+/** İkinci adres — kurumsal adrese ulaşamayanlar için. */
+const contactEmailAlt = process.env.CONTACT_EMAIL_ALT ?? "felsefehaberleri@gmail.com";
 
 export default function ContactPage() {
   return (
@@ -38,8 +40,14 @@ export default function ContactPage() {
             >
               {contactEmail}
             </a>
+            <a
+              href={`mailto:${contactEmailAlt}`}
+              className="mt-1 block text-sm break-all text-accent hover:underline"
+            >
+              {contactEmailAlt}
+            </a>
             <p className="mt-2 text-xs leading-relaxed text-muted">
-              Genellikle iki iş günü içinde yanıtlıyoruz.
+              İki adres de bize ulaşır. Genellikle iki iş günü içinde yanıtlıyoruz.
             </p>
           </div>
 

@@ -13,6 +13,7 @@
  *   4. Kaynak adresleri geçerli mi?
  *   5. Yaşayan filozoflara ölüm tarihi yazılmış mı? (33. kural)
  *   6. Onay listesinde olmayan bir filozof dizine ya da habere bağlanmış mı?
+ *   7. Yayın tarihi ileride kalmış bir haber var mı? (İleri tarihli haber sitede görünmez.)
  *
  * Hata bulursa çıkış kodu 1 döner; böylece derleme zincirinde de kullanılabilir.
  */
@@ -192,6 +193,41 @@ philosophers.forEach((philosopher) => {
 events.forEach((event) => {
   if (Number.isNaN(new Date(event.startsAt).getTime())) {
     problems.push(`Etkinlik '${event.slug}': başlangıç tarihi geçersiz.`);
+  }
+});
+
+/* ------------------------------------------------------------------ */
+/* 3b. Yayın tarihi ileri tarihli mi?                                  */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Site yalnızca `publishedAt` değeri geçmişte olan haberleri gösterir.
+ * İleri tarihli bir haber yazıldığı anda görünmez; "güncelleme yapıldı ama
+ * sitede yok" tablosunun en sinsi nedeni budur. Bu yüzden ileri tarih hata sayılır.
+ */
+const now = Date.now();
+
+posts.forEach((post) => {
+  if (!post.publishedAt) return;
+  const at = new Date(post.publishedAt).getTime();
+  if (Number.isNaN(at)) {
+    problems.push(`Haber '${post.slug}': yayın tarihi okunamadı (${post.publishedAt}).`);
+  } else if (at > now) {
+    problems.push(
+      `Haber '${post.slug}': yayın tarihi ileride (${post.publishedAt}). ` +
+        "İleri tarihli haber sitede görünmez; tarihi geçmişe çekin.",
+    );
+  }
+});
+
+events.forEach((event) => {
+  if (!event.publishedAt) return;
+  const at = new Date(event.publishedAt).getTime();
+  if (!Number.isNaN(at) && at > now) {
+    problems.push(
+      `Etkinlik '${event.slug}': yayın tarihi ileride (${event.publishedAt}). ` +
+        "Etkinliğin kendi tarihi ileride olabilir, ama yayın tarihi geçmişte olmalı.",
+    );
   }
 });
 
