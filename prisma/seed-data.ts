@@ -196,6 +196,16 @@ export const tags: SeedTag[] = [
   { name: "Açık Erişim", slug: "acik-erisim" },
   { name: "Risk", slug: "risk" },
   { name: "Ortaçağ Felsefesi", slug: "ortacag-felsefesi" },
+  { name: "Eleştirel Teori", slug: "elestirel-teori" },
+  { name: "Psikanaliz", slug: "psikanaliz" },
+  { name: "Toplumsal Cinsiyet", slug: "toplumsal-cinsiyet" },
+  { name: "Postkolonyalizm", slug: "postkolonyalizm" },
+  { name: "Teknoloji Felsefesi", slug: "teknoloji-felsefesi" },
+  { name: "Demokrasi", slug: "demokrasi" },
+  { name: "Marksizm", slug: "marksizm" },
+  { name: "Konferans", slug: "konferans" },
+  { name: "Söyleşi", slug: "soylesi" },
+  { name: "Zihin Felsefesi", slug: "zihin-felsefesi" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -481,6 +491,878 @@ export const philosophers: SeedPhilosopher[] = [
     alive: true,
     period: "Çağdaş",
     areas: "Felsefe etkinlikleri, Aydınlanma felsefesi",
+  },
+  {
+    name: "Slavoj Žižek",
+    slug: "slavoj-zizek",
+    headline: "Kültür kuramcısı ve Lacancı filozof — Ljubljana Üniversitesi",
+    bio: "İdeoloji eleştirisini Lacancı psikanaliz, Hegel ve popüler kültür üzerinden kuran Slovenyalı filozof. Yüzden fazla kitabı otuzdan çok dile çevrildi.",
+    avatar: null,
+    country: "Slovenya",
+    birthYear: 1949,
+    affiliation: "Ljubljana Üniversitesi · Birkbeck, Londra Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    birthDate: "1949",
+    alive: true,
+    period: "Çağdaş",
+    school: "Lacancı psikanaliz, Hegelcilik, Marksizm",
+    areas: "İdeoloji kuramı, Psikanaliz, Siyaset felsefesi, Kültür kuramı",
+    majorWorks: "The Sublime Object of Ideology (1989)\nThe Ticklish Subject (1999)\nLess Than Nothing (2012)\nLiberal Fascism (2026)",
+    keyConcepts: "İdeoloji, Gerçek (le Réel), Paralaks, Şiddetin biçimleri",
+  },
+  {
+    name: "Noam Chomsky",
+    slug: "noam-chomsky",
+    headline: "Dilbilimci ve siyasal düşünür — MIT ve Arizona Üniversitesi",
+    bio: "Üretici dilbilgisi kuramıyla dilbilimi dönüştüren, aynı zamanda medya ve dış politika eleştirisiyle tanınan düşünür. 2024'te geçirdiği beyin kanamasının ardından Brezilya'da tedavi görüyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1928,
+    affiliation: "MIT (emeritus) · Arizona Üniversitesi",
+    website: null,
+    featured: true,
+    listed: true,
+    birthDate: "7 Aralık 1928",
+    alive: true,
+    period: "Çağdaş",
+    school: "Üretici dilbilgisi, Anarko-sendikalizm",
+    areas: "Dil felsefesi, Bilişsel bilim, Siyaset, Medya eleştirisi",
+    majorWorks: "Syntactic Structures (1957)\nAspects of the Theory of Syntax (1965)\nManufacturing Consent (Edward S. Herman ile, 1988)\nHegemony or Survival (2003)",
+    keyConcepts: "Evrensel dilbilgisi, Dönüşümsel dilbilgisi, Rıza imalatı, Kartezyen dilbilim",
+  },
+  {
+    name: "Jürgen Habermas",
+    slug: "jurgen-habermas",
+    headline: "Frankfurt Okulu'nun ikinci kuşağı — Goethe Üniversitesi (1929–2026)",
+    bio: "Kamusal alan ve iletişimsel eylem kuramlarıyla savaş sonrası Almanya'nın entelektüel yönünü belirleyen filozof. 14 Mart 2026'da Starnberg'de 96 yaşında hayatını kaybetti.",
+    avatar: null,
+    country: "Almanya",
+    birthYear: 1929,
+    affiliation: "Goethe Üniversitesi Frankfurt (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "18 Haziran 1929",
+    deathDate: "14 Mart 2026",
+    alive: false,
+    period: "20. yüzyıl — 21. yüzyıl",
+    school: "Frankfurt Okulu, Eleştirel teori, Pragmatizm",
+    areas: "Toplum felsefesi, Siyaset felsefesi, Dil felsefesi, Hukuk felsefesi",
+    majorWorks: "Kamusallığın Yapısal Dönüşümü (1962)\nİletişimsel Eylem Kuramı, 2 cilt (1981)\nOlgular ve Normlar Arasında (1992)\nÖteki Olmak, Ötekiyle Yaşamak (1996)",
+    keyConcepts: "Kamusal alan, İletişimsel eylem, İdeal konuşma durumu, Müzakereci demokrasi, Anayasal yurtseverlik",
+    influencedBy: "Kant, Hegel, Marx, Adorno, Horkheimer, Mead, Austin",
+    sources: "Jürgen Habermas — Wikipedia — https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+  },
+  {
+    name: "Alain Badiou",
+    slug: "alain-badiou",
+    headline: "Ontoloji ve siyaset filozofu — École Normale Supérieure (emeritus)",
+    bio: "Varlığı küme kuramı diliyle düşünen, 'olay' ve 'hakikat yordamı' kavramlarıyla siyaset felsefesini yeniden kuran Fransız filozof.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1937,
+    affiliation: "École Normale Supérieure (emeritus) · European Graduate School",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "17 Ocak 1937",
+    alive: true,
+    period: "Çağdaş",
+    school: "Postyapısalcılık sonrası, Platonculuk",
+    areas: "Ontoloji, Siyaset felsefesi, Matematik felsefesi, Estetik",
+    majorWorks: "Varlık ve Olay (1988)\nEtik: Kötülük Kavrayışı Üzerine Bir Deneme (1993)\nMantıklar Dünyası (2006)\nSonsuz Düşünce (1998)",
+    keyConcepts: "Olay, Hakikat yordamı, Çokluk, Sadakat, Komünizm hipotezi",
+    sources: "Alain Badiou — PhilPeople — https://philpeople.org/profiles/alain-badiou",
+  },
+  {
+    name: "Cornel West",
+    slug: "cornel-west",
+    headline: "Pragmatist filozof ve kamusal entelektüel — Union Theological Seminary",
+    bio: "Amerikan pragmatizmini ırk, din ve demokrasi tartışmalarıyla birleştiren düşünür. Union Theological Seminary'de Dietrich Bonhoeffer Felsefe ve Hıristiyan Pratiği Kürsüsü'nü yürütüyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1953,
+    affiliation: "Union Theological Seminary · Princeton Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "2 Haziran 1953",
+    alive: true,
+    period: "Çağdaş",
+    school: "Yeni-pragmatizm, Kurtuluş teolojisi",
+    areas: "Siyaset felsefesi, Din felsefesi, Irk kuramı, Amerikan pragmatizmi",
+    majorWorks: "Prophesy Deliverance! (1982)\nThe American Evasion of Philosophy (1989)\nRace Matters (1993)\nDemocracy Matters (2004)",
+    keyConcepts: "Kehanetçi pragmatizm, Trajik umut, Irk meselesi, Demokratik kişilik",
+    sources: "Cornel West — Britannica — https://www.britannica.com/biography/Cornel-West",
+  },
+  {
+    name: "Charles Taylor",
+    slug: "charles-taylor",
+    headline: "Modernlik ve kimlik filozofu — McGill Üniversitesi (emeritus)",
+    bio: "Benlik, sekülerlik ve çokkültürlülük üzerine çalışmalarıyla tanınan Kanadalı filozof. Templeton (2007), Kyoto (2008), Kluge (2015) ve Berggruen (2016) ödüllerinin sahibi.",
+    avatar: null,
+    country: "Kanada",
+    birthYear: 1931,
+    affiliation: "McGill Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "5 Kasım 1931",
+    alive: true,
+    period: "Çağdaş",
+    school: "Komüniteryanizm, Hermeneutik",
+    areas: "Siyaset felsefesi, Toplum bilimleri felsefesi, Din felsefesi, Felsefe tarihi",
+    majorWorks: "Hegel (1975)\nBenliğin Kaynakları (1989)\nModernliğin Sıkıntıları (1991)\nSeküler Çağ (2007)",
+    keyConcepts: "Güçlü değerlendirme, Tanınma siyaseti, Sosyal imgelem, Kapalı benlik",
+    sources: "Charles Taylor — Britannica — https://www.britannica.com/biography/Charles-Taylor",
+  },
+  {
+    name: "Kwame Anthony Appiah",
+    slug: "kwame-anthony-appiah",
+    headline: "Etik ve kimlik filozofu — New York Üniversitesi",
+    bio: "Kozmopolitanizm, kimlik ve ahlaki yükümlülük üzerine yazan Gana kökenli filozof. The New York Times Magazine'de 'The Ethicist' köşesini yazıyor.",
+    avatar: null,
+    country: "Gana / ABD",
+    birthYear: 1954,
+    affiliation: "New York Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "8 Mayıs 1954",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe",
+    areas: "Etik, Siyaset felsefesi, Kimlik kuramı, Afrika felsefesi",
+    majorWorks: "In My Father's House (1992)\nThe Ethics of Identity (2005)\nCosmopolitanism (2006)\nThe Lies That Bind (2018)",
+    keyConcepts: "Kozmopolitanizm, Kimlik, Onur kodları, Kısmi köksüzlük",
+  },
+  {
+    name: "Thomas Nagel",
+    slug: "thomas-nagel",
+    headline: "Zihin ve etik filozofu — New York Üniversitesi (emeritus)",
+    bio: "\"Yarasa olmak nasıl bir şeydir?\" makalesiyle bilinç tartışmasının yönünü değiştiren filozof. Öznel bakış açısının nesnel betimlemeye indirgenemeyeceğini savunuyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1937,
+    affiliation: "New York Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "4 Temmuz 1937",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe",
+    areas: "Zihin felsefesi, Etik, Siyaset felsefesi",
+    majorWorks: "The Possibility of Altruism (1970)\n\"What Is It Like to Be a Bat?\" (1974)\nHiçbir Yerden Bakış (1986)\nMind and Cosmos (2012)",
+    keyConcepts: "Öznel deneyim, Hiçbir yerden bakış, İndirgenemezlik, Nesnellik",
+  },
+  {
+    name: "Giorgio Agamben",
+    slug: "giorgio-agamben",
+    headline: "Biyopolitika ve hukuk felsefecisi — İtalya",
+    bio: "Egemenlik, istisna hâli ve 'çıplak hayat' kavramlarıyla siyaset felsefesini yeniden çerçeveleyen İtalyan filozof.",
+    avatar: null,
+    country: "İtalya",
+    birthYear: 1942,
+    affiliation: "IUAV Venedik Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "22 Nisan 1942",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi",
+    areas: "Siyaset felsefesi, Hukuk felsefesi, Estetik, Dil felsefesi",
+    majorWorks: "Kutsal İnsan: Egemen İktidar ve Çıplak Hayat (1995)\nİstisna Hâli (2003)\nTanık ve Arşiv (1998)\nNesir Fikri (1985)",
+    keyConcepts: "Çıplak hayat (homo sacer), İstisna hâli, Egemenlik, Kullanım, Tanıklık",
+  },
+  {
+    name: "Jean-Luc Marion",
+    slug: "jean-luc-marion",
+    headline: "Fenomenolog ve din felsefecisi — Sorbonne (emeritus)",
+    bio: "Fenomenolojiyi 'verilmişlik' kavramı üzerinden yeniden kuran, Descartes yorumlarıyla da tanınan Fransız filozof. Académie française üyesi.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1946,
+    affiliation: "Paris-Sorbonne Üniversitesi (emeritus) · Chicago Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "3 Temmuz 1946",
+    alive: true,
+    period: "Çağdaş",
+    school: "Fenomenoloji",
+    areas: "Fenomenoloji, Metafizik, Din felsefesi, Descartes çalışmaları",
+    majorWorks: "Varlıksız Tanrı (1982)\nİndirgeme ve Verilmişlik (1989)\nVerili Olan (1997)\nErotik Fenomen (2003)",
+    keyConcepts: "Doymuş fenomen, Verilmişlik, Putlaştırma ve ikon, Onto-teoloji eleştirisi",
+  },
+  {
+    name: "Axel Honneth",
+    slug: "axel-honneth",
+    headline: "Eleştirel teorinin üçüncü kuşağı — Columbia Üniversitesi",
+    bio: "Toplumsal çatışmayı 'tanınma mücadelesi' olarak okuyan Alman filozof. Frankfurt Toplumsal Araştırmalar Enstitüsü'nü uzun yıllar yönetti.",
+    avatar: null,
+    country: "Almanya",
+    birthYear: 1949,
+    affiliation: "Columbia Üniversitesi · Goethe Üniversitesi Frankfurt",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "18 Temmuz 1949",
+    alive: true,
+    period: "Çağdaş",
+    school: "Frankfurt Okulu, Eleştirel teori",
+    areas: "Toplum felsefesi, Siyaset felsefesi, Ahlak felsefesi",
+    majorWorks: "Tanınma Uğruna Mücadele (1992)\nŞeyleşme (2005)\nÖzgürlük Hakkı (2011)\nToplumsallaştırma Fikri (2015)",
+    keyConcepts: "Tanınma, Aşağılanma, Şeyleşme, Toplumsal patoloji",
+  },
+  {
+    name: "Simon Critchley",
+    slug: "simon-critchley",
+    headline: "Kıta felsefesi ve etik — The New School",
+    bio: "Etik, mizah, trajedi ve dinsizlik üzerine yazan İngiliz filozof. The New York Times'ın felsefe köşesi 'The Stone'un kurucu editörlerinden.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1960,
+    affiliation: "The New School for Social Research, New York",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "27 Şubat 1960",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi",
+    areas: "Etik, Kıta felsefesi, Din felsefesi, Estetik",
+    majorWorks: "The Ethics of Deconstruction (1992)\nVery Little… Almost Nothing (1997)\nInfinitely Demanding (2007)\nTragedy, the Greeks, and Us (2019)",
+    keyConcepts: "Sonsuz talep, Etik deneyim, İnançsızların inancı, Mizah",
+  },
+  {
+    name: "Graham Harman",
+    slug: "graham-harman",
+    headline: "Nesne yönelimli ontolojinin kurucusu — SCI-Arc, Los Angeles",
+    bio: "Nesneleri insan erişiminden bağımsız birer gerçeklik olarak ele alan nesne yönelimli ontolojinin (OOO) kurucusu.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1968,
+    affiliation: "Southern California Institute of Architecture (SCI-Arc)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "9 Mayıs 1968",
+    alive: true,
+    period: "Çağdaş",
+    school: "Spekülatif realizm, Nesne yönelimli ontoloji",
+    areas: "Metafizik, Ontoloji, Estetik, Mimarlık felsefesi",
+    majorWorks: "Tool-Being (2002)\nGuerrilla Metaphysics (2005)\nThe Quadruple Object (2011)\nObject-Oriented Ontology: A New Theory of Everything (2018)",
+    keyConcepts: "Nesne yönelimli ontoloji, Geri çekilme, Dörtlü nesne, Vekil nedensellik",
+  },
+  {
+    name: "Rebecca Goldstein",
+    slug: "rebecca-goldstein",
+    headline: "Filozof ve romancı — ABD",
+    bio: "Felsefeyi kurmacayla birleştiren, Spinoza ve Gödel üzerine kitaplarıyla tanınan Amerikalı yazar ve filozof. 2015'te Ulusal Beşerî Bilimler Madalyası'nı aldı.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1950,
+    affiliation: "New College of the Humanities · Harvard Üniversitesi (misafir)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "23 Şubat 1950",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe",
+    areas: "Bilim felsefesi, Zihin felsefesi, Matematik felsefesi, Felsefe tarihi",
+    majorWorks: "The Mind-Body Problem (1983)\nIncompleteness: The Proof and Paradox of Kurt Gödel (2005)\nBetraying Spinoza (2006)\nPlato at the Googleplex (2014)",
+    keyConcepts: "Matter of mattering, Felsefi kurmaca, Gödel eksiklik teoremleri",
+  },
+  {
+    name: "Patricia Churchland",
+    slug: "patricia-churchland",
+    headline: "Nörofelsefenin kurucusu — Kaliforniya Üniversitesi San Diego (emerita)",
+    bio: "Zihin felsefesini sinirbilimle birleştiren 'nörofelsefe' alanının kurucusu. Ahlakın beyindeki toplumsal bağlanma mekanizmalarından türediğini savunuyor.",
+    avatar: null,
+    country: "Kanada / ABD",
+    birthYear: 1943,
+    affiliation: "Kaliforniya Üniversitesi San Diego (emerita)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "16 Temmuz 1943",
+    alive: true,
+    period: "Çağdaş",
+    school: "Eleyici materyalizm, Nörofelsefe",
+    areas: "Zihin felsefesi, Sinirbilim felsefesi, Ahlak felsefesi",
+    majorWorks: "Neurophilosophy (1986)\nBrain-Wise (2002)\nTouching a Nerve (2013)\nConscience: The Origins of Moral Intuition (2019)",
+    keyConcepts: "Nörofelsefe, Eleyici materyalizm, Vicdanın nörobiyolojisi",
+  },
+  {
+    name: "David Chalmers",
+    slug: "david-chalmers",
+    headline: "Bilinç filozofu — New York Üniversitesi",
+    bio: "Bilincin 'zor problemi' formülasyonuyla tanınan Avustralyalı filozof. Son yıllarda sanal gerçeklik ve büyük dil modellerinin zihinsel durumları üzerine yazıyor.",
+    avatar: null,
+    country: "Avustralya",
+    birthYear: 1966,
+    affiliation: "New York Üniversitesi · Zihin, Beyin ve Bilinç Merkezi",
+    website: null,
+    featured: true,
+    listed: true,
+    birthDate: "20 Nisan 1966",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe, Özellik ikiciliği",
+    areas: "Zihin felsefesi, Bilinç çalışmaları, Dil felsefesi, Yapay zekâ felsefesi",
+    majorWorks: "The Conscious Mind (1996)\nConstructing the World (2012)\nReality+: Virtual Worlds and the Problems of Philosophy (2022)",
+    keyConcepts: "Bilincin zor problemi, Felsefi zombi, Genişlemiş zihin (Clark ile), Sanal gerçekçilik",
+  },
+  {
+    name: "Andy Clark",
+    slug: "andy-clark",
+    headline: "Biliş ve zihin filozofu — Sussex Üniversitesi",
+    bio: "Zihnin beynin sınırlarını aştığını savunan 'genişlemiş zihin' tezinin ortak yazarı. Son çalışmaları öngörücü işleme kuramı üzerine.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1957,
+    affiliation: "Sussex Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1957",
+    alive: true,
+    period: "Çağdaş",
+    school: "Bedenlenmiş biliş",
+    areas: "Zihin felsefesi, Bilişsel bilim, Yapay zekâ felsefesi",
+    majorWorks: "Being There (1997)\n\"The Extended Mind\" (Chalmers ile, 1998)\nSurfing Uncertainty (2016)\nThe Experience Machine (2023)",
+    keyConcepts: "Genişlemiş zihin, Öngörücü işleme, Bedenlenmiş biliş, Beklenti beyni",
+  },
+  {
+    name: "Peter Godfrey-Smith",
+    slug: "peter-godfrey-smith",
+    headline: "Bilim felsefecisi — Sydney Üniversitesi",
+    bio: "Zihnin evrimini ahtapotlar ve diğer omurgasızlar üzerinden inceleyen Avustralyalı bilim felsefecisi.",
+    avatar: null,
+    country: "Avustralya",
+    birthYear: 1965,
+    affiliation: "Sydney Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1965",
+    alive: true,
+    period: "Çağdaş",
+    school: "Doğalcılık",
+    areas: "Bilim felsefesi, Biyoloji felsefesi, Zihin felsefesi",
+    majorWorks: "Theory and Reality (2003)\nDarwinian Populations and Natural Selection (2009)\nDiğer Zihinler: Ahtapot, Deniz ve Bilincin Derin Kökenleri (2016)\nMetazoa (2020)",
+    keyConcepts: "Zihnin evrimi, Darwinci popülasyonlar, Öznel deneyimin kökeni",
+  },
+  {
+    name: "Timothy Williamson",
+    slug: "timothy-williamson",
+    headline: "Mantıkçı ve epistemolog — Oxford Üniversitesi",
+    bio: "Bilgiyi başka zihinsel durumlara indirgenemeyen temel bir kavram olarak ele alan 'önce-bilgi' epistemolojisinin kurucusu. 2000-2023 arasında Oxford'da Wykeham Mantık Kürsüsü'nü yürüttü.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1955,
+    affiliation: "Oxford Üniversitesi · New College",
+    website: "https://www.philosophy.ox.ac.uk/people/timothy-williamson",
+    featured: false,
+    listed: true,
+    birthDate: "6 Ağustos 1955",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe",
+    areas: "Epistemoloji, Metafizik, Mantık felsefesi, Felsefe yöntemi",
+    majorWorks: "Vagueness (1994)\nKnowledge and Its Limits (2000)\nThe Philosophy of Philosophy (2007)\nDoing Philosophy (2018)",
+    keyConcepts: "Önce-bilgi epistemolojisi, Belirsizlik ve epistemik sınır, Zorunlucu metafizik",
+    sources: "Oxford Üniversitesi profil sayfası — https://www.philosophy.ox.ac.uk/people/timothy-williamson",
+  },
+  {
+    name: "Robert Brandom",
+    slug: "robert-brandom",
+    headline: "Dil felsefecisi — Pittsburgh Üniversitesi",
+    bio: "Anlamı, konuşmacıların birbirine yüklediği taahhüt ve yetkilerden türeten 'çıkarımsal anlambilim'in kurucusu.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1950,
+    affiliation: "Pittsburgh Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "13 Mart 1950",
+    alive: true,
+    period: "Çağdaş",
+    school: "Pittsburgh Okulu, Yeni-pragmatizm",
+    areas: "Dil felsefesi, Mantık felsefesi, Alman idealizmi",
+    majorWorks: "Making It Explicit (1994)\nArticulating Reasons (2000)\nBetween Saying and Doing (2008)\nA Spirit of Trust (2019)",
+    keyConcepts: "Çıkarımsal anlambilim, Gerekçe verme oyunu, Normatif pragmatizm",
+  },
+  {
+    name: "Simon Blackburn",
+    slug: "simon-blackburn",
+    headline: "Metaetikçi — Cambridge Üniversitesi (emeritus)",
+    bio: "Ahlaki yargıların dünyayı betimlemekten çok tutum ifade ettiğini savunan 'yarı-gerçekçilik'in kurucusu. Felsefeyi geniş okura açan kitaplarıyla da tanınıyor.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1944,
+    affiliation: "Cambridge Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "12 Temmuz 1944",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe, İfadecilik",
+    areas: "Metaetik, Dil felsefesi, Epistemoloji",
+    majorWorks: "Spreading the Word (1984)\nRuling Passions (1998)\nThink (1999)\nBeing Good (2001)",
+    keyConcepts: "Yarı-gerçekçilik, İfadecilik, Ahlaki tutum",
+  },
+  {
+    name: "Christine Korsgaard",
+    slug: "christine-korsgaard",
+    headline: "Kantçı ahlak felsefecisi — Harvard Üniversitesi (emerita)",
+    bio: "Ahlaki yükümlülüğün kaynağını failin kendi kimliğiyle kurduğu ilişkide arayan Kant yorumcusu. Hayvanlara karşı ödevler üzerine de yazıyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1952,
+    affiliation: "Harvard Üniversitesi (emerita)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "9 Nisan 1952",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kantçılık, Konstrüktivizm",
+    areas: "Ahlak felsefesi, Kant çalışmaları, Hayvan etiği, Eylem kuramı",
+    majorWorks: "The Sources of Normativity (1996)\nSelf-Constitution (2009)\nFellow Creatures: Our Obligations to the Other Animals (2018)",
+    keyConcepts: "Pratik kimlik, Normatifliğin kaynağı, Kendini kurma, Ahlaki konstrüktivizm",
+  },
+  {
+    name: "Will Kymlicka",
+    slug: "will-kymlicka",
+    headline: "Çokkültürlülük ve hayvan hakları kuramcısı — Queen's Üniversitesi",
+    bio: "Azınlık haklarını liberal kuram içinde temellendiren Kanadalı siyaset felsefecisi. Sue Donaldson ile birlikte hayvanlar için yurttaşlık kuramı geliştirdi.",
+    avatar: null,
+    country: "Kanada",
+    birthYear: 1962,
+    affiliation: "Queen's Üniversitesi, Kingston",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1962",
+    alive: true,
+    period: "Çağdaş",
+    school: "Liberalizm",
+    areas: "Siyaset felsefesi, Çokkültürlülük, Hayvan hakları, Yurttaşlık kuramı",
+    majorWorks: "Liberalism, Community, and Culture (1989)\nÇokkültürlü Yurttaşlık (1995)\nZoopolis (Sue Donaldson ile, 2011)",
+    keyConcepts: "Çokkültürlü yurttaşlık, Azınlık hakları, Zoopolis, Hayvan yurttaşlığı",
+  },
+  {
+    name: "Thomas Pogge",
+    slug: "thomas-pogge",
+    headline: "Küresel adalet kuramcısı — Yale Üniversitesi",
+    bio: "Küresel yoksulluğu yardım sorunu değil, zengin devletlerin kurduğu düzenin yol açtığı bir haksızlık olarak ele alan filozof.",
+    avatar: null,
+    country: "Almanya / ABD",
+    birthYear: 1953,
+    affiliation: "Yale Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1953",
+    alive: true,
+    period: "Çağdaş",
+    school: "Rawlsçu liberalizm (eleştirel)",
+    areas: "Siyaset felsefesi, Küresel adalet, Etik, İnsan hakları",
+    majorWorks: "Realizing Rawls (1989)\nWorld Poverty and Human Rights (2002)\nPolitics as Usual (2010)",
+    keyConcepts: "Kurumsal haksızlık, Negatif ödevler, Küresel kaynak temettüsü, Sağlık etki fonu",
+  },
+  {
+    name: "Philippe Van Parijs",
+    slug: "philippe-van-parijs",
+    headline: "Temel gelir kuramcısı — Louvain Katolik Üniversitesi (emeritus)",
+    bio: "Koşulsuz temel gelirin en bilinen felsefi savunucusu. Özgürlüğü yalnızca hak olarak değil, gerçek imkân olarak tanımlıyor.",
+    avatar: null,
+    country: "Belçika",
+    birthYear: 1951,
+    affiliation: "Louvain Katolik Üniversitesi (UCLouvain, emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "23 Mayıs 1951",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik Marksizm, Liberal eşitlikçilik",
+    areas: "Siyaset felsefesi, İktisat felsefesi, Dil adaleti",
+    majorWorks: "Real Freedom for All (1995)\nLinguistic Justice for Europe and for the World (2011)\nBasic Income (Yannick Vanderborght ile, 2017)",
+    keyConcepts: "Koşulsuz temel gelir, Herkes için gerçek özgürlük, Dil adaleti",
+  },
+  {
+    name: "Elizabeth Anderson",
+    slug: "elizabeth-anderson",
+    headline: "Demokrasi ve eşitlik filozofu — Michigan Üniversitesi",
+    bio: "Eşitliği kaynak dağıtımından çok tahakküm ilişkilerinin kaldırılması olarak tanımlayan 'ilişkisel eşitlik' yaklaşımının önde gelen ismi. İşyerindeki özel yönetim biçimlerini eleştiriyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1959,
+    affiliation: "Michigan Üniversitesi, Ann Arbor",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "5 Aralık 1959",
+    alive: true,
+    period: "Çağdaş",
+    school: "Pragmatizm, İlişkisel eşitlikçilik",
+    areas: "Siyaset felsefesi, Etik, Sosyal epistemoloji, İktisat felsefesi",
+    majorWorks: "Value in Ethics and Economics (1993)\nThe Imperative of Integration (2010)\nPrivate Government (2017)\nHijacked (2023)",
+    keyConcepts: "İlişkisel eşitlik, Demokratik eşitlik, Özel yönetim, Bütünleşme",
+  },
+  {
+    name: "Miranda Fricker",
+    slug: "miranda-fricker",
+    headline: "Epistemik adalet kuramcısı — New York Üniversitesi",
+    bio: "Bilgi alanındaki haksızlıkları kavramsallaştıran 'epistemik adaletsizlik' kavramının yaratıcısı. 2026'da Oxford'da Uehiro Konferansları'nı verdi.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1966,
+    affiliation: "New York Üniversitesi",
+    website: "https://www.uehiro.ox.ac.uk/people/professor-miranda-fricker",
+    featured: false,
+    listed: true,
+    birthDate: "1966",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik felsefe, Feminist epistemoloji",
+    areas: "Epistemoloji, Etik, Feminist felsefe, Sosyal epistemoloji",
+    majorWorks: "Epistemic Injustice: Power and the Ethics of Knowing (2007)\nThe Epistemic Life of Groups (2016, derleme)",
+    keyConcepts: "Epistemik adaletsizlik, Tanıklık adaletsizliği, Yorumsal adaletsizlik, Epistemik erdem",
+    sources: "Uehiro Oxford Enstitüsü profil sayfası — https://www.uehiro.ox.ac.uk/people/professor-miranda-fricker",
+  },
+  {
+    name: "Sally Haslanger",
+    slug: "sally-haslanger",
+    headline: "Feminist metafizikçi — MIT",
+    bio: "Toplumsal cinsiyet ve ırk gibi kategorilerin toplumsal olarak kurulmuş yapılar olduğunu savunan 'iyileştirici çözümleme' yönteminin geliştiricisi.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1955,
+    affiliation: "Massachusetts Teknoloji Enstitüsü (MIT)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1955",
+    alive: true,
+    period: "Çağdaş",
+    school: "Analitik feminizm, Sosyal ontoloji",
+    areas: "Metafizik, Feminist felsefe, Sosyal ontoloji, Epistemoloji",
+    majorWorks: "Resisting Reality: Social Construction and Social Critique (2012)\nCritical Theory and Practice (2017)",
+    keyConcepts: "İyileştirici çözümleme, Toplumsal inşa, Yapısal açıklama, İdeoloji eleştirisi",
+  },
+  {
+    name: "Linda Martín Alcoff",
+    slug: "linda-martin-alcoff",
+    headline: "Kimlik ve epistemoloji kuramcısı — CUNY Hunter College",
+    bio: "Irksal ve cinsel kimliği epistemolojiyle birleştiren Panama doğumlu Amerikalı filozof. Amerikan Felsefe Derneği Doğu Şubesi başkanlığı yaptı.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1955,
+    affiliation: "Hunter College · CUNY Graduate Center",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1955",
+    alive: true,
+    period: "Çağdaş",
+    school: "Feminist felsefe, Kıta felsefesi",
+    areas: "Epistemoloji, Feminist felsefe, Irk kuramı, Kimlik siyaseti",
+    majorWorks: "Real Knowing (1996)\nVisible Identities: Race, Gender, and the Self (2006)\nRape and Resistance (2018)",
+    keyConcepts: "Görünür kimlikler, Konumlanmışlık, Epistemik konum, Beyaz kimliği",
+  },
+  {
+    name: "Achille Mbembe",
+    slug: "achille-mbembe",
+    headline: "Postkolonyal kuramcı — Witwatersrand Üniversitesi",
+    bio: "Sömürge sonrası iktidarı ve 'ölüm siyaseti' kavramını inceleyen Kamerunlu düşünür. 2024 Holberg Ödülü'nü alan ilk Afrikalı bilim insanı.",
+    avatar: null,
+    country: "Kamerun / Güney Afrika",
+    birthYear: 1957,
+    affiliation: "Witwatersrand Üniversitesi, Johannesburg",
+    website: "https://holbergprize.org/laureates/holbergprize/achille-mbembe/",
+    featured: false,
+    listed: true,
+    birthDate: "1957",
+    alive: true,
+    period: "Çağdaş",
+    school: "Postkolonyalizm",
+    areas: "Siyaset felsefesi, Postkolonyal kuram, Tarih, Afrika çalışmaları",
+    majorWorks: "Postkoloni Üzerine (2000)\nNekropolitika (2003/2019)\nSiyah Aklın Eleştirisi (2013)\nOut of the Dark Night (2021)",
+    keyConcepts: "Nekropolitika, Postkoloni, Siyah akıl, Dekolonyal düşünce",
+    sources: "Holberg Ödülü — Achille Mbembe — https://holbergprize.org/laureates/holbergprize/achille-mbembe/",
+  },
+  {
+    name: "Gayatri Chakravorty Spivak",
+    slug: "gayatri-chakravorty-spivak",
+    headline: "Postkolonyal kuramın kurucularından — Columbia Üniversitesi",
+    bio: "\"Madun konuşabilir mi?\" sorusuyla postkolonyal kuramın yönünü belirleyen Hint asıllı düşünür. Derrida'nın Gramatoloji'sini İngilizceye çevirdi.",
+    avatar: null,
+    country: "Hindistan / ABD",
+    birthYear: 1942,
+    affiliation: "Columbia Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "24 Şubat 1942",
+    alive: true,
+    period: "Çağdaş",
+    school: "Postkolonyalizm, Yapısöküm",
+    areas: "Postkolonyal kuram, Feminist kuram, Karşılaştırmalı edebiyat, Yapısöküm",
+    majorWorks: "\"Can the Subaltern Speak?\" (1988)\nA Critique of Postcolonial Reason (1999)\nDeath of a Discipline (2003)\nAn Aesthetic Education in the Era of Globalization (2012)",
+    keyConcepts: "Madun (subaltern), Stratejik özcülük, Epistemik şiddet, Gezegensellik",
+    sources: "Gayatri Chakravorty Spivak — Wikipedia — https://en.wikipedia.org/wiki/Gayatri_Chakravorty_Spivak",
+  },
+  {
+    name: "Julia Kristeva",
+    slug: "julia-kristeva",
+    headline: "Dilbilimci, psikanalist ve kuramcı — Paris Cité Üniversitesi (emerita)",
+    bio: "Metinlerarasılık ve iğrençlik (abjection) kavramlarıyla dil kuramını psikanalizle birleştiren Bulgar asıllı Fransız düşünür. Haziran 2026'da 85 yaşına girdi.",
+    avatar: null,
+    country: "Bulgaristan / Fransa",
+    birthYear: 1941,
+    affiliation: "Paris Cité Üniversitesi (emerita)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "24 Haziran 1941",
+    alive: true,
+    period: "Çağdaş",
+    school: "Postyapısalcılık, Psikanaliz",
+    areas: "Dil felsefesi, Psikanaliz, Feminist kuram, Edebiyat kuramı",
+    majorWorks: "Semeiotike (1969)\nKorkunun Güçleri: İğrençlik Üzerine Bir Deneme (1980)\nSevginin Tarihleri (1983)\nKendine Yabancı (1988)",
+    keyConcepts: "Metinlerarasılık, İğrençlik (abjection), Semiyotik ve simgesel, Yabancılık",
+  },
+  {
+    name: "Catherine Malabou",
+    slug: "catherine-malabou",
+    headline: "Plastisite kuramcısı — Kingston Üniversitesi",
+    bio: "Hegel'den yola çıkarak geliştirdiği 'plastisite' kavramını sinirbilim, siyaset ve feminizm tartışmalarına taşıyan Fransız filozof.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1959,
+    affiliation: "Kingston Üniversitesi, Londra · Kaliforniya Üniversitesi Irvine",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1959",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi, Yapısöküm sonrası",
+    areas: "Felsefe ve sinirbilim, Hegel çalışmaları, Feminist kuram, Siyaset felsefesi",
+    majorWorks: "Hegel'in Geleceği (1996)\nBeynimizle Ne Yapmalı? (2004)\nOntology of the Accident (2009)\nMorphing Intelligence (2017)",
+    keyConcepts: "Plastisite, Yıkıcı plastisite, Kaza ontolojisi, Beyin ve tarih",
+  },
+  {
+    name: "Alenka Zupančič",
+    slug: "alenka-zupancic",
+    headline: "Lacancı filozof — Slovenya Bilimler Akademisi",
+    bio: "Lacan psikanalizini Kant etiği, komedi ve cinsellik kuramıyla birleştiren Sloven filozof. Ljubljana Okulu'nun önde gelen isimlerinden.",
+    avatar: null,
+    country: "Slovenya",
+    birthYear: 1966,
+    affiliation: "Slovenya Bilim ve Sanat Akademisi · European Graduate School",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1966",
+    alive: true,
+    period: "Çağdaş",
+    school: "Ljubljana Okulu, Lacancı psikanaliz",
+    areas: "Psikanaliz, Etik, Ontoloji, Estetik",
+    majorWorks: "Ethics of the Real: Kant, Lacan (2000)\nThe Odd One In: On Comedy (2008)\nWhat Is Sex? (2017)",
+    keyConcepts: "Gerçeğin etiği, Komedi ve özne, Cinsellik ve ontoloji",
+  },
+  {
+    name: "Quentin Meillassoux",
+    slug: "quentin-meillassoux",
+    headline: "Spekülatif realist — Paris 1 Panthéon-Sorbonne Üniversitesi",
+    bio: "Kant sonrası felsefenin 'korelasyonizm' dediği çerçeveyi eleştirerek zorunsuzluğun mutlaklığını savunan Fransız filozof.",
+    avatar: null,
+    country: "Fransa",
+    birthYear: 1967,
+    affiliation: "Paris 1 Panthéon-Sorbonne Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1967",
+    alive: true,
+    period: "Çağdaş",
+    school: "Spekülatif realizm",
+    areas: "Metafizik, Ontoloji, Matematik felsefesi",
+    majorWorks: "Sonluluğun Ardından (2006)\nThe Number and the Siren (2011)",
+    keyConcepts: "Korelasyonizm eleştirisi, Zorunsuzluğun zorunluluğu, Ata-fosil, Hiper-kaos",
+  },
+  {
+    name: "Ray Brassier",
+    slug: "ray-brassier",
+    headline: "Nihilizm kuramcısı — Beyrut Amerikan Üniversitesi",
+    bio: "Aydınlanmanın vardığı noktayı 'anlamın yok oluşu' olarak okuyan, spekülatif realizm tartışmasının kurucu adlarından İngiliz filozof.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1965,
+    affiliation: "Beyrut Amerikan Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1965",
+    alive: true,
+    period: "Çağdaş",
+    school: "Spekülatif realizm, Nihilizm",
+    areas: "Metafizik, Bilim felsefesi, Kıta felsefesi",
+    majorWorks: "Nihil Unbound: Enlightenment and Extinction (2007)",
+    keyConcepts: "Aşkın nihilizm, Yok oluş, Anlamın tasfiyesi",
+  },
+  {
+    name: "Nick Land",
+    slug: "nick-land",
+    headline: "Hızcılık akımının kurucu adı — Şanghay",
+    bio: "1990'larda Warwick Üniversitesi'ndeki CCRU çevresinde teknoloji, kapitalizm ve zaman üzerine geliştirdiği düşünceyle 'hızcılık' tartışmasını başlatan İngiliz yazar.",
+    avatar: null,
+    country: "İngiltere",
+    birthYear: 1962,
+    affiliation: "Bağımsız yazar (Şanghay)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "17 Ocak 1962",
+    alive: true,
+    period: "Çağdaş",
+    school: "Hızcılık (accelerationism)",
+    areas: "Teknoloji felsefesi, Siyaset felsefesi, Kıta felsefesi",
+    majorWorks: "The Thirst for Annihilation (1992)\nFanged Noumena (derleme, 2011)",
+    keyConcepts: "Hızcılık, Sibernetik kültür, Zaman-sarmalı",
+  },
+  {
+    name: "Yuk Hui",
+    slug: "yuk-hui",
+    headline: "Teknoloji felsefecisi — Erasmus Rotterdam Üniversitesi",
+    bio: "Teknolojinin evrensel değil kültüre bağlı biçimler aldığını savunan 'kozmoteknik' kavramının geliştiricisi. 2026'da Kant ve yapay zekâyı ele alan Kant Machine kitabını yayımladı.",
+    avatar: null,
+    country: "Hong Kong / Hollanda",
+    birthYear: 1978,
+    affiliation: "Erasmus Rotterdam Üniversitesi",
+    website: "https://digitalmilieu.net/about-yh/",
+    featured: false,
+    listed: true,
+    birthDate: "1978",
+    alive: true,
+    period: "Çağdaş",
+    school: "Teknoloji felsefesi",
+    areas: "Teknoloji felsefesi, Sibernetik, Yapay zekâ felsefesi, Kozmoteknik",
+    majorWorks: "Çin'de Teknoloji Sorunu (2016)\nRecursivity and Contingency (2019)\nSanat ve Kozmoteknik (2021)\nKant Machine (2026)",
+    keyConcepts: "Kozmoteknik, Özyineleme ve olumsallık, Teknoçeşitlilik",
+    sources: "Yuk Hui — kişisel sayfa — https://digitalmilieu.net/about-yh/",
+  },
+  {
+    name: "Acharya Prashant",
+    slug: "acharya-prashant",
+    headline: "Vedanta öğretmeni ve yazar — Hindistan",
+    bio: "Upanişadlar ve Advaita Vedanta metinlerini gündelik yaşam, etik ve tüketim eleştirisi bağlamında yorumlayan Hintli yazar ve konuşmacı.",
+    avatar: null,
+    country: "Hindistan",
+    birthYear: 1978,
+    affiliation: "PrashantAdvait Vakfı",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1978",
+    alive: true,
+    period: "Çağdaş",
+    school: "Advaita Vedanta",
+    areas: "Hint felsefesi, Yaşam felsefesi, Etik, Din felsefesi",
+    keyConcepts: "Advaita, Upanişad yorumu, Bilinç ve arzu",
+  },
+  {
+    name: "Yuval Noah Harari",
+    slug: "yuval-noah-harari",
+    headline: "Tarihçi ve kamusal düşünür — Kudüs İbrani Üniversitesi",
+    bio: "Sapiens, Homo Deus ve Nexus kitaplarıyla insanlık tarihi, teknoloji ve enformasyon ağları üzerine geniş okur kitlesine ulaşan İsrailli tarihçi.",
+    avatar: null,
+    country: "İsrail",
+    birthYear: 1976,
+    affiliation: "Kudüs İbrani Üniversitesi",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "24 Şubat 1976",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Tarih felsefesi, Teknoloji ve toplum, Gelecek çalışmaları",
+    majorWorks: "Sapiens: İnsan Türünün Kısa Bir Tarihi (2011)\nHomo Deus (2015)\n21. Yüzyıl İçin 21 Ders (2018)\nNexus (2024)",
+    keyConcepts: "Kurgusal düzenler, Veri dini, Enformasyon ağları",
+    sources: "Yuval Noah Harari — Wikipedia — https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+  },
+  {
+    name: "Ken Wilber",
+    slug: "ken-wilber",
+    headline: "Integral kuramın kurucusu — ABD",
+    bio: "Bilinç, psikoloji ve din geleneklerini tek bir çerçevede toplamayı amaçlayan 'integral kuram'ın kurucusu Amerikalı yazar.",
+    avatar: null,
+    country: "ABD",
+    birthYear: 1949,
+    affiliation: "Integral Institute",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "31 Ocak 1949",
+    alive: true,
+    period: "Çağdaş",
+    school: "Integral kuram",
+    areas: "Bilinç çalışmaları, Din felsefesi, Gelişim psikolojisi",
+    majorWorks: "The Spectrum of Consciousness (1977)\nSex, Ecology, Spirituality (1995)\nA Theory of Everything (2000)",
+    keyConcepts: "AQAL modeli, Bilinç düzeyleri, Integral yaklaşım",
+  },
+  {
+    name: "Alasdair MacIntyre",
+    slug: "alasdair-macintyre",
+    headline: "Erdem etiğini yeniden kuran filozof — Notre Dame (1929–2025)",
+    bio: "After Virtue ile modern ahlak dilinin parçalandığını savunan ve Aristotelesçi erdem etiğini yeniden gündeme getiren İskoç filozof. 21 Mayıs 2025'te 96 yaşında hayatını kaybetti.",
+    avatar: null,
+    country: "İskoçya / ABD",
+    birthYear: 1929,
+    affiliation: "Notre Dame Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "12 Ocak 1929",
+    deathDate: "21 Mayıs 2025",
+    alive: false,
+    period: "20. yüzyıl — 21. yüzyıl",
+    school: "Erdem etiği, Yeni-Aristotelesçilik, Thomasçılık",
+    areas: "Ahlak felsefesi, Siyaset felsefesi, Felsefe tarihi",
+    majorWorks: "Erdem Peşinde (1981)\nWhose Justice? Which Rationality? (1988)\nThree Rival Versions of Moral Enquiry (1990)\nDependent Rational Animals (1999)",
+    keyConcepts: "Erdem, Pratik (practice), Anlatısal birlik, Gelenek, Duygusalcılık eleştirisi",
+    sources: "Alasdair MacIntyre (1929-2025) — Daily Nous — https://dailynous.com/2025/05/22/alasdair-macintyre-1929-2025/",
+  },
+  {
+    name: "Peter Sloterdijk",
+    slug: "peter-sloterdijk",
+    headline: "Kültür kuramcısı — Karlsruhe Sanat ve Tasarım Yüksekokulu (emeritus)",
+    bio: "Küreler üçlemesi ve sinizm eleştirisiyle tanınan Alman filozof. İnsanı 'kendini terbiye eden varlık' olarak ele alan antropoloji yaklaşımıyla geniş tartışma açtı.",
+    avatar: null,
+    country: "Almanya",
+    birthYear: 1947,
+    affiliation: "Karlsruhe Sanat ve Tasarım Yüksekokulu (HfG, emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "26 Haziran 1947",
+    alive: true,
+    period: "Çağdaş",
+    school: "Kıta felsefesi, Felsefi antropoloji",
+    areas: "Kültür felsefesi, Felsefi antropoloji, Din felsefesi, Modernlik kuramı",
+    majorWorks: "Sinik Aklın Eleştirisi (1983)\nKüreler üçlemesi (1998-2004)\nİnsanat Bahçesi İçin Kurallar (1999)\nSen Hayatını Değiştirmelisin (2009)",
+    keyConcepts: "Küreler, Sinik akıl, Antropoteknik, Egzersiz ve terbiye",
   },
 ];
 
@@ -1336,6 +2218,725 @@ Doğa felsefesi, çevre felsefesi ve yeni materyalizm tartışmalarıyla; özgü
 
 > Schelling'in kaderi felsefe tarihinde ilginç bir örnek: hem çok erken tanınmış (yirmili yaşlarında profesör olmuştu) hem de kendi sağlığında unutulmuş bir düşünür.`,
   },
+  {
+    title: "Jürgen Habermas'ın ardından: kamusal alanın filozofu 96 yaşında öldü",
+    slug: "jurgen-habermas-1929-2026",
+    summary: "Savaş sonrası Almanya'nın entelektüel yönünü belirleyen filozof 14 Mart 2026'da Starnberg'de hayatını kaybetti. Frankfurt'ta düzenlenen anma töreninde Cumhurbaşkanı Steinmeier konuştu.",
+    coverImage: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "Jürgen Habermas (1929–2026): kamusal alan ve iletişimsel eylem",
+    metaDescription: "Jürgen Habermas 14 Mart 2026'da 96 yaşında öldü. Kamusal alan, iletişimsel eylem ve müzakereci demokrasi kavramlarıyla bıraktığı miras.",
+    contentType: "HABER",
+    sourceName: "Associated Press / PBS News",
+    sourceUrl: "https://www.pbs.org/newshour/world/influential-german-philosopher-jurgen-habermas-dies-at-96",
+    publishedAt: "2026-08-21T07:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["vefat", "elestirel-teori", "demokrasi", "siyaset-felsefesi"],
+    philosopherSlugs: ["jurgen-habermas"],
+    sources: [
+      { title: "Influential German philosopher Jürgen Habermas dies at 96", publisher: "Associated Press / PBS News", date: "14 Mart 2026", url: "https://www.pbs.org/newshour/world/influential-german-philosopher-jurgen-habermas-dies-at-96", primary: true },
+      { title: "Habermas, the Philosopher Who Shaped Germany's Post-War Conscience", publisher: "Reuters / U.S. News", date: "14 Mart 2026", url: "https://www.usnews.com/news/world/articles/2026-03-14/juergen-habermas-philosopher-dies-at-age-96-publisher-says" },
+      { title: "Uluslararası sempozyum Habermas'ın yaşam eserini onurlandırdı", publisher: "Normative Orders, Goethe Üniversitesi", date: "19 Haziran 2026", url: "https://normativeorders.net/en/news/internationales-symposium-wuerdigt-lebenswerk-von-juergen-habermas/" },
+    ],
+    content: `Jürgen Habermas, 14 Mart 2026 Cumartesi günü Münih yakınlarındaki Starnberg'de 96 yaşında hayatını kaybetti. Ölümünü, uzun yıllar kitaplarını yayımlayan Suhrkamp Yayınevi duyurdu.
+
+Habermas yalnızca bir akademisyen değildi. İletişim, akılcılık ve toplum üzerine yazdıkları onu dünyanın en etkili filozoflarından biri yaparken, Almanya'da kamusal tartışmanın da başlıca sesiydi.
+
+## Bir kuşağın kelimeleri
+
+18 Haziran 1929'da Düsseldorf'ta doğdu, Gummersbach'ta büyüdü. Nazi Almanyası yenildiğinde on beş yaşındaydı. Yıllar sonra o dönemi anlatırken, Nazi suçlarının ortaya çıkışını felsefeye ve toplum kuramına yönelmesinin başlangıcı olarak tarif edecekti: "Birdenbire, içinde yaşadığınız şeyin siyaseten suçlu bir sistem olduğunu görüyordunuz."
+
+Doğuştan gelen yarık damak nedeniyle çocukluğunda tekrarlanan ameliyatlar geçirdi. Bu deneyimin dil üzerine düşüncesini beslediğini kendisi söylemişti: Konuşma dilini, "onsuz birey olarak var olamayacağımız bir ortaklık katmanı" olarak tanımlıyordu.
+
+## İletişimsel eylem
+
+En bilinen çalışması iki ciltlik *İletişimsel Eylem Kuramı*'dır. Habermas burada, modern toplumun aklını yalnızca araçsal hesaba indirgeyen okumalara karşı çıkar: Akıl, tek başına amaç-araç hesabı değil, insanların birbirini ikna etmeye çalıştığı konuşma ilişkisinin içinde de bulunur.
+
+Bundan çıkan siyasal sonuç, müzakereci demokrasi anlayışıdır: Kararların meşruluğu yalnızca oy sayısından değil, o kararın önündeki gerekçelerin herkese açık biçimde tartışılabilmiş olmasından gelir.
+
+*Kamusallığın Yapısal Dönüşümü* ise 1962'de yayımlanmıştı ve kahvehanelerden gazetelere uzanan burjuva kamusal alanının doğuşunu ve çözülüşünü izliyordu. Kavram bugün internet ve sosyal medya tartışmalarında da kullanılıyor.
+
+## Tarihçiler Tartışması
+
+Habermas kamusal tartışmalardan kaçınmadı. 1960'ların sonunda öğrenci hareketiyle hem temas kurdu hem de o dönemki bir konuşma üzerine "sol faşizm" uyarısı yaptı; bu ifadeyi sonradan "biraz yersiz" bulduğunu söyleyecekti. Aynı hareketin Alman toplumunda "temel bir liberalleşme" yarattığını da kabul etti.
+
+1980'lerde, Ernst Nolte ve bazı tarihçilerin Nazi dönemini başka rejimlerin suçlarıyla karşılaştırarak yeniden değerlendirme çağrısına sert karşı çıktı. Ona göre bu karşılaştırmalar Nazi suçlarının ağırlığını hafifletiyordu. Tartışma, Almanya'da *Historikerstreit* adıyla anıldı.
+
+Avrupa konusunda ise Alman siyasetçilerini, iş dünyasını ve medyayı "siyaseten etkili bir Avrupa'yı biçimlendirme" konusunda ilgisiz olmakla eleştirdi.
+
+## Ardından
+
+Almanya Başbakanı Friedrich Merz, ölümünün ardından yaptığı açıklamada "Almanya ve Avrupa, çağımızın en önemli düşünürlerinden birini kaybetti" dedi ve Habermas'ın "düşünsel gücü ile liberalliği"ni andı.
+
+19 Haziran 2026'da Goethe Üniversitesi Frankfurt'taki Normatif Düzenler Araştırma Merkezi, Suhrkamp Yayınevi ile birlikte uluslararası bir sempozyumla Habermas'ı andı. Frankfurt'taki Paulskirche'de düzenlenen anma töreninde Federal Cumhurbaşkanı Frank-Walter Steinmeier konuştu.
+
+Eşi Ute Habermas-Wesselhoeft geçen yıl ölmüştü. Çiftin üç çocuğu oldu: Tilmann, 2023'te ölen Rebekka ve Judith.`,
+  },
+  {
+    title: "Alasdair MacIntyre'ın mirası: erdem etiği neden geri döndü?",
+    slug: "alasdair-macintyre-mirasi-erdem-etigi",
+    summary: "After Virtue'nun yazarı 2025'te 96 yaşında öldü. Modern ahlak dilinin 'anlaşılmaz kalıntılar yığını' olduğu tezi, ölümünden sonra da tartışılmayı sürdürüyor.",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Alasdair MacIntyre ve erdem etiğinin dönüşü",
+    metaDescription: "Alasdair MacIntyre'ın After Virtue'da ortaya koyduğu tez ve erdem etiğinin çağdaş felsefedeki yeri.",
+    contentType: "ANALIZ",
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2025/05/22/alasdair-macintyre-1929-2025/",
+    publishedAt: "2026-08-21T08:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["etik", "vefat", "kavram"],
+    philosopherSlugs: ["alasdair-macintyre"],
+    sources: [
+      { title: "Alasdair MacIntyre (1929-2025)", publisher: "Daily Nous", date: "22 Mayıs 2025", url: "https://dailynous.com/2025/05/22/alasdair-macintyre-1929-2025/", primary: true },
+      { title: "Alasdair MacIntyre, Professor Emeritus, 1929-2025", publisher: "Duke Üniversitesi Felsefe Bölümü", url: "https://philosophy.duke.edu/news/alasdair-macintyre-professor-emeritus-1929-2025" },
+    ],
+    content: `Glasgow doğumlu İskoç filozof Alasdair MacIntyre, 21 Mayıs 2025'te Indiana eyaletinin South Bend kentindeki bir bakımevinde 96 yaşında hayatını kaybetmişti. Notre Dame ve Duke üniversitelerinde felsefe profesörü emeritus olan MacIntyre, yirminci yüzyılın ikinci yarısında ahlak felsefesinin yönünü değiştiren birkaç isimden biriydi.
+
+## "Ahlak dilimiz bir enkaz"
+
+1981'de yayımlanan *After Virtue* (Türkçede *Erdem Peşinde*), çarpıcı bir benzetmeyle açılır. MacIntyre bir felaket sonrası dünyayı hayal eder: Bilim yıkılmış, geriye yalnızca kopuk terimler, yarım formüller ve adı kalmış kuramlar kalmıştır. İnsanlar bu parçaları kullanmayı sürdürür ama artık hangi bütünün parçası olduklarını bilmezler.
+
+MacIntyre'a göre modern ahlak dili tam olarak böyledir. "Hak", "ödev", "iyi" gibi sözcükleri kullanmayı sürdürüyoruz; ama bu sözcükleri anlamlı kılan Aristotelesçi çerçeve — insanın bir amacı (telos) olduğu düşüncesi — çoktan terk edilmiş durumda.
+
+## Duygusalcılık eleştirisi
+
+Bunun sonucu, MacIntyre'ın *duygusalcılık* dediği durumdur: Ahlaki tartışmalar sonuçsuz kalır, çünkü taraflar aslında yalnızca tercihlerini dile getirmektedir. Kürtaj, savaş ya da adalet üzerine tartışmalar bitmez; çünkü ortak bir ölçüt kalmamıştır.
+
+Çözüm olarak MacIntyre, Aristoteles'e ve ondan beslenen Thomasçı geleneğe dönmeyi önerir. 1983'te, elli beş yaşındayken Katolikliği seçmesi de bu düşünsel yolculukla bağlantılıydı.
+
+## Üç anahtar kavram
+
+MacIntyre'ın erdem tanımı üç katmanlıdır:
+
+1. **Pratik (practice):** Kendi içsel iyilerine sahip, kurallı ortak etkinlikler — satranç, tıp, mimarlık, çiftçilik. Erdemler, bir pratiğin içsel iyilerine ulaşmayı sağlayan niteliklerdir.
+2. **Bir yaşamın anlatısal birliği:** İnsan hayatı kopuk rollerin toplamı değil, baştan sona anlatılabilir bir bütündür. "İyi yaşam" sorusu ancak bu bütünlük içinde sorulabilir.
+3. **Gelenek:** Anlatılar tek başına durmaz; tarihsel olarak süregelen ve kendi içinde tartışan geleneklere yaslanır.
+
+## Neden hâlâ tartışılıyor?
+
+*After Virtue* yayımlandığında ahlak felsefesinin gündemi büyük ölçüde faydacılık ile Kantçılık arasındaki karşıtlıktan ibaretti. MacIntyre üçüncü bir seçeneği — karakter ve erdem odaklı yaklaşımı — yeniden masaya koydu. Bugün erdem etiği, meslek etiğinden yapay zekâ tasarımına kadar geniş bir alanda kullanılıyor.
+
+Eleştirmenleri, MacIntyre'ın modernlik tablosunu fazla karanlık çizdiğini ve "geleneğe dönüş" çağrısının hangi geleneğe döneceği sorusunu yanıtsız bıraktığını söylüyor. Bu itiraz, kendisinin *Whose Justice? Which Rationality?* (1988) kitabında doğrudan ele aldığı sorudur.`,
+  },
+  {
+    title: "Žižek'ten iki kitap: 'Liberal Fascism' çıktı, 'Signs from the Future' ekimde",
+    slug: "zizek-liberal-fascism-signs-from-the-future",
+    summary: "Slovenyalı filozofun serbest piyasa diliyle paketlenen otoriterliği ele alan deneme derlemesi yayımlandı. İkinci kitap 29 Ekim 2026'da raflarda olacak.",
+    coverImage: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "Slavoj Žižek'in yeni kitapları: Liberal Fascism ve Signs from the Future",
+    metaDescription: "Slavoj Žižek'in 2026'da yayımlanan Liberal Fascism derlemesi ve 29 Ekim'de çıkacak Signs from the Future kitabı.",
+    contentType: "HABER",
+    sourceName: "LSE Review of Books · Bloomsbury",
+    sourceUrl: "https://blogs.lse.ac.uk/lsereviewofbooks/2026/01/21/book-review-against-progress-zero-point-slavoj-zizek/",
+    publishedAt: "2026-08-21T09:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "marksizm", "siyaset-felsefesi", "psikanaliz"],
+    philosopherSlugs: ["slavoj-zizek"],
+    sources: [
+      { title: "Book Review: Against Progress / Zero Point — Slavoj Žižek", publisher: "LSE Review of Books", date: "21 Ocak 2026", url: "https://blogs.lse.ac.uk/lsereviewofbooks/2026/01/21/book-review-against-progress-zero-point-slavoj-zizek/", primary: true },
+      { title: "Signs from the Future (Žižek's Essays)", publisher: "Bloomsbury", date: "29 Ekim 2026", url: "https://www.amazon.com/Signs-Future-%C5%BDi%C5%BEeks-Essays-Slavoj/dp/1350648442" },
+    ],
+    content: `Slavoj Žižek'in 2026'daki üretim temposu düşmüş değil. Yılın ilk yarısında yayımlanan *Liberal Fascism*, serbest piyasa diliyle ambalajlanmış otoriterlik biçimlerini ele alan bir deneme derlemesi.
+
+## Başlıktaki gerilim
+
+Kitabın adı bilinçli bir provokasyon: Žižek, "liberal" ile "faşizm" sözcüklerini yan yana getirerek, otoriter eğilimlerin her zaman liberal düzenin dışından gelmediğini savunuyor. Piyasa özgürlüğü söyleminin, siyasal özgürlüklerin daraltılmasıyla nasıl bir arada durabildiği kitabın ana izleği.
+
+Bu, Žižek'in uzun süredir sürdürdüğü bir hattın devamı: İdeolojinin en güçlü hâli, kendini ideoloji olarak sunmayan hâlidir. Sistem, kendini "alternatifsiz" ilan ettiği anda eleştirinin dili de elinden alınmış olur.
+
+## Ekimde ikinci kitap
+
+Bloomsbury, filozofun *Žižek's Essays* dizisinden çıkacak *Signs from the Future* kitabını 29 Ekim 2026 için duyurdu. Dizi, Žižek'in dağınık biçimde yayımlanmış denemelerini tematik ciltlerde topluyor.
+
+## Türkçedeki durum
+
+Žižek, Türkçeye en çok çevrilen çağdaş filozoflardan biri. *İdeolojinin Yüce Nesnesi*, *Kırılgan Temas*, *Ahir Zamanlarda Yaşarken* ve *Hiçten Az* gibi kitapları farklı yayınevlerinden yayımlandı. Yeni iki derlemenin Türkçe çevirileri için henüz bir duyuru yapılmadı.
+
+---
+
+*Yeni çeviri duyurularını takip ediyoruz; yayınevlerinden gelen bilgileri Yeni Kitaplar bölümünde paylaşıyoruz.*`,
+  },
+  {
+    title: "Chalmers'tan yeni makale: Dil modelleriyle konuşurken kiminle konuşuyoruz?",
+    slug: "chalmers-dil-modelleriyle-konusurken",
+    summary: "Bilincin 'zor problemi'nin kaşifi, sohbet ettiğimiz şeyin model mi yoksa modelin canlandırdığı bir 'muhatap' mı olduğunu soruyor. Yapay zekânın bilinçli olabileceği ihtimaline kapıyı kapatmıyor.",
+    coverImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "David Chalmers: dil modelleriyle konuşurken kiminle konuşuyoruz?",
+    metaDescription: "David Chalmers'ın 2026 tarihli 'What We Talk to When We Talk to Language Models' makalesi ve yapay zekâ bilinci tartışması.",
+    contentType: "HABER",
+    sourceName: "OfficeChai · ABC News",
+    sourceUrl: "https://officechai.com/ai/david-chalmers-raises-provocative-questions-about-ai-consciousness-in-new-paper/",
+    publishedAt: "2026-08-21T10:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      { title: "David Chalmers Raises Provocative Questions About AI Consciousness In New Paper", publisher: "OfficeChai", date: "2026", url: "https://officechai.com/ai/david-chalmers-raises-provocative-questions-about-ai-consciousness-in-new-paper/", primary: true },
+      { title: "Will AI be conscious in the future? Here's what a philosopher and a neuroscientist think", publisher: "ABC News (Avustralya)", date: "30 Mayıs 2026", url: "https://www.abc.net.au/news/2026-05-30/artificial-intelligence-ai-will-it-be-conscious-in-the-future/106738770" },
+      { title: "I'm Open To The Possibility Of AI Consciousness: David Chalmers", publisher: "OfficeChai", url: "https://officechai.com/ai/im-open-to-the-possibility-of-ai-consciousness-david-chalmers/" },
+    ],
+    content: `Bir sohbet robotuna soru sorduğunuzda tam olarak neyle konuşuyorsunuz? Modelin kendisiyle mi, yoksa modelin o an canlandırdığı bir karakterle mi?
+
+David Chalmers, Nisan 2026'da yayımlanan *"What We Talk to When We Talk to Language Models"* başlıklı makalesinde tam bu soruyu soruyor. Chalmers'ın önerdiği ayrım basit ama sonuçları geniş: Karşımızdaki, sinir ağının bütünü değil, o ağın ürettiği ve kendisiyle özdeş olmayan bir *muhatap*tır.
+
+## Neden önemli?
+
+Ayrım, gündelik dilde kolayca karışan iki şeyi ayırıyor. Bir dil modeli, farklı istemlerle farklı "kişilikler" üretebilir. Bu kişiliklerden birine atfettiğimiz inanç ve niyetler, modelin kendisine ait değildir.
+
+Chalmers bu noktada *quasi-yorumsamacılık* (quasi-interpretivism) dediği bir çerçeve öneriyor: Bir yapay zekâya "yarı-inançlar" ve "yarı-arzular" atfedebiliriz. Böylece sistemin zihinsel yaşamı üzerine konuşmak, "ruhu var mı, gerçekten hissediyor mu" tartışmasına girmeden mümkün hâle geliyor.
+
+## Bilinç konusunda ne diyor?
+
+Chalmers, bugünkü sistemlerin bilinçli olduğuna ikna olmuş değil. Ama kapıyı da kapatmıyor. Kendi ifadesiyle, bu sistemlerin bilinç için gerekli olan neyi eksik bıraktığı "hiç de açık değil" — çünkü bilinç için neyin zorunlu olduğunu zaten bilmiyoruz.
+
+2023'teki sistemler için yazdığı değerlendirmede, eksik ya da belirsiz gördüğü özellikleri saymıştı: yinelemeli işleme, küresel çalışma alanı ve birleşik faillik. Ardıllarının bu engelleri aşabileceğini de eklemişti.
+
+## Tartışmanın yönü
+
+Konuyu takip eden bazı araştırmacılar, tartışmanın "yapay zekâ bilinçli mi?" gibi çözülemez bir soruda tıkanmaması gerektiğini savunuyor. arXiv'de yayımlanan çalışmalar, sorunun daha ele alınabilir alt sorulara — hangi işlevsel özelliklerin hangi davranışlarla ilişkili olduğu gibi — bölünmesini öneriyor.
+
+Chalmers'ın konumu ise tanıdık: Bilincin zor problemi, yapay zekâ söz konusu olduğunda kolaylaşmıyor; yalnızca daha acil hâle geliyor.`,
+  },
+  {
+    title: "Yuk Hui'den 'Kant Machine': yapay zekâ çağında Kant'ı yeniden okumak",
+    slug: "yuk-hui-kant-machine",
+    summary: "Erasmus Üniversitesi'nden teknoloji filozofu Yuk Hui'nin yeni kitabı, makinelerin ahlaki olup olamayacağını ve 'ebedi barış için bir algoritma' bulunup bulunmadığını soruyor.",
+    coverImage: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Yuk Hui'nin yeni kitabı Kant Machine",
+    metaDescription: "Yuk Hui'nin Bloomsbury'den çıkan Kant Machine kitabı, Kant'ın aşkınsal idealizmini yapay zekâ ve robotik tartışmasına taşıyor.",
+    contentType: "HABER",
+    sourceName: "Erasmus Üniversitesi Felsefe Fakültesi",
+    sourceUrl: "https://www.eur.nl/en/esphil/news/yuk-hui-publishes-new-book-kant-machine",
+    publishedAt: "2026-08-21T11:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "yapay-zeka", "teknoloji-felsefesi", "kant"],
+    philosopherSlugs: ["yuk-hui"],
+    sources: [
+      { title: "Yuk Hui Publishes New Book Kant Machine", publisher: "Erasmus School of Philosophy, Erasmus Üniversitesi Rotterdam", date: "2026", url: "https://www.eur.nl/en/esphil/news/yuk-hui-publishes-new-book-kant-machine", primary: true },
+      { title: "Yuk Hui — kişisel sayfa", publisher: "digitalmilieu.net", url: "https://digitalmilieu.net/about-yh/" },
+    ],
+    content: `Erasmus Rotterdam Üniversitesi'nde felsefe profesörü ve "İnsanlık Durumları" kürsüsünün sahibi Yuk Hui'nin yeni kitabı *Kant Machine*, Bloomsbury tarafından yayımlandı.
+
+## Kitabın sorusu
+
+Hui, kitabında üç soruyu birbirine bağlıyor: Neye "akıllı makine" diyebiliriz? Makineler ahlaklı olabilir mi? Ebedi barış için bir algoritma var mıdır?
+
+Üçüncü soru doğrudan Kant'a gönderme yapıyor. Kant, 1795 tarihli *Ebedi Barış Üzerine* risalesinde devletler arası kalıcı barışın koşullarını maddeler hâlinde sıralamıştı. Hui, bu tür bir kurallar dizisinin bugün algoritma diliyle yazılıp yazılamayacağını soruyor.
+
+## Rasyonalizm ile ampirizm arasında
+
+Kitabın ana tezi şu: Yapay zekâ üzerine bugünkü tartışmalar, felsefe tarihinin çok eski bir gerilimini yankılıyor — akılcılık ile deneycilik arasındaki gerilimi. Bir yanda kurallardan türeyen zekâ anlayışı, diğer yanda veriden öğrenen zekâ anlayışı var.
+
+Hui'ye göre Kant'ın aşkınsal idealizmi bu ikisi arasında durduğu için, yapay zekânın etik ve siyasal sonuçlarını düşünmek üzere bugün de kullanışlı bir çerçeve sunuyor.
+
+## Kozmoteknik hattının devamı
+
+*Kant Machine*, Hui'nin daha önceki çalışmalarının doğal devamı sayılabilir. *Çin'de Teknoloji Sorunu* (2016) ve *Sanat ve Kozmoteknik* (2021) kitaplarında geliştirdiği **kozmoteknik** kavramı, teknolojinin evrensel ve tek bir şey olmadığını; her kültürün kendi kozmolojisiyle birlikte kendi teknik biçimini ürettiğini savunuyordu.
+
+Bu bakış, yapay zekâ tartışmasına da bir itiraz taşıyor: Tek bir "yapay zekâ geleceği" değil, birden çok teknolojik yol mümkündür.`,
+  },
+  {
+    title: "2026 Kyoto Ödülü Sanat ve Felsefe dalında Laurie Anderson'ın",
+    slug: "kyoto-odulu-2026-laurie-anderson",
+    summary: "Inamori Vakfı, elektronik müzik, performans, şiir ve sinemayı birleştiren çalışmalarıyla tanınan sanatçıyı ödüle değer gördü. Tören 10 Kasım'da Japonya'da yapılacak.",
+    coverImage: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "2026 Kyoto Ödülü Sanat ve Felsefe dalı: Laurie Anderson",
+    metaDescription: "2026 Kyoto Ödülü Sanat ve Felsefe dalında Laurie Anderson'a verildi. Tören 10 Kasım'da düzenlenecek.",
+    contentType: "HABER",
+    sourceName: "Inamori Vakfı",
+    sourceUrl: "https://www.newswise.com/articles/multimedia-artist-laurie-anderson-to-receive-2026-kyoto-prize-in-arts-and-philosophy",
+    publishedAt: "2026-08-21T12:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Multimedia Artist Laurie Anderson to Receive 2026 Kyoto Prize in Arts and Philosophy", publisher: "Inamori Vakfı / Newswise", date: "2026", url: "https://www.newswise.com/articles/multimedia-artist-laurie-anderson-to-receive-2026-kyoto-prize-in-arts-and-philosophy", primary: true },
+      { title: "Inamori Foundation Announces 2026 Kyoto Prize Laureates", publisher: "Newswise", url: "https://www.newswise.com/articles/inamori-foundation-announces-2026-kyoto-prize-laureates" },
+      { title: "The 2026 Kyoto Prize Laureates Announced", publisher: "Foreign Press Center Japan", url: "https://fpcj.jp/en/prlisting/2026-kyoto-prize-laureates/" },
+    ],
+    content: `Japonya merkezli Inamori Vakfı, 2026 Kyoto Ödülü'nün Sanat ve Felsefe dalını çok ortamlı sanatçı ve müzisyen Laurie Anderson'a verdiğini duyurdu.
+
+## Ödül hakkında
+
+Kyoto Ödülü, üç dalda — İleri Teknoloji, Temel Bilimler, Sanat ve Felsefe — her yıl veriliyor. Sanat ve Felsefe dalı dönüşümlü olarak müzik, sanat, sinema-tiyatro ve düşünce-etik alanlarını kapsıyor.
+
+Her ödül sahibine bir berat, 20 ayar altın madalya ve 100 milyon yen (600 bin ABD dolarının üzerinde) para ödülü veriliyor. 41. Kyoto Ödülü töreni 10 Kasım'da Japonya'da yapılacak.
+
+## Neden Anderson?
+
+1947 doğumlu Anderson, keman ve heykel eğitimi aldı. Elektronik müziği performans, şiir ve film yapımıyla birleştiren avangart projeleriyle tanınıyor. Vakıf, onu "anlatı sesini, bedensel varlığını ve yaratıcı elektronik araçları birleştiren, ömür boyu süren disiplinlerarası bir öncü" olarak tanımladı.
+
+## Felsefe için anlamı
+
+Kyoto Ödülü'nün "Sanat ve Felsefe" dalı, felsefe camiası için önemli bir referans noktası. Geçmiş yıllarda bu dalda Jürgen Habermas (2004), Charles Taylor (2008) ve Martha Nussbaum (2016) gibi filozoflar ödüllendirilmişti.`,
+  },
+  {
+    title: "2026 Holberg Ödülü tarihçi Lyndal Roper'a verildi",
+    slug: "holberg-odulu-2026-lyndal-roper",
+    summary: "Oxford'da Regius Tarih Profesörü olan Roper, cadı avları, Alman Köylü Savaşı ve Luther üzerine çalışmalarıyla ödüle değer görüldü.",
+    coverImage: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "2026 Holberg Ödülü: Lyndal Roper",
+    metaDescription: "2026 Holberg Ödülü, Oxford Üniversitesi'nden tarihçi Lyndal Roper'a verildi.",
+    contentType: "HABER",
+    sourceName: "Holberg Ödülü · Oxford Üniversitesi",
+    sourceUrl: "https://www.ox.ac.uk/news/2026-03-17-oxford-historian-named-2026-holberg-prize-laureate",
+    publishedAt: "2026-08-21T12:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Oxford historian named 2026 Holberg Prize Laureate", publisher: "Oxford Üniversitesi", date: "17 Mart 2026", url: "https://www.ox.ac.uk/news/2026-03-17-oxford-historian-named-2026-holberg-prize-laureate", primary: true },
+      { title: "Holberg Award 2026 goes to Lyndal Roper", publisher: "Collège de France", url: "https://www.college-de-france.fr/en/news/holberg-award-2026-goes-to-lyndal-roper" },
+      { title: "Award Ceremony for the 2026 Holberg Prize and the Nils Klim Prize", publisher: "Holbergprize", url: "https://holbergprize.org/events-and-productions/award-ceremony-for-the-2026-holberg-prize-and-the-nils-klim-prize/" },
+    ],
+    content: `Beşerî bilimler, toplum bilimleri, hukuk ve teolojinin en büyük ödüllerinden biri sayılan Holberg Ödülü, 17 Mart 2026'da açıklandı. 2026 ödülünün sahibi, Oxford Üniversitesi'nde Regius Tarih Profesörü olan Lyndal Roper.
+
+## Çalışma alanı
+
+Roper'ın araştırmaları erken modern Avrupa üzerine yoğunlaşıyor. Cadı avları, 1524-1525 Alman Köylü Savaşı ve Martin Luther'in yaşamı ile düşüncesi üzerine yazdıkları, on altıncı yüzyılın toplumsal ve dinsel çatışmalarında toplumsal cinsiyetin, bedenin, ruhsal dünyanın ve iktidarın nasıl işlediğini gösterdi.
+
+## Felsefeyle bağı
+
+Holberg Ödülü yalnızca felsefeye verilmiyor; ancak felsefe tarihi açısından doğrudan ilgi çeken bir sicili var. Ödülü daha önce Jürgen Habermas (2005), Julia Kristeva (2004), Martha Nussbaum (2021) ve Achille Mbembe (2024) almıştı.
+
+Roper'ın Reform dönemi çalışmaları, modern öznellik kavramının kökenleri üzerine yapılan felsefi tartışmalarla da kesişiyor: Luther'in vicdan anlayışı, bireyin iç dünyasının Batı düşüncesindeki yerini kavramak için başvurulan başlıklardan biri.
+
+Ödül töreni Bergen'de düzenlenen Holberg Haftası kapsamında yapılıyor.`,
+  },
+  {
+    title: "Miranda Fricker Oxford'da Uehiro Konferansları'nı verdi: 'Ahlaki Basınçlar'",
+    slug: "miranda-fricker-uehiro-konferanslari-2026",
+    summary: "Epistemik adaletsizlik kavramının yaratıcısı, 2026 Uehiro Konferansları'nda ahlaki taleplerin insanları nasıl biçimlendirdiğini ele aldı. Columbia'daki Dewey Konferansları'nı da bu yıl o verdi.",
+    coverImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Miranda Fricker: 2026 Uehiro Konferansları — Moral Pressures",
+    metaDescription: "Miranda Fricker'ın Oxford'daki 2026 Uehiro Konferansları ve Columbia Üniversitesi Dewey Konferansları.",
+    contentType: "HABER",
+    sourceName: "Uehiro Oxford Enstitüsü",
+    sourceUrl: "https://www.uehiro.ox.ac.uk/2026-lectures-miranda-fricker",
+    publishedAt: "2026-08-21T13:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["epistemoloji", "etik", "konferans", "akademi"],
+    philosopherSlugs: ["miranda-fricker"],
+    sources: [
+      { title: "2026 Lectures: Miranda Fricker", publisher: "Uehiro Oxford Institute", date: "2026", url: "https://www.uehiro.ox.ac.uk/2026-lectures-miranda-fricker", primary: true },
+      { title: "2026 John Dewey Lectures — Miranda Fricker, New York University", publisher: "Columbia Üniversitesi Felsefe Bölümü", url: "https://philosophy.columbia.edu/events/2026-john-dewey-lectures-miranda-fricker-new-york-university" },
+    ],
+    content: `New York Üniversitesi'nden Miranda Fricker, Oxford'daki 2026 Yıllık Uehiro Konferansları'nı *"Moral Pressures: Bending Time, Shaping Wills"* (Ahlaki Basınçlar: Zamanı Bükmek, İradeleri Biçimlendirmek) başlığıyla verdi.
+
+## Fricker neden önemli?
+
+Fricker'ın adı 2007 tarihli *Epistemic Injustice* kitabıyla özdeşleşti. Kitap, o güne kadar dağınık biçimde tartışılan bir olguya isim verdi: İnsanlar yalnızca kaynaklardan ya da haklardan değil, **bilen özne olmaktan** da mahrum bırakılabilir.
+
+Fricker bunu iki başlıkta topladı:
+
+- **Tanıklık adaletsizliği:** Bir kişinin sözüne, kimliğine ilişkin önyargı yüzünden hak ettiğinden az güvenilmesi. Doktora derdini anlatamayan hasta, ifadesi ciddiye alınmayan tanık.
+- **Yorumsal adaletsizlik:** Bir deneyimin adlandırılabileceği ortak kavramın toplumda henüz bulunmaması. "Cinsel taciz" terimi yaygınlaşmadan önce, o deneyimi yaşayanların elinde onu anlatacak sözcük yoktu.
+
+## Yeni konferans dizisi ne üzerine?
+
+Uehiro dizisinin başlığındaki "ahlaki basınçlar", ahlakın yalnızca kurallar ve gerekçeler yoluyla değil; beklenti, sitem, minnet gibi gündelik baskılar yoluyla da işlediği fikrine işaret ediyor. Fricker'ın önceki çalışmalarında da yer alan bir izlek bu: Ahlak, soyut ilkelerden önce insanlar arasındaki karşılıklı tutumlarda yaşıyor.
+
+## Aynı yıl Columbia'da
+
+Fricker 2026'da Columbia Üniversitesi'nin John Dewey Konferansları'nı da verdi. Amerikan Felsefe Derneği'nin desteklediği bu dizi, alanına damga vurmuş isimlere ayrılıyor.`,
+  },
+  {
+    title: "Elizabeth Anderson Lund'da: 'Liberteryenlik, eşitsizlik ve otoriterliğe kayış'",
+    slug: "elizabeth-anderson-pufendorf-konferanslari",
+    summary: "Michigan Üniversitesi'nden filozof, 11-13 Mayıs 2026'da verdiği Pufendorf Konferansları'nda piyasa özgürlüğü söyleminin siyasal özgürlüğü nasıl aşındırdığını tartıştı.",
+    coverImage: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Elizabeth Anderson'ın 2026 Pufendorf Konferansları",
+    metaDescription: "Elizabeth Anderson, Lund Üniversitesi'ndeki Pufendorf Konferansları'nda liberteryenlik, eşitsizlik ve otoriterlik ilişkisini ele aldı.",
+    contentType: "HABER",
+    sourceName: "Lund Üniversitesi Pufendorf Konferansları",
+    sourceUrl: "https://www.fil.lu.se/pufendorf/lectures/2026-elizabeth-anderson/",
+    publishedAt: "2026-08-21T13:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "konferans"],
+    philosopherSlugs: ["elizabeth-anderson"],
+    sources: [
+      { title: "2026 Elizabeth Anderson — Pufendorf Lectures", publisher: "Lund Üniversitesi", date: "11-13 Mayıs 2026", url: "https://www.fil.lu.se/pufendorf/lectures/2026-elizabeth-anderson/", primary: true },
+    ],
+    content: `Michigan Üniversitesi'nden Elizabeth Anderson, 11-13 Mayıs 2026 tarihlerinde Lund Üniversitesi'nin Pufendorf Konferansları'nı verdi. Dizinin başlığı: *"Libertarianism, Inequality, and the Inexorable Slide to Authoritarianism"*.
+
+## Anderson'ın tezi
+
+Anderson uzun süredir şu soruyu soruyor: Piyasa özgürlüğünü savunan düşünce geleneği, sonuçta nasıl oluyor da insanların gündelik hayatta daha az özgür olduğu düzenlere varıyor?
+
+2017 tarihli *Private Government* kitabında bu soruyu işyerine taşımıştı. Anderson'a göre çoğu çalışan, kamusal alanda yurttaş sayılırken işyerinde neredeyse mutlak bir otoritenin altında yaşıyor — kıyafetinden konuşmasına, mesai dışı davranışlarından sosyal medya paylaşımlarına kadar. Bu, devlet dışı ama fiilen yönetim gücüne sahip bir yapı: *özel yönetim*.
+
+Konferans dizisinin başlığı bu çizgiyi siyasal düzeye taşıyor: Ekonomik eşitsizlik yoğunlaştıkça, siyasal kurumların da bu güç yoğunlaşmasına direnme kapasitesi azalıyor.
+
+## İlişkisel eşitlik
+
+Anderson'ın adı, eşitlik tartışmasında *ilişkisel eşitlik* yaklaşımıyla anılıyor. Bu yaklaşıma göre eşitliğin asıl konusu, kimin ne kadar kaynağa sahip olduğu değil; insanların birbirine hangi ilişki içinde durduğudur. Amaç, kimsenin kimseye tabi olmadığı bir toplumdur.
+
+## Pufendorf Konferansları
+
+Dizi, adını on yedinci yüzyıl doğal hukuk kuramcısı Samuel von Pufendorf'tan alıyor ve Lund Üniversitesi Felsefe Bölümü tarafından düzenleniyor.`,
+  },
+  {
+    title: "Timothy Williamson bu yıl Yale'de; Fudan'da adına kongre düzenleniyor",
+    slug: "timothy-williamson-yale-fudan-2026",
+    summary: "Oxford'un emekli Wykeham Mantık Profesörü, 2026'da Yale'de misafir profesör. Kasım ayında Şanghay'da 'Williamson Çin felsefesiyle karşılaşıyor' başlıklı bir kongre yapılacak.",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Timothy Williamson 2026: Yale ve Fudan",
+    metaDescription: "Timothy Williamson'ın 2026'daki Yale misafir profesörlüğü ve Fudan Üniversitesi'nde düzenlenecek kongre.",
+    contentType: "HABER",
+    sourceName: "Oxford Üniversitesi · PhilEvents",
+    sourceUrl: "https://www.philosophy.ox.ac.uk/people/timothy-williamson",
+    publishedAt: "2026-08-21T14:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["epistemoloji", "akademi", "konferans"],
+    philosopherSlugs: ["timothy-williamson"],
+    sources: [
+      { title: "Timothy Williamson — Faculty of Philosophy", publisher: "Oxford Üniversitesi", url: "https://www.philosophy.ox.ac.uk/people/timothy-williamson", primary: true },
+      { title: "Timothy Williamson Encountering Chinese Philosophy", publisher: "PhilEvents", date: "6-7 Kasım 2026", url: "https://philevents.org/event/show/144458" },
+      { title: "Philosophy Dept Colloquium: Timothy Williamson (Yale and Oxford)", publisher: "Yale Üniversitesi", date: "6 Nisan 2026", url: "https://philosophy.yale.edu/events/2026-04-06-philosophy-dept-colloquium-timothy-williamson-yale-and-oxford" },
+    ],
+    content: `Çağdaş epistemolojinin en çok tartışılan isimlerinden Timothy Williamson, 2026'da Yale Üniversitesi'nde A. Whitney Griswold Misafir Profesörü olarak bulunuyor. 6 Nisan 2026'da Yale Felsefe Bölümü kolokyumunda bir konuşma yaptı.
+
+## "Önce bilgi"
+
+Williamson'ın adı, epistemolojide bir dönüm noktası sayılan *Knowledge and Its Limits* (2000) kitabıyla anılıyor. Kitabın ana savı, alanın yüz yıllık alışkanlığını tersine çeviriyor.
+
+Geleneksel yaklaşım bilgiyi parçalarına ayırmayı dener: bilgi = doğru + inanç + gerekçe (artı bir düzeltme). Williamson'a göre bu program başarısız oldu. Ona göre **bilgi, daha basit parçalara çözülemeyen temel bir zihinsel durumdur**; tersine, inanç ve gerekçe gibi kavramları bilgi üzerinden açıklamak gerekir.
+
+Bu konum "önce-bilgi epistemolojisi" (knowledge-first epistemology) adıyla anılıyor ve son yirmi beş yılda alanın en verimli tartışma hatlarından birini açtı.
+
+## Kasımda Şanghay
+
+Şanghay'daki Fudan Üniversitesi, 6-7 Kasım 2026'da *"Timothy Williamson Encountering Chinese Philosophy"* başlıklı bir kongre düzenliyor. Programda Çin felsefesi araştırmacıları Williamson'ın çalışmalarını kendi gelenekleri açısından eleştirel biçimde ele alacak; Williamson da yanıt verecek.
+
+Bu yaklaşım, analitik felsefe ile Çin felsefesi arasındaki temasın son yıllarda arttığını gösteren örneklerden biri. *Studies in Logic* dergisinin 2026 sayısında yayımlanan bir söyleşide Williamson, önce-bilgi epistemolojisinin Çin epistemolojisiyle kesişme noktalarını tartışmıştı.
+
+## Belirsizlik üzerine
+
+Williamson'ın diğer ünlü tezi belirsizlik (vagueness) üzerine. *Vagueness* (1994) kitabında, "kel" ya da "yığın" gibi belirsiz sözcüklerin aslında kesin sınırları olduğunu; ancak bu sınırların bizim tarafımızdan bilinemeyeceğini savunur. Belirsizlik, dünyada değil bilgimizde bir eksikliktir. Bu görüş *epistemikçilik* olarak biliniyor ve hâlâ yoğun biçimde tartışılıyor.`,
+  },
+  {
+    title: "Cornel West: 'ABD ahlaki çöküş ve demokratik çürüme yaşıyor'",
+    slug: "cornel-west-al-jazeera-soylesi-2026",
+    summary: "Union Theological Seminary'den filozof, Al Jazeera'ya verdiği söyleşide her iki büyük partinin de yerleşik iktidara hizmet ettiğini savundu. Bahar aylarında ABD'de bir dizi üniversite konuşması yaptı.",
+    coverImage: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Cornel West'in 2026 açıklamaları ve konuşmaları",
+    metaDescription: "Cornel West, Al Jazeera söyleşisinde ABD'de ahlaki çöküş ve demokratik çürümeden söz etti; bahar döneminde üniversite konuşmaları yaptı.",
+    contentType: "HABER",
+    sourceName: "Al Jazeera",
+    sourceUrl: "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/1/25/cornel-west-us-is-facing-moral-collapse-and-democratic-decay",
+    publishedAt: "2026-08-21T14:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "demokrasi", "soylesi"],
+    philosopherSlugs: ["cornel-west"],
+    sources: [
+      { title: "Cornel West: US is facing moral collapse and democratic decay", publisher: "Al Jazeera — Talk to Al Jazeera", date: "25 Ocak 2026", url: "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/1/25/cornel-west-us-is-facing-moral-collapse-and-democratic-decay", primary: true },
+      { title: "'We ought to be pessimistic,' Cornel West says, 'We just don't allow it to have the last word'", publisher: "Source New Mexico", date: "15 Nisan 2026", url: "https://sourcenm.com/2026/04/15/we-ought-to-be-pessimistic-cornel-west-says-we-just-dont-allow-it-to-have-the-last-word/" },
+      { title: "Cornel West encourages the Santa Clara community to find their voice and use it for good", publisher: "Santa Clara Üniversitesi", date: "2026", url: "https://www.scu.edu/news-and-events/feature-stories/2026/stories/cornel-west-encourages-the-santa-clara-community-to-find-their-voice-and-use-it-for-good.html" },
+    ],
+    content: `Amerikalı filozof ve aktivist Cornel West, 25 Ocak 2026'da Al Jazeera'nın *Talk to Al Jazeera* programında Amerika Birleşik Devletleri'nin durumuna ilişkin sert bir değerlendirme yaptı: ahlaki çöküş, demokratik çürüme ve ruhsal iflas.
+
+West, Siyah özgürlük mücadelesinin tarihine ve 2024'teki başkanlık adaylığı deneyimine dayanarak, iki büyük partinin de yerleşik güç odaklarına hizmet ettiğini; bu arada ülke içindeki eşitsizliğin derinleştiğini savundu.
+
+## Karamsarlık ama teslimiyet değil
+
+Nisan 2026'da New Mexico'daki St. John's College'da yıllık Steiner Konferansı'nı veren West'in oradaki bir cümlesi konuşmanın özeti gibiydi: "Karamsar olmalıyız — yalnızca son sözü karamsarlığa bırakmıyoruz."
+
+Bu ifade, West'in *trajik umut* dediği tutumun kısa hâli. Ona göre umut, işlerin iyi gideceğine dair bir tahmin değildir; kötü gittiğini bile bile mücadeleyi sürdürme kararıdır. Bu düşünce, hem Amerikan pragmatizminden hem de Siyah kilise geleneğinden besleniyor.
+
+## Bahar dönemi
+
+Mayıs 2026'da Santa Clara Üniversitesi'nin "Compelling Conversations" dizisinde üç yüzden fazla öğrenci, akademisyen ve çalışana seslenen West, dinleyicilerini kendi amaçlarını anlamaya ve bunu ortak iyilik için kullanmaya çağırdı. Aynı dönemde Hay-on-Wye'daki HowTheLightGetsIn festivaline New York'tan çevrimiçi katıldı.
+
+## Kürsüsü
+
+West, Union Theological Seminary'de Dietrich Bonhoeffer Felsefe ve Hıristiyan Pratiği Kürsüsü'nü yürütüyor; Princeton Üniversitesi'nde profesör emeritus. Daha önce Harvard, Yale ve Paris'te ders verdi.`,
+  },
+  {
+    title: "Julia Kristeva 85 yaşında: iğrençlikten metinlerarasılığa bir düşünce hattı",
+    slug: "julia-kristeva-85-yasinda",
+    summary: "Bulgar asıllı Fransız düşünür 24 Haziran'da 85 yaşına girdi. Mayıs ayında Bulgaristan'a giden Kristeva'nın kavramları dilbilim, psikanaliz ve feminizm arasında dolaşıyor.",
+    coverImage: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Julia Kristeva 85 yaşında: metinlerarasılık ve iğrençlik",
+    metaDescription: "Julia Kristeva 24 Haziran 2026'da 85 yaşına girdi. Metinlerarasılık, semiyotik ve iğrençlik kavramlarına bakış.",
+    contentType: "ANALIZ",
+    sourceName: "Bulgar Telgraf Ajansı (BTA)",
+    sourceUrl: "https://www.bta.bg/en/news/archives/1153750-june-24-2026-world-famous-french-bulgarian-philosopher-julia-kristeva-turns-85",
+    publishedAt: "2026-08-21T15:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["psikanaliz", "toplumsal-cinsiyet", "kavram"],
+    philosopherSlugs: ["julia-kristeva"],
+    sources: [
+      { title: "June 24, 2026: World-Famous French-Bulgarian Philosopher Julia Kristeva Turns 85", publisher: "Bulgarian Telegraph Agency (BTA)", date: "24 Haziran 2026", url: "https://www.bta.bg/en/news/archives/1153750-june-24-2026-world-famous-french-bulgarian-philosopher-julia-kristeva-turns-85", primary: true },
+    ],
+    content: `Julia Kristeva 24 Haziran 2026'da 85 yaşına girdi. Bulgar Telgraf Ajansı'nın haberine göre psikanalist, dilbilimci, göstergebilimci, edebiyat kuramcısı ve romancı olan Kristeva, mayıs ayında Bulgaristan'ı ziyaret etti.
+
+## Paris'e giden yol
+
+1941'de Bulgaristan'da doğan Kristeva, 1965'te doktora bursuyla Paris'e gitti ve bir daha dönmedi. Roland Barthes'ın öğrencisi oldu, *Tel Quel* çevresine katıldı ve kısa sürede Fransız kuramının merkezine yerleşti.
+
+## Metinlerarasılık
+
+Kristeva'nın erken dönemdeki en kalıcı katkısı **metinlerarasılık** kavramı. Mihail Bahtin'in "diyalojizm" fikrinden yola çıkarak, hiçbir metnin yalnız başına durmadığını; her metnin başka metinlerin dönüştürülmüş hâli olduğunu savundu. Kavram bugün edebiyat kuramının standart terimlerinden biri.
+
+## Semiyotik ve simgesel
+
+*Şiirsel Dilde Devrim* (1974) çalışmasında dili iki katmana ayırdı:
+
+- **Simgesel:** Dilbilgisi, sözdizimi, toplumsal kural — dilin düzen kısmı.
+- **Semiyotik:** Ritim, tonlama, kopukluk, ses yinelemeleri — anlamdan önce gelen bedensel katman.
+
+Kristeva'ya göre şiir, semiyotiğin simgesel düzeni zorladığı yerdir. Bu ayrım, dil ile beden arasındaki ilişkiyi psikanaliz üzerinden yeniden kurar.
+
+## İğrençlik
+
+1980 tarihli *Korkunun Güçleri: İğrençlik Üzerine Bir Deneme*, kavramların en çok yankılananını ortaya koydu: **abjection** (iğrençlik). İğrenç olan, ne özne ne nesnedir; sınırı bozan şeydir — ceset, kusmuk, kan. Kristeva'ya göre benlik, kendini bunları dışarı atarak kurar; ama dışarı atılan şey bir daha tam olarak yok olmaz.
+
+Kavram, edebiyat eleştirisinden korku sinemasına, milliyetçilik çözümlemelerinden beden kuramına kadar geniş bir alanda kullanıldı.
+
+## Türkçedeki Kristeva
+
+*Korkunun Güçleri*, *Kendine Yabancı*, *Ruhun Yeni Hastalıkları* ve *Sevginin Tarihleri* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Alain Badiou belgeseli Kopenhag Felsefe Film Festivali'nde gösterildi",
+    slug: "badiou-belgeseli-kopenhag-film-festivali",
+    summary: "Rohan ve Gorav Kalyan kardeşlerin çektiği 'Badiou' belgeseli, Danimarka Film Enstitüsü'nün 2026 programında yer aldı. Film, filozofun peşinde Paris'te dolaşıyor.",
+    coverImage: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Badiou belgeseli Kopenhag Felsefe Film Festivali'nde",
+    metaDescription: "Alain Badiou hakkındaki belgesel, Danimarka Film Enstitüsü'nün 2026 Felsefe Film Festivali programında gösterildi.",
+    contentType: "HABER",
+    sourceName: "UCLA Karşılaştırmalı Edebiyat Bölümü",
+    sourceUrl: "https://complit.ucla.edu/news/professor-reinhard-alain-badiou/",
+    publishedAt: "2026-08-21T15:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["sinema", "siyaset-felsefesi"],
+    philosopherSlugs: ["alain-badiou"],
+    sources: [
+      { title: "Professor Reinhard and Alain Badiou", publisher: "UCLA Comparative Literature", date: "2026", url: "https://complit.ucla.edu/news/professor-reinhard-alain-badiou/", primary: true },
+    ],
+    content: `Fransız filozof Alain Badiou hakkında çekilen *Badiou* belgeseli, Danimarka Film Enstitüsü'nün Kopenhag'da düzenlediği 2026 Felsefe Film Festivali programında gösterildi.
+
+Filmi, yönetmen Rohan Kalyan ile kardeşi Gorav Kalyan hazırladı. Yapımcılar, Badiou'nun düşüncesinin kapsamından etkilenerek filozofun izini Paris'te sürdüklerini anlatıyor.
+
+## Badiou'nun düşüncesi kısaca
+
+1937 doğumlu Badiou, École Normale Supérieure'de felsefe kürsüsünün başkanlığını yaptı; Paris VIII Üniversitesi'nin felsefe bölümünü Gilles Deleuze, Michel Foucault ve Jean-François Lyotard ile birlikte kurdu.
+
+Ana yapıtı *Varlık ve Olay*'da (1988) çarpıcı bir denklem kurar: **Ontoloji matematiktir.** Badiou'ya göre "varlık olarak varlık" üzerine söylenebilecek her şey, küme kuramının dilinde söylenir. Varlık, bir bütünlük değil saf çokluktur.
+
+Bu tablodan çıkan asıl kavram **olay**tır. Olay, mevcut durumun kendi kuralları içinde açıklanamayan bir kopuştur: bir devrim, bir aşk, bir bilimsel buluş, bir sanat yapıtı. Olay kendiliğinden bir şey kurmaz; ona **sadakat** gösteren özneler bir hakikat yordamı başlatır.
+
+Badiou'nun siyasal konumu da buradan türüyor: "Komünizm hipotezi" dediği şey, bir devlet modeli değil; eşitliğin bir olay olarak yeniden düşünülebileceği ısrarıdır.
+
+## Belgeselin yeri
+
+Felsefe belgeselleri son yıllarda festivallerde giderek daha çok yer buluyor. Badiou'nun kendi ilgisi de bu tercihe uyuyor: Sinemayı, felsefenin dört "hakikat yordamı"ndan biri saydığı sanatın kitleselleşmiş biçimi olarak ele alıyor ve üzerine yazıyor.`,
+  },
+  {
+    title: "Bir felsefe dergisi, büyük ölçüde yapay zekâya yazdırılmış makale yayımladı",
+    slug: "felsefe-dergisi-yapay-zeka-makale",
+    summary: "Philosophy & Public Affairs'te çıkan makalenin metnini Claude yazdı; tezi Hong Kong Üniversitesi'nden Simon Goldstein verdi ve metni düzenledi. Karar, alanın yazarlık ölçütlerini tartışmaya açtı.",
+    coverImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: true,
+    seoTitle: "Felsefe dergisinde yapay zekâ tarafından yazılmış makale",
+    metaDescription: "Philosophy & Public Affairs, büyük ölçüde bir dil modeli tarafından yazılmış bir makaleyi bilerek yayımladı. Yazarlık tartışması.",
+    contentType: "HABER",
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/13/philosophy-journal-publishes-largely-ai-authored-article-on-purpose-guest-post/",
+    publishedAt: "2026-08-21T16:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "akademi", "dergi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Philosophy Journal Publishes Largely AI-Authored Article — On Purpose (guest post)", publisher: "Daily Nous", date: "13 Ağustos 2026", url: "https://dailynous.com/2026/08/13/philosophy-journal-publishes-largely-ai-authored-article-on-purpose-guest-post/", primary: true },
+    ],
+    content: `Siyaset felsefesinin en saygın dergilerinden *Philosophy & Public Affairs*, büyük bölümü bir dil modeli tarafından yazılmış bir makaleyi yayımladı — ve bunu bilerek yaptı.
+
+## Nasıl bir iş bölümü?
+
+Daily Nous'ta yayımlanan konuk yazıya göre metnin taslağını Anthropic'in dil modeli Claude yazdı. Makalenin tezini Hong Kong Üniversitesi'nden felsefe doçenti Simon Goldstein verdi; süreci yönetti ve metni düzenledi.
+
+Yani ortada gizlenen bir kullanım yok; tersine, derginin kararı bir deneme niteliği taşıyor: Alan, yapay zekâ destekli üretimi nasıl ele alacak?
+
+## Neyi tartışmaya açıyor?
+
+Felsefede yazarlık, çoğu bilim dalından farklı bir anlam taşır. Bir makale genellikle tek kişinin adını taşır ve o kişinin akıl yürütmesini temsil ettiği varsayılır. Metnin büyük bölümü bir model tarafından üretildiğinde şu sorular doğuyor:
+
+- **Fikir kimin?** Tez insandan geldiyse, metnin makine tarafından yazılmış olması yazarlığı değiştirir mi?
+- **Hakemlik ne yapar?** Hakemler argümanı değerlendirir; argümanın kaynağını değil. Bu ayrım sürdürülebilir mi?
+- **Şeffaflık ölçütü ne olmalı?** Hangi düzeyde katkının açıklanması gerekir?
+
+## Alandaki diğer tartışma
+
+Aynı dönemde felsefe camiasında ikinci bir tartışma daha sürüyordu: Yapay zekâ şirketlerinde çalışan filozofların konumu. Daily Nous'ta yer alan bir tartışmada bu durum, "yangını çıkaranların itfaiyecilik yapması" benzetmesiyle eleştirildi.
+
+Sitemizde daha önce yer verdiğimiz *"Yapay zekâ şirketleri filozof işe alıyor"* haberinde de aynı eğilimin istihdam tarafını aktarmıştık. Tartışmanın iki ucu böylece birleşiyor: Felsefe yapay zekâya girerken, yapay zekâ da felsefenin üretim biçimine giriyor.`,
+  },
+  {
+    title: "New York Times: 'Felsefe bölümünün intikamı'",
+    slug: "nyt-felsefe-bolumunun-intikami",
+    summary: "Gazetenin temmuz ayındaki yazısı, uzun süre 'iş bulunmayan bölüm' diye anılan felsefenin iş dünyasında yeniden değer kazanmasını ele aldı.",
+    coverImage: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "NYT: Felsefe bölümünün intikamı",
+    metaDescription: "The New York Times'ın felsefe mezunlarının iş piyasasındaki dönüşünü ele alan yazısı ve Daily Nous'taki yankısı.",
+    contentType: "HABER",
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/07/05/nyt-the-revenge-of-the-philosophy-major/",
+    publishedAt: "2026-08-21T16:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "yapay-zeka"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "NYT: The Revenge of the Philosophy Major", publisher: "Daily Nous", date: "5 Temmuz 2026", url: "https://dailynous.com/2026/07/05/nyt-the-revenge-of-the-philosophy-major/", primary: true },
+    ],
+    content: `The New York Times'ın *"The Revenge of the Philosophy Major"* (Felsefe Bölümünün İntikamı) başlıklı yazısı, temmuz ayında felsefe camiasında geniş yankı buldu. Daily Nous yazıyı gündemine aldı ve tartışma sürdü.
+
+## Yazının çerçevesi
+
+Ana izlek tanıdık: Yıllarca beşerî bilimler öğrencilerine "istihdam için kod öğrenin" denildi. Şimdi tablo tersine dönmüş görünüyor. Yapay zekâ yazılım üretiminin bir kısmını devralırken, kıymetli hâle gelen beceriler farklılaşıyor: bir sorunu doğru tanımlamak, varsayımları sınamak, muğlak bir talebi açık ölçütlere çevirmek, sonuçların kimi nasıl etkileyeceğini görebilmek.
+
+Bunlar felsefe eğitiminin gündelik pratikleri.
+
+## Rakamlar
+
+Sitemizde daha önce aktardığımız *Philosophy Now* verisine göre 2024'te ABD'de felsefe mezunlarının işsizlik oranı yüzde 5,1; bilgisayar bilimleri mezunlarınınki yüzde 7 olarak ölçülmüştü.
+
+## İhtiyatlı okuma
+
+Camiada bu tür haberlere temkinli yaklaşanlar da var. İki itiraz öne çıkıyor:
+
+1. **Tekil veriler eğilim değildir.** Bir yılın istihdam rakamı, bölümlerin uzun vadeli durumunu göstermez.
+2. **Manşet ile kurumsal gerçeklik ayrışıyor.** Aynı dönemde İngiltere'de Dundee Üniversitesi felsefe ana dalını kaldırma planını duyurdu; protesto dilekçesi beş binden fazla imza topladı. Bu haberi de daha önce aktarmıştık.
+
+Yani felsefenin "değeri" yükselirken, felsefe bölümlerinin bütçesi aynı yönde hareket etmiyor.`,
+  },
+  {
+    title: "Judith Butler New School'da: 'Çağdaş faşist tutkular'",
+    slug: "judith-butler-new-school-fasist-tutkular",
+    summary: "Butler, 23-25 Nisan 2026'daki GSSI Sempozyumu'nda açılış konuşmasını yaptı. Şubat ayında ise WashU'da yaklaşık 200 kişiye 'Who's Afraid of Gender?' üzerine konuştu.",
+    coverImage: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Judith Butler'ın 2026 konuşmaları: faşist tutkular ve toplumsal cinsiyet",
+    metaDescription: "Judith Butler'ın The New School'daki 2026 GSSI Sempozyumu açılış konuşması ve WashU'daki söyleşisi.",
+    contentType: "HABER",
+    sourceName: "The New School · Student Life (WashU)",
+    sourceUrl: "https://event.newschool.edu/contemporaryfascistpassions",
+    publishedAt: "2026-08-21T17:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["toplumsal-cinsiyet", "siyaset-felsefesi", "konferans"],
+    philosopherSlugs: ["judith-butler"],
+    sources: [
+      { title: "Gender Matters 2026: Contemporary Fascist Passions with Judith Butler", publisher: "The New School", date: "23-25 Nisan 2026", url: "https://event.newschool.edu/contemporaryfascistpassions", primary: true },
+      { title: "Dreaming wide awake with Judith Butler", publisher: "Student Life, Washington Üniversitesi", date: "9 Şubat 2026", url: "https://www.studlife.com/news/2026/02/09/dreaming-wide-awake-with-judith-butler" },
+    ],
+    content: `Judith Butler, 23-25 Nisan 2026'da The New School'da düzenlenen GSSI Sempozyumu'nda — *Feminisms Against Fascism* — açılış konuşmasını yaptı. Konuşmanın başlığı: *"Gender Matters 2026: Contemporary Fascist Passions"*.
+
+## Tartışmanın zemini
+
+Butler'ın son kitabı *Who's Afraid of Gender?*, "toplumsal cinsiyet" kavramının dünya çapında nasıl bir siyasal hedef hâline geldiğini inceliyor. Kitabın tezine göre, birbirinden çok farklı ülkelerde ve çok farklı siyasal geleneklerde aynı anda beliren bu karşıtlık rastlantı değil: "Gender", ekonomik güvencesizlikten göçe kadar uzanan kaygıların toplandığı bir kap işlevi görüyor.
+
+Butler bu hareketin dilini "ahlaki sadizm" olarak nitelendiriyor ve dinsel, siyasal ve kültürel kurumlara nasıl yerleştiğini izliyor.
+
+## Şubatta WashU
+
+3 Şubat 2026'da Washington Üniversitesi'nde yaklaşık iki yüz kişilik bir topluluğa seslenen Butler, aynı kitap ve dünya demokrasilerinin geleceği üzerine konuştu.
+
+## Butler'ın kavramı
+
+Butler'ın adı, 1990 tarihli *Cinsiyet Belası* ile birlikte anılıyor. Oradaki temel öneri **performatiflik**tir: Toplumsal cinsiyet, kişinin sahip olduğu bir öz değil; tekrarlanan edimler yoluyla üretilen bir şeydir. "Kadın olmak" ya da "erkek olmak", önceden var olan bir gerçekliğin dışavurumu değil, o gerçekliği kuran davranış dizisidir.
+
+Bu tez, otuz beş yıldır hem feminist kuramın hem de eleştirmenlerinin başvurduğu referans noktası olmayı sürdürüyor.
+
+## Türkçedeki Butler
+
+*Cinsiyet Belası*, *Bela Bedenler*, *Kırılgan Hayat* ve *Şiddetin Eleştirisi* Türkçeye çevrilen kitapları arasında.`,
+  },
+  {
+    title: "Harari'nin grafik Sapiens serisi kasımda dördüncü ciltle sürüyor",
+    slug: "harari-sapiens-grafik-tarih-dorduncu-cilt",
+    summary: "Sapiens: A Graphic History serisinin 'The Age of Revolutions' başlıklı cildi kasım ayında çıkıyor. Çocuklar için yazdığı Unstoppable Us dizisinin üçüncü kitabı şubatta yayımlanmıştı.",
+    coverImage: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=1600&q=80",
+    imageCredit: "Temsilî görsel: Unsplash",
+    featured: false,
+    seoTitle: "Yuval Noah Harari'nin 2026 kitapları",
+    metaDescription: "Sapiens: A Graphic History dördüncü cilt kasım 2026'da; Unstoppable Us üçüncü kitap şubat 2026'da yayımlandı.",
+    contentType: "HABER",
+    sourceName: "Book Notification · NewBooksAlert",
+    sourceUrl: "https://www.booknotification.com/authors/yuval-noah-harari/",
+    publishedAt: "2026-08-21T17:30:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "tarih"],
+    philosopherSlugs: ["yuval-noah-harari"],
+    sources: [
+      { title: "Yuval Noah Harari — List of Books", publisher: "Book Notification", date: "2026", url: "https://www.booknotification.com/authors/yuval-noah-harari/", primary: true },
+      { title: "Yuval Noah Harari 2026 Book Releases", publisher: "NewBooksAlert", url: "https://newbooksalert.com/author-releases/yuval-noah-harari/" },
+    ],
+    content: `İsrailli tarihçi Yuval Noah Harari'nin *Sapiens: A Graphic History* serisinin dördüncü cildi — *The Age of Revolutions* — kasım 2026'da yayımlanıyor.
+
+Seri, Harari'nin 2011 tarihli *Sapiens* kitabını çizgi roman diline aktarıyor. David Vandermeulen ve Daniel Casanave ile birlikte hazırlanan ciltler, tarih anlatısını mizah ve kurgusal sahnelerle birleştiren bir yöntem izliyor.
+
+Harari'nin çocuklar için yazdığı *Unstoppable Us* dizisinin üçüncü kitabı *How Enemies Become Friends* ise 3 Şubat 2026'da çıkmıştı.
+
+## Harari felsefeci mi?
+
+Harari akademik olarak tarihçi; Kudüs İbrani Üniversitesi'nde ders veriyor. Ancak kitaplarının sorduğu sorular felsefenin klasik başlıklarına dokunuyor: İnsanı diğer türlerden ayıran nedir? Kurumlar, para ve devlet gibi "kurgusal düzenler" nasıl gerçeklik kazanır? Teknoloji karar verme yetimizi devraldığında özerklikten ne kalır?
+
+2024 tarihli *Nexus*, bu hattı enformasyon ağları üzerinden sürdürüyordu: Harari'ye göre bilgi çoğaldıkça hakikat kendiliğinden yayılmıyor; asıl mesele hangi ağların hangi kurguları güçlendirdiği.
+
+## Eleştiriler
+
+Harari'ye yönelik akademik eleştiriler genellikle iki başlıkta toplanıyor: geniş genellemelerin kaynak temellendirmesinin zayıf kalması ve farklı alanların bulgularının tek anlatıya sıkıştırılması. Bu tartışma, popüler tarih yazımının sınırları üzerine daha genel bir tartışmanın parçası.
+
+## Türkçedeki Harari
+
+*Sapiens*, *Homo Deus*, *21. Yüzyıl İçin 21 Ders* ve *Nexus* Türkçeye çevrildi.`,
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -1439,6 +3040,70 @@ export const books: SeedBook[] = [
     philosopherSlug: "peter-singer",
     postSlug: null,
   },
+  {
+    title: "Kant Machine",
+    slug: "kant-machine",
+    originalTitle: null,
+    publisher: "Bloomsbury",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Yuk Hui, Kant'ın aşkınsal idealizmini yapay zekâ ve robotik tartışmasının merkezine taşıyor: Neye akıllı makine denir, makineler ahlaklı olabilir mi, ebedi barış için bir algoritma var mıdır?",
+    year: 2026,
+    link: "https://www.eur.nl/en/esphil/news/yuk-hui-publishes-new-book-kant-machine",
+    philosopherSlug: "yuk-hui",
+    postSlug: "yuk-hui-kant-machine",
+  },
+  {
+    title: "Signs from the Future",
+    slug: "signs-from-the-future",
+    originalTitle: null,
+    publisher: "Bloomsbury",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Slavoj Žižek'in denemelerini tematik ciltlerde toplayan Žižek's Essays dizisinin yeni kitabı. 29 Ekim 2026'da yayımlanıyor.",
+    year: 2026,
+    link: "https://www.amazon.com/Signs-Future-%C5%BDi%C5%BEeks-Essays-Slavoj/dp/1350648442",
+    philosopherSlug: "slavoj-zizek",
+    postSlug: "zizek-liberal-fascism-signs-from-the-future",
+  },
+  {
+    title: "Erdem Peşinde",
+    slug: "erdem-pesinde",
+    originalTitle: "After Virtue: A Study in Moral Theory",
+    publisher: null,
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Alasdair MacIntyre'ın 1981 tarihli kitabı, modern ahlak dilinin dağıldığını savunur ve Aristotelesçi erdem etiğini yeniden gündeme getirir. Yirminci yüzyıl ahlak felsefesinin dönüm noktalarından biri sayılıyor.",
+    year: 1981,
+    link: null,
+    philosopherSlug: "alasdair-macintyre",
+    postSlug: "alasdair-macintyre-mirasi-erdem-etigi",
+  },
+  {
+    title: "Kamusallığın Yapısal Dönüşümü",
+    slug: "kamusalligin-yapisal-donusumu",
+    originalTitle: "Strukturwandel der Öffentlichkeit",
+    publisher: null,
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Jürgen Habermas'ın 1962 tarihli doçentlik çalışması. Kahvehanelerden gazetelere uzanan burjuva kamusal alanının doğuşunu ve çözülüşünü izler; kavram bugün dijital medya tartışmalarında da kullanılıyor.",
+    year: 1962,
+    link: null,
+    philosopherSlug: "jurgen-habermas",
+    postSlug: "jurgen-habermas-1929-2026",
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -1528,5 +3193,57 @@ Başvuru koşulları, biçimsel kurallar ve değerlendirme süreci için dergini
     coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
     featured: false,
     publishedAt: "2026-08-20T12:00:00.000Z",
+  },
+  {
+    title: "Timothy Williamson Çin Felsefesiyle Karşılaşıyor",
+    slug: "williamson-fudan-kongresi-2026",
+    summary:
+      "Fudan Üniversitesi'nde düzenlenen kongrede Çin felsefesi araştırmacıları Williamson'ın çalışmalarını eleştirel biçimde ele alacak; Williamson yanıt verecek.",
+    description: `Şanghay'daki Fudan Üniversitesi, önce-bilgi epistemolojisinin kurucusu Timothy Williamson'ın çalışmalarına ayrılmış iki günlük bir kongre düzenliyor.
+
+Programda, Çin felsefesi alanında çalışan akademisyenler Williamson'ın epistemoloji, metafizik ve felsefe yöntemi üzerine tezlerini kendi gelenekleri açısından değerlendirecek. Williamson her oturumun ardından yanıt verecek.
+
+Kongre, analitik felsefe ile Çin felsefesi arasındaki temasın son yıllarda artışını gösteren örneklerden biri.`,
+    kind: "KONGRE",
+    organizer: "Fudan Üniversitesi",
+    speakers: "Timothy Williamson",
+    topic: "Epistemoloji, metafizik ve Çin felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-06T00:00:00.000Z",
+    endsAt: "2026-11-07T00:00:00.000Z",
+    hasTime: false,
+    city: "Şanghay",
+    country: "Çin",
+    website: "https://philevents.org/event/show/144458",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/144458",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&q=80",
+    featured: false,
+    publishedAt: "2026-08-21T14:00:00.000Z",
+  },
+  {
+    title: "41. Kyoto Ödülü Töreni",
+    slug: "kyoto-odulu-toreni-2026",
+    summary:
+      "Inamori Vakfı'nın üç dalda verdiği Kyoto Ödülü'nün 41. tören programı. Sanat ve Felsefe dalının bu yılki sahibi Laurie Anderson.",
+    description: `Kyoto Ödülü her yıl İleri Teknoloji, Temel Bilimler ile Sanat ve Felsefe dallarında veriliyor.
+
+Ödül sahiplerine bir berat, 20 ayar altın madalya ve 100 milyon yen (600 bin ABD dolarının üzerinde) para ödülü sunuluyor.
+
+Sanat ve Felsefe dalı geçmişte Jürgen Habermas (2004), Charles Taylor (2008) ve Martha Nussbaum (2016) gibi filozofları da onurlandırmıştı.`,
+    kind: "KONFERANS",
+    organizer: "Inamori Vakfı",
+    speakers: "Laurie Anderson",
+    topic: "Sanat ve Felsefe",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-10T00:00:00.000Z",
+    hasTime: false,
+    country: "Japonya",
+    website: "https://www.kyotoprize.org/en/",
+    sourceName: "Inamori Vakfı",
+    sourceUrl: "https://www.newswise.com/articles/inamori-foundation-announces-2026-kyoto-prize-laureates",
+    coverImage: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80",
+    featured: false,
+    publishedAt: "2026-08-21T12:00:00.000Z",
   },
 ];

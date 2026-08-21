@@ -59,7 +59,7 @@ export default async function PhilosopherPage({ params }: Props) {
           {meta && <p className="mt-2 text-sm text-muted">{meta}</p>}
 
           {philosopher.bio && (
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">{philosopher.bio}</p>
+            <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft metin-yasli">{philosopher.bio}</p>
           )}
 
           <div className="mt-5 flex flex-wrap items-center gap-4 text-sm">

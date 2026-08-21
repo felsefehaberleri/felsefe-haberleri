@@ -44,7 +44,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
         <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Kategori</p>
         <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">{category.name}</h1>
         {category.description && (
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">{category.description}</p>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted metin-yasli">{category.description}</p>
         )}
       </header>
 

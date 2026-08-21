@@ -65,7 +65,7 @@ export default async function ArticlePage({ params }: Props) {
           {post.title}
         </h1>
 
-        <p className="mt-5 font-serif text-lg leading-relaxed text-muted">{post.summary}</p>
+        <p className="mt-5 font-serif text-lg leading-relaxed text-muted metin-yasli">{post.summary}</p>
 
         {post.philosophers.length > 0 && (
           <div className="mt-6 flex flex-wrap gap-3">

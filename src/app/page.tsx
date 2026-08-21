@@ -87,7 +87,7 @@ export default async function HomePage({
                         </Link>
                       </h3>
 
-                      <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">{lead.summary}</p>
+                      <p className="mt-3 text-[15px] leading-relaxed text-ink-soft metin-yasli">{lead.summary}</p>
 
                       <p className="mt-4 text-xs text-muted">
                         {lead.author.name} · {formatDate(lead.publishedAt)}

@@ -24,7 +24,7 @@ export async function Footer() {
               sizes="96px"
             />
           </Link>
-          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted metin-yasli">
             Çağdaş filozofların konuşmaları, açıklamaları, fikirleri ve yeni kitapları.
             Her haberin kaynağı künyesinde belirtilir.
           </p>

@@ -19,7 +19,7 @@ export default async function PhilosophersPage() {
       <header className="border-b border-line py-12">
         <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Dizin</p>
         <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">Filozoflar</h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted metin-yasli">
           Haberlerini izlediğimiz düşünürler. Bir isme tıklayarak filozofun künyesini —
           dönemi, akımı, çalışma alanları, temel eserleri ve kavramları — ilgili haberler ve
           kitaplarla birlikte tek sayfada görebilirsiniz.

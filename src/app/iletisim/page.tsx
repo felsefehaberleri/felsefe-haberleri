@@ -19,7 +19,7 @@ export default function ContactPage() {
       <header className="border-b-2 border-ink pb-6">
         <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">İletişim</p>
         <h1 className="mt-3 font-serif text-3xl font-bold sm:text-4xl">Bize yazın</h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted metin-yasli">
           Haber önerisi, etkinlik duyurusu, düzeltme talebi ya da iş birliği için aşağıdaki
           formu kullanabilir, dilerseniz doğrudan e-posta gönderebilirsiniz.
         </p>

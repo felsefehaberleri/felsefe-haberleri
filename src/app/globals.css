@@ -99,6 +99,28 @@
     line-height: 1.85;
   }
 
+  /* Gazete dizgisi: gövde metni iki yana yaslanır.
+     Heceleme açık olmazsa yaslama sözcük aralarında "nehir" boşluklar bırakır;
+     `hyphens: auto` ile tarayıcı Türkçe heceleme yapar (<html lang="tr">).
+     Dar ekranda satır çok kısa kaldığı için yaslama kapalı tutulur. */
+  .prose-philo :is(p, li) {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  @media (width >= 40rem) {
+    .prose-philo :is(p, li) {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+
+  /* Yaslama tabloya, başlığa, koda ve resim yazısına uygulanmaz. */
+  .prose-philo :is(h1, h2, h3, h4, h5, h6, figcaption, th, td, pre, code) {
+    text-align: left;
+    hyphens: manual;
+  }
+
   .prose-philo :is(h2, h3, h4) {
     font-family: var(--font-serif);
     letter-spacing: -0.01em;
@@ -135,5 +157,21 @@
 
   .scrollbar-none::-webkit-scrollbar {
     display: none;
+  }
+
+  /* Uzun paragrafları iki yana yaslar (Word'deki "justify" ile aynı iş).
+     Markdown gövdesi zaten yaslıdır; bu sınıf gövde dışındaki uzun metinler
+     içindir: spot cümlesi, filozof biyografisi, sayfa açıklamaları.
+     Dar ekranda kapalıdır, çünkü kısa satırlarda yaslama boşlukları büyütür. */
+  .metin-yasli {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  @media (width >= 40rem) {
+    .metin-yasli {
+      text-align: justify;
+      text-justify: inter-word;
+    }
   }
 }
