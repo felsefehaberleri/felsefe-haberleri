@@ -17,7 +17,7 @@
  *
  * Hata bulursa çıkış kodu 1 döner; böylece derleme zincirinde de kullanılabilir.
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import {
@@ -195,6 +195,24 @@ events.forEach((event) => {
     problems.push(`Etkinlik '${event.slug}': başlangıç tarihi geçersiz.`);
   }
 });
+
+/* ------------------------------------------------------------------ */
+/* 3a. Site içindeki kapak görselleri gerçekten var mı?                */
+/* ------------------------------------------------------------------ */
+
+/**
+ * "/" ile başlayan kapak adresleri `public` klasöründeki dosyalara işaret eder.
+ * Dosya yoksa okur kırık bir görsel görür; bunu yayına çıkmadan yakalıyoruz.
+ * (Adresi http ile başlayan uzak görseller burada denetlenmez.)
+ */
+[...posts.map((p) => ({ tip: "Haber", slug: p.slug, kapak: p.coverImage })),
+ ...events.map((e) => ({ tip: "Etkinlik", slug: e.slug, kapak: e.coverImage }))]
+  .forEach(({ tip, slug, kapak }) => {
+    if (!kapak || !kapak.startsWith("/")) return;
+    if (!existsSync(join(process.cwd(), "public", kapak))) {
+      problems.push(`${tip} '${slug}': kapak görseli bulunamadı (public${kapak}).`);
+    }
+  });
 
 /* ------------------------------------------------------------------ */
 /* 3b. Yayın tarihi ileri tarihli mi?                                  */

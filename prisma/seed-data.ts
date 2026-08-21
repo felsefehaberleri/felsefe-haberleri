@@ -212,6 +212,10 @@ export const tags: SeedTag[] = [
   { name: "Rönesans", slug: "ronesans" },
   { name: "İslam Felsefesi", slug: "islam-felsefesi" },
   { name: "Postmodernizm", slug: "postmodernizm" },
+  { name: "Estetik", slug: "estetik" },
+  { name: "Hukuk Felsefesi", slug: "hukuk-felsefesi" },
+  { name: "Aydınlanma", slug: "aydinlanma" },
+  { name: "Medya", slug: "medya" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -1780,12 +1784,12 @@ Uluslararası Felsefe Kurumları Federasyonu'nda (FISP) önce Genel Sekreter, ar
     slug: "felsefe-tarihinde-bugun-5-agustos-engels",
     summary:
       "Friedrich Engels 5 Ağustos 1895'te Londra'da öldü. Marx'ın yakın çalışma arkadaşı, tarihsel materyalizmin yaygınlaşmasında belirleyici bir rol oynadı.",
-    coverImage: "https://images.unsplash.com/photo-1568667256549-094345857637?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/05-engels.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     sourceName: null,
     sourceUrl: null,
-    publishedAt: "2026-08-05T06:00:00.000Z",
+    publishedAt: "2026-08-05T05:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "felsefe-tarihinde-bugun",
     tagSlugs: ["tarih", "siyaset-felsefesi"],
@@ -2209,12 +2213,12 @@ Başvuru koşulları ve biçimsel kurallar için derginin DergiPark sayfasındak
     metaDescription:
       "Friedrich Schelling 20 Ağustos 1854'te Bad Ragaz'da öldü. Doğa felsefesi, Hegel'in kürsüsü ve Kierkegaard'ın dinlediği Berlin dersleri.",
     contentType: "TARIH",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/20-schelling.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     sourceName: "Stanford Encyclopedia of Philosophy",
     sourceUrl: "https://plato.stanford.edu/entries/schelling/",
-    publishedAt: "2026-08-20T06:00:00.000Z",
+    publishedAt: "2026-08-20T05:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "felsefe-tarihinde-bugun",
     tagSlugs: ["tarih", "alman-idealizmi"],
@@ -3258,8 +3262,8 @@ Appiah, 2007'de Arthur Ross Kitap Ödülü'nü, 2012'de Başkan Barack Obama'dan
     title: "Felsefe Tarihinde Bugün — 6 Ağustos: Theodor Adorno'nun ölümü",
     slug: "felsefe-tarihinde-bugun-6-agustos-adorno",
     summary: "Frankfurt Okulu'nun en tanınan ismi Theodor W. Adorno, 6 Ağustos 1969'da İsviçre'de öldü. Aynı gün 1638'de Nicolas Malebranche doğmuştu.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/06-adorno.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "6 Ağustos: Theodor Adorno'nun ölümü",
     metaDescription: "Theodor W. Adorno 6 Ağustos 1969'da öldü. Kültür endüstrisi, negatif diyalektik ve Aydınlanmanın Diyalektiği.",
@@ -3306,8 +3310,8 @@ Adorno'nun ölümünden aylar önce Frankfurt'ta öğrenci hareketiyle sert bir 
     title: "Felsefe Tarihinde Bugün — 7 Ağustos: Tagore'un ölümü, Goodman'ın doğumu",
     slug: "felsefe-tarihinde-bugun-7-agustos-tagore-goodman",
     summary: "Rabindranath Tagore 7 Ağustos 1941'de Kalküta'da öldü. Aynı gün 1906'da, tümevarım ve sanat felsefesini yeniden kuran Nelson Goodman doğdu.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/07-tagore.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "7 Ağustos: Rabindranath Tagore ve Nelson Goodman",
     metaDescription: "7 Ağustos 1941'de Tagore öldü, 1906'da Nelson Goodman doğdu. İki farklı düşünce geleneği.",
@@ -3346,8 +3350,8 @@ Goodman'ın gösterdiği şey şuydu: Tümevarım, yalnızca gözlem sayısıyla
     title: "Felsefe Tarihinde Bugün — 8 Ağustos: Arnauld'nun ölümü, Hutcheson'ın doğumu",
     slug: "felsefe-tarihinde-bugun-8-agustos-arnauld-hutcheson",
     summary: "Port-Royal mantığının yazarı Antoine Arnauld 8 Ağustos 1694'te öldü. Aynı gün, ahlaki duyu kuramının kurucusu Francis Hutcheson doğdu.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/08-arnauld-hutcheson.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "8 Ağustos: Antoine Arnauld ve Francis Hutcheson",
     metaDescription: "8 Ağustos 1694: Antoine Arnauld öldü, Francis Hutcheson doğdu. Port-Royal mantığı ve ahlaki duyu kuramı.",
@@ -3386,8 +3390,8 @@ Bu görüş Thomas Hobbes'un insan doğası tablosuna açık bir karşı çıkı
     title: "Felsefe Tarihinde Bugün — 9 Ağustos: Ernst Haeckel'in ölümü",
     slug: "felsefe-tarihinde-bugun-9-agustos-haeckel",
     summary: "Darwin'in Almanya'daki en gür sesi, 'ekoloji' terimini türeten ve monizmi bir dünya görüşüne dönüştüren Ernst Haeckel, 9 Ağustos 1919'da Jena'da öldü.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/09-haeckel.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "9 Ağustos: Ernst Haeckel'in ölümü",
     metaDescription: "Ernst Haeckel 9 Ağustos 1919'da Jena'da öldü. Monizm, ekoloji kavramı ve bilim ile felsefe arasındaki sınır.",
@@ -3430,8 +3434,8 @@ Bıraktığı asıl soru hâlâ açık: Bir bilimsel kuram, ne zaman bir dünya 
     title: "Felsefe Tarihinde Bugün — 10 Ağustos: Jean-François Lyotard'ın doğumu",
     slug: "felsefe-tarihinde-bugun-10-agustos-lyotard",
     summary: "'Postmodern durum'u tanımlayan ve büyük anlatıların sonunu ilan eden Fransız filozof Jean-François Lyotard, 10 Ağustos 1924'te doğdu.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/10-lyotard.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "10 Ağustos: Jean-François Lyotard'ın doğumu",
     metaDescription: "Jean-François Lyotard 10 Ağustos 1924'te doğdu. Postmodern Durum, büyük anlatılar ve uyuşmazlık kavramı.",
@@ -3478,15 +3482,15 @@ Lyotard'ın bundan çıkardığı sonuç karamsar değil, uyarıcıdır: Felsefe
     title: "Felsefe Tarihinde Bugün — 12 Ağustos: Alessandro Achillini'nin ölümü",
     slug: "felsefe-tarihinde-bugun-12-agustos-achillini",
     summary: "Bologna'nın 'ikinci Aristoteles' diye anılan hocası Alessandro Achillini 12 Ağustos 1512'de öldü. Rönesans'ta felsefe ile tıp aynı kürsüde buluşuyordu.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/12b-achillini.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "12 Ağustos: Alessandro Achillini'nin ölümü",
     metaDescription: "Alessandro Achillini 12 Ağustos 1512'de öldü. Rönesans Aristotelesçiliği ve felsefe ile tıbbın kesişimi.",
     contentType: "TARIH",
     sourceName: "Felsefe anniversary listesi",
     sourceUrl: "https://en.everybodywiki.com/List_of_philosophy_anniversaries",
-    publishedAt: "2026-08-12T05:00:00.000Z",
+    publishedAt: "2026-08-12T03:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "felsefe-tarihinde-bugun",
     tagSlugs: ["tarih", "ronesans", "ortacag-felsefesi"],
@@ -3521,15 +3525,15 @@ Achillini'nin adı bugün Descartes ya da Bacon kadar bilinmiyor. Ama onun gibi 
     title: "Felsefe Tarihinde Bugün — 13 Ağustos: Jeremy Taylor'ın ölümü",
     slug: "felsefe-tarihinde-bugun-13-agustos-jeremy-taylor",
     summary: "Vicdan üzerine yazdıklarıyla İngiliz ahlak düşüncesini etkileyen Jeremy Taylor, 13 Ağustos 1667'de öldü. Hoşgörü savunusu iç savaş yıllarında yazılmıştı.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/13b-taylor.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "13 Ağustos: Jeremy Taylor'ın ölümü",
     metaDescription: "Jeremy Taylor 13 Ağustos 1667'de öldü. Vicdan, kazuistik ve din özgürlüğü üzerine yazdıkları.",
     contentType: "TARIH",
     sourceName: "Jeremy Taylor — Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Jeremy_Taylor",
-    publishedAt: "2026-08-13T05:00:00.000Z",
+    publishedAt: "2026-08-13T03:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "felsefe-tarihinde-bugun",
     tagSlugs: ["tarih", "etik", "din-felsefesi"],
@@ -3563,8 +3567,8 @@ Taylor'ın düzyazısı ayrıca İngiliz edebiyatının klasikleri arasında say
     title: "Felsefe Tarihinde Bugün — 15 Ağustos: İbn Hazm'ın ölümü",
     slug: "felsefe-tarihinde-bugun-15-agustos-ibn-hazm",
     summary: "Endülüs'ün en keskin kalemi İbn Hazm, 15 Ağustos 1064'te Sevilla yakınlarında öldü. Hem bir aşk kitabının hem de sert bir mantık savunusunun yazarıydı.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/15-ibn-hazm.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "15 Ağustos: İbn Hazm'ın ölümü",
     metaDescription: "İbn Hazm 15 Ağustos 1064'te öldü. Zâhirîlik, Güvercin Gerdanlığı ve karşılaştırmalı din incelemesi.",
@@ -3608,8 +3612,8 @@ Bu tutum onu döneminin baskın hukuk okullarıyla karşı karşıya getirdi. Am
     title: "Felsefe Tarihinde Bugün — 19 Ağustos: Blaise Pascal'ın ölümü",
     slug: "felsefe-tarihinde-bugun-19-agustos-pascal",
     summary: "Matematikçi, fizikçi ve düşünür Blaise Pascal 19 Ağustos 1662'de otuz dokuz yaşında öldü. Geriye tamamlanmamış bir kitabın notları kaldı: Düşünceler.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/19-pascal.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "19 Ağustos: Blaise Pascal'ın ölümü",
     metaDescription: "Blaise Pascal 19 Ağustos 1662'de öldü. Düşünceler, bahis argümanı ve 'kalbin kendine özgü nedenleri'.",
@@ -3656,8 +3660,8 @@ Pascal'ın insan tablosu da buradan çıkar: İnsan, sonsuz büyük ile sonsuz k
     title: "Felsefe Tarihinde Bugün — 21 Ağustos: Alexander of Hales'in ölümü",
     slug: "felsefe-tarihinde-bugun-21-agustos-alexander-of-hales",
     summary: "Paris Üniversitesi'nde skolastik öğretimin biçimini değiştiren Fransisken ilahiyatçı Alexander of Hales, 21 Ağustos 1245'te öldü.",
-    coverImage: "https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?w=1600&q=80",
-    imageCredit: "Temsilî görsel: Unsplash",
+    coverImage: "/takvim/21-alexander.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
     featured: false,
     seoTitle: "21 Ağustos: Alexander of Hales'in ölümü",
     metaDescription: "Alexander of Hales 21 Ağustos 1245'te Paris'te öldü. Skolastik yöntem ve Sententiae'nin ders kitabı hâline gelişi.",
@@ -3698,6 +3702,364 @@ Adına bağlanan *Summa Theologica* (ya da *Summa fratris Alexandri*), tümüyle
 Skolastik yöntem bugün çoğu zaman kılı kırk yaran bir tartışma biçimi olarak anılır. Oysa yaptığı iş şuydu: Bir soruyu ortaya koymak, ona verilebilecek en güçlü karşıt yanıtları toplamak, sonra kendi konumunu bu itirazlara cevap vererek kurmak.
 
 Bu, bugün akademik makalelerin hâlâ izlediği yapıdır. Alexander of Hales'in yaptığı da tam olarak bu yapıyı bir öğretim düzenine dönüştürmekti.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 11 Ağustos: Weimar Anayasası imzalandı",
+    slug: "felsefe-tarihinde-bugun-11-agustos-weimar-anayasasi",
+    summary: "Friedrich Ebert 11 Ağustos 1919'da Weimar Anayasası'nı imzaladı. Metin, yirminci yüzyılın en derin hukuk felsefesi tartışmasının da zeminini kurdu.",
+    coverImage: "/takvim/11-weimar.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "11 Ağustos 1919: Weimar Anayasası ve egemenlik tartışması",
+    metaDescription: "Weimar Anayasası 11 Ağustos 1919'da imzalandı. Kelsen ile Schmitt arasındaki egemenlik ve olağanüstü hâl tartışması.",
+    contentType: "TARIH",
+    sourceName: "German History in Documents and Images",
+    sourceUrl: "https://germanhistorydocs.org/en/weimar-germany-1918-1933/the-weimar-constitution-august-11-1919",
+    publishedAt: "2026-08-11T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "hukuk-felsefesi", "demokrasi", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "The Weimar Constitution (August 11, 1919)", publisher: "German History in Documents and Images", url: "https://germanhistorydocs.org/en/weimar-germany-1918-1933/the-weimar-constitution-august-11-1919", primary: true },
+      { title: "Weimar Constitution adopted in Germany", publisher: "HISTORY", url: "https://www.history.com/this-day-in-history/august-11/weimar-constitution-adopted-in-germany" },
+      { title: "Weimar Constitution", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Weimar_Constitution" },
+    ],
+    content: `11 Ağustos 1919'da Cumhurbaşkanı Friedrich Ebert, Weimar Anayasası'nı imzalayarak yürürlüğe soktu. Almanya'nın ilk parlamenter demokrasisi böylece kuruldu. Metin, kuvvetler ayrılığını güvence altına alıyor ve kadın-erkek eşitliği dâhil temel hakları sayıyordu.
+
+Bu bir siyaset tarihi olayı. Ama felsefe tarihine girişi, yürürlükte kaldığı on dört yıl boyunca ürettiği tartışmadan geliyor.
+
+## Egemen kimdir?
+
+Weimar Anayasası'nın 48. maddesi cumhurbaşkanına, kamu düzeni tehlikeye girdiğinde olağanüstü yetkilerle yönetme imkânı veriyordu. Kâğıt üzerinde bir güvenlik supabı olan bu madde, pratikte anayasal düzenin kendi askıya alınışına kapı açtı.
+
+Buradan iki karşıt hukuk felsefesi konumu doğdu.
+
+**Carl Schmitt**, 1922'de yayımlanan *Politische Theologie*'ye şu cümleyle başlar: "Egemen, olağanüstü hâle karar verendir." Schmitt'e göre hukuk düzeni kendi kendini taşıyamaz; her normlar sistemi, normun askıya alınacağı anı belirleyen bir karara dayanır. Kural, kendi istisnasını kurala bağlayamaz.
+
+**Hans Kelsen** ise bunun tam karşısında durur. *Saf Hukuk Kuramı*'nda geliştirdiği görüşe göre hukuk, siyasetten ve ahlaktan arındırılmış, kendi içinde tutarlı bir normlar hiyerarşisidir. Her norm geçerliliğini bir üst normdan alır; en tepede varsayılan bir *temel norm* (Grundnorm) bulunur. Egemenlik, hukuk dışı bir karar anı değil; hukuk düzeninin kendisidir.
+
+## Tartışma neden bitmedi?
+
+1933'ten sonra Schmitt'in Nazi rejimiyle kurduğu ilişki, kuramının okunuşunu kalıcı olarak gölgeledi. Kelsen ise Almanya'dan ayrılmak zorunda kaldı ve kariyerini ABD'de sürdürdü.
+
+Ama sorunun kendisi kapanmadı. Olağanüstü hâl ilanları, terörle mücadele yasaları, salgın dönemi kararnameleri — bugün de aynı soru soruluyor: Hukuk devleti, kendi askıya alınışını hukuk içinde düzenleyebilir mi?
+
+Giorgio Agamben'in *İstisna Hâli* (2003) kitabı doğrudan bu hatta yazılmıştır. Agamben'e göre istisna, modern siyasetin arızası değil; giderek olağan yönetim tekniği hâline gelmiş bir yapıdır.
+
+## Anayasa metninin kendisi
+
+Weimar Anayasası'nın hak kataloğu döneminin ilerisindeydi: ifade, toplanma ve inanç özgürlükleri, sosyal haklar, eğitim hakkı. Metnin başarısızlığı, yazımındaki eksiklerden çok, dayanacağı toplumsal uzlaşının bulunmayışıyla açıklanır.
+
+Bu da felsefi bir soruyu geride bırakır: Bir anayasa, kendisine inanmayan bir toplumu ne kadar süre bir arada tutabilir?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 12 Ağustos: IBM kişisel bilgisayarı tanıttı",
+    slug: "felsefe-tarihinde-bugun-12-agustos-ibm-pc",
+    summary: "12 Ağustos 1981'de IBM PC piyasaya çıktı. Hesaplama gücünün kurumlardan bireye geçişi, zihin felsefesinden bilgi kuramına uzanan tartışmaları da değiştirdi.",
+    coverImage: "/takvim/12-ibm-pc.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "12 Ağustos 1981: IBM kişisel bilgisayarı ve zihin tartışması",
+    metaDescription: "IBM PC 12 Ağustos 1981'de tanıtıldı. Kişisel hesaplamanın felsefi sonuçları: zihin, bilgi ve genişlemiş zihin tezi.",
+    contentType: "TARIH",
+    sourceName: "IBM Personal Computer — Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+    publishedAt: "2026-08-12T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "teknoloji-felsefesi", "zihin-felsefesi", "yapay-zeka"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "IBM Personal Computer", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/IBM_Personal_Computer", primary: true },
+    ],
+    content: `12 Ağustos 1981'de IBM, model numarası 5150 olan kişisel bilgisayarını piyasaya sürdü. Fiyatı 1.565 dolardı; içinde 4,77 MHz hızında bir Intel 8088 işlemci ve 16 ile 256 kilobayt arasında bellek vardı.
+
+Bugünün ölçüleriyle mütevazı bir makine. Ama olayın önemi teknik özelliklerde değil, **hesaplama gücünün nereye taşındığında**.
+
+## Kurumdan bireye
+
+1981'e kadar bilgisayar, üniversitelerin ve büyük şirketlerin sahip olduğu, özel odalarda duran, uzmanların işlettiği bir kurumsal araçtı. IBM PC, o gücü bir masanın üstüne indirdi.
+
+Bu kaymanın felsefi sonuçları, teknolojinin kendisinden daha yavaş görüldü.
+
+## Zihin bir bilgisayar mı?
+
+Bilgisayarın yaygınlaşması, zihin felsefesinin dilini de değiştirdi. Yirminci yüzyılın ortasından itibaren **işlevselcilik** (functionalism) şu tezi savunuyordu: Zihinsel durumlar, hangi maddeden yapıldıklarıyla değil, girdileri çıktılara bağlayan işlevleriyle tanımlanır. Tıpkı bir programın hangi donanımda çalıştığından bağımsız olması gibi.
+
+Bu benzetme, bilgisayar herkesin evine girdikçe sezgisel olarak da kavranabilir hâle geldi. Ama karşı itirazlar da aynı benzetmeden beslendi: John Searle'ün "Çin Odası" düşünce deneyi, sembolleri kurala göre işlemenin anlamayı doğurmadığını göstermeyi amaçlıyordu.
+
+## Genişlemiş zihin
+
+Bir başka hat, kişisel bilgisayarın gündelik hayata girmesiyle doğrudan bağlantılıdır. Andy Clark ve David Chalmers'ın 1998 tarihli *The Extended Mind* makalesi şunu sorar: Bir defterdeki not, bir telefondaki rehber, bir bilgisayardaki dosya — bunlar zihnin dışında mı, yoksa parçası mı?
+
+Yazarların önerdiği ölçüt işlevseldir: Bir dış kayıt, biyolojik belleğin oynadığı rolü yeterince güvenilir biçimde oynuyorsa, onu zihnin dışında saymanın ilkeli bir gerekçesi yoktur.
+
+Bu tez 1981'de yazılamazdı. Yazılabilmesi için hesaplama aracının cebe girmesi gerekti.
+
+## Bilgi kimin?
+
+Üçüncü sonuç, Jean-François Lyotard'ın 1979'da öngördüğü hatta düşer: Bilgi giderek "bilgisayarlaştırılabilir" olana indirgenir ve alınıp satılan bir ürüne dönüşür. Kişisel bilgisayarın ardından gelen ağ, arama motoru ve bulut, bu süreci hızlandırdı.
+
+Bugün yapay zekâ tartışmasında sorulan soru — modelleri kim eğitiyor, veriyi kim topluyor, çıktıya kim sahip — 12 Ağustos 1981'de açılan yolun sonunda duruyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 13 Ağustos: John Logie Baird'in doğumu",
+    slug: "felsefe-tarihinde-bugun-13-agustos-baird",
+    summary: "Televizyonu ilk çalıştıran kişi olan İskoç mucit John Logie Baird 13 Ağustos 1888'de doğdu. Uzaktan görmenin mümkün olması, algı ve gerçeklik tartışmasını da değiştirdi.",
+    coverImage: "/takvim/13-baird.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "13 Ağustos 1888: John Logie Baird ve uzaktan görmenin felsefesi",
+    metaDescription: "John Logie Baird 13 Ağustos 1888'de doğdu. Televizyon, medya felsefesi ve tanıklığın dönüşümü.",
+    contentType: "TARIH",
+    sourceName: "John Logie Baird — Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/John_Logie_Baird",
+    publishedAt: "2026-08-13T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "medya", "teknoloji-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "John Logie Baird", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/John_Logie_Baird", primary: true },
+    ],
+    content: `İskoç mucit John Logie Baird 13 Ağustos 1888'de doğdu. Dünyanın ilk çalışan mekanik televizyon sistemini kurdu; ilk mekanik renkli televizyon da onun eseriydi.
+
+Baird bir filozof değildi. Ama yaptığı şey, felsefenin en eski sorularından birine yeni bir biçim verdi.
+
+## "Televizyon": uzaktan görmek
+
+Sözcüğün kendisi bir iddia taşır: Yunanca *tele* (uzak) ile Latince *visio* (görme). İnsanlık tarihinde ilk kez, olayın olduğu yerde bulunmadan onu görmek mümkün hâle geliyordu.
+
+Bu, bilgi kuramı açısından yeni bir tanıklık biçimidir. Klasik epistemolojide tanıklık iki türdür: *kendi gözünle görmek* ve *bir başkasının anlattığına güvenmek*. Televizyon üçüncü bir kategori açtı — kendi gözünle görüyorsun, ama gördüğün şey bir aygıtın seçtiği, çerçevelediği ve ilettiği görüntü.
+
+## Çerçevenin dışında ne var?
+
+Buradan doğan soru medya felsefesinin merkezine yerleşti: Bir kamera her zaman bir yerden bakar. Kadraja giren kadar, kadrajın dışında bırakılan da anlam üretir.
+
+Marshall McLuhan'ın 1964'te formüle ettiği ünlü cümle — **"Araç, mesajdır"** — tam bu noktayı hedefler. McLuhan'a göre bir iletişim aracının asıl etkisi taşıdığı içerikte değil, algı düzenimizi yeniden biçimlendirmesindedir. Yazı, insanı doğrusal ve mesafeli düşünmeye alıştırdı; elektronik araçlar ise eşzamanlı ve katılımcı bir algıya döndürdü.
+
+## Gerçeğin kopyası
+
+Görüntünün çoğaltılabilir hâle gelmesi, estetikte de bir kırılma yarattı. Walter Benjamin'in 1935 tarihli çalışması, sanat yapıtının teknik olarak çoğaltılabildiği çağda **aura**sını — burada ve şimdi olmaktan gelen biricikliğini — yitirdiğini savunuyordu.
+
+Benjamin bunu yalnızca bir kayıp olarak sunmaz. Aura'nın çözülmesi, sanatı ritüelden koparıp siyasete açar; bu hem özgürleştirici hem tehlikeli bir imkândır.
+
+Jean Baudrillard ise çok daha ileri gider: Çoğaltılan görüntü, sonunda kopyaladığı gerçeğin yerini alır. *Simülakr*, aslı olmayan kopyadır.
+
+## Baird'in odası
+
+Baird ilk gösterimini 1920'lerin ortasında Londra'da, dükkân üstü bir odada yaptı. Karşısında bir vantrilog kuklasının kafası vardı; ilk canlı insan görüntüsü ise binadaki bir görevliye ait oldu.
+
+Yüz yıl sonra, dünyanın büyük bölümü olayları ekranlardan izliyor. Baird'in odasında başlayan soru hâlâ açık: **Ekranda gördüğümüz şeyin tanığı mıyız, yoksa seyircisi mi?**`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 14 Ağustos: Bertolt Brecht'in ölümü",
+    slug: "felsefe-tarihinde-bugun-14-agustos-brecht",
+    summary: "Epik tiyatronun kurucusu Bertolt Brecht 14 Ağustos 1956'da öldü. 'Yabancılaştırma etkisi', sanatın seyirciyi düşündürüp düşündüremeyeceği tartışmasını başlattı.",
+    coverImage: "/takvim/14-brecht.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "14 Ağustos 1956: Bertolt Brecht ve yabancılaştırma etkisi",
+    metaDescription: "Bertolt Brecht 14 Ağustos 1956'da öldü. Epik tiyatro, yabancılaştırma etkisi ve Adorno ile Lukács tartışması.",
+    contentType: "TARIH",
+    sourceName: "Bertolt Brecht — Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Bertolt-Brecht",
+    publishedAt: "2026-08-14T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "estetik", "marksizm", "elestirel-teori"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Bertolt Brecht — Biography, Plays, Epic Theater, Poems, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/Bertolt-Brecht", primary: true },
+      { title: "Bertolt Brecht", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Bertolt_Brecht" },
+    ],
+    content: `Alman şair, oyun yazarı ve tiyatro kuramcısı Bertolt Brecht, 14 Ağustos 1956'da elli sekiz yaşında öldü.
+
+Brecht bir tiyatro adamıydı; ama bıraktığı asıl miras bir estetik kuramıdır — ve bu kuram doğrudan bilgi ve siyaset sorularına bağlanır.
+
+## Aristoteles'e itiraz
+
+Klasik tiyatro kuramı Aristoteles'in *Poetika*'sına dayanır: Seyirci sahnedeki kahramanla özdeşleşir, korku ve acıma duyar, sonunda bir arınma (*katharsis*) yaşar.
+
+Brecht bu düzeneği tersine çevirmek ister. Ona göre özdeşleşme, seyirciyi duygusal olarak doyurur ve düşünmekten alıkoyar. Salondan çıkan kişi rahatlamıştır — ama hiçbir şey sormamıştır.
+
+## Yabancılaştırma etkisi
+
+Brecht'in çözümü **Verfremdungseffekt**tir: yabancılaştırma ya da yadırgatma etkisi. Amaç, tanıdık olanı yabancı kılmak; seyircinin "böyle olması doğal" dediği şeyi "neden böyle?" diye sorulabilir hâle getirmek.
+
+Bunun için sahne kendi yapaylığını gizlemez. Oyuncu karaktere dönüşmez, onu gösterir. Şarkılar araya girer, pankartlar olayın sonucunu önceden duyurur, ışıklar açıkta bırakılır. Seyirciye sürekli hatırlatılan şey şudur: Bu bir temsildir, dolayısıyla başka türlü de olabilirdi.
+
+Buradaki felsefi çekirdek Marx'ın bir düşüncesidir: Toplumsal ilişkiler doğal ve değişmez görünür; oysa tarihseldirler. Brecht'in tiyatrosu bu görünüşü kırmayı hedefler.
+
+## Tartışma: Lukács ve Adorno
+
+Brecht'in yaklaşımı Marksist estetik içinde de tartışıldı.
+
+**György Lukács**, gerçekçi romanı savunuyor ve Brecht'in biçimsel deneylerini burjuva avangardına yakın buluyordu. Ona göre sanat, toplumsal bütünlüğü tutarlı bir anlatı içinde kavramalıydı.
+
+**Theodor Adorno** ise tam ters yönden eleştirdi: Brecht'in tiyatrosu fazla öğreticiydi. Adorno'ya göre sanatın eleştirel gücü, mesaj taşımasından değil; kendi biçiminin uzlaşmayı reddetmesinden gelir. Doğrudan siyasal ders veren sanat, tam da karşı çıktığı araçsal aklın diline düşer.
+
+Bu tartışma — sanat düşündürmek için ne yapmalı, ne yapmamalı — kapanmadı. Belgesel tiyatrodan siyasal sinemaya, kavramsal sanattan oyunlara kadar geniş bir alanda sürüyor.
+
+## Türkçedeki Brecht
+
+*Cesaret Ana ve Çocukları*, *Galilei'nin Yaşamı*, *Sezuan'ın İyi İnsanı* ve *Üç Kuruşluk Opera* Türkçeye çevrilmiş oyunları arasında. Tiyatro kuramı yazıları da derleme hâlinde yayımlandı.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 16 Ağustos: İlk transatlantik telgraf mesajı",
+    slug: "felsefe-tarihinde-bugun-16-agustos-transatlantik-telgraf",
+    summary: "16 Ağustos 1858'de Kraliçe Victoria, okyanus altından geçen kabloyla Başkan Buchanan'a mesaj gönderdi. Mesaj on yedi saatte ulaştı — ama iletişim ilk kez ulaşımdan koptu.",
+    coverImage: "/takvim/16-telgraf.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "16 Ağustos 1858: ilk transatlantik telgraf ve mesafenin sonu",
+    metaDescription: "İlk resmî transatlantik telgraf mesajı 16 Ağustos 1858'de gönderildi. İletişimin ulaşımdan kopuşu ve felsefi sonuçları.",
+    contentType: "TARIH",
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/today-in-history/August-16-The-First-Official-Transatlantic-Telegraph",
+    publishedAt: "2026-08-16T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "teknoloji-felsefesi", "medya", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Today in History August 16 | 1858, Transatlantic Telegraph Cable", publisher: "Britannica", url: "https://www.britannica.com/today-in-history/August-16-The-First-Official-Transatlantic-Telegraph", primary: true },
+      { title: "First Transatlantic Telegraph Cable Sent", publisher: "Library of Congress", url: "https://guides.loc.gov/this-month-in-business-history/august/first-transatlantic-telegraph-cable" },
+      { title: "The first transatlantic telegraph cable 1858", publisher: "The IET Archives", url: "https://www.theiet.org/membership/library-and-archives/the-iet-archives/archives-highlights/the-first-transatlantic-telegraph-cable" },
+    ],
+    content: `16 Ağustos 1858'de Britanya, Atlas Okyanusu'nun dibine döşenen kablo üzerinden Amerika Birleşik Devletleri'ne ilk resmî mesajı gönderdi. Kraliçe Victoria, Başkan James Buchanan'ı kablonun tamamlanması dolayısıyla kutluyordu.
+
+Mesajın iletilmesi on yedi saat sürdü. Kablo birkaç hafta sonra bozuldu ve kalıcı hat ancak 1866'da kuruldu. Yine de o gün bir eşik aşıldı.
+
+## İletişim ulaşımdan koptu
+
+O tarihe kadar bir haberin bir yerden başka yere gitmesi, bir insanın ya da bir geminin oraya gitmesiyle aynı şeydi. Haber, taşıyıcısının hızıyla yol alırdı. Roma'nın posta yolları ile on dokuzuncu yüzyılın yelkenlisi arasında büyüklük sırası bakımından fark yoktu.
+
+Telgraf bu bağı kopardı. Mesaj artık taşınmadan gidebiliyordu.
+
+Bu, felsefe açısından mekân ve zaman kavrayışında bir kırılmadır. "Aynı anda" ifadesi, ilk kez okyanusun iki yakası için anlamlı hâle geldi. Farklı yerlerdeki iki olayın eşzamanlılığı, bir kuşak sonra Einstein'ın özel görelilik kuramında doğrudan bir fizik sorusuna dönüşecekti — ve o tartışmanın pratik zemininde telgraf hatlarıyla senkronize edilen saatler vardı.
+
+## Standart zamanın doğuşu
+
+Telgrafın ikinci sonucu daha gündeliktir. Her kentin kendi öğle vaktine göre saati varken, birbirine bağlı hatlar ortak bir zaman ölçüsünü zorunlu kıldı. Zaman dilimleri, demiryolu ve telgraf ağlarının pratik ihtiyacından doğdu.
+
+Yani "saat kaç?" sorusunun tek bir yanıtı olması, doğanın değil altyapının sonucudur.
+
+## Yakınlık gerçekten arttı mı?
+
+Dönemin coşkulu yorumları, telgrafın uluslar arasında yanlış anlamayı bitireceğini ve savaşları imkânsız kılacağını yazıyordu. Altmış yıl sonra Birinci Dünya Savaşı çıktı; hem de telgrafla koordine edilerek.
+
+Bu tecrübe, teknoloji felsefesinin tekrar eden bir dersini verdi: Bir iletişim aracının hızlanması, iletişimin niteliğini kendiliğinden iyileştirmiyor. Aynı tartışma telefon, radyo, televizyon ve internet için de yapıldı — her defasında aynı umutla ve aynı hayal kırıklığıyla.
+
+Bugün sosyal medya üzerine yürüyen tartışmanın, 1858'de kurulan bu hattın devamı olduğunu görmek zor değil.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 17 Ağustos: Büyük Friedrich'in ölümü",
+    slug: "felsefe-tarihinde-bugun-17-agustos-buyuk-friedrich",
+    summary: "Prusya kralı II. Friedrich 17 Ağustos 1786'da Sanssouci'de öldü. Kant'ın 'Aydınlanma Nedir?' yazısı onun döneminde yazılmış, adı doğrudan anılmıştı.",
+    coverImage: "/takvim/17-friedrich.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "17 Ağustos 1786: Büyük Friedrich ve aydınlanmış despotluk",
+    metaDescription: "II. Friedrich 17 Ağustos 1786'da öldü. Kant'ın Aydınlanma yazısı, Voltaire dostluğu ve aydınlanmış despotluk tartışması.",
+    contentType: "TARIH",
+    sourceName: "Frederick the Great — Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Frederick_the_Great",
+    publishedAt: "2026-08-17T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "aydinlanma", "siyaset-felsefesi", "kant"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Frederick the Great", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Frederick_the_Great", primary: true },
+      { title: "Frederick II — Prussia, Voltaire & Accomplishments", publisher: "HISTORY", url: "https://www.history.com/articles/frederick-ii-prussia" },
+    ],
+    content: `Prusya kralı II. Friedrich — Büyük Friedrich — 17 Ağustos 1786'da Potsdam yakınlarındaki Sanssouci sarayında öldü. 1740'tan beri tahttaydı.
+
+Bir hükümdarın ölümü neden felsefe takvimine girer? Çünkü on sekizinci yüzyıl Aydınlanması'nın en tartışmalı kavramı — **aydınlanmış despotluk** — büyük ölçüde onun etrafında şekillendi.
+
+## Kant'ın yazısı
+
+Immanuel Kant, 1784'te *Berlinische Monatsschrift* dergisinde "Aydınlanma Nedir? Sorusuna Yanıt" başlıklı kısa yazısını yayımladı. Metnin açılışı felsefenin en çok alıntılanan cümlelerinden biridir:
+
+> "Aydınlanma, insanın kendi suçuyla düştüğü ergin olmama durumundan kurtulmasıdır."
+
+Kant'ın önerdiği ölçüt de meşhurdur: *Sapere aude* — "Bilmeye cesaret et! Kendi aklını kullanma cesaretini göster."
+
+Yazının az bilinen tarafı, doğrudan Friedrich'e atıfta bulunmasıdır. Kant, kendi çağını "aydınlanmış bir çağ" değil, "aydınlanma çağı" olarak niteler ve bunu Friedrich'in yönetimiyle ilişkilendirir.
+
+## Tuhaf formül
+
+Kant'ın burada kurduğu ayrım incedir ve bugün de tartışılır.
+
+Ona göre aklın **kamusal kullanımı** — bir bilginin, yazarın, yurttaşın okur kitlesine seslenmesi — hiçbir sınır tanımamalıdır. Aklın **özel kullanımı** ise, yani kişinin belirli bir görevde bulunurken yaptığı iş, düzenin sürmesi için sınırlanabilir. Subay emri tartışmadan uygular, ama aynı kişi yazar olarak askerî düzeni eleştirebilir.
+
+Kant bunu, Friedrich'in tutumu diye özetlediği formülle bağlar: "İstediğiniz kadar ve istediğiniz her konuda düşünün, yeter ki itaat edin."
+
+Bu cümle iki yönden okunabilir. Bir yandan, sansürün gevşetildiği bir dönemde düşünce özgürlüğüne açılan gerçek bir alanı tarif eder. Öte yandan, siyasal itaati koşul olarak koyduğu için, özgürlüğü kâğıt üstünde bırakan bir uzlaşma gibi de görünür.
+
+## Voltaire ve saray
+
+Friedrich, Fransızca yazan, flüt çalan, felsefe metinleri kaleme alan bir hükümdardı. Voltaire ile uzun bir yazışma yürüttü; Voltaire bir süre Potsdam'da yaşadı. İlişki sonunda tatsız biçimde bitti — iki zeki adamın karşılıklı gururu kadar, hükümdar ile filozof arasındaki eşitsizliğin de payı vardı.
+
+Bu kopuş, Aydınlanma'nın kendi içindeki gerilimi iyi özetler: Filozof, iktidara akıl vermek ile iktidarın süsü olmak arasında nerede durur?
+
+## Bugüne kalan soru
+
+Aydınlanmış despotluk tartışması bitmiş değil. Reformları yukarıdan yapan, teknik olarak yetkin ama hesap vermeyen yönetimler bugün de savunuluyor ve eleştiriliyor.
+
+Kant'ın metni bu tartışmada hâlâ ölçüt sayılıyor — çünkü hem imkânı hem sınırı aynı sayfada gösteriyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 18 Ağustos: Helyum güneşte keşfedildi",
+    slug: "felsefe-tarihinde-bugun-18-agustos-helyum",
+    summary: "18 Ağustos 1868'de Pierre Janssen, Hindistan'daki tam güneş tutulmasında bilinmeyen bir tayf çizgisi gördü. Yeryüzünde bulunmayan bir element, gökyüzünde keşfedilmişti.",
+    coverImage: "/takvim/18-helyum.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "18 Ağustos 1868: helyumun keşfi ve gözlemin sınırları",
+    metaDescription: "Helyum 18 Ağustos 1868'de güneş tayfında keşfedildi. Dolaylı gözlem, bilimsel gerçekçilik ve kuram yüklü gözlem tartışması.",
+    contentType: "TARIH",
+    sourceName: "American Physical Society",
+    sourceUrl: "https://www.aps.org/apsnews/2014/08/discovery-of-helium-1868",
+    publishedAt: "2026-08-18T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "epistemoloji", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "August 18 and October 20, 1868: Discovery of Helium", publisher: "American Physical Society", url: "https://www.aps.org/apsnews/2014/08/discovery-of-helium-1868", primary: true },
+      { title: "Aug. 18, 1868: Helium is discovered", publisher: "Astronomy.com", url: "https://www.astronomy.com/today-in-the-history-of-astronomy/aug-18-1868-helium-is-discovered/" },
+      { title: "Pierre Janssen — Discoverer of Helium, Solar Spectroscopy", publisher: "Britannica", url: "https://www.britannica.com/biography/Pierre-Janssen" },
+    ],
+    content: `18 Ağustos 1868'de Hindistan'da tam güneş tutulması gözlenirken, Fransız gökbilimci Pierre Jules César Janssen güneşin tayfında o güne kadar bilinmeyen bir sarı çizgi gördü. Aynı çizgiyi İngiliz gökbilimci Norman Lockyer da bağımsız olarak saptadı ve bunun yeni bir element olduğunu öne sürerek ona güneşin Yunanca adından yola çıkarak **helyum** adını verdi.
+
+Element yeryüzünde ancak yıllar sonra bulundu.
+
+## Görmediğimiz bir şeyi nasıl biliriz?
+
+Bu keşif, bilim felsefesinin merkezî sorusunu somut bir örneğe indirger.
+
+Janssen ve Lockyer helyumu görmediler. Gördükleri şey, bir prizmadan geçen ışığın belirli bir yerinde beliren parlak bir çizgiydi. Oradan "yeni bir element var" sonucuna varmak, bir dizi kuramsal varsayımı gerektirir: Her elementin kendine özgü bir tayf imzası olduğunu, güneşteki maddenin yeryüzündeki maddeyle aynı yasalara uyduğunu, aygıtın güvenilir olduğunu varsaymak gibi.
+
+Yani **gözlem, kuramdan bağımsız değildir**. Norwood Russell Hanson ve Thomas Kuhn'un "gözlemin kuram yüklü olduğu" tezi tam bunu söyler: Ne gördüğümüz, hangi kuramla baktığımıza bağlıdır.
+
+## Gerçekçilik tartışması
+
+Helyum örneği, bilimsel gerçekçilik tartışmasında da anılır.
+
+**Gerçekçiler** için bu bir zafer hikâyesidir: Kuram, henüz kimsenin eline almadığı bir şeyin varlığını öngördü; yıllar sonra o şey bulundu. Bu, kuramın yalnızca "işe yaramadığını", gerçekten dünyayı tarif ettiğini gösterir.
+
+**Araçsalcılar** ise daha temkinlidir: Kuramlar, gözlemleri düzenleyen ve öngörü üreten araçlardır; başarılı olmaları, betimledikleri varlıkların gerçekten var olduğunu kanıtlamaz. Bilim tarihi, başarıyla öngörü üretmiş ama sonradan terk edilmiş kavramlarla doludur — esîr (ether) bunların en bilinenidir.
+
+Tartışmanın bugünkü hâli "kötümser tümevarım" adıyla anılır: Geçmişteki en iyi kuramların çoğu yanlış çıktıysa, bugünküler neden farklı olsun?
+
+## Gökyüzü laboratuvar olunca
+
+Keşfin üçüncü sonucu yöntemseldir. Tayf çözümlemesi, dokunulamayan bir nesne hakkında bilgi üretmenin yolunu açtı. Bugün ötegezegen atmosferlerinden kara delik çevresine kadar astrofiziğin neredeyse tamamı bu ilkeye dayanır.
+
+On dokuzuncu yüzyılın başında Auguste Comte, yıldızların kimyasal bileşiminin asla bilinemeyeceğini yazmıştı — bilginin ilkesel bir sınırına örnek olarak. Helyumun keşfi, o sınırın nerede olduğunu bilmenin ne kadar zor olduğunu gösterdi.`,
   },
 ];
 
