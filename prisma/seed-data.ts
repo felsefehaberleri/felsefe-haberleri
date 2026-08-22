@@ -4086,7 +4086,7 @@ On dokuzuncu yüzyılın başında Auguste Comte, yıldızların kimyasal bileş
     slug: "yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi",
     summary: "Boğaziçi Üniversitesi'nden emekli olan Yalçın Koç, felsefeyi Batı kavramlarını çevirerek değil, Türkçenin ve Anadolu düşünce geleneğinin imkânları içinden yeniden kurmayı deniyor. 'Nazariyat' külliyatı bu iddianın fiilî sınaması.",
     coverImage: "/kapak/yalcin-koc.jpg",
-    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    imageCredit: "Temsilî illüstrasyon — Felsefe Haberleri için hazırlanmıştır",
     featured: true,
     seoTitle: "Yalçın Koç: Anadolu Mayası, nazariyat ve Türkçede felsefe",
     metaDescription: "Yalçın Koç'un Anadolu Mayası, kelam-logos ayrımı ve nazariyat külliyatı: Türkçede özgün bir felsefe dili kurulabilir mi?",
@@ -4509,6 +4509,73 @@ Felsefe camiasında bu konu uzun süredir tartışılıyor ve alan bu tartışma
 ---
 
 *Yayın ilkelerimiz gereği tartışmalı konularda farklı görüşlere yer vermeye çalışıyoruz. Görüş ve düzeltmelerinizi iletişim sayfasından iletebilirsiniz.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 22 Ağustos: Haiti ayaklanması ve ilk Cenevre Sözleşmesi",
+    slug: "felsefe-tarihinde-bugun-22-agustos-haiti-cenevre",
+    summary: "22 Ağustos 1791'de Saint-Domingue'de başlayan ayaklanma, insan hakları evrenselliğinin en sert sınavı oldu. Aynı gün 1864'te ilk Cenevre Sözleşmesi imzalandı: savaşın da bir sınırı olduğu fikri metne döküldü.",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Haitian_Revolution.jpg?width=1600",
+    imageCredit: "Haiti Devrimi'ni betimleyen dönem gravürü · Wikimedia Commons",
+    featured: false,
+    seoTitle: "22 Ağustos: Haiti Devrimi ve ilk Cenevre Sözleşmesi",
+    metaDescription: "22 Ağustos 1791'de Haiti ayaklanması başladı, 1864'te ilk Cenevre Sözleşmesi imzalandı. İnsan haklarının evrenselliği ve savaşın sınırları üzerine.",
+    contentType: "TARIH",
+    sourceName: "Wikipedia · ICRC",
+    sourceUrl: "https://en.wikipedia.org/wiki/First_Geneva_Convention",
+    publishedAt: "2026-08-22T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "siyaset-felsefesi", "etik", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "First Geneva Convention", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/First_Geneva_Convention", primary: true },
+      { title: "The Geneva Conventions: 160 years of history", publisher: "Genève internationale", url: "https://www.geneve-int.ch/geneva-conventions-160-years-history" },
+      { title: "Bois Caïman", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Bois_Ca%C3%AFman" },
+      { title: "Dutty Boukman", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Dutty_Boukman" },
+    ],
+    content: `22 Ağustos, birbirinden yetmiş üç yıl uzakta duran iki olayı aynı güne topluyor. İkisi de aynı soruyu farklı yerinden tutuyor: **İnsan olmanın getirdiği haklar gerçekten herkes için mi geçerli?**
+
+## 1791: Saint-Domingue'de ayaklanma
+
+Fransa'nın Karayipler'deki en zengin kolonisi Saint-Domingue'de, 22 Ağustos 1791 gecesi Dutty Boukman önderliğindeki köleleştirilmiş insanlar Noé şeker plantasyonunu ateşe verdi. Tarihçiler bu yangını, on üç yıl sürecek ve 1804'te bağımsız Haiti Cumhuriyeti'yle sonuçlanacak ayaklanmanın başlangıcı sayar.
+
+Birkaç gün önce, ormanda Bois Caïman denen yerde bir tören yapılmıştı. Törenin tarihi kaynaklarda tartışmalıdır — kimi 14 Ağustos'u, kimi 22 Ağustos'u verir. Ayaklanmanın fiilen başladığı gün konusunda ise ayrılık yoktur.
+
+## Felsefi mesele: evrensellik sınanıyor
+
+Fransız Devrimi 1789'da *İnsan ve Yurttaş Hakları Bildirisi*'ni ilan etmişti. Metnin ilk maddesi açıktı: İnsanlar özgür ve haklar bakımından eşit doğar.
+
+Ama bildiriyi ilan eden ülkenin kolonilerinde kölelik sürüyordu. Aynı meclis, insan haklarını evrensel diye ilan ederken sömürge ekonomisini korumanın yolunu arıyordu.
+
+Haiti ayaklanması bu çelişkiyi tartışarak değil, **eyleyerek** sınadı. Evrensellik iddiası, kendisinden dışlananlar tarafından ciddiye alındığında ne olur? Cevap, imparatorluğun kaybettiği bir savaş oldu.
+
+Tarihçi C. L. R. James'in 1938 tarihli *The Black Jacobins* kitabı bu olayı dünya tarihinin merkezine yerleştiren ilk büyük çalışmaydı.
+
+## Hegel ve Haiti tartışması
+
+Felsefe tarihinde son yirmi beş yılın en çok tartışılan tezlerinden biri de buradan doğdu.
+
+Susan Buck-Morss, 2000'de yayımlanan bir makalede ve 2009'daki *Hegel, Haiti and Universal History* kitabında şunu öne sürdü: Hegel'in *Tinin Fenomenolojisi*'ndeki ünlü **efendi-köle diyalektiği**, soyut bir düşünce deneyi değildi; Hegel'in dönemin gazetelerinden izlediği Haiti olaylarıyla doğrudan bağlantılıydı.
+
+Tez tartışmalıdır. Hegel'in Haiti'ye açık bir göndermesi yoktur; kanıt dolaylıdır ve eleştirenler bağlantının fazla güçlü kurulduğunu söyler. Ama tartışmanın kendisi verimli oldu: Felsefe tarihinin, kendi çağının sömürgecilik gerçeğinden bağımsız yazılıp yazılamayacağı sorusu böylece gündeme geldi.
+
+## 1864: savaşın da bir sınırı var
+
+Aynı gün, 1864'te Cenevre'de on iki Avrupa devleti — İsviçre, Fransa, Prusya, Belçika, Hollanda, İspanya, Danimarka, Portekiz, İtalya, İsveç, Norveç ve Württemberg — *Sahra Ordularındaki Yaralıların Durumunun İyileştirilmesine Dair Sözleşme*'yi imzaladı.
+
+Metnin arkasında Cenevreli iş adamı Henry Dunant vardı. Dunant 1859'da Solferino Muharebesi'nin ardından savaş alanında gördüklerini yazmış, yaralıların bakımsızlıktan ölmesini anlatmıştı.
+
+Sözleşme modern uluslararası insancıl hukukun başlangıcı sayılır ve Uluslararası Kızılhaç Komitesi'nin kuruluşuna zemin hazırladı.
+
+## Felsefi mesele: adil savaş
+
+Buradaki fikir eskidir ama 1864'te ilk kez bağlayıcı bir metne dönüştü: **Savaşta bile yapılamayacak şeyler vardır.**
+
+Skolastik dönemden beri süren *adil savaş* tartışması iki soruyu ayırır. Savaşa girmek ne zaman haklıdır (*jus ad bellum*)? Savaşırken hangi sınırlar geçerlidir (*jus in bello*)? İkinci soru birincisinden bağımsızdır: Haksız bir savaşta bile yaralıya ve esire yapılamayacaklar vardır.
+
+Michael Walzer'in 1977 tarihli *Just and Unjust Wars* kitabı bu ayrımın çağdaş tartışmadaki başlıca referansıdır.
+
+İki olay birlikte okunduğunda ortaya çıkan tablo şu: On dokuzuncu yüzyıl, insan haklarının hem en sert biçimde çiğnendiği hem de ilk kez uluslararası metne bağlandığı yüzyıldı. Aradaki mesafe, hâlâ üzerinde çalıştığımız mesafedir.`,
   },
 ];
 

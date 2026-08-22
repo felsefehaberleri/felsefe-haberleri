@@ -191,24 +191,46 @@ bu, haberin kendisidir; ancak filozof etiketi olarak işlenmez.
 **65.** Yeni listeler yayın sahibinden gelir. Liste verilene kadar mevcut onaylı isimlere
 dokunulmaz, kendiliğinden yeni isim eklenmez.
 
-## 19. Logo ve marka kullanımı
+## 19. Felsefe Tarihinde Bugün — günlük süreklilik
 
-**66.** Sitenin iki logosu vardır:
+**69.** Bu bölümde **gün atlanmaz**. Her "Güncelle" işleminde, o güne kadar boş
+kalmış bütün günler doldurulur. Takvimde boşluk kalması bu bölümün varlık
+nedeniyle çelişir.
+
+**70.** Gün seçilirken öncelik sırası şudur:
+
+1. Büyük filozofların doğum ve ölüm tarihleri
+2. Filozofların hayatındaki dönüm noktaları (yayın, dava, sürgün, kürsü)
+3. Ünlü felsefe kitaplarının ilk yayım tarihleri
+4. Felsefe açısından önemli tarihsel olaylar (anayasa, bildirge, sözleşme)
+5. Bilimsel buluşlar ve teknolojik gelişmeler
+6. Daha az bilinen filozoflar
+
+**71.** Hiçbir tarih tahminle yazılmaz. Bir gün için çapraz doğrulanabilir olay
+bulunamıyorsa o gün boş bırakılır ve durum yayın sahibine bildirilir.
+
+**72.** Her takvim haberinin kapağında konusu olan kişinin ya da olayın gerçek
+görseli bulunur (tercihen Wikimedia Commons arşivinden). Görsel yoksa konuya
+özgü, ciddi bir editoryal kapak tasarlanır — karikatür ya da simge yığını değil.
+
+## 20. Logo ve marka kullanımı
+
+**73.** Sitenin iki logosu vardır:
 
 | Logo | Dosya | Kullanım yeri |
 | --- | --- | --- |
 | **Baykuş** (ana logo) | `public/logo-owl*.png` | Üst künye (masthead) |
 | **Kartal ve yılan** (küçük simge) | `public/logo-mark*.png`, `logo-eagle*.png` | Sekme ikonu (favicon), yapışkan menü çubuğu, mobil menü, alt bilgi, e-postalar, paylaşım görseli |
 
-**67.** Her logonun iki renk sürümü vardır: açık zemin için lacivert (`logo-….png`),
+**74.** Her logonun iki renk sürümü vardır: açık zemin için lacivert (`logo-….png`),
 koyu zemin için krem (`logo-…-dark.png`). Doğru sürüm `Logo` bileşeni tarafından CSS ile
 seçilir; elle `<img>` yazılmaz.
 
-**68.** Logolar gerilmez, döndürülmez, rengi değiştirilmez; oranı korunur
+**75.** Logolar gerilmez, döndürülmez, rengi değiştirilmez; oranı korunur
 (`w-auto` ile yalnızca yükseklik verilir). Küçültme ikonu her zaman kartal-yılan
 amblemidir.
 
-## 20. İlkeler
+## 21. İlkeler
 
 DOĞRULUK > HIZ · KALİTE > MİKTAR · KAYNAK > TAHMİN · ÖZGÜN ANLATIM > KOPYALAMA ·
 HABER DEĞERİ > İÇERİK SAYISI · ONAYLI LİSTE > GELİŞİGÜZEL EKLEME
