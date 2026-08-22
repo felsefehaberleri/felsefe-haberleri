@@ -66,10 +66,16 @@ export async function POST(request: Request) {
     const mail = subscriptionConfirmMail(confirmToken);
     const sent = await sendMail({ to: email, ...mail });
 
+    // Not: e-posta sağlayıcısı tanımlı değilse okura teknik ayrıntı gösterilmez.
+    // Kayıt yine de alınır ve PENDING olarak bekler; ayrıntı sunucu günlüğünde kalır.
+    if (!sent) {
+      console.warn(`[subscribe] onay e-postası gönderilemedi (RESEND_API_KEY?) — ${email}`);
+    }
+
     return jsonOk(null, {
       message: sent
         ? "Onay e-postası gönderildi. Gelen kutunuzu kontrol edin."
-        : "Kaydınız alındı. E-posta gönderimi henüz yapılandırılmadığı için onay bağlantısı sunucu günlüğüne yazıldı.",
+        : "Kaydınız alındı. Onay bağlantısı en kısa sürede adresinize iletilecek.",
       mailSent: sent,
     });
   } catch (error) {

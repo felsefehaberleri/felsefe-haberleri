@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { Comments } from "@/components/comments";
 import { Container } from "@/components/container";
+import { ShareButtons } from "@/components/share-buttons";
 import { Markdown } from "@/components/markdown";
 import { PhilosopherAvatar } from "@/components/philosopher-card";
 import { SourceNote } from "@/components/source-note";
@@ -124,6 +125,9 @@ export default async function ArticlePage({ params }: Props) {
             ))}
           </div>
         )}
+
+        {/* Sosyal medya paylaşımı */}
+        <ShareButtons title={post.title} />
 
         {/* Okur yorumları — üyelik gerekmez, anonim yazılabilir. */}
         <Comments slug={post.slug} />
