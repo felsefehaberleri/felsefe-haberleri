@@ -1395,6 +1395,26 @@ export const philosophers: SeedPhilosopher[] = [
     influencedBy: "Husserl, Nietzsche, Heidegger, Kant",
     sources: "ODTÜ Felsefe Bölümü — Ahmet İnam özgeçmiş — https://phil.metu.edu.tr/tr/ahmet-inam-ozgecmis\nAhmet İnam kişisel sitesi — https://www.ahmetinam.com/",
   },
+  {
+    name: "Yalçın Koç",
+    slug: "yalcin-koc",
+    headline: "Nazariyat ve Anadolu Mayası — Boğaziçi Üniversitesi (emeritus)",
+    bio: "Türkçede özgün ve sistematik bir felsefe dili kurmayı deneyen düşünür. Anadolu Mayası ile başlayan ve 'nazariyat' adını verdiği külliyatta mantık, metafizik, zihin, şuur ve tarihi kendi kavramsal çerçevesi içinde ele alıyor.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1950,
+    affiliation: "Boğaziçi Üniversitesi (emeritus)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "1950",
+    alive: true,
+    period: "Çağdaş",
+    areas: "Metafizik, Mantık, Zihin felsefesi, Dil felsefesi, Türk-İslam düşüncesi",
+    majorWorks: "Anadolu Mayası: Türk Kimliği Üzerine Bir İnceleme\nTheologia'nın Esasları\nNazari Mantık'ın Esasları\nZihin ve Nazariyat\nŞuur ve Nazariyat\nFenomenoloji ve Nazariyat\nTarih ve Nazariyat",
+    keyConcepts: "Nazariyat, Anadolu Mayası, Maya, Gönül, Kelam (logos karşısında), Theographia",
+    sources: "Anadolu Mayası — Cedit Neşriyat — http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product\nProf. Dr. Yalçın Koç yazar sayfası — https://www.kitapyurdu.com/yazar/prof-dr-yalcin-koc/54095.html",
+  },
 ];
 
 
@@ -4061,6 +4081,435 @@ Keşfin üçüncü sonucu yöntemseldir. Tayf çözümlemesi, dokunulamayan bir 
 
 On dokuzuncu yüzyılın başında Auguste Comte, yıldızların kimyasal bileşiminin asla bilinemeyeceğini yazmıştı — bilginin ilkesel bir sınırına örnek olarak. Helyumun keşfi, o sınırın nerede olduğunu bilmenin ne kadar zor olduğunu gösterdi.`,
   },
+  {
+    title: "Yalçın Koç: Türkçede yeni bir felsefe dili arayışı",
+    slug: "yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi",
+    summary: "Boğaziçi Üniversitesi'nden emekli olan Yalçın Koç, felsefeyi Batı kavramlarını çevirerek değil, Türkçenin ve Anadolu düşünce geleneğinin imkânları içinden yeniden kurmayı deniyor. 'Nazariyat' külliyatı bu iddianın fiilî sınaması.",
+    coverImage: "/kapak/yalcin-koc.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    seoTitle: "Yalçın Koç: Anadolu Mayası, nazariyat ve Türkçede felsefe",
+    metaDescription: "Yalçın Koç'un Anadolu Mayası, kelam-logos ayrımı ve nazariyat külliyatı: Türkçede özgün bir felsefe dili kurulabilir mi?",
+    contentType: "ANALIZ",
+    sourceName: "Cedit Neşriyat · akademik çalışmalar",
+    sourceUrl: "http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product",
+    publishedAt: "2026-08-21T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["kavram", "islam-felsefesi", "akademi", "mantik"],
+    philosopherSlugs: ["yalcin-koc"],
+    sources: [
+      { title: "Anadolu Mayası — Yalçın Koç", publisher: "Cedit Neşriyat", url: "http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product", primary: true },
+      { title: "Anadolu Mayası: Türk Kimliği Üzerine Bir İnceleme", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/kitap/anadolu-mayasi/99423.html" },
+      { title: "Prof. Dr. Yalçın Koç — yazar sayfası", publisher: "Kitapyurdu", url: "https://www.kitapyurdu.com/yazar/prof-dr-yalcin-koc/54095.html" },
+      { title: "Yeni Başlayanlar İçin Yalçın Koç", publisher: "Şenol Korkut — Academia.edu", url: "https://www.academia.edu/116108406/Yeni_Ba%C5%9Flayanlar_%C4%B0%C3%A7in_Yal%C3%A7%C4%B1n_Ko%C3%A7" },
+    ],
+    content: `Çağdaş Türk düşüncesinin en özgün isimlerinden Prof. Dr. Yalçın Koç, felsefe tarihinde alışılmış bir rolü reddediyor: Batı felsefesinin kavramlarını Türkçeye aktaran aracı olmayı.
+
+Onun girişimi daha iddialı. Felsefenin kendisini Türkçenin ve Türk düşünce geleneğinin imkânları içinden yeniden kurmayı deniyor.
+
+## Fizikten felsefeye
+
+1950'de Tokat'ta doğan Koç, 1973'te ODTÜ Fizik Bölümü'nü bitirdi. Mezuniyetinden bir yıl sonra, lisans alanının dışına çıkarak felsefe doktorasına başladı.
+
+1977'den itibaren Boğaziçi Üniversitesi'nde Beşerî Bilimler ve Felsefe bölümlerinde çalıştı. Felsefe Bölümü başkanlığı, Fen-Edebiyat Fakültesi dekanlığı ve Sosyal Bilimler Enstitüsü müdürlüğü yaptı. 1998'de profesör oldu ve aynı yıl, kırk sekiz yaşındayken üniversiteden emekli oldu. Bugün Antalya'da bir köyde yaşıyor ve yazmayı sürdürüyor.
+
+Bu erken çekiliş, düşüncesinin bir parçası olarak da okunabilir: Kurumsal felsefenin gündemi ile kendi kurmak istediği gündem arasındaki mesafe.
+
+## Batı'ya karşı değil, Batı-merkezliliğe alternatif
+
+Koç'un felsefesini "Batı karşıtı" saymak, asıl meseleyi ıskalamak olur. Batı felsefesinin problemlerine ve kavram mirasına fazlasıyla hâkim bir düşünürdür. Arayışı başkadır: Felsefenin, Grek-Latin-Kilise geleneğinde biçimlenmiş kavram ve kategorilerle sınırlı olmadığını göstermek.
+
+Yaptığı şey Batı felsefesini reddetmek değil; Batı merkezli felsefe okumasının karşısına **başka bir nazari imkân** koymaktır.
+
+Bu girişimin en dikkat çekici tarafı, yeni bir felsefe dili oluşturma çabasıdır. Metinlerinde geçen *nazariyat*, *maya*, *gönül*, *kelam*, *cevher*, *şuur*, *zihin* ve *theographia* gibi kavramlar terminolojik tercih değildir. Düşüncenin farklı bir zeminde yeniden örgütlenmesinin araçlarıdır.
+
+## "Anadolu Mayası": kimlikten daha derin bir soru
+
+Koç'un başlangıç noktalarından biri **Anadolu Mayası**dır. Cedit Neşriyat'tan çıkan ve birçok baskı yapan *Anadolu Mayası: Türk Kimliği Üzerine Bir İnceleme*, sonraki nazariyatının kavramsal damarlarından birini kurar.
+
+Kitap, Türk kimliğini tarihsel, sosyolojik ya da siyasi bir kimlik olarak ele almak yerine, daha derin bir ontolojik zeminde düşünmeye yönelir.
+
+Buradaki **maya** kavramı belirleyicidir. Maya, bir şeyi yalnızca meydana getiren değil; onun ne olduğunu ve ne olarak kalacağını belirleyen kurucu bir ilke olarak düşünülür. Bu açıdan Anadolu Mayası, geçmişe nostaljik bir dönüş çağrısı değil; Türk ve Anadolu varoluşunun hangi temel üzerinden anlaşılabileceğine dair felsefi bir sorudur.
+
+**Gönül** de bu bağlamda merkezî bir konum kazanır. Sıradan anlamıyla duygusal bir alan değildir; insanın varlıkla, anlamla ve hakikatle ilişkisini mümkün kılan daha derin bir zemin olarak ele alınır. Bu yüzden Koç'ta akıl ile gönül arasında basit bir karşıtlık kurulmaz; insanın hakikat tecrübesinin farklı boyutları yeniden düşünülür.
+
+## Kelam ile logos arasında açılan alan
+
+Koç'un özgün felsefe dilinin en belirgin örneği, **kelam** ile **logos** arasında kurduğu ayrımdır.
+
+Logos, Grek düşüncesinden itibaren akıl, söz, düzen ve anlam gibi katmanları birlikte taşımıştır. Koç bunun karşısına, Anadolu ve Türk-İslam düşünce dünyasının tarihsel tecrübesinden beslenen kelam kavramını yerleştirir.
+
+Bu, iki kelimeyi karşılaştırmak değildir. Asıl iddia şudur: **Dünyayı hangi kavramsal dille düşündüğümüz, dünyayı nasıl gördüğümüzü de belirler.**
+
+Türkçe bu çerçevede basit bir iletişim aracı olmaktan çıkar. Taşıdığı tarihsel, kültürel ve düşünsel birikim, felsefi kavramların yeniden kurulabileceği bir imkân alanı olarak değerlendirilir.
+
+## Klasik problemleri başka bir zeminden sormak
+
+Koç'un katkısı yalnızca "yerli kavramlar" üretmesinde aranamaz. Daha önemlisi, felsefenin klasik problemlerini farklı bir kavramsal zeminde yeniden ele almasıdır.
+
+Varlık nedir? İnsan nedir? Bilgi nasıl mümkündür? Şuurun kaynağı nedir? Zihin ile varlık arasındaki ilişki nasıl kurulur? Hakikat nedir? Özgürlük mümkün müdür? Dil ile varlık arasında nasıl bir bağ vardır?
+
+Bunlar hem Batı felsefesinin hem Türk-İslam düşüncesinin yüzyıllardır üzerinde durduğu sorulardır. Koç'un farkı, bu soruları yalnızca Descartes, Kant, Hegel, Husserl ya da Heidegger'in kavram dünyasından yanıtlamaya çalışmamasıdır.
+
+Yaklaşım şu düşünceye dayanır: Aynı probleme başka bir dilin içinden bakıldığında başka açılımlar ortaya çıkabilir.
+
+## Nazariyat: bir külliyat
+
+Koç'un eserlerinin önemli bölümü tek bir projenin katmanları olarak okunabilir. *Theologia'nın Esasları*, *Theographia'nın Esasları*, *Nazari Mantık'ın Esasları*, *Diyalektik ve Nazariyat*, *Zihin ve Nazariyat*, *Şuur ve Nazariyat*, *Fenomenoloji ve Nazariyat* ve *Tarih ve Nazariyat* gibi çalışmalarda mantık, metafizik, teoloji, zihin, şuur, fenomenoloji ve tarih kendi geliştirdiği kavramsal çerçeve içinde ele alınır.
+
+Bu külliyat birlikte düşünüldüğünde ortaya çıkan tablo, Batı felsefesinin belirli problemlerine cevap veren münferit bir düşünür değil; kendi kavramlarını ve yöntemini inşa etmeye çalışan sistematik bir düşünce projesidir.
+
+## Kolay bir okuma değil
+
+Koç'un dili yer yer yoğun, teknik ve alışılmadıktır. Bu güçlük tesadüf değil; felsefesinin temel iddiasıyla ilgilidir: **Yeni bir düşünce kurmak, çoğu zaman yeni bir düşünme dili kurmayı gerektirir.**
+
+Son yıllarda onun düşüncesini metafizik, zihin felsefesi, dil felsefesi, Türk-İslam düşüncesi ve eğitim felsefesi açısından inceleyen akademik çalışmaların arttığı görülüyor.
+
+## Asıl soru
+
+Koç'un felsefesini değerlendirirken doğru soru belki de "Batı felsefesine alternatif bir felsefe kurdu mu?" değil; **"Türkçenin felsefe yapma imkânlarını ne ölçüde genişletti?"** sorusudur.
+
+Çünkü yaptığı, büyük problemleri terk etmek değil; onlara başka bir kavramsal ufuktan bakmaktır. Böylece varlık, insan, zihin, şuur, hakikat, bilgi ve özgürlük gibi evrensel problemler, gelenekten beslenen yeni bir Türkçe içinde yeniden açılır.
+
+Bu teşebbüsün başarısı ya da sınırları elbette felsefe tarihçilerinin ve gelecek kuşakların değerlendirmesine açık. Fakat ortaya konan külliyat, Türkçede özgün ve sistematik bir felsefe dili kurulabileceği iddiasını yalnızca ileri sürmekle kalmıyor; eserler aracılığıyla fiilen sınıyor.
+
+Ve tam bu nedenle Yalçın Koç, çağdaş Türk düşüncesinde yalnızca okunması gereken bir filozof değil; Türkçede felsefe yapmanın imkânlarını yeniden düşünmemizi sağlayan bir düşünce hadisesi olarak değerlendirilmeyi hak ediyor.`,
+  },
+  {
+    title: "John Searle'ün ardından: Çin Odası bugün ne söylüyor?",
+    slug: "john-searle-cin-odasi-mirasi",
+    summary: "Dil ve zihin felsefesinin en tartışılan isimlerinden John Searle 17 Eylül 2025'te 93 yaşında öldü. Yapay zekâ tartışmasının merkezindeki düşünce deneyi hâlâ onun.",
+    coverImage: "/kapak/john-searle.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    seoTitle: "John Searle (1932–2025) ve Çin Odası argümanı",
+    metaDescription: "John Searle 17 Eylül 2025'te öldü. Çin Odası düşünce deneyi, söz edimleri kuramı ve yapay zekâ tartışmasındaki yeri.",
+    contentType: "ANALIZ",
+    sourceName: "Britannica · Daily Nous",
+    sourceUrl: "https://www.britannica.com/biography/John-Searle",
+    publishedAt: "2026-08-21T05:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["vefat", "zihin-felsefesi", "yapay-zeka", "bilinc"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "John Searle | Biography, Philosophy, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/John-Searle", primary: true },
+      { title: "John Searle (1932-2025)", publisher: "Daily Nous", date: "28 Eylül 2025", url: "https://dailynous.com/2025/09/28/john-searle-1932-2025/" },
+      { title: "Former UC Berkeley professor John Searle dies, leaves complicated legacy", publisher: "The Daily Californian", date: "16 Ağustos 2026", url: "https://www.dailycal.org/news/obituary-news/former-uc-berkeley-professor-john-searle-dies-leaves-complicated-legacy/article_6132904a-9d96-4bb7-abff-27988d169a7a.html" },
+    ],
+    content: `Amerikalı filozof John Searle, 17 Eylül 2025'te Florida'nın Safety Harbor kentinde 93 yaşında öldü. 1932'de Denver'da doğmuş, 1959'dan itibaren California Üniversitesi Berkeley'de ders vermişti.
+
+Berkeley'nin öğrenci gazetesi bu ağustos ayında yayımladığı değerlendirmede mirasını "karmaşık" diye niteledi: dil ve zihin felsefesine yaptığı geniş kabul gören katkılar ile kariyerinin sonunda karşılaştığı ciddi suçlamalar aynı cümlede anılıyor.
+
+Bir haber sitesi için bu iki tarafı da kaydetmek gerekir. Aşağıda, düşüncesinin bugün yapay zekâ tartışmasında neden hâlâ merkezde olduğunu ele alıyoruz.
+
+## Söz edimleri
+
+Searle'ün ilk büyük katkısı dil felsefesindedir. J. L. Austin'in başlattığı çizgiyi sistemleştirdiği *Speech Acts* (1969), dili yalnızca dünyayı betimleyen bir araç saymayı bırakır.
+
+Temel gözlem şudur: Konuşmak bir **eylemde bulunmaktır**. "Söz veriyorum" dediğinizde bir olguyu bildirmiyorsunuz; bir yükümlülük kuruyorsunuz. "Bu toplantıyı açıyorum" cümlesi toplantının açık olduğunu anlatmaz, onu açar.
+
+Searle bu edimleri sınıflandırdı ve her birinin geçerli sayılması için hangi koşulların sağlanması gerektiğini ayrıntılandırdı. Bu çerçeve dilbilimden hukuka, yapay zekâ tasarımından iletişim kuramına kadar geniş bir alanda kullanılıyor.
+
+## Çin Odası
+
+Searle'ün adını felsefe dışına taşıyan şey ise 1980 tarihli bir düşünce deneyidir.
+
+Bir odada, Çince bilmeyen bir kişi düşünün. Dışarıdan Çince karakterler içeren kâğıtlar giriyor. Elindeki kalın kural kitabı, hangi karaktere hangi karakterle karşılık verileceğini söylüyor. Kişi kuralları uyguluyor, kâğıtları dışarı veriyor.
+
+Dışarıdaki Çince konuşan biri için oda mükemmel Çince biliyor. Ama içerideki kişi tek kelime Çince anlamıyor.
+
+Searle'ün çıkardığı sonuç şuydu: **Sembolleri kurala göre işlemek, anlamayı doğurmaz.** Sözdizimi tek başına anlam üretmez. Dolayısıyla bir bilgisayar, program çalıştırmakla — ne kadar iyi çalıştırırsa çalıştırsın — anlamaya ulaşmaz.
+
+## İtirazlar
+
+Argüman yayımlandığı andan itibaren yoğun biçimde tartışıldı. Başlıca karşı çıkışlar şunlardır:
+
+**Sistem yanıtı.** Odadaki kişi Çince anlamıyor olabilir; ama anlayan zaten o kişi değil, kişi-kitap-oda bütünüdür. Searle bu itirazı, kişinin bütün kuralları ezberlediği bir varyantla yanıtladı: O zaman sistem de kişinin içindedir ve yine anlamıyordur.
+
+**Robot yanıtı.** Odaya duyu organları ve bedensel eylem eklenirse, semboller dünyaya bağlanır ve anlam doğar.
+
+**Beyin benzeşimi yanıtı.** Program, nöron nöron beynin işleyişini taklit ediyorsa, beyin de anlıyorsa o da anlar.
+
+Searle bu yanıtların hepsine ayrıntılı karşılıklar yazdı. Tartışma bugün kapanmış değil.
+
+## Bugünkü yeri
+
+Büyük dil modellerinin yaygınlaşmasıyla Çin Odası yeniden gündeme geldi — hem savunanlar hem karşı çıkanlar için.
+
+Argümanı güçlü bulanlar, modellerin devasa istatistiksel örüntü eşleştirmesi yaptığını, buradan anlamın çıkmayacağını söylüyor. Karşı görüştekiler ise "anlama"nın ne olduğunu davranıştan bağımsız tanımlamanın mümkün olmadığını, dolayısıyla argümanın soruyu baştan varsaydığını savunuyor.
+
+Sitemizde daha önce aktardığımız gibi, David Chalmers'ın 2026'da yayımlanan çalışması bu ikilemin ortasından geçmeyi deniyor: Bir dil modeline "yarı-inanç" ve "yarı-arzu" atfederek, ruh tartışmasına girmeden zihinsel yaşamından söz edebilmeyi öneriyor.
+
+Hangi taraf haklı olursa olsun, tartışmanın kurulduğu zemin hâlâ 1980'de Berkeley'de yazılmış bir makaleye ait.
+
+---
+
+*Not: Searle'e yöneltilen taciz suçlamaları ve üniversitenin buna ilişkin süreci, yukarıda anılan Berkeley kaynağında ayrıntılı biçimde yer alıyor.*`,
+  },
+  {
+    title: "2026 Rolf Schock Mantık ve Felsefe Ödülü Bas van Fraassen'in",
+    slug: "rolf-schock-odulu-2026-bas-van-fraassen",
+    summary: "İsveç Kraliyet Bilimler Akademisi, bilim felsefesindeki 'yapıcı ampirizm' yaklaşımıyla tanınan Princeton'lı filozofu ödüle değer gördü. Ödül 600 bin İsveç kronu.",
+    coverImage: "/kapak/van-fraassen.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "2026 Rolf Schock Ödülü: Bas van Fraassen",
+    metaDescription: "Bas van Fraassen 2026 Rolf Schock Mantık ve Felsefe Ödülü'nü kazandı. Yapıcı ampirizm ve bilimsel gerçekçilik tartışması.",
+    contentType: "HABER",
+    sourceName: "Daily Nous · Kungl. Vetenskapsakademien",
+    sourceUrl: "https://dailynous.com/2026/01/21/bas-van-fraassen-wins-schock-prize/",
+    publishedAt: "2026-08-21T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "bilim-felsefesi", "epistemoloji", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Bas van Fraassen Wins Schock Prize", publisher: "Daily Nous", date: "21 Ocak 2026", url: "https://dailynous.com/2026/01/21/bas-van-fraassen-wins-schock-prize/", primary: true },
+      { title: "Rolf Schock Prizes", publisher: "Kungl. Vetenskapsakademien", url: "https://www.kva.se/en/prizes/rolf-schock-prizes/" },
+      { title: "The Rolf Schock Prize Symposium in Logic and Philosophy 2026", publisher: "Kungl. Vetenskapsakademien", url: "https://www.konstakademien.se/en/rolfschockprisen/" },
+    ],
+    content: `Mantık ve felsefe alanının en yüksek ödüllerinden biri sayılan Rolf Schock Ödülü'nün 2026 sahibi belli oldu: Princeton Üniversitesi'nden emekli felsefe profesörü **Bastiaan "Bas" van Fraassen**.
+
+Gerekçede, van Fraassen'in "mantıksal ampirizmin ötesine kararlı biçimde geçen, çağdaş bilim felsefesini derinden etkileyen ve bilimsel gerçekçilik tartışmasını biçimlendiren ikna edici bir ampirist yaklaşım geliştirmesi" gösterildi.
+
+Ödül 600 bin İsveç kronu (yaklaşık 66 bin ABD doları) değerinde.
+
+## Yapıcı ampirizm nedir?
+
+Van Fraassen'in 1980 tarihli *The Scientific Image* kitabı, bilim felsefesinde bir dönemi kapattı, bir başkasını açtı.
+
+O tarihe kadar tartışma iki uç arasında sıkışmıştı. **Gerçekçiler**, başarılı bilimsel kuramların doğru olduğunu ve elektronlar gibi gözlenemeyen varlıkların gerçekten var olduğunu savunuyordu. **Mantıksal ampiristler** ise gözlenemeyenlerden söz eden ifadelerin anlamsız ya da kısaltma olduğunu ileri sürüyordu.
+
+Van Fraassen üçüncü bir yol önerdi. Ona göre bilimsel kuramlar **anlamlıdır** — elektron dediğimizde gerçekten elektron kastediyoruzdur, kısaltma yapmıyoruzdur. Ama bir kuramı kabul etmek, onun doğru olduğuna inanmak zorunda değildir.
+
+Bilimin amacı, ona göre doğruluk değil **ampirik yeterlilik**tir: Kuramın gözlenebilir olgular hakkında söyledikleri doğru olsun, yeter. Gözlenemeyenler hakkındaki iddialar konusunda ise inanç askıya alınabilir.
+
+Bu konuma **yapıcı ampirizm** (constructive empiricism) adı verildi.
+
+## Neden önemli?
+
+Van Fraassen'in hamlesi, "bilime güvenmek" ile "bilimin her söylediğinin gerçek olduğuna inanmak" arasına bir ayrım koyar. Bilim insanı kuramı kullanır, geliştirir, ona dayanarak köprü kurar — ama kuramın betimlediği görünmez dünyanın aynen öyle olduğuna inanmak zorunda değildir.
+
+Eleştirmenler bu ayrımın sürdürülemez olduğunu söyler: Gözlenebilir ile gözlenemeyen arasındaki sınır keyfîdir; çıplak gözle görülen ile mikroskopla görülen arasında ilkesel bir fark yoktur.
+
+Tartışma sürüyor. Sitemizde daha önce aktardığımız helyum örneği — 1868'de gökyüzünde, yıllar sonra yeryüzünde bulunan element — tam da bu tartışmanın ders kitabı örneklerinden biridir.
+
+## Rolf Schock Ödülleri
+
+Ödüller, 1986'da ölen İsveçli filozof ve sanatçı Rolf Schock'un vasiyetiyle kuruldu. Dört dalda veriliyor: mantık ve felsefe, matematik, görsel sanatlar ve müzik. Mantık ve felsefe dalını daha önce Willard Van Orman Quine, Saul Kripke, Thomas Nagel, Derek Parfit ve Ruth Millikan gibi isimler almıştı.`,
+  },
+  {
+    title: "Philosophy dergisi 100 yaşında: Bernard Williams için özel sayı",
+    slug: "philosophy-dergisi-100-yil-bernard-williams",
+    summary: "Yayın hayatının yüzüncü yılını dolduran dergi, çeyrek asır önce yayımladığı bir makaleye dönüyor: Bernard Williams'ın 'Felsefe İnsani Bir Disiplin Olarak' metni.",
+    coverImage: "/kapak/philosophy-dergisi.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "Philosophy dergisi 100 yaşında — Bernard Williams özel sayısı",
+    metaDescription: "Philosophy dergisi yüzüncü yılını Bernard Williams'ın 'Philosophy as a Humanistic Discipline' makalesine ayrılan özel sayıyla kutluyor.",
+    contentType: "HABER",
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/18/mini-heap-724/",
+    publishedAt: "2026-08-21T04:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["dergi", "akademi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Mini-Heap 724", publisher: "Daily Nous", date: "18 Ağustos 2026", url: "https://dailynous.com/2026/08/18/mini-heap-724/", primary: true },
+    ],
+    content: `İngiltere merkezli *Philosophy* dergisi yayın hayatının yüzüncü yılını dolduruyor. Dergi, yıldönümünü çeyrek asır önce kendi sayfalarında yayımlanan bir makaleye ayırdığı özel sayıyla işaretliyor: Bernard Williams'ın **"Philosophy as a Humanistic Discipline"** metni.
+
+## Williams'ın sorusu
+
+Williams'ın makalesi kısa ama iddialıdır. Sorduğu şey şudur: Felsefe bir bilim midir?
+
+Yirminci yüzyılın büyük bölümünde analitik felsefenin örtük modeli bilimdi. Felsefe de tıpkı fizik gibi ilerleyen, sorunları çözen, sonuçları birikimli olarak biriken bir disiplin olarak tasavvur ediliyordu.
+
+Williams bu modele itiraz eder. Ona göre felsefe, bilimden çok **tarih** ve **beşerî bilimler** ile aynı ailedendir. Nedeni de şudur: Felsefi kavramlarımız — özgürlük, sorumluluk, adalet, benlik — tarihsel olarak oluşmuştur. Onları anlamak, nasıl oluştuklarını anlamayı gerektirir.
+
+Bilimde geçmiş, çoğu zaman aşılmış bir aşamadır; kimse bugünkü fiziği anlamak için Aristoteles okumak zorunda değildir. Felsefede ise Platon hâlâ muhataptır.
+
+## "Bilimcilik" eleştirisi
+
+Williams'ın bu tutumu, felsefeyi bilime öykünmeye çağıran yaklaşımlara karşı bir uyarıdır. Ona göre felsefe bilimi taklit ettiğinde iki şey birden kaybeder: hem bilim kadar kesin olamaz, hem de kendi asıl işini — insanın kendini anlama çabasına katkı yapmayı — bırakmış olur.
+
+Bu tartışma bugün de sürüyor. Deneysel felsefe, doğallaştırılmış epistemoloji ve bilişsel bilimle iç içe çalışan zihin felsefesi bir yanda; kavram tarihine, edebiyata ve fenomenolojiye yaslanan yaklaşımlar diğer yanda.
+
+## Yüz yıllık dergi
+
+*Philosophy*, 1925'ten beri yayımlanıyor ve İngilizce felsefe dergilerinin en eskilerinden biri. Uzmanlık dergilerinin çoğaldığı bir dönemde, genel felsefe okuruna seslenmeyi sürdüren az sayıdaki yayından.
+
+Yüzüncü yılını, kendi geçmişindeki bir metne dönerek kutlaması da bu çizgiyle uyumlu görünüyor: Williams'ın söylediği gibi, felsefede geçmiş aşılmaz, yeniden okunur.`,
+  },
+  {
+    title: "Sonbahar 2026 felsefe kitapları: algoritma, etik ve yeni bir Zerdüşt çevirisi",
+    slug: "sonbahar-2026-felsefe-kitaplari",
+    summary: "Üniversite yayınlarının eylül-ekim programı belli oldu. Philippe Huneman'ın profilleme eleştirisi, Stephen Batchelor'ın Buda-Sokrates karşılaştırması ve Stanford'un Nietzsche cildi öne çıkıyor.",
+    coverImage: "/kapak/sonbahar-kitaplar.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "Sonbahar 2026'da çıkacak felsefe kitapları",
+    metaDescription: "Eylül-Ekim 2026 felsefe kitapları: Profiling, Buddha Socrates and Us, Stanford Nietzsche cildi ve eleştirel eğitim felsefesi derlemesi.",
+    contentType: "HABER",
+    sourceName: "University Press Alert",
+    sourceUrl: "https://www.unipressalert.com/index.php?category=Philosophy",
+    publishedAt: "2026-08-21T04:00:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "yapay-zeka", "etik", "nietzsche"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "New Philosophy books — August 2026", publisher: "University Press Alert", url: "https://www.unipressalert.com/index.php?category=Philosophy", primary: true },
+    ],
+    content: `Üniversite yayınlarının sonbahar programında dikkat çeken felsefe başlıkları belli oldu. Öne çıkan dört kitap, alanın bugünkü gündemini de özetliyor.
+
+## Profiling — Philippe Huneman
+
+Stanford University Press'ten çıkan *Profiling: How Predictive Algorithms Shape Identity and the Social Fabric*, öngörücü algoritmaların kimliği ve toplumsal dokuyu nasıl biçimlendirdiğini ele alıyor.
+
+Konu, sitemizin düzenli olarak izlediği bir hattın devamı: Bir algoritma sizi "şu davranışı gösterme olasılığı yüksek kişi" diye sınıflandırdığında, yalnızca bir tahmin yapmıyor. O sınıflandırma kredinizi, sigortanızı, iş başvurunuzu ve bazen özgürlüğünüzü etkiliyor. Tahmin, kendi kendini gerçekleştiren bir kategoriye dönüşebiliyor.
+
+Felsefi soru şu: İstatistiksel bir örüntüye dayanarak bir bireye muamele etmek ne zaman meşrudur?
+
+## Buddha, Socrates, and Us — Stephen Batchelor
+
+Yale University Press'ten çıkan *Buddha, Socrates, and Us: Ethical Living in Uncertain Times*, iki geleneği yan yana koyuyor.
+
+Batchelor'ın ilgi çekici tercihi, Buda ile Sokrates'i doktrin benzerlikleri üzerinden değil, **yöntem** üzerinden karşılaştırması. İkisi de kitap yazmadı, ikisi de karşısındakini sorgulayarak ilerledi, ikisi de hazır bir öğreti aktarmak yerine bir pratik önerdi.
+
+## Thus Spoke Zarathustra — yeni Stanford çevirisi
+
+Stanford University Press'in Nietzsche külliyatı dizisinin yedinci cildi, *Böyle Söyledi Zerdüşt*'ün Paul S. Loeb ve David F. Tinsley tarafından yapılan yeni İngilizce çevirisini içeriyor.
+
+Nietzsche çevirisi kendi başına felsefi bir mesele: Metnin şiirsel yoğunluğu, kelime oyunları ve İncil'e yaptığı üslup göndermeleri, her çeviriyi aynı zamanda bir yorum hâline getiriyor.
+
+## Eleştirel teori ve eğitim felsefesi
+
+Columbia University Press'ten çıkan *Critical Theory and the Philosophy of Education: Normativity, Social Pathologies, and Educational Justice* derlemesi, Tobias Lensch ve Krassimir Stojanov editörlüğünde hazırlandı. Frankfurt Okulu geleneğini eğitim adaleti tartışmasına bağlıyor.
+
+---
+
+*Bu kitapların Türkçe çevirileri için henüz bir duyuru yapılmadı. Yayınevlerinden gelen bilgileri Yeni Kitaplar bölümünde paylaşıyoruz.*`,
+  },
+  {
+    title: "XVI. Mantık Çalıştayı Kars'ta toplandı",
+    slug: "xvi-mantik-calistayi-kars-2026",
+    summary: "Atatürk Kültür Merkezi Başkanlığı ile Mantık Derneği iş birliğinde düzenlenen çalıştay, 21-23 Mayıs 2026'da Kafkas Üniversitesi ev sahipliğinde yapıldı.",
+    coverImage: "/kapak/mantik-calistayi.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "XVI. Mantık Çalıştayı Kars'ta düzenlendi",
+    metaDescription: "XVI. Mantık Çalıştayı 21-23 Mayıs 2026'da Kafkas Üniversitesi ev sahipliğinde Kars'ta yapıldı.",
+    contentType: "HABER",
+    sourceName: "Atatürk Kültür Merkezi Başkanlığı",
+    sourceUrl: "https://akmb.gov.tr/uncategorized-tr/baskanligimiz-ve-mantik-dernegi-is-birligi-ile-xvi-mantik-calistayi-21-23-mayis-tarihlerinde-kafkas-universitesi-ev-sahipliginde-karsta-duzenlenecek/",
+    publishedAt: "2026-08-21T03:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["mantik", "akademi", "konferans", "sempozyum"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Başkanlığımız ve Mantık Derneği iş birliği ile XVI. Mantık Çalıştayı 21-23 Mayıs tarihlerinde Kafkas Üniversitesi ev sahipliğinde Kars'ta düzenlenecek", publisher: "Atatürk Kültür Merkezi Başkanlığı", date: "20 Mayıs 2026", url: "https://akmb.gov.tr/uncategorized-tr/baskanligimiz-ve-mantik-dernegi-is-birligi-ile-xvi-mantik-calistayi-21-23-mayis-tarihlerinde-kafkas-universitesi-ev-sahipliginde-karsta-duzenlenecek/", primary: true },
+    ],
+    content: `Türkiye'de mantık alanının en köklü buluşmalarından **Mantık Çalıştayı**, on altıncı kez toplandı. 21-23 Mayıs 2026'da Kars'ta, Kafkas Üniversitesi ev sahipliğinde düzenlenen çalıştay, Atatürk Kültür Merkezi Başkanlığı ile Mantık Derneği iş birliğinde gerçekleştirildi.
+
+## Neden önemli?
+
+Mantık, Türkiye'de felsefe bölümlerinin en eski ve en sürekli çalışma alanlarından biri. Osmanlı medreselerinden gelen mantık geleneği ile modern sembolik mantık arasındaki ilişki, alanın kendine özgü bir tartışma başlığı olarak sürüyor.
+
+Çalıştay dizisi, bu iki damarı bir araya getiren az sayıdaki düzenli buluşmadan biri. Klasik mantık tarihi üzerine çalışan araştırmacılarla, matematiksel mantık ve hesaplama kuramı alanında çalışanlar aynı programda yer alıyor.
+
+## Ankara dışına çıkmak
+
+Çalıştayın her yıl farklı bir üniversitede toplanması da dikkat çekici bir tercih. Akademik etkinliklerin büyük ölçüde Ankara-İstanbul-İzmir hattında yoğunlaştığı bir ortamda, Kars gibi bir merkezde toplanmak, alanın taşra üniversitelerindeki bölümlerle temasını da güçlendiriyor.
+
+---
+
+*Türkiye'deki felsefe etkinliklerini Konferanslar bölümünde izliyoruz. Duyurusunu iletmek isteyen kurumlar iletişim sayfasından bize yazabilir.*`,
+  },
+  {
+    title: "AKM'den e-kitap: 'Türklerde Bilim ve Düşünce / 7 Bilge 7 Bölge'",
+    slug: "akm-turklerde-bilim-ve-dusunce-7-bilge",
+    summary: "Atatürk Kültür Merkezi Başkanlığı, Türk düşünce ve bilim tarihinden yedi ismi ele alan çalışmayı ücretsiz e-kitap olarak yayımladı.",
+    coverImage: "/kapak/yedi-bilge.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "Türklerde Bilim ve Düşünce / 7 Bilge 7 Bölge e-kitabı yayımlandı",
+    metaDescription: "AKM Başkanlığı'nın 'Türklerde Bilim ve Düşünce / 7 Bilge 7 Bölge' e-kitabı ücretsiz erişime açıldı.",
+    contentType: "HABER",
+    sourceName: "Atatürk Kültür Merkezi Başkanlığı",
+    sourceUrl: "https://akmb.gov.tr/manset/turklerde-bilim-ve-dusunce-7-bilge-7-bolge-e-kitabi-yayimlandi/",
+    publishedAt: "2026-08-21T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["yeni-kitap", "acik-erisim", "islam-felsefesi", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Türklerde Bilim ve Düşünce / 7 Bilge 7 Bölge E-Kitabı Yayımlandı", publisher: "Atatürk Kültür Merkezi Başkanlığı", date: "8 Nisan 2026", url: "https://akmb.gov.tr/manset/turklerde-bilim-ve-dusunce-7-bilge-7-bolge-e-kitabi-yayimlandi/", primary: true },
+    ],
+    content: `Atatürk Kültür Merkezi Başkanlığı, *Türklerde Bilim ve Düşünce / 7 Bilge 7 Bölge* başlıklı çalışmayı e-kitap olarak yayımladı. Kitaba kurumun internet sitesindeki e-yayınlar bölümünden ücretsiz erişilebiliyor.
+
+## Neden dikkate değer?
+
+Türkçede felsefe ve bilim tarihi alanındaki temel kaynakların önemli bölümü ya baskısı tükenmiş kitaplarda ya da erişimi ücretli akademik veri tabanlarında kalıyor. Kamu kurumlarının e-yayın programları bu açığı kapatan az sayıdaki kanaldan biri.
+
+Açık erişim, sitemizin izlediği bir başlık. Daha önce Münih'teki Matematiksel Felsefe Merkezi'nin kurduğu ve yazardan da okurdan da ücret almayan *Journal of Mathematical Philosophy* dergisini aktarmıştık. Aynı eğilimin Türkiye'deki karşılığı, kurumsal e-kitap arşivleri.
+
+## Kurumun diğer felsefe yayınları
+
+AKM Başkanlığı'nın yayın programında felsefe ve düşünce tarihi başlıkları düzenli olarak yer alıyor. Kurum ayrıca *Erdem* dergisini çıkarıyor ve Türkiye Felsefe Kurumu ile Mantık Derneği gibi kuruluşlarla ortak etkinlikler düzenliyor.
+
+---
+
+*Kurumların ücretsiz erişime açtığı felsefe yayınlarını izliyoruz; duyurularınızı iletişim sayfasından iletebilirsiniz.*`,
+  },
+  {
+    title: "Felsefe bölümlerinde çalışma koşulları anketi başlatıldı",
+    slug: "akademik-felsefe-calisma-kosullari-anketi",
+    summary: "Daily Nous'ta duyurulan anket, farklı ülke ve üniversitelerdeki koşullar hakkında güvenilir bilgi bulunmadığı için lisansüstü ve iş başvurularında zorlanan akademisyenlere veri sağlamayı amaçlıyor.",
+    coverImage: "/kapak/trans-anket.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    seoTitle: "Akademik felsefede çalışma koşulları anketi",
+    metaDescription: "Daily Nous'ta duyurulan anket, felsefe bölümlerindeki yerel koşullar hakkında karşılaştırılabilir veri toplamayı amaçlıyor.",
+    contentType: "HABER",
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/20/academic-philosophy-and-trans-identity-survey-guest-post/",
+    publishedAt: "2026-08-21T02:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Academic Philosophy and Trans Identity Survey (guest post)", publisher: "Daily Nous", date: "20 Ağustos 2026", url: "https://dailynous.com/2026/08/20/academic-philosophy-and-trans-identity-survey-guest-post/", primary: true },
+    ],
+    content: `Felsefe alanının en çok okunan meslek sitelerinden Daily Nous'ta 20 Ağustos'ta duyurulan bir anket, akademik felsefede çalışma koşulları üzerine veri toplamayı amaçlıyor.
+
+## Anketin gerekçesi
+
+Duyuruyu yapan araştırmacılara göre sorun bilgi eksikliği: Trans ve non-binary akademisyenler, hangi ülkede ya da hangi üniversitede lisansüstü eğitim veya iş başvurusu yapacaklarına karar verirken, oradaki fiilî koşullar hakkında güvenilir bilgiye ulaşamıyor. Anket, bu boşluğu karşılaştırılabilir verilerle doldurmayı hedefliyor.
+
+## Epistemik bir mesele olarak
+
+Haberin felsefe açısından ilgi çekici tarafı, doğrudan alanın kendi kavramlarıyla ilgili olması.
+
+Miranda Fricker'ın *epistemik adaletsizlik* çerçevesi tam bu tür durumları tarif eder. **Yorumsal adaletsizlik**, bir grubun kendi deneyimini adlandıracak ortak kavramlardan yoksun bırakılmasıdır. Buna yakın bir başka durum da bilginin dağılımındaki eşitsizliktir: Bir karar vermek için gereken bilgi bazı gruplar için mevcutken bazıları için değildir.
+
+Kariyer kararları bunun somut örneğidir. Bir bölümün "nasıl bir yer olduğu" çoğu zaman resmî belgelerde değil, gayriresmî ağlarda dolaşır. O ağların dışında kalan, aynı kararı daha az bilgiyle vermek zorunda kalır.
+
+Anketin yöntemi de bu mantığa dayanıyor: Dağınık ve kişisel bilgiyi toplanabilir ve karşılaştırılabilir hâle getirmek.
+
+## Alandaki tartışma
+
+Felsefe camiasında bu konu uzun süredir tartışılıyor ve alan bu tartışmada bölünmüş durumda. Sitemiz, taraflardan birinin konumunu benimsemeksizin, mesleki bir ölçüm girişimi olarak haberi aktarmaktadır.
+
+---
+
+*Yayın ilkelerimiz gereği tartışmalı konularda farklı görüşlere yer vermeye çalışıyoruz. Görüş ve düzeltmelerinizi iletişim sayfasından iletebilirsiniz.*`,
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -4276,6 +4725,54 @@ export const books: SeedBook[] = [
     philosopherSlug: "kwame-anthony-appiah",
     postSlug: "appiah-yale-fahri-doktora-captive-gods",
   },
+  {
+    title: "Profiling: How Predictive Algorithms Shape Identity and the Social Fabric",
+    slug: "profiling-huneman",
+    originalTitle: null,
+    publisher: "Stanford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Philippe Huneman, öngörücü algoritmaların bireyi bir olasılık sınıfına yerleştirmesinin kimlik ve toplumsal doku üzerindeki etkisini inceliyor.",
+    year: 2026,
+    link: "https://www.unipressalert.com/index.php?category=Philosophy",
+    philosopherSlug: null,
+    postSlug: "sonbahar-2026-felsefe-kitaplari",
+  },
+  {
+    title: "Buddha, Socrates, and Us: Ethical Living in Uncertain Times",
+    slug: "buddha-socrates-and-us",
+    originalTitle: null,
+    publisher: "Yale University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Stephen Batchelor, Buda ile Sokrates'i doktrin benzerlikleri üzerinden değil yöntem üzerinden karşılaştırıyor: ikisi de kitap yazmadı, ikisi de sorgulayarak ilerledi.",
+    year: 2026,
+    link: "https://www.unipressalert.com/index.php?category=Philosophy",
+    philosopherSlug: null,
+    postSlug: "sonbahar-2026-felsefe-kitaplari",
+  },
+  {
+    title: "Anadolu Mayası: Türk Kimliği Üzerine Bir İnceleme",
+    slug: "anadolu-mayasi",
+    originalTitle: null,
+    publisher: "Cedit Neşriyat",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Yalçın Koç'un nazariyat külliyatının kavramsal damarlarından biri. Türk kimliğini sosyolojik bir kategori olarak değil, 'maya' kavramı üzerinden ontolojik bir zeminde ele alıyor.",
+    year: null,
+    link: "http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product",
+    philosopherSlug: "yalcin-koc",
+    postSlug: "yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi",
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -4417,5 +4914,31 @@ Sanat ve Felsefe dalı geçmişte Jürgen Habermas (2004), Charles Taylor (2008)
     coverImage: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80",
     featured: false,
     publishedAt: "2026-08-20T13:00:00.000Z",
+  },
+  {
+    title: "XVI. Mantık Çalıştayı",
+    slug: "xvi-mantik-calistayi-2026",
+    summary:
+      "Atatürk Kültür Merkezi Başkanlığı ile Mantık Derneği iş birliğinde, Kafkas Üniversitesi ev sahipliğinde düzenlendi.",
+    description: `Türkiye'de mantık alanının en köklü buluşmalarından Mantık Çalıştayı on altıncı kez toplandı.
+
+Çalıştay dizisi, klasik mantık tarihi üzerine çalışan araştırmacılarla matematiksel mantık ve hesaplama kuramı alanında çalışanları aynı programda buluşturuyor.
+
+Her yıl farklı bir üniversitede toplanması, alanın taşra üniversitelerindeki bölümlerle temasını güçlendiriyor.`,
+    kind: "CALISTAY",
+    organizer: "Atatürk Kültür Merkezi Başkanlığı · Mantık Derneği",
+    topic: "Mantık",
+    format: "FIZIKSEL",
+    startsAt: "2026-05-21T00:00:00.000Z",
+    endsAt: "2026-05-23T00:00:00.000Z",
+    hasTime: false,
+    city: "Kars",
+    country: "Türkiye",
+    venue: "Kafkas Üniversitesi",
+    sourceName: "Atatürk Kültür Merkezi Başkanlığı",
+    sourceUrl: "https://akmb.gov.tr/uncategorized-tr/baskanligimiz-ve-mantik-dernegi-is-birligi-ile-xvi-mantik-calistayi-21-23-mayis-tarihlerinde-kafkas-universitesi-ev-sahipliginde-karsta-duzenlenecek/",
+    coverImage: "/kapak/mantik-calistayi.jpg",
+    featured: false,
+    publishedAt: "2026-08-21T03:30:00.000Z",
   },
 ];
