@@ -1415,6 +1415,29 @@ export const philosophers: SeedPhilosopher[] = [
     keyConcepts: "Nazariyat, Anadolu Mayası, Maya, Gönül, Kelam (logos karşısında), Theographia",
     sources: "Anadolu Mayası — Cedit Neşriyat — http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product\nProf. Dr. Yalçın Koç yazar sayfası — https://www.kitapyurdu.com/yazar/prof-dr-yalcin-koc/54095.html",
   },
+  {
+    name: "Friedrich Nietzsche",
+    slug: "friedrich-nietzsche",
+    headline: "Değerlerin soykütükçüsü — Basel Üniversitesi (1844–1900)",
+    bio: "Ahlakı bir doğa gerçeği değil, tarihi olan bir kurum olarak ele alan filozof. Soykütük yöntemi, ressentiment ve güç istenci kavramlarıyla yirminci yüzyıl düşüncesinin yönünü belirledi.",
+    avatar: null,
+    country: "Almanya",
+    birthYear: 1844,
+    affiliation: "Basel Üniversitesi (1869-1879)",
+    website: null,
+    featured: false,
+    listed: true,
+    birthDate: "15 Ekim 1844",
+    deathDate: "25 Ağustos 1900",
+    alive: false,
+    period: "19. yüzyıl",
+    school: "Yaşam felsefesi, Perspektivizm",
+    areas: "Ahlak felsefesi, Kültür eleştirisi, Estetik, Din felsefesi, Filoloji",
+    majorWorks: "Tragedyanın Doğuşu (1872)\nBöyle Söyledi Zerdüşt (1883-1885)\nİyinin ve Kötünün Ötesinde (1886)\nAhlakın Soykütüğü Üstüne (1887)\nPutların Alacakaranlığı (1889)",
+    keyConcepts: "Soykütük, Ressentiment, Efendi ve köle ahlakı, Güç istenci, Bengi dönüş, Nihilizm, Perspektivizm",
+    influencedBy: "Schopenhauer, Heraklitos, Wagner (sonra kopuş), Antik Yunan trajedisi",
+    influenced: "Heidegger, Foucault, Deleuze, Adorno, Derrida, Bernard Williams",
+  },
 ];
 
 
@@ -1870,8 +1893,11 @@ Kant'ın ölçütü, yapay zekâ etiğinde beklenmedik bir güncellik kazandı: 
   {
     title: "Nietzsche'nin soykütüğü: değerlerin değerini sormak",
     slug: "nietzschenin-soykutugu-degerlerin-degeri",
+    seoTitle: "Nietzsche'nin soykütüğü: Ahlakın Soykütüğü Üstüne'ye giriş",
+    metaDescription: "Nietzsche'nin Ahlakın Soykütüğü Üstüne kitabı: soykütük yöntemi, efendi-köle ahlakı, ressentiment, kötü vicdan, çileci ideal ve değerlerin yeniden değerlendirilmesi.",
+    contentType: "KAVRAM",
     summary:
-      "Soykütük yöntemi ahlakı çürütmeye çalışmaz; onun bir tarihi olduğunu hatırlatır. Efendi-köle ahlakı ayrımı ve ressentiment kavramı.",
+      "Ahlakın Soykütüğü, ahlakı çürütmeye çalışmaz; onun bir tarihi olduğunu hatırlatır. Efendi-köle ayrımı, ressentiment, kötü vicdan ve çileci ideal — ve yöntemin Foucault'ya uzanan mirası.",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nietzsche187a.jpg?width=1600",
     imageCredit: "Friedrich Nietzsche, 1875 dolayları · Wikimedia Commons",
     featured: false,
@@ -1880,30 +1906,249 @@ Kant'ın ölçütü, yapay zekâ etiğinde beklenmedik bir güncellik kazandı: 
     publishedAt: "2026-08-09T07:00:00.000Z",
     authorSlug: "haber-merkezi",
     categorySlug: "filozoflar-hakkinda",
-    tagSlugs: ["kavram", "nietzsche", "etik"],
-    philosopherSlugs: [],
-    content: `Nietzsche'nin *Ahlakın Soykütüğü*'nde sorduğu soru, "hangi değerler doğrudur?" değildir. Daha rahatsız edici olanıdır: **bu değerlerin kendisi ne kadar değerlidir?**
+    tagSlugs: ["kavram", "nietzsche", "etik", "din-felsefesi"],
+    philosopherSlugs: ["friedrich-nietzsche"],
+    content: `Nietzsche'nin felsefesinin en sarsıcı tarafı, ahlakı yalnızca eleştirmesi değil; **ahlak hakkında soru sorma biçimimizi** değiştirmesidir.
+
+*Ahlakın Soykütüğü Üstüne*'de artık yalnızca "İyi nedir?", "Kötü nedir?" ya da "Nasıl yaşamalıyız?" diye sorulmaz. Nietzsche daha derine iner ve çok daha rahatsız edici bir soruyu ortaya atar:
+
+> **Değerlerin kendisi ne kadar değerlidir?**
+
+Bu, Nietzsche'nin felsefesindeki gerçek dönüm noktalarından biridir. Çünkü burada mesele belirli bir ahlak kuralının doğru ya da yanlış olduğunu göstermek değildir. Nietzsche, ahlaki değerlerin hangi tarihsel, psikolojik ve kültürel koşullarda ortaya çıktığını araştırır. "İyi" dediğimiz şeyin gerçekten iyi olduğu varsayımını askıya alır ve bu kelimenin arkasındaki güç ilişkilerine, tutkulara, korkulara, arzulara ve insan tiplerine bakar.
+
+Bu nedenle yöntemi bir ahlak kuramı kurmaktan çok, **ahlakın tarihini ve psikolojisini soruşturmaktır**.
+
+## Kitabın kendisi
+
+*Zur Genealogie der Moral: Eine Streitschrift* 1887'de yayımlandı. Alt başlıktaki *Streitschrift* — "kavga yazısı", polemik — kitabın niyetini açık eder: Bu, sakin bir akademik inceleme değil, dönemin hâkim ahlak anlayışlarına karşı yazılmış bir hesaplaşma metnidir.
+
+Kitap bir önsöz ve birbirine bağlı üç incelemeden (*Abhandlung*) oluşur. Bir yıl önce yayımlanan *İyinin ve Kötünün Ötesinde*'de (1886) açılan hatları sürdürür ve derinleştirir.
+
+Üç inceleme şu sırayı izler:
+
+1. **"İyi ve Kötü", "İyi ve Fena"** — değerlerin tersine çevrilişi
+2. **"Suç", "Kötü Vicdan" ve Benzerleri** — cezanın ve iç sesin doğuşu
+3. **Çileci İdealler Ne Anlama Gelir?** — acının anlamlandırılması
 
 ## Soykütük nedir?
 
-Soykütük, bir kavramın kökenini araştırarak bugünkü doğallığını sarsar. "İyi" sözcüğünün anlamının tarih içinde nasıl değiştiğini izlemek, ahlakın zamansız bir tablo değil, tarihsel bir oluşum olduğunu gösterir.
+Nietzsche'nin **soykütük** (*Genealogie*) kavramı, basit anlamda bir şeyin ilk ortaya çıktığı noktayı bulmak değildir. Soykütük, bugün bize doğal, zorunlu ve hatta evrensel görünen değerlerin hangi mücadeleler ve dönüşümler sonucunda bugünkü anlamlarını kazandığını araştırır.
 
-Önemli bir uyarı: köken göstermek, çürütmek değildir. Bir inancın nasıl doğduğunu bilmek onu otomatik olarak yanlışlamaz — buna *soykütüksel yanılgı* denir. Nietzsche'nin amacı da çürütmekten çok, başka türlüsünün düşünülebilir olduğunu göstermektir.
+Bu açıdan Nietzsche felsefe tarihinde radikal bir hareket yapar. Bir kavramın bugün *ne anlama geldiğini* açıklamak yerine, onun *nasıl bu anlama geldiğini* sorar.
 
-## Efendi ve köle ahlakı
+Örneğin "iyi" kavramını ele alalım. Geleneksel ahlakçı için "iyi", keşfedilmesi gereken değişmez bir ahlaki gerçek olabilir. Nietzsche ise şöyle sorar:
 
-- **Efendi ahlakı** değeri kendinden başlatır: "iyi" olan, güçlü ve doludur.
-- **Köle ahlakı** değeri tepkisel kurar: önce dışarıdakini "kötü" ilan eder, kendini bunun karşıtı olarak tanımlar.
+Kim "iyi" dedi? Kime göre iyi? Hangi insan tipi için iyi? Hangi koşullarda iyi? Ve daha önemlisi: **Bir şeyi iyi olarak adlandırmak kimin işine yaradı?**
 
-Bu ayrım sosyolojik bir sınıf haritası değil, psikolojik bir yönelim tipolojisidir. *Ressentiment* — birikmiş tepkinin değere dönüşmesi — bugünkü kamusal tartışmanın da tanıdık bir dinamiğidir.
+Böylece felsefi soru, değerlerin içeriğinden onların oluşum koşullarına doğru kayar. Nietzsche burada tarihçiden çok bir tür **kültürel patolog** gibi çalışır: Ahlaki kavramların yüzeydeki anlamlarını değil, altında işleyen kuvvetleri araştırır.
 
-## "Tanrı öldü" ne demek?
+### Önemli bir ayrım
 
-Bir zafer ilanı değil, bir teşhis: değerlerimizin dayandığı zemin çöktüğünde, değerler bir süre daha kendi ataletiyle yürür. Nietzsche'ye göre asıl tehlike inançsızlık değil, **anlam kaybının fark edilmemesidir**.
+Bir değerin belirli bir tarihsel kökenden geldiğini göstermek, onun yanlış olduğunu kanıtlamaz.
 
-## Karşı görüş
+Bir inancın korkudan doğmuş olması, zorunlu olarak yanlış olduğu anlamına gelmez. Mantıkta buna **genetik yanılgı** (*genetic fallacy*) denir: Bir iddiayı, içeriğine değil kaynağına bakarak çürütmeye çalışmak.
 
-Nietzsche'ye yöneltilen güçlü itiraz şudur: değer yaratma çağrısı, bir ölçüt sunmadığında keyfîliğe açılır. Kantçı bir okur, "kendi yasanı koy" ilkesinin ancak genelleştirilebilirlik kısıtıyla birlikte anlam kazandığını söyleyecektir.`,
+Nietzsche'nin yöntemi bu yanılgıya indirgenemez. Asıl amacı başkadır:
+
+> Bize zorunlu görünen değerlerin **aslında başka türlü olabileceğini** göstermek.
+
+Soykütüğün gücü tam buradadır. Değeri doğrudan ortadan kaldırmaz; onun üzerindeki **kaçınılmazlık halesini** kaldırır.
+
+## "İyi" her zaman iyi miydi?
+
+Birinci incelemenin merkezinde "iyi ve kötü" ile "iyi ve fena" arasındaki ayrım bulunur.
+
+Nietzsche'ye göre eski aristokratik değer dünyasında "iyi", öncelikle bir ahlaki yasa karşısındaki itaat anlamına gelmez. "İyi" kavramı, kendisini olumlayan, güçlü, canlı ve kendinden emin insan tipinin **kendi varoluşuna verdiği isimdir**.
+
+Dikkat edilmesi gereken nokta şudur: Soylu insan önce başkasını yargılamaz; kendisini olumlar. "Ben iyiyim" demek, aynı zamanda "benim tarzım, gücüm, yaşam biçimim değerlidir" demektir.
+
+Nietzsche'nin daha sonra **köle ahlakı** diye adlandıracağı değer yaratma biçiminde ise hareket tersine döner. Burada değer doğrudan kendinden değil, bir karşıt üzerinden üretilir: Önce "öteki" kötü ilan edilir; ardından kişinin kendi konumu bunun karşıtı olarak "iyi" hâline gelir.
+
+Bu nedenle iki ahlak biçimi arasındaki temel fark yalnızca hangi davranışların iyi ya da kötü sayıldığı değildir. Asıl fark, **değer yaratma hareketinin nereden başladığıdır.**
+
+Biri kendinden hareket eder. Diğeri karşısındakinden.
+
+## Efendi ahlakı ve köle ahlakı
+
+Bu meşhur ayrım çoğu zaman sosyolojik ya da politik bir sınıflandırma gibi okunur. Oysa Nietzsche'nin amacı basitçe "efendiler iyidir, köleler kötüdür" demek değildir. Ayrım öncelikle **psikolojik ve tipolojiktir** — sınıfsal değil.
+
+Efendi ahlakında değer yaratma dışarıdan içeriye değil, içeriden dışarıya işler. Soylu insan kendi varoluşunu olumlar; güç, sağlık, cesaret, gurur ve yaratıcı kapasite "iyi"nin belirleyici özellikleri hâline gelir.
+
+Köle ahlakında ise değer yaratmanın motoru **tepki**dir. Nietzsche burada son derece önemli bir kavram ortaya koyar.
+
+## Ressentiment: tepkinin değere dönüşmesi
+
+Türkçeye "hınç", "kin", "öç alma duygusu" ya da "içerlemişlik" gibi karşılıklarla çevrilen *ressentiment*, basit bir öfke değildir.
+
+Öfke doğrudan dışa vurulabilir. Ressentiment ise **eyleme dönüşemeyen tepkinin içeride birikmesidir.**
+
+Kişi kendisine zarar veren ya da kendisinden güçlü gördüğü şeye doğrudan karşı koyamadığında, yaşadığı güçsüzlüğü başka bir değer sistemi içinde yeniden yorumlamaya başlayabilir. Böylece güçsüzlük "alçakgönüllülük", itaat "erdem", güç ise "kötülük" olarak yeniden adlandırılabilir.
+
+Nietzsche açısından burada olan şey basit bir ahlaki tercih değil, **değerlerin tersine çevrilmesidir.**
+
+### Hafızanın rolü
+
+İnsan yalnızca yaşayan değil, hatırlayan bir varlıktır. Fakat hatırlama bazen özgürleştirici değil, zehirleyici olabilir. Geçmişte yaşanan bir aşağılanma sürekli yeniden üretilirse, kişi artık olaya değil, o olayın kendi içindeki izine göre yaşamaya başlayabilir.
+
+Ressentiment, bu anlamda **geçmişin bugünü yönetmesidir.**
+
+Bu psikolojik yapı ahlaki bir dünya görüşüne dönüştüğünde şöyle bir mekanizma işler:
+
+- "Ben bunu yapamıyorum" → "Bunu yapmak zaten kötü"
+- "Ben güçlü değilim" → "Güçlü olmak ahlaksızlıktır"
+
+Nietzsche'nin rahatsız edici sorusu tam burada doğar: Ahlaki bir yargının arkasında gerçekten bir hakikat sevgisi mi vardır, yoksa başarısız olmuş bir gücün kendisini haklı çıkarma ihtiyacı mı?
+
+Nietzsche elbette bütün ahlaki yargıları ressentiment ile açıklamaz. İstediği şey, modern insanın kendi değerlerinin psikolojik kökenlerini sorgulamasıdır.
+
+### Kavramın kendi tarihi
+
+Ressentiment kavramı Nietzsche'de kalmadı. Alman filozof **Max Scheler**, 1912'de yayımladığı *Ressentiment* incelemesinde kavramı ayrıntılı biçimde ele aldı — ama Nietzsche'ye karşı. Scheler'e göre Hıristiyan sevgi ahlakı ressentiment ürünü değildi; asıl ressentiment, modern burjuva toplumunun eşitlik söyleminde işliyordu.
+
+Yani Nietzsche'nin en keskin kavramı, ilk büyük eleştirisini de yine o kavramı kullanan birinden aldı.
+
+## "Tanrı öldü": bir zafer değil, bir kriz
+
+Nietzsche'nin bu sözü çoğu zaman ateizmin sloganı sanılır. Oysa işaret ettiği şey çok daha büyük bir tarihsel dönüşümdür.
+
+"Tanrı öldü" demek yalnızca "Tanrı yoktur" demek değildir. Asıl mesele şudur: **Batı kültürünün değerlerini anlamlandıran aşkın temel artık eskisi gibi işlememektedir.**
+
+İnsan modernleşmiş, bilimsel düşünce güçlenmiş, geleneksel metafizik inançlar sarsılmış olabilir. Ama bu, ahlaki değerlerin aynı hızla ortadan kalkacağı anlamına gelmez. İnsanlar Tanrı'ya inanmayı bırakabilir; fakat Tanrı'nın kurduğu değer düzenini yaşamaya devam edebilir.
+
+Teşhis burada keskinleşir: Modern insan eski değerlerin kaynağına olan inancını kaybetmiş olabilir ama onların sonuçlarını hâlâ taşımaktadır.
+
+Dolayısıyla asıl kriz, Tanrı'nın öldüğünü söylemek değildir. Asıl kriz, **Tanrı'nın öldüğünü fark etmeden Tanrı'nın değerleriyle yaşamaya devam etmektir.**
+
+Bu nedenle Nietzsche'de nihilizm yalnızca "hiçbir şeye inanmamak" değildir. Nihilizm, eski değerlerin artık inandırıcı olmamasına rağmen yerlerini dolduracak yeni bir değer yaratma gücünün ortaya çıkamamasıdır.
+
+## Nietzsche neden ahlakın karşısına geçer?
+
+Onun düşüncesini bir "ahlaksızlık felsefesi" olarak okumak büyük hata olur. Nietzsche ahlakı yok etmek istemez; daha temel hedefi, **ahlakın kendisini sorgulanamaz bir otorite olmaktan çıkarmaktır.**
+
+Çünkü "ahlak böyle söylüyor" cümlesi onun için bir açıklama değil, soruşturmanın başlaması gereken yerdir:
+
+- Ahlak hangi insan tipini üretmektedir?
+- Hangi dürtüleri güçlendirmekte, hangilerini bastırmaktadır?
+- İnsanı daha güçlü, yaratıcı ve yaşamı olumlayıcı mı yapmaktadır; yoksa suçluluk, korku ve kendinden nefret üzerinden mi yönetmektedir?
+
+Nietzsche'nin ahlak eleştirisi bu nedenle aynı zamanda bir **insan üretme eleştirisidir.** Ahlak yalnızca ne yapacağımızı söylemez; nasıl bir insan olmamız gerektiğini de söyler.
+
+Ve Nietzsche tam burada sorar: Nasıl bir insan üretmek istiyoruz?
+
+## Kötü vicdanın doğuşu
+
+İkinci inceleme bu soruyu derinleştirir. Nietzsche burada "suç", "borç", "ceza" ve "vicdan" arasındaki tarihsel bağları araştırır. Almancada *Schuld* kelimesinin hem "borç" hem "suç" anlamına gelmesi, çözümlemenin merkezindedir: Ahlaki yükümlülük, alacaklı-borçlu ilişkisinin izini taşır.
+
+İnsan toplumsal düzene girdikçe dürtülerini sınırlamak zorunda kalır. Dışarıya yönelmesi engellenen saldırganlık ise ortadan kaybolmaz. **İçe döner.**
+
+Nietzsche'nin **kötü vicdan** dediği şeyin doğuşunda bu içe dönüş belirleyicidir. İnsan artık dışarıya saldıramadığında kendisini cezalandırmaya başlar; kendi içinde bir mahkeme kurar.
+
+İçimizde konuşan suçlayıcı ses, yalnızca bireysel psikolojinin sonucu değildir; Nietzsche bunu insanın toplumsallaşma tarihiyle ilişkilendirir.
+
+Bu bakımdan medeniyet, onun için yalnızca barbarlıktan kurtuluş hikâyesi değildir. Medeniyet aynı zamanda **dürtülerin evcilleştirilmesi ve insanın kendi üzerine çevrilmesi tarihidir.** Bu dönüşüm insanı daha bilinçli ve daha karmaşık hâle getirmiştir; ama aynı zamanda insanın kendisine karşı acımasızlaşmasının önünü açmıştır.
+
+## Çileci ideal: acının anlamlandırılması
+
+Üçüncü incelemede eleştiri en radikal noktasına ulaşır.
+
+İnsan acı çeker. Fakat Nietzsche'ye göre insan için çoğu zaman acının kendisinden daha dayanılmaz olan şey, **acının anlamsızlığıdır.**
+
+İnsan acıya bir anlam verebildiğinde ona katlanabilir. Çileci ideal tam burada devreye girer: Acı; günahın bedeli, ruhun arınması, fedakârlığın göstergesi ya da daha yüksek bir varoluşa hazırlanma olarak yorumlanabilir.
+
+Bu açıdan din yalnızca insanı baskılayan bir kurum değildir. Nietzsche'nin daha incelikli tespiti şudur: **Din, insanın acısına bir anlam vererek onu yaşanabilir kılar.**
+
+Fakat bunun bedeli, insanın yaşamı olduğu hâliyle olumlamak yerine, onu başka ve aşkın bir dünyaya göre değerlendirmeye başlaması olabilir.
+
+Ve Nietzsche sorar: Yaşamı, yaşamın dışındaki bir ölçütle yargılamaya başladığımızda yaşamın kendisine ne olur?
+
+Üçüncü incelemenin en çok tartışılan bölümü ise bilimle ilgilidir. Nietzsche'ye göre modern bilim, çileci idealin karşıtı değil; onun en son ve en dürüst biçimidir. Çünkü bilim de "hakikat her şeyden değerlidir" inancına dayanır — ve bu inancın kendisi sorgulanmamıştır.
+
+## Asıl hedef: değerlerin yeniden değerlendirilmesi
+
+Burada projenin olumlu tarafı görünür hâle gelir. Nietzsche yalnızca "eski değerler yanlıştır" demez. Çağrısı şudur: **Değerleri yeniden değerlendirmek gerekir.**
+
+Bu, "herkes kendi doğrusunu seçsin" gibi basit bir görecelik değildir. Nietzsche'de değer yaratmak keyfî bir tercih yapmak anlamına gelmez. Yeni değer yaratmak; insanın kendi yaşamını üstlenmesini, kendi ölçülerini kurabilecek kadar güçlü hâle gelmesini ve yaşamı başka bir dünyanın gölgesinde değerlendirmekten vazgeçmesini gerektirir.
+
+**Güç istenci** (*Wille zur Macht*) kavramı da burada devreye girer. Güç istenci yalnızca başkalarına hükmetme arzusu değildir; daha geniş anlamıyla yaşamın kendisini aşma, biçimlendirme, yaratma ve kendisini sürekli yeniden kurma hareketidir.
+
+Bu nedenle Nietzsche'nin ideal insanı hazır değerleri tüketen insan değil, **değer yaratabilen insandır.**
+
+## Peki yerine ne koyuyor?
+
+En güçlü itiraz tam burada doğar. Eski değerleri sorgulamak mümkündür. Peki yeni değerlerin ölçütü ne olacaktır? Bütün ahlaki değerlerin tarihsel ve psikolojik köklerini sorgularsak geriye ne kalır?
+
+Kantçı bir filozof burada güçlü bir itiraz yöneltebilir: Ahlakın değeri, tarihsel kökeninden ya da insanın psikolojik durumundan bağımsız olarak, aklın evrensel geçerli kılabileceği ilkelerde aranmalıdır. Nietzsche ise bu tür evrensel ahlak iddialarının arkasında da belirli bir insan tipinin ve belirli bir değer dünyasının bulunduğundan şüphelenir.
+
+Ancak ciddi bir problem kalır: **Değerlerin eleştirisinde kullanılan ölçütlerin kendisi nereden gelmektedir?** Bütün değerleri soykütüğüne tabi tutarsak, Nietzsche'nin kendi değer yaratma çağrısı da aynı soruya maruz kalır.
+
+Bu nedenle Nietzsche'nin felsefesi kendi eleştirisinin dışında güvenli bir liman bırakmaz. Belki de gücü tam olarak buradadır.
+
+## Kitabın başına gelenler
+
+*Ahlakın Soykütüğü*'nün alımlanma tarihi, kitabın kendi tezini doğrulayan bir örnek gibidir: Bir metnin anlamı, onu kimin ve hangi çıkarla okuduğuna göre değişebilir.
+
+Nietzsche 1889'da akıl sağlığını yitirdi. Yayımlanmamış notları kız kardeşi Elisabeth Förster-Nietzsche'nin eline geçti. Elisabeth, Nietzsche'nin kendisinin şiddetle karşı çıktığı Alman milliyetçiliğine ve antisemitizme yakın bir çevrenin içindeydi. Notları kendi tasnifiyle *Güç İstenci* adı altında kitaplaştırdı; bu derleme Nietzsche'nin planladığı bir eser değildi.
+
+Sonuç, yirminci yüzyılın en büyük yanlış okumalarından biri oldu: Nietzsche bir süre Nazi ideolojisinin filozofu gibi sunuldu.
+
+Bu tabloyu tersine çeviren, savaş sonrasında yapılan filoloji çalışmalarıdır. Özellikle **Walter Kaufmann**'ın çevirileri ve incelemeleri, Nietzsche'yi bu bağlamdan çıkarıp yeniden okunabilir kıldı. Bugünkü akademik Nietzsche çalışmaları bu düzeltmenin üzerine kuruludur.
+
+## Soykütüğün ardılları
+
+Yöntem Nietzsche'de kalmadı; yirminci yüzyılın en verimli felsefi araçlarından biri oldu.
+
+**Gilles Deleuze**, *Nietzsche ve Felsefe* (1962) ile Nietzsche okumasını Fransa'da yeniden kurdu; kuvvet ve tepki kavramlarını merkeze aldı.
+
+**Michel Foucault**, 1971 tarihli "Nietzsche, Soykütük, Tarih" makalesiyle yöntemi kendi çalışmalarının omurgası hâline getirdi. Delilik, hapishane ve cinsellik üzerine kitaplarında sorduğu soru Nietzsche'ninkiyle aynı yapıdadır: Bugün doğal görünen bu ayrım nasıl kuruldu?
+
+**Bernard Williams** ise *Truth and Truthfulness* (2002) kitabında soykütüğü ters yönde kullandı. Ona göre soykütük yalnızca değer düşürücü olmak zorunda değildir; bir değerin nasıl doğduğunu göstermek bazen onu **haklı çıkarabilir** de. Williams buna *doğrulayıcı soykütük* der.
+
+## Türkçede
+
+*Ahlakın Soykütüğü Üstüne — Bir Kavga Yazısı*, [Ahmet İnam](/haber/ahmet-inam-youtube-dersleri-dijital-arsiv) çevirisiyle Türkçeye kazandırıldı. İnam ayrıca *İyinin ve Kötünün Ötesinde*'yi ve Paul Feyerabend'in *Yönteme Hayır*'ını da çevirmişti.
+
+Kitabın Türkçede birden fazla çevirisi bulunuyor. *Ressentiment* teriminin karşılığı çeviriden çeviriye değişir; bazı çevirmenler "hınç" der, bazıları terimi olduğu gibi bırakmayı tercih eder. Bu tercih önemsiz değildir: Kavramın kapsamı, seçilen Türkçe sözcüğe göre daralıp genişleyebilir.
+
+## Nasıl okunmalı?
+
+Kitaba ilk kez yaklaşanlar için birkaç pratik not:
+
+- **Önsözü atlamayın.** Nietzsche kendi yönteminin ne olduğunu ve olmadığını orada anlatır.
+- **Sırayla okuyun.** Üç inceleme bağımsız denemeler değildir; ikincisi birincinin, üçüncüsü ikincinin üzerine kurulur.
+- **Tarihsel iddiaları filoloji olarak değil, düşünce aracı olarak okuyun.** Nietzsche'nin etimolojik savlarının bir bölümü bugünkü dilbilim tarafından desteklenmez; ama argümanın gücü bu ayrıntılara bağlı değildir.
+- **"Efendi" ve "köle" sözcüklerini sınıf olarak okumayın.** Bunlar toplumsal katman değil, değer yaratma biçimleridir.
+
+## Soykütüğün bugünkü anlamı
+
+Yaklaşık yüz kırk yıl önce yapılmış bu soruşturmanın hâlâ canlı olmasının nedeni, modern toplumların ahlaki değerler konusunda daha az değil, belki daha fazla çatışma yaşıyor olmasıdır.
+
+İnsanlar sürekli olarak neyin iyi, neyin kötü, neyin kabul edilebilir olduğu konusunda tartışıyor. Fakat çoğu tartışmada daha temel bir soru unutuluyor: **Bu değerleri neden değerli buluyoruz?**
+
+- Bir değeri savunurken gerçekten onu mu savunuyoruz, yoksa ait olduğumuz grubun değerlerini mi?
+- Bir ahlaki öfkenin arkasında adalet arzusu mu var, yoksa ressentiment mi?
+- Bir insanı gerçekten özgür olduğu için mi eleştiriyoruz, yoksa onun özgürlüğü kendi değer dünyamızı tehdit ettiği için mi?
+
+Soykütük bu soruları cevaplamaktan önce **onları sormayı** öğretir. Bu yüzden Nietzsche'nin en önemli mirası belirli bir ahlak sistemi değildir. Mirası, değerler karşısında geliştirdiği **şüphe sanatıdır.**
+
+## Sonuç: değerlerin değerini sormak
+
+Nietzsche'nin soykütüğü, ahlakın arkasında saklanan bir "gerçek köken" bulup her şeyi açıklayan basit bir kuram değildir. Daha derin bir şeydir: Bize, kendiliğinden doğru kabul ettiğimiz değerlerin **bir tarihi olduğunu** hatırlatır.
+
+"İyi" ve "kötü" kelimeleri gökten inmedi. Onlar insan eliyle, insan tutkularıyla, mücadelelerle, iktidarlarla, korkularla, umutlarla ve acılarla biçimlendi.
+
+Bu nedenle soru sonunda şuna dönüşür: Bir değerin geçmişi nedir?
+
+Ama orada durmaz. Daha zor olanı sorar: **Bu değer bugün nasıl bir insan yaratıyor?**
+
+Ve nihayet: Bu değer yaşamı artırıyor mu, yoksa yaşamdan kaçmanın başka bir biçimi mi?
+
+Nietzsche'nin felsefesinin asıl radikalliği burada yatar. İnsanı yalnızca mevcut değerleri reddetmeye çağırmaz; **kendi değerlerinin de soruşturmacısı olmaya** çağırır.
+
+Çünkü belki de felsefenin en tehlikeli sorusu "Doğru nedir?" değildir.
+
+**"Doğru dediğimiz şeyi neden doğru buluyoruz?"**
+
+Nietzsche için felsefe, tam da bu sorunun başladığı yerde gerçekten tehlikeli hâle gelir.`,
   },
   {
     title: "Platon'un mağarası: iki bin yıldır anlatılan alegori ne söylüyor?",
@@ -4839,6 +5084,22 @@ export const books: SeedBook[] = [
     link: "http://ceditnesriyat.com.tr/index.php?product_id=69&route=product/product",
     philosopherSlug: "yalcin-koc",
     postSlug: "yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi",
+  },
+  {
+    title: "Ahlakın Soykütüğü Üstüne — Bir Kavga Yazısı",
+    slug: "ahlakin-soykutugu-ustune",
+    originalTitle: "Zur Genealogie der Moral: Eine Streitschrift",
+    publisher: null,
+    translator: "Ahmet İnam",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Nietzsche'nin 1887 tarihli kitabı. Bir önsöz ve üç incelemeden oluşur: değerlerin tersine çevrilişi, kötü vicdanın doğuşu ve çileci idealin anlamı. Ahlakı yargılamak yerine ahlakın tarihini soruşturur.",
+    year: 1887,
+    link: null,
+    philosopherSlug: "friedrich-nietzsche",
+    postSlug: "nietzschenin-soykutugu-degerlerin-degeri",
   },
 ];
 
