@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "upload.wikimedia.org" },
+      // Special:FilePath dosyayı doğrudan sunar; arşiv portreleri buradan gelir.
+      { protocol: "https", hostname: "commons.wikimedia.org" },
     ],
   },
   /**
