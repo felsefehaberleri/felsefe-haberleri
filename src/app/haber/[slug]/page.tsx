@@ -102,8 +102,8 @@ export default async function ArticlePage({ params }: Props) {
       {post.coverImage && (
         <Container size="default" className="mt-10">
           <figure>
-            <div className="relative aspect-[21/9] overflow-hidden rounded-2xl border border-line">
-              <Image src={post.coverImage} alt="" fill priority sizes="100vw" className="object-cover" />
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-line">
+              <Image src={post.coverImage} alt="" fill priority sizes="100vw" className="object-cover object-top" />
             </div>
             {post.imageCredit && (
               <figcaption className="mt-2 text-xs text-muted">{post.imageCredit}</figcaption>
