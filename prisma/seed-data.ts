@@ -1438,6 +1438,48 @@ export const philosophers: SeedPhilosopher[] = [
     influencedBy: "Schopenhauer, Heraklitos, Wagner (sonra kopuş), Antik Yunan trajedisi",
     influenced: "Heidegger, Foucault, Deleuze, Adorno, Derrida, Bernard Williams",
   },
+  {
+    name: "İoanna Kuçuradi",
+    slug: "ioanna-kucuradi",
+    headline: "Değer felsefesi ve insan hakları — Maltepe Üniversitesi",
+    bio: "Hacettepe Üniversitesi Felsefe Bölümü'nün kurucusu. İnsan haklarını sözleşmelere ya da kültüre değil, insanın kendi olanaklarına dayandıran değer felsefesiyle tanınıyor. FISP'in ilk kadın başkanı; 1998'den beri UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürütüyor.",
+    avatar: null,
+    country: "Türkiye",
+    birthYear: 1936,
+    affiliation: "Maltepe Üniversitesi · UNESCO Felsefe ve İnsan Hakları Kürsüsü",
+    website: null,
+    featured: true,
+    listed: true,
+    birthDate: "4 Ekim 1936",
+    alive: true,
+    period: "Çağdaş",
+    school: "Değer felsefesi",
+    areas: "Etik, İnsan hakları felsefesi, Felsefi antropoloji, Değer kuramı, Eğitim felsefesi",
+    majorWorks: "İnsan Hakları: Kavramları ve Sorunları\nEtik\nUludağ Konuşmaları\nSanata Felsefeyle Bakmak\nNietzsche ve İnsan",
+    keyConcepts: "Değerler ve değer yargıları ayrımı, İnsanın değeri, Etik ile ahlak ayrımı, Doğru değerlendirme",
+    influencedBy: "Nicolai Hartmann, Max Scheler, Kant, Nietzsche",
+    sources: "Prof. Dr. İoanna Kuçuradi — UNESCO Türkiye Millî Komisyonu — https://www.unesco.org.tr/Pages/1835/160/Prof.%20Dr.%20%C4%B0oanna%20KU%C3%87URAD%C4%B0\n28. Aydın Doğan Ödülü — https://aydindoganvakfi.org.tr/aydin-dogan-odulu/prof-dr-ioanna-kucuradi/",
+  },
+  {
+    name: "Scott J. Shapiro",
+    slug: "scott-shapiro",
+    headline: "Hukuk felsefecisi — Yale Hukuk Fakültesi",
+    bio: "Hukuku bir planlar sistemi olarak ele alan 'planlama kuramı'nın geliştiricisi. Son yıllarda siber güvenlik ve yapay zekânın hukuk üzerindeki etkisi üzerine çalışıyor.",
+    avatar: null,
+    country: "ABD",
+    birthYear: null,
+    affiliation: "Yale Hukuk Fakültesi — Charles F. Southmayd Hukuk ve Felsefe Profesörü",
+    website: "https://law.yale.edu/scott-j-shapiro",
+    featured: false,
+    listed: true,
+    alive: true,
+    period: "Çağdaş",
+    school: "Hukuki pozitivizm",
+    areas: "Hukuk felsefesi, Uluslararası hukuk, Ceza hukuku, Siber güvenlik, Yapay zekâ felsefesi",
+    majorWorks: "Legality (2011)\nThe Internationalists (Oona Hathaway ile, 2017)\nFancy Bear Goes Phishing (2023)",
+    keyConcepts: "Hukukun planlama kuramı, Hukuk bir toplumsal teknoloji olarak, Meşruiyet ve açıklanabilirlik",
+    sources: "Scott J. Shapiro — Yale Law School — https://law.yale.edu/scott-j-shapiro",
+  },
 ];
 
 
@@ -4821,6 +4863,237 @@ Skolastik dönemden beri süren *adil savaş* tartışması iki soruyu ayırır.
 Michael Walzer'in 1977 tarihli *Just and Unjust Wars* kitabı bu ayrımın çağdaş tartışmadaki başlıca referansıdır.
 
 İki olay birlikte okunduğunda ortaya çıkan tablo şu: On dokuzuncu yüzyıl, insan haklarının hem en sert biçimde çiğnendiği hem de ilk kez uluslararası metne bağlandığı yüzyıldı. Aradaki mesafe, hâlâ üzerinde çalıştığımız mesafedir.`,
+  },
+  {
+    title: "İoanna Kuçuradi: felsefeyi insan hakları pratiğine bağlayan düşünür",
+    slug: "ioanna-kucuradi-felsefe-insan-haklari",
+    summary: "Hacettepe'de felsefe bölümünü kuran, FISP'in ilk kadın başkanı olan ve 1998'den beri UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürüten Kuçuradi, ekim ayında doksan yaşına giriyor. Çalışması tek bir soruda toplanıyor: insan hakları nereden temellendirilir?",
+    coverImage: "/kapak/kucuradi.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    seoTitle: "İoanna Kuçuradi: değer felsefesi ve insan hakları",
+    metaDescription: "İoanna Kuçuradi'nin değer felsefesi, insan hakları temellendirmesi, FISP başkanlığı ve UNESCO kürsüsü. Türkiye'de felsefenin kurumsallaşmasındaki rolü.",
+    contentType: "PORTRE",
+    sourceName: "Maltepe Üniversitesi · Aydın Doğan Vakfı · UNESCO Türkiye Millî Komisyonu",
+    sourceUrl: "https://maltepe.edu.tr/tr/prof-dr-i%CC%87oanna-kucuradi-2024-aydin-dogan-odulu",
+    publishedAt: "2026-08-23T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["etik", "hukuk-felsefesi", "akademi", "kavram"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      { title: "Prof. Dr. İoanna Kuçuradi 2024 Aydın Doğan Ödülü'ne Layık Görüldü", publisher: "Maltepe Üniversitesi", url: "https://maltepe.edu.tr/tr/prof-dr-i%CC%87oanna-kucuradi-2024-aydin-dogan-odulu", primary: true },
+      { title: "Prof. Dr. İoanna Kuçuradi", publisher: "UNESCO Türkiye Millî Komisyonu", url: "https://www.unesco.org.tr/Pages/1835/160/Prof.%20Dr.%20%C4%B0oanna%20KU%C3%87URAD%C4%B0" },
+      { title: "Prof. Dr. İoanna Kuçuradi — 28. Aydın Doğan Ödülü", publisher: "Aydın Doğan Vakfı", url: "https://aydindoganvakfi.org.tr/aydin-dogan-odulu/prof-dr-ioanna-kucuradi/" },
+      { title: "Kuçuradi Felsefe ve İnsan Hakları Vakfı", publisher: "kucuradivakfi.org.tr", url: "https://www.kucuradivakfi.org.tr/" },
+    ],
+    content: `Türkiye'de felsefenin kurumsallaşmasını tek bir isim üzerinden anlatmak gerekirse, o isim İoanna Kuçuradi'dir.
+
+4 Ekim 1936'da İstanbul'da doğdu. Zapyon Rum Kız Lisesi'ni 1954'te, İstanbul Üniversitesi Felsefe Bölümü'nü 1959'da bitirdi; doktorasını 1965'te tamamladı. Önümüzdeki ekim ayında doksan yaşına giriyor ve hâlâ çalışıyor.
+
+## Bir bölüm kurmak
+
+Kuçuradi'nin kariyerindeki dönüm noktası 1969'da geldi: **Hacettepe Üniversitesi'nde Felsefe Bölümü'nü kurdu.** 2003'teki emekliliğine kadar bölüm başkanlığını sürdürdü.
+
+Bir felsefe bölümü kurmak, ders programı hazırlamaktan ibaret değildir. Hangi geleneğin okutulacağı, hangi metinlerin çevrileceği, hangi soruların meşru sayılacağı — bunların hepsi o ilk kararlarla şekillenir. Türkiye'de bugün yetişen felsefecilerin önemli bir bölümü, doğrudan ya da dolaylı olarak o bölümün açtığı yoldan geçti.
+
+2006'dan bu yana Maltepe Üniversitesi'nde; aynı üniversitedeki İnsan Hakları Araştırma ve Uygulama Merkezi'nin müdürlüğünü ve İnsan Hakları Anabilim Dalı başkanlığını yürütüyor.
+
+## Uluslararası görevler
+
+Kuçuradi'nin adı Türkiye dışında da tanınır. Uluslararası Felsefe Kurumları Federasyonu'nda (FISP) 1982'den itibaren genel sekreterlik yaptı; **1998'de başkan seçildi.** Bu göreve seçilen ilk Türk ve ilk kadındı.
+
+Aynı yıl **UNESCO Felsefe ve İnsan Hakları Kürsüsü**'nü üstlendi ve bugüne kadar yürütüyor. 2003'te UNESCO Felsefe Ödülü'nü aldı.
+
+Aralık 2024'te ise **28. Aydın Doğan Ödülü**'ne layık görüldü; gerekçede felsefe ve insan hakları alanındaki çalışmalarıyla ülkesinin adını uluslararası düzeyde duyurması gösterildi.
+
+Ayrıca kendi adını taşıyan **Kuçuradi Felsefe ve İnsan Hakları Vakfı** kurulmuş durumda; vakıf yayın ve etkinlik çalışmalarını sürdürüyor.
+
+## Asıl mesele: hakları neye dayandırıyoruz?
+
+Kuçuradi'nin felsefesi kurumsal kariyerinden ibaret değildir. Çalışmasının merkezinde tek ve zor bir soru vardır:
+
+> **İnsan hakları neye dayanır?**
+
+Yaygın iki cevap vardır. Birincisi hukuki cevaptır: Haklar, devletlerin imzaladığı sözleşmelerden gelir. İkincisi kültürel cevaptır: Haklar, belirli bir kültürün ürettiği değerlerdir.
+
+Kuçuradi ikisini de yetersiz bulur. Sözleşmeye dayandırırsanız, sözleşme değiştiğinde hak da değişir. Kültüre dayandırırsanız, "bizim kültürümüzde böyle değil" cümlesi her ihlali meşrulaştırabilir.
+
+Onun önerdiği yol **değer felsefesi**nden geçer. Nicolai Hartmann ve Max Scheler geleneğinden beslenen bu yaklaşımda haklar, insanın *değeri*nden — yani insanın diğer canlılardan ayrılan olanaklarından — türetilir. Düşünme, bilgi üretme, sanat yapma, kendini aşma kapasitesi... İnsan hakları, bu olanakların korunması talebidir.
+
+Bu temellendirmenin pratik sonucu şudur: Bir hak, çoğunluk istemediği için ortadan kalkmaz.
+
+## Değerler ve değer yargıları
+
+Kuçuradi'nin sık kullandığı ve Türkçe felsefe diline yerleşmiş bir ayrım daha vardır: **değerler** ile **değer yargıları** aynı şey değildir.
+
+Değer yargıları toplumdan topluma, dönemden döneme değişir; belirli bir grubun belirli bir zamanda doğru saydığı ölçütlerdir. Değerler ise insanın olanaklarına ilişkindir ve bu ölçütlere indirgenemez.
+
+Bu ayrım gündelik tartışmalarda sürekli karıştırılır. Bir davranışın "bizde ayıp sayılması" ile "insana yakışmaması" aynı düzeyde iki iddia değildir. Kuçuradi'nin ısrarı tam buradadır: Etik tartışması, hangi grubun ne dediğini saymakla yapılmaz.
+
+## Etik ile ahlak
+
+Buradan üçüncü bir ayrım doğar. Kuçuradi'de **ahlak**, belirli bir toplulukta fiilen geçerli olan kurallar bütünüdür — sosyolojik bir olgudur. **Etik** ise bu kuralları inceleyen felsefe dalıdır.
+
+Dolayısıyla "etik davranmak" ile "ahlaka uymak" çakışmayabilir. Bir toplumun ahlakı, insanın değerini koruyan bir davranışı yasaklıyor olabilir.
+
+Bu, Kuçuradi'nin insan hakları eğitimine verdiği önemi de açıklar: Ona göre insan hakları, ezberlenecek bir maddeler listesi değil, **somut durumda doğru değerlendirme yapabilme kapasitesidir.** Bu kapasite ancak eğitimle kazanılır.
+
+## Bugün neden okunmalı?
+
+Kuçuradi'nin sorusu, teknolojinin etik tartışmayı yeniden şekillendirdiği bir dönemde beklenmedik bir güncellik taşıyor.
+
+Yapay zekâ sistemlerinin "insan onuruna" saygı göstermesi isteniyor. Peki insan onuru nedir ve neye dayanır? Sözleşmelere mi, kültüre mi, yoksa insanın kendi olanaklarına mı? Kuçuradi'nin kırk yıldır sorduğu soru, bugünün mühendislik belgelerinde farkında olunmadan yeniden sorulmuş oluyor.
+
+Maltepe Üniversitesi'nin insan hakları bülteninin 2026 sayılarında, Kuçuradi'nin özgürlük kavramını farklı boyutlarıyla ele aldığı ve özgürlüğün aynı zamanda bir **etik sorumluluk alanı** olduğunu vurguladığı bir değerlendirmesi yer alıyor.
+
+## Türkçedeki kitapları
+
+*İnsan Hakları: Kavramları ve Sorunları*, *Etik*, *Uludağ Konuşmaları*, *Sanata Felsefeyle Bakmak* ve *Nietzsche ve İnsan* Türkçede yayımlanmış çalışmaları arasında.
+
+---
+
+*Bu portre, Kuçuradi'nin yayımlanmış çalışmalarına ve kurumların resmî sayfalarına dayanmaktadır. Düzeltme ve ekleme önerilerinizi iletişim sayfasından iletebilirsiniz.*`,
+  },
+  {
+    title: "Scott Shapiro: hukuk kodlaşırken meşruiyete ne olur?",
+    slug: "scott-shapiro-hukuk-kod-yapay-zeka",
+    summary: "Yale'li hukuk felsefecisi, yapay zekânın hukuktaki asıl meselesinin verimlilik değil iktidar olduğunu savunuyor. Kural tabanlı sistemler doğru sonuç verse bile, akıl yürütme insan tarafından izlenemez hâle geldiğinde 'hukuki gerekçe' otoriteye başvuruya dönüşüyor.",
+    coverImage: "/kapak/scott-shapiro.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    seoTitle: "Scott Shapiro: yapay zekâ, hukuk ve meşruiyet",
+    metaDescription: "Yale Hukuk Fakültesi'nden Scott Shapiro'ya göre yapay zekânın hukuktaki asıl hikâyesi iktidar. Kural tabanlı sistemler, açıklanabilirlik ve meşruiyet sorunu.",
+    contentType: "HABER",
+    sourceName: "ECGI — New Law Order",
+    sourceUrl: "https://www.ecgi.global/publications/podcasts/scott-shapiro-yale-law-law-as-code-the-ai-power-shift",
+    publishedAt: "2026-08-23T05:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["hukuk-felsefesi", "yapay-zeka", "teknoloji-felsefesi", "soylesi"],
+    philosopherSlugs: ["scott-shapiro"],
+    sources: [
+      { title: "Scott Shapiro (Yale Law): Law as Code & the AI Power Shift", publisher: "ECGI — New Law Order", date: "18 Şubat 2026", url: "https://www.ecgi.global/publications/podcasts/scott-shapiro-yale-law-law-as-code-the-ai-power-shift", primary: true },
+      { title: "Scott J. Shapiro", publisher: "Yale Law School", url: "https://law.yale.edu/scott-j-shapiro" },
+      { title: "Scott J. Shapiro", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Scott_J._Shapiro" },
+    ],
+    content: `Yapay zekâ hukuk alanında genellikle **verimlilik** vaadiyle anlatılıyor: daha hızlı araştırma, daha hızlı dilekçe, daha hızlı yanıt.
+
+Yale Hukuk Fakültesi'nden hukuk felsefecisi **Scott Shapiro**, bunun asıl hikâyeyi gizlediğini söylüyor. Ona göre asıl mesele iktidar.
+
+Shapiro bu değerlendirmeyi, Avrupa Kurumsal Yönetişim Enstitüsü'nün (ECGI) *New Law Order* dizisinde 18 Şubat 2026'da yayımlanan bir buçuk saatlik söyleşide yaptı.
+
+## Argümanın çekirdeği
+
+Shapiro'nun çıkış noktası kendi hukuk kuramından geliyor: **Hukuk, insan davranışını büyük ölçekte eşgüdümleyen bir toplumsal teknolojidir.**
+
+Bu doğruysa, kuralları yorumlayabilen, sınır durumları sınayabilen ve ikna edici hukuki çözümlemeler üretebilen araçlar yalnızca işi hızlandırmaz. **Sistemde kimin yol alabileceğini ve kimin altında kalacağını değiştirir.**
+
+## Karanlık simetri
+
+Söyleşinin en dikkat çekici bölümü bu değişimin çift yönlü olduğunu gösteriyor.
+
+İnsanların yasal yükümlülüklerine uymasını kolaylaştıran araçlar, aynı zamanda donanımlı aktörlerin o yükümlülüklerden kaçmasını da kolaylaştırıyor. Shapiro bunu **uyum motoru** ile **istismar motoru**nun aynı makine olması diye tarif ediyor.
+
+Buradan çıkan soru şu: En iyi "hukuk hackerı" bir makine olduğunda adaletin dengesine ne olur?
+
+## İki farklı tehlike
+
+Shapiro, üretici modeller ile kural tabanlı sistemler arasında önemli bir ayrım yapıyor. İkisinin sorunları farklı.
+
+**Üretici modeller** otoriter bir ses tonuyla konuşabilir ama — kasten ya da kazara — yanlış olabilir. Hukuk alanında halüsinasyon, uydurma içtihat ya da olmayan bir maddeye atıf demektir.
+
+**Kural tabanlı sistemler** ise bu sorunu taşımaz; mantıkları doğrudur. Ama başka bir soru doğurur: **Mantık doğru, ancak akıl yürütme artık bir insan tarafından izlenemez hâle geldiğinde ne oluyor?**
+
+Shapiro'nun cevabı rahatsız edici: O noktada "hukuki gerekçe" bir gerekçe olmaktan çıkıp **otoriteye başvuruya** dönüşür. Karar doğru olabilir; ama neden doğru olduğunu kimse takip edemiyorsa, meşruiyet, şeffaflık ve güven konusunda ciddi bir sorun vardır.
+
+## Neden bu adam?
+
+Shapiro, Yale Hukuk Fakültesi'nde Charles F. Southmayd Hukuk Profesörü ve aynı zamanda felsefe profesörü. Çalışma alanı hukuk felsefesinden uluslararası hukuka, siber güvenlikten yapay zekâya uzanıyor.
+
+2011 tarihli *Legality* kitabında geliştirdiği **planlama kuramı**, hukuku bir planlar sistemi olarak ele alır: Hukuk, karmaşık ve tartışmalı ahlaki sorunları çözmek zorunda kalmadan büyük gruplar hâlinde eşgüdümlü davranabilmemizi sağlayan bir plan üretme mekanizmasıdır.
+
+Oona Hathaway ile birlikte yazdığı *The Internationalists* (2017), savaşı hukuk dışı ilan eden 1928 Kellogg-Briand Paktı'nın uzun vadeli etkisini savunur.
+
+2023 tarihli *Fancy Bear Goes Phishing* ise beş büyük siber saldırının hikâyesi üzerinden hacklemenin tarihini ve etiğini anlatır. Shapiro'nun bugünkü yapay zekâ değerlendirmesi bu kitabın devamı gibi okunabilir: Her ikisinde de soru aynıdır — bir sistemi kırabilen kişi, o sistemin kurallarının dışında mı durur, yoksa kuralları en iyi bilen kişi midir?
+
+## Tartışmanın bağlamı
+
+Shapiro'nun uyarısı, hukuk felsefesinde uzun süredir süren bir tartışmaya bağlanıyor: **Kural mı, yargı mı?**
+
+Hukuk devleti fikri, keyfîliğe karşı kuralı savunur. Ama kural her durumu öngöremez; uygulamak yargı gerektirir. Yapay zekâ bu dengeyi iki yönden birden zorluyor: Bir yandan kuralın uygulanmasını otomatikleştirebilir, öte yandan yargının gerekçesini görünmez kılabilir.
+
+Sitemizde daha önce aktardığımız Philippe Huneman'ın *Profiling* kitabı da aynı hattın bir başka ucunda duruyor: Bir algoritma sizi bir olasılık sınıfına yerleştirdiğinde, o sınıflandırma hukuki sonuçlar doğurmaya başlıyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 23 Ağustos: Sacco ve Vanzetti'nin idamı, Kenneth Arrow'un doğumu",
+    slug: "felsefe-tarihinde-bugun-23-agustos-sacco-vanzetti-arrow",
+    summary: "23 Ağustos 1927'de iki İtalyan anarşist, dünya çapındaki itirazlara rağmen idam edildi. Aynı gün 1921'de, ortak kararın matematiksel sınırlarını gösterecek Kenneth Arrow doğdu.",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sacvan.jpg?width=1600",
+    imageCredit: "Nicola Sacco ve Bartolomeo Vanzetti · Wikimedia Commons",
+    featured: false,
+    seoTitle: "23 Ağustos: Sacco-Vanzetti davası ve Kenneth Arrow",
+    metaDescription: "23 Ağustos 1927'de Sacco ve Vanzetti idam edildi; 1921'de Kenneth Arrow doğdu. Adil yargılanma ve ortak karar sorunu üzerine.",
+    contentType: "TARIH",
+    sourceName: "Britannica · Royal Society",
+    sourceUrl: "https://www.britannica.com/biography/Sacco-and-Vanzetti",
+    publishedAt: "2026-08-23T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "hukuk-felsefesi", "siyaset-felsefesi", "demokrasi"],
+    philosopherSlugs: [],
+    sources: [
+      { title: "Sacco and Vanzetti | Definition, Background, Verdict, & Facts", publisher: "Britannica", url: "https://www.britannica.com/biography/Sacco-and-Vanzetti", primary: true },
+      { title: "Sacco and Vanzetti executed | August 23, 1927", publisher: "HISTORY", url: "https://www.history.com/this-day-in-history/august-23/sacco-and-vanzetti-executed" },
+      { title: "Kenneth Joseph Arrow. 23 August 1921 — 21 February 2017", publisher: "Biographical Memoirs of Fellows of the Royal Society", url: "https://royalsocietypublishing.org/rsbm/article/doi/10.1098/rsbm.2019.0002/116030/Kenneth-Joseph-Arrow-23-August-1921-21-February" },
+    ],
+    content: `23 Ağustos, adalet kavramının iki farklı yerinden zorlandığı iki olayı aynı güne topluyor.
+
+## 1927: Charlestown Cezaevi
+
+İtalyan doğumlu anarşistler **Nicola Sacco** ve **Bartolomeo Vanzetti**, 23 Ağustos 1927'de gece yarısından hemen sonra Massachusetts'teki Charlestown Cezaevi'nde elektrikli sandalyede idam edildi. Suçlamaları cinayetti.
+
+Dava, Amerika'da radikallere karşı duyulan tepkinin zirvede olduğu bir dönemde görüldü. Yargılama birçok gözlemciye göre hukuka aykırı biçimde gösteriye dönüşmüştü; savcılık çalınan parayı ortaya koyamadı ve aleyhteki delillerin önemli bir bölümü sonradan itibarsızlaştı.
+
+İdamlar dünya çapında gösterilere yol açtı. Aralarında Einstein, Dos Passos ve Anatole France'ın bulunduğu geniş bir çevre lehte kampanya yürüttü.
+
+## Felsefi mesele: adil yargılanma neyi güvence altına alır?
+
+Sacco-Vanzetti davası hukuk felsefesinde tekrar tekrar anılır; çünkü sorunun kendisi teknik değil ilkeseldir.
+
+Bir yargılama, usul kurallarına biçimsel olarak uyulduğu hâlde adil olmayabilir mi?
+
+Hukuk devleti fikrini savunan gelenek, usulün kendisinin bir güvence olduğunu söyler: Kurallara uyulmuşsa sonuç meşrudur. Karşı görüş ise usulün, taraflardan birine karşı duyulan önyargı tarafından baştan biçimlendirilebileceğine dikkat çeker. Kural aynı kalır ama kimin sanık sandalyesine oturacağı, hangi delilin ciddiye alınacağı ve hangi tanığa inanılacağı değişir.
+
+Bu tartışma bugün de sürüyor: Adil yargılanma hakkı yalnızca prosedürel bir güvence midir, yoksa sonucun kendisine de ilişkin bir talep mi?
+
+Massachusetts valisi Michael Dukakis, 1977'de — idamların ellinci yıldönümünde — Sacco ve Vanzetti'nin yargılanmasında haksızlık yapıldığını kabul eden bir bildiri yayımladı. Bildiri suçsuzluk ilan etmiyor; yargılamanın adil olmadığını tespit ediyordu. Bu ayrım, tartışmanın niteliğini iyi gösterir.
+
+## 1921: Kenneth Arrow
+
+Aynı gün, 1921'de New York'ta **Kenneth Joseph Arrow** doğdu. İktisatçı, matematikçi ve siyaset kuramcısıydı; 1972'de Nobel İktisat Ödülü'nü aldı ve 2017'de öldü.
+
+Arrow'un felsefe için önemi, 1951'de yayımladığı doktora çalışmasından gelir: **imkânsızlık teoremi.**
+
+## Ortak karar mümkün mü?
+
+Soru basit görünür: Bir toplumdaki bireylerin tercihlerini, tutarlı bir "toplumsal tercih"e nasıl dönüştürürüz?
+
+Arrow bu dönüşümden makul birkaç şey istememiz gerektiğini söyler. Örneğin: Herkes A'yı B'ye tercih ediyorsa toplum da A'yı tercih etmeli. Toplumun A ile B arasındaki tercihi, ilgisiz bir C seçeneğinin varlığına göre değişmemeli. Ve karar tek bir kişinin tercihine indirgenmemeli.
+
+Teoremin gösterdiği şey şudur: **İkiden fazla seçenek olduğunda, bu makul koşulların hepsini birden sağlayan bir toplumsal tercih kuralı yoktur.**
+
+Bu bir oy sayım tekniği sorunu değildir; hangi yöntemi seçerseniz seçin, koşullardan biri düşer.
+
+## Demokrasi kuramına etkisi
+
+Sonucun ilk okunuşu karamsardır: "Halkın iradesi" diye tutarlı bir şey yoktur; çoğunluk kararı, kullanılan usule göre değişir.
+
+Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazılarının gevşetilebileceğini gösterdi; özellikle bireylerin refah düzeylerinin karşılaştırılabilir olması hâlinde tablo değişiyordu. Sen'in bu hattı, sonradan yetenekler yaklaşımına ve kalkınma etiğine açıldı.
+
+**John Rawls** ise sorunu başka yerden ele aldı: Adaletin ölçütü, mevcut tercihlerin toplanması değil; tarafların kendi konumlarını bilmeden üzerinde anlaşacakları ilkelerdir.
+
+İki olay birlikte okunduğunda ortaya çıkan tablo şu: Adalet, ne yalnızca doğru usulle ne de yalnızca doğru toplamayla güvence altına alınabiliyor. Yirminci yüzyıl bunu iki farklı yoldan öğrendi.`,
   },
 ];
 
