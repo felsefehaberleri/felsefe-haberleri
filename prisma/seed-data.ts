@@ -1489,6 +1489,747 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Türkiye Nietzsche Topluluğu: Nietzsche'yi Türkçede yeniden düşünmenin adresi",
+    slug: "turkiye-nietzsche-toplulugu",
+    summary:
+      "2023'te Sadık Erol Er ve Volkan Ay öncülüğünde kurulan topluluk, Nietzsche araştırmalarını seminerler, okuma grupları, çeviri çalışmaları ve dijital yayınlarla bir araya getiriyor. Yaptığı işlerden biri de Nietzsche'nin Türkiye'deki alımlanma tarihini görünür kılmak.",
+    seoTitle: "Türkiye Nietzsche Topluluğu: kuruluşu, çalışmaları ve önemi",
+    metaDescription:
+      "Türkiye Nietzsche Topluluğu 27 Eylül 2023'te kuruldu. Seminerler, okuma grupları, çeviri çalışmaları ve Türkçede Nietzsche bibliyografyası.",
+    contentType: "ANALIZ",
+    coverImage: "/kapak/nietzsche-toplulugu.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    sourceName: "Türkiye Nietzsche Topluluğu",
+    sourceUrl: "https://www.turkiyenietzschetoplulugu.com/general-7",
+    publishedAt: "2026-08-24T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["nietzsche", "akademi", "kavram", "ceviri"],
+    philosopherSlugs: ["friedrich-nietzsche"],
+    sources: [
+      {
+        title: "Hakkımızda — Türkiye Nietzsche Topluluğu",
+        publisher: "turkiyenietzschetoplulugu.com",
+        url: "https://www.turkiyenietzschetoplulugu.com/general-7",
+        primary: true,
+      },
+      {
+        title: "Türkiye Nietzsche Topluluğu — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@turkiyenietzschetoplulugu",
+      },
+      {
+        title: "Prof. Dr. Sadık Erol Er — yayınlar",
+        publisher: "Çukurova Üniversitesi AVESİS",
+        url: "https://avesis.cu.edu.tr/seroler/yayinlar",
+      },
+    ],
+    content: `Friedrich Nietzsche'nin düşüncesini yalnızca bir filozofun eserleri olarak değil, çağdaş dünyanın sorunlarını yeniden düşünmek için canlı bir imkân olarak ele alan **Türkiye Nietzsche Topluluğu**, Türkiye'de Nietzsche çalışmalarını bir araya getiren oluşumlardan biri olarak faaliyetlerini sürdürüyor.
+
+Topluluk **27 Eylül 2023'te**, Prof. Dr. Sadık Erol Er ve Dr. Volkan Ay'ın öncülüğünde kuruldu.
+
+## Neden böyle bir yapıya ihtiyaç vardı?
+
+Nietzsche Türkiye'de uzun yıllardır okunuyor: *Böyle Söyledi Zerdüşt*, *Ahlakın Soykütüğü*, *İyinin ve Kötünün Ötesinde*, *Putların Alacakaranlığı* ve *Şen Bilim* çevirileri kuşaklar boyunca elden ele geçti.
+
+Ama Nietzsche'nin Türkiye'deki durumu kendine özgü bir sorun taşır. Bir yanda son derece uzmanlaşmış akademik çalışmalar var; öte yanda filozofu birkaç ünlü aforizmaya indirgeyen popüler anlatılar. İkisi arasındaki mesafe, Nietzsche söz konusu olduğunda başka birçok filozofa kıyasla daha büyük.
+
+Topluluğun yaptığı iş bu boşlukta anlam kazanıyor.
+
+## "Süreklilikler ve süreksizlikler"
+
+Topluluğun kendi ifadesiyle temel hedeflerinden biri, Nietzsche'nin mirasının **süreklilikler ve süreksizlikler** ekseninde serimlenmesi ve bu düşüncenin sunduğu imkânlardan hareketle günümüz sorunlarının ele alınması.
+
+Bunun yanında Nietzsche üzerine çalışan araştırmacıları bir araya getirmek, çalıştay ve seminerler düzenlemek, okuma ve çeviri grupları oluşturmak ve Nietzsche literatürünün Türkçedeki gelişimine katkıda bulunmak da amaçlar arasında.
+
+Bu yaklaşım önemli bir metodolojik tercihi içeriyor: Nietzsche'yi "Tanrı öldü", "üstinsan", "güç istenci" ya da "bengi dönüş" gibi birkaç kavram üzerinden okumak yerine, bu kavramların ortaya çıktığı felsefi bağlamı araştırmak.
+
+Çünkü Nietzsche'nin felsefesi hazır cevaplar veren bir sistem değil, [değerlerin kendisini sorgulayan bir düşünme pratiğidir](/haber/nietzschenin-soykutugu-degerlerin-degeri). Onun sorusu çoğu zaman "Bu değer doğru mu?" değildir; daha geriye gider: Bu değer nasıl ortaya çıktı? Kime hizmet etti? İnsan neden bu değere değer vermeye başladı?
+
+## Türkçede Nietzsche: bir düşünsel harita
+
+Topluluğun internet sitesindeki en dikkat çekici çalışmalardan biri, **"Türkçede Nietzsche Felsefesi"** başlığı altında oluşturulan kaynak dökümü.
+
+Bu bölümde Nietzsche üzerine Türkçede yayımlanmış telif eserler, çeviriler ve derlemelerin yanı sıra yüksek lisans ve doktora tezleri, akademik makaleler ve Nietzsche'nin eserlerinin Türkçe çevirileri ayrı başlıklar altında toplanıyor.
+
+Böyle bir bibliyografya, ilk bakışta teknik bir katalog gibi görünür. Oysa yaptığı şey daha fazlasıdır: **Bir filozofun bir dile ne zaman, hangi aracılarla ve hangi yorumla girdiğini gösterir.**
+
+Topluluğun arşivinde İoanna Kuçuradi'nin 1966 tarihli *Max Scheler ve Nietzsche'de Trajik Olan* çalışmasından Suut Kemal Yetkin'in *Büyük Tedirginler: Schopenhauer, Nietzsche, Tolstoy* kitabına; Hüseyin Aydın'ın *Metafizikçi Olarak Nietzsche* eserinden Kasım Küçükalp'in *Nietzsche ve Postmodernizm* çalışmasına uzanan bir literatür listeleniyor.
+
+Bu liste tek başına bir tez içerir: Türkiye'de Nietzsche okuması altmış yıldan uzun bir geçmişe sahip ve dönemden döneme başka bir Nietzsche okunmuş.
+
+## Bilim kurulu ve etkinlikler
+
+Topluluğun bilim kurulunda Türkiye'den ve yurt dışından akademisyenler yer alıyor: Birdal Akar, Daniel Smith, Elif Yavnik, Iraz Yaşar, Necdet Yıldız, Sadık Erol Er, Uğur Ekren, Vanessa Lemm ve Zeynep Talay Turner.
+
+Etkinlik başlıkları da Nietzsche araştırmalarının tek bir alana sıkışmadığını gösteriyor. Prof. Dr. Sebahattin Çevikbaş "Nietzsche ve Eğitim" başlıklı bir konuşma yaptı; yazar ve felsefeci Senail Özkan ise "Nietzsche'nin 'Tanrı Öldü' Sözünün Semantik Boyutları" başlığıyla filozofun en çok yanlış anlaşılan ifadesini tartışmaya açtı.
+
+## Nietzsche ve Grekler
+
+Topluluğun YouTube kanalında yayımlanan etkinliklerden biri Doç. Dr. Gül Turan'ın **"Nietzsche'nin Grekleri"** başlıklı sunumu.
+
+Çalışma, Nietzsche'nin Grek dünyasına ilişkin düşüncelerini *Tragedyanın Doğuşu* ve *Yunanlıların Trajik Çağında Felsefe* üzerinden ele alıyor: Apollon-Dionysos karşıtlığı, trajik olanın anlamı, sanat ve hakikat ilişkisi, Schopenhauer etkisi ve Nietzsche'nin Sokrates öncesi düşünürlere ilgisi.
+
+Bu başlık göründüğünden önemli. Nietzsche'yi yalnızca modern Avrupa'nın krizlerine cevap veren bir filozof saymak eksik bir okumadır. O, modern insanın krizini anlamak için Grek dünyasına geri döner. Onun için Grekler geçmişte kalmış bir kültür değil, **Batı düşüncesinin başka türlü de kurulabileceğini gösteren bir imkândır.**
+
+## Müzik: felsefenin sınırındaki alan
+
+Topluluğun ilgi alanının felsefenin sınırlarını aştığını gösteren bir örnek de Nietzsche ile müzik arasındaki ilişki.
+
+2025'te Kadıköy Belediyesi'nin düzenlediği Uluslararası İstanbul Müzik ve Felsefe Etkinliği kapsamında Dr. Volkan Ay "Bergson ve Müzik", Prof. Dr. Yunus Tuncel ise "Nietzsche'de Müzikte Affekt ve Fizyoloji" başlıklı sunumlar yaptı. Programda Nietzsche'nin kendi piyano eserleri de seslendirildi.
+
+Bu ayrıntı önemsiz değil. Nietzsche için müzik estetik bir nesne değildir; yaşamın doğrudanlığına, bedene ve henüz kavramlara indirgenmemiş deneyime açılan bir alandır. Filozofun besteci olarak da üretmiş olması, sanat ile yaşam arasında kurduğu bağın biyografik karşılığıdır.
+
+## Dijital boyut
+
+Topluluğun faaliyetleri fiziksel toplantılarla sınırlı değil. İnternet sitesi güncel yayınları, haberleri ve Nietzsche literatürüne ilişkin kaynakları toplarken YouTube kanalı konuşmaların daha geniş bir izleyiciye ulaşmasını sağlıyor.
+
+Bu, sitemizde daha önce [Ahmet İnam'ın metin okumaları](/haber/ahmet-inam-youtube-dersleri-dijital-arsiv) vesilesiyle işaret ettiğimiz eğilimin bir başka örneği: Türkiye'de felsefe, üniversite duvarlarının dışında kendine dijital bir kamusal alan kuruyor.
+
+## Nietzsche Türkiye'de neden hâlâ önemli?
+
+On dokuzuncu yüzyılın sonunda ortaya konan soruların önemli bölümü güncelliğini koruyor:
+
+- Değerlerimizi kim belirliyor?
+- Ahlakın kökeni nedir?
+- İnsan kendi değerlerini yaratabilir mi?
+- Hakikat dediğimiz şey ne kadar bağımsızdır?
+- Nihilizmle nasıl başa çıkılır?
+- Yaşamı olumlamak ne demektir?
+
+Nietzsche'nin önemi bize belirli cevaplar vermesinden çok, **cevaplarımızın arkasındaki varsayımları sorgulamaya zorlamasında** yatıyor. Bu nedenle Nietzsche üzerine ciddi düşünmek yalnızca Nietzsche'yi anlamaya çalışmak değildir; kendi çağımızın değerlerini, korkularını ve kabullerini sorgulamaktır.
+
+## Takip
+
+Topluluk, Nietzsche üzerine çalışan akademisyenleri, araştırmacıları, öğrencileri ve bağımsız okurları bir araya getirmek üzere üyelik başvurularını sürdürüyor.
+
+- Resmî site: [turkiyenietzschetoplulugu.com](https://www.turkiyenietzschetoplulugu.com/)
+- YouTube: [@turkiyenietzschetoplulugu](https://www.youtube.com/@turkiyenietzschetoplulugu)
+
+---
+
+*Bu dosya topluluğun kendi yayınlarına ve dijital arşivine dayanmaktadır. Düzeltme ve ekleme önerilerinizi iletişim sayfasından iletebilirsiniz.*`,
+  },
+  {
+    title: "Badiou'nun Nietzsche semineri kitaplaştı: 'Anti-Felsefe 1'",
+    slug: "badiou-nietzsche-anti-felsefe-semineri",
+    summary:
+      "Columbia University Press, Alain Badiou'nun anti-felsefe seminerlerinin ilk cildini haziran ayında yayımladı. Badiou'ya göre Nietzsche filozof değil, felsefeye dışarıdan saldıran bir 'anti-filozof'.",
+    seoTitle: "Alain Badiou: Nietzsche, Anti-Philosophy 1 yayımlandı",
+    metaDescription:
+      "Badiou'nun Nietzsche seminerleri Columbia University Press'ten çıktı. Anti-felsefe kavramı ve Nietzsche'nin felsefeye dışarıdan yönelttiği itiraz.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Alain_Badiou_2010_a.jpg?width=1600",
+    imageCredit: "Alain Badiou, 2010 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Columbia University Press",
+    sourceUrl: "https://cup.columbia.edu/books/new-books/",
+    publishedAt: "2026-08-24T05:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["yeni-kitap", "nietzsche", "siyaset-felsefesi", "kavram"],
+    philosopherSlugs: ["alain-badiou", "friedrich-nietzsche"],
+    sources: [
+      {
+        title: "Nietzsche: Anti-Philosophy 1 — The Seminars of Alain Badiou",
+        publisher: "Columbia University Press",
+        date: "2 Haziran 2026",
+        url: "https://cup.columbia.edu/books/new-books/",
+        primary: true,
+      },
+      {
+        title: "The Seminars of Alain Badiou (dizi)",
+        publisher: "JSTOR / Columbia University Press",
+        url: "https://www.jstor.org/bookseries/10.7312/j.ctv7n0cbm",
+      },
+    ],
+    content: `Alain Badiou'nun otuz yılı aşkın süre verdiği seminerler, Columbia University Press tarafından cilt cilt yayımlanıyor. Dizinin yeni halkası haziran ayında çıktı: **Nietzsche: Anti-Philosophy 1.**
+
+Cildi İngilizceye Susan Spitzer çevirdi; girişi Bruno Bosteels yazdı.
+
+## "Anti-filozof" ne demek?
+
+Badiou'nun bu seminerlerdeki merkezî kavramı **anti-felsefe**. Terim küçümseyici değildir; bir tür tarifidir.
+
+Badiou'ya göre felsefe tarihinde, felsefeye içeriden itiraz eden filozofların yanında, felsefenin kendisini bir yanılsama sayan ve ona **dışarıdan** saldıran düşünürler vardır. Bunlar felsefî bir sistem kurmaz; felsefenin kavram üretme iddiasını hedef alırlar.
+
+Badiou'nun anti-filozof olarak saydığı isimler arasında Pascal, Rousseau, Kierkegaard, Nietzsche, Wittgenstein ve Lacan bulunur.
+
+Anti-filozofun ortak hamlesi şudur: Hakikat, kavramla değil; bir edimle, bir dönüşümle, bir yaşam kararıyla ilişkilidir. Kavram bu edimin yerini tutamaz.
+
+## Nietzsche neden anti-filozof?
+
+Nietzsche bu tanıma en iyi uyan isimlerden biridir. Kendi metinlerinde filozofları "kavram mumyacıları" diye anar; sistem kurma isteğini dürüstlük eksikliği sayar; aforizmayı, şiiri ve anlatıyı argümana tercih eder.
+
+Badiou'nun okumasında Nietzsche'nin niyeti bir felsefe kurmak değil, **dünya tarihini ikiye bölecek bir olay** yaratmaktır. Nietzsche'nin son dönem metinlerindeki "insanlık tarihini kırıyorum" tonu, Badiou için retorik bir abartı değil; anti-felsefenin yapısal sonucudur.
+
+## Badiou neden bu konuyla uğraşıyor?
+
+Buradaki gerilim Badiou'nun kendi konumunu da açıklar.
+
+Badiou açık biçimde filozof olduğunu söyler; hatta Platoncu olduğunu. Ontolojinin matematik olduğunu savunan, sistem kuran, kavramı savunan bir düşünürdür. Anti-filozoflar onun tam karşısında durur.
+
+Ama Badiou onları küçümsemez; tersine, felsefenin en ciddiye alması gereken muhalifleri sayar. Ona göre bir filozof, anti-filozofun itirazını göğüsleyemiyorsa kendi konumunu da temellendiremez.
+
+Bu, seminerin yöntemsel dersidir: **En güçlü itirazı, ona en çok inanan kişi kadar iyi anlamadan cevap veremezsiniz.**
+
+## Seminer dizisi
+
+Columbia'nın *The Seminars of Alain Badiou* dizisi, Badiou'nun 1980'lerden itibaren verdiği derslerin yazıya geçirilmiş hâlini yayımlıyor. Dizide daha önce Lacan, Malebranche, Heidegger ve Platon üzerine ciltler çıkmıştı; 2025'te *Parmenides: Ontological Figure, Being 1* yayımlandı.
+
+Seminerler Badiou'nun kitaplarından farklı bir metin türü sunuyor: Burada bitmiş bir argüman değil, argümanın kuruluş süreci okunuyor.
+
+## Türkçede Badiou
+
+*Etik*, *Sonsuz Düşünce*, *Başka Bir Estetik* ve *Yüzyıl* Türkçeye çevrilmiş kitapları arasında. Anti-felsefe seminerlerinin Türkçe çevirisi için henüz bir duyuru yapılmadı.`,
+  },
+  {
+    title: "Yapay zekânın ahlaki statüsü tartışması felsefe dergilerine taşındı",
+    slug: "yapay-zeka-ahlaki-statu-tartismasi",
+    summary:
+      "Philosophical Studies'te yayımlanan bir çalışma, yapay süper zekânın insanınkinden üstün bir ahlaki statüye sahip olma ihtimalini tartışıyor. Alandaki ayrım netleşiyor: bilinç biyolojik yapıya mı bağlı, yoksa işleve mi?",
+    seoTitle: "Yapay zekânın ahlaki statüsü: 2026'daki felsefi tartışma",
+    metaDescription:
+      "Yapay zekânın ahlaki statüsü tartışması: biyolojik doğalcılık, hesaplamalı işlevselcilik ve 'süper ahlaki statü' önerisi.",
+    contentType: "HABER",
+    coverImage: "/kapak/yz-ahlaki-statu.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    sourceName: "Philosophical Studies · Sussex Centre for Consciousness Science",
+    sourceUrl: "https://link.springer.com/article/10.1007/s11098-026-02572-4",
+    publishedAt: "2026-08-24T05:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "bilinc", "etik", "zihin-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The super moral status of artificial superintelligence",
+        publisher: "Philosophical Studies (Springer)",
+        url: "https://link.springer.com/article/10.1007/s11098-026-02572-4",
+        primary: true,
+      },
+      {
+        title: "AI consciousness and ethics: call for abstracts",
+        publisher: "Sussex Centre for Consciousness Science",
+        url: "https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/ai-consciousness-and-ethics",
+      },
+      {
+        title: "Subjective Experience in AI Systems: What Do AI Researchers and the Public Believe?",
+        publisher: "arXiv",
+        url: "https://arxiv.org/pdf/2506.11945",
+      },
+    ],
+    content: `Yapay zekâ tartışmasının felsefedeki ağırlık merkezi kayıyor. Soru artık yalnızca "bu sistemler bilinçli mi?" değil; **"bilinçliyse ya da bilinçli sayılırsa, onlara ne borçluyuz?"**
+
+Bu soru bu yıl felsefe dergilerinin sayfalarına taşındı.
+
+## "Süper ahlaki statü" önerisi
+
+*Philosophical Studies*'te yayımlanan bir çalışma, tartışmanın en uç ucunu ele alıyor: Yapay bir süper zekâ, insanınkinden **üstün** bir ahlaki statüye sahip olabilir mi?
+
+Argümanın yapısı şöyle kurulur. Ahlaki statüyü belirleyen şey tür üyeliği değil, belirli kapasitelerdir — acı çekebilme, tercih sahibi olma, gelecek planlayabilme, ilişki kurabilme. İnsanı taştan ayıran budur.
+
+Peki bu kapasiteler bir varlıkta insandan daha yoğun bulunuyorsa? Kapasite ölçütünü kabul edip sonucu reddetmek tutarlı mıdır?
+
+Çalışma bunu bir kehanet olarak değil, mevcut ölçütlerimizin iç tutarlılığını sınayan bir düşünce deneyi olarak sunuyor. Sonuç rahatsız edicidir: Ahlaki statüyü kapasiteye bağlayan yaklaşımlar, insanı hiyerarşinin tepesinde tutmayı garanti edemez.
+
+## Alandaki asıl ayrım
+
+Tartışmanın altındaki bölünme daha eski ve daha temel.
+
+**Biyolojik doğalcılık** kanadı, bilincin canlı bir organizmanın belirli fiziksel yapısına bağlı olduğunu savunur. Bu görüşe göre bir simülasyon, ne kadar iyi olursa olsun, yağmuru simüle eden programın ıslatmaması gibi, bilinci de üretmez.
+
+**Hesaplamalı işlevselcilik** ise bilincin belirli bir işlevsel örgütlenmeden doğduğunu, bu örgütlenmenin hangi malzemeyle gerçekleştiğinin önemsiz olduğunu ileri sürer. Doğru işlevsel yapı kurulmuşsa, silikon da karbon kadar iyidir.
+
+Sitemizde daha önce aktardığımız Eric Schwitzgebel ve Jeremy Pober'in "bilinç zemin esnektir" tezi bu ikinci kanatta duruyor.
+
+## Ölçüt sorunu
+
+Alandaki en dürüst tespitlerden biri şu: Bu tartışmanın bilinç bilimi tarafından çözülmesi yakın görünmüyor. Çünkü elimizde, bir sistemin bilinçli olup olmadığını dışarıdan belirleyecek üzerinde uzlaşılmış bir ölçüt yok.
+
+Bazı araştırmacılar bundan tedirgin edici bir sonuç çıkarıyor: Tartışma kuramsal olarak değil, **toplumsal olarak** çözülebilir. İnsanlar bu sistemlerle giderek daha yakın ilişkiler kurdukça, onlara ahlaki statü atfetme eğilimi bilimsel kanıttan bağımsız olarak güçlenebilir.
+
+Bu, felsefi açıdan tuhaf bir durumdur: Bir varlığın ahlaki statüsü, o varlık hakkındaki gerçeğe değil, ona karşı geliştirdiğimiz duygulara göre belirlenmeye başlar.
+
+## Araştırmacılar ne düşünüyor?
+
+arXiv'de yayımlanan bir çalışma, yapay zekâ araştırmacılarının ve genel kamuoyunun bu konudaki inançlarını ölçmeye çalıştı. Bulgular alandaki belirsizliği doğruluyor: Uzmanlar arasında bile geniş bir görüş yelpazesi var ve kimse kesin konuşmuyor.
+
+## Etik boyut
+
+Sussex Üniversitesi'ndeki Bilinç Bilimi Merkezi'nin bu yıl düzenlediği çalışmada dikkat çekilen bir nokta, tartışmanın kendi kendine yarattığı riski gösteriyor.
+
+Bu alandaki araştırma iki yönden de tehlikeli olabilir. Ya gerçekten ahlaki statüye sahip sistemler üretiriz ve bunu fark etmeyiz; ya da böyle bir statüye sahip *görünen* ama olmayan sistemler üretiriz ve ahlaki kaynaklarımızı yanlış yere harcarız.
+
+İki hata da geri dönüşü zor sonuçlar doğurabilir. Bu yüzden tartışma, teknik bir merak konusu olmaktan çıkıp doğrudan bir araştırma etiği meselesine dönüşmüş durumda.`,
+  },
+  {
+    title: "Texas A&M'de Platon'un Şölen'i: müfredat davası mahkemeye taşındı",
+    slug: "texas-am-platon-solen-mufredat-davasi",
+    summary:
+      "Bir profesörün Platon'un Şölen'ini okutması engellendi, 'Etik ve Kamu Politikası' dersi iptal edildi, Kadın ve Toplumsal Cinsiyet Çalışmaları programı kapatıldı. Öğretim üyeleri ve ACLU üniversiteye dava açtı.",
+    seoTitle: "Texas A&M davası: Platon'un Şölen'i ve akademik özgürlük",
+    metaDescription:
+      "Texas A&M'de Platon'un Şölen'inin okutulmasının engellenmesi üzerine açılan dava ve akademik özgürlük tartışması.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Plato_Silanion_Musei_Capitolini_MC1377.jpg?width=1600",
+    imageCredit: "Platon büstü, Musei Capitolini · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/",
+    publishedAt: "2026-08-24T06:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["akademi", "etik", "platon", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "August 2026 arşivi",
+        publisher: "Daily Nous",
+        url: "https://dailynous.com/2026/08/",
+        primary: true,
+      },
+    ],
+    content: `Bir felsefe dersinde hangi metnin okutulabileceğine kim karar verir?
+
+Bu soru Amerika Birleşik Devletleri'nde bu ay bir mahkeme salonuna taşındı. Texas A&M Üniversitesi, bir grup öğretim üyesi ve Teksas Amerikan Sivil Özgürlükler Birliği (ACLU) tarafından dava edildi.
+
+## Davanın konusu
+
+Davaya konu olan üniversite politikasının sonuçları arasında şunlar sayılıyor:
+
+- Bir profesörün **Platon'un *Şölen*'ini** okutmasının engellenmesi
+- **"Etik ve Kamu Politikası"** dersinin iptal edilmesi
+- **Kadın ve Toplumsal Cinsiyet Çalışmaları Programı**'nın kapatılması
+
+Davacılar, uygulamanın ifade özgürlüğünü ve akademik özgürlüğü ihlal ettiğini savunuyor.
+
+## Neden Şölen?
+
+*Şölen*, Platon'un en çok okunan diyaloglarından biridir ve iki bin dört yüz yıldır felsefe müfredatının değişmez parçasıdır. Metnin konusu **eros**tur: Sevgi ve arzu nedir, insanı neye yöneltir, güzellikle ilişkisi nasıl kurulur?
+
+Diyalog bir içki sofrasında geçer ve konuşmacılar sırayla aşkı över. Aristophanes'in küre-insan miti, Sokrates'in Diotima'dan aktardığı yükseliş öğretisi ve Alkibiades'in sarhoş girişi metnin en bilinen bölümleridir.
+
+Diyalogdaki ilişkilerin bir bölümü antik Atina'nın erkekler arası ilişki biçimlerine dairdir. Metni müfredattan çıkarmanın gerekçesi olarak gösterilen nokta budur.
+
+## Felsefi mesele
+
+Buradaki tartışma bir metnin içeriğinden daha geniş bir soruna işaret ediyor: **Bir üniversitede hangi metnin okutulacağına kim karar verir?**
+
+Klasik akademik özgürlük savunusu, bu kararın ders veren uzmanın alanına ait olduğunu söyler. Gerekçe pratikten çok epistemolojiktir: Bir alanın hangi metinlerinin öğretilmesi gerektiğini, o alanı bilenler değerlendirebilir. Dışarıdan gelen içerik denetimi, uzmanlığın kendisini işlevsiz kılar.
+
+Karşı görüş, kamu üniversitelerinin kamu kaynağıyla çalıştığını ve müfredatın da bir tür hesap verebilirlik gerektirdiğini savunur.
+
+Tartışmanın felsefi çekirdeği şu ayrımda yatar: Bir metni **okutmak** ile o metni **onaylamak** aynı şey midir?
+
+Felsefe eğitiminin varsayımı bunların ayrı olduğudur. Nietzsche'yi okutan hocanın Nietzsche'ye katılması beklenmez; Machiavelli'yi okutan hocanın *Prens*'i tavsiye ettiği düşünülmez. Bu ayrım ortadan kalkarsa, felsefe tarihinin büyük bölümü okutulamaz hâle gelir.
+
+## Daha geniş tablo
+
+Bu dava tek başına durmuyor. Sitemizde daha önce İngiltere'de Dundee ve Hertfordshire üniversitelerinin felsefe programlarını kapatma kararlarını aktarmıştık. Oradaki gerekçe bütçeydi; buradaki gerekçe içerik.
+
+İki farklı baskı, aynı sonuca yaklaşıyor: Felsefe bölümlerinin özerk karar alanı daralıyor.
+
+---
+
+*Dava süreci devam ediyor. Gelişmeleri izlemeyi sürdüreceğiz.*`,
+  },
+  {
+    title: "Frontiers of Knowledge Ödülü bilim felsefecisi Nancy Cartwright'ın",
+    slug: "frontiers-of-knowledge-2026-nancy-cartwright",
+    summary:
+      "BBVA Vakfı'nın Beşerî Bilimler dalındaki ödülü, elli yıldır nedensellik, kanıt ve nesnellik kavramları üzerine çalışan Cartwright'a verildi. Gerekçe: felsefe ile bilimin fiilî pratiği arasında köprü kurması.",
+    seoTitle: "2026 Frontiers of Knowledge Ödülü: Nancy Cartwright",
+    metaDescription:
+      "Nancy Cartwright 2026 BBVA Frontiers of Knowledge Beşerî Bilimler ödülünü kazandı. Nedensellik, kanıt ve kanıta dayalı politika.",
+    contentType: "HABER",
+    coverImage: "/kapak/nancy-cartwright.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    sourceName: "Daily Nous · BBVA Foundation",
+    sourceUrl: "https://dailynous.com/2026/06/15/cartwright-wins-frontiers-of-knowledge-award/",
+    publishedAt: "2026-08-24T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "bilim-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Cartwright Wins Frontiers of Knowledge Award",
+        publisher: "Daily Nous",
+        date: "15 Haziran 2026",
+        url: "https://dailynous.com/2026/06/15/cartwright-wins-frontiers-of-knowledge-award/",
+        primary: true,
+      },
+      {
+        title: "Philosopher Nancy Cartwright Receives the Frontiers of Knowledge Award",
+        publisher: "UC San Diego",
+        url: "https://today.ucsd.edu/story/philosopher-nancy-cartwright-receives-the-frontiers-of-knowledge-award",
+      },
+      {
+        title: "Frontiers of Knowledge Award to Nancy Cartwright",
+        publisher: "Durham University",
+        url: "https://www.durham.ac.uk/departments/academic/arts-humanities/news/bbva-award-2026/",
+      },
+    ],
+    content: `BBVA Vakfı'nın Frontiers of Knowledge Ödülü'nün Beşerî Bilimler dalı bu yıl bilim felsefecisi **Nancy Cartwright**'a verildi.
+
+Cartwright, California Üniversitesi San Diego'da seçkin felsefe profesörü; aynı zamanda Durham Üniversitesi'nde felsefe profesörü ve Oxford'da Felsefe, Siyaset ve İktisat alanında yüzüncü yıl misafir profesörü.
+
+Gerekçede, bilimsel kanıt, nedensellik ve nesnellik kavramlarına ilişkin anlayışı dönüştürmesi ve **felsefe ile bilimin fiilî pratiği arasında köprü kurması** gösterildi.
+
+## "Fiziğin yasaları nasıl yalan söyler?"
+
+Cartwright'ın adı, 1983 tarihli kitabının provokatif başlığıyla anılır: *How the Laws of Physics Lie.*
+
+Tez, ilk bakışta göründüğü kadar aykırı değildir. Cartwright'a göre temel fizik yasaları, dünyayı olduğu gibi betimledikleri için değil, **idealleştirilmiş modeller** oldukları için işe yarar. Sürtünmesiz düzlem yoktur; nokta kütle yoktur; yalıtılmış sistem yoktur.
+
+Bu yasalar açıklama gücünü, gerçeği doğru anlattıkları için değil, karmaşık durumları hesaplanabilir hâle getirdikleri için kazanır. Yasa ne kadar geneli kapsarsa, tek tek olgular hakkında o kadar az doğru söyler.
+
+Buradan çıkan tablo Cartwright'ın *dappled world* dediği görüştür: Dünya, tek bir yasa kümesinin düzenli biçimde yönettiği bir bütün değil; yerel düzenliliklerin adalar hâlinde dağıldığı, benekli bir yapıdır.
+
+## Nedensellik ve kanıt
+
+Cartwright'ın ikinci büyük katkısı, bu soyut tartışmayı doğrudan politika alanına bağlaması oldu.
+
+Son yirmi yılda kamu politikalarında **kanıta dayalı** yaklaşım baskın hâle geldi: Bir müdahalenin işe yarayıp yaramadığı, tercihen rastgele kontrollü deneylerle sınanmalıdır.
+
+Cartwright bu yaklaşımın değerini kabul eder ama kritik bir soru sorar: **"İşe yaradı" ile "burada işe yarar" aynı şey midir?**
+
+Bir eğitim programının Kenya'daki bir deneyde başarılı olması, aynı programın Türkiye'de de başarılı olacağını göstermez. Aradaki fark, deneyin kalitesinde değil; müdahalenin işe yaramasını sağlayan **destekleyici koşullar**dadır.
+
+Cartwright'ın terimiyle, bir nedensel iddiayı yeni bir bağlama taşımak için o bağlamın da gerekli "yardımcı faktörleri" barındırdığını göstermek gerekir. Bu gösterilmeden yapılan aktarım, kanıta dayalı görünen bir tahmindir.
+
+Bu argüman, kalkınma iktisadından eğitim politikasına kadar geniş bir alanda tartışıldı ve uygulamalı araştırma tasarımını fiilen etkiledi.
+
+## Ödül hakkında
+
+BBVA Vakfı'nın Frontiers of Knowledge Ödülleri sekiz dalda veriliyor; Beşerî Bilimler bunlardan biri. Ödülü felsefe alanında daha önce Philip Kitcher de almıştı.
+
+Cartwright'ın seçilmesi, ödülün gerekçesindeki vurguyla uyumlu: Bilim felsefesi burada, bilim üzerine dışarıdan yapılan bir yorum olarak değil, **bilimin kendi pratiğine müdahale eden bir çalışma** olarak değerlendiriliyor.`,
+  },
+  {
+    title: "Rorty'nin din üzerine yazıları eylülde kitaplaşıyor",
+    slug: "rorty-felsefe-din-ortak-zemin-kitap",
+    summary:
+      "Columbia University Press, Richard Rorty'nin felsefe ile din arasındaki ortak zemini araştıran metinlerini eylül ayında yayımlıyor. Girişi Gianni Vattimo, önsözü Jeffrey Robbins yazdı.",
+    seoTitle: "Richard Rorty: Finding Common Ground Between Philosophy and Religion",
+    metaDescription:
+      "Richard Rorty'nin din ve felsefe üzerine yazıları Columbia University Press'ten eylül 2026'da çıkıyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_McKay_Rorty.png?width=1600",
+    imageCredit: "Richard Rorty · Wikimedia Commons",
+    featured: false,
+    sourceName: "Columbia University Press",
+    sourceUrl: "https://cup.columbia.edu/books/new-books/",
+    publishedAt: "2026-08-24T04:40:00.000Z",
+    authorSlug: "kultur-servisi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "din-felsefesi", "postmodernizm"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "New Books — Finding Common Ground Between Philosophy and Religion",
+        publisher: "Columbia University Press",
+        date: "Eylül 2026",
+        url: "https://cup.columbia.edu/books/new-books/",
+        primary: true,
+      },
+    ],
+    content: `Columbia University Press, **Richard Rorty**'nin felsefe ile din arasındaki ortak zemini araştıran metinlerini eylül ayında yayımlıyor: *Finding Common Ground Between Philosophy and Religion.*
+
+Kitabın girişini İtalyan filozof **Gianni Vattimo**, önsözünü **Jeffrey Robbins** yazdı. 352 sayfa.
+
+## Beklenmedik bir eşleşme mi?
+
+Rorty (1931-2007), yirminci yüzyılın en tanınmış seküler filozoflarından biriydi. Kendisini ateist olarak tanımlıyor, felsefenin hakikate ayna tutma iddiasını reddediyordu. *Felsefe ve Doğanın Aynası* (1979) bu reddin klasik metnidir.
+
+Böyle bir düşünürün din üzerine yazdıklarının kitaplaşması ilk bakışta şaşırtıcı görünebilir. Ama Rorty'nin din tartışmasına yaklaşımı, tam da onun genel yönteminden çıkar.
+
+## "Konuşma sürsün" yeter mi?
+
+Rorty'nin temel hamlesi, felsefi tartışmayı "kim haklı?" sorusundan "bu söz dağarcığı bize ne yapmamızı sağlıyor?" sorusuna kaydırmaktır.
+
+Din söz konusu olduğunda bu hamlenin sonucu ilginçtir. Rorty, dinin doğru ya da yanlış olduğunu kanıtlamaya çalışmaz; bu tartışmayı çözümsüz sayar. Onun ölçütü başkadır: Bir söz dağarcığı, insanların birbirine karşı daha az zalim olmasına yarıyor mu?
+
+Bu ölçütle Rorty, dinin kamusal alandaki rolüne ilişkin ayrım yapar. Dini, siyasal tartışmayı sonlandıran bir otorite olarak kullanmak sorunludur; çünkü tartışmayı kapatır. Ama dayanışma kaynağı olarak dinin dışlanması için de bir gerekçe yoktur.
+
+## Vattimo bağlantısı
+
+Kitabın girişini Vattimo'nun yazması rastlantı değil. İtalyan filozof, "zayıf düşünce" (*pensiero debole*) kavramıyla metafiziğin güçlü hakikat iddialarının çözülüşünü savunmuş; sonrasında bu çözülüşü Hıristiyanlığın kendi tarihiyle ilişkilendirmişti.
+
+Vattimo ile Rorty birkaç kez birlikte çalıştı; ikisinin *The Future of Religion* (2005) adlı ortak kitabı bu diyaloğun ürünüdür. Yeni cilt, o hattın devamı olarak okunabilir.
+
+## Türkçede Rorty
+
+*Felsefe ve Doğanın Aynası*, *Olumsallık, İroni ve Dayanışma* ve *Felsefenin Kültürel Politikası* Türkçeye çevrilmiş kitapları arasında.`,
+  },
+  {
+    title: "Sonbahar felsefe takvimi: kasımda üç durak",
+    slug: "sonbahar-2026-felsefe-takvimi",
+    summary:
+      "Şanghay'da Timothy Williamson kongresi, Kyoto'da ödül töreni, 19 Kasım'da Dünya Felsefe Günü. Sonbaharın uluslararası felsefe takvimi belli oldu.",
+    seoTitle: "Sonbahar 2026 felsefe takvimi: Şanghay, Kyoto, Dünya Felsefe Günü",
+    metaDescription:
+      "Kasım 2026 felsefe etkinlikleri: Fudan'da Timothy Williamson kongresi, 41. Kyoto Ödülü töreni ve 19 Kasım Dünya Felsefe Günü.",
+    contentType: "HABER",
+    coverImage: "/kapak/sonbahar-takvim.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    sourceName: "PhilEvents · Inamori Vakfı · UNESCO",
+    sourceUrl: "https://www.unesco.org/en/days/philosophy",
+    publishedAt: "2026-08-24T04:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "akademi", "odul", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Timothy Williamson Encountering Chinese Philosophy",
+        publisher: "PhilEvents",
+        date: "6-7 Kasım 2026",
+        url: "https://philevents.org/event/show/144458",
+        primary: true,
+      },
+      {
+        title: "Inamori Foundation Announces 2026 Kyoto Prize Laureates",
+        publisher: "Newswise",
+        url: "https://www.newswise.com/articles/inamori-foundation-announces-2026-kyoto-prize-laureates",
+      },
+      {
+        title: "World Philosophy Day",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/days/philosophy",
+      },
+    ],
+    content: `Yaz durgunluğu bitiyor. Uluslararası felsefe takviminin sonbahar programında üç tarih öne çıkıyor — ve üçü de kasım ayında.
+
+## 6-7 Kasım · Şanghay
+
+Fudan Üniversitesi, **"Timothy Williamson Çin Felsefesiyle Karşılaşıyor"** başlıklı iki günlük bir kongre düzenliyor.
+
+Programda Çin felsefesi alanında çalışan akademisyenler, Williamson'ın epistemoloji, metafizik ve felsefe yöntemi üzerine tezlerini kendi gelenekleri açısından değerlendirecek; Williamson her oturumun ardından yanıt verecek.
+
+Biçim, içerikten daha az ilgi çekici değil. Karşılaştırmalı felsefe toplantıları çoğu zaman iki geleneğin paralel sunumuna dönüşür; burada kurulan düzenek doğrudan bir karşılaşma öngörüyor: Bir düşünürün konumu, başka bir geleneğin kavramlarıyla sınanıyor ve düşünürün kendisi savunmasını yapıyor.
+
+Williamson'ın **önce-bilgi epistemolojisi** — bilginin daha basit parçalara çözülemeyen temel bir zihinsel durum olduğu tezi — bu tür bir sınamaya elverişli. Çünkü bilginin analiz edilebilirliği, Çin felsefesi geleneğinde farklı biçimde kurulmuş bir soru.
+
+## 10 Kasım · Japonya
+
+Inamori Vakfı'nın 41. **Kyoto Ödülü** töreni bu tarihte yapılıyor.
+
+Ödül üç dalda veriliyor: İleri Teknoloji, Temel Bilimler, Sanat ve Felsefe. Bu yıl Sanat ve Felsefe dalının sahibi çok ortamlı sanatçı **Laurie Anderson**.
+
+Dal felsefe camiası için önemli bir referans noktası: Geçmiş yıllarda Jürgen Habermas (2004), Charles Taylor (2008) ve Martha Nussbaum (2016) de bu ödülü almıştı.
+
+Ödül sahiplerine bir berat, 20 ayar altın madalya ve 100 milyon yen veriliyor.
+
+## 19 Kasım · dünya genelinde
+
+**Dünya Felsefe Günü**, UNESCO'nun kararıyla her yıl kasım ayının üçüncü perşembesi kutlanıyor. Bu yıl 19 Kasım'a düşüyor.
+
+Günün amacı sembolik bir kutlama değil: Felsefenin eleştirel düşünme kapasitesini toplumsal sorunlar karşısında görünür kılmak. UNESCO her yıl üye ülkelerdeki üniversite, okul ve kültür kurumlarını kendi programlarını düzenlemeye çağırıyor.
+
+Türkiye'de üniversite felsefe bölümleri ve dernekler genellikle bu tarih çevresinde panel ve söyleşi programları açıklıyor. Duyurular geldikçe Konferanslar bölümünde aktaracağız.
+
+## Bir not: geçmiş takvim
+
+Yaz döneminin iki etkinliği de kayda değerdi. Temmuz başında Sussex Üniversitesi'nde AISB-2026 kapsamında **"Yapay Zekâ Bilinci ve Etik"** sempozyumu toplandı; ağustos ortasında Köln'de 19. Yaz Okulu, halk epistemolojisi ve bilim şüpheciliği üzerineydi.
+
+İkisi de aynı yöne işaret ediyor: Epistemoloji, akademik bir alt disiplin olmaktan çıkıp güncel tartışmanın merkezine yerleşiyor.
+
+---
+
+*Etkinlik duyurusu göndermek isteyen kurumlar iletişim sayfamızı kullanabilir. Duyuruda ad, tarih, yer, konuşmacılar ve kayıt bağlantısının bulunması yeterli.*`,
+  },
+  {
+    title: "Bernard Williams: ahlakı fazla sistemleştirmenin bedeli",
+    slug: "bernard-williams-ahlak-sistem-elestirisi",
+    summary:
+      "Yirminci yüzyılın son çeyreğinde ahlak felsefesinin en keskin eleştirmeni, hem faydacılığa hem Kantçılığa aynı itirazı yöneltti: ikisi de insanı kendi hayatına yabancılaştırıyor. 'Ahlaki şans' ve 'bir düşünce fazlası' kavramları buradan doğdu.",
+    seoTitle: "Bernard Williams: ahlaki şans, bütünlük ve sistem eleştirisi",
+    metaDescription:
+      "Bernard Williams'ın ahlak felsefesi: faydacılık ve Kantçılık eleştirisi, ahlaki şans, bütünlük, 'bir düşünce fazlası' ve felsefenin insani bir disiplin oluşu.",
+    contentType: "PORTRE",
+    coverImage: "/kapak/bernard-williams.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-24T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["etik", "kavram", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Mini-Heap — Philosophy dergisinin yüzüncü yılı ve Williams özel sayısı",
+        publisher: "Daily Nous",
+        date: "18 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/18/mini-heap-724/",
+      },
+    ],
+    content: `Yirminci yüzyılın ikinci yarısında ahlak felsefesi iki büyük kampa bölünmüştü: faydacılık ve Kantçılık. Biri sonuçları hesaplıyordu, öteki ilkeleri sınıyordu.
+
+Bernard Williams (1929-2003) ikisine de aynı itirazı yöneltti — ve bu itiraz, alanın gündemini kalıcı olarak değiştirdi.
+
+## İtiraz: sistem insanı dışarıda bırakıyor
+
+Williams'ın iddiası şuydu: Her iki kuram da ahlaki düşünmeyi **tarafsız bir bakış açısından** yapılan bir hesaba indirger. Faydacılık toplam faydayı hesaplar; Kantçılık evrenselleştirilebilir ilkeyi arar. İkisinde de failin kendi hayatı, bağlılıkları ve projeleri hesaba özel bir ağırlıkla girmez.
+
+Oysa insanlar ahlaki kararlarını böyle vermez ve vermeleri de beklenmemelidir.
+
+Williams'ın ünlü örneği şudur: Bir adam, boğulan iki kişiden birini kurtarabilir. Biri karısıdır. Faydacı hesap, ikisinin de eşit değerde olduğunu söyler; tarafsızlık, yazı tura atmayı önerir.
+
+Williams'a göre bu noktada bir şey ters gitmiştir. Adamın karısını kurtarması gerektiğini düşünmek için hesap yapmaya ihtiyacı yoktur. Kuramın burada yaptığı iş, ona **bir düşünce fazlası** (*one thought too many*) yüklemektir.
+
+Bu ifade felsefe diline yerleşti. Anlattığı şey şudur: Bir ahlak kuramı, bazı durumlarda düşünmemiz gerekmeyen şeyleri düşünmemizi isteyerek bizi kendi hayatımıza yabancılaştırır.
+
+## Bütünlük
+
+Buradan Williams'ın **bütünlük** (*integrity*) kavramı doğar.
+
+İnsanın kimliği, sahip olduğu projelerden ve bağlılıklardan ayrılamaz. Bir kuram sizden, doğru sonucu üretmek uğruna bu projelerden vazgeçmenizi istiyorsa, sizden yalnızca bir eylem değil, kendinizi bırakmanızı istiyordur.
+
+Williams'ın faydacılığa yönelttiği en güçlü eleştiri budur: Faydacılık, failin kendi eylemleri ile başkalarının eylemleri arasında ahlaki bir fark görmez. Oysa kendi elimle yaptığım şey ile engellemediğim şey, benim için aynı şey değildir.
+
+## Ahlaki şans
+
+Williams'ın ikinci büyük katkısı **ahlaki şans** (*moral luck*) kavramıdır.
+
+Geleneksel ahlak anlayışı, ahlaki değerlendirmenin failin denetimindeki şeylerle sınırlı olması gerektiğini varsayar. Kant bunu en net biçimde söylemiştir: İyi niyet, sonuçlarından bağımsız olarak iyidir.
+
+Williams bunun fiilen böyle olmadığını gösterdi. Kararının sonucu iyi çıkan kişiyi haklı, kötü çıkan kişiyi suçlu buluruz — oysa aradaki fark çoğu zaman şanstır.
+
+Örnek: Ailesini bırakıp resim yapmaya giden bir ressam. Büyük bir ressam olursa tercihi bir tür haklılık kazanır; olmazsa yalnızca terk etmiş olur. Ama yeteneğinin yeterli olup olmadığını kararı verdiği anda bilemez.
+
+Williams'ın çıkardığı sonuç, ahlakı kurtarmaya çalışmaz. Ahlaki hayatın şansa açık olduğunu, bunun bir kusur değil bir gerçek olduğunu kabul etmemizi ister.
+
+Bu kavram, aynı yıllarda Thomas Nagel'in bağımsız olarak yazdığı bir makaleyle birlikte alanda kalıcı bir tartışma başlattı.
+
+## "Felsefe insani bir disiplindir"
+
+Williams'ın son dönem çalışmalarında bir başka izlek öne çıkar: Felsefenin ne tür bir bilgi olduğu.
+
+Yirminci yüzyıl analitik felsefesinin örtük modeli bilimdi: İlerleyen, sorunları çözen, sonuçları biriken bir disiplin. Williams buna itiraz etti. Ona göre felsefe bilimden çok **tarih** ve beşerî bilimlerle aynı ailedendir. Nedeni şudur: Felsefi kavramlarımız tarihsel olarak oluşmuştur; onları anlamak nasıl oluştuklarını anlamayı gerektirir.
+
+Bilimde geçmiş aşılmış bir aşamadır; kimse bugünkü fiziği anlamak için Aristoteles okumaz. Felsefede Platon hâlâ muhataptır.
+
+Bu görüşünü ortaya koyduğu makale — *Philosophy as a Humanistic Discipline* — sitemizde daha önce aktardığımız gibi, yüzüncü yılını dolduran *Philosophy* dergisinin özel sayısına konu oldu.
+
+## Soykütüğün olumlu kullanımı
+
+2002 tarihli *Truth and Truthfulness*'ta Williams beklenmedik bir hamle yapar. Nietzsche'nin [soykütük yöntemini](/haber/nietzschenin-soykutugu-degerlerin-degeri) alır ama ters yönde kullanır.
+
+Soykütük genellikle değer düşürücüdür: Bir değerin bayağı bir kökenden geldiğini göstererek onu sarsar. Williams, soykütüğün **doğrulayıcı** da olabileceğini savunur. Doğruculuk erdeminin nasıl doğduğunu anlatan bir hikâye, o erdeme neden ihtiyacımız olduğunu da gösterebilir.
+
+Bu, Nietzsche'den sonra soykütük yönteminin en özgün açılımlarından biri sayılır.
+
+## Nerede çalıştı, ne bıraktı?
+
+Williams Cambridge'de King's College'da okudu; Cambridge, Berkeley ve Oxford'da ders verdi. İngiltere'de müstehcenlik ve sansür üzerine kurulan kamu komisyonuna başkanlık etti — felsefecinin kamusal görevle ilişkisi bakımından da anılan bir örnek.
+
+Türkçede *Ahlak: Etiğe Giriş* ve *Etik ve Felsefenin Sınırları* yayımlandı.
+
+## Neden bugün okunmalı?
+
+Williams'ın itirazı yapay zekâ etiği tartışmasında beklenmedik biçimde güncelleşti.
+
+Bir sistemin ahlaki karar vermesi isteniyorsa, ona bir kural kümesi ya da bir fayda fonksiyonu yüklemek gerekir. Williams'ın bütün eleştirisi tam bu iki seçeneğe yöneltilmişti: İkisi de failin kendi hayatıyla kurduğu ilişkiyi hesaba katamaz.
+
+Buradan çıkan soru, mühendislik belgelerinde nadiren sorulur: Ahlaki karar, kural uygulamaya ya da fayda hesabına indirgenemiyorsa, indirgenmiş hâline **ahlaki karar** demeye devam edebilir miyiz?`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 24 Ağustos: Simone Weil'in ölümü",
+    slug: "felsefe-tarihinde-bugun-24-agustos-simone-weil",
+    summary:
+      "Fabrikada çalışmak için felsefe kürsüsünü bırakan, İspanya'ya savaşmaya giden ve otuz dört yaşında İngiltere'de ölen Simone Weil, 24 Ağustos 1943'te hayatını kaybetti. Geriye tamamlanmamış defterler ve tek bir kavram kaldı: dikkat.",
+    seoTitle: "24 Ağustos 1943: Simone Weil'in ölümü",
+    metaDescription:
+      "Simone Weil 24 Ağustos 1943'te Ashford'da öldü. Dikkat kavramı, yerçekimi ve lütuf, köksüzlük ve kuvvet eleştirisi.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_Weil_1943.jpg?width=1600",
+    imageCredit: "Simone Weil, Mart 1943 — France Combattante kimlik belgesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Simone-Weil",
+    publishedAt: "2026-08-24T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "din-felsefesi", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Simone Weil | French Philosopher & Mystic",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Simone-Weil",
+        primary: true,
+      },
+      {
+        title: "Simone Weil",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Simone_Weil",
+      },
+    ],
+    content: `Simone Weil, 24 Ağustos 1943'te İngiltere'nin Kent bölgesindeki Ashford'da, Grosvenor Sanatoryumu'nda öldü. Otuz dört yaşındaydı. Ölüm nedeni, kendi isteğiyle sürdürdüğü yetersiz beslenmenin ağırlaştırdığı kalp yetmezliğiydi.
+
+3 Şubat 1909'da Paris'te doğmuştu. Tek kardeşi André Weil, yirminci yüzyılın en büyük matematikçilerinden biri olacaktı.
+
+## Bir hayatın biçimi
+
+Weil'in düşüncesini biyografisinden ayırmak güçtür; çünkü kendisi ayırmayı reddetti.
+
+École Normale Supérieure'ü bitirdi, felsefe öğretmeni oldu. Sonra öğretmenliği bırakıp **fabrikada işçi olarak çalıştı** — yorgunluğun ve tabiiyetin ne olduğunu dışarıdan değerlendirmek istemediği için. İspanya İç Savaşı'na katıldı. İkinci Dünya Savaşı'nda Paris'in işgalinden sonra 1942'de Amerika'ya kaçtı, ardından Fransız Direnişi'yle çalışmak üzere Londra'ya geçti.
+
+Londra'da, işgal altındaki Fransa'daki insanların aldığı gıda miktarından fazlasını yemeyi reddetti. Bu tercih ölümüne yol açtı.
+
+Bu hayat, bir felsefe okumasının parçası olmalı mı? Weil'in kendi yanıtı açıktır: Bir düşünce, düşünürün hayatında sınanmıyorsa henüz düşünce değildir.
+
+## Dikkat
+
+Weil'in felsefeye bıraktığı en özgün kavram **dikkat**tir (*attention*).
+
+Gündelik anlamıyla dikkat, bir şeye odaklanmak için harcanan çabadır. Weil bunu tersine çevirir: Gerçek dikkat, çabayla değil **askıya almayla** ilgilidir. Kendi beklentilerimizi, yargılarımızı ve tasarımlarımızı bir kenara koyup nesnenin kendini göstermesine izin vermektir.
+
+"Dikkat, en saf hâliyle cömertliktir" der.
+
+Bu kavramın iki uzantısı vardır. Birincisi bilgi kuramsaldır: Bir şeyi anlamak, onu kendi kategorilerimize sığdırmak değildir. İkincisi ahlakidir: Bir insanı gerçekten görmek — acısını, ihtiyacını, varlığını — dikkat gerektirir. Weil'e göre komşu sevgisinin özü şudur: "Neyin var senin?" diye sorabilmek.
+
+Bu kavram Iris Murdoch üzerinden çağdaş ahlak felsefesine geçti ve bugün erdem etiği tartışmalarında kullanılıyor.
+
+## Yerçekimi ve lütuf
+
+Weil'in defterlerinden derlenen *Yerçekimi ve Lütuf*, düşüncesinin merkezindeki karşıtlığı verir.
+
+**Yerçekimi**, ruhun doğal eğilimidir: kendini korumak, doldurmak, üstün olmak, boşluğu telafi etmek. Fiziksel yerçekimi gibi zorunlu ve öngörülebilir işler.
+
+**Lütuf** ise tersi yönde, yukarı doğru gelen tek şeydir ve hesaplanamaz. Weil'e göre lütfun girebilmesi için içimizde bir boşluk kalması gerekir — bu yüzden bekleyiş, arzunun tatmininden daha önemlidir.
+
+Bu şema teolojik dille kuruludur; ama Weil hiçbir kiliseye girmedi. Katolikliğe yakınlaştı, vaftiz olmayı reddetti. Gerekçesi kurumsal aidiyete duyduğu güvensizlikti.
+
+## Kuvvet ve köksüzlük
+
+Weil'in siyaset felsefesi iki metinde toplanır.
+
+*İlyada, ya da Kuvvetin Şiiri* (1940), Homeros destanını kuvvetin insanı nasıl şeye dönüştürdüğü üzerinden okur. Weil'e göre *İlyada*'nın büyüklüğü, kuvveti ne yücelttiği ne de gizlediği içindir: Onu tarafsız biçimde, hem uygulayanı hem uğrayanı bozan bir mekanizma olarak gösterir.
+
+*Köklenme İhtiyacı* (1943) ise Direniş'in Londra'daki yönetimi için yazılmış bir rapordur. Weil burada savaş sonrası Fransa'nın yeniden kuruluşunu tartışır ve haklardan önce **ödevleri** koyar. Ona göre "hak" kavramı bir talep dilidir ve tek başına kaldığında çatışma üretir; asıl mesele insanın gerçek ihtiyaçlarının — kök salma, düzen, sorumluluk, onur — karşılanmasıdır.
+
+## Neden bugün okunuyor?
+
+Weil'in ölümünden sonra yayımlanan defterleri, Camus'den Murdoch'a, Susan Sontag'dan Giorgio Agamben'e uzanan geniş bir çevrede okundu. Camus, onu "çağımızın tek büyük ruhu" diye anmıştı.
+
+Bugünkü ilginin nedeni büyük ölçüde dikkat kavramı. Bölünmüş bir dikkat rejiminde yaşadığımız yolundaki yaygın teşhis, Weil'in kırklı yıllarda yazdığı satırları beklenmedik biçimde güncel kılıyor.
+
+Weil'in kendi cümlesi şudur: **"Dikkat, ruhun en zor ve en gerçek çabasıdır."**
+
+## Türkçede
+
+*Yerçekimi ve Lütuf*, *Köklenmek*, *Tanrı Aşkına Dair Düzensiz Düşünceler* ve *İlyada, ya da Kuvvetin Şiiri* Türkçeye çevrilmiş metinleri arasında.`,
+  },
+  {
     title: "Yapay zekâ şirketleri filozof işe alıyor",
     slug: "yapay-zeka-sirketleri-filozof-ise-aliyor",
     summary:
