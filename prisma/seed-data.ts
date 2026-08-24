@@ -5610,7 +5610,7 @@ Michael Walzer'in 1977 tarihli *Just and Unjust Wars* kitabı bu ayrımın çağ
     slug: "ioanna-kucuradi-felsefe-insan-haklari",
     summary: "Hacettepe'de felsefe bölümünü kuran, FISP'in ilk kadın başkanı olan ve 1998'den beri UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürüten Kuçuradi, ekim ayında doksan yaşına giriyor. Çalışması tek bir soruda toplanıyor: insan hakları nereden temellendirilir?",
     coverImage: "/kapak/kucuradi.jpg",
-    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    imageCredit: "Temsilî portre — Van Gogh üslubunda yapay zekâ çizimi",
     featured: true,
     seoTitle: "İoanna Kuçuradi: değer felsefesi ve insan hakları",
     metaDescription: "İoanna Kuçuradi'nin değer felsefesi, insan hakları temellendirmesi, FISP başkanlığı ve UNESCO kürsüsü. Türkiye'de felsefenin kurumsallaşmasındaki rolü.",
