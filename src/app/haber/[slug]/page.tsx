@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { Comments } from "@/components/comments";
 import { Container } from "@/components/container";
+import { CoverImage } from "@/components/cover-image";
 import { ShareButtons } from "@/components/share-buttons";
 import { Markdown } from "@/components/markdown";
 import { PhilosopherAvatar } from "@/components/philosopher-card";
@@ -103,8 +104,15 @@ export default async function ArticlePage({ params }: Props) {
       {post.coverImage && (
         <Container size="default" className="mt-10">
           <figure>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-line">
-              <Image src={post.coverImage} alt="" fill priority sizes="100vw" className="object-cover object-top" />
+            {/*
+              KAPAK ÇERÇEVESİ
+              Kapak 16:9 değilse (örneğin dikey bir portre fotoğrafı) görseli kırpmıyoruz;
+              tamamını gösterip arkasını kendi bulanık kopyasıyla dolduruyoruz. Böylece
+              hiçbir yüz yarıda kesilmez. Zaten 16:9 olan kapaklarda bulanık katman
+              görünmez, çerçeveyi görsel tam doldurur.
+            */}
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-line bg-surface">
+              <CoverImage src={post.coverImage} sizes="100vw" priority />
             </div>
             {post.imageCredit && (
               <figcaption className="mt-2 text-xs text-muted">{post.imageCredit}</figcaption>

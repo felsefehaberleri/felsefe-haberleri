@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { ArticleCard } from "@/components/article-card";
 import { BookCard } from "@/components/book-card";
 import { Container } from "@/components/container";
+import { CoverImage } from "@/components/cover-image";
 import { EventCard } from "@/components/event-card";
 import { HeadlineSlider } from "@/components/headline-slider";
 import { Pagination } from "@/components/pagination";
@@ -99,14 +99,12 @@ export default async function HomePage({
                     {lead.coverImage && (
                       <Link
                         href={`/haber/${lead.slug}`}
-                        className="relative block aspect-[4/3] overflow-hidden rounded-lg border border-line sm:aspect-auto sm:h-40"
+                        className="relative block aspect-[4/3] overflow-hidden rounded-lg border border-line bg-surface sm:aspect-auto sm:h-40"
                       >
-                        <Image
+                        <CoverImage
                           src={lead.coverImage}
-                          alt=""
-                          fill
                           sizes="240px"
-                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          className="transition-transform duration-500 group-hover:scale-105"
                         />
                       </Link>
                     )}

@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+
+import { CoverImage } from "@/components/cover-image";
 
 import { cn, formatDate } from "@/lib/utils";
 import type { PostListItem } from "@/types/content";
@@ -39,13 +40,14 @@ export function ArticleCard({
       )}
     >
       {post.coverImage && (
-        <Link href={`/haber/${post.slug}`} className="relative block aspect-[16/9] overflow-hidden">
-          <Image
+        <Link
+          href={`/haber/${post.slug}`}
+          className="relative block aspect-[16/9] overflow-hidden bg-surface"
+        >
+          <CoverImage
             src={post.coverImage}
-            alt=""
-            fill
             sizes="(max-width: 768px) 100vw, 33vw"
-            className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+            className="transition-transform duration-500 group-hover:scale-[1.03]"
           />
         </Link>
       )}
