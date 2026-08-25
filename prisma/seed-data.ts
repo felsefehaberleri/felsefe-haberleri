@@ -1489,6 +1489,295 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Felsefeciler yapay zekâyı kullanmalı mı? Sert bir itiraz ve gelen yanıtlar",
+    slug: "yapay-zeka-felsefe-arastirmasi-tartismasi",
+    summary:
+      "Dan Kaufman, meslektaşlarının yapay zekâ coşkusunu dört başlıkta eleştirdi: felsefe hakikat biriktirmez, konuları insanidir, edebiyata benzer ve toplumsaldır. Leiter Reports'ta yayımlanan metin bir günde ondan fazla yanıt aldı.",
+    seoTitle: "Felsefe araştırmasında yapay zekâ: Kaufman'ın itirazı ve tartışma",
+    metaDescription:
+      "Dan Kaufman'ın yapay zekâ eleştirisi ve David Wallace, Rob Precht, Galen Strawson gibi isimlerin yanıtları. Felsefe hakikat biriktirir mi, yöntem sonuçtan ayrılabilir mi?",
+    contentType: "ANALIZ",
+    coverImage: "/kapak/yz-felsefe-tartismasi.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    sourceName: "Leiter Reports",
+    sourceUrl: "https://leiterreports.com/2026/08/24/some-skepticism-about-ai-enthusiasm-among-philosophers/",
+    publishedAt: "2026-08-25T05:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "akademi", "zihin-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Some skepticism about AI enthusiasm among philosophers",
+        publisher: "Leiter Reports",
+        date: "24 Ağustos 2026",
+        url: "https://leiterreports.com/2026/08/24/some-skepticism-about-ai-enthusiasm-among-philosophers/",
+        primary: true,
+      },
+    ],
+    content: `Felsefe camiasında bir süredir sürüklenen tartışma, dün sert bir müdahaleyle merkeze oturdu.
+
+Missouri State Üniversitesi'nden felsefeci **Daniel Kaufman**, meslektaşlarının araştırmalarında büyük dil modellerini kullanmasına yönelik kapsamlı bir itiraz kaleme aldı. Metin, alanın en çok okunan blogu olan Leiter Reports'ta yayımlandı ve yayımlandığı gün ondan fazla yanıt aldı.
+
+Tartışmanın kayda değer yanı taraflardan biri değil, sorunun kendisi: **Felsefede yöntem, sonuçtan ayrılabilir mi?**
+
+## Kaufman'ın dört itirazı
+
+### 1. "Doğru yığını" diye bir şey yok
+
+Kaufman'a göre yapay zekâ savunucularının örtük varsayımı şu: Felsefi araştırmanın amacı önemli doğruları biriktirmektir; öyleyse sonuca nasıl varıldığı değil, nereye varıldığı önemlidir.
+
+Sık kullanılan benzetme de buradan geliyor: Kanserin tedavisini kimin ya da neyin bulduğu önemli midir, tedavi işe yaradığı sürece?
+
+Kaufman bu benzetmeyi reddediyor. Ona göre felsefede üzerinde binlerce yıldır sürekli ve ciddiye alınabilir bir anlaşmazlığın bulunmadığı tek bir önemli konu yok:
+
+> Ahlaki gerçekçilik ile anti-gerçekçilik; deontoloji ile sonuççuluk; özgür irade ile determinizm; içselci ile dışsalcı epistemolojiler; temelci ile tutarlılıkçı epistemolojiler; hakikatin karşılık kuramı, tutarlılık kuramı ve deflasyonist kuramı…
+
+Dahası, "kesin biçimde çürütüldüğü" söylenen kuramlar sürekli geri dönüyor. Kaufman'ın örneği zihin felsefesinden: **İşlevselcilik** yıllarca gözden düşmüş sayılıyordu; yapay zekâ heyecanıyla birlikte yeniden diriltildi.
+
+### 2. Felsefenin konuları insani
+
+Güzellik, değer, yükümlülük, erdem. Kaufman'a göre bu kavramların hepsi insani duygulanımları, algıları ve tepkileri varsayar.
+
+Sorusu doğrudan: İstatistiksel yığışım yazılımı, hissedemediği, göremediği ve umursayamadığı bir şeyi anlamamıza nasıl yardım edecek?
+
+### 3. Felsefe edebiyata benzer
+
+Kaufman'ın en tartışmalı tezi bu. Ona göre felsefe, birçok kişinin olmasını istediği gibi "a priori uzayın sert bilimi" değil; edebiyata daha yakın.
+
+Bir felsefe metni, konusunun tarafsız bir incelemesi olduğu kadar, **filozofun kendi sesinin, tarihinin ve bakışının** o konuyla kesişmesidir. Buradan çıkan sonuç: Fikrin nereden geldiği ve nasıl dile getirildiği felsefede belirleyicidir. Yapay zekâ üzerinden "ölümsüzlük" vaadine karşı Kaufman'ın önerdiği tek kalıcılık biçimi şu: Kendine özgü seslerin sürmesi.
+
+### 4. Felsefe toplumsal bir etkinlik
+
+Kaufman, yapay zekâ savunucularının felsefenin toplumsal boyutunu görmezden geldiğini söylüyor. Bir yazar, yapay zekâ kullanmakla lisansüstü asistanlarla çalışmak arasında fark olmadığını öne sürmüş; bir okur da yapay zekânın "aptalca angarya işleri" devralmasına sevindiğini yazmış.
+
+Kaufman'ın yanıtı iki katmanlı. Birincisi pratik: O angarya, lisansüstü öğrencilerinin sayılı gelir kaynaklarından biri. İkincisi ilkesel: Meslektaşlarla konuşmak felsefenin dışında bir şey değil, **felsefenin kendisi**. Sokratik alışverişi bir odada Claude ya da ChatGPT'yle baş başa kalmakla değiştirmek, mesleğin ne olduğunu unutmaktır.
+
+## Gelen yanıtlar
+
+Metnin altındaki tartışma, itirazın kendisi kadar ilgi çekici.
+
+**David Wallace** (Pittsburgh) ilerleme iddiasını savundu. Ona göre Kaufman bir seçilim yanılgısına düşüyor: Yüzyıllar boyunca felsefi sayılan sorular arasında "madde atomlardan mı oluşur", "hareketin doğası nedir", "evrenin bir başlangıcı var mı" da vardı. Bu sorularda geri döndürülemez ilerleme sağlandı — o kadar ki artık felsefenin değil, kendi bilimlerinin konusu oldular. Wallace beşerî tarafta bile bir kazanım görüyor: "Kölelik iyidir" iddiasının reddi bir doğru yığınına yazılamaz mı?
+
+**Rob Precht** tarih düzeltmesi yaptı: İşlevselcilik hiçbir zaman ölü bir mesele değildi. Shoemaker, Levin, Polger, Wilson ve Piccinini'nin çalışmaları büyük dil modellerinden çok önce sürüyordu; Chalmers'ın *Bilinçli Zihin*'i 1996 tarihli. Ona göre "yapay zekâ hayranlarının dirilttiği akım" anlatısı kronolojik olarak yanlış.
+
+**A. B. Jimenez-Cordero** ise itirazı kabul edip sonucunu tersine çevirdi. Felsefe doğru biriktirmiyor olabilir; ama **sonuç** biriktiriyor. Hangi argümanın neden işlemediğini, hangi kuramın hangi itiraza takıldığını biliyoruz: Davranışçılığın Putnam'ın "süper-Spartalılar"ıyla, tip-özdeşlik kuramının düşünen bilgisayar olasılığıyla karşılaştığı güçlükler gibi. Bu okumada felsefe, kesin doğrular değil, **bilmediğimiz şeyler hakkında artan bir kavrayış** üretir. Ve bu iş büyük ölçüde "birleşimsel haritalama" olduğu için yapay zekânın üstün olması beklenir.
+
+Jimenez-Cordero'nun bıraktığı soru şu: Yapay zekâ analitik felsefenin bugünkü işleyişinin büyük bölümünü otomatikleştirebilir — ama bu, felsefenin amacı mıydı?
+
+**Michel Xhignesse** iki not düştü. Kaufman'ın "yapay zekânın kavrayamayacağı insani değerler" listesinde güzellik geçiyor; oysa estetik, ABD'de lisansüstü eğitiminden çekilmekte olan bir alan. İkincisi: Araştırma asistanlarının emeği zaten çoğu zaman anılmıyor; oysa o iş hem gerçek bir emek hem de bir eğitim.
+
+**Galen Strawson** ise Kaufman'a katılırken bir çekince koydu: Ölü atları yeniden canlandırabilmek felsefenin erdemi sayılmaz. Schopenhauer'ın sözünü hatırlattı — hakikate, paradoks diye mahkûm edilmesiyle basit diye küçümsenmesi arasında yalnızca kısa bir zafer kutlaması tanınır.
+
+## Tartışmanın asıl ekseni
+
+Yüzeyde bir teknoloji tartışması var. Altında ise felsefenin ne tür bir etkinlik olduğuna dair klasik bir ayrım duruyor.
+
+Felsefeyi **bilime** benzetirseniz, yöntem araçsaldır: Sonuç doğruysa, ona nasıl varıldığı ikincil kalır. Felsefeyi **beşerî bir disipline** benzetirseniz, yöntem sonucun parçasıdır: Bir düşüncenin nasıl kurulduğu, o düşüncenin ne olduğunu belirler.
+
+Bu ayrımın kendisi yeni değil. Sitemizde daha önce aktardığımız gibi, [Bernard Williams](/haber/bernard-williams-ahlak-sistem-elestirisi) yıllar önce felsefenin bilimden çok tarihe yakın olduğunu savunmuştu. Kaufman'ın itirazı, o eski tezin yeni bir teknoloji karşısında sınanması.
+
+Tartışmanın bir başka boyutu da sitemizde geçtiğimiz haftalarda ele alınmıştı: Bir felsefe dergisinin büyük ölçüde yapay zekâ tarafından yazılmış bir makaleyi bilerek yayımlaması, aynı sorunun somut hâliydi.
+
+## Bir not
+
+Kaufman'ın metninde adı geçmeyen ama tartışmayı sessizce belirleyen bir varsayım var: Felsefi metnin bir **yazarı** olduğu.
+
+Yapay zekâ kullanımı bu varsayımı doğrudan yıpratmıyor; ama yazarlığın ne kadarının araçlaştırılabileceği sorusunu açıyor. Bir metnin dipnotları, kaynakçası, argüman haritası ve ilk taslağı başkasına devredilebiliyorsa, geriye kalan "kendine özgü ses" tam olarak nedir?
+
+Tartışma sürüyor. Yanıtı hazır olan tarafın, muhtemelen soruyu yeterince ciddiye almamış olduğunu söylemek mümkün.`,
+  },
+  {
+    title: "Briana Toole: kimin bildiği, ne bilindiğini değiştirir mi?",
+    slug: "briana-toole-bakis-acisi-epistemolojisi",
+    summary:
+      "Bakış açısı epistemolojisini çağdaş tartışmaya geri taşıyan Toole, aynı zamanda felsefeyi dezavantajlı liselere götüren Corrupt the Youth programının kurucusu. İki uğraş tek bir tezle bağlanıyor: bilgi, bilenin konumundan bağımsız değildir.",
+    seoTitle: "Briana Toole ve bakış açısı epistemolojisi",
+    metaDescription:
+      "Briana Toole'un bakış açısı epistemolojisi, epistemik baskı kavramı ve Corrupt the Youth felsefe programı.",
+    contentType: "PORTRE",
+    coverImage: "/kapak/briana-toole.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: false,
+    sourceName: "Daily Nous · Claremont McKenna College",
+    sourceUrl: "https://dailynous.com/2026/08/20/what-is-it-like-to-be-a-philosopher-briana-toole-edition/",
+    publishedAt: "2026-08-25T05:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["epistemoloji", "toplumsal-cinsiyet", "akademi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "What is it like to be a philosopher? Briana Toole edition",
+        publisher: "Daily Nous",
+        date: "20 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/20/what-is-it-like-to-be-a-philosopher-briana-toole-edition/",
+        primary: true,
+      },
+      {
+        title: "Briana Toole — Public Philosopher",
+        publisher: "brianatoole.com",
+        url: "https://www.brianatoole.com/",
+      },
+      {
+        title: "Briana Toole",
+        publisher: "PhilPeople",
+        url: "https://philpeople.org/profiles/briana-toole",
+      },
+    ],
+    content: `Epistemolojinin klasik sorusu şudur: Bir inancın bilgi sayılması için ne gerekir?
+
+Yanıtlar genellikle inancın kendisine bakar: Doğru mu, gerekçelendirilmiş mi, güvenilir bir süreçle mi oluşmuş? İnananın kim olduğu bu hesaba girmez. Bilgi, kişiden bağımsız bir başarıdır.
+
+**Briana Toole**'un çalışması tam bu varsayımı sınıyor.
+
+## Bakış açısı epistemolojisi nedir?
+
+Claremont McKenna College'da felsefe doçenti olan Toole, **bakış açısı epistemolojisini** (*standpoint epistemology*) çağdaş analitik tartışmaya geri taşıyan isimlerden biri.
+
+Kuramın çekirdek iddiası şu: Epistemik olmayan özellikler — kişinin toplumsal konumu, kimliği, deneyimi — bilebileceği şeyleri etkiler.
+
+Bu iddia ilk duyuşta iki yanlış anlamayı davet eder, Toole'un işi büyük ölçüde ikisini de ayıklamak.
+
+**Birinci yanlış anlama: görelilik.** Kuram, "herkesin kendi hakikati vardır" demiyor. Söylediği, bazı olguların belirli konumlardan daha kolay fark edildiği. Ayrımcılığa uğrayan kişi, ayrımcılığın nasıl işlediğine dair bazı şeyleri daha erken görebilir; bu, gördüğü şeyin ona özgü bir hakikat olduğu anlamına gelmez.
+
+**İkinci yanlış anlama: otomatik ayrıcalık.** Kuram, ezilen konumda bulunmanın kendiliğinden üstün bilgi verdiğini de söylemiyor. Toole'un vurguladığı gibi, konum bir **imkân** sağlar; o imkânın bilgiye dönüşmesi ayrı bir iştir.
+
+## Epistemik baskı
+
+Toole'un kuramı asıl gücünü olumsuz tarafta gösteriyor: **epistemik baskı** (*epistemic oppression*).
+
+Buradaki fikir şu: Bir toplumsal düzen yalnızca kaynakları değil, bilgi üretme ve bilgi olarak kabul görme imkânlarını da eşitsiz dağıtır. Kimin tanık sayılacağı, kimin ifadesinin ciddiye alınacağı, hangi soruların araştırmaya değer bulunacağı — hepsi bu dağılımın parçası.
+
+Bu çerçeve son yirmi yılda Miranda Fricker'ın *epistemik adaletsizlik* kavramıyla birlikte alanın kalıcı gündemine yerleşti. Toole'un katkısı, bakış açısı kuramının bu tartışmadaki yerini kavramsal olarak netleştirmek.
+
+## Sınıfa inen felsefe
+
+Toole'un ikinci uğraşı akademik değil, ama kuramından kopuk da değil.
+
+UT-Austin'de doktora öğrencisiyken **Corrupt the Youth** adında bir felsefe programı kurdu. Ad, Sokrates'e yöneltilen "gençliği yoldan çıkarmak" suçlamasına gönderme.
+
+Programın işleyişi basit: Bir üniversitenin felsefe bölümüyle bir devlet lisesi arasında ortaklık kuruluyor; felsefe doktora öğrencileri haftada bir iki gün o lisenin sınıfına girip ders veriyor. Dersler okul saatleri içinde ve müfredatın parçası olarak yapılıyor — ek etkinlik ya da seçmeli kulüp değil.
+
+Hedef kitle özellikle **Title 1** okulları: ABD'de düşük gelirli ailelerin çocuklarının yoğunlaştığı, ek federal destek alan okullar.
+
+Toole'un anlattığına göre amaç, öğrencilere felsefe tarihi öğretmek değil. Kendileri için önemli olan meseleleri konuşabilecekleri ve ne düşündüklerini fark edebilecekleri bir alan açmak.
+
+## İki uğraş, tek tez
+
+Kuramla program arasındaki bağ görünürden daha sıkı.
+
+Bakış açısı epistemolojisi doğruysa, felsefe yapan insanların bileşimi felsefenin içeriğini de etkiler. Kimlerin soru sorduğu, hangi soruların sorulduğunu belirler. Bir disiplin dar bir toplumsal kesitten besleniyorsa, kör noktaları da o kesitin kör noktalarıdır.
+
+Bu okumada Corrupt the Youth bir hayır işi değil, kuramın gereği. Felsefeye kimlerin girdiğini genişletmek, felsefenin görebildiklerini genişletmenin yolu.
+
+## Tartışmanın öteki tarafı
+
+Bakış açısı epistemolojisi eleştirisiz kabul görmüş bir konum değil.
+
+Başlıca itiraz şu: Bilginin konuma bağlandığı yerde, konumlar arası eleştiri güçleşir. Bir iddiayı sınamak istediğinizde, sınamanızın kendisi "yanlış konumdan yapılmış" sayılabilir. Eleştirmenlere göre bu, tartışmayı kapatan bir hamledir.
+
+Savunucuların yanıtı, kuramın doğru biçiminin bunu gerektirmediği yönünde: Konum, bir iddiayı sınanmaktan muaf tutmaz; yalnızca hangi kanıtın nereden daha kolay görülebileceğini açıklar.
+
+Tartışma, epistemolojinin en canlı hatlarından biri olmayı sürdürüyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 25 Ağustos: Hume ve Nietzsche, aynı gün",
+    slug: "felsefe-tarihinde-bugun-25-agustos-hume-nietzsche",
+    summary:
+      "David Hume 25 Ağustos 1776'da Edinburgh'da, Friedrich Nietzsche 25 Ağustos 1900'de Weimar'da öldü. Aralarında 124 yıl var; ama ikisi de aklın kendini temellendirme iddiasını aynı yerden sarstı.",
+    seoTitle: "25 Ağustos: Hume (1776) ve Nietzsche (1900)",
+    metaDescription:
+      "Hume 25 Ağustos 1776'da, Nietzsche 25 Ağustos 1900'de öldü. İki ölümün felsefe tarihindeki yeri ve aralarındaki düşünsel bağ.",
+    contentType: "TARIH",
+    coverImage: "/kapak/25-hume-nietzsche.jpg",
+    imageCredit: "Felsefe Haberleri için hazırlanmış özgün kapak",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/David-Hume",
+    publishedAt: "2026-08-25T04:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "nietzsche", "epistemoloji", "etik", "aydinlanma"],
+    philosopherSlugs: ["friedrich-nietzsche"],
+    sources: [
+      {
+        title: "David Hume | Biography, Philosophy, Empiricism, Skepticism, & Works",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/David-Hume",
+        primary: true,
+      },
+      {
+        title: "Friedrich Nietzsche | Biography, Books, & Facts",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Friedrich-Nietzsche",
+      },
+      {
+        title: "David Hume (1711-1776)",
+        publisher: "University of Edinburgh — Our History",
+        url: "https://ourhistory.is.ed.ac.uk/index.php/David_Hume_(1711-1776)",
+      },
+    ],
+    content: `Takvimlerin bazen ürettiği rastlantılar, düşünce tarihinde beklenmedik bir okuma imkânı açar.
+
+25 Ağustos, felsefe için böyle bir gün. **David Hume** 25 Ağustos 1776'da Edinburgh'da, **Friedrich Nietzsche** 25 Ağustos 1900'de Weimar'da öldü. Aralarında tam 124 yıl var.
+
+İkisini yan yana koymak yalnızca takvim şakası değil. Ortak bir hamleleri var — ve o hamle, modern felsefenin yönünü belirledi.
+
+## Hume: 1776, Edinburgh
+
+Hume ölümüne aylar kala hastalığının ilerlediğini biliyordu. Bu bilgiyle **Kendi Hayatım** adlı kısa özyaşamöyküsünü yazdı; metin sekiz sayfa bile tutmaz ve şaşırtıcı bir soğukkanlılıkla kurulmuştur.
+
+Ölümüne tanık olan arkadaşı **Adam Smith**, bir mektupta son günlerini anlattı. Anlatının sarsıcı yanı şuydu: Hume, dinsel bir teselliye başvurmadan, ölümü sakin bir biçimde bekliyordu. Metin yayımlandığında Smith'in başını epeyce ağrıttı; kendi ifadesiyle, Britanya'nın ticaret sistemine yönelttiği bütün eleştirilerin toplamından daha çok tepki topladı.
+
+Hume'un asıl bombası ise ölümünden sonrasına bırakılmıştı. **Doğal Din Üstüne Diyaloglar**, yayımlanması hâlinde yaratacağı tepki nedeniyle sağlığında basılmadı; 1779'da, ölümünden üç yıl sonra çıktı.
+
+### Ne yaptı?
+
+Hume'un yıkıcılığı üslubunda değil, yönteminde. Deneyci ilkeyi sonuna kadar götürdü ve şunu sordu: Kullandığımız temel kavramların deneyde karşılığı nerede?
+
+**Nedensellik.** Bir bilardo topunun diğerine çarpmasını görürüz; ilkinin ikincisini *zorunlu kıldığını* görmeyiz. Gördüğümüz şey ardışıklıktır. "Zorunlu bağlantı" dediğimiz şey nesnede değil, tekrarın zihnimizde oluşturduğu alışkanlıktadır.
+
+**Ben.** Kendimize baktığımızda bir izlenim demeti buluruz — sıcaklık, ağrı, düşünce, sıkıntı. Bütün bunları taşıyan kalıcı bir "ben" izlenimine hiç rastlamayız.
+
+**Ahlak.** "Olan"dan "olması gereken"e geçen akıl yürütmelerin bu geçişi hiç açıklamadığını gösterdi. Ona göre ahlaki yargıların kaynağı akıl değil, duygudur: "Akıl tutkuların kölesidir ve yalnızca öyle olmalıdır."
+
+Kant'ın deyişiyle Hume onu "dogmatik uykusundan" uyandırdı. Uyandırdığı tek kişi değildi.
+
+## Nietzsche: 1900, Weimar
+
+Nietzsche'nin ölümü, düşünsel hayatının bitişiyle aynı tarihe düşmez. Ocak 1889'da Torino'da yaşadığı çöküşten sonra bir daha yazamadı. Geriye kalan on bir buçuk yılı önce annesinin, sonra kız kardeşi Elisabeth'in bakımında geçirdi.
+
+Bu yılların acı bir yanı var: Nietzsche'nin ünü tam bu dönemde patladı. Avrupa'da adı konuşulmaya, kitapları yeniden basılmaya başladığında yazarının bundan haberi yoktu.
+
+Elisabeth Förster-Nietzsche, kardeşinin arşivini yönetti; notlarını kendi seçtiği bir düzenle derleyip **Güç İstenci** adıyla kitaplaştırdı. Nietzsche'nin böyle bir kitabı yayımlama tasarısından vazgeçmiş olduğu, sonraki filolojik çalışmalarla ortaya çıktı. Metnin ve adın sonraki siyasi kötüye kullanımlarında bu müdahalenin payı büyüktür.
+
+## İki ölüm, bir hat
+
+Hume ile Nietzsche arasında doğrudan bir öğrencilik ilişkisi yok. Ama ortak bir hamleleri var, ve o hamle felsefenin gündemini değiştirdi.
+
+**İkisi de aklın kendi temelini kuramadığını gösterdi.**
+
+Hume bunu bilgi tarafında yaptı: Nedensellik, tümevarım ve benlik gibi düşüncenin taşıyıcı kavramları, akılla temellendirilemiyor. Onları taşıyan şey alışkanlık, tekrar ve insan doğasıdır.
+
+Nietzsche bunu değer tarafında yaptı: Ahlaki değerlerimiz akıl tarafından bulunmuş ilkeler değil, tarihi olan oluşumlardır. [Soykütük yöntemi](/haber/nietzschenin-soykutugu-degerlerin-degeri) tam da bu tarihi görünür kılmak içindir.
+
+İkinci ortaklık daha da dikkat çekici: **İkisi de ahlakı akıldan alıp duygulanıma bağladı.** Hume için ahlaki onaylama bir duygudur; Nietzsche için değerlendirme, bir güç ilişkisinin ifadesidir. Farklı sözlükler, aynı yön.
+
+Aradaki fark ise mizaçta. Hume yıkımının ardından gündelik hayata döner; kavramlarımızın temelsiz olduğunu göstermek onu dehşete düşürmez, tavla oynamaya ve dostlarıyla yemek yemeye gider. Nietzsche için aynı boşluk bir kriz mahallidir: Değerlerin temelsizliği fark edildiğinde ortaya çıkan şey, aşılması gereken bir nihilizmdir.
+
+Aynı teşhis, iki farklı mizaç. Modern felsefenin iki damarı buradan ayrılır.
+
+## Türkçede
+
+Hume'un *İnsanın Anlama Yetisi Üzerine Bir Soruşturma*, *İnsan Doğası Üzerine Bir İnceleme* ve *Doğal Din Üstüne Diyaloglar* adlı eserleri Türkçeye çevrildi. Nietzsche'nin başlıca kitaplarının tamamına yakını Türkçede bulunuyor; *Ahlakın Soykütüğü Üzerine* ve *İyinin ve Kötünün Ötesinde* çevirileri arasında [Ahmet İnam](/haber/ahmet-inam-youtube-dersleri-dijital-arsiv) imzalı olanlar da var.
+
+---
+
+*Not: Bazı kaynaklarda Hume'un ölüm tarihi 26 Ağustos olarak geçer. Britannica ve Edinburgh Üniversitesi arşivi 25 Ağustos 1776 tarihini veriyor.*`,
+  },
+  {
     title: "Türkiye Nietzsche Topluluğu: Nietzsche'yi Türkçede yeniden düşünmenin adresi",
     slug: "turkiye-nietzsche-toplulugu",
     summary:
