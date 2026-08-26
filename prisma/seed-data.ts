@@ -1489,6 +1489,524 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Amfiden ekrana: Türkiye'de akademik felsefenin dijital arşivi büyüyor",
+    slug: "turkiyede-akademik-felsefenin-dijital-arsivi",
+    summary:
+      "Felsefe dernekleri, üniversite bölümleri, kültür kurumları ve bağımsız düşünce çevreleri seminerlerini yıllardır YouTube'a taşıyor. Ortaya dağınık ama giderek genişleyen bir arşiv çıkıyor. Sorun içerik eksikliği değil; bu içeriğin bulunabilir olmaması.",
+    seoTitle: "Türkiye'de akademik felsefenin YouTube arşivi",
+    metaDescription:
+      "Türkiye Kant Topluluğu'ndan Öncül Analitik Felsefe'ye, Akbank Sanat'tan üniversite bölümlerine: Türkiye'de felsefe seminerlerinin dijital arşivi ve bu arşivin sorunları.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/METU_Library_-_14663259627.jpg?width=1600",
+    imageCredit: "ODTÜ Kütüphanesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri derlemesi",
+    sourceUrl: null,
+    publishedAt: "2026-08-26T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "medya", "soylesi", "kavram"],
+    philosopherSlugs: ["ioanna-kucuradi", "ahmet-inam"],
+    sources: [
+      {
+        title: "Türkiye Felsefe Kurumu — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@turkiyefelsefekurumu3268/videos",
+      },
+      {
+        title: "Türkiye Kant Topluluğu — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@T%C3%BCrkiyeKantToplulu%C4%9Fu",
+      },
+      {
+        title: "Türkiye Heidegger Topluluğu — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@turkiyeheideggertoplulugu6661",
+      },
+      {
+        title: "Öncül Analitik Felsefe Dergisi — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@OnculAnalitikFelsefeDergisi",
+      },
+      {
+        title: "Akbank Sanat — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@AkbankSanat",
+      },
+    ],
+    content: `Türkiye'de felsefenin kamusal görünürlüğü uzun yıllar boyunca dört mecra üzerinden şekillendi: kitap, dergi, üniversite ve konferans salonu. Bugün bu listeye beşincisi eklendi.
+
+Ancak burada söz konusu olan, "felsefe anlatan video kanalları" değil. Daha dar ve daha ilginç bir alandan söz ediyoruz: **akademisyenlerin, araştırmacıların ve felsefe topluluklarının kendi sempozyum, seminer, ders ve söyleşilerini dijital ortama kaydetmesi.**
+
+Bu kayıtlar bir araya geldiğinde ortaya, henüz kimsenin planlamadığı bir şey çıkıyor: Türkiye'nin dijital felsefe arşivi.
+
+## Bir seminerin ikinci hayatı
+
+Akademik bir konferansın değeri, konferans günü salonda bulunanlarla sınırlı değildir. Ama pratikte çoğu zaman öyle olur: Konuşma yapılır, dinleyici dağılır, geriye bir program broşürü kalır.
+
+Kayıt bu döngüyü kırıyor. Bir üniversitede ya da kültür merkezinde yapılan iki saatlik bir seminer, yayımlandığı andan itibaren yıllarca erişilebilir kalıyor. Tek seferlik bir etkinlik, zamanla bir kaynağa dönüşüyor.
+
+Bu, özellikle felsefe için önemli. Çünkü felsefi düşüncenin önemli bir bölümü hızlı tüketilen içerikten değil; uzun konuşmalardan, kavram tartışmalarından, metin okumalarından ve soru-cevaptan oluşuyor. Otuz saniyelik bir video bir tezi aktarabilir; bir tezin nasıl kurulduğunu aktaramaz.
+
+## Birinci katman: akademik topluluklar
+
+Ekosistemin çekirdeğinde, belirli bir filozof ya da gelenek etrafında örgütlenmiş topluluklar var.
+
+**Türkiye Kant Topluluğu**, Kant çalışmalarının Türkiye'de kurumsallaşmasına katkıda bulunan yapılardan biri; konferans, seminer ve söyleşilerini kendi kanalından yayımlıyor. Kant'ın bilgi felsefesinden ahlak felsefesine, estetikten siyaset felsefesine uzanan alanı düşünüldüğünde bu arşiv yalnızca Kant uzmanlarını değil, modern felsefenin temel meselelerine ilgi duyan herkesi ilgilendiriyor.
+
+Buradaki asıl değer tek tek videolarda değil, **tek bir filozof etrafında süreklilik taşıyan bir tartışma alanının kurulmasında**.
+
+Benzer bir uzmanlaşmayı **Türkiye Heidegger Topluluğu** yürütüyor. Topluluğun programı Heidegger metinlerinin açıklamasıyla sınırlı değil: fenomenoloji, ontoloji, hermenötik ve çağdaş kıta felsefesi de kapsamda. Seminer başlıkları arasında Heidegger-Derrida ilişkisi, destrüksiyon ve dekonstrüksiyon gibi doğrudan teknik tartışmalar bulunuyor.
+
+Bu iki örnek, Türkiye'de belirli filozoflar üzerine çalışmanın artık yalnızca bireysel akademik faaliyet değil, **topluluk temelli bir entelektüel uğraş** olarak da sürdürüldüğünü gösteriyor. Sitemizde daha önce aktardığımız [Türkiye Nietzsche Topluluğu](/haber/turkiye-nietzsche-toplulugu) da aynı modelin bir başka örneği.
+
+Kurumsal tarafta ise **Türkiye Felsefe Kurumu** ve **Türk Felsefe Derneği** var. Bu kanallar doğrudan etkinlik arşivi niteliğinde; sempozyum ve panel kayıtları bakımından özellikle değerliler. Buradaki işlev yayıncılıktan çok **kurumsal hafıza**: Bir konferansın dinleyicisi değişir, kaydı kalır.
+
+## İkinci katman: akademik-kültürel kurumlar
+
+İkinci halka, felsefeyi üniversite dışına taşıyan kurumlardan oluşuyor.
+
+**Akbank Sanat** bu grubun en dikkat çekici örneği. Kurumun felsefe seminerleri yeni bir girişim değil: 2016-2017 dönemindeki programda Nietzsche, Husserl, Foucault, Kant, Rorty, Hegel ve Marx üzerinden modern felsefenin temel uğrakları ele alınmıştı. Program bugün de sürüyor; Emre Şan, Güncel Önkal, Toros Güneş Esgün, Kaan H. Ökten, Murat Erşen, Sanem Yazıcıoğlu ve Haydar Oğuz Erdin gibi akademisyenlerin yer aldığı seminer dizileri yayımlanıyor.
+
+Burada YouTube yeni içerik mecrası değil; **yıllara yayılan bir arşivin taşıyıcısı**.
+
+**Goethe-Institut**'un Türkiye'deki felsefe etkinlikleri ekosistemin uluslararası boyutunu gösteriyor. Felsefe Kulübü programı, Türkiye'deki tartışmayı Almanca konuşulan düşünce geleneğiyle ilişkilendiren bir alan açıyor.
+
+**Felsefe Sanat Bilim Derneği**, felsefeyi sanat, bilim, toplum ve kültürle birlikte düşünen yapılardan biri; dijital arşivi de bu disiplinlerarası yaklaşımın uzantısı. **Aktif Felsefe Kültür Derneği** ise felsefeyi üniversite öğrencisi ve akademisyen çevresinin ötesine, daha geniş bir kültür kamuoyuna taşımayı hedefliyor.
+
+Özel bir yeri **Kuçuradi Felsefe ve İnsan Hakları** kanalı tutuyor. Başlığın kendisi bile bu ekosistemin bir damarını gösteriyor: felsefe ile insan hakları arasındaki bağ. Burada felsefe kuramsal bir disiplin olarak değil, insan onuru ve değer sorunlarını anlamanın aracı olarak ele alınıyor — [İoanna Kuçuradi'nin](/haber/ioanna-kucuradi-felsefe-insan-haklari) altmış yıllık hattının doğrudan devamı.
+
+## Üçüncü katman: bağımsız kanallar
+
+Üçüncü halka, kurumsal olmayan aktörlerden oluşuyor ve rakamlar bakımından en şaşırtıcı olanı bu.
+
+**Pandora Felsefe**, uzun süredir felsefe içeriği üreten kanallardan biri; yüz otuz binin üzerinde abone ve altı buçuk milyonu aşan izlenme sayısına ulaşmış durumda.
+
+Bu rakamlar tek başına bir tespit sunuyor: **Türkiye'de felsefeye yönelik dijital ilgi, akademik kurumların varsaydığından geniş.**
+
+**Pangea Düşünce** ve **Ankara US Atölyesi** gibi kanallar, üniversite çevresiyle bağımsız entelektüel çevreler arasındaki geçirgen alanı temsil ediyor. **Yıldız Işık** kanalı ise sitemizde ayrıca ele aldığımız gibi, [Ahmet İnam'ın metin okumalarının](/haber/ahmet-inam-youtube-dersleri-dijital-arsiv) dokuz yıllık kaydını barındırıyor.
+
+Farklı bir yol izleyen **Klasik Düşünce Okulu**, klasik düşüncenin kurucu eserlerini Türkçe olarak ele alan derslerini yayımlıyor. Programda felsefenin yanı sıra klasik Yunanca, Arapça, dinler tarihi, kelam, tasavvuf ve fıkıh da bulunuyor. Buradaki yaklaşım kayda değer: Felsefeyi modern üniversite disiplininin sınırları içinde değil, daha geniş bir klasik düşünce tarihi içinde konumlandırmak.
+
+**Öncül Analitik Felsefe Dergisi** ise başka bir boşluğu dolduruyor. Dil felsefesi, zihin felsefesi, metafizik, bilim felsefesi ve etik üzerine ürettiği içeriklerle, Türkiye'de çoğu zaman örtük kalan kıta felsefesi-analitik felsefe ayrımını dijital ortamda görünür kılıyor. Kanal, felsefe tarihi anlatısı arayan izleyiciden çok, **bugün hangi problemlerin tartışıldığını** merak edenlere hitap ediyor.
+
+## Dördüncü katman: üniversitelerin kendisi
+
+Ekosistemin belki de en önemli ayağı üniversiteler. Türkiye'deki birçok felsefe bölümü ve öğrenci topluluğu kendi etkinliklerini yayımlıyor; ODTÜ Felsefe Bölümü'nün ve ODTÜ Felsefe Topluluğu'nun ayrı ayrı kanalları bulunuyor. Ege ve Boğaziçi gibi köklü bölümler de benzer bir yol izliyor.
+
+Bu kanallar akademik felsefenin geleceği açısından özellikle önemli. Çünkü bir seminerin kaydedilmesi, o etkinliği "gerçekleşmiş bir etkinlik" olmaktan çıkarıp **erişilebilir bir eğitim materyaline** dönüştürüyor.
+
+## Asıl sorun: arşiv var, dizin yok
+
+Buraya kadarki tablo iyimser. Ama ekosistemin en belirgin sorunu da tam burada başlıyor.
+
+İçerik dağınık.
+
+Bir Kant semineri bir kanalda, Heidegger semineri başka bir kanalda, üniversite konferansı üçüncüsünde, analitik felsefe tartışması dördüncüsünde duruyor. İçerik var, akademisyen var, seminer var. Ancak bunları düzenli olarak **indeksleyen, sınıflandıran, haberleştiren ve izleyiciye sunan** merkezi bir alan yok.
+
+Bu, teknik bir eksiklik gibi görünse de sonuçları düşünsel. Bir arşiv, ancak bulunabildiği ölçüde arşivdir. Aranamayan bir kayıt, yayımlanmamış bir kayıttan çok az farklıdır.
+
+Dolayısıyla bu alanın geleceği daha fazla video üretmekten geçmiyor. Asıl mesele, **mevcut üretimi bulunabilir ve takip edilebilir hâle getirmek.**
+
+## Felsefe haberciliği için ne anlama geliyor?
+
+Bu tablo yalnızca akademisyenleri ve öğrencileri değil, felsefe haberciliğini de doğrudan ilgilendiriyor. Aşağıdaki soruların her biri başlı başına bir haber konusu:
+
+- Bu hafta Türkiye'de hangi felsefe konferansları yapıldı?
+- Hangi topluluk yeni bir seminer dizisi başlattı?
+- Kant, Nietzsche ya da Heidegger üzerine hangi yeni konuşmalar yayımlandı?
+- Üniversitelerin felsefe bölümlerinde hangi etkinlikler düzenleniyor?
+
+Bu açıdan bakıldığında Türkiye'deki felsefe kanalları izlenecek içeriklerden oluşan bir liste değil; **çağdaş felsefi hayatın dijital haritası** olarak okunabilir. Felsefe Haberleri olarak bu haritayı düzenli biçimde izlemeyi ve aktarmayı sürdüreceğiz.
+
+## Soru: taşınma mı, ulaşma mı?
+
+Türkiye'de akademik felsefenin uzun süredir tartışılan bir sorunu var: Üniversitede üretilen felsefi bilgi, üniversite dışındaki topluma ne kadar ulaşıyor?
+
+Dijital arşiv bu sorunu tek başına çözmüyor. Ama bir kanal açıyor. Bir konferansı yüz kişinin salonda dinlemesiyle aynı konferansın yıllarca erişilebilir olması arasında ciddi bir fark var. Üstelik arama, oynatma listesi ve altyazı imkânları sayesinde bu kayıtlar birbirine bağlanabiliyor: Kant üzerine bir seminer izleyen öğrenci, aynı akşam Heidegger'e ya da analitik felsefeye geçebiliyor.
+
+Geriye şu soru kalıyor: Felsefe üniversiteden dijital mecraya mı taşınıyor, yoksa dijital mecra sayesinde üniversitede üretilen felsefe nihayet daha geniş bir kamuya mı ulaşıyor?
+
+Yanıt büyük olasılıkla ikincisinde. Çünkü iyi kaydedilmiş bir felsefe semineri yalnızca bir video değildir; **akademik bir düşünmenin dijital hafızaya geçmiş hâlidir.**
+
+---
+
+### Türkiye'de akademik felsefe kaynakları
+
+**Akademik topluluklar ve dernekler**
+
+- [Türkiye Felsefe Kurumu](https://www.youtube.com/@turkiyefelsefekurumu3268/videos)
+- [Türk Felsefe Derneği](https://www.youtube.com/@turkfelsefedernegi/videos)
+- [Türkiye Kant Topluluğu](https://www.youtube.com/@T%C3%BCrkiyeKantToplulu%C4%9Fu)
+- [Türkiye Heidegger Topluluğu](https://www.youtube.com/@turkiyeheideggertoplulugu6661)
+- [Felsefe Sanat Bilim Derneği](https://www.youtube.com/@felsefesanatbilimdernegi7552/videos)
+- [Aktif Felsefe Kültür Derneği](https://www.youtube.com/@AktiffelsefeK%C3%BClt%C3%BCrDerne%C4%9Fi/videos)
+- [Kuçuradi Felsefe ve İnsan Hakları](https://www.youtube.com/@kucuradifelsefeveinsanhakl9038)
+
+**Dergi ve okullar**
+
+- [Öncül Analitik Felsefe Dergisi](https://www.youtube.com/@OnculAnalitikFelsefeDergisi)
+- [Klasik Düşünce Okulu](https://www.youtube.com/@KlasikD%C3%BC%C5%9F%C3%BCnceOkulu/videos)
+
+**Kültür kurumları**
+
+- [Akbank Sanat](https://www.youtube.com/@AkbankSanat)
+- [Goethe-Institut Türkei](https://www.youtube.com/@goethe-institutturkei3530)
+
+**Bağımsız kanallar**
+
+- [Pandora Felsefe](https://www.youtube.com/@PANDORAFELSEFE/videos)
+- [Pangea Düşünce](https://www.youtube.com/@pangeadusunce/videos)
+- [Ankara US Atölyesi](https://www.youtube.com/@ankarausatolyesi/videos)
+- [Akademi FR](https://www.youtube.com/@akademiFR/videos)
+- [Yıldız Işık](https://www.youtube.com/@yldzisk8501)
+
+**Üniversiteler**
+
+- [ODTÜ Felsefe Bölümü](https://www.youtube.com/@odtufelsefebolumumetudepar2352)
+- [ODTÜ Felsefe Topluluğu](https://www.youtube.com/@odtufelsefe1881)
+
+*Liste kapsayıcı değildir. Eksik gördüğünüz kanalları iletişim sayfamızdan bildirebilirsiniz; düzenli olarak güncelleyeceğiz.*`,
+  },
+  {
+    title: "Meillassoux erken dönemine dönüyor: 1997 tezinden bir bölüm yayımlandı",
+    slug: "meillassoux-varlik-ve-hiclik-erken-metin",
+    summary:
+      "\"Varlık ve Hiçlik\", Quentin Meillassoux'nun hiç kitaplaşmamış 1997 doktora tezinden bir bölüm. Metin, yirmi yıl sonra After Finitude'ün merkezine yerleşecek olan olgusallık ilkesinin ilk hâlini gösteriyor — ve bunu Derrida'yla hesaplaşarak yapıyor.",
+    seoTitle: "Meillassoux'nun 1997 tezinden 'Varlık ve Hiçlik' yayımlandı",
+    metaDescription:
+      "Quentin Meillassoux'nun L'Inexistence divine adlı 1997 tezinden bir bölüm Derrida Today'de yayımlandı. Olgusallık ilkesi, korelasyonculuk eleştirisi ve hiper-kaos.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Quentin_Meillassoux_03.jpg?width=1600",
+    imageCredit: "Quentin Meillassoux · Wikimedia Commons",
+    featured: true,
+    sourceName: "Derrida Today · PhilPapers",
+    sourceUrl: "https://philpapers.org/rec/MEIBAN",
+    publishedAt: "2026-08-26T05:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["dergi", "bilim-felsefesi", "kavram", "postmodernizm"],
+    philosopherSlugs: ["quentin-meillassoux"],
+    sources: [
+      {
+        title: "Quentin Meillassoux, 'Being and Nothingness'",
+        publisher: "Derrida Today, 19. cilt, 2. sayı",
+        date: "2026",
+        url: "https://philpapers.org/rec/MEIBAN",
+        primary: true,
+      },
+      {
+        title: "Quentin Meillassoux — akademik profil",
+        publisher: "Université Paris 1 Panthéon-Sorbonne",
+        url: "https://www.pantheonsorbonne.fr/page-perso/quentin.meillassoux%40",
+      },
+      {
+        title: "Quentin Meillassoux",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Quentin_Meillassoux",
+      },
+    ],
+    content: `Yirmi yıl önce yazılmış bir metnin bugün yayımlanması, felsefede sık rastlanan bir şey değil. Bu yılın dikkat çekici yayınlarından biri tam olarak bu.
+
+Fransız filozof **Quentin Meillassoux**'nun *Varlık ve Hiçlik* başlıklı metni, *Derrida Today* dergisinin 19. cildinin 2. sayısında yer alıyor. Metin güncel bir tartışmaya müdahale değil; **1997 tarihli doktora tezinin on dokuzuncu bölümü**.
+
+Tezin adı *L'Inexistence divine* — "Tanrısal Var-olmayış". Meillassoux'nun uluslararası üne kavuşmasından dokuz yıl önce yazılan bu çalışma bugüne kadar kitap olarak yayımlanmadı; yalnızca bölümleri, dağınık biçimde çevrildi. Yeni yayımlanan metin de bu parçalı gün yüzüne çıkışın son halkası.
+
+## Metinde ne var?
+
+Meillassoux burada Derrida, Hegel ve Heidegger üzerinden **varlık ve hiçlik** sorununu ele alıyor.
+
+Yaptığı hamle teknik ama sonuçları geniş. Heidegger'in *ontolojik farkı* — varlık ile var olanlar arasındaki ayrım — Meillassoux'da yerinden oynatılıyor: Aynı fark, bu kez **zorunluluk ile olumsallık arasında** yeniden kuruluyor.
+
+Buna bağlı olarak olumsuzlama da ikiye ayrılıyor: zorunlu bir hiçlik (*le néant*) ile olumsal bir hiç (*le rien*). Bu ayrım, Meillassoux'nun sonradan **olgusallık ilkesi** (*principe de factualité*) adını vereceği düşüncenin ilk biçimi.
+
+Metnin değeri burada. Meillassoux'nun 2006'da yayımlanacak kitabıyla tanınan tezi, ilk kez bu erken metinde, üstelik Derrida'yla hesaplaşma içinde biçimleniyor.
+
+## Olgusallık: zorunlu olan, olumsallığın kendisidir
+
+Meillassoux'nun merkezî iddiası tek cümlede özetlenebilir:
+
+> **Hiçbir şeyin zorunlu olmaması zorunludur.**
+
+Yani zorunlu olan tek şey, olumsallığın kendisidir. Her şey başka türlü olabilir — ve bu "olabilirlik" tesadüfi değil, mutlak bir ilkedir.
+
+Bu düşünce 2006 tarihli *Après la finitude* (2008'de İngilizceye *After Finitude* olarak çevrildi) kitabının temelini oluşturdu. Meillassoux orada Kant sonrası felsefede egemen olduğunu düşündüğü bir tutumu hedef aldı: **korelasyonculuk**.
+
+Korelasyonculuk, kabaca, varlığa düşünceden bağımsız olarak erişemeyeceğimizi savunan yaklaşım. Kant'tan sonraki felsefenin büyük bölümü, bilinebilir olanı "insan ile dünya arasındaki ilişki" ile sınırlar.
+
+Meillassoux'nun itirazı bilimden geliyor. Radyoaktif tarihleme, kozmoloji ve jeoloji, insanın — hatta yaşamın — ortaya çıkışından milyarlarca yıl önceki olayları betimliyor. Meillassoux bunlara **atalık** (*ancestralité*) diyor ve şunu soruyor: Bu ifadeler ne anlama geliyor? Korelasyoncu için "insan için evrenin yaşı 13,8 milyar yıldır" demekten başka seçenek yoktur. Meillassoux'ya göre bu, bilimin söylediğini ciddiye almamaktır.
+
+## Hiper-kaos
+
+Olgusallık ilkesinin en radikal sonucu **hiper-kaos** (*hyper-chaos*) kavramı.
+
+Buradaki iddia yalnızca olayların rastlantısal olduğu değil. **Doğa yasalarının kendisi de zorunlu değil.** Yasalar herhangi bir anda, hiçbir neden olmaksızın değişebilir.
+
+Bu, sezgiye aykırı bir konum ve Meillassoux da bunu biliyor. Savunması şu: Yasaların zorunlu olduğunu düşünmemizin tek dayanağı, şimdiye kadar değişmemiş olmaları. Ama bu, Hume'un iki buçuk yüzyıl önce gösterdiği gibi, bir kanıt değil bir alışkanlıktır. Meillassoux Hume'un sonucunu kabul edip farklı bir yere gidiyor: Tümevarım temellendirilemez — çünkü temellendirilecek bir zorunluluk yoktur.
+
+## Spekülatif realizmden sonra
+
+Meillassoux'nun adı, 2007'de Londra'da Goldsmiths'te düzenlenen bir çalıştaydan doğan **spekülatif realizm** başlığıyla anılıyor. Ray Brassier, Iain Hamilton Grant ve Graham Harman ile birlikte, 2000'lerin ortasında felsefede yeni bir gerçekçilik arayışının merkezinde yer aldı.
+
+Bugün tablo değişmiş durumda. 2025'te yayımlanan *After Speculative Realism*, hareketin ilk döneminden sonra hangi yönlere evrildiğini tartışıyor. Aynı yıl *Sententiae* dergisinde çıkan bir çalışma ise Meillassoux'yu **Fransız spiritüalizm geleneği** bağlamında yeniden değerlendiriyor.
+
+Bu, kayda değer bir dönüşüm: Meillassoux artık "yükselen genç filozof" olarak değil, **21. yüzyıl felsefesinin ilk çeyreğini biçimlendirmiş bir düşünür** olarak, felsefe tarihi araştırmasının konusu hâline geliyor.
+
+## Metafiziğin dışına: sinema ve şiir
+
+Meillassoux'nun etkisi metafizik çevrelerinin dışına taşmış durumda.
+
+Frédéric Brayard'ın *Hyperchaos Cinema* adlı çalışması, Meillassoux'nun spekülatif materyalizmini çağdaş Fransız sineması ve dijital görüntü tartışmalarıyla ilişkilendiriyor. Kitap Bloomsbury'nin "Thinking Cinema" dizisinde yayıma hazırlanıyor.
+
+Şiir tarafı ise Meillassoux'nun kendi gündeminde. Paris 1 Panthéon-Sorbonne'daki akademik profilinde araştırma konuları arasında **Mallarmé, şans ve şiir** sayılıyor. Bu ilgi 2011'de *Sayı ve Siren* kitabında somutlaşmıştı: Mallarmé'nin *Bir zar atımı asla rastlantıyı ortadan kaldırmayacaktır* şiirinden hareketle sayı, şans, sonsuzluk ve anlam arasındaki ilişkiyi inceleyen bir çözümleme.
+
+Bu ayrıntı önemli. Meillassoux için olumsallık soyut bir metafizik kavram değil; bilimi, şiiri ve insanın gelecek tasavvurunu aynı anda ilgilendiren bir problem.
+
+## Neden bugün okunuyor?
+
+Meillassoux'nun güncelliği birkaç soruda toplanıyor:
+
+Evrenin yasaları zorunlu mu, yoksa her şey başka türlü de olabilir miydi? Her şey başka türlü olabilirse, bilimin keşfettiği yasaların statüsü nedir? İnsan yokken gerçekleşmiş olaylar hakkında bilgi sahibi olabiliyorsak, "insan ile gerçeklik arasındaki ilişki" felsefenin merkezinde kalmalı mı?
+
+Ve en radikali: Bugün imkânsız saydığımız şeyler gerçekten imkânsız mı?
+
+Bu sorular Meillassoux'nun düşüncesini yapay zekâdan kozmolojiye, matematikten sinemaya uzanan geniş bir alanda tartışılır kılıyor.
+
+## Kısa bir kronoloji
+
+| Yıl | Gelişme |
+|---|---|
+| 1997 | *L'Inexistence divine* — doktora tezi (kitap olarak yayımlanmadı) |
+| 2006 | *Après la finitude* Fransızca yayımlandı |
+| 2008 | *After Finitude* İngilizce yayımlandı |
+| 2011-2012 | Mallarmé üzerine *Sayı ve Siren* |
+| 2025 | *After Speculative Realism*; Fransız spiritüalizmi bağlamında yeniden değerlendirme |
+| 2026 | 1997 tezinden *Varlık ve Hiçlik* yayımlandı |
+
+Bu tablo, 2026'nın Meillassoux açısından yeni bir manifesto yılı olmadığını gösteriyor. Daha çok **erken döneminin yeniden keşfedildiği ve etkisinin başka alanlara yayıldığı** bir yıl.
+
+---
+
+*Not: \`Derrida Today\` yılda iki kez, mayıs ve kasım aylarında yayımlanıyor. Metnin künye bilgileri PhilPapers kaydına dayanmaktadır.*`,
+  },
+  {
+    title: "Rebecca Goldstein'dan 'Önemseme İçgüdüsü': bizi ilerleten ve bölen aynı ihtiyaç",
+    slug: "rebecca-goldstein-mattering-instinct-kitap",
+    summary:
+      "Goldstein'ın yeni kitabı tek bir dürtüyü izliyor: önemli olma ihtiyacı. Yazara göre bu ihtiyaç insanın en büyük başarılarının da, yalnızlık, kutuplaşma ve aşırılık gibi en inatçı sorunlarının da kaynağında duruyor.",
+    seoTitle: "The Mattering Instinct — Rebecca Newberger Goldstein",
+    metaDescription:
+      "Rebecca Newberger Goldstein'ın The Mattering Instinct kitabı: önemseme içgüdüsü, dört önem projesi ve modern toplumun yalnızlık, kutuplaşma, aşırılık sorunları.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Rebecca_Goldstein.jpg?width=1600",
+    imageCredit: "Rebecca Newberger Goldstein · Wikimedia Commons",
+    featured: false,
+    sourceName: "W. W. Norton & Company",
+    sourceUrl: "https://wwnorton.com/books/9781324096856",
+    publishedAt: "2026-08-26T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "etik", "zihin-felsefesi", "demokrasi"],
+    philosopherSlugs: ["rebecca-goldstein"],
+    sources: [
+      {
+        title: "The Mattering Instinct: How Our Deepest Longing Drives Us and Divides Us",
+        publisher: "W. W. Norton & Company",
+        date: "13 Ocak 2026",
+        url: "https://wwnorton.com/books/9781324096856",
+        primary: true,
+      },
+      {
+        title: "The Mattering Instinct — Kirkus incelemesi",
+        publisher: "Kirkus Reviews",
+        url: "https://www.kirkusreviews.com/book-reviews/rebecca-newberger-goldstein/the-mattering-instinct/",
+      },
+      {
+        title: "The Mattering Instinct",
+        publisher: "Edge.org",
+        url: "https://www.edge.org/conversation/rebecca_newberger_goldstein-the-mattering-instinct",
+      },
+    ],
+    content: `İnsanı öteki canlılardan ayıran şeyin ne olduğu sorusuna verilen yanıtlar bellidir: dil, akıl, alet kullanımı, ölüm bilinci.
+
+**Rebecca Newberger Goldstein** başka bir aday öneriyor: **önemli olma ihtiyacı.**
+
+Ocak ayında W. W. Norton tarafından yayımlanan *The Mattering Instinct: How Our Deepest Longing Drives Us and Divides Us* — "Önemseme İçgüdüsü: En Derin Özlemimiz Bizi Nasıl İlerletiyor ve Nasıl Bölüyor" — bu tek dürtüyü kitap boyunca izliyor.
+
+## Tez
+
+Goldstein'a göre her canlı kendini korumaya çalışır. İnsanda bu temel dürtü dönüşmüş, biyolojik hayatta kalmanın ötesine geçen bir şeye evrilmiştir: **var olmakla yetinmeyip, var oluşunun bir ağırlığı olduğuna inanma ihtiyacı.**
+
+Kitabın adındaki *mattering* sözcüğü İngilizcede hem "önem taşımak" hem de "hesaba katılmak" anlamına geliyor; Türkçede tek sözcükle karşılamak güç. Goldstein'ın kastettiği şu: Yalnızca yaşamak değil, yaşamın bir yere kaydedilmiş olması.
+
+Bu ihtiyaç yazara göre insanlığın en büyük başarılarının kaynağında duruyor. Bilim, sanat, felsefe, siyasal mücadele — hepsi bir biçimde "önem projeleri".
+
+## Dört yol
+
+Kitabın omurgasını, insanların önem arayışını yürüttüğü dört farklı yol oluşturuyor:
+
+**Aşkınlık.** Kendinden büyük bir şeye — bir dine, bir davaya, bir ulusa, bir ideale — bağlanarak önem kazanmak.
+
+**Toplumsal bağ.** Başkaları tarafından görülmek, sevilmek, hatırlanmak; bir topluluğa ait olmak.
+
+**Mükemmeliyet.** Bir işi iyi yapmak; ustalık, zanaat, bilgi ya da sanat yoluyla değer üretmek.
+
+**Rekabet.** Başkalarıyla kıyaslanarak öne çıkmak; sıralamada yükselmek.
+
+Goldstein'ın dikkat çektiği nokta, bu dördünün ahlaki bakımdan eşit olmadığı. İlk üçü büyük ölçüde toplamı büyütürken, dördüncüsü sıfır toplamlı bir oyun kurar: Benim önemim, ancak senin öneminin azalmasıyla artar.
+
+## Bölünme buradan geliyor
+
+Kitabın ikinci yarısı bu tezi güncel sorunlara bağlıyor.
+
+Goldstein'a göre modern toplumların en inatçı üç sorunu — **yalnızlık, aşırılık ve kutuplaşma** — karşılanmamış önem ihtiyacının farklı görünümleri.
+
+Yalnızlık, önemin en temel kaynağının, yani başkalarınca görülmenin kesilmesidir. Aşırılık, aşkınlık yolunun kapandığı yerde ortaya çıkan hızlı bir ikamedir: Radikal bir dava, bireye tek hamlede tarihsel bir ağırlık vaat eder. Kutuplaşma ise rekabet yolunun toplumsal ölçeğe taşınmasıdır — karşı grubu küçültmek, kendi grubunun önemini büyütmenin en ucuz yolu hâline gelir.
+
+Goldstein'ın çıkardığı sonuç karamsar değil ama rahatlatıcı da değil: Bu üç sorunun tek tek çözülemeyeceğini, çünkü aynı kaynaktan beslendiklerini söylüyor.
+
+## Yöntem
+
+Goldstein'ın işi biyoloji, psikoloji ve felsefeyi bir arada yürütmek. Bu, onun bilinen çalışma biçimi.
+
+MacArthur bursu sahibi ve ABD Ulusal Beşerî Bilimler Madalyası'nın sahibi olan Goldstein, hem felsefeci hem romancı. Gödel'in eksiklik teoremlerini anlattığı *Incompleteness*, Spinoza üzerine *Betraying Spinoza* ve antik felsefeyi çağdaş tartışmalara taşıdığı *Plato at the Googleplex* aynı yöntemi izler: Teknik bir felsefi meseleyi, kurmaca ve anlatı araçlarını kullanarak geniş bir okura açmak.
+
+*Mattering* kavramı da yeni değil. Goldstein bu fikrin ilk hâlini yıllar önce Edge.org'daki bir konuşmada ortaya koymuş, sonraki çalışmalarında geliştirmişti. Kitap, o düşüncenin olgunlaşmış hâli.
+
+## Felsefi arka plan
+
+Kitabın tezi felsefe tarihinde yalnız değil.
+
+Hegel'in **tanınma** kavramı, insanın kendilik bilincinin başka bir bilinç tarafından tanınmaya bağlı olduğunu söyler. Charles Taylor bu fikri modern kimlik siyasetinin merkezine yerleştirdi. Axel Honneth ise tanınma mücadelesini toplumsal çatışmanın temel dili olarak okudu.
+
+Goldstein'ın katkısı, bu geleneği felsefi antropoloji ile psikoloji arasında bir yere oturtmak: Tanınma yalnızca toplumsal bir talep değil, **insan türüne özgü bir motivasyon yapısı**.
+
+Kitabın en tartışmaya açık yanı da burası. "Önemseme içgüdüsü" gerçekten bir içgüdü mü, yoksa kültürel olarak biçimlenmiş bir arzu mu? Goldstein birinci yanıtı savunuyor; eleştirmenler bu noktada zorlanacağını şimdiden belirtti.
+
+## Künye
+
+- **Yazar:** Rebecca Newberger Goldstein
+- **Özgün adı:** *The Mattering Instinct: How Our Deepest Longing Drives Us and Divides Us*
+- **Yayınevi:** W. W. Norton & Company
+- **Yayım tarihi:** 13 Ocak 2026
+- **ISBN:** 9781324096856
+
+Kitabın Türkçe çevirisiyle ilgili bir duyuru henüz yapılmadı. Goldstein'ın *Plato at the Googleplex* dışındaki başlıca kitapları Türkçede bulunuyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 26 Ağustos: William James'in ölümü",
+    slug: "felsefe-tarihinde-bugun-26-agustos-william-james",
+    summary:
+      "Amerikan felsefesinin kurucu ismi William James 26 Ağustos 1910'da New Hampshire'daki evinde öldü. Aynı gün, 1728'de, pi sayısının irrasyonel olduğunu ilk kanıtlayan Johann Heinrich Lambert doğdu.",
+    seoTitle: "26 Ağustos 1910: William James'in ölümü",
+    metaDescription:
+      "William James 26 Ağustos 1910'da öldü. Pragmatizm, bilinç akışı, radikal deneycilik ve inanma istenci. Ayrıca 26 Ağustos 1728: Johann Heinrich Lambert'in doğumu.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/William_James_b1842c.jpg?width=1600",
+    imageCredit: "William James · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/William-James",
+    publishedAt: "2026-08-26T04:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "zihin-felsefesi", "epistemoloji", "din-felsefesi", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "William James | Life, Books, Psychology, Contribution, & Facts",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/William-James",
+        primary: true,
+      },
+      {
+        title: "William James",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/William_James",
+      },
+      {
+        title: "August 26 — Today in Science History",
+        publisher: "Today in Science History",
+        url: "https://todayinsci.com/8/8_26.htm",
+      },
+    ],
+    content: `**William James**, 26 Ağustos 1910'da New Hampshire'ın Chocorua kasabasındaki evinde, kalp yetmezliğinden öldü. Altmış sekiz yaşındaydı.
+
+11 Ocak 1842'de New York'ta doğmuştu. Kardeşi Henry James, çağının en önemli romancılarından biri olacaktı.
+
+Bir gün önce bu köşede [Hume ve Nietzsche'yi](/haber/felsefe-tarihinde-bugun-25-agustos-hume-nietzsche) anmıştık. Takvim ilginç bir sıralama kurmuş: Aklın kendini temellendiremediğini gösteren iki düşünürün ardından, o boşlukta ne yapılacağını soran biri geliyor.
+
+## Önce hekim, sonra psikolog, en son filozof
+
+James'in yolu düz değildi. Harvard'da tıp okudu, doktorasını aldı ama hekimlik yapmadı. Uzun bir bunalım döneminden sonra Harvard'da fizyoloji dersleri vermeye başladı; oradan psikolojiye, psikolojiden felsefeye geçti.
+
+1890'da yayımlanan **Psikolojinin İlkeleri**, on iki yılda yazılmış iki ciltlik bir eserdi ve bir bilim dalını neredeyse tek başına kurdu. Kitap bugün hâlâ okunuyor — kısmen içeriği, kısmen de olağanüstü düzyazısı için.
+
+## Bilinç akışı
+
+James'in bu kitapta ortaya koyduğu kavramlardan biri felsefenin dışına taştı: **bilinç akışı** (*stream of consciousness*).
+
+Klasik psikoloji bilinci parçalara ayırıyordu: duyumlar, izlenimler, fikirler. James bunun gözleme aykırı olduğunu söyledi. Bilinç ayrık parçalardan oluşmaz; kesintisiz akar. Bir düşünceyle bir sonraki arasında boşluk değil, geçiş vardır.
+
+Bu kavram Virginia Woolf'tan James Joyce'a modern romanın anlatı tekniğini doğrudan etkiledi. Felsefe tarihinde bir kavramın edebiyata bu kadar hızlı geçtiği örnek azdır.
+
+## Pragmatizm
+
+James'in felsefeye asıl katkısı **pragmatizm**. Fikri Charles Sanders Peirce'ten aldı, ama Peirce'in dar anlamını genişletti — Peirce sonuçtan hoşnut kalmayıp kendi konumuna "pragmatisizm" adını verdi.
+
+James'in ölçütü şu: Bir inancın anlamı, doğru olması hâlinde deneyimimizde yaratacağı farktır. İki kuram arasında hiçbir pratik fark üretmeyen bir tartışma, sözde bir tartışmadır.
+
+Bundan çıkardığı hakikat anlayışı en çok eleştirilen tezi oldu: **Hakikat, bir fikrin "nakit değeri"dir** — inancın bizi götürdüğü yerde işe yarayıp yaramadığıdır. Eleştirmenler bunu "işe yarayan her şey doğrudur" biçiminde okudu; James böyle demediğini ısrarla belirtti. Ona göre bir inancın işe yaraması, gerçeklikle uyumlu olmasının bir göstergesidir, yerine geçen bir şey değil.
+
+Tartışma yüz yıldır sürüyor. Richard Rorty'nin yirminci yüzyıl sonunda pragmatizmi yeniden gündeme getirmesi de bu hattan geldi.
+
+## İnanma istenci
+
+1896 tarihli **İnanma İstenci** konferansı, James'in en tartışmalı metni.
+
+Sorusu şu: Kanıtın yetersiz olduğu, ama karar vermemenin de bir seçenek olmadığı durumlarda ne yapmalı?
+
+James'in ölçütü üç koşullu. Seçenek **canlı** olmalı (kişi için gerçekten mümkün), **zorlayıcı** olmalı (kararsızlık da bir tercih sayılmalı) ve **ağırlıklı** olmalı (sonuçları önemli olmalı). Bu üç koşul birden sağlandığında, kanıt yetersizken bile inanmaya hakkımız vardır.
+
+Metin, dönemin katı kanıtçılığına — özellikle W. K. Clifford'un "yetersiz kanıtla inanmak her zaman yanlıştır" tezine — verilmiş bir yanıttı. Bugün din felsefesi ve epistemik sorumluluk tartışmalarında hâlâ referans.
+
+## Dinî deneyimin çeşitleri
+
+1902 tarihli **Dinî Deneyimin Çeşitleri**, James'in en çok okunan kitabı.
+
+Yöntemi kendine özgü: Dinin doğruluğunu tartışmıyor, dinî deneyimi bir olgu olarak inceliyor. Mistik yaşantıları, dönüşüm anlatılarını ve azizlik hâllerini psikolojik malzeme olarak ele alıyor; sonra soruyor: Bu deneyimlerin insan hayatındaki işlevi nedir?
+
+Kitap din psikolojisinin kurucu metni sayılıyor.
+
+## Radikal deneycilik
+
+James'in son dönem konumu **radikal deneycilik**. Buradaki iddia, deneyimin yalnızca nesneleri değil, **ilişkileri de** doğrudan içerdiği. "Ve", "ile", "arasında" gibi bağlantılar sonradan zihnin eklediği şeyler değil; deneyimin kendisinde bulunuyor.
+
+Bu tez, Hume'un atomcu deneyciliğine doğrudan bir itiraz. Hume ayrık izlenimler görür ve aralarındaki bağı alışkanlığa bağlar; James bağın da deneyimlendiğini söyler.
+
+James'in 1909 tarihli **Çoğulcu Evren**'i aynı hattı sürdürür: Gerçeklik tek bir bütün değil, birbirine gevşek bağlarla tutunan çoğul bir yapıdır.
+
+## Bugün neden konuşuluyor?
+
+James'in adı bu ay beklenmedik bir yerde geçti. Sitemizde aktardığımız [yapay zekâ ve felsefe tartışmasında](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi), zihin felsefesindeki **işlevselciliğin** kökeni tartışılırken bir okur, işlevselciliğin yapay zekâ çağında doğmadığını, Ernst Mach ve William James'in çok daha önce bir tür işlevselci olduğunu hatırlattı.
+
+Bu, James'in konumunu iyi gösteriyor: Zihni tözle değil, yaptığı işle tanımlama fikri onun düşüncesinde zaten vardı.
+
+## 1728: Johann Heinrich Lambert
+
+Aynı gün, 1728'de, Mulhouse'da **Johann Heinrich Lambert** doğdu. Matematikçi, astronom, fizikçi ve filozoftu; 1777'de öldü.
+
+Felsefe için iki katkısı önemli.
+
+Birincisi 1761'de yaptığı kanıt: **π sayısının irrasyonel olduğunu** ilk kez kesin biçimde gösterdi. Bu, iki bin yıllık bir sorunun kapanmasıydı.
+
+İkincisi 1766 tarihli *Theorie der Parallellinien*. Lambert burada Öklid'in paralellik postulatının yanlış olduğunu varsayıp ne olacağını inceledi ve çelişki bulmak yerine tutarlı bir sonuçlar dizisi elde etti. Bunlar sonradan **Öklid dışı geometrilerin** temel önermeleri olarak tanınacaktı.
+
+Bu ayrıntının felsefi ağırlığı büyük. Kant, *Saf Aklın Eleştirisi*'nde uzayın Öklidçi yapısını sentetik a priori bilginin örneği olarak kullanmıştı. Lambert'in açtığı yol yüz yıl sonra Öklid dışı geometrilerin kurulmasıyla tamamlandığında, Kant'ın bu örneği felsefenin en tartışmalı savlarından biri hâline geldi.
+
+Lambert ile Kant'ın yazıştıklarını da eklemek gerek. Kant, Lambert'in matematiksel keskinliğine büyük saygı duyuyordu.`,
+  },
+  {
     title: "Felsefeciler yapay zekâyı kullanmalı mı? Sert bir itiraz ve gelen yanıtlar",
     slug: "yapay-zeka-felsefe-arastirmasi-tartismasi",
     summary:
@@ -6132,6 +6650,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 /* ------------------------------------------------------------------ */
 
 export const books: SeedBook[] = [
+  {
+    title: "The Mattering Instinct: How Our Deepest Longing Drives Us and Divides Us",
+    slug: "the-mattering-instinct",
+    originalTitle: null,
+    publisher: "W. W. Norton & Company",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781324096856",
+    coverImage: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=80",
+    description:
+      "Goldstein, insanı ayıran şeyin \"önemli olma ihtiyacı\" olduğunu savunuyor ve bu ihtiyacın hem en büyük başarılarımızın hem de yalnızlık, aşırılık ve kutuplaşmanın kaynağında durduğunu gösteriyor.",
+    year: 2026,
+    link: "https://wwnorton.com/books/9781324096856",
+    philosopherSlug: "rebecca-goldstein",
+    postSlug: "rebecca-goldstein-mattering-instinct-kitap",
+  },
   {
     title: "The Republic of Love: Opera and Political Freedom",
     slug: "the-republic-of-love",
