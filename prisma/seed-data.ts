@@ -1489,6 +1489,566 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Comte-Sponville'den yaşam ve ölüm üzerine son sözler: 'Yaşama Fırsatı'",
+    slug: "comte-sponville-yasama-firsati",
+    summary:
+      "Fransız filozofun otuz yılda tamamladığı üçlemenin son cildi, tek bir soruyu merkeze alıyor: Yaşamayı sürdürmek bir ilke midir, yoksa koşullara bağlı bir fırsat mı? Comte-Sponville bu yılın başında aynı soruyu tıbbın sınırları üzerinden yeniden sordu.",
+    seoTitle: "André Comte-Sponville: L'opportunité de vivre ve tıbbın sınırları",
+    metaDescription:
+      "Comte-Sponville'in L'opportunité de vivre kitabı, 2026'daki tıp röportajı ve ateist bilgelik felsefesi. Epikuros, Stoacılar, Montaigne, Spinoza hattı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9_Comte-Sponville_-_Salon_du_livre_de_Paris_-_23_mars_2014.JPG?width=1600",
+    imageCredit: "André Comte-Sponville, Paris Kitap Fuarı, 2014 · Wikimedia Commons",
+    featured: true,
+    sourceName: "PUF · RTS",
+    sourceUrl: "https://www.puf.com/lopportunite-de-vivre",
+    publishedAt: "2026-08-27T05:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "din-felsefesi", "kavram", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "L'opportunité de vivre : ultimes études",
+        publisher: "Presses Universitaires de France",
+        date: "Ocak 2025",
+        url: "https://www.puf.com/lopportunite-de-vivre",
+        primary: true,
+      },
+      {
+        title: "Le philosophe André Comte-Sponville interroge les limites de la médecine",
+        publisher: "RTS — Forum",
+        date: "11 Şubat 2026",
+        url: "https://www.rts.ch/audio-podcast/2026/audio/le-philosophe-andre-comte-sponville-interroge-les-limites-de-la-medecine-son-interview-29148341.html",
+      },
+      {
+        title: "L'Opportunité de vivre, la dernière leçon de sagesse d'André Comte-Sponville",
+        publisher: "PUF",
+        url: "https://www.puf.com/lopportunite-de-vivre-la-derniere-lecon-de-sagesse-dandre-comte-sponville",
+      },
+    ],
+    content: `Fransa'da felsefeyi akademinin dışına taşıyan kuşağın en çok okunan ismi, geç dönem düşüncesinin bilançosunu çıkardı.
+
+**André Comte-Sponville**'in *L'opportunité de vivre: ultimes études* — "Yaşama Fırsatı: Son İncelemeler" — adlı kitabı geçen yılın ocak ayında PUF tarafından yayımlandı. Üç yüz sayfalık cilt, altmışlı yıllardan bu yana süren bir düşünme hattının kapanış metni olarak sunuluyor.
+
+Alt başlıktaki *ultimes* sözcüğü hem "son" hem "nihai" anlamına geliyor. Comte-Sponville'in tercihi bilinçli görünüyor.
+
+## Otuz yıllık bir üçleme
+
+Kitap tek başına durmuyor. 1994'te *Valeur et vérité (Études cyniques)* ile başlayan, 2015'te *Du tragique au matérialisme (et retour)* ile süren bir dizinin üçüncü ve son cildi.
+
+Yapısı iki bölümlü: Önce felsefe tarihinden altı inceleme, ardından beyin, maneviyat ve materyalizm üzerine üç deneme.
+
+Comte-Sponville bu incelemelerde kendi düşünsel güzergâhını, tercih ettiği ustalar üzerinden aydınlatıyor: **Epikuros, Stoacılar, Montaigne, Spinoza, Alain ve Marcel Conche.**
+
+Bu isim dizisi tesadüfi değil. Hepsi, ölüm karşısında teselli değil **açıklık** öneren bir gelenekten geliyor.
+
+## Merkezdeki soru
+
+Kitabın çekirdeğinde çarpıcı bir soru var:
+
+**Yaşamayı sürdürmek mi, yoksa yaşamı sonlandırmak mı?**
+
+Comte-Sponville'in yanıtı, sorunun kendisini yeniden çerçeveleyerek geliyor. Ona göre bu bir **ilke** meselesi değil, bir **fırsat** meselesidir.
+
+Ayrım şu: Bir ilke koşullardan bağımsız olarak geçerlidir; "yaşam her koşulda sürdürülmelidir" demek, ilke dilidir. Fırsat ise koşullara bağlıdır; değerlendirilmeyi, tartılmayı gerektirir.
+
+Epikuros, Stoacılar ve Montaigne'in ortak dersi Comte-Sponville'e göre budur. Yaşam mutlak bir buyruk değil, elimize geçmiş bir imkândır — ve tam da bu yüzden bütün özenimizi hak eder.
+
+Buradaki incelik gözden kaçırılmamalı. Yaşamı bir fırsat saymak onu değersizleştirmez; tersine, ona verilen değeri kişinin kendi kararına bağlar.
+
+## Şubat 2026: tıbbın sınırları
+
+Kitabın tezi bu yılın başında somut bir tartışmaya bağlandı.
+
+11 Şubat 2026'da İsviçre'nin RTS kanalındaki *Forum* programına konuk olan Comte-Sponville, **tıbbın sınırları** üzerine konuştu. Yayının başlığı doğrudandı: "Filozof André Comte-Sponville tıbbın sınırlarını sorguluyor."
+
+İki metin birlikte okunduğunda ortaya net bir gündem çıkıyor. Modern tıp, yaşamı sürdürme kapasitesini sürekli genişletiyor. Ama kapasitenin genişlemesi, tek başına, o kapasitenin nerede kullanılması gerektiğini söylemiyor.
+
+Comte-Sponville'in "ilke değil fırsat" ayrımı tam bu noktada iş görüyor: Bir hayatın sürdürülüp sürdürülmeyeceği sorusu teknik bir soru değil, kişinin kendi hayatı üzerine verdiği bir karardır.
+
+Bu, Fransa'da yaşam sonu düzenlemeleri tartışılırken filozofun konumunu da açıklıyor.
+
+## Ateist bir bilgelik felsefesi
+
+Comte-Sponville'in bugünkü yerini anlamak için asıl anahtar burada.
+
+Kendisini ateist olarak tanımlıyor; ama maneviyatı ateizmin dışına atmıyor. **Tanrısız bir maneviyat** düşüncesi, onun en özgün katkısı sayılıyor.
+
+Buradaki iddia şu: Aşkınlık deneyimi — sonsuzluk duygusu, evrenle bütünlük hissi, hayranlık — bir tanrı inancını gerektirmez. Bu deneyimler doğanın kendisine, varlığın olduğu gibi kavranmasına bağlanabilir. Spinoza'nın izi burada belirgin.
+
+Aynı çizgi mutluluk anlayışını da belirliyor. *Le Bonheur, désespérément* — "Umutsuzca Mutluluk" — kitabında geliştirdiği tez şuydu: Mutluluk beklemekle değil, beklemeyi bırakmakla gelir. Umut, tanımı gereği, sahip olmadığımız bir şeye yöneliktir; dolayısıyla umut eden kişi hep eksiktedir. Bilgelik, arzuyu gelecekten şimdiye çekmektir.
+
+Bu tezin *L'opportunité de vivre*'deki yaşam-fırsat düşüncesiyle bağı açık: İkisi de aynı hamleyi yapıyor — değeri gelecekteki bir vaatten alıp mevcut duruma yerleştirmek.
+
+## Yetmiş dört yaşında hâlâ sahnede
+
+1952 doğumlu Comte-Sponville, Sorbonne'daki akademik görevinden ayrıldıktan sonra da yazmayı ve konuşmayı sürdürdü. Kitabın tanıtımı için 1 Nisan 2025'te düzenlenen konferans ve imza günü, bu kamusal varlığın son örneklerinden biriydi.
+
+Fransız medyasında yakın dönemde dikkat çeken bir başlık daha var: Comte-Sponville'in kısa video platformlarındaki görünürlüğü. RTL, bu yılın şubat ayında onu **"TikTok'un felsefe hocası"** diye anmıştı.
+
+Bu, ilk bakışta bir tuhaflık gibi görünebilir. Ama Comte-Sponville'in felsefe anlayışıyla birlikte düşünüldüğünde tutarlı: Kariyeri boyunca akademik jargondan kaçındı, geniş okura seslenen bir dil kurdu. Yeni mecra, eski tercihinin devamı.
+
+Sitemizde geçen hafta aktardığımız [yapay zekâ ve felsefe tartışmasının](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi) yanına konduğunda ortaya ilginç bir tablo çıkıyor: Felsefenin mecra değiştirmesi, kimi için bir çözülme belirtisi, kimi için ulaşabilirliğin genişlemesi.
+
+## Türkçede
+
+Comte-Sponville'in *Büyük Erdemler Risalesi*, *Umutsuzca Mutluluk*, *Felsefeyi Takdimimdir* ve *Ateist Maneviyat* gibi kitapları Türkçeye çevrildi. *L'opportunité de vivre* için henüz bir çeviri duyurusu yapılmadı.`,
+  },
+  {
+    title: "Münif Paşa ve hukuk felsefesi: hukuk, felsefenin görünür hâli midir?",
+    slug: "munif-pasa-hukuk-felsefesi",
+    summary:
+      "Mecmua-i Fünun'un kurucusu Münif Paşa, Osmanlı'da modern düşüncenin taşıyıcılarından biriydi. Hukuk felsefesi açısından bakıldığında mirası daha da belirginleşiyor: Kanunlar bir toplumun nasıl yönetildiğini değil, insanı nasıl gördüğünü gösterir.",
+    seoTitle: "Münif Paşa ve hukuk felsefesi",
+    metaDescription:
+      "Münif Paşa, Mecmua-i Fünun ve Cemiyet-i İlmiye-i Osmaniye. Tanzimat döneminde akıl, hukuk ve adalet ilişkisi üzerine bir okuma.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnif_Pa%C5%9Fa.jpg",
+    imageCredit: "Mehmed Tahir Münif Paşa (1830-1910) · Wikimedia Commons",
+    featured: false,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-27T05:10:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["hukuk-felsefesi", "tarih", "aydinlanma", "siyaset-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Mehmed Tahir Münif Paşa",
+        publisher: "Wikimedia Commons",
+        url: "https://commons.wikimedia.org/wiki/Category:Mehmed_Tahir_M%C3%BCnif_Pasha",
+      },
+    ],
+    content: `Osmanlı düşünce tarihinde Münif Paşa'nın adı genellikle iki başlıkla anılır: *Mecmua-i Fünun*'un kuruculuğu ve Batı düşüncesinin Osmanlı entelektüel hayatına aktarılmasındaki rolü.
+
+Bu iki başlık doğru ama eksik. Mehmed Tahir Münif Paşa'nın (1830-1910) asıl önemi, Osmanlı toplumunun geleneksel bilgi düzeni ile modern bilim, hukuk ve siyaset düşüncesi arasında bir **geçiş alanı** açmasında yatıyor.
+
+Bu geçişin merkezinde tek bir kavram duruyor: akıl.
+
+## Bir yorumlama anahtarı
+
+Münif Paşa'nın düşüncesini hukuk felsefesi açısından okumak için işe yarar bir önerme var:
+
+> **Hukuk, felsefenin görünür hâlidir.**
+
+Bu cümle Münif Paşa'ya ait değil. Onun sözü olarak değil, düşüncesini bugünden anlamlandırmak için kullanılabilecek bir okuma anahtarı olarak öneriliyor.
+
+İşleyişi şöyle: Felsefe soyut düzeyde sorar — adalet nedir, insan nedir, özgürlük ne anlama gelir, devletin meşruiyeti nereden gelir? Hukuk ise aynı sorulara toplum düzeni içinde **somut cevaplar** üretir.
+
+Bir toplumun felsefesi, o toplumun hukuk metinlerinde kurumsallaşmış hâlde durur.
+
+## Kanunun varlığı adaletin varlığı mıdır?
+
+Hukuk felsefesinin en eski sorusu burada devreye giriyor.
+
+Bir toplumda çok sayıda hukuk kuralı bulunabilir. Ama kuralların çokluğu adaletin varlığını kanıtlamaz. Asıl mesele, o kuralların hangi düşünsel ve ahlaki temele dayandığıdır.
+
+Bu soru dört alt soruya açılır ve dördü de doğrudan felsefidir:
+
+- Hukuk yalnızca gelenekten mi kaynaklanır?
+- Devletin iradesi hukukun tek kaynağı olabilir mi?
+- Bir yasa yürürlükte olduğu için adil sayılabilir mi?
+- Ahlak ile hukuk arasında nasıl bir ilişki vardır?
+
+On dokuzuncu yüzyıl Osmanlı toplumu bu sorularla teorik bir merakla değil, **pratik bir zorunlulukla** karşılaştı.
+
+## Tanzimat: idari değil, zihinsel bir dönüşüm
+
+Münif Paşa'nın yaşadığı dönem, Osmanlı'nın hukuk ve devlet anlayışının kökten dönüştüğü dönemdi.
+
+Devletin yeniden düzenlenmesi, vatandaşlık ilişkilerinin tanımlanması, eğitim sisteminin modernleştirilmesi ve yeni hukuk kurumlarının kurulması — bunların hiçbiri salt idari işlem değildi.
+
+Hepsinin arkasında tek bir soru vardı: **Devlet hangi ilkelere göre yönetilmelidir?**
+
+Bu, tanımı gereği felsefi bir sorudur. Ve bir kez sorulduğunda geri alınamaz.
+
+Münif Paşa'nın entelektüel faaliyetini önemli kılan da bu tarihsel eşikte durmasıdır. Batı'daki bilimsel ve felsefi gelişmeleri Osmanlı çevresine tanıtmak için yaptığı iş, yalnızca bilgi aktarımı değildi; hukuk ve siyaset düşüncesinin de dönüşebileceği yeni bir zihinsel alan açıyordu.
+
+## Mecmua-i Fünun: yeni düşüncenin dili
+
+Münif Paşa'nın çıkardığı *Mecmua-i Fünun*, Osmanlı'da modern bilim ve düşünce tarihinin dönüm noktalarından biriydi.
+
+Derginin sayfalarında felsefe, tarih, coğrafya, iktisat, hukuk ve doğa bilimlerinin bir arada bulunması tesadüf değil. Modern düşüncenin ayırt edici özelliklerinden biri, bilginin farklı alanları arasında ilişki kurmasıdır. Dergi bu ilişkiyi kurmanın aracıydı.
+
+Hukuk da bu dönüşümün dışında kalmadı. Yeni hukuk anlayışı yeni kanunlar hazırlamaktan ibaret değildi. İnsan, toplum, devlet, özgürlük ve eşitlik hakkındaki düşünceler değiştikçe hukukun dayandığı **meşruiyet zemini** de değişiyordu.
+
+Bu yüzden Münif Paşa'yı yalnızca "Batılılaşma" başlığı altında okumak yetersiz kalır. O, Osmanlı toplumunda akla dayalı, eleştirel ve bilimsel bir düşünme biçiminin yaygınlaşmasına katkıda bulunan isimlerden biriydi.
+
+## Felsefe hukukta nasıl görünür olur?
+
+Önermenin işleyişini somutlaştırmak mümkün.
+
+Bir toplum insanı **özgür bir varlık** kabul ediyorsa, bunun hukukta karşılığı olmak zorundadır. İnsanları **eşit** kabul ediyorsa, hukuk düzeni eşitlik ilkesini taşır. **Mülkiyeti** temel bir hak sayıyorsa, bunu güvence altına alır. **Devletin gücünü sınırlamak** istiyorsa, anayasal kurumlar doğar. **İnsan onurunu** merkeze alıyorsa, hak ve özgürlükler hukukun temel unsuru hâline gelir.
+
+Yani hukuk metinleri, bir toplumun insan ve adalet hakkındaki düşüncelerinin kurumsallaşmış biçimleridir.
+
+Münif Paşa döneminin hukuk tartışmalarının ağırlığı da buradan gelir. Osmanlı'nın hukuk düzenini değiştirmek yalnızca kanun değiştirmek değildi; **adalet, devlet ve insan hakkındaki düşünceyi dönüştürmek** anlamına geliyordu.
+
+## Neden bugün okunmalı?
+
+Münif Paşa, Şinasi, Namık Kemal ve Ali Suavi ile birlikte Osmanlı modernleşmesinin düşünsel iklimini kuran kuşağın temsilcilerinden.
+
+Ancak onun düşüncesi siyasi polemikten çok bilim, eğitim, akıl ve düşüncenin toplumsal ilerlemedeki rolü üzerinden okunmaya elverişli. Bu, onu bugünkü tartışmalar açısından daha kullanışlı kılıyor.
+
+Çünkü hukuk hiçbir zaman yalnızca maddelerden ibaret değildir:
+
+- Her hukuk düzeninin arkasında bir **insan anlayışı** vardır.
+- Her anayasanın arkasında bir **devlet tasavvuru** vardır.
+- Her hak kavramının arkasında bir **özgürlük düşüncesi** vardır.
+- Ve her adalet anlayışının arkasında, açık ya da örtük, bir **felsefe** bulunur.
+
+Bu açıdan bakıldığında Münif Paşa'nın dönemindeki hukuk tartışmaları, Osmanlı toplumunun "Nasıl bir insan, nasıl bir toplum, nasıl bir devlet istiyoruz?" sorularına verdiği cevapların tarihidir.
+
+## Miras
+
+Münif Paşa'yı Tanzimat'ın bir bürokratı ya da *Mecmua-i Fünun*'un kurucusu olarak görmek, onun yerini daraltır.
+
+Asıl mirası, akla, bilime ve düşünsel yenilenmeye dayalı bir toplum fikrinin oluşmasına yaptığı katkıda aranmalı.
+
+Hukuk felsefesi açısından ise dönemi bize daha geniş bir gerçeği hatırlatıyor: **Kanunlar bir toplumun yalnızca nasıl yönetildiğini değil, insanı nasıl gördüğünü de gösterir.**
+
+Bu nedenle hukuku anlamak için yalnızca kanun kitaplarına değil, o kanunların arkasındaki felsefeye bakmak gerekir.
+
+Ve belki de Münif Paşa'yı bugün yeniden düşünmenin en verimli yolu budur: Hukuk felsefenin görünür hâliyse, bir toplumun hukukuna bakarak onun insan, özgürlük ve adalet hakkındaki düşüncesini de okuyabiliriz.
+
+Türkiye'de modern felsefi düşüncenin ve modern hukuk zihniyetinin oluşumunu birlikte okumak isteyenler için Münif Paşa hâlâ iyi bir başlangıç noktası.
+
+---
+
+*Sitemizde hukuk felsefesi alanındaki güncel tartışmaları da izliyoruz; [Scott Shapiro'nun hukukun kodlaşması üzerine çalışması](/haber/scott-shapiro-hukuk-kod-yapay-zeka) bu hattın çağdaş bir örneği.*`,
+  },
+  {
+    title: "Teknoloji felsefesi merkez sahneye çıkıyor: alanın kapsamlı el kitabı",
+    slug: "teknoloji-felsefesi-oxford-el-kitabi",
+    summary:
+      "Shannon Vallor'ın editörlüğündeki Oxford el kitabı, teknoloji felsefesinin artık tali bir alan olmadığını gösteriyor. Heidegger'den Ellul'a, Don Ihde'nin postfenomenolojisinden algoritma etiğine uzanan hat, alanın haritasını çıkarıyor.",
+    seoTitle: "Teknoloji felsefesi: Oxford el kitabı ve alanın haritası",
+    metaDescription:
+      "The Oxford Handbook of Philosophy of Technology (ed. Shannon Vallor). Heidegger, Ellul, Don Ihde, postfenomenoloji, yapay zekâ ve algoritma etiği.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Shannon_Vallor_at_Almedalen.jpg?width=1600",
+    imageCredit: "Shannon Vallor · Wikimedia Commons",
+    featured: true,
+    sourceName: "Oxford University Press",
+    sourceUrl: "https://global.oup.com/academic/product/the-oxford-handbook-of-philosophy-of-technology-9780190851187",
+    publishedAt: "2026-08-27T04:50:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["teknoloji-felsefesi", "yapay-zeka", "etik", "fenomenoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The Oxford Handbook of Philosophy of Technology",
+        publisher: "Oxford University Press",
+        date: "15 Şubat 2022, 696 sayfa",
+        url: "https://global.oup.com/academic/product/the-oxford-handbook-of-philosophy-of-technology-9780190851187",
+        primary: true,
+      },
+      {
+        title: "The Oxford Handbook of Philosophy of Technology — içindekiler",
+        publisher: "Oxford Academic",
+        url: "https://academic.oup.com/edited-volume/40690",
+      },
+      {
+        title: "Shannon Vallor (ed.), The Oxford Handbook of Philosophy of Technology",
+        publisher: "PhilPapers",
+        url: "https://philpapers.org/rec/VALOHO",
+      },
+    ],
+    content: `Bir alanın olgunlaştığının en güvenilir işareti, kendi el kitabını üretmesidir. Ansiklopedi ve el kitapları yeni bilgi üretmez; **bir alanın kendi hakkında ne düşündüğünü** kayda geçirir.
+
+Teknoloji felsefesi bu eşiği geçti.
+
+Shannon Vallor'ın editörlüğünde Oxford University Press tarafından yayımlanan **The Oxford Handbook of Philosophy of Technology**, altı yüz doksan altı sayfalık hacmiyle alanın bugüne kadarki en kapsamlı haritası. Kitabın açılış bölümünün başlığı da niyeti gösteriyor: "Teknoloji Felsefesine Giriş".
+
+Vallor'ın kendisi bu alanın en tanınan isimlerinden. 2016 tarihli *Technology and the Virtues* kitabında Aristotelesçi, Budist ve Konfüçyüsçü geleneklerden erdemleri karşılaştırarak, teknolojiyle iyi yaşamak için hangi erdemlere ihtiyaç duyduğumuzu sormuştu.
+
+## Neden tali bir alan sayılıyordu?
+
+Teknoloji felsefesi uzun süre felsefenin kenarında kaldı. Nedeni basit ve öğretici.
+
+Klasik felsefe bölünmesi, konuları "doğal olan" ve "insan yapımı olan" diye ikiye ayırır. Doğa bilim felsefesinin, insan eylemi ise etik ve siyaset felsefesinin konusudur. **Alet**, bu şemada bir yere düşmez: Ne doğaldır ne de tam anlamıyla eylemdir. Yalnızca bir araçtır.
+
+"Yalnızca araç" varsayımı, teknolojiyi felsefi ilgiden düşüren şeydi. Çekiç ahlaki olarak nötrdür; önemli olan onu kimin, ne için kullandığıdır.
+
+Alanın kuruluşu tam da bu varsayımın reddiyle başlar.
+
+## Hat: Heidegger'den algoritmaya
+
+### Heidegger
+
+**Martin Heidegger**'in 1954 tarihli *Tekniğe İlişkin Soruşturma* metni, alanın kurucu belgesi sayılır.
+
+Heidegger'in temel iddiası şu: Teknik bir araç değil, bir **açığa çıkarma tarzıdır**. Modern teknik doğayı, hazır bekleyen bir kaynak — onun deyişiyle *Bestand*, "stok" — olarak kurar. Bir nehir artık bir nehir değil, potansiyel enerjidir. Bir orman kereste rezervidir.
+
+Bu okumada asıl mesele teknolojinin kötüye kullanılması değil; teknolojinin, dünyayı görme biçimimizi baştan biçimlendirmesidir.
+
+### Ellul
+
+**Jacques Ellul**, aynı yıllarda *La Technique* ile daha karamsar bir tez ortaya koydu: Modern toplumda teknik, kendi mantığını dayatan özerk bir sisteme dönüşmüştür. Ölçüt verimliliktir ve verimlilik başka bütün değerleri kendine tabi kılar.
+
+Ellul'ün itirazı sık yanlış anlaşılır: Makinelere değil, **verimliliğin tek ölçüt hâline gelmesine** karşıdır.
+
+### Ihde ve postfenomenoloji
+
+Alanın yönü **Don Ihde** ile değişti.
+
+Heidegger ve Ellul teknolojiyi bütün olarak, büyük harfli bir "Teknik" olarak ele alıyordu. Ihde bunun fazla toptancı olduğunu düşündü ve dikkati **tekil teknolojilere** çevirdi: Bu araç, bu kullanıcı, bu durum.
+
+Kurduğu yaklaşımın adı **postfenomenoloji**. Merkezindeki kavram **aracılık**: Teknolojiler bizimle dünya arasında durmakla kalmaz, algımızı biçimlendirir. Gözlük takan biri gözlüğü görmez, gözlükle görür. Mikroskop yeni bir nesne göstermez; görülebilir olanın sınırını değiştirir.
+
+Ihde bu ilişkileri sınıflandırdı — bedenle bütünleşen, dünyayı okunacak bir metne çeviren, arka planda çalışan araçlar — ve alana bir çözümleme dili kazandırdı. Sitemizde ayrıca ele aldığımız gibi, [bu dil yapay zekâ tartışmasında yeniden gündemde](/haber/don-ihde-postfenomenoloji-yapay-zeka).
+
+### Bugün: yapay zekâ ve algoritmalar
+
+El kitabının en canlı bölümleri, bu geleneğin çağdaş meselelere uygulandığı yerler.
+
+Bir öneri algoritması, Ihde'nin anlamında bir aracıdır: Neyi göreceğimizi belirler. Ama gözlükten farklı olarak, kendi çıkarları olan bir kurum tarafından işletilir ve nasıl çalıştığı kullanıcıya kapalıdır.
+
+Buradan çıkan sorular alanın bugünkü gündemini oluşturuyor: Bir algoritmanın kararından kim sorumludur? Şeffaflık teknik bir gereklilik mi, ahlaki bir talep mi? Dijital altyapılar demokratik denetime nasıl açılır?
+
+## Alanın kendi sorusu
+
+El kitabının örtük tezini tek cümlede toplamak mümkün: **Teknoloji felsefesi, uygulamalı etiğin bir dalı değildir.**
+
+Fark önemli. Uygulamalı etik hazır ahlaki çerçeveleri yeni durumlara uygular: Faydacılık ne der, Kant ne der? Teknoloji felsefesi ise çerçevelerin kendisinin teknolojik koşullarca biçimlendiğini savunur.
+
+Örnek: "Mahremiyet" kavramı, kaydetme ve yayma teknolojileri değiştikçe içerik değiştirir. On dokuzuncu yüzyılda mahremiyet ihlali komşunun duymasıydı; bugün bir veri tabanına yazılmaktır. Kavram aynı kalmadı — teknoloji onu yeniden tanımladı.
+
+## Türkiye açısından
+
+Türkiye'de teknoloji felsefesi henüz ayrı bir alt disiplin olarak kurumsallaşmış değil; çalışmalar çoğunlukla bilim felsefesi, etik ya da medya çalışmaları başlıkları altında yürüyor.
+
+Oysa yapay zekâ tartışmasının hem kamusal hem akademik gündemi bu kadar meşgul ettiği bir dönemde, alanın kendi diline sahip olması pratik bir ihtiyaç. Vallor'ın el kitabı, o dilin nereden kurulacağını gösteren bir başvuru kaynağı.
+
+## Künye
+
+- **Editör:** Shannon Vallor
+- **Yayınevi:** Oxford University Press (Oxford Handbooks dizisi)
+- **Yayım:** 15 Şubat 2022 · 696 sayfa
+- **ISBN:** 9780190851187`,
+  },
+  {
+    title: "Yapay zekâ çağında Don Ihde: teknoloji insan deneyimini nasıl değiştiriyor?",
+    slug: "don-ihde-postfenomenoloji-yapay-zeka",
+    summary:
+      "Postfenomenolojinin kurucusu Don Ihde 2024'te, doksanıncı doğum gününden üç gün sonra öldü. Stony Brook'ta düzenlenen anma konferansı ve ardından gelen tartışmalar, onun aracılık kuramının yapay zekâ çağında beklenmedik bir güncellik kazandığını gösteriyor.",
+    seoTitle: "Don Ihde ve postfenomenoloji: yapay zekâ çağında yeniden okuma",
+    metaDescription:
+      "Don Ihde (1934-2024), postfenomenoloji, teknolojik aracılık ve Technics and Praxis. Stony Brook anma konferansı ve yapay zekâ çağındaki güncelliği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Don_Ihde.jpg?width=1600",
+    imageCredit: "Don Ihde · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stony Brook University",
+    sourceUrl: "https://news.stonybrook.edu/university/don-ihde-founder-of-stony-brook-philosophy-honored-at-memorial-conference/",
+    publishedAt: "2026-08-27T04:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["teknoloji-felsefesi", "fenomenoloji", "yapay-zeka", "vefat"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Don Ihde, Founder of Stony Brook Philosophy, Honored at Memorial Conference",
+        publisher: "Stony Brook University",
+        date: "6 Aralık 2024",
+        url: "https://news.stonybrook.edu/university/don-ihde-founder-of-stony-brook-philosophy-honored-at-memorial-conference/",
+        primary: true,
+      },
+      {
+        title: "Don Ihde",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Don_Ihde",
+      },
+      {
+        title: "Don Ihde: 1934-2024",
+        publisher: "Journal of Human-Technology Relations",
+        url: "https://journals.open.tudelft.nl/jhtr/article/download/7858/6094/29223",
+      },
+    ],
+    content: `**Don Ihde**, 17 Ocak 2024'te öldü. Doksanıncı doğum gününü kutlamasının üzerinden üç gün geçmişti.
+
+Stony Brook Üniversitesi Felsefe Bölümü'nün kurucusuydu; bölümü yetmişli yılların başında kurmuş, 2012'de kırk üç yıllık görevinin ardından emekli olmuştu. Yirmiden fazla kitap yazdı, çok daha fazlasını derledi; çalışmaları bir düzine dile çevrildi.
+
+Ölümünün ardından bölüm, kasım ayında bir anma konferansı düzenledi. Konferansı bölüm başkanı **Robert Crease** ile doktora öğrencisi **Juan Arteaga** organize etti; Ihde'nin yetmişli yıllardaki ilk öğrencilerinden son doktora öğrencisine uzanan kırk kişilik bir katılımcı topluluğu bir araya geldi.
+
+Crease'in konferansta kullandığı ifade, alandaki genel kanaati yansıtıyor: **"Amerika'nın en büyük teknoloji filozofuydu — ve öncüsüydü."**
+
+## Alanın kurucu metni
+
+Ihde'nin 1979'da yayımlanan **Technics and Praxis** kitabı, çoğunlukla Kuzey Amerika'da teknoloji felsefesi alanındaki ilk çalışma sayılır.
+
+O tarihte teknoloji felsefesi diye bir alt disiplin yoktu. Avrupa'da Heidegger ve Ellul'ün metinleri vardı; ama bunlar teknolojiyi bütün olarak, kültürel bir kader olarak ele alıyordu.
+
+Ihde başka bir yol seçti.
+
+## Postfenomenoloji: toptancılıktan çıkış
+
+Ihde'nin kurduğu yaklaşımın adı **postfenomenoloji**. Baştaki "post" ekini iki anlamda kullanıyor: Hem klasik fenomenolojiden sonra gelmek, hem de onun bazı varsayımlarından ayrılmak.
+
+Ayrıldığı nokta şu: Klasik fenomenoloji, deneyimin genel yapılarını arar. Ihde ise deneyimin **her zaman bir aracılıkla** kurulduğunu, dolayısıyla aracın kendisinin çözümlemeye girmesi gerektiğini savunur.
+
+Ve bu aracılar tek tek incelenmelidir. "Teknoloji" diye tek bir şey yoktur; teleskop, işitme cihazı, otomobil ve arama motoru farklı deneyim yapıları üretir. Yaklaşımı **antroposantrik değildir**: Merkeze ne insan ne makine konur, ikisinin oluşturduğu ilişki konur.
+
+## Aracılık: neyi nasıl görüyoruz?
+
+Ihde'nin en verimli katkısı, insan-teknoloji ilişkilerinin sınıflandırması.
+
+**Bedenleşme ilişkisi.** Araç bedene katılır ve saydamlaşır. Gözlük takan kişi gözlüğü görmez, gözlükle görür. Baston kullanan kişi bastonu değil, zemini hisseder. Araç algının bir uzantısı hâline gelir.
+
+**Hermenötik ilişki.** Araç dünyayı okunacak bir metne çevirir. Termometreye bakan kişi sıcaklığı hissetmez, **okur**. Röntgen filmi kemiği göstermez; yorumlanması gereken bir gösterge sunar.
+
+**Artalan ilişkisi.** Araç fark edilmeden çevreyi biçimlendirir. Klima sesi, elektrik şebekesi, ağ altyapısı. Ancak bozulduklarında görünür olurlar.
+
+Bu şemanın gücü, teknolojiyi ne yücelten ne şeytanlaştıran bir tanım sunması. Araçlar nötr değildir — algıyı biçimlendirirler — ama belirleyici de değildir; farklı bağlamlarda farklı işler görürler. Ihde buna **çoklu-kararlılık** (*multistability*) diyor.
+
+## Ses ve müzik
+
+Ihde'nin görsel olmayan tarafı çoğu zaman gözden kaçar.
+
+**Listening and Voice: Phenomenologies of Sound** kitabı, felsefenin görme merkezli geleneğine karşı işitmeyi öne çıkarır. Batı felsefesi kavramlarını büyük ölçüde görme metaforlarıyla kurmuştur: teori (*theoria*, bakmak), aydınlanma, açıklık, kanıt.
+
+Ihde işitmenin başka bir dünya yapısı sunduğunu savunur. Ses çevreleyicidir, yönü belirsizdir, zaman içinde açılır. Sesle kurulan dünya, görmeyle kurulandan farklı bir dünyadır.
+
+Bu ilgi anma konferansında somut biçimde göründü: Ihde'yle müzik fenomenolojisi üzerine çalışmış olan müzik tarihi profesörü **Judith Lochhead**, konuşmasında müzik çalarak ikisinin yöntemini anlattı.
+
+Arteaga ise Ihde'nin kitabını beklenmedik bir alanda kullandığını anlattı: **protesto sloganlarının** çözümlenmesinde.
+
+## Yapay zekâ neden Ihde'yi gündeme getirdi?
+
+Crease'in konferans sonrası tespiti şuydu: Yapay zekâ felsefesi üzerine düşündüğümüz bugünlerde Ihde'nin çalışması her zamankinden güncel.
+
+Nedeni, sorunun biçiminde.
+
+Yapay zekâ tartışması ağırlıklı olarak iki soru etrafında yürüyor: Bu sistemler düşünüyor mu? Bilinçli olabilirler mi? Bunlar zihin felsefesinin soruları ve — sitemizde aktardığımız [tartışmanın](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi) gösterdiği gibi — kolay yanıtları yok.
+
+Ihde'nin çerçevesi soruyu değiştiriyor: **Bu sistemler dünyayı algılayışımızı nasıl biçimlendiriyor?**
+
+Bu soru, makinenin içeride ne olduğuna dair bir karar gerektirmiyor. Bir dil modeliyle çalışan kişi, gözlük takan kişiye benzer bir konumda: Araç saydamlaştığı ölçüde, ürettiği metnin bir aracılıktan geçtiği unutulur. Ihde'nin terimleriyle, bedenleşme ilişkisi kurulur ve aracın kendi eğilimleri görünmez hâle gelir.
+
+Buradan çıkan sorular teknik değil, fenomenolojik: Hangi soruları sorabileceğimiz, aracın hangi soruları kolaylaştırdığına göre mi biçimleniyor? Bir metnin "iyi" olduğuna dair sezgimiz, modelin ürettiği metin türüne göre mi kayıyor?
+
+## Miras
+
+Ihde'nin bıraktığı şey bir kuramdan çok bir **araştırma programı**.
+
+Amsterdam Üniversitesi rektörü ve teknoloji etiği profesörü **Peter-Paul Verbeek** anma konferansının konuşmacılarındandı; postfenomenolojiyi tasarım etiğine taşıyan çalışmalarıyla tanınıyor. Georgia Tech'ten **Robert Rosenberger**, Ihde'nin doktora öğrencilerinden; alanı sürdüren çalışmalar yayımlıyor.
+
+Crease'in belirttiğine göre konferanstan bir cilt derlenecek. Ihde'nin adı Stony Brook'un teknoloji felsefesindeki uluslararası konumunun da kaynağı.
+
+## Türkçede
+
+Ihde'nin kitapları henüz Türkçeye çevrilmedi. Postfenomenoloji kavramı Türkiye'de daha çok tasarım araştırmaları ve medya çalışmaları üzerinden dolaşıma girmiş durumda.
+
+Teknoloji felsefesinin Türkiye'de ayrı bir alan olarak kurulması söz konusu olduğunda, Ihde'nin metinleri başlangıç listesinin başında yer alacak gibi görünüyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 27 Ağustos: Hegel'in doğumu",
+    slug: "felsefe-tarihinde-bugun-27-agustos-hegel",
+    summary:
+      "Georg Wilhelm Friedrich Hegel 27 Ağustos 1770'te Stuttgart'ta doğdu. Bugün doğumunun 256. yıl dönümü. Tarihi aklın açılımı olarak okuyan sistem, iki yüz yıldır hem en çok izlenen hem en çok reddedilen felsefe olmayı sürdürüyor.",
+    seoTitle: "27 Ağustos 1770: Hegel'in doğumu",
+    metaDescription:
+      "Hegel 27 Ağustos 1770'te Stuttgart'ta doğdu. Diyalektik, Geist, Tinin Görüngübilimi, efendi-köle diyalektiği ve tanınma kavramı.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hegel_portrait_by_Schlesinger_1831.jpg?width=1600",
+    imageCredit: "Hegel, Jakob Schlesinger'in 1831 tarihli portresi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+    publishedAt: "2026-08-27T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "alman-idealizmi", "siyaset-felsefesi", "kavram", "marksizm"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Georg Wilhelm Friedrich Hegel | Biography, Books, & Facts",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel",
+        primary: true,
+      },
+      {
+        title: "Georg Wilhelm Friedrich Hegel",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/hegel/",
+      },
+    ],
+    content: `**Georg Wilhelm Friedrich Hegel**, 27 Ağustos 1770'te Stuttgart'ta doğdu. Bugün doğumunun **256. yıl dönümü**.
+
+14 Kasım 1831'de Berlin'de öldü. Aradaki altmış bir yıl, modern felsefenin en iddialı sistemini üretti — ve ardından iki yüz yıl sürecek bir tartışma bıraktı.
+
+## Tübingen'de üç oda arkadaşı
+
+Hegel, Tübingen'deki ilahiyat okulunda iki kişiyle oda paylaştı: **Friedrich Hölderlin** ve **Friedrich Schelling**.
+
+Üçü de Fransız Devrimi'nin ilk yıllarında gençti ve devrimi coşkuyla karşıladı. Rivayete göre birlikte bir özgürlük ağacı diktiler.
+
+Bu ayrıntı biyografik bir süs değil. Hegel'in bütün felsefesi, tarihte bir şeyin gerçekten olup bittiği — dünyanın 1789'dan sonra geri döndürülemez biçimde değiştiği — sezgisiyle kurulur.
+
+Hegel akademik yolda geç ilerledi. Otuz altı yaşına kadar özel öğretmenlik ve gazete editörlüğü yaptı, sonra Nürnberg'de lise müdürlüğü. Berlin kürsüsüne ancak elli yaşını geçtikten sonra oturdu.
+
+## Tinin Görüngübilimi
+
+1807 tarihli **Tinin Görüngübilimi**, felsefe tarihinin en zor kitaplarından biri sayılır — ve en etkililerinden.
+
+Kitabın yaptığı iş alışılmadıktır. Hegel bir kuram sunup savunmaz; bilincin kendi kendini aşarak geçtiği aşamaları, içeriden anlatır. Duyu kesinliğinden başlar, algıya, anlağa, kendilik bilincine, akla, tine, dine ve mutlak bilgiye kadar gider.
+
+Her aşama kendi içindeki çelişkiyle çöker ve bir sonrakini doğurur. **Diyalektik** budur.
+
+Yaygın "tez-antitez-sentez" formülü aslında Hegel'e ait değil; sonradan yapılmış bir sadeleştirmedir ve süreci fazlasıyla mekanikleştirir. Hegel'in kastettiği, bir konumun **kendi iç mantığı gereği** yetersizliğini açığa vurmasıdır.
+
+## Efendi ve köle
+
+Kitabın en çok okunan bölümü, kendilik bilinci tartışmasındaki **efendi-köle diyalektiği**.
+
+Anlatı şöyle: İki bilinç karşılaşır. Her biri, kendi varlığının değerini öteki tarafından **tanınmakta** bulur. Bir ölüm kalım mücadelesine girerler; biri korkup boyun eğer, diğeri efendi olur.
+
+Ama sonuç beklenmedik biçimde tersine döner. Efendi, kölenin tanımasını alır — oysa köle onun için değersiz bir bilinçtir; dolayısıyla tanınma boştur. Köle ise çalışarak doğayı biçimlendirir ve kendi emeğinde kendini görür. Gerçek gelişme kölede olur.
+
+Bu bölüm, Hegel'in en geniş etkiye sahip metni. **Marx** emek kavramını buradan geliştirdi. **Simone de Beauvoir** ötekilik çözümlemesini buna dayandırdı. Yirminci yüzyılda **Alexandre Kojève**'in Paris derslerinde yaptığı okuma, Sartre'dan Lacan'a bir kuşağı biçimlendirdi.
+
+Çağdaş **tanınma** kuramı — Charles Taylor, Axel Honneth — doğrudan bu sayfalardan çıkar. Dün bu köşede andığımız [Rebecca Goldstein'ın "önemseme içgüdüsü"](/haber/rebecca-goldstein-mattering-instinct-kitap) tezi de aynı hattın uzak bir akrabası.
+
+## Tin ve tarih
+
+Hegel'in **Geist** kavramı Türkçeye "tin" ya da "geist" olarak aktarılır. Ne bireysel bir ruhtur ne de mistik bir varlık.
+
+Kastettiği şey şu: İnsan aklı yalnızca tek tek kafaların içinde değil, kurumlarda, hukukta, sanatta, dinde ve dilde de vardır. Bunlar aklın **nesnelleşmiş** biçimleridir.
+
+Tarih felsefesi buradan doğar. Hegel'e göre dünya tarihi rastlantıların dizisi değil, **özgürlük bilincinin ilerleyişidir**. Özetlediği şema ünlüdür: Doğu despotizminde bir kişi özgürdür, Yunan ve Roma'da bazıları, modern dünyada ilkece herkes.
+
+Bu şema en çok eleştirilen tezlerinden biri. Avrupa merkezciliği, tarihe zorunlu bir yön atfetmesi ve sömürgeciliği bu şema içinde konumlandırması ciddi itirazlarla karşılandı — ve bu itirazlar haklı.
+
+## Hukuk Felsefesi ve iki cümle
+
+1820 tarihli **Hukuk Felsefesinin Ana Hatları**, siyaset felsefesinin klasiklerinden. İki cümlesi kitaptan bağımsız yaşamaya başladı.
+
+Birincisi: *"Akılsal olan gerçektir, gerçek olan akılsaldır."* Muhafazakâr bir teslimiyet olarak okundu — var olan her şey akla uygundur demek gibi. Hegel yorumcuları buna itiraz eder: "Gerçek" (*wirklich*) sözcüğü Hegel'de "mevcut olan" anlamına gelmez; kendi kavramına uygun olarak var olan demektir. Bu okumada cümle eleştirel bir ölçüt sunar.
+
+İkincisi, kitabın önsözünden: *"Minerva'nın baykuşu ancak alacakaranlık çökerken kanatlanır."* Felsefe, bir dönemi ancak o dönem tamamlanırken kavrayabilir. Anlamak, yaşananın ardından gelir.
+
+Bu cümle Felsefe Haberleri'nin amblemindeki baykuşun da kaynağıdır.
+
+## Neden hâlâ tartışılıyor?
+
+Hegel'in konumu felsefe tarihinde alışılmadıktır: Öğrencileri kadar muhalifleri de onun üzerinden düşündü.
+
+**Marx** sistemi "ayakları üzerine dikti" — diyalektiği tinden maddeye çevirdi. **Kierkegaard** bütün ömrünü sisteme itiraz ederek geçirdi: Tekil birey, hiçbir sistemin içine sığmaz. Analitik felsefe yirminci yüzyılın başında Hegel'i reddederek kuruldu; **Bertrand Russell** ve **G. E. Moore**'un idealizmden kopuşu, alanın kuruluş anıdır.
+
+Ama son kırk yılda tablo değişti. Robert Brandom ve John McDowell gibi isimlerin çalışmalarıyla Hegel analitik felsefeye geri döndü. Konu artık tarih felsefesi değil; bilginin toplumsal ve normatif boyutu.
+
+## Türkçede
+
+*Tinin Görüngübilimi*, *Mantık Bilimi*, *Hukuk Felsefesinin Prensipleri*, *Tarihte Akıl* ve *Estetik* dersleri Türkçeye çevrildi. Türkiye'de Hegel çalışmalarının uzun bir geçmişi var; sitemizde aktardığımız [Akbank Sanat felsefe seminerleri](/haber/turkiyede-akademik-felsefenin-dijital-arsivi) gibi programlarda da düzenli olarak ele alınıyor.
+
+---
+
+*Not: Hegel fotoğrafın icadından önce yaşadı. Kapaktaki görsel, Jakob Schlesinger'in 1831'de — Hegel'in ölüm yılında — yaptığı ve bugün Berlin'de bulunan portredir.*`,
+  },
+  {
     title: "Amfiden ekrana: Türkiye'de akademik felsefenin dijital arşivi büyüyor",
     slug: "turkiyede-akademik-felsefenin-dijital-arsivi",
     summary:
@@ -1752,7 +2312,7 @@ Yanıt büyük olasılıkla ikincisinde. Çünkü iyi kaydedilmiş bir felsefe s
     sourceUrl: "https://philpapers.org/rec/MEIBAN",
     publishedAt: "2026-08-26T05:30:00.000Z",
     authorSlug: "dis-haberler",
-    categorySlug: "dunya",
+    categorySlug: "cagdas-filozoflar",
     tagSlugs: ["dergi", "bilim-felsefesi", "kavram", "postmodernizm"],
     philosopherSlugs: ["quentin-meillassoux"],
     sources: [
