@@ -1529,6 +1529,21 @@ export const posts: SeedPost[] = [
         url: "https://www.youtube.com/@OnculAnalitikFelsefeDergisi",
       },
       {
+        title: "Türkiye Nietzsche Topluluğu — YouTube kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@turkiyenietzschetoplulugu",
+      },
+      {
+        title: "Marmara Felsefe — Philosophy Talks dizisi",
+        publisher: "Marmara Üniversitesi Felsefe Bölümü",
+        url: "https://flsf-itbf.marmara.edu.tr/notice/marmara-felsefenin-philosophy-talks-serisinin-tamamina-buradan-ulasabilirsiniz",
+      },
+      {
+        title: "PAU FELSEFE — Pamukkale Üniversitesi Felsefe Bölümü resmî kanalı",
+        publisher: "YouTube",
+        url: "https://www.youtube.com/@PAUFELSEFE",
+      },
+      {
         title: "Akbank Sanat — YouTube kanalı",
         publisher: "YouTube",
         url: "https://www.youtube.com/@AkbankSanat",
@@ -1558,7 +1573,7 @@ Buradaki asıl değer tek tek videolarda değil, **tek bir filozof etrafında s�
 
 Benzer bir uzmanlaşmayı **Türkiye Heidegger Topluluğu** yürütüyor. Topluluğun programı Heidegger metinlerinin açıklamasıyla sınırlı değil: fenomenoloji, ontoloji, hermenötik ve çağdaş kıta felsefesi de kapsamda. Seminer başlıkları arasında Heidegger-Derrida ilişkisi, destrüksiyon ve dekonstrüksiyon gibi doğrudan teknik tartışmalar bulunuyor.
 
-Bu iki örnek, Türkiye'de belirli filozoflar üzerine çalışmanın artık yalnızca bireysel akademik faaliyet değil, **topluluk temelli bir entelektüel uğraş** olarak da sürdürüldüğünü gösteriyor. Sitemizde daha önce aktardığımız [Türkiye Nietzsche Topluluğu](/haber/turkiye-nietzsche-toplulugu) da aynı modelin bir başka örneği.
+Bu iki örnek, Türkiye'de belirli filozoflar üzerine çalışmanın artık yalnızca bireysel akademik faaliyet değil, **topluluk temelli bir entelektüel uğraş** olarak da sürdürüldüğünü gösteriyor. Sitemizde daha önce aktardığımız [Türkiye Nietzsche Topluluğu](/haber/turkiye-nietzsche-toplulugu) da aynı modelin bir başka örneği. 2023'te kurulan topluluk, aylık konuşma programını [kendi YouTube kanalında](https://www.youtube.com/@turkiyenietzschetoplulugu) yayımlıyor: Zeynep Talay Turner'ın konuşmasından Gül Turanlı'nın *Nietzsche'nin Grekleri* başlıklı sunumuna, çevirmen Mustafa Tüzel'le yapılan *Nietzsche'yi Okumak, Çevirmek ve Anlamak* söyleşisine kadar uzanan kayıtlar burada toplanıyor. Çeviri meselesinin ayrı bir başlık olarak ele alınması, topluluğun Nietzsche'nin Türkçedeki alımlanma tarihine verdiği önemi gösteriyor.
 
 Kurumsal tarafta ise **Türkiye Felsefe Kurumu** ve **Türk Felsefe Derneği** var. Bu kanallar doğrudan etkinlik arşivi niteliğinde; sempozyum ve panel kayıtları bakımından özellikle değerliler. Buradaki işlev yayıncılıktan çok **kurumsal hafıza**: Bir konferansın dinleyicisi değişir, kaydı kalır.
 
@@ -1592,9 +1607,51 @@ Farklı bir yol izleyen **Klasik Düşünce Okulu**, klasik düşüncenin kurucu
 
 ## Dördüncü katman: üniversitelerin kendisi
 
-Ekosistemin belki de en önemli ayağı üniversiteler. Türkiye'deki birçok felsefe bölümü ve öğrenci topluluğu kendi etkinliklerini yayımlıyor; ODTÜ Felsefe Bölümü'nün ve ODTÜ Felsefe Topluluğu'nun ayrı ayrı kanalları bulunuyor. Ege ve Boğaziçi gibi köklü bölümler de benzer bir yol izliyor.
+Ekosistemin en dağınık, aynı zamanda en umut verici ayağı üniversiteler.
 
-Bu kanallar akademik felsefenin geleceği açısından özellikle önemli. Çünkü bir seminerin kaydedilmesi, o etkinliği "gerçekleşmiş bir etkinlik" olmaktan çıkarıp **erişilebilir bir eğitim materyaline** dönüştürüyor.
+Burada baştan bir ayrım yapmak gerekiyor. Türkiye'de felsefe bölümlerinin YouTube'daki varlığı tek tip değil; en az üç farklı biçim var:
+
+1. **Bölümün kendi resmî kanalı** — düzenli yayın yapan, bölüm adına açılmış hesaplar.
+2. **Öğrenci topluluğu kanalı** — bölümle bağlantılı ama kurumsal olmayan yapılar.
+3. **Üniversitenin kurumsal kanalı** — felsefe içeriğinin genel üniversite hesabına karıştığı durum.
+
+Bu ayrım önemli, çünkü üçüncü durumda içerik teknik olarak yayımlanmış olsa bile pratikte kaybolur: Bir felsefe semineri, mezuniyet töreni ve tanıtım filmi aynı akışta yer alır.
+
+### Kendi kanalı olan bölümler
+
+**Marmara Üniversitesi Felsefe Bölümü**, bugün itibarıyla bu grubun en dikkat çekici örneği. Bölümün **Marmara Felsefe** kanalındaki *Philosophy Talks* dizisi, uluslararası akademisyenlerle yapılan seminerleri düzenli olarak kayda geçiriyor. Dizi kırklı bölümlere ulaşmış durumda; bölümün kendi internet sitesi de serinin tamamını kanal üzerinden duyuruyor.
+
+Marmara örneğini ayıran şey içerik değil, **süreklilik**. Aylık bir program, yabancı konuşmacı daveti ve bunların düzenli olarak arşive dönüştürülmesi, Türkiye'deki bölümler arasında profesyonel bir dijital yayıncılık modeli oluşturuyor.
+
+**Dokuz Eylül Üniversitesi Felsefe Bölümü**, bölüm akademisyenlerinin konuşmalarını ve etkinlik kayıtlarını kendi kanalından paylaşıyor.
+
+**Pamukkale Üniversitesi Felsefe Bölümü**, kendisini "resmî hesap" olarak tanımlayan **PAU FELSEFE** kanalını yürütüyor. *PAÜ'de Felsefe Buluşmaları* dizisinin yanı sıra açılış dersleri de burada. Ahmet Arslan'ın *Felsefe Nedir?* başlıklı açılış dersi yirmi bine yakın izlenmeye ulaşmış — bir üniversite bölümü kanalı için kayda değer bir sayı.
+
+**Ege Üniversitesi Felsefe Bölümü**, özellikle uluslararası konferanslar bakımından güçlü bir arşive sahip. Peter Adamson'ın *Boşluksuz Felsefe Tarihi* başlıklı konuşması gibi kayıtlar bölüm tarafından yayımlanmış durumda. Ege'de ayrıca öğrenci topluluğunun ayrı bir kanalı var.
+
+### Topluluk kanalları
+
+**ODTÜ Felsefe** kanalı, adına rağmen bölümün kurumsal kanalı değil; kendisini ODTÜ Felsefe Topluluğu'nun resmî kanalı olarak tanımlıyor. Bu ayrım kayıt altına alınmalı: Bölümle bağlantılı ama bölüm adına konuşmayan bir yapı.
+
+Aynı durum Ege ve başka birkaç üniversite için de geçerli. Öğrenci toplulukları çoğu zaman bölümlerden daha çevik davranıyor; ama süreklilik kuşak değişimine bağlı kaldığı için arşivler kesintiye uğrayabiliyor.
+
+### Kurumsal kanala karışanlar
+
+Türkiye'nin en köklü felsefe bölümlerinden bazıları bu grupta.
+
+**Ankara Üniversitesi** (DTCF), **İstanbul Üniversitesi**, **Hacettepe Üniversitesi**, **Boğaziçi Üniversitesi**, **Akdeniz Üniversitesi** ve **İstanbul Medeniyet Üniversitesi**; hepsi felsefe etkinliği düzenliyor, hepsinin kayıtları bir biçimde dijital ortamda. Ancak bunlar bölüm adına açılmış bağımsız kanallarda değil, üniversitenin genel hesabında ya da dağınık biçimde duruyor.
+
+Hacettepe örneği tipik: Bölümün akademisyenleri — Harun Tepe gibi isimler — felsefe, etik ve insan hakları üzerine çok sayıda konuşma yapıyor ve bunlar yayımlanıyor. Ama kayıtlar farklı kurumların kanallarına dağılmış durumda.
+
+Buradaki sorun içerik üretimi değil, **sahiplenme**. Kaydı yapan kurum ile kaydı arayacak kişi arasında ortak bir adres yok.
+
+### Rakam ne söylüyor?
+
+Türkiye'de altmışın üzerinde üniversitede felsefe lisans programı bulunuyor.
+
+Bu sayıyla karşılaştırıldığında, düzenli yayın yapan bölüm kanalı sayısı tek haneli. Yani felsefe bölümlerinin büyük çoğunluğu, kendi etkinliklerinin dijital hafızasını henüz kurmuş değil.
+
+Bu bir eleştiri olduğu kadar bir fırsat tespiti: Bir seminerin kaydedilmesi, o etkinliği "gerçekleşmiş bir etkinlik" olmaktan çıkarıp **erişilebilir bir eğitim materyaline** dönüştürüyor. Maliyeti düşük, getirisi kalıcı.
 
 ## Asıl sorun: arşiv var, dizin yok
 
@@ -1639,6 +1696,7 @@ Yanıt büyük olasılıkla ikincisinde. Çünkü iyi kaydedilmiş bir felsefe s
 - [Türk Felsefe Derneği](https://www.youtube.com/@turkfelsefedernegi/videos)
 - [Türkiye Kant Topluluğu](https://www.youtube.com/@T%C3%BCrkiyeKantToplulu%C4%9Fu)
 - [Türkiye Heidegger Topluluğu](https://www.youtube.com/@turkiyeheideggertoplulugu6661)
+- [Türkiye Nietzsche Topluluğu](https://www.youtube.com/@turkiyenietzschetoplulugu)
 - [Felsefe Sanat Bilim Derneği](https://www.youtube.com/@felsefesanatbilimdernegi7552/videos)
 - [Aktif Felsefe Kültür Derneği](https://www.youtube.com/@AktiffelsefeK%C3%BClt%C3%BCrDerne%C4%9Fi/videos)
 - [Kuçuradi Felsefe ve İnsan Hakları](https://www.youtube.com/@kucuradifelsefeveinsanhakl9038)
@@ -1663,8 +1721,18 @@ Yanıt büyük olasılıkla ikincisinde. Çünkü iyi kaydedilmiş bir felsefe s
 
 **Üniversiteler**
 
+*Kendi kanalı olan bölümler*
+
+- [Marmara Felsefe](https://www.youtube.com/@marmarafelsefe6204/videos)
+- [Dokuz Eylül Üniversitesi Felsefe Bölümü](https://www.youtube.com/@dokuzeyluluniversitesifels5671)
+- [PAU FELSEFE — Pamukkale Üniversitesi](https://www.youtube.com/@PAUFELSEFE)
+- [Ege Üniversitesi Felsefe Bölümü](https://www.youtube.com/@egeuniversitesifelsefebolu9466)
 - [ODTÜ Felsefe Bölümü](https://www.youtube.com/@odtufelsefebolumumetudepar2352)
+
+*Öğrenci toplulukları*
+
 - [ODTÜ Felsefe Topluluğu](https://www.youtube.com/@odtufelsefe1881)
+- [E.Ü. Felsefe Topluluğu](https://www.youtube.com/@e.u.felsefetoplulugu5112)
 
 *Liste kapsayıcı değildir. Eksik gördüğünüz kanalları iletişim sayfamızdan bildirebilirsiniz; düzenli olarak güncelleyeceğiz.*`,
   },
