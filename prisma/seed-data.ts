@@ -1489,6 +1489,874 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Philosophy & Public Affairs deneyini bitirdi: yapay zekâ yazarlığı yasaklandı",
+    slug: "philosophy-public-affairs-yapay-zeka-yasagi",
+    summary:
+      "Ağustos başında bilerek yapay zekâ tarafından yazılmış bir makale yayımlayan dergi, iki hafta içinde kararını değiştirdi ve yapay zekâ yazarlığını yasakladı. Tartışma şimdi daha zor bir soruya kaydı: Bir metnin yapay zekâ ürünü olduğu nasıl kanıtlanır?",
+    seoTitle: "Philosophy & Public Affairs yapay zekâ yazarlığını yasakladı",
+    metaDescription:
+      "Philosophy & Public Affairs'in yapay zekâ deneyi ve ardından gelen yasak. Tespit araçları, asılsız suçlama riski ve akademik yazarlığın geleceği.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/HBLL_periodicals.JPG?width=1600",
+    imageCredit: "Akademik süreli yayınlar rafı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/24/after-experiment-journal-decides-to-prohibit-ai-authored-content/",
+    publishedAt: "2026-08-28T06:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "akademi", "dergi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "After Experiment, Journal Decides to Prohibit AI-Authored Content",
+        publisher: "Daily Nous",
+        date: "24 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/24/after-experiment-journal-decides-to-prohibit-ai-authored-content/",
+        primary: true,
+      },
+      {
+        title: "Philosophy Journal Publishes Largely AI-Authored Article — On Purpose",
+        publisher: "Daily Nous",
+        date: "13 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/13/philosophy-journal-publishes-largely-ai-authored-article-on-purpose-guest-post/",
+      },
+      {
+        title: "Careful with those Accusations",
+        publisher: "Daily Nous",
+        date: "27 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/27/careful-with-those-accusations/",
+      },
+    ],
+    content: `Bir deney iki haftada tamamlandı ve sonucu, deneyi yapanların beklediğinden daha net çıktı.
+
+**Philosophy & Public Affairs**, siyaset felsefesinin en saygın dergilerinden biri. 13 Ağustos'ta, büyük bölümü bir dil modeli tarafından yazılmış bir makaleyi **bilerek** yayımladığı ortaya çıktı. Makalenin tezini Hong Kong Üniversitesi'nden Simon Goldstein sağlamış, metni yönlendirmiş, bazı argümanları geliştirmiş ve hataları düzeltmişti; yazının kendisi ise Claude'a aitti.
+
+Karar tartışma yaratmak için alınmıştı ve amacına fazlasıyla ulaştı: Daily Nous'taki duyuru üç yüzü aşkın yorum aldı.
+
+24 Ağustos'ta dergi kararını açıkladı. **Yapay zekâ tarafından yazılmış içerik bundan böyle yayımlanmayacak.**
+
+## Deney neyi gösterdi?
+
+Derginin gerekçesi teknik bir kalite meselesi değildi.
+
+Makale hakem sürecinden geçmişti; okunabilir, tutarlı ve savunulabilir bir metindi. Sorun buradaydı: Eğer ölçüt yalnızca metnin kalitesiyse, yapay zekâ yazarlığını dışlayacak bir dayanak kalmıyordu.
+
+Dergiyi karara götüren şey, ölçütün kalite olmadığının fark edilmesi oldu. Akademik yayıncılık, bir metnin arkasında **sorumluluk taşıyan bir yazar** bulunduğu varsayımı üzerine kurulu. Hakem değerlendirmesi, atıf sistemi, düzeltme ve geri çekme usulleri — hepsi bu varsayıma dayanıyor.
+
+Yazarlık paylaşıldığında değil, **devredildiğinde** bu yapı çalışmıyor.
+
+## Tartışma nereye kaydı?
+
+Yasak kararı meseleyi kapatmadı; başka bir yere taşıdı.
+
+27 Ağustos'ta Daily Nous'ta yayımlanan ve otuzu aşkın yorum alan bir yazı, akademinin asıl güçlüğünü ortaya koydu: **Kural koymak kolay, uygulamak değil.**
+
+Bugün dergilere, üniversitelere ve bölümlere gelen metinlerin ne kadarının kısmen ya da tamamen yapay zekâ ürünü olduğu bilinmiyor. Politikalar oluşuyor ama sürekli değişiyor; teknoloji ilerledikçe yeni yazılmış kurallar bile muğlaklaşıyor ya da beklenmedik boşluklar üretiyor.
+
+Bu belirsizlik yeni bir riski doğurdu: **asılsız suçlama.**
+
+Tartışmada öne çıkan itirazlardan biri, akademik kötüye kullanımı işaret eden meslektaşların "kanun kaçağı avcısı" gibi görülmesine karşıydı. Karşı taraf ise tespit araçlarının güvenilirliğini sorguladı.
+
+Somut bir örnek verildi: Bir felsefeci, geçen yıl bir dil modeline yaptırdığı Platon'un *Sokrates'in Savunması* çevirisini bugünün tespit araçlarından geçirdiğini ve sonuçların çelişkili çıktığını anlattı. Araçlar hem yanlış pozitif hem yanlış negatif üretiyor.
+
+Buradan çıkan uyarı açık: Bir kural, ancak adil biçimde uygulanabildiği ölçüde kuraldır. Yanlış suçlanan bir akademisyenin kariyerine verilecek zarar geri alınamaz.
+
+## "Silah yarışı"
+
+Tartışmada dile getirilen bir öngörü, sorunun teknik çözümünün neden zor olduğunu iyi özetliyor: Tespit araçları geliştikçe, metinleri o araçlardan geçirip yeniden yazdıran bir döngü kurulacak. Yapay zekâlar birbirine karşı yarışacak.
+
+Bu tabloda insan denetiminin nereye oturacağı belirsiz.
+
+## Karşı görüş: bu bir eşik mi, bir aşama mı?
+
+Tartışmanın en dikkat çekici müdahalelerinden biri, spekülatif realizmin kurucu isimlerinden **Graham Harman**'dan geldi. Harman, isteyenlerin her şeyi sıfırdan yazmayı sürdürebileceğini, tıpkı daktilo ve kelime işlemciyi reddedebilecekleri gibi, belirtti.
+
+Fizikçi ve felsefeci **David Wallace** ise benzer bir tarihsel karşılaştırma yaptı: Uzun sembolik hesapları hatasız yapabilme becerisi yakın zamana kadar "çekirdek fizik" sayılıyordu; bugün sayılmıyor.
+
+Karşı taraf ise bu benzetmeye itiraz ediyor. Hesap makinesi bir sonucu üretir; felsefi bir metin ise sonuçtan ibaret değildir. Bu itiraz, sitemizde geçen hafta aktardığımız [Daniel Kaufman tartışmasının](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi) merkezindeki noktayla aynı: Felsefede yöntem, sonuçtan ayrılabilir mi?
+
+## Ne değişti?
+
+Ağustos ayı bu tartışma açısından bir eşik oldu.
+
+Ayın başında bir dergi, yapay zekâ yazarlığının mümkün olup olmadığını sınadı. Ayın sonunda aynı dergi, mümkün olmasının onu meşru kılmadığına karar verdi.
+
+Geriye kalan soru daha zor: Yasak konulduktan sonra, bir metnin kime ait olduğu nasıl bilinecek?
+
+Bu sorunun yanıtı henüz yok. Ama sorunun kendisi, akademik yayıncılığın önümüzdeki yıllardaki gündemini belirleyecek gibi görünüyor.`,
+  },
+  {
+    title: "Ağustosta beş kayıp: felsefe dünyası yoğun bir ay geçirdi",
+    slug: "agustos-2026-felsefe-vefatlari",
+    summary:
+      "Anthony Kenny, Cain Todd, David Charles, Tom Rockmore ve Gabriele Taylor tek bir ay içinde hayatını kaybetti. Aristoteles yorumculuğundan Alman idealizmi araştırmalarına, ahlak psikolojisinden estetiğe uzanan farklı hatların temsilcileriydiler.",
+    seoTitle: "Ağustos 2026: felsefe dünyasının kayıpları",
+    metaDescription:
+      "Anthony Kenny, Cain Todd, David Charles, Tom Rockmore ve Gabriele Taylor'ın ardından. Ağustos 2026'da hayatını kaybeden felsefeciler.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Balliol_College_Feb_2005.jpg?width=1600",
+    imageCredit: "Balliol College, Oxford — Anthony Kenny 1978-1989 arasında bu kolejin başkanlığını yaptı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/26/gabriele-taylor-1927-2026/",
+    publishedAt: "2026-08-28T05:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["vefat", "akademi", "antik-felsefe", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Gabriele Taylor (1927-2026)",
+        publisher: "Daily Nous",
+        date: "26 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/26/gabriele-taylor-1927-2026/",
+        primary: true,
+      },
+      {
+        title: "Tom Rockmore (1942-2026)",
+        publisher: "Daily Nous",
+        date: "21 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/21/tom-rockmore-1942-2026/",
+      },
+      {
+        title: "David Charles (1947-2026)",
+        publisher: "Daily Nous",
+        date: "14 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/14/david-charles-1947-2026/",
+      },
+      {
+        title: "Cain Todd (1976-2026)",
+        publisher: "Daily Nous",
+        date: "11 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/11/cain-todd-1976-2026/",
+      },
+      {
+        title: "Sir Anthony Kenny 1931-2026",
+        publisher: "Balliol College, Oxford",
+        url: "https://www.balliol.ox.ac.uk/news/2026/august/sir-anthony-kenny-1931-2026",
+      },
+    ],
+    content: `Felsefe camiası için ağır bir ay oldu. Ağustos 2026'da beş akademisyenin ölüm haberi geldi.
+
+Listenin tamamına bakıldığında ortaya, yirminci yüzyıl ikinci yarısı felsefesinin farklı damarlarını temsil eden bir kesit çıkıyor.
+
+## Anthony Kenny (1931-2026)
+
+3 Ağustos'ta, doksan beş yaşında öldü.
+
+Liverpool doğumluydu ve önce Katolik rahip olarak yetişti; felsefi kuşkuları 1963'te rahipliği bırakmasına yol açtı. Ardından İngiliz felsefesinin merkezî figürlerinden biri oldu.
+
+Balliol College'da 1964-1978 arasında felsefe öğretim üyesi, 1978-1989 arasında kolejin başkanıydı. Rhodes House yöneticiliği yaptığı dönemde St John's College'da profesörlük görevini sürdürdü. Oxford Üniversitesi rektör yardımcılığı, British Library yönetim kurulu başkanlığı ve **British Academy başkanlığı** görevlerinde bulundu.
+
+Aristoteles ve Aquinas otoritesiydi; ama Descartes, Frege ve Wittgenstein üzerine de yazdı. Dört ciltlik *Oxford Batı Felsefesi Tarihi* bu genişliğin ürünü. *Wittgenstein* (1973) ve *A New History of Western Philosophy* en çok okunan kitapları arasında.
+
+Kenny'nin özel yeri, analitik felsefe ile skolastik geleneği birbirine konuşturabilmesindeydi. Aquinas'ı Wittgenstein'ın araçlarıyla okumak, o dönemde alışılmış bir şey değildi.
+
+## Cain Todd (1976-2026)
+
+11 Ağustos'ta, elli yaşında öldü. Lancaster Üniversitesi'nde felsefe öğretim üyesiydi.
+
+Estetik ve duygu felsefesi alanında çalışıyordu. Beşinin en genci olması, haberin camiada yarattığı etkiyi de açıklıyor.
+
+## David Charles (1947-2026)
+
+14 Ağustos'ta öldü. Yale Üniversitesi'nde felsefe profesörü emeritusuydu.
+
+Aristoteles araştırmalarının çağdaş dönemdeki önde gelen isimlerindendi. *Aristotle on Meaning and Essence* gibi çalışmaları, Aristoteles'in özcülüğünü çağdaş dil felsefesi tartışmalarıyla birlikte ele alan bir okuma kurdu.
+
+Charles'ın ölümü, Kenny'ninkiyle birlikte, aynı ay içinde Aristoteles yorumculuğunun iki büyük ismini kaybetmek anlamına geldi.
+
+## Tom Rockmore (1942-2026)
+
+21 Ağustos'ta öldü. Pekin Üniversitesi'nde profesör emeritus, Duquesne Üniversitesi'nde seçkin profesör emeritusuydu.
+
+Alman idealizmi, Hegel, Marx ve Heidegger üzerine yazdı. Kariyerinin son döneminde Çin'e yerleşmesi ve orada ders vermesi, kıta felsefesinin Çin akademisindeki yerleşmesine katkıda bulunan bir tercihti.
+
+Rockmore'un *Before and After Hegel* ile *Heidegger and French Philosophy* gibi kitapları, Anglo-Amerikan okurunu kıta geleneğine bağlayan aracı metinler olarak okundu.
+
+## Gabriele Taylor (1927-2026)
+
+26 Ağustos'ta öldü. Oxford Üniversitesi St Anne's College'da felsefe onursal üyesiydi.
+
+Ahlak psikolojisi alanında çalıştı. *Pride, Shame and Guilt* (1985) ve *Deadly Vices* (2006) kitapları, ahlaki duyguları ve kusurları felsefi çözümlemenin konusu hâline getirdi.
+
+Taylor'ın işi, ahlak felsefesinin ilke ve kural tartışmasından duygulanım ve karakter tartışmasına açıldığı dönemin parçasıydı. Bu hat, sitemizde daha önce ele aldığımız [Bernard Williams'ın sistem eleştirisiyle](/haber/bernard-williams-ahlak-sistem-elestirisi) aynı yıllarda gelişti; ikisi de Oxford'daydı.
+
+## Bir not
+
+Bu ölümlerin arka arkaya gelmesi rastlantı. Ama listeye bakıldığında, bir kuşağın sahneden çekilmekte olduğu görülüyor: Kenny 1931, Taylor 1927 doğumlu; ikisi de savaş sonrası İngiliz felsefesinin kurulduğu yıllarda yetişti.
+
+Felsefe Haberleri olarak, bu isimlerin çalışmalarını önümüzdeki dönemde ayrı dosyalarda ele almayı planlıyoruz.`,
+  },
+  {
+    title: "Hannah Arendt Ödülü Lea Ypi'nin: totaliter deneyimden siyaset felsefesine",
+    slug: "lea-ypi-hannah-arendt-odulu-2026",
+    summary:
+      "Arnavutluk doğumlu filozof, bu yılın Hannah Arendt Siyasal Düşünce Ödülü'ne değer görüldü. Jüri kararında, sosyalist Arnavutluk'ta geçen çocukluğunu felsefi çözümlemeye dönüştürme biçimine ve otoriterliğin yükseldiği bir dönemde özgürlük anlayışının kazandığı güncelliğe dikkat çekildi.",
+    seoTitle: "Lea Ypi'ye 2026 Hannah Arendt Siyasal Düşünce Ödülü",
+    metaDescription:
+      "Lea Ypi 2026 Hannah Arendt Ödülü'nü kazandı. Özgür, Indignity, LSE, Kant ve Marksizm çalışmaları; ödül töreni 10 Aralık'ta Bremen'de.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lea_Ypi_at_the_British_Library.jpg?width=1600",
+    imageCredit: "Lea Ypi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Heinrich-Böll-Stiftung",
+    sourceUrl: "https://www.boell.de/de/2026/08/26/lea-ypi-erhaelt-den-hannah-arendt-preis-fuer-politisches-denken-2026",
+    publishedAt: "2026-08-28T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "siyaset-felsefesi", "demokrasi", "marksizm", "kant"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Lea Ypi erhält den Hannah-Arendt-Preis für politisches Denken 2026",
+        publisher: "Heinrich-Böll-Stiftung",
+        date: "26 Ağustos 2026",
+        url: "https://www.boell.de/de/2026/08/26/lea-ypi-erhaelt-den-hannah-arendt-preis-fuer-politisches-denken-2026",
+        primary: true,
+      },
+      {
+        title: "Philosophin Lea Ypi erhält Hannah-Arendt-Preis 2026",
+        publisher: "DIE ZEIT",
+        date: "26 Ağustos 2026",
+        url: "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-08/hannah-arendt-preis-lea-ypi-politisches-denken-gxe",
+      },
+      {
+        title: "Hannah Arendt Preis für politisches Denken",
+        publisher: "Hannah-Arendt-Verein, Bremen",
+        url: "https://hannah-arendt-verein.de/en/",
+      },
+    ],
+    content: `Bu yılın **Hannah Arendt Siyasal Düşünce Ödülü**, Arnavut-İngiliz filozof **Lea Ypi**'ye verildi.
+
+Bremen'deki Hannah Arendt Derneği'nin 26 Ağustos'ta yaptığı açıklamada gerekçe şöyle özetlendi: "Felsefi, siyasal ve edebî çalışması, demokratik düşünmenin merkezindeki temel sorularla hesaplaşıyor: özgürlük, hakikat, adalet, insan onuru ve siyasal eylemin koşulları."
+
+Ödül on bin euro değerinde. Töreni **10 Aralık 2026**'da Bremen Belediye Sarayı'nda yapılacak. Ödül parası Bremen Serbest Hansa Şehri ile Heinrich Böll Vakfı tarafından karşılanıyor.
+
+## Jürinin vurgusu: deneyim ile çözümlemenin birleşmesi
+
+Uluslararası jüri, Ypi'yi "çağın önde gelen siyasal düşünürlerinden biri" olarak niteledi.
+
+Kararda özellikle bir nokta öne çıkarıldı: Ypi'nin çalışması, **totaliter bir sistem altında yaşanmış siyasal deneyimi** felsefi düşünme ve tarihsel çözümleme ile birleştiriyor. Jüriye göre buradan, deneyimin, hafızanın ve eleştirel yargının birbirine bağlandığı özgün bir kamusal siyasal düşünme biçimi doğuyor.
+
+Gerekçenin son cümlesi güncel: Yeni otoriter meydan okumalar karşısında Ypi'nin özgürlük ve demokrasi anlayışı özel bir güncellik kazanıyor.
+
+Bu vurgu, ödülün adını aldığı düşünürle de örtüşüyor. Arendt de totalitarizmi dışarıdan gözlemleyen bir kuramcı değil, ondan kaçmak zorunda kalmış bir düşünürdü.
+
+## Ypi kimdir?
+
+Lea Ypi 1979'da Arnavutluk'un başkenti Tiran'da doğdu. Kırk yedi yaşında.
+
+Şu anda London School of Economics'te **Ralph Miliband Siyaset ve Felsefe Kürsüsü** profesörü. Çalışma alanları arasında siyaset felsefesi, felsefe tarihi, Marksizm ve Kant bulunuyor.
+
+Bu bileşim kendi başına dikkat çekici. Kant araştırmacılığı ile Marksist siyaset kuramını aynı çalışma programında yürüten isim sayısı fazla değil. Ypi'nin akademik çalışmaları, Kant'ın tarih felsefesi ve kozmopolitanizmi ile normatif siyaset kuramı arasındaki bağlantılara odaklanıyor.
+
+## "Özgür": çocukluğun felsefi kullanımı
+
+Ypi'yi akademinin dışında tanıtan kitap, 2021'de yayımlanan **Free: Coming of Age at the End of History** — Türkçede *Özgür*.
+
+Kitap, sosyalist Arnavutluk'ta geçen çocukluğunu anlatıyor. Ama alışıldık bir totalitarizm anlatısı değil.
+
+Ypi'nin yaptığı hamle şu: Çocukken kendisine öğretilen "özgürlük" ile 1990'dan sonra öğretilen "özgürlük" arasındaki farkı, ikisini de tam olarak kabul etmeden inceliyor. Sosyalist rejimin özgürlük söyleminin sahteliğini gösterirken, geçiş döneminin liberal özgürlük vaadinin de ailesi ve ülkesi için ne anlama geldiğini — işsizlik, göç, piramit şirketleri, iç savaşa varan çöküş — aynı ciddiyetle anlatıyor.
+
+Kitabın felsefi değeri buradan geliyor: **Özgürlük kavramının, kimin hangi konumdan konuştuğuna göre nasıl değiştiğini** gösteriyor.
+
+## "Indignity": bir fotoğraftan çıkan tarih
+
+Ypi'nin 2025'te yayımlanan ikinci anlatı kitabı **Indignity: A Life Reimagined**, benzer bir yöntemi bir kuşak geriye taşıyor.
+
+Çıkış noktası tek bir fotoğraf: Ypi, büyükannesi Leman'ın 1941'de Alpler'de balayında çekilmiş bir fotoğrafını, bir yabancının sosyal medya paylaşımında buluyor. Oysa büyüdüğü yıllarda ona, büyükannesinin gençliğine dair bütün kayıtların Arnavutluk'ta komünizmin ilk yıllarında imha edildiği söylenmişti.
+
+Kitap buradan Osmanlı aristokrasisinin kaybolmuş dünyasına, modern Yunanistan ve Arnavutluk'un kuruluşuna, küresel bir mali krize, savaşın yıkımına ve Balkanlar'da komünizmin doğuşuna uzanıyor.
+
+Kitap Avrupa Edebiyatı Jean Monnet Ödülü'ne aday gösterildi; Sunday Times, Financial Times, Washington Post ve NPR tarafından yılın kitapları arasında sayıldı.
+
+## Neden bu ödül, neden şimdi?
+
+Hannah Arendt Ödülü, Arendt geleneğinde **kamusal siyasal düşünme ve eyleme** katkıda bulunanlara veriliyor. Geçmiş sahipleri arasında siyaset kuramcıları, gazeteciler ve yazarlar var.
+
+Ypi'nin seçimi, ödülün kendi tanımına uygun. Çünkü Ypi hem akademik siyaset felsefesi üretiyor hem de bunu geniş bir okur kitlesine ulaşan anlatı biçimine çevirebiliyor.
+
+Arendt'in kendi yönteminde de benzer bir şey vardı: Kavramsal çözümlemeyi biyografiden, tarihten ve tanıklıktan ayırmamak.
+
+## Türkçede
+
+Ypi'nin *Özgür* kitabı Türkçeye çevrildi. *Indignity* için henüz bir çeviri duyurusu yapılmadı.`,
+  },
+  {
+    title: "Žižek'ten yeni kitap: 'Liberal Faşizmler' eylülde Türkçede",
+    slug: "zizek-liberal-fasizmler-iletisim",
+    summary:
+      "Slovenyalı filozofun yeni kitabı, İletişim Yayınları'nın duyurusuna göre eylülün ilk haftasında raflarda olacak. Çeviri Barış Özkul'a ait. Kitabın başlığı, Žižek'in son yıllarda ısrarla döndüğü bir tezi işaret ediyor: Otoriterliğin bugünkü biçimi liberalizmin karşısında değil, içinde doğuyor.",
+    seoTitle: "Slavoj Žižek — Liberal Faşizmler (İletişim Yayınları)",
+    metaDescription:
+      "Žižek'in Liberal Faşizmler kitabı Barış Özkul çevirisiyle İletişim Yayınları'ndan eylülde çıkıyor.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Slavoj_Zizek_in_Liverpool_cropped.jpg?width=1600",
+    imageCredit: "Slavoj Žižek · Wikimedia Commons",
+    featured: false,
+    sourceName: "İletişim Yayınları",
+    sourceUrl: "https://iletisim.com.tr/kisi/baris-ozkul/9251",
+    publishedAt: "2026-08-28T04:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "ceviri", "siyaset-felsefesi", "marksizm", "psikanaliz"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Barış Özkul — yazar ve çevirmen sayfası",
+        publisher: "İletişim Yayınları",
+        url: "https://iletisim.com.tr/kisi/baris-ozkul/9251",
+      },
+    ],
+    content: `**Slavoj Žižek**'in yeni kitabı **Liberal Faşizmler**, İletişim Yayınları'nın duyurusuna göre eylülün ilk haftasında Türkçede yayımlanıyor. Çeviri **Barış Özkul**'a ait.
+
+Özkul, 2013'ten bu yana *Birikim* dergisinde ve İletişim Yayınları'nda editörlük yapıyor; İstanbul Üniversitesi İngiliz Dili ve Edebiyatı doktorasını tamamladı. Faşizm tartışmaları üzerine kendi yazıları da bulunuyor — bu, çeviriyi yalnızca dil aktarımı olmaktan çıkaran bir ayrıntı.
+
+## Başlıktaki tez
+
+*Liberal faşizm* ifadesi ilk bakışta bir çelişki gibi durur. Faşizm, tanımı gereği liberalizmin karşıtı sayılır: Çoğulculuğu, hukuk devletini ve bireysel hakları reddeder.
+
+Žižek'in son yıllarda ısrarla döndüğü tez, tam da bu karşıtlığın rahatlatıcı olduğu yönünde.
+
+Ona göre bugünkü otoriter biçimler liberal demokrasiye dışarıdan saldırmıyor. Onun kurumlarını kullanarak, seçimle gelerek ve çoğu zaman "özgürlük" dilini konuşarak yerleşiyor. Sansür, ifade özgürlüğü adına savunulabiliyor; dışlama, güvenlik adına meşrulaştırılabiliyor; piyasanın kısıtsızlığı ile siyasal alanın daraltılması aynı programın parçası olabiliyor.
+
+Bu tez Žižek'e özgü değil — Wendy Brown'dan Adam Tooze'a benzer çözümlemeler var. Žižek'in katkısı genellikle psikanalitik tarafta: Otoriter siyasetin neden **çekici** olduğunu, hangi arzuya seslendiğini sormak.
+
+## Žižek'in Türkçedeki yeri
+
+1949 Ljubljana doğumlu Žižek, Lacancı psikanaliz, Hegel yorumu, ideoloji eleştirisi ve popüler kültür çözümlemesini birleştiren yazı biçimiyle tanınıyor.
+
+Türkçede geniş bir külliyatı bulunuyor: *İdeolojinin Yüce Nesnesi*, *Kırılgan Temas*, *Ahir Zamanlarda Yaşarken*, *Hiçten Az* ve *Komünizm Fikri* bunların arasında. Bu bakımdan Türkiye, Žižek'in en hızlı çevrildiği ülkelerden biri.
+
+## Bir editör notu
+
+Kitabın özgün adı, sayfa sayısı ve ISBN bilgisi henüz açıklanmadı; yayınevinin duyurusu şimdilik yalnızca başlık, çevirmen ve çıkış zamanını içeriyor.
+
+Künye bilgileri yayımlandığında bu haberi güncelleyeceğiz. Kitap çıktıktan sonra ayrıntılı bir değerlendirme de planlıyoruz.`,
+  },
+  {
+    title: "Hilmi Ziya Ülken'in soruları neden hâlâ cevaplanmadı?",
+    slug: "hilmi-ziya-ulken-sorulari",
+    summary:
+      "Türk düşünce hayatının en üretken ismi öleli yarım yüzyıldan fazla oldu. Ama bilgi ile değer, tercüme ile düşünce üretimi, millî kimlik ile evrensellik arasında kurduğu sorular, yapay zekâ çağında beklenmedik biçimde tazeleniyor.",
+    seoTitle: "Hilmi Ziya Ülken: bilgi, değer ve tercüme üzerine sorular",
+    metaDescription:
+      "Hilmi Ziya Ülken'in Bilgi ve Değer, Uyanış Devirlerinde Tercümenin Rolü ve Türkiye'de Çağdaş Düşünce Tarihi kitapları bugün nasıl okunabilir?",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hilmi_Ziya_%C3%9Clken_24_Temmuz_1946.jpg?width=1600",
+    imageCredit: "Hilmi Ziya Ülken, 24 Temmuz 1946 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-28T04:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["tarih", "akademi", "ceviri", "islam-felsefesi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Hilmi Ziya Ülken",
+        publisher: "Wikimedia Commons",
+        url: "https://commons.wikimedia.org/wiki/Category:Sociologists_from_Turkey",
+      },
+    ],
+    content: `Bir düşünürün güncelliği, verdiği cevapların hâlâ geçerli olmasıyla ölçülmez. Sorduğu soruların hâlâ cevapsız olmasıyla ölçülür.
+
+**Hilmi Ziya Ülken** bu ölçüte göre fazlasıyla güncel.
+
+3 Ekim 1901'de İstanbul'da doğdu, 5 Haziran 1974'te yine İstanbul'da öldü. Ama biyografisini bu iki tarih arasına sıkıştırmak, Cumhuriyet Türkiyesi'nin yetiştirdiği en kapsamlı entelektüel profillerden birini eksik anlatmak olur.
+
+## Tek kişilik bir kurum
+
+Ülken aynı anda filozof, sosyolog, düşünce tarihçisi, eğitimci, yayıncı ve çevirmen olarak çalıştı.
+
+İstanbul Üniversitesi'nde Türk düşüncesi, mantık, değerler kuramı, İslâm felsefesi, ahlâk ve sosyoloji dersleri verdi; sonra Ankara Üniversitesi İlahiyat ve Eğitim fakültelerinde görev yaptı. 1957'de ordinaryüs profesör oldu.
+
+Ancak onu önemli kılan unvanları değil. Yaptığı iş şuydu: **Türkiye'nin düşünce problemlerini, Türkiye'nin tarihsel tecrübesi ile dünya düşüncesinin birikimi arasında tartışmak.**
+
+Ardında olağanüstü geniş bir külliyat bıraktı: *Aşk Ahlâkı*, *Türk Tefekkür Tarihi*, *Uyanış Devirlerinde Tercümenin Rolü*, *İçtimaî Doktrinler Tarihi*, *İslâm Düşüncesi*, *Tarihî Maddeciliğe Reddiye*, *Felsefeye Giriş*, *Bilgi ve Değer*, *Eğitim Felsefesi*, *Varlık ve Oluş* ve iki ciltlik *Türkiye'de Çağdaş Düşünce Tarihi*.
+
+1938-1943 arasında çıkardığı *İnsan* dergisi, onun yalnızca akademik çevrede kalan bir profesör olmadığını gösteriyor. Ülken'i "kitap yazarı" olarak değil, **düşünce ortamı kurucusu** olarak okumak gerekir.
+
+## Asıl mesele: Türkiye neden düşünce üretemiyor?
+
+*Türkiye'de Çağdaş Düşünce Tarihi* bir tarih kitabı gibi görünür. Değildir.
+
+Ülken orada geçmişte yaşamış fikir adamlarını sıralamıyor. Sorduğu soru şu: **Türkiye'de neden süreklilik taşıyan, eleştirel ve özgün bir düşünce geleneği yeterince gelişemedi?**
+
+Verdiği yanıtlarda kaynak yetersizliği, toplumsal ve siyasal istikrarsızlık ve Batı düşüncesinin yeterince derinlikli bilinmemesi öne çıkar. Cumhuriyet'in büyük bir kültürel ve siyasal dönüşüm gerçekleştirdiğini kabul eder; ama bunun düşünce hayatında kendiliğinden bir sıçrama yaratmadığını da söyler.
+
+Bu teşhis, kitabın yayımlandığı yıllardan bugüne aktarıldığında kaybolmuyor. Üniversitelerde, düşünce kuruluşlarında ve dijital mecralarda dolaşan soru hâlâ aynı: Türkiye neden kendi düşünce gündemini kurmakta zorlanıyor?
+
+## Tercüme: yapay zekâ çağında okunacak bir kitap
+
+Ülken'in bugün en beklenmedik biçimde güncellenen eseri *Uyanış Devirlerinde Tercümenin Rolü*.
+
+Kitabın tezi şu: Tercüme, bir dilden ötekine metin aktarmak gibi teknik bir iş değildir. **Medeniyetlerin karşılaşmasının ve düşüncenin yeniden üretilmesinin temel araçlarından biridir.** Ülken bu tezi, Yunancadan Arapçaya, Arapçadan Latinceye uzanan büyük çeviri dalgalarını inceleyerek kuruyor.
+
+Bu düşünce, saniyeler içinde binlerce sayfanın çevrilebildiği bir dünyada daha da ilginç hâle geliyor.
+
+Çünkü artık soru "Bir metni çevirebiliyor muyuz?" değil. Soru şu:
+
+**Çevirdiğimiz bilgiyi anlayabiliyor, eleştirebiliyor ve kendi düşüncemize dönüştürebiliyor muyuz?**
+
+Tercümenin teknik maliyeti düşerken, **entelektüel tercümenin** önemi artıyor. Bir düşünceyi başka bir dile aktarmak kolaylaşırken, o düşüncenin arkasındaki kavramları, tarihsel bağlamı ve felsefi varsayımları anlamak insanın işi olarak kalıyor.
+
+Ülken'in kitabı bu açıdan bir kültür tarihi çalışması olmaktan çıkıp, bilginin nasıl dolaşıma girdiği ve nasıl düşünceye dönüştüğü sorusunun erken bir habercisi hâline geliyor.
+
+## Bilgi çoğaldıkça hakikat neden kolaylaşmıyor?
+
+*Bilgi ve Değer* bugün başlığıyla bile dikkat çekiyor.
+
+Tarihte hiç olmadığı kadar büyük bir bilgi hacmine erişiyoruz. Ama bilgi miktarının artması otomatik olarak daha bilgili toplumlar üretmiyor. Tersine, dezenformasyon ve bilgi kirliliği modern toplumların temel problemlerinden biri hâline geldi.
+
+Ülken'in ayrımı burada işe yarıyor: **Bilmek ile doğruyu seçmek aynı şey değildir.**
+
+Bir insanın elinde çok fazla bilgi bulunabilir; ama o bilginin hangi amaçla kullanılacağı sorusu değerler alanına aittir.
+
+Yapay zekâ bu problemi ortadan kaldırmıyor, görünür kılıyor. Bir sistem milyonlarca bilgi parçasını bir araya getirebilir. Ama hangi bilginin önemli olduğu, hangi amacın iyi olduğu, hangi kararın adil olduğu soruları hesaplamaya indirgenemiyor.
+
+Sitemizde aktardığımız [yapay zekâ ve felsefe tartışması](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi) da tam bu ayrımın etrafında dönüyor.
+
+## Eğitim: bilgi aktarmak mı, insan yetiştirmek mi?
+
+*Eğitim Felsefesi*'nde Ülken eğitimi okul, müfredat ve ders kitabı çerçevesinde ele almıyor. Ona göre eğitimin amacı, insanın düşünme, değerlendirme ve toplumsal hayata katılma kapasitesini geliştirmektir.
+
+Bugünkü eğitim tartışmasının sıkıştığı yer de burası. Öğrencilere giderek daha fazla bilgi yükleniyor; eleştirel düşünme, muhakeme, estetik duyarlılık ve ahlâkî sorumluluğun nasıl geliştirileceği ise çözülmemiş bir mesele olarak duruyor.
+
+Sınavların ve algoritmik araçların belirleyici olduğu bir ortamda Ülken'in sorusu yeniden sorulabilir: Eğitimin amacı bilgi sahibi bireyler yetiştirmek mi, **kendi değerlerini tartabilen** insanlar yetiştirmek mi?
+
+## Aşk Ahlâkı: başarı çağında ahlâk
+
+1931 tarihli *Aşk Ahlâkı*, Ülken'in en genç yaşta yazdığı önemli kitaplardan.
+
+Oradaki ahlâk anlayışı kurallara uymaktan ibaret değil. İnsan, kendisini aşan bir değer alanına yönelmeden, yalnızca çıkarlarının peşinden giderek insanlaşamaz.
+
+Bu fikir, başarı, kariyer ve kişisel performans kavramlarının hayatı kuşattığı bir çağda okunabilir. Bugünün insanına sürekli daha üretken, daha görünür, daha başarılı olması söyleniyor. Bütün bu "daha fazla"ların arasında eski bir soru kayboluyor: **Daha iyi bir insan olmak ne demektir?**
+
+Teknoloji insanın ne yapabileceğini genişletiyor; ne yapması gerektiği sorusuna cevap vermiyor.
+
+## "İnsanî vatanperverlik"
+
+*İnsanî Vatanperverlik*, Ülken'in bugün en tartışmaya değer kitaplarından biri.
+
+Tezi şu: Millî kimlik ile insanlık fikri birbirinin düşmanı olmak zorunda değil. Vatan sevgisi, başka toplumlara düşmanlık üretmeyi gerektirmez.
+
+Bu yaklaşım basit bir "ya o ya bu" ikiliğine karşı daha karmaşık bir düşünme biçimi öneriyor: İnsan kendi tarihine ve kültürüne bağlı olabilir; bu bağlılık insanlığın ortak değerlerini reddetmeyi gerektirmez.
+
+Kimlik siyasetinin sertleştiği bir dünyada bu fikir hiç eski görünmüyor.
+
+## İslâm düşüncesi ile Batı düşüncesi arasında
+
+Ülken'in ayırt edici özelliklerinden biri, Doğu ve Batı düşüncesini birbirinden kopuk iki dünya olarak görmemesiydi.
+
+Fârâbî, İbn Sînâ, İbn Rüşd ve İbn Haldûn üzerine çalışırken aynı anda modern Avrupa felsefesini ve sosyolojisini yakından takip etti.
+
+Bu tavırla onun projesi, Türkiye'nin modernleşmesini "Doğu'dan Batı'ya geçiş" hikâyesi olarak değil, **farklı düşünce geleneklerinin karşılaşması** olarak anlamaya çalışıyordu.
+
+Bu, bugün de önemli. Çünkü modern dünyanın meselesi artık yalnızca Batılılaşmak değil; farklı bilgi ve düşünce geleneklerinin birbirleriyle nasıl konuşabileceği.
+
+## Cevaplanmamış sorular
+
+Ülken'in dünyası ile bizimki arasında büyük farklar var. O imparatorluktan Cumhuriyet'e geçişi, iki savaş arası çalkantıyı ve Soğuk Savaş'ın başlangıcını yaşadı; biz dijitalleşmenin, yapay zekânın ve yeni kimlik mücadelelerinin dünyasında yaşıyoruz.
+
+Ama sorular şaşırtıcı biçimde değişmedi:
+
+- Bilgi nasıl düşünceye dönüşür?
+- Bir toplum kendi düşünce geleneğini nasıl oluşturur?
+- Modernleşmek ne demektir?
+- Millî kimlik ile evrensellik nasıl bağdaştırılır?
+- Eğitimin amacı nedir?
+- Bilim bize neyi söyleyebilir, neyi söyleyemez?
+- İyi bir toplum nasıl kurulur?
+
+Değişen yalnızca soruların sorulduğu tarihsel koşullar.
+
+Ülken'in mirasının belki de en önemli tarafı bu: Hazır cevaplar bırakmaktan çok, **Türkiye'nin kendi kendisine sorması gereken soruları** bıraktı.
+
+Çünkü bir ülkenin entelektüel bağımsızlığı kendi kitaplarını yayımlamasıyla değil, **kendi sorularını sorabilmesiyle** başlar.
+
+Yarım yüzyıl sonra o sorular hâlâ masanın üzerinde duruyor.`,
+  },
+  {
+    title: "Axel Honneth: adalet yalnızca pay meselesi değil, görülme meselesi",
+    slug: "axel-honneth-taninma-ve-calisma",
+    summary:
+      "Frankfurt Okulu'nun mirasını sürdüren filozof, toplumsal çatışmaların arkasında görünmez bir talep olduğunu savunuyor: tanınma. Son çalışmalarında bu çerçeveyi çalışma hayatına taşıyarak demokrasinin işyerinde öğrenilip öğrenilemeyeceğini soruyor.",
+    seoTitle: "Axel Honneth: tanınma mücadelesi, sosyal özgürlük ve emek",
+    metaDescription:
+      "Axel Honneth'in tanınma kuramı, üç tanınma biçimi, sosyal özgürlük kavramı ve The Working Sovereign kitabı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Axel_Honneth_2016-04-18.jpg?width=1600",
+    imageCredit: "Axel Honneth · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-28T04:10:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["elestirel-teori", "siyaset-felsefesi", "demokrasi", "kavram", "etik"],
+    philosopherSlugs: ["axel-honneth"],
+    sources: [
+      {
+        title: "Axel Honneth",
+        publisher: "Wikimedia Commons",
+        url: "https://commons.wikimedia.org/wiki/Category:Axel_Honneth",
+      },
+    ],
+    content: `Modern toplumdaki adaletsizlikleri açıklamanın en yaygın yolu dağıtımdan geçer: Kim ne kadar alıyor?
+
+**Axel Honneth**'in yarım yüzyıla yaklaşan çalışması, bu sorunun eksik olduğunu göstermeye ayrıldı. Ona göre insanların öfkelenmesinin, aşağılandığını hissetmesinin ve mücadeleye girmesinin arkasında başka bir talep var: **tanınma**.
+
+1949 doğumlu Honneth, bugün Columbia Üniversitesi'nde Jack C. Weinstein Beşerî Bilimler Profesörü; aynı zamanda Frankfurt Goethe Üniversitesi Sosyal Araştırmalar Enstitüsü'nün direktörlüğünü sürdürüyor. 1980'lerde Jürgen Habermas'ın asistanı olarak Frankfurt geleneğinin içinde yetişti; sonra o geleneğin temel meselelerini kendi kuramıyla yeniden yorumladı.
+
+## Üç tanınma biçimi
+
+1992'de Almanca yayımlanan ve İngilizceye *The Struggle for Recognition* adıyla çevrilen **Tanınma Uğruna Mücadele**, çağdaş siyaset felsefesinin en etkili kitaplarından biri hâline geldi.
+
+Çıkış noktası Hegel'e uzanıyor — sitemizde dün andığımız [efendi-köle diyalektiğine](/haber/felsefe-tarihinde-bugun-27-agustos-hegel). İnsan kendi başına kapalı bir özne değildir; kendisini bir kişi olarak kurabilmek için başkalarının onu belirli biçimlerde tanımasına ihtiyaç duyar.
+
+Honneth bu fikri modern toplum kuramına taşırken üç ayrı tanınma biçimi ayırt ediyor:
+
+**Sevgi.** Yakın ilişkilerde görülmek ve değer verilmek. Bunun karşılığı **özgüven**dir — kişinin kendi ihtiyaç ve duygularına güvenebilmesi.
+
+**Hukuksal saygı.** Hukuk önünde eşit ve hak sahibi bir kişi olarak kabul edilmek. Karşılığı **özsaygı**dır.
+
+**Toplumsal değer görme.** Katkısının toplumca değerli sayılması. Karşılığı **kendine değer verme** duygusudur.
+
+Bu üçlü ayrım, kuramın gücünü oluşturuyor. Çünkü her birinin kendine özgü bir ihlal biçimi var: kötü muamele, hak yoksunluğu ve aşağılanma. Ve her ihlal farklı bir mücadele biçimi doğuruyor.
+
+## Aşağılanma neden siyasal bir mesele?
+
+Honneth'in çerçevesinin asıl sonucu şu: Bir kişinin aşağılanması ya da dışlanması yalnızca psikolojik bir sorun değil; **ahlaki ve siyasal bir mesele**.
+
+Bu okumada toplumsal mücadeleler yalnızca kaynak paylaşımıyla ilgili değildir. İnsanlar aynı zamanda üç soruya verilen cevaplar için mücadele eder:
+
+*Beni görüyor musunuz? Beni eşit kabul ediyor musunuz? Katkımın bir değeri var mı?*
+
+Kuram kadın hareketleri, işçi hareketleri ve azınlık hak mücadelelerini anlamakta etkili oldu. Ama onu bugün "kimlik siyaseti" denen tartışmaya indirgemek yanıltıcı olur.
+
+Çünkü Honneth için tanınma, insanın toplumla kurduğu ilişkinin temel yapısını açıklayan daha geniş bir kavram. Bir işçinin emeğinin değersizleştirilmesi, bir yurttaşın karar süreçlerinden dışlanması, bir grubun kültürünün aşağılanması ve bir bireyin hukuk önünde eşit görülmemesi — farklı görünen bu durumlar aynı temel soruna işaret edebilir.
+
+## "Özgürlük yalnız başına gerçekleştirilemez"
+
+Honneth'in sonraki döneminde merkeze **sosyal özgürlük** kavramı yerleşti.
+
+Modern liberal düşüncede özgürlük çoğunlukla bireyin başkalarının müdahalesinden uzak olması olarak tanımlanır. Honneth bunun yetersiz olduğunu savunuyor: İnsan bazı özgürlük biçimlerini **ancak başkalarıyla birlikte** gerçekleştirebilir.
+
+Demokratik özgürlük bunun en açık örneği. Bir insan tek başına demokratik olamaz. Siyasal iradenin oluşması iletişimi, karşılıklı tanımayı ve ortak karar almayı gerektirir.
+
+Bu anlayışta "ben" ile "biz" karşıt değil. Bazı özgürlük biçimleri ancak bir "biz" içinde mümkün hâle geliyor.
+
+Çıkarım, bugünkü demokrasi krizleri açısından dikkat çekici: Demokrasi yalnızca sandıktan ibaretse ve yurttaşlar birbirlerini eşit siyasal özneler olarak görmüyorsa, kurumlar biçimsel olarak ayakta kalsa bile demokratik yaşam zayıflar.
+
+## Şimdi sıra emekte
+
+Honneth'in son dönem çalışmalarının başlığı çalışma hayatı.
+
+**The Working Sovereign: Labour and Democratic Citizenship** — Almanca *Der arbeitende Souverän* — çalışma dünyasının demokrasiyle ilişkisini yeniden ele alıyor.
+
+Kitabın tezi şu: Çalışma ilişkileri yalnızca ekonomik üretim meselesi değil. İşyerleri, insanların demokratik davranış geliştirmesinde ve ortak yaşamın gereklerini öğrenmesinde rol oynayabilir — ya da oynamayabilir.
+
+Buradaki soru pratik: Gün içinde hiçbir kararın parçası olmayan, sesi duyulmayan ve emeği görünmeyen bir insanın akşam sandık başında demokratik bir özne olması bekleniyor. Honneth bu beklentinin gerçekçi olup olmadığını soruyor.
+
+Kitap, demokratik katılım ile adil ve şeffaf bir işbölümü arasındaki ilişkiyi tartışıyor.
+
+## Bir sorunun üç hâli
+
+Honneth'in yarım yüzyıllık güzergâhı tek bir sorunun dönüşümü olarak okunabilir:
+
+- **1990'lar:** İnsan neden tanınma için mücadele eder?
+- **2010'lar:** İnsan hangi toplumsal koşullarda özgür olabilir?
+- **Bugün:** Çalışma hayatı ve kurumlar demokratik yurttaşlığı nasıl mümkün kılar?
+
+Üçünde de aynı hamle var: Özgürlüğü devletin ya da hukukun sağladığı bireysel bir alan olarak değil, **insanların birbirleriyle kurduğu ilişkilerin niteliği** üzerinden düşünmek.
+
+## İtirazlar
+
+Honneth'in kuramı eleştirisiz kabul görmüş değil.
+
+Başlıca itiraz, tanınma kavramının toplumsal çatışmaları açıklamakta ne ölçüde yeterli olduğuna dair. Kimi eleştirmenler, tanınma talebinin kendisinin dışlayıcı biçimler alabileceğini — bir grubun tanınma arayışının başka bir grubu dışlamaya dönüşebileceğini — savunuyor.
+
+İkinci itiraz, Honneth'in son dönemde Hegel'e daha fazla yaslanmasına yönelik. Toplumsal özgürlüğün tarihsel ve normatif bir yeniden inşasına dayanan yaklaşımın, toplumsal ilişkilerin maddi boyutlarını — mülkiyet, sermaye, sınıf — yeterince açıklayıp açıklamadığı soruluyor. Nancy Fraser'ın Honneth'le yürüttüğü uzun tartışma bu hattın en bilinen örneği: Fraser'a göre tanınma, yeniden dağıtımın yerine geçemez.
+
+Honneth'in yanıtı, ikisinin karşıt olmadığı yönünde: Dağıtım rejimlerinin kendisi de bir değer hiyerarşisine dayanır.
+
+## Neden okunmalı?
+
+Honneth'in güncelliği basit bir soruda toplanıyor:
+
+**Bir insanı gerçekten özgür yapan nedir?**
+
+Daha yüksek gelir mi? Daha fazla hukuki hak mı? Devletin müdahale etmemesi mi? Yoksa içinde yaşadığı toplum tarafından değerli, eşit ve saygın bir özne olarak kabul edilmesi mi?
+
+Honneth bunlardan birini seçmiyor. Onun çerçevesinde özgürlük, adalet ve tanınma birbirinden koparılamaz.
+
+Bu yüzden kuramı, ekonomik eşitsizliğin yanına aşağılanmayı, görünmezliği, değersizleştirmeyi ve emeğin itibarsızlaştırılmasını da adalet sorununun parçası olarak koyuyor.
+
+Katkısı belki de tek cümlede: **Adalet, insanların ne kadar pay aldığıyla olduğu kadar, toplum içinde birbirlerini nasıl gördükleriyle de ilgilidir.**
+
+## Türkçede
+
+*Tanınma Uğruna Mücadele* Türkçeye çevrildi. *Sosyalizm Fikri* ve *Şeyleşme* de Türkçede bulunuyor. *The Working Sovereign* için henüz çeviri duyurusu yapılmadı.`,
+  },
+  {
+    title: "Derrida yapay zekâ çağında neden yeniden okunuyor?",
+    slug: "derrida-yapay-zeka-arsiv-iz-sorumluluk",
+    summary:
+      "Yapay zekâ tartışması çoğunlukla makinenin düşünüp düşünmediği etrafında dönüyor. Derrida'nın arşiv, yazı, iz ve sorumluluk üzerine düşünceleri soruyu bir adım geriye çekiyor: Makineler yazmaya ve hatırlamaya başladığında 'yazar', 'özne' ve 'sorumluluk' kavramlarına ne oluyor?",
+    seoTitle: "Derrida ve yapay zekâ: arşiv, iz ve sorumluluk",
+    metaDescription:
+      "Jacques Derrida'nın arşiv humması, yazı ve iz kavramları yapay zekâ çağında nasıl okunuyor? Yazarlık, hafıza ve sorumluluk üzerine.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jaques_Derrida_%28cropped%29.jpg?width=1600",
+    imageCredit: "Jacques Derrida · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-28T04:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["postmodernizm", "yapay-zeka", "teknoloji-felsefesi", "kavram", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Jacques Derrida",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/derrida/",
+      },
+    ],
+    content: `Yapay zekâ tartışması birkaç sorunun etrafında dönüyor: Makineler düşünebilir mi? İnsan zekâsını aşabilir mi? Dil modelleri gerçekten anlıyor mu?
+
+**Jacques Derrida**'nın düşüncesi bu soruların bir adım gerisine çekiliyor ve daha temel bir şey soruyor:
+
+Bir makine yazabiliyor, cevap üretebiliyor ve insanın dilsel izlerini işleyebiliyorsa; "yazar", "özne", "hafıza", "anlam" ve "sorumluluk" dediğimiz şeylerin sınırı nerede başlar, nerede biter?
+
+Derrida 2004'te öldü; yapay zekâ üzerine yazmadı. Ama yazı, teknik, arşiv ve hafıza üzerine geliştirdiği kavramlar, bugün bu tartışmanın neden yalnızca teknolojik değil felsefi bir mesele olduğunu anlamak için yeniden okunuyor.
+
+## Teknoloji nötr bir araç değildir
+
+Derrida'nın düşüncesinde teknoloji, insanın elindeki tarafsız bir alet olarak ele alınamaz.
+
+Bir iletişim teknolojisi mevcut düşünceleri başka bir kanaldan iletmekle kalmaz; **neyin söylenebileceğini, neyin saklanabileceğini ve neyin hatırlanabileceğini** de değiştirir.
+
+Bu tezin en güçlü ifadesi *Arşiv Humması*'nda (*Mal d'archive*). Derrida orada arşivi, geçmişin muhafaza edildiği pasif bir depo olarak görmez. **Arşivin teknik yapısı, arşive girecek şeyin yapısını da belirler.**
+
+Kitap 1994'te, elektronik posta yeni yaygınlaşırken yazıldı. Derrida orada, e-postanın yalnızca hızlı bir mektup olmadığını; kamusal ile özel arasındaki sınırı yeniden çizdiğini savunuyordu.
+
+## Arşiv artık yalnızca saklamıyor
+
+Bu düşünce büyük dil modelleri açısından doğrudan işe yarıyor.
+
+Bu sistemler devasa bir dilsel arşiv üzerinde çalışıyor: kitaplar, makaleler, internet metinleri, kodlar, haberler. Bu külliyat veri kümesine dönüştürülüyor ve algoritmik işlemlerle yeni metinler üretiliyor.
+
+Kritik soru artık "Yapay zekâ ne biliyor?" değil. Soru şu:
+
+**Yapay zekânın bildiğini sandığımız şey, hangi arşivleme ve seçme süreçlerinin sonucudur?**
+
+Geleneksel arşiv geçmişi kayıt altına alır. Dijital arşiv onu ayrıca sınıflandırır, sıralar ve görünür kılar. Yapay zekâ ise bir adım daha ileri gider: Arşivdeki izlerden **yeni cümleler, yeni görüntüler, yeni olasılıklar** üretir.
+
+Böylece arşiv ile üretim arasındaki sınır bulanıklaşır. Derrida'nın tezi tam burada güncelleniyor: Teknoloji geçmişi muhafaza etmekle kalmaz, geçmişin hangi biçimde karşımıza çıkacağını da belirler.
+
+## "Yapay zekâ yazıyor" derken ne diyoruz?
+
+Derrida'nın yazı üzerine düşüncesi bu tartışmada başka bir kapı açıyor.
+
+Derrida, Batı felsefesinin uzun süre konuşmayı yazıya göre daha asli, daha canlı ve özneye daha yakın gördüğünü göstererek bu hiyerarşiyi sorgulamıştı. Onun "yazı" kavramı kâğıda dökülen kelimelerden ibaret değil: **izlerin dolaşımı, tekrarlanabilirlik ve anlamın hiçbir zaman tek bir kaynağa bağlanamaması** meselesi.
+
+Buradan bakıldığında yapay zekânın ürettiği metin rahatsız edici bir soru doğuruyor:
+
+**Bir metnin anlamlı olması için arkasında onu yazan bilinçli bir öznenin bulunması zorunlu mudur?**
+
+Bir dil modeli şiir ürettiğinde ortada insanınkine benzeyen bir niyet olmayabilir. Yine de metin okunabilir, yorumlanabilir ve anlamlandırılabilir.
+
+Derridacı açıdan bu verimli bir paradoks: Metnin anlamı, onu üreten öznenin niyetinden bağımsız olarak dolaşıma girebilir.
+
+Dolayısıyla yapay zekâ yalnızca "makineler insan gibi yazabilir mi?" sorusunu değil, daha zor olanını da gündeme getiriyor: **Yazmak için bir insan özneye gerçekten ihtiyaç var mı?**
+
+## Asıl problem zekâ değil, sorumluluk
+
+Derrida'yı bu tartışmada önemli kılan ikinci kavram sorumluluk.
+
+Bir sistem yanlış bilgi ürettiğinde sorumlu kim? Algoritmayı yazan mühendis mi, modeli geliştiren şirket mi, veriyi sağlayan kurumlar mı, sistemi kullanan gazeteci ya da akademisyen mi? Yoksa sorumluluğun hiç kimse tarafından bütünüyle üstlenilemediği yeni bir alan mı oluşuyor?
+
+Derrida'nın etik ve siyaset felsefesinin önemli bir bölümü, **kararın kurallara indirgenemeyeceği** düşüncesine dayanır. Gerçek bir karar, önceden belirlenmiş bir yordamın mekanik uygulaması değildir; kuralın yetmediği yerde alınır. Kural yeterse ortada karar değil, hesap vardır.
+
+Buradan çıkan ayrım nettir: Bir algoritma seçenekleri hesaplayabilir. Ama **hesaplanabilir olan ile sorumluluk taşıyan karar aynı şey değildir.**
+
+Sitemizde bu ay aktardığımız [yapay zekâ yazarlığı tartışması](/haber/philosophy-public-affairs-yapay-zeka-yasagi) da tam bu noktada düğümlendi: Bir derginin yapay zekâ yazarlığını yasaklama gerekçesi metnin kalitesi değil, arkasında sorumluluk taşıyan birinin bulunmasıydı.
+
+## Öteki, veriye dönüştüğünde
+
+Derrida'nın düşüncesinde etik "ben"in kendi dünyasında kurulmaz. Ötekiyle karşılaşma ve ona karşı yükümlülük merkezîdir.
+
+Yapay zekâ sistemleri ise insanları veriye, profile, kategoriye ve istatistiksel örüntüye dönüştürüyor.
+
+Bir insan artık yalnızca bir isim değil: bir tüketici davranışı, bir kredi riski, bir yüz görüntüsü, bir sağlık profili, bir siyasi eğilim kategorisi, bir işe alım puanı.
+
+Derrida'nın çerçevesi burada bir uyarı sunuyor: **İnsan, hakkında hesaplama yapılabilen özelliklerinin toplamından ibaret değildir.**
+
+Yapay zekânın en büyük felsefi sorunu belki de insanı ne kadar iyi taklit ettiği değil; insanı ne ölçüde **hesaplanabilir bir nesneye** dönüştürdüğü.
+
+## İz ve unutulma hakkı
+
+Derrida'nın **iz** kavramı da yeni bir anlam kazanıyor.
+
+İnternette bırakılan her iz — mesajlar, aramalar, fotoğraflar, satın almalar, konum verileri — giderek büyüyen veri kümelerinin parçası hâline geliyor.
+
+Derrida'nın arşiv düşüncesi şunu hatırlatıyor: Bir şeyi kaydetmek onu saklamak değildir. Kaydetmek, aynı zamanda **gelecekte nasıl okunacağını belirleyecek koşulları yaratmaktır.**
+
+Bu yüzden "unutulma hakkı" yalnızca hukuki bir mesele değil. Aynı zamanda etik bir soru: Bir makinenin hafızasından silinmeyen bir insan gerçekten unutulmuş sayılabilir mi?
+
+## Derrida bugün teknolojiye karşı mı çıkardı?
+
+Bu soruya "evet" ya da "hayır" demek kolay olurdu; ama Derrida'nın düşüncesi böyle bir ikiliğe izin vermiyor.
+
+Derrida teknoloji karşıtı bir filozof olarak okunamaz. Tersine, elektronik iletişimin ve yeni medya teknolojilerinin insan deneyimini nasıl dönüştürdüğü üzerine erken dönemde ciddi biçimde düşündü.
+
+Derridacı yaklaşım ne körü körüne hayranlık ne de romantik bir karşı çıkış olur. Sorduğu soru başkadır: **Teknoloji insanın dünyasını nasıl yeniden kuruyor?**
+
+## Merkezin sarsılması
+
+Derrida'nın felsefesinin çekirdeğinde, anlamın tek ve değişmez bir merkeze sabitlenmesine yönelik eleştiri bulunur. Yapısöküm, metinlerin ve kurumların varsaydığı karşıtlıkları ve temelleri sorgulayan bir yaklaşımdır.
+
+Yapay zekâ bu sorunu gündelik hayata taşıyor:
+
+Bir metnin yazarı kim? Bir görüntünün üreticisi kim? Bir fikrin kaynağı nerede? Bir kararın sahibi kim?
+
+İnsan ile makine arasındaki sınır bulanıklaştıkça, modern düşüncenin üzerine kurulduğu **yazar, özne, özgünlük, niyet ve mülkiyet** kavramları yeniden tartışmaya açılıyor.
+
+## Sonuç
+
+Teknoloji dünyasının yaygın yanılgılarından biri, bütün soruların daha iyi modeller ve daha fazla veriyle çözülebileceğini düşünmek.
+
+Oysa bazı sorular teknik değil, felsefi: Anlamak nedir? Hatırlamak nedir? Bir özne olmak ne demektir? Bir karardan sorumlu olmak ne demektir?
+
+Derrida'nın bugün okunmasının nedeni bu sorulara hazır cevap vermesi değil. Önemi, soruların altındaki varsayımları görünür kılmasında.
+
+Belki de mirası tek bir öneride toplanıyor: **Teknolojinin bize verdiği cevaplardan önce, teknolojinin hangi soruları sormamızı engellediğine bakmak.**
+
+Çünkü yapay zekâ çağının en büyük felsefi problemi, makinelerin insan gibi düşünmeye başlaması olmayabilir. Asıl problem, insanların kendi düşünme biçimlerini makinelerin çalışma biçimine göre yeniden tanımlamaya başlaması olabilir.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 28 Ağustos: Augustinus'un ölümü ve iki yeni vaazı",
+    slug: "felsefe-tarihinde-bugun-28-agustos-augustinus",
+    summary:
+      "Augustinus 28 Ağustos 430'da, kuşatma altındaki Hippo'da öldü. Bin altı yüz yıl sonra, bu yıl açıklanan bir keşifle ona ait iki yeni vaaz gün yüzüne çıktı. Aynı gün, 1749'da Goethe doğdu.",
+    seoTitle: "28 Ağustos 430: Augustinus'un ölümü",
+    metaDescription:
+      "Augustinus 28 Ağustos 430'da öldü. İtiraflar, Tanrı Devleti, zaman ve irade kavramları; ayrıca 2026'da bulunan iki yeni vaaz.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Augustine_by_Philippe_de_Champaigne.jpg?width=1600",
+    imageCredit: "Philippe de Champaigne, Aziz Augustinus (1645-1650) · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica · Würzburg Üniversitesi",
+    sourceUrl: "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/two-new-sermons-augustine-discovered/",
+    publishedAt: "2026-08-28T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "din-felsefesi", "ortacag-felsefesi", "antik-felsefe", "arkeoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Two new sermons by St Augustine discovered",
+        publisher: "Julius-Maximilians-Universität Würzburg",
+        url: "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/two-new-sermons-augustine-discovered/",
+        primary: true,
+      },
+      {
+        title: "Augustine of Hippo",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+      },
+    ],
+    content: `**Augustinus**, 28 Ağustos 430'da Hippo Regius'ta — bugünkü Cezayir'in Annaba kentinde — öldü. Yetmiş beş yaşındaydı.
+
+Ölümü sıradan bir ölüm değildi: Şehir Vandallar tarafından kuşatılmıştı. Roma'nın Kuzey Afrika'daki düzeni çözülürken, o düzenin en büyük düşünürü de sahneden çekiliyordu.
+
+Otuz beş yıl boyunca Hippo piskoposluğunu yürütmüştü.
+
+## Yeni bir keşif: iki bilinmeyen vaaz
+
+Bu yılın en dikkat çekici filoloji haberlerinden biri Augustinus'la ilgili.
+
+Würzburg Üniversitesi'nden Latinist **Christian Tornau**, kendisine ulaşan bir el yazması üzerinde çalışmaya başladı: Aslen Bad Doberan Manastırı'na ait olan, bugün Polonya'daki Pelplin manastırında bulunan 12. yüzyıl tarihli bir cilt.
+
+El yazması Augustinus'a ait altı vaaz içeriyordu. İkisi daha önce bilinmiyordu.
+
+Metinler, Eski Ahit'in **Endor'lu cadı** anlatısını ele alıyor — Birinci Samuel'de, Kral Saul'un bir medyuma başvurup ölmüş peygamber Samuel'in ruhunu çağırttığı sahne. Yeni bulunan vaazlarda Augustinus, Saul'un sonunda tövbe etmiş ve Tanrı'nın merhametine kavuşmuş olabileceğini düşündürüyor.
+
+Doğrulama süreci iki yıl sürdü. 2025 sonbaharında Viyana'da toplanan bir yaz okulunda yirmiye yakın Latin filolojisi uzmanı metinleri inceledi ve **oybirliğiyle** Augustinus'a ait olduklarına karar verdi.
+
+İlk eleştirel basımın — Latince metin, Almanca çeviri, tarihsel ve teolojik bağlam ve özgünlük çözümlemesiyle birlikte — bu yılın sonunda yayımlanması planlanıyor.
+
+Bin altı yüz yıl sonra bir düşünürün külliyatına iki metin eklenmesi, felsefe tarihinde sık rastlanan bir şey değil.
+
+## İtiraflar: felsefenin biçim değiştirdiği kitap
+
+**İtiraflar** (yaklaşık 397-400), yalnızca içeriğiyle değil biçimiyle de yeni bir şey yaptı.
+
+Felsefe o güne kadar diyalog, risale ya da mektup biçiminde yazılıyordu. Augustinus bir başkasına değil, doğrudan **Tanrı'ya seslenen** bir metin kurdu. Ama okur da oradadır; bu yüzden metin aynı anda hem dua hem itiraf hem çözümlemedir.
+
+Batı edebiyatının ilk özyaşamöyküsü sayılması bundandır. Ama asıl yeniliği daha derin: İç dünyayı — bellek, arzu, kararsızlık, kendini aldatma — felsefi incelemenin konusu hâline getirdi.
+
+## Zaman: en çok alıntılanan pasaj
+
+*İtiraflar*'ın on birinci kitabındaki zaman tartışması, felsefe tarihinin en çok alıntılanan bölümlerinden biri.
+
+Augustinus şunu sorar: Zaman nedir? Ve ünlü cevabı verir: *"Kimse sormazsa biliyorum; soran birine açıklamak istersem bilmiyorum."*
+
+Ardından geliştirdiği çözümleme çarpıcıdır. Geçmiş artık yoktur, gelecek henüz yoktur, şimdi ise uzamsız bir sınırdır. Öyleyse zaman nasıl ölçülür?
+
+Augustinus'un yanıtı zamanı zihne taşır: Geçmiş bellekte, gelecek beklentide, şimdi dikkatte vardır. Zaman, ruhun bir **gerilimidir** (*distentio animi*).
+
+Bu çözümleme Husserl'in iç zaman bilinci fenomenolojisini doğrudan etkiledi; Heidegger'in erken dersleri de Augustinus okumalarına dayanır.
+
+## İrade ve özgürlük
+
+Augustinus'un ikinci büyük katkısı **irade** kavramı.
+
+Yunan felsefesinde ahlaki başarısızlık genellikle bilgisizliktir: Kötüyü seçen kişi, iyiyi bilmiyordur. Augustinus buna itiraz eder. *İtiraflar*'daki armut hırsızlığı anlatısı bu itirazın kanıtıdır: Çocukken çaldığı armutları istemiyordu, aç değildi, meyveyi yemedi bile. Çalmayı, **kötü olduğu için** yaptı.
+
+Buradan doğan soru Batı düşüncesini yüzyıllarca meşgul etti: İnsan bildiği iyiye karşı nasıl davranabilir? İrade nedir ve akıldan bağımsız olabilir mi?
+
+Bu soru Kant'a, Schopenhauer'a ve nihayet Nietzsche'ye uzanır — bu köşede geçen hafta andığımız [Nietzsche](/haber/felsefe-tarihinde-bugun-25-agustos-hume-nietzsche), Hıristiyan ahlakına en sert saldırıyı yaparken bile Augustinus'un açtığı psikolojik derinliği kullanıyordu.
+
+## Tanrı Devleti
+
+410'da Roma yağmalandığında, suç Hıristiyanlara atıldı: Eski tanrılar terk edildiği için şehir düşmüştü.
+
+Augustinus'un yanıtı **Tanrı Devleti** oldu; yirmi iki kitaplık, on beş yılda yazılmış bir eser.
+
+Kitabın kurduğu ayrım siyaset felsefesinde kalıcı oldu: İki şehir vardır. **Yeryüzü şehri** kendini sevmeye, **Tanrı şehri** Tanrı'yı sevmeye dayanır. Bunlar iki ayrı kurum değil, tarih boyunca iç içe geçmiş iki yönelimdir.
+
+Sonuç siyaset açısından ayıklayıcıdır: Hiçbir dünyevi düzen mutlak meşruiyet iddia edemez. Devlet gerekli ama nihai değildir.
+
+Bu ayrım, Ortaçağ'da kilise-devlet tartışmasının çerçevesini kurdu; sekülerleşme tartışmalarında da izi sürülür.
+
+## 1749: Goethe
+
+Aynı gün, 1749'da Frankfurt'ta **Johann Wolfgang von Goethe** doğdu.
+
+Goethe kendini filozof saymadı, hatta sistemli felsefeye mesafeliydi. Ama felsefe tarihindeki yeri tartışmasız.
+
+*Faust*, bilme arzusunun sınırlarını konu alan modern edebiyatın en felsefi metni sayılır. Renk kuramı üzerine çalışması Newton'a karşı, deneyimin niteliksel yanını savunan bir bilim anlayışı önerdi — Wittgenstein'ın *Renkler Üzerine Notlar*'ı bu tartışmaya döner.
+
+Doğa araştırmalarında geliştirdiği **Urphänomen** — ilk fenomen — kavramı, olguların ardında yasa aramak yerine olgunun kendisinde yapıyı görmeyi önerir. Bu tavır, Alman idealizmiyle ve özellikle Hegel'le yakın bir akrabalık taşır; ikisi de Weimar-Jena çevresindeydi.
+
+Dün doğum yıldönümünü andığımız Hegel, Goethe'yi ziyaret etmiş ve renk kuramı konusunda ona hak vermişti.
+
+## Türkçede
+
+Augustinus'un *İtiraflar*'ı Türkçeye birkaç kez çevrildi; *Tanrı Devleti* de Türkçede bulunuyor. Goethe'nin *Faust*'u ve *Renk Öğretisi* Türkçeye kazandırıldı.
+
+---
+
+*Not: Augustinus fotoğrafın icadından on dört yüzyıl önce yaşadı. Kapaktaki görsel Philippe de Champaigne'in 1645-1650 arasında yaptığı portredir.*`,
+  },
+  {
     title: "Comte-Sponville'den yaşam ve ölüm üzerine son sözler: 'Yaşama Fırsatı'",
     slug: "comte-sponville-yasama-firsati",
     summary:
@@ -7278,6 +8146,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 /* ------------------------------------------------------------------ */
 
 export const books: SeedBook[] = [
+  {
+    title: "Liberal Faşizmler",
+    slug: "zizek-liberal-fasizmler",
+    originalTitle: null,
+    publisher: "İletişim Yayınları",
+    translator: "Barış Özkul",
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Žižek'in yeni kitabı, otoriterliğin bugünkü biçiminin liberalizmin karşısında değil içinde doğduğu tezini işliyor. Eylülün ilk haftasında raflarda.",
+    year: 2026,
+    link: "https://iletisim.com.tr/kisi/baris-ozkul/9251",
+    philosopherSlug: "slavoj-zizek",
+    postSlug: "zizek-liberal-fasizmler-iletisim",
+  },
   {
     title: "The Mattering Instinct: How Our Deepest Longing Drives Us and Divides Us",
     slug: "the-mattering-instinct",
