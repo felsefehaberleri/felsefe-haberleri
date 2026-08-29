@@ -1489,6 +1489,1019 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Bedia Akarsu: Türkçeyi felsefenin dili yapan Cumhuriyet aydını",
+    slug: "bedia-akarsu-felsefenin-dili",
+    summary:
+      "Dil, kültür, ahlak ve insan sorununu tek bir düşünsel çizgide buluşturan Akarsu, Türkiye'nin önde gelen felsefe profesörlerinden biri olmakla kalmadı; Türkçenin bir felsefe dili olarak kurulmasına da katkıda bulundu. Felsefe Terimleri Sözlüğü bugün hâlâ başvuru kaynağı.",
+    seoTitle: "Bedia Akarsu: dil, ahlak ve insan sorunu",
+    metaDescription:
+      "Bedia Akarsu'nun Felsefe Terimleri Sözlüğü, Humboldt ve Scheler çalışmaları, Kant okuması ve Türkçenin felsefe dili olarak kurulmasındaki rolü.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul_%C3%9Cniversitesi_Edebiyat_Fak%C3%BCltesi_binas%C4%B1.jpg?width=1600",
+    imageCredit: "İstanbul Üniversitesi Edebiyat Fakültesi — Bedia Akarsu kırk yılı aşkın süre bu binada ders verdi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-29T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["etik", "kavram", "akademi", "ceviri", "toplumsal-cinsiyet"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "İstanbul Üniversitesi Edebiyat Fakültesi",
+        publisher: "Wikimedia Commons",
+        url: "https://commons.wikimedia.org/wiki/Category:Istanbul_University_Faculty_of_Letters",
+      },
+    ],
+    content: `Türkiye'de felsefenin yalnızca üniversite kürsülerinde değil, dilin kendisinde de kurulduğunu söylemek gerekirse, bu sürecin en önemli isimlerinden biri **Bedia Akarsu**'dur.
+
+27 Ocak 1921'de İstanbul'da doğdu, 26 Şubat 2016'da yine İstanbul'da öldü. Geride yalnızca kitaplar ve makaleler değil, **Türkiye'de felsefe yapmanın dilsel imkânlarına** ilişkin bir düşünce mirası bıraktı.
+
+## Bir kuşağın içinden
+
+Akarsu'nun hayatı, Cumhuriyet'in üniversite ve kültür kurumlarının yeniden şekillendiği dönemin felsefe tarihiyle iç içe.
+
+İstanbul Üniversitesi Felsefe Bölümü'nü 1943'te bitirdi; 1944'te üniversitede seminer kütüphanecisi olarak çalışmaya başladı. Doktorasına Ernst von Aster'in yanında başladı; hocasının ölümünün ardından Joachim Ritter'in danışmanlığında tamamladı.
+
+Tezinin başlığı sonraki kırk yılını haber veriyordu: **"Wilhelm von Humboldt'ta Dil-Kültür Bağlantısı."**
+
+Humboldt'un tezi şuydu: Dil, düşüncelerin aktarıldığı bir araç değil; bir halkın dünyayı görme biçiminin kendisidir. Her dil bir dünya görüşü taşır. Akarsu bu fikri bir felsefe tarihi konusu olarak değil, **Türkiye'nin kendi meselesi** olarak aldı.
+
+## Alman felsefesiyle kurulan bağ
+
+1933 Üniversite Reformu'ndan sonra İstanbul Üniversitesi'ne gelen Alman felsefe geleneği, Akarsu'nun oluşumunda belirleyici oldu. Ernst von Aster, Joachim Ritter ve Takiyettin Mengüşoğlu ile çalıştı.
+
+Arnold Gehlen ve Hans Freyer'in İstanbul'daki konferanslarını, Ritter'in derslerini Türkçeye çevirdi. 1956-1958 arasında Heidelberg Üniversitesi'nde **Hans-Georg Gadamer**'in fenomenoloji seminerlerine katıldı ve orada Max Scheler üzerine çalıştı.
+
+1955'te Felsefe Tarihi Kürsüsü'nde asistan oldu; 1960'ta *Max Scheler'de Kişilik Problemi* çalışmasıyla doçent, 1968'de profesör oldu. Sonraki yıllarda İstanbul Üniversitesi Felsefe Bölümü başkanlığı yaptı.
+
+## "Felsefe Terimleri Sözlüğü": bir terminoloji çalışmasından fazlası
+
+Akarsu'nun adı bugün en geniş biçimde **Felsefe Terimleri Sözlüğü** ile anılıyor.
+
+Eser ilk kez 1975'te Türk Dil Kurumu tarafından yayımlandı; sonraki yıllarda gözden geçirilmiş baskılarla çıkmaya devam etti.
+
+Ama sözlüğün önemi içerdiği terim sayısında değil. Akarsu'nun iddiası daha derindi:
+
+**Bir toplum kendi dilinde felsefe yapabilmelidir.**
+
+Bu iddiaya göre felsefe terminolojisi teknik bir sözlük hazırlama işi değil, doğrudan **düşüncenin özgürleşmesi** meselesidir. Felsefi bir kavramın Türkçede karşılığını bulmak, düşünceyi başka bir dilin kalıplarından kurtarmaktır.
+
+Akarsu'ya göre sorun Türkçenin felsefeye elverişli olup olmaması değildi. Sorun, Türkçenin düşünme kapasitesini kullanıp kullanmadığımızdı.
+
+## Macit Gökberk'le birlikte
+
+Akarsu'nun dil çalışmalarını Türk Dil Kurumu'ndan ayrı düşünmek mümkün değil.
+
+1963-1983 arasında TDK yönetim kurulunda görev yaptı; özellikle **Macit Gökberk** ile birlikte felsefe terimlerinin Türkçeleştirilmesinde etkin rol oynadı.
+
+Bu, Cumhuriyet'in felsefe alanındaki kurumsallaşmasının gözden kaçan yarısıdır. Kürsü açmak yetmiyordu; yeni bir felsefe dili de gerekiyordu.
+
+"Varlık", "öz", "değer", "özgürlük", "bilinç", "erek", "yargı", "zorunluluk", "olumsallık" gibi kavramların Türkçe felsefi terminolojiye yerleşmesi, uzun bir kültür dönüşümünün parçasıydı.
+
+Bugün bir felsefe öğrencisi bu sözcükleri kullanırken, ardındaki tercih tartışmalarını çoğu zaman bilmez. Sözlük, o tartışmaların tortusudur.
+
+## Kant ve Scheler: saygı ile sevgi
+
+Akarsu'nun ikinci ekseni ahlaktı; burada iki isim belirleyici oldu.
+
+Kendi ifadesiyle **Kant** ona "insana saygıyı", **Scheler** ise "sevgiyi" öğretiyordu. İkisi de yalnızca ahlak felsefesinin kavramları değil, insan olmanın nitelikleriydi.
+
+Kant'ın ahlakında insan hiçbir zaman yalnızca araç olarak görülemez; kendi başına amaç olan bir varlıktır. Scheler ise insanın değer dünyasını, duygularını ve kişilik yapısını felsefenin temel sorunlarından biri hâline getirir.
+
+Akarsu'nun iki filozof arasında kurduğu köprü kendi yönelimini de belirledi: **İnsan yalnızca bilen değil; değer veren, seçen, sorumluluk taşıyan ve kendini gerçekleştiren bir varlıktır.**
+
+## Ahlak öğretileri: iki cilt, iki yaklaşım
+
+*Ahlak Öğretileri I: Mutluluk Ahlakı*, ilkçağdan başlayarak farklı filozofların mutluluk, erdem ve iyi yaşam anlayışlarını inceler.
+
+*Ahlak Öğretileri II: Immanuel Kant'ın Ahlak Felsefesi* ise ödev ahlakına odaklanır.
+
+Akarsu'nun Kant yorumunda dikkat çeken nokta şu: Kant ahlakını bir **kendini sınırlama** ahlakı olarak okur. Klasik ilkçağ ahlakında ise insanın kendini geliştirmesi ve gerçekleştirmesi daha belirgindir.
+
+Bu ayrım, onun insan felsefesine açılan kapıdır: İnsan yalnızca kurallara uyan değil, **kendini oluşturan** bir varlıktır.
+
+## "İnsan-olma" sorunu
+
+Scheler, Akarsu'nun akademik hayatında özel bir yer tutuyordu. İlk çalışmalarından biri olan *Max Scheler'de Kişilik Problemi*'ni sonraki yıllarda genişleterek *Max Scheler Felsefesinde Kişi Kavramı ve İnsan-Olma Sorunu* başlığıyla yayımladı.
+
+Burada "insan" biyolojik bir türün adı olmaktan çıkar ve felsefi bir probleme dönüşür: **İnsan olmak ne demektir?**
+
+Akarsu için kişilik, psikolojik özelliklerin toplamı değildir. İnsan, değerlerle ilişki kuran ve kendini bu değerler dünyası içinde gerçekleştiren bir varlıktır.
+
+Bu yüzden Scheler okumaları dil ve ahlak çalışmalarından kopuk değil. Zincir şudur: **Dil kültürü kurar; kültür değerleri taşır; değerler insanın kendini gerçekleştirme biçimini belirler.** Akarsu'nun farklı konuları tek bir merkezde birleşir: insan.
+
+## "Modern Toplumda Kadın"
+
+1963 tarihli *Modern Toplumda Kadın*, kadın meselesini yalnızca toplumsal ya da hukuki bir problem olarak değil, **insanın kendini gerçekleştirmesi** açısından ele alan erken çalışmalardan biri.
+
+Akarsu burada kadının yalnızca "kadın olarak" değil, insan olarak kendini kabul ettirme mücadelesine dikkat çekiyordu.
+
+Dönemin Türkiyesi açısından bu, dikkat çekici bir konumdur. Çünkü Akarsu'nun eşitlik anlayışı toplumsal roller üzerinden değil, **insanın evrensel değeri** üzerinden kuruluyor.
+
+Bu bakımdan kadın sorunu, onun ahlak felsefesinin doğal uzantısıdır: İnsan bir araç değil, kendi başına değeri olan bir varlıktır.
+
+## Cumhuriyet ve Aydınlanma
+
+Akarsu'yu yalnızca Kant ve Scheler üzerinden okumak yetersiz kalır. Düşüncesinin arkasında güçlü bir Aydınlanma ve Cumhuriyet fikri var.
+
+*Atatürk Devrimi ve Yorumları* ile *Atatürk Devrimi ve Temelleri* gibi çalışmaları, Cumhuriyet'i siyasal bir rejim değişikliği olarak değil, **kültürel ve düşünsel bir dönüşüm** olarak değerlendirdiğini gösteriyor.
+
+Modernleşme konusundaki yaklaşımı da buradan geliyor: Batı'dan yalnızca teknik unsurları almak yetmez; modern bilimin, laikliğin ve Aydınlanma düşüncesinin arkasındaki kültürel temellerin anlaşılması gerekir.
+
+Tanzimat ile Cumhuriyet arasındaki farkı da siyasi değişiklikler üzerinden değil, **düşünme biçimindeki dönüşüm** üzerinden değerlendirir.
+
+## Üniversitenin dışında
+
+Akarsu'nun etkisi akademiyle sınırlı kalmadı. *Felsefe Arkivi*, *Türk Dili*, *Arayış*, *Gösteri*, *Çağdaş Eleştiri* ve *Cogito* gibi yayınlarda makaleleri çıktı; Cumhuriyet gazetesinde de yazdı.
+
+Bu yönüyle "filozof-akademisyen" ile "kamusal aydın" kimliklerini birleştiren kuşağın temsilcilerindendi.
+
+Onun için felsefe, uzmanların kendi aralarında konuştuğu kapalı bir disiplin değildi. Dil, ahlak, kadın, kültür, Cumhuriyet ve modernleşme felsefenin konusu olabilirdi.
+
+1988-1989'da Çukurova Üniversitesi Eğitim Fakültesi'nde Felsefe Grubu Öğretmenliği Bölümü'nün kuruluşunda görev alması da aynı tutumun parçası: Felsefe yalnızca araştırılmaz, öğretilir de.
+
+Yaşam çizgisinde dikkat çekici bir süreklilik var: **Felsefe yapmak, felsefeyi Türkçeleştirmek ve felsefeyi öğretmek.** Üçü de aynı projenin parçası.
+
+## Değişen dünya, değişen değerler
+
+2006'da yayımlanan *Değişen Dünya Değişen Değerler*, Akarsu'nun düşüncesinin yalnızca geçmişe dönük olmadığını gösteriyor.
+
+Sorusu şu: **Dünya değişirken insanın değerleri nasıl değişiyor?**
+
+Teknolojik gelişme ve toplumsal dönüşüm özgürlük, sorumluluk ve değer anlayışını dönüştürürken felsefenin görevi bu değişimi betimlemek değil, **değerlendirmektir**.
+
+## Bugün neden okunmalı?
+
+Vefatının üzerinden on yıl geçmişken Akarsu'nun düşüncesi üç tartışmada güncelleşiyor.
+
+**Dil.** Yapay zekâ, dijital iletişim ve küresel akademik yayıncılık çağında "Türkçede felsefe yapılabilir mi?" sorusu başka bir biçimde geri geliyor. Akarsu'nun yanıtı açıktı: Sorun Türkçenin yetersizliği değil, kavramlaştırma yeteneğimiz. Sitemizde dün aktardığımız [Hilmi Ziya Ülken'in tercüme tezi](/haber/hilmi-ziya-ulken-sorulari) de aynı hattan geliyor.
+
+**Ahlak.** Kant'ın insanı amaç olarak gören ahlakı ile Scheler'in değer dünyasına yaptığı vurgu, insanın teknolojik sistemler karşısındaki konumunun tartışıldığı bir dönemde güncelliğini koruyor.
+
+**İnsan.** Yapay zekâdan biyoteknolojiye, algoritmik yönetimden dijital kültüre kadar bugünün tartışmalarının merkezinde yeniden "insan nedir?" sorusu var. Akarsu'nun Scheler üzerinden geliştirdiği "insan-olma" problemi bu yüzden yalnızca felsefe tarihi açısından değil, çağdaş dünya açısından da okunabilir.
+
+## Miras
+
+Akarsu'nun ağırlığı tek bir kitapla açıklanamaz. Mirası katmanlı:
+
+Humboldt'tan hareketle dil ve kültür ilişkisini araştırdı. Scheler üzerinden kişi ve insan-olma sorununu inceledi. Kant üzerinden ahlakın ve insan onurunun temellerini tartıştı. Kadın sorununu felsefi bir problem olarak ele aldı. Cumhuriyet ve Aydınlanma üzerine düşündü. Ve Türk Dil Kurumu'nda felsefe terminolojisinin Türkçeleşmesine katkıda bulundu.
+
+Bu nedenle onu "Türkiye'nin önemli kadın filozoflarından biri" diye tanımlamak yetersiz kalır. O, Cumhuriyet döneminde **felsefenin dilini kuran** bir aydındı.
+
+Mirasını anlamanın en iyi yolu belki de kendi felsefe anlayışını hatırlamak: Felsefe bilgi biriktirmek değildir. Bilgiyi değerlendirmek, insanın nasıl yaşaması gerektiğini sorgulamaktır.
+
+Kant'tan aldığı **saygı**, Scheler'den aldığı **sevgi** ve kendi çizgisinde birleştirdiği **insan olma** fikri — bugün de düşüncesini canlı tutan üç kavram.`,
+  },
+  {
+    title: "8,3 milyar yapay persona: MatrAIx insanlığı simüle edebilir mi?",
+    slug: "matraix-persona-simulasyonu",
+    summary:
+      "Harvard ve MIT öncülüğünde 93 araştırmacının hazırladığı çalışma, dünyanın her sakini için bir profil oluşturduğunu ve yapay zekâ sistemlerinin bu simüle edilmiş nüfus üzerinde test edilebileceğini bildiriyor. Teknik iddia güçlü; felsefi soru daha da büyük.",
+    seoTitle: "MatrAIx: 8,3 milyar persona ajanıyla dünya simülasyonu",
+    metaDescription:
+      "MatrAIx araştırması 8,3 milyar persona ile yapay zekâ sistemlerini test etmeyi öneriyor. Simülasyonun felsefi ve epistemolojik sınırları.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cern_datacenter.jpg?width=1600",
+    imageCredit: "CERN veri merkezi · Wikimedia Commons",
+    featured: true,
+    sourceName: "arXiv",
+    sourceUrl: "https://arxiv.org/abs/2608.04205",
+    publishedAt: "2026-08-29T02:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["yapay-zeka", "teknoloji-felsefesi", "etik", "epistemoloji", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+        publisher: "arXiv:2608.04205",
+        date: "4 Ağustos 2026",
+        url: "https://arxiv.org/abs/2608.04205",
+        primary: true,
+      },
+      {
+        title: "MatrAIx-Persona-8B",
+        publisher: "GitHub",
+        url: "https://github.com/MatrAIx-ai/MatrAIx-Persona-8B",
+      },
+      {
+        title: "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+        publisher: "Hugging Face Papers",
+        url: "https://huggingface.co/papers/2608.04205",
+      },
+    ],
+    content: `Yapay zekâ alanında uzun süredir sorulan soru, makinelerin insan gibi düşünüp düşünemeyeceğiydi.
+
+4 Ağustos'ta arXiv'de yayımlanan bir çalışma soruyu tersine çeviriyor: **Makineler insanları yeterince iyi simüle edebilir mi?**
+
+**MatrAIx: Simulating the World with 8.3 Billion Persona Agents** başlıklı teknik rapor, Harvard ve MIT öncülüğünde doksan üç araştırmacı tarafından hazırlandı. Proje kendisini bir dil modeli olarak değil, **simüle edilmiş kullanıcılarla değerlendirme altyapısı** olarak tanımlıyor.
+
+## Rakamlar
+
+Sistemin merkezinde **Persona 8B** var.
+
+Çalışmanın iddiası çarpıcı: 8,3 milyar profil — gezegenin her sakini için bir tane. Her profil yaştan mesleğe, gelirden risk toleransına uzanan **1.290 nitelikle** tanımlanıyor.
+
+Burada bir ayrımı baştan koymak gerekiyor: Bu, 8,3 milyar gerçek insanın dijital kopyası değil. Nitelik kombinasyonlarından üretilebilen bir **persona uzayı**. Araştırmacılar bağıntıları koruyan bir bağımlılık grafiğinden örnekleme yaptıklarını belirtiyor.
+
+Kamuya açılan kısım çok daha küçük: kalite filtresinden geçmiş yaklaşık **bir milyonluk bir çekirdek**. Bunun 599.847'si insan kaynaklı verilere dayanıyor, 400 bini sentetik.
+
+Persona ajanları dört ortamda çalıştırılabiliyor: **anket, yapay zekâ sohbet botu, web ve uygulama** (masaüstü ve mobil dahil). Sistem yirmi beşten fazla alana yayılan 1.010 yeniden kullanılabilir görev içeriyor.
+
+## Fikir: önce simüle et, sonra doğrula
+
+MatrAIx'in önerdiği şey gerçek kullanıcı araştırmalarını ortadan kaldırmak değil.
+
+Araştırmacılar simülasyonu, gerçek kullanıcı araştırmasından **önce** çalışan bir stres testi olarak konumlandırıyor. Bir şirket yeni bir uygulama geliştirdiğinde binlerce kullanıcıyla test yapmak zaman ve para gerektiriyor; aynı durum bir müşteri hizmetleri botu, finans uygulaması ya da sağlık yazılımı için de geçerli.
+
+Yazılım mühendisliği açısından bunun kayda değer bir sonucu var. Geleneksel test şunu sorar: **Sistem doğru çalışıyor mu?**
+
+MatrAIx buna ikinci bir soru ekliyor: **Sistem farklı insanlar karşısında nasıl çalışıyor?**
+
+Araştırmacılar 18.189 değerlendirme deneyi gerçekleştirdiklerini bildiriyor. Persona ajanları farklı büyük dil modelleriyle çalıştırıldı.
+
+Bu nokta önemli: MatrAIx kendi başına bir insan simülatörü değil. Persona bilgisi bir davranış çerçevesi sağlıyor; davranışı üreten mekanizma dil modelinin kendisi.
+
+Denklem şöyle: **persona + ortam + görev + dil modeli = simüle edilmiş kullanıcı davranışı.**
+
+## %91,5: persona davranışa dönüşüyor mu?
+
+Çalışmanın en dikkat çekici ölçümlerinden biri persona uyumu.
+
+On davranışsal özellik üzerinden 400 kontrollü deneme yapıldı; 366'sında personaya tanımlanan davranış ortaya çıktı ya da gerektiğinde doğru biçimde bastırıldı. Bu **yüzde 91,5**'lik bir uyum demek.
+
+Rakam yüksek görünüyor. Ama burada metodolojik olarak dikkat edilmesi gereken bir şey var:
+
+**Persona uyumu, insan gerçekliğiyle aynı şey değildir.**
+
+Bir modelin "şüpheci kullanıcı" olarak tanımlanması ve deneyde şüpheci davranması, gerçek hayattaki şüpheci insanların da öyle davranacağını kanıtlamaz. Ölçülen şey, modelin kendisine verilen talimatı ne kadar iyi izlediği.
+
+Aradaki fark, önümüzdeki yılların en önemli araştırma sorularından biri olabilir.
+
+## Felsefenin eski sorusu: insan nedir?
+
+MatrAIx'in teknik mimarisinin arkasında çok eski bir problem duruyor.
+
+Bir insanı yaş, gelir, eğitim, meslek, kişilik özellikleri, tercihler ve davranış kalıpları üzerinden tanımlayabiliriz. Peki bütün bunları bir araya getirdiğimizde elimizde gerçekten "insan" mı olur, yoksa insan hakkında oluşturulmuş bir **veri modeli** mi?
+
+Bu soru bizi Aristoteles'ten Kant'a, fenomenolojiden çağdaş zihin felsefesine uzanan bir tartışmanın içine sokuyor.
+
+Çünkü insan yalnızca sahip olduğu niteliklerin toplamı değil. İnsan aynı zamanda **birinci şahıs deneyimine** sahip bir varlık olarak düşünülür.
+
+Açlık "açlık = 0/1" değişkeni değildir. Kaygı bir davranış parametresi değildir. Bir ürüne duyulan güven kategorik bir özellik değildir. Bir insanın kararını belirleyen şey bazen hiçbir veri tabanının temsil edemeyeceği tekil bir deneyimdir.
+
+Sitemizde bu ay aktardığımız [Don Ihde'nin postfenomenolojisi](/haber/don-ihde-postfenomenoloji-yapay-zeka) tam da bu farkı çözümlemek için kurulmuştu: Deneyim, niteliklerin toplamına indirgenemez.
+
+## Döngüsellik problemi
+
+Sistemin daha derin bir sorunu var: **Yapay zekâ, yapay zekâyı değerlendiriyor.**
+
+MatrAIx'te persona ajanları büyük dil modelleri tarafından çalıştırılıyor ve değerlendirilen sistemler de yapay zekâ ürünleri. Buradan çıkan soru şu:
+
+Bir yapay zekâ, başka bir yapay zekânın insanlar üzerindeki etkisini ölçerken gerçekten insan davranışını mı ölçüyor — yoksa modelin insan davranışı hakkındaki **varsayımlarını** mı?
+
+Bu itiraz literatürde "döngüsellik problemi" adıyla gündeme getirildi. Küçümsenecek bir itiraz değil. Eğer yapay zekâ hem kullanıcı hem değerlendirici olarak kullanılırsa, sistem kendi varsayımlarını kendi içinde doğrulayan **kapalı bir epistemik çevrim** oluşturabilir.
+
+Bu, bilim felsefesinde tanıdık bir tuzak: Ölçme aracının, ölçtüğü şeyle aynı varsayımları paylaşması.
+
+## Asıl katkı: "ortalama kullanıcı" fikrinin sonu
+
+MatrAIx'in hakkını teslim etmek gerekiyor. Proje, "ortalama insan" fikrinin yetersizliğini açık biçimde ortaya koyuyor.
+
+Gerçek dünyada insanlar aynı değildir. Aynı ürünü farklı insanlar farklı kullanır. Aynı hata bir kullanıcı için önemsizken diğeri için sistemi tamamen terk etme nedeni olabilir. Aynı fiyat artışı bir tüketiciyi etkilemezken başkasının satın alma davranışını değiştirebilir.
+
+Araştırmacılar farklı persona özelliklerinin fiyat artışına tepki, yapay zekâ asistanı başarısız olduğunda sistemi terk etme eğilimi ve gecikmeye tolerans gibi davranışlarda fark yarattığını gösteriyor.
+
+Bugüne kadarki ölçütler çoğunlukla tek bir "ortalama kullanıcı" varsayıyordu. MatrAIx **kullanıcı çeşitliliğini** değerlendirmenin merkezine koyuyor.
+
+Katkısı belki de tek cümlede: **"Model ne kadar iyi?" sorusunu "model kimin için ne kadar iyi?" sorusuna dönüştürmek.**
+
+## Nerede durmalı?
+
+Uzun vadeli sonuçlar ürün testiyle sınırlı kalmayabilir. Pazar araştırması, politika denemesi, eğitim sistemi tasarımı, reklam optimizasyonu — hepsi aynı altyapıyla yapılabilir.
+
+Tam burada etik sınır belirginleşiyor.
+
+Bir şirket "8,3 milyar sanal kullanıcıda test ettik" diyerek gerçek kullanıcı araştırmasını gereksiz görmeye başlarsa ne olur? Bir hükümet politikayı gerçek yurttaşlar yerine yapay yurttaşlar üzerinde denerse? Bir reklam şirketi hangi mesajın hangi personayı etkileyeceğini milyarlarca simülasyonla önceden hesaplayabilirse?
+
+Teknoloji burada insanı **anlamaya çalışan** bir araç olmaktan çıkıp insan davranışını **öngören ve şekillendiren** bir araca dönüşebilir.
+
+Araştırmacıların kendi ihtiyatı bu açıdan kayda değer: Simüle edilmiş kullanıcıların gerçek kullanıcıların yerine geçmediğini, sorunları daha erken keşfetmek için kullanılabileceğini, önemli sonuçların farklı modellerle kontrol edilip gerçek insanlarla doğrulanması gerektiğini belirtiyorlar.
+
+Simülasyon ile gerçeklik arasındaki farkı kabul etmek, simülasyonun bilimsel olarak güvenilir kalabilmesinin ön koşulu.
+
+## Yarışın konusu değişiyor
+
+MatrAIx bir yön değişikliğine işaret ediyor.
+
+İlk dönemin sorusu "kim daha büyük model yapacak?"tı. Sonra "kim daha güçlü ajan geliştirecek?" oldu. Şimdi giderek şu soru öne çıkıyor: **Kim insan davranışını daha iyi modelleyebilecek?**
+
+Bu, yapay zekânın "zekâ üretme" teknolojisi olmaktan çıkıp **insan davranışını modelleme** teknolojisine dönüşmekte olduğunu gösteriyor.
+
+Ve son soru belki de teknik değil: Yapay zekâ insanı ne kadar iyi taklit edebilir sorusundan çok, **insanı taklit ettiğini düşündüğümüz bir yapay zekâya ne zaman güvenmeye başlayacağız?**`,
+  },
+  {
+    title: "Alain de Botton: felsefeyi üniversiteden çıkarıp gündelik hayata taşımak",
+    slug: "alain-de-botton-gundelik-felsefe",
+    summary:
+      "Aşk, yalnızlık, statü kaygısı ve anlam arayışı. İngiliz-İsviçreli düşünür, felsefeyi akademik uzmanlığın sınırlarından çıkarıp gündelik meselelerin üzerine uygulayan en tanınan isim. Sorusu Sokrates'inki kadar eski: Nasıl yaşamalıyız?",
+    seoTitle: "Alain de Botton: kamusal felsefe, statü kaygısı ve The School of Life",
+    metaDescription:
+      "Alain de Botton'ın felsefe anlayışı, The School of Life, statü kaygısı, aşk ve mimarlık üzerine düşünceleri; akademik felsefeyle ilişkisi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Alain_de_Botton.jpg?width=1600",
+    imageCredit: "Alain de Botton · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-29T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "estetik", "kavram", "medya", "soylesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Alain de Botton",
+        publisher: "Wikimedia Commons",
+        url: "https://commons.wikimedia.org/wiki/Category:Alain_de_Botton",
+      },
+    ],
+    content: `Felsefe tarihinin büyük bölümünde filozofun görevi yalnızca dünyayı açıklamak değildi.
+
+Sokrates insanın nasıl yaşaması gerektiğini soruyordu. Epikuros mutluluğun koşullarını araştırıyordu. Seneca öfkeyi tartışıyordu. Montaigne kendini anlamaya çalışıyordu. Nietzsche insanın kendi değerlerini yaratma kapasitesini sorguluyordu.
+
+**Alain de Botton**, bu eski felsefe anlayışını çağdaş dünyada canlandırmaya çalışan en görünür isim.
+
+20 Aralık 1969'da Zürih'te doğdu. Felsefe eğitimi aldı; akademik kariyer yerine geniş okura seslenen kitapları tercih etti. 2008'de kurduğu **The School of Life** ile felsefe, psikoloji, edebiyat ve sanatın gündelik hayatta kullanılabileceği bir alan oluşturdu.
+
+Sorusu her kitapta aynı: **Bir filozofun düşüncesi bugün benim hayatımda ne işe yarar?**
+
+## Felsefe yalnızca üniversitede mi yapılmalı?
+
+De Botton'ın akademik felsefeye itirazı, disiplinin giderek teknik ve uzmanlaşmış hâle gelmesine yönelik. Ona göre üniversite felsefesi çoğu zaman insanların gerçekten ilgilendiği hayat sorunlarından uzaklaşıyor; Cambridge'deki kendi eğitim deneyimini de bu açıdan eleştiriyor.
+
+Bu tavrın kökleri *The Consolations of Philosophy*'ye — Türkçede *Felsefenin Tesellisi* — uzanıyor.
+
+Kitapta altı filozof, modern insanın altı sorunuyla karşılaştırılıyor:
+
+| Filozof | Sorun |
+|---|---|
+| Sokrates | Toplumun onayını kaybetmek |
+| Epikuros | Para ve mutluluk |
+| Seneca | Öfke ve hayal kırıklığı |
+| Montaigne | Yetersizlik duygusu |
+| Schopenhauer | Aşkta reddedilme |
+| Nietzsche | Acı ve zorluk |
+
+Buradaki iddia açık: **Felsefe, hayatı açıklamak kadar hayatı yaşamayı da öğretmelidir.**
+
+## "Kişisel gelişim" itirazı
+
+De Botton'ın en tartışmalı yanı da burada.
+
+Savunucuları, onun felsefeyi elit akademik çevrelerden çıkarıp milyonlarca insanın hayatına soktuğunu söylüyor. Eleştirenler ise yaptığı şeyin felsefeyi bir tür entelektüel kişisel gelişim ürününe dönüştürmek olduğunu.
+
+De Botton bu eleştiriyi büyük ölçüde reddediyor. Ona göre sorun "kendine yardım" fikrinin kendisi değil; bu alanın yüzeysel ve ticari biçimlere indirgenmesi. Antik Yunan ve Roma düşünürleri de insanlara nasıl yaşayacakları konusunda rehberlik ediyordu — Epikuros, Cicero, Seneca ve Marcus Aurelius bu anlamda okunabilir.
+
+Farkı ise şu iddiada: **İyi yaşamak için motivasyona değil, düşünmeye ihtiyacımız var.**
+
+## The School of Life: felsefe kurumsallaşırsa
+
+2008'de kurulan The School of Life bugün dünyanın farklı yerlerinde ve çevrimiçi ortamda psikoloji, felsefe, ilişkiler ve duygusal zekâ üzerine içerik, video ve eğitim sunuyor.
+
+Girişimin felsefi açıdan ilginç yanı, de Botton'ın felsefeyi yeniden bir **yaşam pratiği** olarak kurmaya çalışması.
+
+Antik felsefe okullarını bu açıdan örnek alıyor. Sokrates'in Atina'daki tartışmaları, Aristoteles'in Lykeion'u ya da Epikuros'un Bahçesi yalnızca kuramsal bilgi üreten kurumlar değildi; nasıl yaşanacağına ilişkin pratik topluluklardı.
+
+Bu okumanın arkasında **Pierre Hadot**'nun antik felsefeyi bir "ruhsal alıştırma" olarak inceleyen çalışmaları var. Hadot'nun tezi şuydu: Antik felsefe bir söylem değil, bir yaşam biçimiydi; kuramsal metinler o yaşam biçiminin yalnızca kalıntısıdır.
+
+De Botton'ın projesi bu tezin çağdaş bir uygulaması: **Felsefe bir meslek olmadan önce bir yaşama biçimidir.**
+
+## Aşk: beklentinin ağırlığı
+
+De Botton'ın çağdaş okur üzerindeki etkisinin en büyük nedeni, felsefeyi aşk ve ilişkiler üzerinden anlatması.
+
+*The Course of Love*'da romantik ilişkinin yalnızca tutku ve mutluluk değil; yanlış anlama, beklenti, hayal kırıklığı ve psikolojik aktarım alanı olduğunu tartışıyor.
+
+Temel teşhisi şu: Modern insan romantik ilişkinin üzerine aşırı beklenti yüklüyor.
+
+Artık partnerden yalnızca sevgi beklenmiyor. Aynı kişiden arkadaşlık, cinsellik, güven, entelektüel uyum, psikolojik destek, ekonomik ortaklık ve kişisel gelişim bekleniyor. Bu kadar çok talebin tek bir insana yüklenmesi ilişkiyi kırılganlaştırıyor.
+
+### Özgürleşme neden işleri kolaylaştırmadı?
+
+Geçmişte evlilikler büyük ölçüde aile, sınıf, din ve ekonomik zorunluluklar tarafından belirleniyordu. Modern insan partnerini kendi seçebileceğine inanıyor.
+
+Ama seçimin özgürleşmesi beklentiyi de büyüttü. "İyi bir evlilik" yetmiyor; insanlar **"doğru kişiyi"** bulmak istiyor.
+
+De Botton'ın eleştirisi burada: Romantik mutluluğun önündeki en büyük engel yanlış insanla birlikte olmak değil, **doğru insan fikrine fazla inanmak** olabilir.
+
+Çünkü kusursuz partner yok. Herkesin kendi psikolojik sorunları, geçmişi ve yanlış anlamaları var. Her ilişki, iki kusurlu insanın birlikte yaşamayı öğrenme çabası.
+
+## Yalnızlık: özgürlüğün bedeli
+
+Modern toplum bireye büyük bir özgürlük sağlıyor. İnsan nerede yaşayacağına, kiminle olacağına ve hangi mesleği seçeceğine geçmişe kıyasla çok daha fazla kendisi karar veriyor.
+
+Ama özgürlüğün bedeli **seçim sorumluluğu**.
+
+Başarısız bir ilişkiyi artık topluma, aileye ya da kadere bağlamak mümkün değil. Modern birey kendi hayatının mimarı sayılıyor.
+
+De Botton'a göre bu, psikolojik baskıyı artırıyor. Çünkü insan kendisini sürekli başkalarıyla karşılaştırıyor: daha başarılı olmalı, daha iyi bir partner bulmalı, daha anlamlı bir iş yapmalı, daha mutlu olmalı.
+
+Böylece özgürlük, paradoksal biçimde yeni bir kaygı üretim mekanizmasına dönüşebiliyor.
+
+## Statü kaygısı
+
+De Botton'ın en kalıcı kavramı **statü kaygısı**.
+
+Modern toplum insanlara kuramsal olarak sınırsız yükselme imkânı sunuyor. Paradoksal sonuç şu: Eğer herkes başarılı olabilecekse, başarısızlık artık kader değil **kişisel yetersizlik** olarak algılanıyor.
+
+Bu nedenle modern insan yalnızca yoksulluktan korkmuyor; başkalarının kendisinden daha başarılı olmasından korkuyor.
+
+Çözümlemenin bugün yeniden okunmasının nedeni açık. Sosyal medya platformları insanların başkalarının başarılarını sürekli görmesini sağlıyor. Eskiden insan birkaç komşusuyla kıyaslanırken bugün aynı anda binlerce hayatla kendini karşılaştırabiliyor.
+
+Statü kaygısı küreselleşiyor.
+
+## Güzellik etik bir mesele
+
+*The Architecture of Happiness*'ta mimarlığı teknik bir yapı üretme faaliyeti olarak değil, insan psikolojisini etkileyen bir alan olarak ele alıyor.
+
+İyi tasarlanmış bir okul, hastane, ev ya da tren istasyonu yalnızca estetik açıdan güzel değildir. İnsana bir mesaj da verir: **"Senin yaşamın önemlidir."**
+
+Bu nedenle mimarlık de Botton açısından etik bir meseleye dönüşür. Çirkin ve bakımsız çevreler insanlara değersiz oldukları duygusunu verebilir; özenle tasarlanmış mekânlar gündelik hayatın değerli olduğu hissini güçlendirebilir.
+
+## Merkezdeki kavram: kendini yanlış anlamak
+
+De Botton'ın farklı alanlarını birleştiren kavram **kendini tanıma**.
+
+Aşk, iş, mimarlık, sanat, seyahat, para, başarı — hepsi sonunda tek soruya bağlanıyor: **Kendimiz hakkında ne kadar yanılıyoruz?**
+
+Bir insan çok para kazanmak isteyebilir; aslında istediği saygı olabilir. Ünlü olmak isteyebilir; aslında istediği sevilmek olabilir. Sürekli seyahat etmek isteyebilir; aslında yaşadığı hayattan kaçıyor olabilir. Romantik bir ilişki arayabilir; aslında çocuklukta alamadığı güveni arıyor olabilir.
+
+De Botton'ın felsefesi tam olarak bu yanlış anlamaları görünür kılmaya çalışıyor.
+
+*A Therapeutic Journey* ise bu ilgiyi psikoterapiye yaklaştırıyor. Burada bir ayrım gerekli: De Botton psikiyatrist değil ve felsefe klinik ruh sağlığı hizmeti değil. Yaptığı şey, felsefi ve psikolojik düşünceleri gündelik hayatın anlaşılması için kullanmak.
+
+## Akademinin dışında filozof olunur mu?
+
+Geleneksel akademik ölçütler açısından de Botton'ın konumu tartışmalı: Hakemli dergilerde yayımlamıyor, teknik tartışmalara katkı vermiyor.
+
+Ama felsefe tarihine bakıldığında tablo başka. Sokrates kitap yazmadı. Montaigne akademik bir filozof değildi. Epiktetos'un felsefesi dersler ve yaşam pratiği üzerinden yayıldı. Nietzsche üniversite kariyerinden giderek uzaklaştı.
+
+"Filozof" kavramını yalnızca akademik meslek kategorisi olarak görmek de tarihsel olarak sorunlu.
+
+De Botton'ın tercihi net: **akademik filozof değil, kamusal filozof.**
+
+## Popülerleşme mi, basitleştirme mi?
+
+Popülerleşmenin bir bedeli olabilir.
+
+Nietzsche'nin karmaşık düşüncesi "zor zamanlarda güçlü ol" tavsiyesine indirgenebilir. Epikuros yalnızca "zevk al" diyen bir filozofa dönüştürülebilir. Stoacılık "duygularını bastır" biçiminde yanlış anlaşılabilir.
+
+Bu yüzden felsefenin **popülerleştirilmesi** ile **basitleştirilmesi** arasındaki sınır belirleyicidir. De Botton'ın çalışması bu sınırı sürekli tartışmaya açıyor.
+
+Sitemizde bu ay aktardığımız [akademik felsefenin dijital arşivi](/haber/turkiyede-akademik-felsefenin-dijital-arsivi) tartışması da benzer bir gerilimi taşıyor: Erişim genişlerken derinlik korunabiliyor mu?
+
+## Neden hâlâ okunuyor?
+
+De Botton'ın önemi yeni bir metafizik sistem kurmasında değil. Modern insanın gündelik problemlerini felsefi sorulara dönüştürmesinde.
+
+"Sevgilim neden beni anlamıyor?" sorusunu aşk felsefesine. "İşim neden beni mutsuz ediyor?" sorusunu anlam problemine. "Neden başkalarının başarısını kıskanıyorum?" sorusunu değer problemine. "Evimde neden kendimi kötü hissediyorum?" sorusunu estetik problemine.
+
+Bu nedenle onun felsefesi akademik felsefenin rakibi değil, **kamusal uzantısı** olarak da okunabilir.
+
+Ve asıl sorusu hâlâ eski: **Nasıl yaşamalıyız?**
+
+Modern dünyanın bütün teknolojik ve ekonomik değişimine rağmen bu sorunun cevaplanmamış olması, belki de neden hâlâ okunduğunu açıklıyor.
+
+## Türkçede
+
+*Felsefenin Tesellisi*, *Statü Endişesi*, *Mutluluğun Mimarisi*, *Seyahat Sanatı*, *Aşkın Seyri* ve *Haberler: Kullanım Kılavuzu* Türkçeye çevrildi.`,
+  },
+  {
+    title: "Lawlor'dan 'makul olma' savunusu: mantıklı olmak neden yetmiyor?",
+    slug: "krista-lawlor-being-reasonable",
+    summary:
+      "Stanford'lu filozofun Harvard University Press'ten çıkan kitabı, akılcılık ile makullük arasındaki farkı tartışmaya açıyor. Lawlor'a göre makul kişi yalnızca doğru çıkarım yapan değil, neyin değerli olduğunu görebilen kişidir. New Yorker kitabı yılın öne çıkanları arasında saydı.",
+    seoTitle: "Krista Lawlor — Being Reasonable: The Case for a Misunderstood Virtue",
+    metaDescription:
+      "Krista Lawlor'ın Being Reasonable kitabı: rasyonellik ile makullük farkı, hukukta makul kişi standardı, değer haritaları ve kutuplaşma.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Stanford_University_Main_Quad_-_7_June_2009.jpg?width=1600",
+    imageCredit: "Stanford Üniversitesi — Krista Lawlor burada felsefe profesörü · Wikimedia Commons",
+    featured: false,
+    sourceName: "Harvard University Press",
+    sourceUrl: "https://www.hup.harvard.edu/file/feeds/PDF/9780674297470_sample.pdf",
+    publishedAt: "2026-08-29T04:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "etik", "hukuk-felsefesi", "demokrasi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Krista Lawlor's new book explores 'What does it mean to be reasonable?'",
+        publisher: "Stanford University, Department of Philosophy",
+        url: "https://philosophy.stanford.edu/news/krista-lawlors-new-book-explores-what-does-it-mean-be-reasonable",
+        primary: true,
+      },
+      {
+        title: "What does it mean to be reasonable?",
+        publisher: "Stanford Report",
+        date: "Mart 2026",
+        url: "https://news.stanford.edu/stories/2026/03/krista-lawlor-being-reasonable-book-constructive-dialogue",
+      },
+      {
+        title: "Being Reasonable: The Case for a Misunderstood Virtue",
+        publisher: "Harvard University Press",
+        url: "https://www.hup.harvard.edu/file/feeds/PDF/9780674297470_sample.pdf",
+      },
+    ],
+    content: `Bir insan ne zaman "makul"dür?
+
+Sesini yükseltmediğinde mi? Karşısındakinin görüşünü kabul ettiğinde mi? Mantıklı argümanlar kurduğunda mı? Yoksa kendi çıkarının ötesine geçip başkalarının neye değer verdiğini anlamaya çalıştığında mı?
+
+Stanford Üniversitesi felsefe profesörü **Krista Lawlor**, Harvard University Press'ten çıkan **Being Reasonable: The Case for a Misunderstood Virtue** ile bu soruları felsefenin merkezine taşıyor.
+
+Kitap, New Yorker'ın "2026'nın şimdiye kadarki en iyi kitapları" listesine girdi.
+
+## Temel ayrım
+
+Lawlor'ın iddiası ilk bakışta basit, sonuçları geniş:
+
+**Makul olmak, rasyonel olmakla aynı şey değildir.**
+
+Kitapta aktarılan bir gözlem bu farkı somutlaştırıyor. İnsanlar "rasyonel" kişiyi tarif ederken en sık şu sıfatları kullanıyor: sistemli, duygusuz, çözümleyici. "Makul" kişiyi tarif ederken ise: empatik, saygılı, dinleyen.
+
+Lawlor'a göre makul kişi, **neyin önemli olduğunu güvenilir biçimde görebilen** kişidir. Bunun için yeterince rasyonel olmalı, aynı zamanda başkalarının değer verdiği şeyleri hesaba katmalıdır. Ama rasyonellik ve düşüncelilik tek başına yetmez.
+
+## Rasyonel olmak neden yeterli değil?
+
+Bir iddia ortaya atılır, kanıtlar değerlendirilir, mantıksal çıkarım yapılır, sonuca varılır.
+
+Lawlor'ın sorusu tam burada: Bütün bunları doğru yapan biri yine de makul olmayabilir mi?
+
+Yanıt evet. Çünkü insanın yalnızca "neye inanması gerektiğini" değil, **"neyin önemli olduğunu"** da anlaması gerekir.
+
+Bir yönetici çalışanının sözleşmesindeki bütün maddeleri hukuken doğru yorumlayabilir. Ama çalışanın ailesiyle, sağlığıyla ya da başka sorumluluklarıyla ilgili koşulları tamamen görmezden geliyorsa, hukuken doğru davranması makul olduğu anlamına gelmez.
+
+Benzer biçimde, bir tartışmada karşı tarafın mantık hatasını başarıyla göstermek, onun neye değer verdiğini anlamaya yetmeyebilir.
+
+**Rasyonellik doğru çıkarıma ulaşır; makullük hangi şeylerin hesaba katılması gerektiğini sorar.**
+
+## Yanlış anlaşılan erdem
+
+Başlıktaki "misunderstood virtue" ifadesi önemli.
+
+Gündelik dilde "makul" çoğu zaman ılımlı, uyumlu, fazla talepkâr olmayan kişi anlamında kullanılıyor. Lawlor bu anlayışı reddediyor.
+
+Makul olmak her durumda orta yolu bulmak değildir. Bir haksızlık karşısında "iki tarafın da biraz haklı olduğu" sonucuna varmak makullük değildir. İlkeli olmaktan vazgeçmek hiç değildir.
+
+Tersine, Lawlor'da makullük **yargı gücü gerektiren** bir erdemdir: Hangi değerlerin gerçekten önemli olduğunu anlamak, farklı bakış açılarını değerlendirmek ve buna göre davranmak.
+
+Yani pasif hoşgörü değil, **etkin bir anlama çabası**.
+
+## Hukukta "makul insan" kimdir?
+
+Kitap kavramın hukuktaki kullanımına özel bölüm ayırıyor.
+
+Anglo-Amerikan hukukunda **makul kişi standardı**, sözleşmelerin uygulanmasından meşru müdafaaya kadar geniş bir alanda ölçüt olarak kullanılıyor.
+
+Ama felsefi sorun hemen ortaya çıkıyor: Makul insan kimdir? Ortalama insan mı? Hâkimin makul bulduğu insan mı? Toplumun çoğunluğunun davranışı mı? Yoksa belirli bir durumda sahip olunması gereken ideal muhakeme kapasitesi mi?
+
+"Makul insan" dediğimiz anda, hangi değerlerin makul sayıldığına ilişkin örtük bir kuram da ortaya koymuş oluyoruz. Sitemizde daha önce aktardığımız [Scott Shapiro'nun hukuk felsefesi çalışmaları](/haber/scott-shapiro-hukuk-kod-yapay-zeka) da benzer bir noktaya değiniyordu: Hukuki ölçütler hiçbir zaman tarafsız teknik araçlar değildir.
+
+## Değer haritaları
+
+Kitabın en verimli kavramsal aracı, "Anlaşmazlık ve Değer Haritalarını Paylaşmak" bölümünde geliştiriliyor.
+
+Her insanın dünyada neyin önemli olduğuna dair bir **değer haritası** vardır. Aile, özgürlük, para, adalet, güven, onur, başarı — hepsi bu haritada bir yerde durur.
+
+Ama haritalar birbirinin aynısı değildir. Bir kişi için ekonomik özgürlük temelken başkası için sosyal güvenlik önceliklidir. Biri ifade özgürlüğünü önde tutarken diğeri toplumsal düzeni daha önemli görebilir.
+
+Bu farklılıklar yalnızca bilgi eksikliğinden kaynaklanmaz. İnsanlar gerçekten farklı şeylere değer verebilir.
+
+Makullük bu noktada "karşı tarafı yenmek" değil, **karşı tarafın değer haritasını okuyabilmek** anlamına geliyor.
+
+## Duygular makul düşünmenin düşmanı mı?
+
+Kitabın "Makul Duygu" bölümü klasik bir karşıtlığı sorguluyor: akıl doğru, duygu yanlış.
+
+Lawlor'ın yaklaşımı daha karmaşık. İnsan neyin değerli olduğunu yalnızca soyut akıl yürütmeyle keşfetmez; duygular da dünyada neyin önemli olduğunu gösterebilir.
+
+Öfke bir haksızlığa işaret edebilir. Korku bir tehlikeyi. Üzüntü bir kaybın ağırlığını. Sevgi bir ilişkinin değerini.
+
+Ama duyguların kendiliğinden doğru olması da gerekmez. Mesele duyguları bastırmak değil, **anlamayı ve yönetmeyi öğrenmek**.
+
+Bu tez, geçen hafta bu köşede andığımız [Bernard Williams'ın](/haber/bernard-williams-ahlak-sistem-elestirisi) sistem eleştirisiyle aynı hattan geliyor: Ahlaki hayat, duygulanımdan arındırılmış bir hesap değildir.
+
+## Demokrasi ve kutuplaşma
+
+Kitabın güncelliğini artıran nokta, makullüğü siyasal hayatla ilişkilendirmesi.
+
+Demokratik toplumlar insanların her konuda aynı düşünmesini gerektirmez; tersine, demokrasinin temelinde anlaşmazlık vardır. Sorun farklı düşünmek değil, **farklı düşünen insanlarla birlikte yaşayabilmek**.
+
+Lawlor'ın çerçevesinde makullük burada siyasal bir erdeme dönüşüyor. Bir devlet, ancak yurttaşları makulse liberal demokrasi olarak sürebilir.
+
+Tartışma **John Rawls** ile de kesişiyor. Rawls'ta "makul" yurttaş, kendi kapsamlı dünya görüşünü topluma zorla kabul ettirmeye çalışmayan; farklı makul dünya görüşleriyle birlikte yaşayabilecek bir düzenin gereklerini kabul eden yurttaştır.
+
+Lawlor bu kavramı daha geniş bir zemine taşıyor: Mesele yalnızca siyasal uzlaşma değil, insanların başkalarının değerlerini anlamayı öğrenmesi.
+
+## Dijital kamusal alanda makullük
+
+Kitap sosyal medya üzerine yazılmış değil. Ama kuramı bugünkü dijital kamusal alanı anlamak için elverişli.
+
+İnsanlar çoğunlukla kendi görüşlerini destekleyen içeriklerle karşılaşıyor; algoritmalar farklı görüşlerle karşılaşmayı azaltabiliyor. Sonuçta insanlar yalnızca farklı düşünmüyor — **karşı tarafın neden öyle düşündüğünü anlamakta da zorlanıyor.**
+
+Değer haritası yaklaşımı burada işe yarıyor: Bir insanın yanlış olduğunu düşünmek başka şey, neden öyle düşündüğünü anlayabilmek başka şey.
+
+Ve ikincisi, kişinin kendi görüşünden vazgeçmesini gerektirmiyor.
+
+## Erdem etiğiyle bağ
+
+Lawlor makullüğün yalnızca faydalı bir davranış değil, **başlı başına bir erdem** olduğunu savunuyor. Bu, kitabı klasik erdem etiğine bağlıyor.
+
+Aristoteles'te erdem, insanın iyi yaşamını mümkün kılan karakter özelliğidir; belirli davranışlar sergilemekten çok belirli bir karakter geliştirmeyi gerektirir.
+
+Lawlor'ın makul insanı da böyle: başkalarını dinler, kendi değerlerini sorgulayabilir, duygularını bastırmaz, kanıtları dikkate alır, anlaşmazlıktan kaçmaz, gerektiğinde fikrini değiştirir — ama her durumda uzlaşmayı amaçlamaz.
+
+## Yapay zekâ çağında makullük
+
+Kitap yapay zekâ üzerine değil. Ama sorusu bu tartışmada yeni bir anlam kazanıyor.
+
+Büyük dil modelleri son derece rasyonel görünen cevaplar üretebiliyor: bilgi topluyor, argüman kuruyor, karşılaştırma yapıyor.
+
+Bir sistem bir tartışmadaki iki tarafın argümanlarını kusursuz özetleyebilir. Ama **hangi değerin o insanlar için gerçekten önemli olduğunu** anlayabilir mi?
+
+Bu soru, Lawlor'ın felsefesini bu ay boyunca izlediğimiz [yapay zekâ tartışmalarıyla](/haber/matraix-persona-simulasyonu) buluşturuyor. Akıl yürütme ile iyi muhakeme arasındaki fark, giderek daha pratik bir mesele hâline geliyor.
+
+## Kitabın yapısı
+
+Harvard University Press, kitabı makullük kavramının ilk kapsamlı felsefi incelemesi olarak sunuyor. 224 sayfa, on bir bölüm:
+
+Makul olmak ve rasyonel olmak · Hukukta makullük · Değer alanının haritası · Anlaşmazlık ve değer haritalarını paylaşmak · Makul duygu · Makul inanç · Siyasal hayatta makullük · Ahlakta makullüğün rolü · Kutuplaşmış inanç · Makullüğün geçmişi ve geleceği.
+
+Bu yapı, Lawlor'ın makullüğü tek bir disiplinin kavramı olarak değil; bilgi, değer, hukuk, siyaset ve ahlakla ilişkiyi bir arada düzenleyen bir erdem olarak ele aldığını gösteriyor.
+
+## Künye
+
+- **Yazar:** Krista Lawlor (Stanford Üniversitesi, Henry Waldgrave Stuart Felsefe Profesörü)
+- **Özgün adı:** *Being Reasonable: The Case for a Misunderstood Virtue*
+- **Yayınevi:** Harvard University Press, 2026
+- **ISBN:** 9780674297470 · 224 sayfa
+
+Lawlor'ın önceki kitapları *New Thoughts about Old Things* ve *Assurance: An Austinian Account of Knowledge and Knowledge Claims*; ikisi de bilgi ve bilgi iddiaları üzerine. Türkçe çeviri duyurusu henüz yapılmadı.
+
+---
+
+*Kitabın bıraktığı soru bugünün en pratik sorularından biri: Birbirimizle aynı fikirde olmadığımız bir dünyada, birlikte yaşamamızı sağlayacak kadar makul olabilir miyiz?*`,
+  },
+  {
+    title: "Schelling: doğayı uyuyan tin sayan filozof neden geri döndü?",
+    slug: "schelling-doga-felsefesi-yeniden",
+    summary:
+      "Yirmi üç yaşında profesör oldu, Hegel'in gölgesinde kaldı, sonra unutuldu. Ama son otuz yılda Schelling'in doğa felsefesi ve özgürlük incelemesi yeniden okunuyor. Nedeni basit: İnsanı doğanın dışına koymadan düşünmenin yolunu arayan ilk büyük deneme onunkiydi.",
+    seoTitle: "Schelling: doğa felsefesi, özgürlük ve olumlu felsefe",
+    metaDescription:
+      "F. W. J. Schelling'in doğa felsefesi, 1809 Özgürlük İncelemesi, olumsuz ve olumlu felsefe ayrımı; ekoloji ve çağdaş metafizikteki dönüşü.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_Wilhelm_Joseph_Schelling%2C_1848_daguerreotype_-_cropped.jpg?width=1600",
+    imageCredit: "F. W. J. Schelling, 1848 tarihli dagerreyotipi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-29T04:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["alman-idealizmi", "kavram", "estetik", "din-felsefesi", "bilim-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Friedrich Wilhelm Joseph von Schelling",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/schelling/",
+      },
+    ],
+    content: `Felsefe tarihinde bazı isimler, hak ettiklerinden daha az anıldıkları için değil, **yanlış nedenle** anıldıkları için gölgede kalır.
+
+**Friedrich Wilhelm Joseph Schelling** (1775-1854) bunun en iyi örneği. Uzun süre "Fichte ile Hegel arasındaki ara durak" olarak öğretildi. Ders kitaplarında Alman idealizminin üç isimli zincirinin ortasında duran, kendi başına pek de gerekli olmayan bir halka.
+
+Son otuz yılda bu tablo değişti. Schelling bugün yalnızca felsefe tarihi konusu değil; ekoloji, çağdaş metafizik ve din felsefesi tartışmalarında adı geçen bir düşünür.
+
+Nedenini anlamak için başa dönmek gerekiyor.
+
+## Erken olgunluk
+
+Schelling, Tübingen'deki ilahiyat okulunda iki oda arkadaşıyla birlikteydi: **Hegel** ve **Hölderlin**. Üçü de Fransız Devrimi'nin coşkusunu paylaşıyordu. Bu köşede iki gün önce [Hegel'in doğumunu](/haber/felsefe-tarihinde-bugun-27-agustos-hegel) anmıştık; aynı odadan çıkan üç isimden ikisi felsefe tarihinin yönünü belirledi.
+
+Ama sıralamada bir tuhaflık var. Schelling üçünün en gencidir — Hegel'den beş yaş küçük — ve en erken olgunlaşanıdır.
+
+Yirmi bir yaşında ilk önemli metinlerini yayımladı. **Yirmi üç yaşında** Jena'da profesör oldu. Hegel o sıralarda hâlâ özel öğretmenlik yapıyordu ve Jena'ya Schelling'in yardımıyla geldi; ilk yıllarda birlikte bir dergi çıkardılar.
+
+Bu erken parlaklık sonradan aleyhine işledi. Hegel 1807'de *Tinin Görüngübilimi*'nin önsözünde, adını vermeden Schelling'in mutlak anlayışını "bütün ineklerin siyah olduğu gece" diye küçümsedi. Dostluk bitti; felsefe tarihi yazımı da uzun süre Hegel'in tarafını tuttu.
+
+## Doğa felsefesi: unutulmuş yarım
+
+Schelling'in ilk büyük katkısı **Naturphilosophie** — doğa felsefesi.
+
+Sorunu şuydu. Kant ve Fichte, özneyi felsefenin merkezine koymuştu. Bilgi, öznenin dünyayı kurma biçimiyle açıklanıyordu. Ama bu, doğayı yalnızca **bilincin karşısındaki nesne** hâline getiriyordu: ölü, edilgen, kendinde anlamsız bir malzeme.
+
+Schelling bu tabloyu kabul etmedi. Ona göre eğer bilinç doğadan çıkmışsa — ki çıkmıştır — doğanın kendisinde bilincin imkânını hazırlayan bir şey olmalıdır.
+
+Formülü ünlüdür: **"Doğa görünür tindir; tin görünmez doğadır."**
+
+Buradaki iddia mistik değil, yapısal. Schelling'e göre doğa, yalnızca yasalara uyan bir mekanizma değil; kademeli olarak kendi üzerine katlanan, karmaşıklaşan ve sonunda kendinin bilincine varan bir süreçtir. Cansız maddeden organizmaya, organizmadan bilince uzanan hat, dışarıdan eklenmiş bir sıçrama dizisi değildir.
+
+O yüzden Schelling'de doğa "ürün" değil, **üretkenliktir** (*natura naturans*). Gördüğümüz nesneler, sürmekte olan bir etkinliğin geçici durakları.
+
+Bu, dönemin bilimiyle canlı bir alışveriş içinde geliştirildi. Schelling elektrik, manyetizma ve kimyasal süreçler üzerine yeni bulguları yakından izledi; kutupluluk — her etkinliğin karşıt bir kuvvetle birlikte iş görmesi — onun temel açıklama şemasıydı.
+
+## Özdeşlik ve sanat
+
+Schelling'in ikinci dönemi **özdeşlik felsefesi**.
+
+Soru şu: Düşünce ile doğa, özne ile nesne birbirine nasıl uyuyor? Bir denklemin dünyayı açıklaması neden mümkün?
+
+Yanıtı radikal: İkisi de aynı temel gerçekliğin iki görünümüdür. Mutlak, özne ile nesnenin henüz ayrılmadığı **kayıtsızlık noktasıdır**.
+
+Ama böyle bir şey nasıl bilinir? Kavramla değil — çünkü kavram zaten ayırır.
+
+Schelling'in yanıtı, felsefe tarihinde ender bir hamledir: **sanat.**
+
+*Aşkın İdealizm Sistemi*'nin (1800) son bölümüne göre sanat yapıtı, bilinçli ve bilinçsiz etkinliğin aynı anda iş gördüğü tek yerdir. Sanatçı ne yaptığını bilir; ama yapıtta bilmediği bir şey de görünür hâle gelir. Bu yüzden sanat, felsefenin **organonudur** — kanıtlama aracıdır.
+
+Alman romantizminin sanata verdiği ağırlık büyük ölçüde buradan gelir.
+
+## 1809: özgürlük ve kötülük
+
+Schelling'in bugün en çok okunan metni, 1809 tarihli **İnsan Özgürlüğünün Özü Üzerine Felsefi İncelemeler**.
+
+Sorusu klasiktir ama ele alışı değil: Eğer her şey mutlak bir temelden çıkıyorsa, **kötülük** nereden geliyor?
+
+Alışıldık yanıt kötülüğü eksiklik sayar: iyiliğin yokluğu, bir tür kusur. Schelling bunu reddeder. Ona göre kötülük olumlu bir güçtür; insanın kendi tikelliğini bütünün yerine geçirme kapasitesidir. Ve bu kapasite, özgürlüğün bedelidir: İyiyi seçebilen bir varlık, kötüyü de seçebilmelidir.
+
+Metnin asıl radikalliği daha derinde. Schelling, temelin kendisinde **karanlık bir yan** olduğunu söyler: akla direnen, kavramsallaştırılamayan bir zemin. Akıl bu zeminden doğar ama onu tüketemez.
+
+Bu, Alman idealizminin kendi içinden gelen en ciddi öz-eleştiridir. Çünkü söylediği şudur: **Gerçeklik, düşünceye bakiyesiz biçimde çevrilemez.**
+
+Heidegger 1936'da bu metin üzerine bir ders verdi ve onu Alman felsefesinin doruk noktalarından biri saydı.
+
+## Geç dönem: olumsuz ve olumlu felsefe
+
+Schelling'in son dönemi uzun süre karanlıkta kaldı; ders notları ancak sonradan yayımlandı.
+
+Buradaki ayrım şu: **Olumsuz felsefe**, bir şeyin ne olduğunu — özünü — düşünceyle kavrar. Mantık ve kavram çözümlemesi bunu yapar. Ama bir şeyin **var olduğu** olgusunu üretemez.
+
+Schelling'e göre varlığın olgusallığı, kavramdan çıkarsanamayan bir şeydir. Onu ancak **olumlu felsefe** ele alabilir: tarihten, mitolojiden, dinsel deneyimden ve olup bitmiş olandan yola çıkan bir düşünme.
+
+Bu, Hegel'e doğrudan bir itirazdır. Hegel'de gerçeklik kavramın açılımıdır; Schelling'de kavram, gerçekliği daima geriden takip eder.
+
+Berlin'de 1841'de verdiği bu derslerin dinleyicileri arasında genç **Kierkegaard**, **Bakunin** ve **Engels** vardı. Kierkegaard başlangıçta coşkuluydu, sonra hayal kırıklığına uğradı — ama "olgusallığın kavramdan çıkarsanamayacağı" fikri onda kaldı ve varoluşçuluğun çekirdeğine yerleşti.
+
+## Neden geri döndü?
+
+Schelling'in son otuz yıldaki dönüşünün üç nedeni var.
+
+**Ekoloji.** Doğayı edilgen bir kaynak olarak gören anlayış eleştiriye uğradıkça, doğayı üretken ve kendi içinde değerli sayan bir düşünür ilgi çekici hâle geldi. Schelling'in "doğa ürün değil üretkenliktir" tezi, çevre felsefesinde doğrudan kullanılıyor.
+
+**Yeni metafizik.** Bu ay bu köşede andığımız [spekülatif realizm](/haber/meillassoux-varlik-ve-hiclik-erken-metin) tartışmasında, Iain Hamilton Grant'in çalışması doğrudan Schelling'e dayanıyor. Grant'in adlandırmasıyla "aşkın materyalizm", Schelling'in doğa felsefesini çağdaş bir programa çeviriyor.
+
+**Akla direnen zemin.** Aklın kendini bütünüyle temellendiremeyeceği fikri — Schelling'in 1809'da "karanlık zemin" dediği şey — yirminci yüzyılda Heidegger'den Adorno'ya, psikanalizden Deleuze'e uzanan geniş bir hatta yankılandı. Slavoj Žižek'in Schelling üzerine iki kitap yazması da bu ilgiyi gösteriyor.
+
+## Bir kadraj sorusu
+
+Schelling'i "Hegel'e giden yol" olarak okumak, bu üç damarın hiçbirini görünür kılmıyor.
+
+Onu kendi başına okumak ise başka bir soruyu öne çıkarıyor: **İnsanı doğanın dışına koymadan, ama onu doğaya indirgemeden de düşünmek mümkün mü?**
+
+Bu soru bugün yalnızca bir felsefe tarihi sorusu değil. Sinirbilimden ekolojiye, yapay zekâdan biyoetiğe uzanan tartışmaların ortak zemininde duruyor.
+
+Schelling'in yanıtı eksikti, tutarsızdı ve sistemini üç kez baştan kurmak zorunda kaldı. Ama soruyu ilk kuran oydu.
+
+## Bir not: kapaktaki fotoğraf
+
+Kapaktaki görsel bir tablo değil, **fotoğraf**. 1848 tarihli bir dagerreyotip.
+
+Alman idealizminin büyük isimleri arasında fotoğrafın icadını görecek kadar yaşayan tek kişi Schelling'dir. Kant 1804'te, Fichte 1814'te, Hegel 1831'de öldü. Schelling 1854'e kadar yaşadı.
+
+Fotoğraftaki yaşlı adam, Hegel'in ölümünden yirmi üç yıl sonra hâlâ ders vermeye devam ediyordu.
+
+## Türkçede
+
+Schelling'in *Sanat Felsefesi*, *İnsan Özgürlüğünün Özü Üzerine* ve *Aşkın İdealizm Sistemi* Türkçeye çevrildi. Geç dönem ders notları henüz Türkçede bulunmuyor.`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 29 Ağustos: John Locke'un doğumu",
+    slug: "felsefe-tarihinde-bugun-29-agustos-locke",
+    summary:
+      "John Locke 29 Ağustos 1632'de Wrington'da doğdu. Zihni boş bir levha sayan bilgi kuramı, mülkiyeti emeğe bağlayan siyaset felsefesi ve hoşgörü savunusu, modern dünyanın kurucu metinleri arasında.",
+    seoTitle: "29 Ağustos 1632: John Locke'un doğumu",
+    metaDescription:
+      "John Locke 29 Ağustos 1632'de doğdu. Tabula rasa, birincil ve ikincil nitelikler, emek-mülkiyet kuramı, rıza ve hoşgörü.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg?width=1600",
+    imageCredit: "John Locke, Godfrey Kneller'in 1697 tarihli portresi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/John-Locke",
+    publishedAt: "2026-08-29T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "aydinlanma", "siyaset-felsefesi", "epistemoloji", "din-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "John Locke | Biography, Treatises, Works, & Facts",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/John-Locke",
+        primary: true,
+      },
+      {
+        title: "John Locke",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/locke/",
+      },
+    ],
+    content: `**John Locke**, 29 Ağustos 1632'de İngiltere'nin Somerset bölgesindeki Wrington'da doğdu. 28 Ekim 1704'te Essex'te öldü.
+
+Doğduğu yıl İngiltere iç savaşın eşiğindeydi; babası Parlamento saflarında savaştı. Locke'un bütün siyaset felsefesi, iktidarın hangi koşullarda meşru olduğu sorusunun kanlı biçimde sorulduğu bir ülkede yazıldı.
+
+## Hekim, sonra filozof
+
+Locke Oxford'da okudu ama skolastik müfredattan hoşlanmadı. İlgisi deneysel bilime ve tıbba kaydı; Robert Boyle'la çalıştı, Kraliyet Cemiyeti üyesi oldu.
+
+Hayatının dönüm noktası 1666'da geldi: Sonradan Shaftesbury Kontu olacak Anthony Ashley Cooper'la tanıştı ve onun hekimi, danışmanı ve sekreteri oldu. 1668'de Shaftesbury'ye yaptığı karaciğer ameliyatı hastanın hayatını kurtardı.
+
+Bu bağ Locke'un düşüncesini siyasetin içine soktu — ve 1683'te Hollanda'ya kaçmasına yol açtı. Başlıca eserleri, 1688 Şanlı Devrimi'nin ardından İngiltere'ye döndükten sonra, 1689-1690'da art arda yayımlandı.
+
+## Boş levha
+
+**İnsanın Anlama Yetisi Üzerine Bir Deneme** (1689), modern bilgi kuramının kurucu metinlerinden.
+
+Locke'un hedefi **doğuştan fikirler** öğretisiydi. Zihinde doğuştan bulunan ilkeler olduğu iddiasına karşı basit bir itiraz getirdi: Eğer öyle olsaydı, çocuklarda ve farklı kültürlerde aynı ilkeleri bulmamız gerekirdi. Bulmuyoruz.
+
+Onun yerine geçen imge ünlüdür: Zihin başlangıçta **boş bir levhadır** (*tabula rasa*). Bütün malzemesi deneyimden gelir — dış dünyanın duyumundan ve zihnin kendi işleyişine dönük içgözlemden.
+
+Sonuçları geniş. Eğer bilgi deneyimden geliyorsa, insanlar arasındaki farklar doğuştan değil **eğitim ve çevre** kaynaklıdır. Locke'un eğitim üzerine yazıları ve Aydınlanma'nın bütün eğitim iyimserliği bu tezden beslenir.
+
+## Birincil ve ikincil nitelikler
+
+Denemenin en tartışılan ayrımı budur.
+
+**Birincil nitelikler** — uzam, biçim, hareket, sayı, katılık — nesnenin kendisinde bulunur. **İkincil nitelikler** — renk, ses, tat, koku, sıcaklık — nesnede öyle bulunmaz; nesnenin bizde bu duyumları üretme gücüdür.
+
+Yani bir elma "kırmızı" değildir; belirli bir yüzey yapısı vardır ve bu yapı, belirli koşullarda bizde kırmızı duyumunu üretir.
+
+Ayrım, dönemin mekanik doğa felsefesiyle uyumluydu. Ama içinde bir sorun taşıyordu: Eğer bildiğimiz şey nesnenin kendisi değil, zihnimizdeki ideyse, ideyle nesne arasındaki uygunluğu nasıl denetleyeceğiz?
+
+Bu soruyu Berkeley ve Hume sonuna kadar götürdü. Bu köşede geçen hafta andığımız [Hume'un](/haber/felsefe-tarihinde-bugun-25-agustos-hume-nietzsche) kuşkuculuğu, Locke'un açtığı yolun ucudur.
+
+## Emek ve mülkiyet
+
+**Yönetim Üzerine İkinci İnceleme** (1689), modern siyaset felsefesinin en etkili metinlerinden.
+
+Locke doğa durumunu Hobbes'tan farklı kurar. Hobbes'ta doğa durumu herkesin herkese karşı savaşıdır; Locke'ta ise bir doğa yasası zaten geçerlidir: Kimse başkasının hayatına, sağlığına, özgürlüğüne ve mülkiyetine zarar vermemelidir. Sorun bu yasanın **tarafsız biçimde uygulanamamasıdır** — herkes kendi davasında yargıç olduğu için.
+
+Devlet bu sorunu çözmek üzere, **rıza** ile kurulur. Ve bu, iktidarın sınırını da belirler: Yönetim, kurulma amacına aykırı davrandığında meşruiyetini yitirir. Direnme hakkı buradan doğar.
+
+Mülkiyet kuramı ise özgündür. Locke'a göre doğa başlangıçta ortaktır; ama insan kendi bedeninin sahibidir, dolayısıyla **emeğinin de** sahibidir. Emeğini bir şeye kattığında onu ortak olandan çıkarıp kendine mal eder.
+
+Buna iki sınır koyar: İsraf etmeyecek kadar ve başkalarına yeterince bırakacak kadar. Para icat edildiğinde bu sınırların nasıl aşıldığı — ve Locke'un bunu neden meşru gördüğü — üç yüz yıldır tartışılıyor.
+
+Sitemizde bu ay ele aldığımız [Axel Honneth'in](/haber/axel-honneth-taninma-ve-calisma) emek ve tanınma çözümlemesi, aynı hattın çağdaş bir uzantısı: Emek yalnızca mülkiyet değil, kişilik kurar.
+
+## Hoşgörü
+
+**Hoşgörü Üzerine Bir Mektup** (1689), din savaşlarının ardından yazılmış bir argüman.
+
+Locke'un gerekçesi ilginç biçimde pratiktir: Devlet inancı zorla değiştiremez, çünkü inanç iradeyle üretilmez. Zorlama en fazla dışsal uyum sağlar; içsel kanaati değiştirmez. Öyleyse zor kullanmak, dinin kendi amacı açısından da işe yaramaz.
+
+Buradan din ile devletin ayrı işlevleri olduğu sonucu çıkar: Devlet dünyevi çıkarlarla ilgilenir, kilise ruhun kurtuluşuyla.
+
+Locke'un hoşgörüsünün sınırları da vardı: Ateistleri ve — dönemin siyasi kaygılarıyla — Katolikleri kapsam dışında tuttu. Bu sınırlar bugün haklı olarak eleştiriliyor. Ama ilkenin kendisi, modern laiklik tartışmalarının başlangıç noktası oldu.
+
+## Çelişki: köle ticareti
+
+Locke okumasının kaçınılmaz bir zorluğu var.
+
+Özgürlüğü ve mülkiyeti savunan filozof, Kraliyet Afrika Şirketi'ne yatırım yaptı ve Carolina Anayasası taslağının hazırlanmasında rol aldı — bu belge köle sahiplerine mutlak yetki tanıyordu.
+
+Bu çelişki çağdaş Locke araştırmalarının en canlı tartışma alanlarından biri. Bazı yorumcular bunu kuramın kendisindeki bir kusura bağlıyor; bazıları kuram ile pratiği ayırıyor. Tartışma sürüyor ve kolay bir yanıtı yok.
+
+## Etkisi
+
+Locke'un *İkinci İnceleme*'si Amerikan Bağımsızlık Bildirgesi'nin diline doğrudan yansıdı: hayat, özgürlük ve mutluluk arayışı. Fransız Aydınlanması'nda Voltaire ve Montesquieu onu okudu.
+
+Kant'ın "dogmatik uykusundan uyanması" Hume üzerinden gerçekleşti; ama Hume'un yolunu açan Locke'tu.
+
+## Türkçede
+
+*İnsanın Anlama Yetisi Üzerine Bir Deneme*, *Yönetim Üzerine İkinci İnceleme*, *Hoşgörü Üzerine Bir Mektup* ve *Eğitim Üzerine Düşünceler* Türkçeye çevrildi.
+
+---
+
+*Not: Locke fotoğrafın icadından yüz otuz yıl önce öldü. Kapaktaki görsel Godfrey Kneller'in 1697 tarihli portresidir; bugün Ermitaj Müzesi'nde bulunuyor.*`,
+  },
+  {
+    title: "Berggruen deneme yarışması kapandı: 'Yeni bir Eksen Çağı mı?'",
+    slug: "berggruen-deneme-yarismasi-2026",
+    summary:
+      "Berggruen Enstitüsü'nün 100 bin dolarlık deneme yarışmasında başvurular 17 Ağustos'ta sona erdi. Bu yılın konusu Karl Jaspers'ın 'Eksen Çağı' kavramı: İnsanlık yeniden tarihin menteşesinde mi? Yarışma bu yıl ilk kez kurgu metinleri de kabul etti.",
+    seoTitle: "2026 Berggruen Deneme Yarışması: Yeni bir Eksen Çağı mı?",
+    metaDescription:
+      "Berggruen Prize Essay Competition 2026 teması 'A New Axial Age?'. 100 bin dolar ödül, İngilizce ve Çince başvuru, kurgu metinler de kabul edildi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Jaspers_1946.jpg?width=1600",
+    imageCredit: "Karl Jaspers, 1946 — 'Eksen Çağı' kavramının kaynağı · Wikimedia Commons",
+    featured: false,
+    sourceName: "Berggruen Institute · NOEMA",
+    sourceUrl: "https://berggruen.org/essay-competition-open",
+    publishedAt: "2026-08-29T03:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "tarih", "din-felsefesi", "kavram", "antik-felsefe"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The 2026 Berggruen Prize Essay Competition Topic: 'A New Axial Age?'",
+        publisher: "NOEMA Magazine",
+        url: "https://www.noemamag.com/the-2026-berggruen-prize-essay-competition-topic-a-new-axial-age/",
+        primary: true,
+      },
+      {
+        title: "Berggruen Prize Essay Competition",
+        publisher: "Berggruen Institute",
+        url: "https://berggruen.org/essay-competition-open",
+      },
+      {
+        title: "CFP: 2026 Berggruen Prize Essay Competition",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/150833",
+      },
+    ],
+    content: `Berggruen Enstitüsü'nün deneme yarışmasında başvurular **17 Ağustos**'ta sona erdi. Sonuçlar bekleniyor.
+
+Yarışma, felsefe alanındaki en yüksek ödüllü yazı yarışmalarından biri: toplam **100 bin dolar**. Başvurular İngilizce ve Çince kabul ediliyor; İngilizce metinler 10 bin kelimeyi, Çince metinler 15 bin karakteri aşamıyor.
+
+Bu yılın bir yeniliği var: Yarışma ilk kez **kurgu** metinleri de kabul etti.
+
+## Bu yılın konusu: "Yeni bir Eksen Çağı mı?"
+
+Soru, felsefe tarihinden bir kavrama dayanıyor.
+
+**Karl Jaspers**, 1949 tarihli *Tarihin Kökeni ve Hedefi* adlı kitabında, MÖ 800-200 arasındaki döneme **Eksen Çağı** (*Achsenzeit*) adını verdi.
+
+Jaspers'ın dikkat çektiği şey bir rastlantıydı — ya da rastlantı olmayan bir eşzamanlılık.
+
+Bu birkaç yüzyıl içinde, birbirinden habersiz coğrafyalarda benzer bir kırılma yaşandı:
+
+- **Çin**'de Konfüçyüs ve Lao Tzu
+- **Hindistan**'da Upanişadlar ve Buddha
+- **İran**'da Zerdüşt
+- **Filistin**'de İbrani peygamberler
+- **Yunanistan**'da Sokrates öncesi düşünürler, Sokrates ve Platon
+
+Jaspers'a göre bu dönemde ortak bir şey oldu: İnsan ilk kez kendi varoluşunu bir bütün olarak sorunsallaştırdı. Mit ve gelenek yerini eleştirel düşünceye bıraktı; birey, içinde doğduğu düzenin dışına çıkıp ona soru sorabilecek bir konum kazandı.
+
+Jaspers'ın iddiası şuydu: Bugün kullandığımız temel kategoriler — birey, aşkınlık, evrensel ahlak, hakikat arayışı — o dönemde kuruldu. O tarihten sonra insanlık, Eksen Çağı'nda açılan ufkun içinde yaşadı.
+
+## Yarışmanın sorusu
+
+Berggruen'in bu yılki konusu, Jaspers'ın kavramını bugüne çeviriyor.
+
+Yarışma metni soruyu şöyle koyuyor: Uygarlık yeniden **tarihin menteşesinde** mi? Bu belirli anda olup bitenler, geleceğin yönünü kalıcı biçimde belirleyecek mi?
+
+Soru boş bir spekülasyon değil. Arkasında somut gerekçeler var: yapay zekânın insan bilişini ve emeğini yeniden tanımlaması, iklim krizinin insanı jeolojik bir fail hâline getirmesi, biyoteknolojinin türün kendisini müdahale edilebilir kılması, ve küresel siyasal düzenin çözülmesi.
+
+Bunların her biri tek başına büyük bir dönüşüm. Sorulan şu: Bir arada, Eksen Çağı ölçeğinde bir kırılma anlamına geliyorlar mı?
+
+## Kavramın kendisi tartışmalı
+
+Yarışmanın felsefi ilgi çekiciliği, kavramın kendisinin tartışmalı olmasından da geliyor.
+
+Eksen Çağı tezine yöneltilen itirazlar üç başlıkta toplanabilir.
+
+**Kronoloji.** MÖ 800-200 aralığı fazla geniş ve keyfî; sıralanan düşünürler arasında yüzyıllar var. Aynı "an"dan söz etmek anakronizm olabilir.
+
+**Kapsam.** Liste neden bu beş bölgeyi içeriyor? Mısır, Mezopotamya ve Amerika kıtası dışarıda kalıyor. Seçim, sonradan Avrasya merkezli olduğu gerekçesiyle eleştirildi.
+
+**Ortaklık.** Konfüçyüs'ün toplumsal düzen anlayışı ile Buddha'nın kurtuluş öğretisi arasında gerçekten ortak bir "eksen" var mı, yoksa benzerlik bizim geriye dönük yorumumuz mu?
+
+Bu itirazlara rağmen kavram terk edilmedi. Robert Bellah ve Charles Taylor gibi isimler, tartışmayı yeniden açan çalışmalar yayımladı. Kavramın gücü belki de tam olarak buradan geliyor: Yanıtı belirsiz ama sorusu kaçınılmaz.
+
+## Berggruen Enstitüsü
+
+Kaliforniya merkezli enstitü, felsefe ve siyaset kuramı alanında çalışan bir düşünce kuruluşu. Ayrıca yılda bir kez verilen ve bir milyon dolar değerindeki **Berggruen Ödülü** ile tanınıyor; geçmiş sahipleri arasında Charles Taylor, Onora O'Neill, Martha Nussbaum ve Peter Singer bulunuyor.
+
+Deneme yarışması ise daha genç bir program ve farklı bir amaç taşıyor: Yerleşik akademik kariyeri olmayan yazarlara da açık olması, felsefi düşüncenin dolaşım alanını genişletmeyi hedefliyor.
+
+Kurgu metinlerin bu yıl kabul edilmesi de aynı yönde bir tercih. Bir uygarlık kırılmasını çözümlemek ile onu anlatmak arasındaki farkın, felsefi olarak verimli olabileceği varsayımına dayanıyor.
+
+## Sonuçlar
+
+Başvurular kapandı; kazananların açıklanma takvimi henüz duyurulmadı. Felsefe Haberleri olarak sonuçları duyurulduğunda aktaracağız.`,
+  },
+  {
     title: "Philosophy & Public Affairs deneyini bitirdi: yapay zekâ yazarlığı yasaklandı",
     slug: "philosophy-public-affairs-yapay-zeka-yasagi",
     summary:
@@ -8147,6 +9160,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Being Reasonable: The Case for a Misunderstood Virtue",
+    slug: "being-reasonable-lawlor",
+    originalTitle: null,
+    publisher: "Harvard University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780674297470",
+    coverImage: null,
+    description:
+      "Lawlor, makul olmanın rasyonel olmakla aynı şey olmadığını savunuyor: Makul kişi, neyin değerli olduğunu görebilen ve başkalarının değer haritasını okuyabilen kişidir. 224 sayfa.",
+    year: 2026,
+    link: "https://philosophy.stanford.edu/news/krista-lawlors-new-book-explores-what-does-it-mean-be-reasonable",
+    philosopherSlug: null,
+    postSlug: "krista-lawlor-being-reasonable",
+  },
+  {
     title: "Liberal Faşizmler",
     slug: "zizek-liberal-fasizmler",
     originalTitle: null,
@@ -8461,6 +9490,57 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "SPEP — Fenomenoloji ve Varoluşçu Felsefe Derneği 2026 Yıllık Kongresi",
+    slug: "spep-2026-chicago",
+    summary:
+      "Kıta felsefesinin Kuzey Amerika'daki en büyük yıllık toplantısı bu yıl Chicago'da. Loyola University Chicago ev sahipliğinde 19-21 Kasım'da yapılacak.",
+    description: `Society for Phenomenology and Existential Philosophy (SPEP), Kuzey Amerika'da kıta felsefesi alanındaki en kapsamlı akademik topluluk.
+
+2026 yıllık kongresi Loyola University Chicago'nun ev sahipliğinde düzenleniyor. Program fenomenoloji, varoluşçuluk, hermenötik, eleştirel teori, feminist felsefe ve çağdaş Fransız ve Alman düşüncesine yayılan oturumlardan oluşuyor.
+
+Bildiri ve panel başvuruları ocak ayında kapandı; kitap oturumu önerileri için son tarih geçen aralıktı.`,
+    kind: "KONGRE",
+    organizer: "Society for Phenomenology and Existential Philosophy",
+    topic: "Fenomenoloji, varoluşçuluk ve çağdaş kıta felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-19T00:00:00.000Z",
+    endsAt: "2026-11-21T00:00:00.000Z",
+    hasTime: false,
+    city: "Chicago",
+    country: "ABD",
+    venue: "Hyatt Centric Chicago Magnificent Mile · Loyola University Chicago",
+    website: "https://www.spep.org/conference/",
+    sourceName: "SPEP",
+    sourceUrl: "https://www.spep.org/conference/",
+    featured: true,
+    publishedAt: "2026-08-29T04:00:00.000Z",
+  },
+  {
+    title: "ENPOSS — Toplumsal Bilimler Felsefesi Avrupa Ağı 15. Konferansı",
+    slug: "enposs-2026-helsinki",
+    summary:
+      "Avrupa'nın toplumsal bilimler felsefesi ağı 15. konferansını Helsinki Üniversitesi'nde topladı. Toplantı 26-28 Ağustos'ta yapıldı.",
+    description: `European Network for the Philosophy of the Social Sciences (ENPOSS), toplumsal bilimlerin yöntem ve temellendirme sorunlarını ele alan Avrupa merkezli bir akademik ağ.
+
+On beşinci konferans Helsinki Üniversitesi'nde düzenlendi. Program açıklama modelleri, toplumsal ontoloji, ölçme ve kanıt, kurumlar ve normatiflik gibi başlıklara ayrıldı.
+
+Ağ, felsefeciler ile toplumsal bilimcileri aynı masada buluşturmayı amaçlayan sayılı düzenli toplantılardan birini yürütüyor.`,
+    kind: "KONFERANS",
+    organizer: "European Network for the Philosophy of the Social Sciences",
+    topic: "Toplumsal bilimler felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-08-26T00:00:00.000Z",
+    endsAt: "2026-08-28T00:00:00.000Z",
+    hasTime: false,
+    city: "Helsinki",
+    country: "Finlandiya",
+    venue: "Helsinki Üniversitesi",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/144178",
+    featured: false,
+    publishedAt: "2026-08-29T04:05:00.000Z",
+  },
   {
     title: "Assos'ta Felsefe — 26. Sempozyum",
     slug: "assosta-felsefe-2026",
