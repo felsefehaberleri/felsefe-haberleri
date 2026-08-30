@@ -1489,6 +1489,943 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Felsefe Tarihinde Bugün — 31 Ağustos: Helmholtz'un doğumu, Baudelaire'in ölümü",
+    slug: "felsefe-tarihinde-bugun-31-agustos-helmholtz-baudelaire",
+    summary:
+      "Hermann von Helmholtz 31 Ağustos 1821'de doğdu; algıyı bir işaretler sistemi olarak açıklayan kuramıyla Kant'ı laboratuvara soktu. Aynı gün, 1867'de, 'modernité' sözcüğünü icat eden Baudelaire Paris'te öldü. İkisi de 1821 doğumluydu ve ikisi de modern gözün ne gördüğünü sordu.",
+    seoTitle: "31 Ağustos 1821: Helmholtz'un doğumu",
+    metaDescription:
+      "Helmholtz 31 Ağustos 1821'de doğdu. İşaret kuramı, Kant eleştirisi, Öklid dışı geometri ve yeni-Kantçılık. Ayrıca 31 Ağustos 1867: Baudelaire'in ölümü.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Helmholtz_1876.jpg?width=1600",
+    imageCredit: "Hermann von Helmholtz, 1876 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/hermann-helmholtz/",
+    publishedAt: "2026-08-30T21:05:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "epistemoloji", "bilim-felsefesi", "kant", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Hermann von Helmholtz",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/hermann-helmholtz/",
+        primary: true,
+      },
+      {
+        title: "From Helmholtz to Schlick: The evolution of the sign-theory of perception",
+        publisher: "Studies in History and Philosophy of Science",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26193786/",
+      },
+      {
+        title: "Charles Baudelaire | French Poet, Symbolist & Critic",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Charles-Baudelaire",
+      },
+    ],
+    content: `Takvim bugün iki adı yan yana koyuyor ve aralarındaki bağ ilk bakışta görünmüyor.
+
+**Hermann von Helmholtz** 31 Ağustos 1821'de Potsdam'da doğdu. **Charles Baudelaire** 31 Ağustos 1867'de Paris'te öldü.
+
+Aradaki asıl bağ tarihte değil: **İkisi de 1821 doğumlu.** Biri nisanda, öteki ağustosta. Ve ikisi de aynı soruyla uğraştı — farklı dillerde: **Modern insan tam olarak neyi görüyor?**
+
+## Helmholtz: Kant'ı laboratuvara sokmak
+
+Helmholtz, on dokuzuncu yüzyıl biliminin en geniş kapsamlı ismiydi. Fizyolog, fizikçi, matematikçi ve filozof.
+
+Enerjinin korunumu ilkesinin formülasyonuna katkıda bulundu. Sinir uyarısının hızını ölçtü — o zamana kadar bunun ölçülemeyecek kadar hızlı olduğu düşünülüyordu. Oftalmoskopu icat etti; göz hekimliği onun sayesinde göz içini görebilir hâle geldi. Renk görmesi, işitme ve ses üzerine kurucu çalışmalar yaptı.
+
+Ama felsefe tarihindeki yeri bu buluşlardan gelmiyor.
+
+Helmholtz, **"Kant'a dönüş"** hareketinin — *zurück zu Kant* — önde gelen isimlerinden biriydi. Ve dönüşü, Kant'ı olduğu gibi savunarak değil, onu deneysel bilimin sonuçlarıyla sınayarak yaptı.
+
+## İşaret kuramı
+
+Helmholtz'un imzası sayılan öğreti **algının işaret kuramı**.
+
+Sorun şuradan çıkıyor. Bir kırmızıyı gördüğümüzde, gözümüzde olan şey belirli dalga boyundaki bir uyarının sinir sisteminde yarattığı bir tepki. Peki bu tepki ile dışarıdaki nesne arasında nasıl bir ilişki var?
+
+Klasik yanıt **benzerlik** der: Algı, nesnenin bir kopyasıdır.
+
+Helmholtz bunu reddetti. Duyumlarımız nesnelerin **kopyası** değil, **işaretidir**. Bir işaret, gösterdiği şeye benzemek zorunda değildir — nasıl ki "masa" sözcüğü masaya benzemez.
+
+Bu, sonuçları geniş bir hamle. Çünkü algının nesneye benzemediğini kabul edersek, algıdan nesneye nasıl geçtiğimizi açıklamamız gerekir. Helmholtz'un yanıtı **bilinçdışı çıkarım**: Zihin, duyu verilerinden alışkanlık ve deneyimle kurulmuş kurallar aracılığıyla nesneleri çıkarsar. Görmek, aslında farkında olmadan yapılan bir akıl yürütmedir.
+
+Bu kavram, yüz elli yıl sonra bilişsel bilimin "öngörücü işleme" modellerinde hâlâ yaşıyor.
+
+## Kant'la hesaplaşma
+
+Helmholtz'un Kant'a bağlılığı burada karmaşıklaşıyor.
+
+Kant'a göre uzay, deneyimden çıkarılmış bir kavram değil; deneyimin **a priori formudur**. Ve o form Öklidçidir. Uzayı başka türlü tasavvur edemeyiz.
+
+Helmholtz iki cepheden itiraz etti.
+
+**Fizyolojik cephe:** Uzay algımızın nasıl kurulduğunu deneyle inceleyebiliriz — ve inceleme, uzay algısının öğrenilmiş bir yeti olduğunu gösteriyor.
+
+**Matematiksel cephe:** Öklid dışı geometriler tutarlıdır. Helmholtz, sabit eğrilikli uzaylarda yaşayan varlıkların dünyalarını nasıl deneyimleyeceğini tarif eden ünlü düşünce deneyleri kurdu. Sonuç: Öklidçi uzay, düşüncenin zorunlu formu değil.
+
+Buradan çıkan sonuç Kantçılıktan ciddi bir sapmadır. Helmholtz **a priori olanı doğa biliminin sonuçlarına bağımlı kıldı.** Yani: Deneyimin koşulları vardır, ama o koşulların ne olduğuna felsefe değil, bilim karar verir.
+
+Bu, yeni-Kantçılığın kuruluşundaki temel gerilim. Bu köşede birkaç gün önce andığımız [Lambert'in paralellik postulatı çalışması](/haber/felsefe-tarihinde-bugun-26-agustos-william-james) da aynı hattın erken bir halkasıydı.
+
+## Etkisi: Viyana'ya giden yol
+
+Helmholtz'un işaret kuramı yirminci yüzyıl felsefesine doğrudan aktı.
+
+**Moritz Schlick** — Viyana Çevresi'nin kurucusu — Helmholtz'un öğretisini alıp dönüştürdü: Kantçı uzay sezgisi anlayışını, algının nedensel kuramının deneyci bir sürümüne çevirdi. Mantıksal deneyciliğin algı anlayışı büyük ölçüde bu hattan gelir.
+
+Ayrıca **Ernst Cassirer**, **Hermann Cohen** ve Marburg Okulu'nun tamamı Helmholtz'la hesaplaşarak kuruldu.
+
+Helmholtz'un asıl mirası belki de şu: **Epistemolojinin laboratuvara girebileceğini gösterdi.** Bilginin koşulları üzerine düşünmenin, koltukta oturarak yapılacak bir iş olmadığını.
+
+## Baudelaire: modernliğin icadı
+
+Aynı gün, 1867'de, Paris'te bir su tedavisi kliniğinde **Charles Baudelaire** öldü. Kırk altı yaşındaydı; son iki yılını felç ve afazi ile geçirmişti.
+
+Baudelaire felsefeci değildi. Ama felsefeye bir kavram bıraktı: **modernité**.
+
+Sözcüğü 1863 tarihli *Modern Hayatın Ressamı* denemesinde bugünkü anlamıyla ilk kez o kullandı. Tanımı şuydu: Modernlik, sanatın "geçici, kaçıcı, olumsal" olanıdır — sanatın öteki yarısı ise ebedî ve değişmez olandır.
+
+Bu tanımın radikalliği gözden kaçar. Baudelaire'e kadar güzellik, geçiciliğe **rağmen** yakalanan bir şeydi. Baudelaire güzelliği geçiciliğin **içine** yerleştirdi.
+
+## Şehir, kalabalık, bakış
+
+Baudelaire'in felsefeye kalıcı katkısı, modern deneyimin mekânını tarif etmesi: **büyük şehir**.
+
+*Kötülük Çiçekleri* (1857), Haussmann'ın yeniden kurduğu Paris'in içinde yazıldı. Yıkılan mahalleler, açılan bulvarlar, cam kaplı pasajlar, gaz lambaları, kalabalık.
+
+Baudelaire bu ortamda yeni bir figür tanımladı: **flâneur** — kalabalıkta amaçsızca dolaşan, bakan ama katılmayan gözlemci.
+
+Bu figür, **Walter Benjamin**'in eline geçtiğinde bir yönteme dönüştü. Benjamin'in tamamlanmamış *Pasajlar* projesi, Baudelaire okumasından doğdu ve on dokuzuncu yüzyıl kapitalizminin fenomenolojisini kurma denemesiydi. Adorno, Kracauer ve bütün Frankfurt Okulu kültür çözümlemesi bu hattan geçer.
+
+## İki 1821'li
+
+Helmholtz ile Baudelaire'in yolları hiç kesişmedi. Ama aynı problemin iki ucunda duruyorlar.
+
+Helmholtz sorar: **Göz nasıl görür?** Yanıtı fizyolojiktir — duyum bir işarettir, algı bilinçdışı bir çıkarımdır. Modern öznenin dünyayla ilişkisi dolaylıdır ve o dolayımın mekanizması incelenebilir.
+
+Baudelaire sorar: **Modern insan neye bakar?** Yanıtı estetiktir — geçici olana, kalabalığa, sokağa. Ve o bakışın kendisi yeni bir deneyim biçimi kurar.
+
+İkisi de aynı şeyi söylüyor aslında: **Görmek masum değildir.** Görme, ne nesnenin edilgen kopyalanmasıdır ne de tarafsız bir kayıt. Kurulmuş, öğrenilmiş, tarihsel bir edimdir.
+
+Bu tez, sitemizde bu ay ele aldığımız [Don Ihde'nin teknolojik aracılık kuramına](/haber/don-ihde-postfenomenoloji-yapay-zeka) ve [algoritmaların neyi görebildiğimizi belirlemesi tartışmasına](/haber/derrida-yapay-zeka-arsiv-iz-sorumluluk) kadar uzanıyor.
+
+Bir yüzyıl önce sorulmuş bir soru, bugün ekran karşısında yeniden soruluyor.
+
+## Türkçede
+
+Helmholtz'un metinleri Türkçede sınırlı; bilim felsefesi antolojilerinde parçalar hâlinde bulunuyor. Baudelaire'in *Kötülük Çiçekleri*, *Paris Sıkıntısı* ve *Modern Hayatın Ressamı* Türkçeye defalarca çevrildi. Benjamin'in Baudelaire üzerine yazıları da Türkçede mevcut.`,
+  },
+  {
+    title: "Dundee'de felsefe kurtarıldı — kısmen ve şimdilik",
+    slug: "dundee-felsefe-kismen-kurtarildi",
+    summary:
+      "Bu yaz kapatılma kararı alınan İskoç bölümü, kampanyanın ardından geri adım attırdı. Ama zafer koşullu: Program küçültülerek sürdürülecek. Kapanma dalgasının ilk kez tersine döndüğü bu vaka, felsefe bölümlerinin hangi argümanla savunulabileceğini gösteriyor.",
+    seoTitle: "Dundee Üniversitesi felsefe bölümü kısmen kurtarıldı",
+    metaDescription:
+      "Dundee Üniversitesi'nde kapatılma kararı alınan felsefe programı kampanyanın ardından kısmen korundu. Bölüm kapanmaları ve savunma stratejileri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dundee_University_Library.JPG?width=1600",
+    imageCredit: "Dundee Üniversitesi Kütüphanesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+    publishedAt: "2026-08-30T18:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["akademi", "demokrasi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Philosophy at Dundee Saved—In Part, For Now",
+        publisher: "Daily Nous",
+        date: "28 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+        primary: true,
+      },
+      {
+        title: "Update on Fight Against Dundee Cutting Philosophy",
+        publisher: "Daily Nous",
+        date: "11 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/11/update-on-fight-against-dundee-cutting-philosophy/",
+      },
+      {
+        title: "The Public's Opinion about Philosophy in Universities",
+        publisher: "Daily Nous",
+        date: "27 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/27/the-publics-opinion-about-philosophy-in-universities/",
+      },
+    ],
+    content: `Son yılların akademik haberlerinde bir kalıp oluşmuştu: Üniversite tasarruf açıklar, felsefe bölümü listeye girer, kampanya başlar, bölüm kapanır.
+
+Bu yaz Dundee'de kalıp bozuldu.
+
+**Dundee Üniversitesi** yönetimi, maliyet azaltma programı kapsamında öğrencilere felsefe ana dalı seçeneği sunmayı bırakmayı planlamıştı. Ağustos sonunda gelen haber, kararın geri alındığını gösteriyor: **Program sürecek** — ama küçültülmüş hâliyle.
+
+Duyuruyu aktaran bölüm mensuplarının cümlesi, olayın niteliğini de veriyor: "Uluslararası erişimi geniş, küçük bir program, beşerî bilimlerdeki kapanma eğilimini tersine çevirdi."
+
+Başlıktaki iki kayıt önemli: **kısmen** ve **şimdilik**.
+
+## Neden bu vaka önemli?
+
+Sitemizde daha önce [İngiltere'de felsefe bölümlerinin kapanması](/haber/ingilterede-felsefe-bolumleri-kapaniyor) üzerine yazmıştık. Dundee ve Hertfordshire aynı dönemde gündeme gelmişti.
+
+Bu tür kararlar tek tek üniversitelerin bütçe sorunlarından çıkıyor gibi görünür. Ama toplandıklarında bir eğilim oluşturuyorlar ve o eğilimin mantığı şu: **Bir bölüm, mezununun ilk maaşıyla ölçülüyor.**
+
+Bu ölçütle felsefe her zaman kaybeder. Çünkü felsefe eğitiminin getirisi ne hızlıdır ne de tek bir mesleğe bağlıdır.
+
+Dundee vakasının öğreticiliği, kampanyanın bu ölçütü kabul etmek yerine başka bir zemine geçmesinde.
+
+## Kamuoyu ne düşünüyor?
+
+Tartışmayı besleyen bir başka veri, ağustos sonunda yayımlandı.
+
+"Tipik bir üniversitenin şu alanlarda bölüm bulundurması ne kadar önemli?" sorusuyla yapılan bir kamuoyu araştırması, felsefenin halkın gözündeki yerini ölçtü. Daily Nous'ta yayımlanan tartışma kırktan fazla yorum aldı.
+
+Sonuçların ayrıntısı bir yana, tartışmanın kendisi bir şeyi açığa çıkardı: **Üniversite yöneticileri "kamuoyu istemiyor" gerekçesini sık kullanıyor; ama bu gerekçenin ampirik dayanağı sanıldığı kadar sağlam değil.**
+
+Kapatma kararları çoğu zaman kamuoyu talebinden değil, **iç muhasebeden** çıkıyor. Fark önemli, çünkü ikincisi tartışılabilir bir karardır.
+
+## "Uluslararası erişim" argümanı
+
+Dundee kampanyasının kullandığı argümanlardan biri özellikle dikkat çekici: Program küçük olabilir, ama **erişimi ulusal değil**.
+
+Bu, bölüm savunmasının alışıldık dilinden farklı. Genellikle "felsefe eleştirel düşünme kazandırır" ya da "işverenler felsefe mezunlarını arıyor" denir. İkisi de doğru olabilir; ama ikisi de savunmayı, saldıranın diline hapseder.
+
+Dundee'de öne çıkan argüman şuydu: Bir üniversiteyi üniversite yapan şey, dünya çapındaki bir araştırma ağının parçası olmaktır. Bir bölümü kapatmak, o ağdan çıkmak demektir — ve o ağa geri dönmenin maliyeti, kapatmanın tasarrufundan yüksektir.
+
+Bu, muhasebe diliyle konuşulan bir argüman. İşe yaraması da tesadüf değil.
+
+## Küçültülmüş program ne demek?
+
+"Kısmen kurtarıldı" ifadesi ciddiye alınmalı.
+
+Bir felsefe programının sürdürülebilmesi için asgari bir kadro gerekir: Felsefe tarihi, mantık, etik, epistemoloji ve metafizik alanlarında en azından birer uzman. Bu eşiğin altına inildiğinde program biçimsel olarak var olur ama müfredat daralır, seçmeli dersler azalır, lisansüstü çalışma imkânsızlaşır.
+
+Küçültme, çoğu zaman ertelenmiş bir kapanmadır.
+
+Bu yüzden Dundee'deki sonuç bir zafer olarak sunulurken temkinli bir dil kullanılıyor: **şimdilik.**
+
+## Türkiye için not
+
+Türkiye'de felsefe bölümlerinin durumu farklı bir denklemde. Kapatma değil, doluluk ve istihdam sorunu öne çıkıyor.
+
+Ama Dundee tartışmasının çıkardığı asıl soru burada da geçerli: Bir üniversite, bir bölümü hangi ölçütle savunur?
+
+Sitemizde bu ay ele aldığımız [Türkiye'nin felsefe dergileri haritası](/haber/turkiye-felsefe-dergileri-haritasi) ve [dijital arşiv dosyası](/haber/turkiyede-akademik-felsefenin-dijital-arsivi), aynı sorunun başka bir yüzünü gösteriyordu: Bir bölüm, ürettiği bilginin dolaşıma girmesiyle var olur.
+
+Görünmeyen bölüm, savunulamayan bölümdür.`,
+  },
+  {
+    title: "Agnes Callard: Sokrates'i kuşkucu sanmak neyi gizliyor?",
+    slug: "agnes-callard-acik-sokrates",
+    summary:
+      "Chicago'lu filozof, Open Socrates'te alışılmış Sokrates portresine itiraz ediyor: O bir kuşkucu değil, bir entelektüalistti. Merve Emre'yle yaptığı söyleşide bu ayrımın neden önemli olduğunu anlatıyor — ve felsefenin neden tek başına yapılamayacağını.",
+    seoTitle: "Agnes Callard ve Open Socrates: Sokratik entelektüalizm",
+    metaDescription:
+      "Agnes Callard'ın Open Socrates kitabı ve Merve Emre söyleşisi: Sokratik yöntem, entelektüalizm ve felsefenin diyalojik doğası.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Socrates_Louvre.jpg?width=1600",
+    imageCredit: "Sokrates büstü, Louvre · Wikimedia Commons",
+    featured: true,
+    sourceName: "The New York Review of Books",
+    sourceUrl: "https://www.nybooks.com/online/2026/08/18/socrates-turf-agnes-callard-merve-emre/",
+    publishedAt: "2026-08-30T17:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["antik-felsefe", "etik", "kavram", "epistemoloji", "soylesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Socrates' Turf — Merve Emre, Agnes Callard",
+        publisher: "The New York Review of Books",
+        date: "18 Ağustos 2026",
+        url: "https://www.nybooks.com/online/2026/08/18/socrates-turf-agnes-callard-merve-emre/",
+        primary: true,
+      },
+      {
+        title: "Agnes Callard on Socrates's Turf",
+        publisher: "Literary Hub",
+        url: "https://lithub.com/agnes-callard-on-socrates-turf/",
+      },
+      {
+        title: "Open Socrates: The Case for a Philosophical Life",
+        publisher: "W. W. Norton",
+        url: "https://www.amazon.com/Open-Socrates-Case-Philosophical-Life/dp/1631498460",
+      },
+    ],
+    content: `Sokrates hakkında herkesin bildiği bir cümle var: "Tek bildiğim, hiçbir şey bilmediğimdir."
+
+Chicago Üniversitesi'nden **Agnes Callard**, bu cümlenin Sokrates'i anlamanın önündeki en büyük engel olduğunu düşünüyor.
+
+*Open Socrates: The Case for a Philosophical Life* kitabının yazarı Callard, geçtiğimiz günlerde **Merve Emre** ile yaptığı söyleşide tezini özetledi:
+
+> "Sokratik entelektüalizmi kaybetmek istemiyoruz. Sokrates'in kuşkucu imgesiyle gölgelenen, üzerinde düşünmeye değer bir etik kuram bu."
+
+Söyleşi, Emre'nin *The Critic and Her Publics* podcast dizisinin söyleşi sanatına ayrılan sezonunda yayımlandı.
+
+## Kuşkucu Sokrates neden yanlış?
+
+Yaygın portre şöyle: Sokrates hiçbir şey iddia etmez, yalnızca sorar; muhatabının çelişkisini gösterir, kendi görüşünü açıklamaz. Bu okumada Sokratik yöntem bir **yıkım tekniğidir** — herkesi susturan ama kendisi konuşmayan bir usul.
+
+Callard bunun metinlere aykırı olduğunu savunuyor.
+
+Sokrates diyaloglarda son derece belirli tezler savunur: Erdem bilgidir. Kimse bile bile kötülük yapmaz. Haksızlık etmek, haksızlığa uğramaktan kötüdür. Ruhun sağlığı bedenin sağlığından önemlidir.
+
+Bunlar kuşkucunun cümleleri değil. Bunlar **entelektüalizm** denen konumun cümleleri: Ahlaki başarısızlığın kaynağı zayıf irade değil, yanlış bilgidir.
+
+## Neden bu ayrım önemli?
+
+Callard'ın vurgusunun pratik bir sonucu var.
+
+Sokrates'i kuşkucu okuyan biri için felsefe, iddiaları yıkma sanatıdır. Amaç, karşıdakinin ne kadar temelsiz düşündüğünü göstermektir.
+
+Sokrates'i entelektüalist okuyan biri içinse felsefe **arayıştır**. Soru sormak yıkmak için değil, bilmediğini fark edip aramaya başlamak için sorulur.
+
+İkisi arasındaki fark, bugünkü tartışma kültürü açısından da anlamlı. Kuşkucu model, sosyal medyanın "çürütme" refleksine fazlasıyla uygun. Entelektüalist model ise sabır gerektiriyor.
+
+## Kitabın asıl tezi
+
+*Open Socrates*'in çıkış noktası, Callard'ın "Sokrates'in keşfi" dediği şey:
+
+**En önemli soruları kendimize nasıl soracağımızı bilmiyoruz.**
+
+Küçük sorularda usta sayılırız — hangi işi seçmeli, nereye taşınmalı, ne yemeli. Ama büyük sorularda — nasıl sevmeli, ölümle nasıl yüzleşmeli, siyasete nasıl katılmalı — elimizde bir yöntem yok. Bu soruları ya erteliyoruz ya da hazır cevaplarla kapatıyoruz.
+
+Callard'a göre Sokratik yöntem tam da bu boşluk için tasarlanmış bir araç.
+
+Ve kritik nokta şu: **Bu yöntem tek başına işlemez.** Kendi kendine soru sormak, kendi kör noktalarını bulmayı gerektirir — ki bu tanımı gereği imkânsızdır. Bu yüzden Sokrates hep birileriyle konuşur.
+
+Felsefe, Callard'ın okumasında, bireysel bir düşünme faaliyeti değil; **iki kişilik bir etkinliktir.**
+
+## Tartışmalı bir isim
+
+Callard, çağdaş felsefede alışılmadık bir konumda. Akademik olarak antik felsefe uzmanı — Platon ve Aristoteles üzerine çalışıyor; *Aspiration: The Agency of Becoming* kitabıyla eylem felsefesine katkı yaptı.
+
+Aynı zamanda kamusal bir figür. New Yorker ve The Point gibi yayınlarda yazıyor, kişisel hayatını felsefi malzemeye çeviren denemeleriyle tartışma yaratıyor.
+
+Bu ikili konum eleştiri de çekiyor. Kimi meslektaşları, kamusal görünürlüğün akademik ciddiyeti aşındırdığını düşünüyor. Callard'ın yanıtı Sokratik: Filozofun işi zaten meydanda konuşmaktı.
+
+Bu tartışma, sitemizde bu hafta ele aldığımız [Michel Onfray](/haber/michel-onfray-kamusal-felsefe) ve [Alain de Botton](/haber/alain-de-botton-gundelik-felsefe) dosyalarıyla aynı hattan geliyor — ama Callard'ın konumu ikisinden de farklı: O akademiyi terk etmiyor, akademinin içinden kamusal konuşuyor.
+
+## Sürüyor
+
+Kitap üzerine tartışma yayımlandığından beri sürüyor. Eric Schliesser, Adam Smith'ten hareketle Sokrates, soruşturma ve eşitlik ilişkisini ele alan bir yazı dizisi kaleme aldı.
+
+Callard'ın söyleşide bıraktığı asıl soru şu: **Bir insanın en önemli sorularını sorabilmesi için başka birine ihtiyacı varsa, yalnız düşünmek gerçekten mümkün mü?**
+
+## Türkçede
+
+Callard'ın kitapları henüz Türkçeye çevrilmedi.`,
+  },
+  {
+    title: "Bilim neden savunmasız kaldı? Zeynep Pamuk'tan radikal bir öneri",
+    slug: "zeynep-pamuk-bilim-demokrasi",
+    summary:
+      "Oxford'lu siyaset kuramcısı, ABD'de araştırmaya yönelik saldırının kökenini 1950'de atılan bir temele bağlıyor: Bilim, siyaset dışı bir alan olarak savunuldu ve tam bu yüzden savunmasız kaldı. Önerisi ters yönde — bilimi daha çok siyasallaştırmak.",
+    seoTitle: "Zeynep Pamuk: bilim, uzmanlık ve demokratik hesap verebilirlik",
+    metaDescription:
+      "Zeynep Pamuk'un Boston Review forumundaki tezi: Bilimi siyaset dışı saymak onu korumadı, savunmasız bıraktı. Yurttaş meclisleri ve kamusal patent önerisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Laboratory_Scientist_US_NIH.jpg?width=1600",
+    imageCredit: "Laboratuvar çalışması · ABD Ulusal Sağlık Enstitüleri · Wikimedia Commons",
+    featured: true,
+    sourceName: "Boston Review",
+    sourceUrl: "https://www.bostonreview.net/forum/how-to-save-science/",
+    publishedAt: "2026-08-30T17:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["bilim-felsefesi", "demokrasi", "siyaset-felsefesi", "etik", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "How to Save Science — forum",
+        publisher: "Boston Review",
+        url: "https://www.bostonreview.net/forum/how-to-save-science/",
+        primary: true,
+      },
+      {
+        title: "Zeynep Pamuk",
+        publisher: "Boston Review",
+        url: "https://www.bostonreview.net/authors/zeynep-pamuk/",
+      },
+      {
+        title: "Whose Democracy? Which Science?",
+        publisher: "Boston Review",
+        url: "https://www.bostonreview.net/forum/how-to-save-science/baker/",
+      },
+    ],
+    content: `Bir kurumu korumanın en yaygın yolu, onu siyasetin dışına çıkarmaktır. Yargı bağımsızlığı, merkez bankası özerkliği, akademik özgürlük — hepsi aynı mantığa dayanır.
+
+**Zeynep Pamuk**'un tezi bu mantığın bilim söz konusu olduğunda ters teptiği yönünde.
+
+Oxford Üniversitesi'nde çağdaş siyaset kuramı doçenti ve Nuffield College üyesi olan Pamuk, *Politics and Expertise: How to Use Science in a Democratic Society* kitabının yazarı. Boston Review'un düzenlediği **"Bilimi Nasıl Kurtarırız?"** forumunun açılış metnini kaleme aldı.
+
+Forumun çıkış noktası acil: ABD'de araştırmaya yönelik olarak "İkinci Dünya Savaşı'ndan bu yana yapılmış en büyük saldırı" — kesilen fonlar, dondurulan hibeler, durdurulan lisansüstü alımlar.
+
+## 1950'de atılan temel
+
+Pamuk'un yaptığı şey, krizi güncel siyasetle açıklamak yerine **kuruluş anına** dönmek.
+
+1950'de ABD Ulusal Bilim Vakfı (NSF) kurulurken, devletin temel araştırmayı neden finanse etmesi gerektiğine dair bir gerekçe üretildi. O gerekçe kabaca şuydu: Bilim özerk bir alandır; kendi ölçütleriyle işler; siyasal müdahaleye kapalı tutulursa uzun vadede topluma en büyük faydayı sağlar.
+
+Bu, dönemin koşullarında işe yarayan bir savunmaydı. Ama Pamuk'a göre **kusurluydu** — ve kusur şimdi görünür hâle geldi.
+
+Çünkü bu gerekçe bilimi kamusal tartışmanın dışına yerleştirdi. Fon kararlarının nasıl alındığı, hangi araştırmanın neden desteklendiği, kimin gündemi belirlediği — hepsi uzmanlar arası bir mesele sayıldı.
+
+Sonuç: Bilim, kamuoyu nezdinde **hesap vermeyen bir kurum** olarak konumlandı.
+
+Ve hesap vermeyen kurumlar, siyasal saldırı karşısında savunmasızdır. Çünkü onları savunacak bir kamusal bağ yoktur.
+
+## Önerinin yönü şaşırtıcı
+
+Beklenen çözüm, özerkliği daha da güçlendirmek olurdu. Pamuk tersini öneriyor.
+
+Ona göre bilim, demokratik toplumda **özel bir rol** oynar; ama bu rol siyaset dışı olmaktan gelmez. Bilimin **siyasal karakterini** tanımak ve fon kararlarını kamuya karşı daha hesap verebilir kılmak gerekir.
+
+Somut önerileri üç başlıkta toplanıyor:
+
+**Daha güçlü yasama denetimi.** Araştırma bütçelerinin nereye gittiği, teknik bir konu olarak bürokrasiye bırakılmamalı.
+
+**Patentlerin kamusal mülkiyeti.** Kamu parasıyla üretilen bilginin ticari kazancı özelleşiyorsa, kamusal destek argümanı zayıflar.
+
+**Yurttaş meclisleri.** Araştırma gündemleri üzerine danışma organları olarak rastgele seçilmiş yurttaş kurulları.
+
+Üçüncüsü en tartışmalı olanı ve tartışmanın merkezinde de o duruyor.
+
+## İtirazlar
+
+Forum, yanıtlarla birlikte yayımlandı. Başlıca itirazlar üç yönden geliyor.
+
+**Yetkinlik itirazı.** Araştırma gündemini belirlemek uzmanlık gerektirir. Rastgele seçilmiş bir kurul, hangi temel araştırmanın otuz yıl sonra ne getireceğini nasıl değerlendirecek?
+
+Pamuk'un yanıtı, yurttaş meclislerinin uzmanların yerine geçmesini değil, **onlara danışman olmasını** önerdiği yönünde. Ayrıca hatırlatıyor: Bugünkü sistemde de kararları veren bilim insanları değil, siyasetçiler ve bürokratlar.
+
+**Popülizm itirazı.** Bilimi kamuoyunun onayına açmak, iklim değişikliği ve aşı gibi konularda bilim karşıtı akımlara kapı aralamaz mı?
+
+Bu itiraz forumdaki yanıtlarda güçlü biçimde dile getirildi. Karşı argüman ise şu: Bilim karşıtlığı zaten var ve tam olarak dışlanmışlık duygusundan besleniyor. Kapıyı kapalı tutmak onu yenmiyor, besliyor.
+
+**Kavramsal itiraz.** "Hangi demokrasi, hangi bilim?" — forumdaki yanıtlardan birinin başlığı. Her ikisi de tek bir şey değil; genel bir reçete iki tarafı da fazla basitleştiriyor olabilir.
+
+## Neden Türkiye'yi ilgilendiriyor?
+
+Pamuk'un çözümlemesi ABD üzerine. Ama kurduğu problem yereldir.
+
+Türkiye'de de araştırma fonlarının dağıtımı, üniversite bütçeleri ve akademik özerklik tartışmaları benzer bir ikilemde: Ya siyasetten korumak için özerklik istenir, ya da kamusal denetim adına müdahale savunulur.
+
+Pamuk'un önerisi bu ikiliği reddediyor. Üçüncü seçenek şu: **Hesap verebilirlik, özerkliğin karşıtı değil koşuludur.** Kamuya neden desteklenmesi gerektiğini açıklayabilen bir kurum, siyasal dalgalanmalar karşısında daha dayanıklıdır.
+
+Sitemizde bu hafta aktardığımız [Dundee'deki felsefe bölümü mücadelesi](/haber/dundee-felsefe-kismen-kurtarildi) de aynı dersi veriyordu: Görünmeyen ve gerekçesini anlatamayan birim, savunulamıyor.
+
+## Bir not
+
+Pamuk'un kitabı *Politics and Expertise*, uzmanlık ile demokrasi arasındaki gerilimi ele alan çağdaş literatürün dikkat çeken çalışmalarından. Türkçeye henüz çevrilmedi.`,
+  },
+  {
+    title: "Öncül Analitik Felsefe: Türkiye'de bir geleneğin dijitalden kuruluşu",
+    slug: "oncul-analitik-felsefe-turkiye",
+    summary:
+      "Türkiye'de felsefe uzun süre kıta geleneğinin ağırlığı altında okundu. Analitik felsefeyi Türkçede görünür kılan girişim ise üniversiteden değil, dijital bir dergiden çıktı. Bu, bir alanın nasıl kurulduğuna dair öğretici bir örnek.",
+    seoTitle: "Öncül Analitik Felsefe Dergisi ve Türkiye'de analitik gelenek",
+    metaDescription:
+      "Öncül Analitik Felsefe Dergisi'nin Türkiye'de analitik felsefenin görünürlüğüne katkısı; çeviri, kavram ve dijital yayıncılık.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Orhan_Kemal_Public_Library%2C_Beyaz%C4%B1t%2C_%C4%B0stanbul_%2813080139193%29.jpg?width=1600",
+    imageCredit: "Orhan Kemal Halk Kütüphanesi, Beyazıt · Wikimedia Commons",
+    featured: false,
+    sourceName: "Öncül Analitik Felsefe Dergisi",
+    sourceUrl: "https://onculanalitikfelsefe.com/",
+    publishedAt: "2026-08-30T16:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "ceviri", "epistemoloji", "mantik", "dergi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Öncül Analitik Felsefe Dergisi",
+        publisher: "onculanalitikfelsefe.com",
+        url: "https://onculanalitikfelsefe.com/",
+        primary: true,
+      },
+      {
+        title: "Felsefeye Yeni İlgi Duyanlar İçin 10 + 15 Türkçe Felsefe Kitabı",
+        publisher: "Öncül Analitik Felsefe",
+        url: "https://onculanalitikfelsefe.com/felsefeye-yeni-ilgi-duyanlar-icin-10-turkce-kitap-taner-beyter/",
+      },
+    ],
+    content: `Bir felsefe geleneğinin bir ülkede yerleşmesi için üç şey gerekir: çevrilmiş metinler, oturmuş bir terminoloji ve tartışacak bir topluluk.
+
+Türkiye'de **analitik felsefe** uzun süre bu üçünden de yoksundu.
+
+Nedeni tarihsel. Cumhuriyet döneminde felsefenin kurumsallaşması büyük ölçüde Alman geleneği üzerinden gerçekleşti; 1933 Üniversite Reformu'yla gelen hocalar fenomenoloji, Kant araştırmaları ve felsefe tarihi çizgisini taşıdı. Sitemizde ele aldığımız [Bedia Akarsu](/haber/bedia-akarsu-felsefenin-dili) ve [Hilmi Ziya Ülken](/haber/hilmi-ziya-ulken-sorulari) dosyaları bu hattın izini sürüyordu.
+
+Frege'den Russell'a, Quine'dan Kripke'ye uzanan analitik damar ise Türkçeye geç ve dağınık geldi.
+
+## Boşluğu kim doldurdu?
+
+Beklenen şey, boşluğun üniversiteler tarafından doldurulmasıydı: yeni kürsüler, yeni ders programları, yeni çeviri dizileri.
+
+Olan başka oldu. Analitik felsefeyi Türkçede sistematik biçimde görünür kılan girişim, **dijital bir dergiden** çıktı.
+
+**Öncül Analitik Felsefe Dergisi**, dil felsefesi, zihin felsefesi, metafizik, bilim felsefesi ve etik alanlarında çeviri ve telif metinler yayımlıyor; aynı zamanda bir YouTube kanalı yürütüyor.
+
+Yaptığı iş üç başlıkta toplanabilir.
+
+**Çeviri.** Analitik felsefenin klasik makaleleri ve çağdaş tartışmaları Türkçeye aktarılıyor. Bu, kitap çevirisinden farklı bir emek: Alan makale üzerinden ilerlediği için, güncel tartışmaya girmek makaleye erişmeyi gerektiriyor.
+
+**Terminoloji.** Her çeviri aynı zamanda bir kavram kararıdır. *Supervenience*, *grounding*, *truthmaker*, *rigid designator* — bu terimlerin Türkçe karşılıkları büyük ölçüde son on beş yılda tartışılarak oturdu.
+
+**Topluluk.** Belki de en önemlisi. Yorum, tartışma ve söyleşi formatları, dağınık ilgiyi bir muhataplar çevresine dönüştürüyor.
+
+## Neden bu model?
+
+Burada dikkat çeken şey, sıralamanın tersine dönmesi.
+
+Klasik model şöyle işler: Önce üniversitede kürsü kurulur, sonra öğrenci yetişir, sonra çeviri ve yayın gelir, en sonunda kamusal görünürlük oluşur.
+
+Öncül örneğinde sıra tersine döndü: Önce **kamusal görünürlük** ve çeviri havuzu oluştu; akademik yerleşme bunu izliyor.
+
+Bu, Türkiye'ye özgü bir tuhaflık değil. Dijital altyapının maliyetleri düşürdüğü her alanda benzer bir tersine dönüş görülüyor. Sitemizde ele aldığımız [akademik felsefenin dijital arşivi](/haber/turkiyede-akademik-felsefenin-dijital-arsivi) dosyası da aynı olgunun başka bir yüzüydü.
+
+## Kıta–analitik ayrımı gerçek mi?
+
+Öncül'ün varlığı, Türkiye'de örtük kalan bir ayrımı görünür kıldı: kıta felsefesi ile analitik felsefe.
+
+Bu ayrımın kendisi tartışmalı. Coğrafi değil, çünkü analitik felsefenin kurucuları Avrupalıydı — Frege Alman, Wittgenstein Avusturyalı, Carnap ve Viyana Çevresi Orta Avrupalı. Yöntemsel de tam değil, çünkü her iki tarafta da argüman kuran ve kurmayan yazarlar var.
+
+Ayrımın gerçek dayanağı **kurumsal**: iki farklı okuma listesi, iki farklı dergi kümesi, iki farklı atıf ağı.
+
+Bu yüzden bir ülkede analitik felsefenin yerleşmesi, o ikinci ağa bağlanmak demektir. Öncül'ün yaptığı iş, tam olarak bir bağlantı kablosu çekmek.
+
+## Eksik kalan
+
+Tabloyu fazla iyimser çizmemek gerekir.
+
+Çeviri ve tanıtım, bir geleneğin **alınmasıdır**; kurulması değil. Bir sonraki aşama, Türkçede yazılmış analitik felsefe metinlerinin uluslararası tartışmaya **katkı** yapması.
+
+Bunun için de üniversite tarafının devreye girmesi gerekiyor: lisansüstü programlar, düzenli çalıştaylar, hakemli yayın hattı. Sitemizde ele aldığımız [dergi haritasında](/haber/turkiye-felsefe-dergileri-haritasi) Öncül'ün yanında Beytulhikme ve Sofist gibi yayınların yer alması bu yönde bir işaret.
+
+Ama asıl ölçüt niceliksel değil: **Türkiye'den çıkan bir analitik felsefe makalesi, alandaki bir tartışmayı değiştirdi mi?**
+
+Bu sorunun yanıtı henüz "hayır"a yakın. Ve tam da bu yüzden soru, önümüzdeki on yılın gündemi.
+
+## Bir öneri
+
+Türkiye'de felsefeye yeni ilgi duyanlar için hazırlanmış Türkçe kitap listeleri, Öncül'ün en çok okunan içerikleri arasında.
+
+Bu ayrıntı küçük görünebilir ama bir şey gösteriyor: Bir geleneğin yerleşmesi, en çok **giriş metinlerine** bağlıdır. İleri düzey tartışma, ancak giriş kapısı açıksa okur bulur.`,
+  },
+  {
+    title: "Annette Baier ve yavaş felsefe: yapay zekâ çağında dirilen bir öneri",
+    slug: "annette-baier-yavas-felsefe",
+    summary:
+      "Güveni ahlak felsefesinin merkezine yerleştiren Hume yorumcusu, otuz yıl önce akademik değerlendirme için bir öneri yapmıştı: Adayı bütün yayınlarıyla değil, kendi seçtiği dört yazısıyla değerlendirin. Yapay zekâ metin üretimini bedavaya indirdiğinde bu öneri yeniden gündeme geldi.",
+    seoTitle: "Annette Baier: güven etiği ve yavaş felsefe önerisi",
+    metaDescription:
+      "Annette Baier'in güven kavramı, Hume yorumu ve akademik değerlendirme önerisi. Yapay zekâ çağında 'yavaş felsefe' tartışması.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_David_Hume.jpg?width=1600",
+    imageCredit: "David Hume portresi — Annette Baier'in başlıca çalışma alanı · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/19/revisiting-slow-philosophy/",
+    publishedAt: "2026-08-30T16:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["etik", "akademi", "kavram", "yapay-zeka", "toplumsal-cinsiyet"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Revisiting 'Slow Philosophy'",
+        publisher: "Daily Nous",
+        date: "19 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/19/revisiting-slow-philosophy/",
+        primary: true,
+      },
+      {
+        title: "A Modest Proposal: Slow Philosophy",
+        publisher: "Daily Nous — Jennifer Whiting",
+        url: "https://dailynous.com/2015/12/31/a-modest-proposal-slow-philosophy-jennifer-whiting/",
+      },
+      {
+        title: "Persons and Passions: Essays in Honor of Annette Baier",
+        publisher: "Notre Dame Philosophical Reviews",
+        url: "https://ndpr.nd.edu/reviews/persons-and-passions-essays-in-honor-of-annette-baier/",
+      },
+    ],
+    content: `Bazı öneriler yapıldıkları anda anlaşılmaz, otuz yıl sonra kaçınılmaz hâle gelir.
+
+**Annette Baier**'in akademik değerlendirme önerisi böyle bir öneri.
+
+Yeni Zelanda doğumlu Baier (1929-2012), yirmi dört yıl Pittsburgh Üniversitesi'nde ders verdi ve 1997'de emekli oldu. Hume yorumculuğunun çağdaş dönemdeki en önemli isimlerinden biriydi; ama asıl kalıcı katkısı başka bir yerde.
+
+## Güven: ahlak felsefesinin unutulmuş kavramı
+
+Baier'in 1986 tarihli **"Trust and Antitrust"** makalesi, çağdaş ahlak felsefesinde bir alan açtı.
+
+Tespiti basitti ve rahatsız ediciydi: Ahlak felsefesi yüzyıllardır **eşit ve özerk yetişkinler arasındaki sözleşme** modelinden hareket ediyordu. Kant'ta ödev, faydacılıkta hesap, sözleşmecilikte anlaşma — hepsi karşılıklı olarak bağımsız tarafları varsayıyordu.
+
+Oysa insan hayatının büyük bölümü bu modele uymaz.
+
+Bebek ile ebeveyn arasında sözleşme yoktur. Hasta ile hekim, öğrenci ile öğretmen, yaşlı ile bakıcı arasında eşitlik yoktur. Bu ilişkilerde belirleyici olan şey **güvendir** — ve güven, tanımı gereği eşitsiz bir ilişkidir: Güvenen taraf kendini savunmasız kılar.
+
+Baier'in sorusu şuydu: Ahlak felsefesi neden bu ilişkileri kenarda bırakıp yalnızca eşitler arası anlaşmayı inceledi?
+
+Yanıtı da açıktı. Çünkü felsefeyi yazanlar, hayatlarının bakım gerektiren kısmını başkalarına — çoğunlukla kadınlara — devretmiş erkeklerdi.
+
+## Güvenin çözümlemesi
+
+Baier güveni yalnızca eleştirel bir kavram olarak kullanmadı; çözümledi.
+
+Güven, ona göre üç terimli bir ilişkidir: **A, B'ye X konusunda güvenir.** Yani güven her zaman belirli bir alana ilişkindir. Bir insana çocuğunuzu emanet edebilir ama paranızı emanet etmeyebilirsiniz.
+
+İkinci ayrımı daha keskin: Güven ile **güvenilirlik** aynı şey değil. Bir ilişkide güven varsa, bu ilişkinin ahlaki olarak iyi olduğunu göstermez. Baier'in ölçütü ünlüdür:
+
+**Bir güven ilişkisi, tarafların ona nasıl güvendikleri açığa çıktığında ayakta kalabiliyorsa ahlakidir.**
+
+Sömürüye dayalı ilişkiler bu testi geçemez. Çünkü sömüren taraf, ilişkinin gerçek yapısı görünür olduğunda güveni kaybeder.
+
+Bu ölçüt bugün kurumsal güven, dijital platformlar ve algoritmik sistemler tartışmasında doğrudan kullanılıyor: Bir sistem, nasıl çalıştığını kullanıcıya açıkladığında güveni sürdürebiliyor mu?
+
+## Hume okuması
+
+Baier'in Hume çalışması bu hattan ayrı değil.
+
+*A Progress of Sentiments* (1991), Hume'un *İnsan Doğası Üzerine Bir İnceleme*'sini bir bütün olarak okur — ki bu alışılmış değildir; Hume genellikle epistemoloji kısmıyla anılır.
+
+Baier'in tezi şu: Hume'un kitabı, aklın kendini temellendiremediğini gösterdikten sonra ne yapılacağını anlatır. Yanıt duygulanımdır, alışkanlıktır ve **birlikte yaşama pratiğidir**. Yani Hume'un kuşkuculuğu bir çıkmaz değil, toplumsal bir etiğe açılan kapıdır.
+
+Bu köşede geçen hafta [Hume'un ölüm yıldönümünü](/haber/felsefe-tarihinde-bugun-25-agustos-hume-nietzsche) anmıştık. Baier'in okuması, o hattın çağdaş devamı.
+
+## "Yavaş felsefe" önerisi
+
+Baier'in akademiye yönelik önerisi, *Moral Prejudices* kitabında parantez içinde ve soru işaretiyle geçen bir cümleden doğdu.
+
+Öneri şu: Kadroluluk ve terfi kararlarında aday, bütün yayın listesiyle değil, **kendi seçtiği dört yazısıyla** değerlendirilsin.
+
+2015'te Pittsburgh'dan **Jennifer Whiting** — Baier'in on yıl meslektaşı olmuş bir isim — bu öneriyi Daily Nous'ta ayrıntılı biçimde savundu. Yazının başlığı "Mütevazı Bir Öneri: Yavaş Felsefe"ydi.
+
+Mantığı şuydu: Nicelik ölçütü, felsefede yanlış olanı ödüllendirir. Bir felsefeci yılda dört makale yayımlıyorsa, muhtemelen hiçbirini yeterince uzun düşünmemiştir. Oysa alanın tarihindeki dönüştürücü metinlerin çoğu, yıllarca üzerinde çalışılmış tekil yazılardır.
+
+Öneri o dönemde ilgi gördü ama uygulanmadı.
+
+## Neden şimdi geri döndü?
+
+19 Ağustos'ta Daily Nous, öneriyi yeniden gündeme getirdi. Gerekçe teknolojik.
+
+Üretken yapay zekâ, akademik metin üretiminin maliyetini radikal biçimde düşürdü. Bir taslak hazırlamak, kaynakça çıkarmak, literatür özeti yazmak artık saatler değil dakikalar alıyor.
+
+Bunun doğrudan sonucu şu: **Yayın sayısı, artık emeğin göstergesi olmaktan çıkıyor.**
+
+Nicelik ölçütü zaten sorunluydu; şimdi ölçmeyi iddia ettiği şeyle bağını tümüyle yitirdi. Bir adayın kırk yayını varsa, bu ne çalışkanlığını ne de derinliğini gösteriyor.
+
+Sitemizde bu ay aktardığımız [*Philosophy & Public Affairs* dergisinin yapay zekâ yazarlığını yasaklaması](/haber/philosophy-public-affairs-yapay-zeka-yasagi) ve ardından başlayan [suçlama tartışması](/haber/yapay-zeka-felsefe-arastirmasi-tartismasi), aynı problemin yayıncılık tarafıydı. Baier'in önerisi ise değerlendirme tarafına bakıyor.
+
+Ve çözüm önerisi tespit araçlarına dayanmıyor. Basitçe **ölçütü değiştiriyor**: Kaç yazı yazdığını değil, en iyi dört yazının ne olduğunu sor.
+
+Yapay zekâ, dört iyi yazı üretmeyi kolaylaştırmıyor. Kırk vasat yazı üretmeyi kolaylaştırıyor.
+
+## Baier'in kendi hikâyesiyle bağı
+
+Önerinin Baier'den gelmesi tesadüf değil.
+
+Baier akademik kariyerine geç başladı ve az ama uzun düşünülmüş yazdı. Külliyatı büyük ölçüde makalelerden oluşur; kitapları da makale derlemeleridir. "Trust and Antitrust" tek bir makaledir ve bir alan açmıştır.
+
+Ayrıca önerisi, kadın akademisyenlerin kariyer takvimine ilişkin daha geniş bir eleştirinin parçasıydı — bu yönü zamanında yanlış aktarıldı ve Baier'e ait olmayan bir öneri ona atfedildi.
+
+Whiting'in 2015 yazısı, bu yanlış aktarımı düzeltmeyi de amaçlıyordu.
+
+## Bugün ne söylüyor?
+
+Baier'in iki katkısı aynı sezgiye dayanıyor.
+
+**Güven kavramında:** Ahlaki hayat, eşitler arası anlaşmadan ibaret değildir; savunmasızlık ve bağımlılık da ahlakın konusudur.
+
+**Yavaş felsefe önerisinde:** Entelektüel değer, sayılabilir çıktıya indirgenemez; zaman gerektiren şeyler vardır.
+
+İkisi de aynı şeyi reddediyor: **İnsan ilişkilerinin ve düşüncenin, hesaplanabilir birimlere çevrilebileceği varsayımını.**
+
+Bu reddin, ölçme ve otomasyonun her alana yayıldığı bir dönemde neden yeniden okunduğu anlaşılır.
+
+## Türkçede
+
+Baier'in kitapları Türkçeye çevrilmedi. "Trust and Antitrust" makalesi, güven etiği üzerine Türkçe literatürde sıkça atıf alan metinler arasında.`,
+  },
+  {
+    title: "Raymond Geuss'tan 'Kaostaki İzler': yönünü bulamayan felsefeye övgü",
+    slug: "raymond-geuss-tracks-in-chaos",
+    summary:
+      "Siyaset felsefesinin ahlaklaştırılmasına en ısrarlı itirazı yönelten isim, Polity'den çıkan yeni derlemesinde yönelim sorununa dönüyor. Başlık Heidegger'in 'orman yolları' imgesine gönderme: Çoğu yol hiçbir yere çıkmaz, ama yürüyerek açılır.",
+    seoTitle: "Raymond Geuss — Tracks in Chaos (Polity, 2026)",
+    metaDescription:
+      "Raymond Geuss'un Tracks in Chaos kitabı: siyasal gerçekçilik, evrenselcilik eleştirisi, dayanışma ve yönelim sorunu.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Forest_path_and_trees.jpg?width=1600",
+    imageCredit: "Orman yolu — kitabın başlığı Heidegger'in Holzwege imgesine gönderme yapıyor · Wikimedia Commons",
+    featured: false,
+    sourceName: "Polity Books",
+    sourceUrl: "https://www.politybooks.com/bookdetail?book_slug=tracks-in-chaos-philosophical-orientation-and-political-reflection--9781509573431",
+    publishedAt: "2026-08-30T15:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "siyaset-felsefesi", "elestirel-teori", "marksizm", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Tracks in Chaos: Philosophical Orientation and Political Reflection",
+        publisher: "Polity Books",
+        date: "2026",
+        url: "https://www.politybooks.com/bookdetail?book_slug=tracks-in-chaos-philosophical-orientation-and-political-reflection--9781509573431",
+        primary: true,
+      },
+      {
+        title: "Paths to Nowhere: An Interview with Raymond Geuss about Tracks in Chaos",
+        publisher: "Thesis Eleven",
+        date: "22 Mayıs 2026",
+        url: "https://thesiseleven.com/2026/05/22/paths-to-nowhere-an-interview-with-raymond-geuss-about-tracks-in-chaos/",
+      },
+      {
+        title: "Raymond Geuss, Tracks in Chaos",
+        publisher: "PhilPapers",
+        url: "https://philpapers.org/rec/GEUTIC",
+      },
+    ],
+    content: `Çağdaş siyaset felsefesinin büyük bölümü tek bir soruyla çalışır: **Adil bir toplum nasıl olmalıdır?**
+
+**Raymond Geuss** kırk yıldır bu sorunun kendisine itiraz ediyor.
+
+Cambridge Üniversitesi'nde uzun yıllar ders veren Geuss, siyaset felsefesinin **ahlaklaştırılmasına** yönelik en ısrarlı eleştirmen. Düşüncesi Marx, Nietzsche, Weber ve Frankfurt Okulu ile kurulmuş bir hesaplaşmadan çıkıyor.
+
+Polity'den çıkan yeni derlemesi **Tracks in Chaos: Philosophical Orientation and Political Reflection**, bu itirazın son hâli.
+
+## Başlıktaki imge
+
+Kitabın adı Heidegger'e gönderme yapıyor: **Holzwege** — orman yolları.
+
+Almanca deyimde *auf dem Holzweg sein*, "yanlış yolda olmak" demektir. Heidegger bu imgeyi kullanırken ikili anlamı korumuştu: Orman yolları oduncuların açtığı, ormanın içine giren ve çoğu zaman **hiçbir yere çıkmayan** patikalardır. Ama yol olmalarının nedeni yürünmüş olmaları.
+
+Geuss'un tezi bu imgede toplanıyor: Felsefi yönelim, önceden çizilmiş bir haritayla değil, **arazide yürüyerek** kurulur.
+
+## İtiraz nereye?
+
+Geuss'un hedefi, Rawls'tan bu yana egemen olan bir çalışma biçimi.
+
+O modelde siyaset felsefesi şöyle işler: Önce adaletin ilkeleri belirlenir — ideal koşullarda, tarafsız bir bakış açısından. Sonra gerçek dünya bu ilkelere göre değerlendirilir.
+
+Geuss'a göre bu sıralama yanlış. Çünkü:
+
+**Birincisi**, siyasal sorular ahlaki sorulara indirgenemez. Siyasette belirleyici olan şey neyin doğru olduğu değil, **kimin neyi yapabildiğidir**. İktidar ilişkilerini hesaba katmayan bir kuram, kendi tarafsızlığını da göremez.
+
+**İkincisi**, "ideal koşullar" diye bir yerden bakmak mümkün değildir. Her kuram belirli bir tarihsel konumdan yazılır ve o konumun sorunlarını evrensel sanır.
+
+**Üçüncüsü**, ahlaki dil siyasette çoğu zaman bir örtüdür. Bir politikanın "adalet" adına savunulması, onu savunanın çıkarını görünmez kılabilir.
+
+Bu yüzden Geuss'un önerdiği yaklaşım **gerçekçi** (*realist*): Tarihsel anlayışa ve iktidarın toplumsal hayatta nasıl işlediğine dikkat etmek.
+
+## Kitabın kapsamı
+
+Derleme, felsefe, siyaset ve toplum kuramı üzerine yazıları bir araya getiriyor. Başlıklar arasında siyasal gerçekçilik, siyasette düşünüm, evrenselcilik, dayanışma, ütopik özlemler ve **korkunun sansürü besleyen rolü** var.
+
+Son başlık özellikle güncel. Sansürün gerekçesi genellikle ahlaki dille kurulur: koruma, saygı, güvenlik. Geuss'un sorduğu şu: Bu gerekçelerin altındaki duygulanım korkuysa, ahlaki gerekçelendirmeyi ne kadar ciddiye almalıyız?
+
+Bu soru, sitemizde bu ay aktardığımız [Texas A&M'de Platon'un *Şölen*'inin müfredattan çıkarılması](/haber/texas-am-platon-solen-mufredat-davasi) vakasıyla doğrudan kesişiyor.
+
+## Sonuç: eksikliği kabul etmek
+
+Kitabın vardığı yer, bir program değil bir tutum.
+
+Geuss'a göre yönelim arayışında **eksikliği, olumsallığı ve çoğulluğu** kabul etmeyi öğrenmek gerekiyor. Yani: Tam bir harita olmayacak. Tutarlı ve kapalı bir sistem olmayacak. Her sorunun tek bir doğru yanıtı olmayacak.
+
+Bu, ilk bakışta karamsar görünür. Ama Geuss'un kendi tanımı farklı: **yanılsamasız ama umutla canlandırılmış** bir eleştirel kuram.
+
+Yayıncının vurguladığı ifade şu: Yazılar, felsefeyi gerçek insan mücadelesine yeniden bağlayacak bir yol açmayı hedefliyor.
+
+## Geuss'un yeri
+
+Geuss, çağdaş siyaset felsefesinde rahatsız edici bir konumda duruyor.
+
+Analitik siyaset felsefesi onu fazla tarihselci buluyor; kıta geleneği ise fazla analitik. İki tarafın da tam olarak sahiplenmediği bir yerde çalışıyor — ve bu, muhtemelen bilinçli bir tercih.
+
+*Philosophy and Real Politics* (2008) ile *Outside Ethics* (2005) en çok okunan kitapları. Sitemizde bu ay ele aldığımız [Axel Honneth](/haber/axel-honneth-taninma-ve-calisma) ve [Lea Ypi](/haber/lea-ypi-hannah-arendt-odulu-2026) dosyalarıyla birlikte okunduğunda, çağdaş siyaset felsefesindeki hat farkları belirginleşiyor: Honneth normatif yeniden inşayı, Ypi Kantçı evrenselciliği savunurken Geuss ikisine de mesafeli.
+
+## Künye
+
+- **Yazar:** Raymond Geuss
+- **Özgün adı:** *Tracks in Chaos: Philosophical Orientation and Political Reflection*
+- **Yayınevi:** Polity, 2026
+- **ISBN:** 9781509573431
+
+Geuss'un *Kamu Felsefesi ve Gerçek Siyaset* Türkçede bulunuyor. *Tracks in Chaos* için henüz çeviri duyurusu yapılmadı.`,
+  },
+  {
+    title: "Lebowitz Ödülü belleğe gitti: De Brigard ve Robins karşı karşıya gelecek",
+    slug: "lebowitz-odulu-2026-bellek",
+    summary:
+      "Amerikan Felsefe Derneği'nin ödülü, kazananları bir konuda anlaştıkları için değil, anlaşmadıkları için seçiyor. Bu yılın kazananları Felipe De Brigard ve Sarah Robins — ikisi de bellek felsefecisi, ikisi de belleğin ne olduğu konusunda farklı düşünüyor.",
+    seoTitle: "2026 Lebowitz Ödülü: Felipe De Brigard ve Sarah Robins",
+    metaDescription:
+      "APA ve Phi Beta Kappa'nın Lebowitz Ödülü 2026'da bellek felsefecileri Felipe De Brigard ve Sarah Robins'e verildi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Researchers_in_laboratory.jpg?width=1600",
+    imageCredit: "Araştırma laboratuvarı · ABD Ulusal Sağlık Enstitüleri · Wikimedia Commons",
+    featured: false,
+    sourceName: "Daily Nous · American Philosophical Association",
+    sourceUrl: "https://dailynous.com/2026/08/26/de-brigard-and-robins-win-2026-lebowitz-prize/",
+    publishedAt: "2026-08-30T15:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "zihin-felsefesi", "bilinc", "epistemoloji", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "De Brigard and Robins Win 2026 Lebowitz Prize",
+        publisher: "Daily Nous",
+        date: "26 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/26/de-brigard-and-robins-win-2026-lebowitz-prize/",
+        primary: true,
+      },
+      {
+        title: "Dr. Martin R. Lebowitz and Eve Lewellis Lebowitz Prize",
+        publisher: "American Philosophical Association",
+        url: "https://www.apaonline.org/page/lebowitz",
+      },
+      {
+        title: "Phi Beta Kappa — Lebowitz Prize",
+        publisher: "Phi Beta Kappa Society",
+        url: "https://www.pbk.org/awards/lebowitz",
+      },
+    ],
+    content: `Felsefe ödüllerinin çoğu bir kişiye verilir. **Lebowitz Ödülü** iki kişiye verilir — ve seçim ölçütü alışılmadıktır: Kazananlar, güncel bir konuda **karşıt görüşler** savunan iki filozof olmalıdır.
+
+Ödülü kazananlar bir APA bölge toplantısında düzenlenen Lebowitz sempozyumunda görüşlerini sunar ve karşılıklı tartışır. Ödül, Amerikan Felsefe Derneği (APA) ile Phi Beta Kappa Derneği tarafından ortaklaşa veriliyor.
+
+Bu yılın kazananları ağustos sonunda açıklandı: **Felipe De Brigard** (Duke Üniversitesi, Felsefe ve Psikoloji-Sinirbilim profesörü) ve **Sarah Robins** (Purdue Üniversitesi, Felsefe profesörü).
+
+İkisinin de alanı aynı: **bellek felsefesi**.
+
+## Neden bellek?
+
+Bellek, uzun süre felsefenin ikinci sıra konularından biriydi. Son yirmi yılda merkeze taşındı — ve nedeni sinirbilimdeki bulgular.
+
+Klasik anlayış belleği bir **depo** olarak düşünür: Yaşadığımız olay kaydedilir, saklanır, gerektiğinde geri çağrılır. Hatırlamak, kaydı okumaktır.
+
+Deneysel çalışmalar bu modeli sarstı. Hatırlama edilgen bir okuma değil, **etkin bir yeniden kurma** süreci gibi görünüyor. Her hatırlayışta anı yeniden inşa ediliyor ve bu inşa, mevcut durumdan, beklentilerden ve sonradan edinilen bilgilerden etkileniyor.
+
+Buradan felsefi bir soru doğuyor ve tartışmanın ekseni bu: **Hatırlamak ile hayal etmek arasında türsel bir fark var mı?**
+
+## İki konum
+
+De Brigard'ın çalışmaları, hatırlama ile geleceği tasarlamanın aynı sinirsel sistemi kullandığını gösteren bulgulardan hareket ediyor. Bu okumada bellek, geçmişi doğru aktarmak için değil, **olası durumları simüle etmek** için evrimleşmiş bir yeti. Geçmişi hatırlamak, "başka türlü ne olabilirdi?" sorusuyla aynı makineyi çalıştırıyor.
+
+Bu görüş, belleğin doğruluğunu ikincil kılar. Bellek yanılıyorsa bu bir arıza değil, sistemin tasarımının sonucudur.
+
+Robins ise belleğin **ayırt edici bir yeti** olduğunu savunan hattın önde gelen isimlerinden. Ona göre hatırlama ile hayal etme arasındaki farkı silmek, kavramın kendisini yok eder. Bir anının bir olaya **nedensel bir bağla** bağlı olması — o olayın izini taşıması — hatırlamayı hayalden ayıran şeydir.
+
+Robins'in bellek biliminin felsefedeki rolü üzerine çalışmaları, iki alan arasındaki alışverişin nasıl kurulması gerektiğine dair de bir yöntem tartışması yürütüyor.
+
+## Neden bu tartışma önemli?
+
+Konu teknik görünüyor ama sonuçları geniş.
+
+**Hukuk.** Tanık ifadesinin güvenilirliği, belleğin ne tür bir yeti olduğuna bağlı. Hatırlama yeniden kurmaysa, "gördüm" demek ne kadar ağırlık taşır?
+
+**Kişisel kimlik.** Locke'tan bu yana kişisel özdeşliğin belleğe dayandırılması yaygın bir konum. Bu köşede dün andığımız [Locke'un](/haber/felsefe-tarihinde-bugun-29-agustos-locke) ölçütü buydu. Ama bellek sürekli yeniden inşa ediliyorsa, kimliğin dayandığı zemin de kaygan hâle gelir.
+
+**Yapay zekâ.** Dil modellerinin "bellek" denen özelliği, insan belleğine ne kadar benzer? Sitemizde bu ay ele aldığımız [Derrida'nın arşiv ve iz kavramları](/haber/derrida-yapay-zeka-arsiv-iz-sorumluluk) tam bu soruya değiniyordu: Kaydetmek, hatırlamak mıdır?
+
+## Ödülün fikri
+
+Lebowitz Ödülü'nün asıl ilginç yanı belki de yapısı.
+
+Felsefede ödüller genellikle bir konumu ödüllendirir. Lebowitz **anlaşmazlığı** ödüllendiriyor: İki iyi filozofun, aynı konuda farklı sonuçlara varabilmesini alanın sağlığının işareti sayıyor.
+
+Bu, sitemizde bu ay tanıttığımız [Krista Lawlor'ın *Being Reasonable*](/haber/krista-lawlor-being-reasonable) kitabının tezini kurumsal biçimde uyguluyor: Makullük, karşı tarafı yenmek değil, onun değer haritasını okuyabilmektir.
+
+Sempozyumun hangi APA bölge toplantısında yapılacağı henüz duyurulmadı.`,
+  },
+  {
+    title: "Felsefe Venedik'te: Schrader'ın yeni filmi 4 Eylül'de gösterime giriyor",
+    slug: "schrader-basics-of-philosophy-venedik",
+    summary:
+      "Taxi Driver'ın senaristi Paul Schrader'ın yeni filmi 'The Basics of Philosophy', 83. Venedik Film Festivali'nde yarışma dışı gösterilecek. Yapımcılar arasında Martin Scorsese var. Başlık merak uyandırıyor: Bir gişe yönetmeni felsefeyi neden konu edinir?",
+    seoTitle: "Paul Schrader'ın 'The Basics of Philosophy' filmi Venedik'te",
+    metaDescription:
+      "Paul Schrader'ın The Basics of Philosophy filmi 4 Eylül 2026'da 83. Venedik Film Festivali'nde dünya prömiyerini yapacak.",
+    contentType: "ETKINLIK",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo_del_Cinema_%28Lido_di_Venezia%29_02.jpg?width=1600",
+    imageCredit: "Palazzo del Cinema, Lido di Venezia · Wikimedia Commons",
+    featured: false,
+    sourceName: "La Biennale di Venezia",
+    sourceUrl: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+    publishedAt: "2026-08-30T14:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["sinema", "konferans", "din-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The Basics of Philosophy — Biennale Cinema 2026",
+        publisher: "La Biennale di Venezia",
+        url: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+        primary: true,
+      },
+      {
+        title: "Martin Scorsese Joins Paul Schrader's Venice Drama 'The Basics Of Philosophy' As EP",
+        publisher: "Deadline",
+        url: "https://deadline.com/2026/08/martin-scorsese-joins-paul-schrader-film-basics-philosophy-1237046163/",
+      },
+      {
+        title: "The Basics of Philosophy",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/The_Basics_of_Philosophy",
+      },
+    ],
+    content: `Bir film festivalini felsefe haberi yapan şey, filmin adı değildir. Yönetmenidir.
+
+**Paul Schrader**'ın yeni filmi **The Basics of Philosophy**, 83. Venedik Uluslararası Film Festivali'nde **4 Eylül 2026**'da yarışma dışı olarak dünya prömiyerini yapacak.
+
+Oyuncu kadrosunda Jack Huston, Sofia Boutella, Daniel Zovatto, Bill Pullman ve Dana Delany var. **Martin Scorsese** yapımcılar arasında yer alıyor.
+
+## Schrader neden felsefe haberi?
+
+Schrader'ın adı *Taxi Driver* ve *Raging Bull*'un senaristi olarak biliniyor. Ama entelektüel biyografisi başka bir yerden başlıyor.
+
+Katı bir Kalvinist ailede büyüdü; on yedi yaşına kadar sinemaya gitmesine izin verilmedi. Calvin College'da ilahiyat okudu, sonra UCLA'de sinema çalıştı.
+
+İlk kitabı 1972 tarihli **Transcendental Style in Film**: Ozu, Bresson ve Dreyer üzerine bir inceleme. Tezi şuydu: Bazı yönetmenler, aşkın olanı göstermek yerine **gösterilemez olanı** hissettirmek için biçimsel bir dil geliştirir — durağan kamera, boş plan, duygusal reddediş.
+
+Bu kitap sinema kuramında hâlâ okunuyor. Ve Schrader'ın kendi filmografisini açıklıyor.
+
+## "Odadaki adam"
+
+Schrader'ın son dönem filmleri bir örüntü izliyor ve eleştirmenler buna **"odadaki adam"** dizisi diyor: *First Reformed* (2017), *The Card Counter* (2021), *Master Gardener* (2022).
+
+Üçünün de yapısı aynı: Yalnız bir adam, bir odada, günlük tutar. Geçmişinde bir suç ya da suç ortaklığı vardır. Filmin sonuna doğru bir kefaret imkânıyla karşılaşır.
+
+Bu, Bresson'un *Bir Taşra Papazının Günlüğü*'nün açık bir yeniden yazımı. Ama Schrader her seferinde başka bir güncel meseleyi merkeze koyar: *First Reformed*'da iklim krizi ve dinî inancın çöküşü; *The Card Counter*'da Ebu Garib ve işkencenin sorumluluğu.
+
+Yeni filmin bu diziye eklenip eklenmeyeceği henüz belli değil.
+
+## Beklenti
+
+Başlık — "Felsefenin Temelleri" — ironik olabilir; Schrader'ın filmleri genellikle temel bulmakla değil, **temelin çöküşüyle** ilgilenir.
+
+Sitemizde bu hafta aktardığımız [Nolan'ın Odysseia uyarlaması tartışması](/haber/nolan-odysseia-lawson-vicdan-elestirisi) bir soruyu ortaya çıkarmıştı: Sinema, etik bir sorunu nasıl kurar? Nolan'a yöneltilen eleştiri, kahramana çağdaş bir vicdan takarak sorunu kolaylaştırdığıydı.
+
+Schrader'ın bütün filmografisi ters yönde çalışır: Kahraman vicdan azabı çeker, ama bu onu kurtarmaz.
+
+İki filmin aynı sonbaharda gösterime girmesi, sinema ile etik ilişkisi üzerine tartışmayı besleyecek gibi görünüyor.
+
+## Festival takvimi
+
+83. Venedik Film Festivali eylül ayında Lido'da yapılıyor. Film, Venice Open — yarışma dışı bölümünde gösterilecek.
+
+Türkiye'deki vizyon tarihi henüz açıklanmadı.`,
+  },
+  {
     title: "Türkiye'nin felsefe dergileri: düşüncenin sessiz arşivi genişliyor",
     slug: "turkiye-felsefe-dergileri-haritasi",
     summary:
@@ -10104,6 +11041,38 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Tracks in Chaos: Philosophical Orientation and Political Reflection",
+    slug: "tracks-in-chaos-geuss",
+    originalTitle: null,
+    publisher: "Polity",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781509573431",
+    coverImage: null,
+    description:
+      "Geuss'un siyaset felsefesinin ahlaklaştırılmasına yönelttiği itirazın son hâli. Siyasal gerçekçilik, evrenselcilik eleştirisi, dayanışma ve korkunun sansürdeki rolü üzerine yazılar.",
+    year: 2026,
+    link: "https://www.politybooks.com/bookdetail?book_slug=tracks-in-chaos-philosophical-orientation-and-political-reflection--9781509573431",
+    philosopherSlug: null,
+    postSlug: "raymond-geuss-tracks-in-chaos",
+  },
+  {
+    title: "Open Socrates: The Case for a Philosophical Life",
+    slug: "open-socrates-callard",
+    originalTitle: null,
+    publisher: "W. W. Norton",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781631498466",
+    coverImage: null,
+    description:
+      "Callard, Sokrates'in kuşkucu değil entelektüalist okunması gerektiğini savunuyor: En önemli soruları kendimize nasıl soracağımızı bilmiyoruz ve bunu tek başımıza öğrenemeyiz.",
+    year: 2025,
+    link: "https://www.amazon.com/Open-Socrates-Case-Philosophical-Life/dp/1631498460",
+    philosopherSlug: null,
+    postSlug: "agnes-callard-acik-sokrates",
+  },
+  {
     title: "Cumhuriyetin 100. Yılında Türkiye'de Felsefe, 2. Cilt",
     slug: "cumhuriyetin-100-yilinda-felsefe-2",
     originalTitle: null,
@@ -10450,6 +11419,32 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "83. Venedik Film Festivali — 'The Basics of Philosophy' dünya prömiyeri",
+    slug: "venedik-basics-of-philosophy-2026",
+    summary:
+      "Paul Schrader'ın yeni filmi 4 Eylül'de Lido'da yarışma dışı gösterilecek. Yapımcılar arasında Martin Scorsese var.",
+    description: `Paul Schrader'ın yönettiği The Basics of Philosophy, 83. Venedik Uluslararası Film Festivali'nin Venice Open — yarışma dışı bölümünde dünya prömiyerini yapıyor.
+
+Oyuncu kadrosunda Jack Huston, Sofia Boutella, Daniel Zovatto, Bill Pullman ve Dana Delany bulunuyor; Martin Scorsese yapımcılar arasında.
+
+Schrader, 1972 tarihli Transcendental Style in Film kitabının da yazarı; Ozu, Bresson ve Dreyer üzerine yazdığı bu inceleme sinema kuramında hâlâ okunuyor.`,
+    kind: "KONFERANS",
+    organizer: "La Biennale di Venezia",
+    speakers: "Paul Schrader, Jack Huston, Sofia Boutella, Bill Pullman, Dana Delany",
+    topic: "Sinema, etik ve aşkınlık",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-04T00:00:00.000Z",
+    hasTime: false,
+    city: "Venedik",
+    country: "İtalya",
+    venue: "Palazzo del Cinema, Lido di Venezia",
+    website: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+    sourceName: "La Biennale di Venezia",
+    sourceUrl: "https://www.labiennale.org/en/cinema/2026/venice-open-out-competition/basics-philosophy",
+    featured: true,
+    publishedAt: "2026-08-30T14:30:00.000Z",
+  },
   {
     title: "HowTheLightGetsIn Londra 2026",
     slug: "howthelightgetsin-londra-2026",
