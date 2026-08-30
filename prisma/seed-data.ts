@@ -1489,6 +1489,950 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Türkiye'nin felsefe dergileri: düşüncenin sessiz arşivi genişliyor",
+    slug: "turkiye-felsefe-dergileri-haritasi",
+    summary:
+      "Türkiye'de felsefi üretimi kitaplardan değil dergilerden okumak gerekiyor. İstanbul'dan Mersin'e, Bursa'dan Erzurum'a uzanan yirmiyi aşkın hakemli yayın, klasik felsefe tarihinden yapay zekâ etiğine genişleyen bir alanı kayda geçiriyor. Ama bu arşivin kendi sorunları da var.",
+    seoTitle: "Türkiye'de akademik felsefe dergileri haritası",
+    metaDescription:
+      "Felsefe Arkivi'nden Beytulhikme'ye, Kaygı'dan Nazariyat'a: Türkiye'de yayımlanan akademik felsefe dergileri, dizin sorunu ve açık erişim.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Orhan_Kemal_Public_Library%2C_Beyaz%C4%B1t%2C_%C4%B0stanbul_%2813080139193%29.jpg?width=1600",
+    imageCredit: "Orhan Kemal Halk Kütüphanesi, Beyazıt, İstanbul · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri derlemesi",
+    sourceUrl: null,
+    publishedAt: "2026-08-30T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "dergi", "acik-erisim", "islam-felsefesi", "mantik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Felsefe Arkivi",
+        publisher: "İstanbul Üniversitesi Yayınevi",
+        url: "https://iupress.istanbul.edu.tr/tr/journal/felsefearkivi/information/about",
+      },
+      {
+        title: "Felsefe Arkivi — DergiPark",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/iufad",
+      },
+      {
+        title: "Felsefe Dünyası",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/felsefedunyasi",
+      },
+      {
+        title: "Kaygı — Bursa Uludağ Üniversitesi Felsefe Dergisi",
+        publisher: "DergiPark",
+        url: "https://dergipark.org.tr/tr/pub/kaygi",
+      },
+      {
+        title: "Nazariyat — Kitap değerlendirmesi için notlar",
+        publisher: "Nazariyat",
+        url: "https://nazariyat.org/kvn/kdn",
+      },
+    ],
+    content: `Kitaplar düşüncenin **sonuçlarını** gösterir. Dergiler düşüncenin **nasıl üretildiğini** gösterir.
+
+Türkiye'de felsefenin gerçek durumunu görmek isteyen biri bu yüzden kitapçı rafına değil, hakemli dergilerin içindekiler sayfalarına bakmalı.
+
+Dışarıdan bakıldığında akademik felsefe dar bir çevrenin uğraşı gibi görünebilir. Süreli yayınlara bakıldığında ise başka bir manzara çıkıyor: İstanbul'dan Mersin'e, Bursa'dan Erzurum'a, Ankara'dan Kayseri'ye uzanan, yirmiyi aşkın düzenli yayın.
+
+Sitemizde bu hafta [akademik felsefenin dijital arşivini](/haber/turkiyede-akademik-felsefenin-dijital-arsivi) ele almıştık. Dergiler o arşivin daha eski ve daha kalıcı yarısı.
+
+## Birinci halka: doğrudan felsefe dergileri
+
+### Felsefe Arkivi — 1945'ten beri
+
+Haritanın en eski ve sembolik durağı **Felsefe Arkivi**.
+
+İstanbul Üniversitesi Felsefe Bölümü tarafından **1945'ten** bu yana çıkarılıyor; haziran ve aralık aylarında yılda iki sayı yayımlanıyor. Türkçe, İngilizce, Almanca ve Fransızca metin kabul ediyor. Bugün TR Dizin ve DOAJ'da taranıyor.
+
+Derginin değeri yalnızca uzun ömründen gelmiyor. Arşivi, Cumhuriyet döneminden itibaren Türkiye'de hangi düşünürlerin, hangi problemlerin ve hangi yöntemlerin tartışıldığını izlemeye imkân veren bir **birincil kaynak**.
+
+Türkiye'de akademik felsefenin kurumsal tarihini yazacak biri, Felsefe Arkivi'nin sayılarını makale koleksiyonu olarak değil, belge olarak okumak zorunda.
+
+### Felsefe Dünyası — ortak kürsü
+
+**Türk Felsefe Derneği**'nin yayın organı olan dergi, akademik çevreleri bir araya getiren en geniş kapsamlı yayınlardan.
+
+Ayırt edici yanı, kapsamını uzmanlık makaleleriyle sınırlamaması: çeviriler, yorumlar, kitap tanıtımları, eleştiriler ve felsefe eğitimi üzerine çalışmalar da yayın alanında.
+
+Bu, dergiyi akademik felsefe ile daha geniş felsefe kamuoyu arasında bir geçiş alanı hâline getiriyor. TR Dizin'in yanı sıra Philosopher's Index, PhilPapers, DOAJ ve ERIH PLUS'ta da taranıyor.
+
+### Anadolu'nun dergileri
+
+Türkiye'de felsefe araştırmasının İstanbul-Ankara ekseninde olmadığını gösteren yayınlar bu halkanın en dikkat çekici kısmı.
+
+**Kaygı** (Bursa Uludağ Üniversitesi), TR Dizin ve Philosopher's Index'te taranıyor. **Kilikya Felsefe Dergisi** (Mersin Üniversitesi) bilgi felsefesi, mantık tarihi, etik, metafizik ve hukuk felsefesi alanlarında yayın yapıyor; TR Dizin, Philosopher's Index ve ERIH PLUS'ta yer alıyor. **Temaşa** (Erciyes Üniversitesi) 2014'te başladı ve hızla görünürlük kazandı.
+
+Temaşa'nın yayın çizgisi, alanın genişlemesini iyi gösteriyor: Jean-Luc Nancy'nin politik ontolojisinden Platon'un *Euthyphron*'una, görelilik kuramında zaman-mekân sorunundan üretken yapay zekânın yükseköğretimdeki etik sınırlarına kadar uzanan bir yelpaze.
+
+Son başlık özellikle dikkat çekici. Yapay zekâ artık bilgisayar bilimlerinin konusu olmaktan çıkıp bilgi, sorumluluk, özgürlük ve özne gibi felsefi kategorilerin sınav alanı hâline geldi.
+
+**FLSF** (Felsefe ve Sosyal Bilimler Dergisi), 2006'da başladı ve felsefenin disiplinlerarası yönünü en açık ortaya koyan yayınlardan. Kant, Peirce, Hegel ve Augustinus'un yanında Žižek, Badiou ve Deleuze; popülizm, emek-değer ilişkisi ve dijital çağ gibi problemlerle birlikte ele alınıyor.
+
+### Uluslararasılaşma arayışı
+
+**Beytulhikme – An International Journal of Philosophy**, İngilizce literatürle Türkiye'deki araştırmacılar arasında köprü kurmayı hedefliyor; ESCI ve EBSCO'da taranıyor.
+
+**Sofist: Uluslararası Felsefe Dergisi** Türkçe ve İngilizce makaleye açık; 2026'da on ikinci sayısına ulaştı. **POSSEIBLE**, çağdaş kıta felsefesi ve siyaset felsefesi ekseninde yayın yapıyor.
+
+**Arkhe-Logos**, antik felsefe, Aristoteles araştırmaları, kıta felsefesi ve feminist felsefeyi aynı çatı altında topluyor — adının işaret ettiği *arkhē* ile *logos* arasındaki ilişkiyi çağdaş tartışmalarla buluşturan bir çizgi.
+
+**ViraVerita E-Dergi** ve **ETHOS: Felsefe ve Toplumsal Bilimlerde Diyaloglar**, üniversite dergileri ağının dışında da akademik felsefe yayıncılığının sürdürülebileceğini gösteriyor. **Dört Öge** ise felsefe ile bilim tarihinin kesişiminde duruyor.
+
+Listeye 2025'te başlayan **Anadolu Felsefe Dergisi** (Erzurum Teknik Üniversitesi) de eklendi; çift-kör hakemlik ve açık erişim ilkeleriyle çalışıyor.
+
+## İkinci halka: felsefe-bilim ve düşünce tarihi
+
+**Kutadgubilig: Felsefe Bilim Araştırmaları**, 2002'den beri TR Dizin'de. Dergâh Yayınları tarafından çıkarılması, üniversite dışında **yayınevi merkezli** akademik felsefe yayıncılığının da mümkün olduğunu gösteriyor.
+
+**Mavi Atlas** (Gümüşhane Üniversitesi) disiplinlerarası; tarih, sosyoloji ve edebiyatın yanında felsefe ve bilim tarihine de yer veriyor.
+
+**Nazariyat – İslam Felsefe ve Bilim Tarihi Araştırmaları Dergisi**, bu halkanın en güçlü ismi. İslam felsefesi, kelâm, nazarî tasavvuf ve bilim tarihini kapsıyor; TR Dizin, DOAJ ve ESCI'de taranıyor.
+
+## Üçüncü halka: din felsefesi, mantık, ilahiyat
+
+Türkiye'de akademik felsefeyi yalnızca felsefe bölümlerinin yayınları üzerinden değerlendirmek ciddi bir eksiklik yaratır. Çünkü Felsefe ve Din Bilimleri alanında çalışan akademisyenlerin önemli bir bölümü ilahiyat fakültelerinde.
+
+**Din ve Felsefe Araştırmaları** (Din Felsefesi Derneği), Tanrı, akıl, inanç, kötülük problemi, özgür irade ve dinsel epistemoloji gibi — çağdaş felsefenin de merkezindeki — sorunları işliyor.
+
+**Tabula Rasa: Felsefe ve Teoloji** iki alanın kesişimine odaklanıyor. **Mantık Araştırmaları Dergisi**, felsefenin en eski disiplinlerinden birine ayrı bir yayın alanı açıyor — mantık matematiksel formüllerden ibaret değil; geçerli çıkarım ve argüman kurma kuralları felsefenin kurucu problemlerinden. **Dergiabant** da İslam felsefesi ve Felsefe-Din Bilimleri alanında yayın yapıyor.
+
+## Yeni bir arayış: Anadolu Nazariyatı
+
+2025'te yayın hayatına başlayan **Anadolu Nazariyatı Dergisi** ayrı bir yerde duruyor.
+
+Kendisini yalnızca felsefe dergisi olarak değil, Anadolu düşünce dünyasının temel kavramlarını yeniden ele almaya çalışan dijital ve hakemli bir düşünce dergisi olarak tanımlıyor. Yayın alanı felsefeden irfana, teolojiden metafiziğe, tasavvuftan dile uzanıyor.
+
+İlk sayısı Haziran 2025'te çıktı; Nicolaus Cusanus, [Yalçın Koç](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) ve "Anadolu Mayası" ekseninde çalışmalar içeriyor.
+
+Dergi, Türkiye'de son dönemde belirginleşen bir tartışmaya doğrudan müdahil oluyor: **Kendi kavramlarımızdan hareketle özgün bir felsefi dil kurulabilir mi?**
+
+## Kaç dergi var? Yanlış soru
+
+"Türkiye'de kaç felsefe dergisi var?" sorusuna tek bir rakam vermek yanıltıcı olur. Çünkü "felsefe dergisi" kavramının sınırları tartışmalı.
+
+Adı ve temel yayın politikası doğrudan felsefe olan dergiler ile felsefe alanında yayın yapan dergilerin tamamı aynı şey değil. Bir akademik envanter hazırlarken bu ayrım belirleyici.
+
+## İki sorun
+
+### Dizin, felsefi değerin ölçüsü müdür?
+
+TR Dizin, Philosopher's Index, PhilPapers, ERIH PLUS, DOAJ, EBSCO ve ESCI bugün akademik görünürlüğü belirleyen mekanizmalar. Bir derginin bu indekslerde bulunması kuşkusuz önemli.
+
+Ama burada felsefe açısından hassas bir problem var: **Felsefi değerin ölçüsü indeks değildir.**
+
+İyi bir felsefe makalesinin değerini kaç atıf aldığı ya da akademik puan sisteminde kaç puan getirdiği belirleyemez. Felsefenin doğası gereği bazı metinlerin etkisi yıllar sonra ortaya çıkar. Spinoza'nın *Etika*'sı ölümünden sonra yayımlandı ve yüz yıl boyunca neredeyse yalnızca reddedilmek için okundu.
+
+Türkiye'de akademik felsefe yayıncılığının önündeki temel sorunlardan biri, **akademik ölçüm ile entelektüel değer arasındaki dengeyi** kurabilmek.
+
+### Yapay zekâ kapıyı çaldı
+
+2026 itibarıyla ikinci sorun daha yeni. Üretken yapay zekâ artık yalnızca felsefenin konusu değil; makale yazımı, kaynak taraması, çeviri, özetleme ve hatta hakemlik süreçleri üzerinde etkili.
+
+Sitemizde bu ay aktardığımız gibi, *Philosophy & Public Affairs* dergisi bilerek yapay zekâ tarafından yazılmış bir makale yayımladı ve iki hafta sonra [yapay zekâ yazarlığını yasakladı](/haber/philosophy-public-affairs-yapay-zeka-yasagi).
+
+Türkiye'deki dergiler de aynı sorularla karşılaşacak: Bir metnin yazarı kimdir? Yapay zekâ yardımıyla yazılan makale hangi ölçüde özgündür? Yanlış bir kaynaktan araştırmacı mı sorumludur?
+
+Bu sorular teknik değil; akademik yazarlık kavramının kendisine dair.
+
+## Açık erişim ne değiştirdi?
+
+Türkiye'deki felsefe dergilerinin büyük bölümünün **DergiPark** altyapısına geçmesi önemli bir kazanım.
+
+Bugün Türkiye'de yayımlanan çok sayıda felsefe makalesine dünyanın herhangi bir yerinden ücretsiz erişilebiliyor. Bir öğrenci, bağımsız araştırmacı ya da meraklı bir okur, önceden ulaşılması güç metinlere dakikalar içinde ulaşabiliyor.
+
+Bu, akademik felsefenin üniversite kütüphanesi raflarında kalan bir bilgi alanı olmaktan çıkmasına yardım ediyor.
+
+## Asıl soru
+
+Bugünkü manzara iki eğilimi aynı anda gösteriyor.
+
+Bir tarafta Platon, Aristoteles, Kant, Hegel, Nietzsche, Husserl, Heidegger, Wittgenstein ve Marx üzerine güçlü bir felsefe tarihi geleneği sürüyor. Diğer tarafta Žižek, Badiou, Deleuze, Nancy, Kripke ve Putnam üzerinden çağdaş tartışmalar Türkiye akademisine taşınıyor. Buna yapay zekâ, teknoloji, toplumsal cinsiyet, hukuk ve çevre gibi yeni problem alanları ekleniyor.
+
+Ama bütün bu hareketliliğin karşısında daha temel bir soru duruyor:
+
+**Türkiye'deki akademik felsefe ne kadar kendi sorularını üretiyor?**
+
+Batı literatürünü Türkçeye kazandırmak ve yorumlamak vazgeçilmez bir görev. Bundan sonraki aşama, Türkiye'de üretilen özgün düşüncenin uluslararası literatüre taşınması.
+
+Yani mesele artık yalnızca "Dünyada felsefe alanında ne konuşuluyor?" olmamalı. Bir de şu sorulmalı: **Türkiye'nin filozofları dünya felsefesine ne söylüyor?**
+
+---
+
+### Türkiye'de felsefe alanında yayın yapan dergiler
+
+**Doğrudan felsefe dergileri**
+
+Felsefe Arkivi · Felsefe Dünyası · FLSF · Kaygı · Kilikya Felsefe Dergisi · Temaşa · Beytulhikme · Sofist · POSSEIBLE · Arkhe-Logos · ViraVerita · ETHOS · Dört Öge · Anadolu Felsefe Dergisi
+
+**Felsefe-bilim ve düşünce tarihi**
+
+Kutadgubilig · Mavi Atlas · Nazariyat · Anadolu Nazariyatı
+
+**Din felsefesi, İslam felsefesi ve mantık**
+
+Din ve Felsefe Araştırmaları · Tabula Rasa · Mantık Araştırmaları Dergisi · Dergiabant
+
+*Liste kapsayıcı değildir. Eksik gördüğünüz yayınları iletişim sayfamızdan bildirebilirsiniz.*`,
+  },
+  {
+    title: "Bir bilanço denemesi: 'Cumhuriyetin 100. Yılında Türkiye'de Felsefe'",
+    slug: "cumhuriyetin-100-yilinda-turkiyede-felsefe",
+    summary:
+      "Betül Çotuksöken ve İoanna Kuçuradi'nin editörlüğünde hazırlanan iki ciltlik çalışma, yüz yıllık bir dönemin felsefi bilançosunu çıkarmayı deniyor. Türkiye Felsefe Kurumu Yayınları'ndan çıkan ikinci cilt 400 sayfa.",
+    seoTitle: "Cumhuriyetin 100. Yılında Türkiye'de Felsefe — iki ciltlik bilanço",
+    metaDescription:
+      "Betül Çotuksöken ve İoanna Kuçuradi editörlüğünde hazırlanan iki ciltlik çalışma, Cumhuriyet döneminde Türkiye'de felsefenin gelişimini ele alıyor.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Atat%C3%BCrk_K%C3%BClt%C3%BCr_Merkezi%2C_%C4%B0stanbul_%2812964525324%29.jpg?width=1600",
+    imageCredit: "Atatürk Kültür Merkezi, İstanbul · Wikimedia Commons",
+    featured: false,
+    sourceName: "Türkiye Felsefe Kurumu Yayınları",
+    sourceUrl: "https://www.kitapyurdu.com/kitap/cumhuriyetin-100-yilinda-turkiyede-felsefe-2-cilt/719881.html",
+    publishedAt: "2026-08-30T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "akademi", "tarih", "etik", "kavram"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      {
+        title: "Cumhuriyetin 100. Yılında Türkiye'de Felsefe, 2. Cilt",
+        publisher: "Türkiye Felsefe Kurumu Yayınları",
+        date: "15 Mayıs 2025 · 400 sayfa",
+        url: "https://www.kitapyurdu.com/kitap/cumhuriyetin-100-yilinda-turkiyede-felsefe-2-cilt/719881.html",
+        primary: true,
+      },
+      {
+        title: "Türkiye Felsefe Kurumu Yayınları",
+        publisher: "Kitapyurdu",
+        url: "https://www.kitapyurdu.com/yayinevi/turkiye-felsefe-kurumu-yayinlari/375.html",
+      },
+    ],
+    content: `Bir ülkenin felsefe tarihini yazmak, o ülkenin kendisi hakkındaki en zor kararlarından biridir. Neyi dahil edeceğine karar vermek, ne saydığına karar vermektir.
+
+**Cumhuriyetin 100. Yılında Türkiye'de Felsefe**, bu kararı vermeyi deneyen iki ciltlik bir çalışma. Türkiye Felsefe Kurumu Yayınları'ndan çıkan ikinci cilt 400 sayfa; editörlüğünü **Betül Çotuksöken** ve **İoanna Kuçuradi** üstlenmiş.
+
+İki ismin bir arada olması kendi başına anlamlı. Kuçuradi Hacettepe'de felsefe bölümünü kuran, FISP'in ilk kadın başkanı olan ve UNESCO Felsefe ve İnsan Hakları Kürsüsü'nü yürüten isim; Çotuksöken ise Türkiye'de felsefe eğitimi ve ortaçağ felsefesi çalışmalarının başlıca temsilcilerinden. İkisi de anlattıkları dönemin bir parçası.
+
+## Neden bir bilanço gerekli?
+
+Cumhuriyet'in ilk yüzyılı, felsefe açısından sıradan bir yüzyıl değildi.
+
+Bir imparatorluğun medrese geleneğinden modern üniversiteye geçildi. 1933 Üniversite Reformu'yla Almanya'dan kaçan felsefeciler İstanbul'a geldi ve Türkiye'de akademik felsefenin yönünü belirledi — Ernst von Aster, Hans Reichenbach, Joachim Ritter. Yeni bir felsefe terminolojisi kuruldu; bu köşede dün andığımız [Bedia Akarsu'nun](/haber/bedia-akarsu-felsefenin-dili) *Felsefe Terimleri Sözlüğü* o çabanın belgesi.
+
+Yüz yıl sonra sorulması gereken soru şu: Bu kurumsallaşmadan ne çıktı?
+
+## Çalışmanın konumu
+
+Bu tür derleme ciltlerinin iki riski vardır. Birincisi kutlama metnine dönüşmek; ikincisi katalog olmak — isimler, tarihler, kürsüler.
+
+Çalışmanın anlamlı olması, üçüncü bir şeyi yapabilmesine bağlı: **Değerlendirme.** Hangi alanlarda gerçek birikim oluştu, hangilerinde oluşmadı? Türkiye'de hangi felsefi problemler kendi sorularımız hâline geldi, hangileri aktarma olarak kaldı?
+
+Bu soru, sitemizde bu hafta ele aldığımız iki dosyayla doğrudan bağlantılı: [Hilmi Ziya Ülken'in](/haber/hilmi-ziya-ulken-sorulari) "Türkiye neden süreklilik taşıyan bir düşünce geleneği kuramadı?" sorusu ve bugün yayımladığımız [dergi haritası](/haber/turkiye-felsefe-dergileri-haritasi). Üçü aynı meseleyi farklı yerlerden kuşatıyor.
+
+## Yayınevi hakkında bir not
+
+Türkiye Felsefe Kurumu Yayınları'nın kataloğu kendi başına okunmaya değer.
+
+Kant'ın *Pratik Aklın Eleştirisi* ve *Prolegomena*'sı, Kuçuradi'nin *Etik*, *Nietzsche ve İnsan* ve *Schopenhauer ve İnsan* kitapları, Harun Tepe'nin *Etik ve Metaetik*'i, Gülriz Uygur'un *Hukukta Adaletsizliği Görmek*'i, Adnan Güriz'in *Adalet Kavramı*, ve "Anadolu'da Felsefeye Yolculuk" dizisinden Miletli filozoflar, Sinoplu Diogenes, Urlalı Anaksagoras ve Hierapolisli Epiktetos üzerine ciltler.
+
+Bu son dizi özellikle dikkat çekici. Antik felsefenin coğrafi olarak büyük bölümünün bugünkü Türkiye topraklarında geçtiğini hatırlatan bir program — ve bunu turistik bir vurgu olarak değil, felsefe tarihi araştırması olarak yapıyor.
+
+## Künye
+
+- **Editörler:** Betül Çotuksöken, İoanna Kuçuradi
+- **Yayınevi:** Türkiye Felsefe Kurumu Yayınları
+- **2. Cilt:** 15 Mayıs 2025 · 400 sayfa
+- **Dil:** Türkçe
+
+---
+
+*Not: Türkiye'de 2026'da yayımlanmış iddialı bir akademik felsefe telif eseri arayışımız sürüyor. Yayınevleri ve yazarlar, yeni çıkan çalışmaları iletişim sayfamızdan bize iletebilir; düzenli olarak tanıtacağız.*`,
+  },
+  {
+    title: "Michel Onfray ve felsefenin kavgacı hâli: kürsüden meydana",
+    slug: "michel-onfray-kamusal-felsefe",
+    summary:
+      "Hedonizmden ateizme, Nietzsche okumalarından siyaset polemiğine uzanan yüzü aşkın kitap. Onfray, Batı düşüncesinin tarihini yeniden yazmayı hedefleyen dört ciltlik yeni bir diziye başladı. Onu tartışmalı kılan görüşleri kadar, felsefeyi nerede yaptığı da.",
+    seoTitle: "Michel Onfray: hedonizm, ateoloji ve felsefenin karşı-tarihi",
+    metaDescription:
+      "Michel Onfray'nin hedonizmi, Traité d'athéologie, Felsefenin Karşı-Tarihi dizisi, Caen Halk Üniversitesi ve yeni dört ciltlik Batı düşüncesi projesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Michel_Onfray.jpg?width=1600",
+    imageCredit: "Michel Onfray · Wikimedia Commons",
+    featured: true,
+    sourceName: "Éditions Albin Michel",
+    sourceUrl: "https://www.albin-michel.fr/deambulation-dans-les-ruines-9782226496997",
+    publishedAt: "2026-08-30T03:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "din-felsefesi", "siyaset-felsefesi", "medya", "nietzsche"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Déambulation dans les ruines — Une histoire philosophique de l'Occident",
+        publisher: "Éditions Albin Michel",
+        url: "https://www.albin-michel.fr/deambulation-dans-les-ruines-9782226496997",
+        primary: true,
+      },
+      {
+        title: "Michel Onfray — Histoire philosophique de l'Occident",
+        publisher: "Librairie Mollat",
+        url: "https://www.mollat.com/videos/michel-onfray-histoire-philosophique-de-l-occident-deambulation-dans-les-ruines",
+      },
+    ],
+    content: `Michel Onfray'yi tek bir etiketle tanımlamak mümkün değil — ve bu, kırk yıllık bir tercihin sonucu.
+
+"Ateist filozof", "hedonist düşünür", "Nietzscheci", "sol eleştirmeni". Her biri doğru, hiçbiri yeterli.
+
+Onu ayıran şey görüşlerinden çok **nerede** felsefe yaptığı. Onfray, felsefeyi üniversite kürsülerinin, hakemli dergilerin ve uzmanlar arası tartışmanın konusu olmaktan çıkarmaya çalışıyor. Bu yüzden onu anlamak için yalnızca kitaplarına değil, kurduğu kurumlara ve medya girişimlerine de bakmak gerekiyor.
+
+Yayınevi kayıtlarına göre yüzün üzerinde kitabın yazarı; eserleri çok sayıda dile çevrildi.
+
+## Caen: diplomasız üniversite
+
+2002'de **Caen Halk Üniversitesi**'ni kurdu.
+
+Fikir basitti ve doğrudan bir itiraz taşıyordu: Akademik diploma gerektirmeyen, seçme sınavı olmayan, ücretsiz bir felsefe ve beşerî bilimler programı. Kimin girip kimin giremeyeceğine üniversite değil, ilgi karar veriyor.
+
+Bu, sitemizde dün ele aldığımız [Alain de Botton'ın The School of Life](/haber/alain-de-botton-gundelik-felsefe) girişimiyle aynı soruya verilmiş farklı bir yanıt: Felsefe kime aittir?
+
+De Botton'ın yanıtı terapötik; Onfray'ninki militan.
+
+## Hedonizm: hazcılıktan fazlası
+
+Onfray'nin erken dönem çalışmalarındaki hedonizm, sıradan anlamıyla "hazcılık"tan daha geniş bir iddia taşıyor.
+
+Mesele yalnızca haz almak değil; insanın bedenini, arzularını, ilişkilerini ve ölüm gerçeğini inkâr etmeyen bir **yaşam etiği** kurabilmesi.
+
+1993 tarihli *La Sculpture de soi* — "Kendini Yontmak" — bu projenin merkezî metni. Onfray burada insanın hazır ahlaki ve toplumsal kalıplara teslim olmak yerine kendini bir sanat eseri gibi biçimlendirebileceğini savunuyor.
+
+Arkasında Nietzsche'nin güçlü etkisi var. Ama Onfray'nin Nietzsche okuması akademik yorum üretmeye değil, felsefeyi doğrudan yaşama pratiğine çevirmeye yöneliyor.
+
+Sorusu basit ama ağır: **İnsan kendi hayatının yazarı olabilir mi?**
+
+## Ateoloji
+
+Uluslararası ölçekte en çok ses getiren kitabı 2005 tarihli *Traité d'athéologie* oldu.
+
+Onfray burada ateizmi "Tanrı'ya inanmamak" biçiminde olumsuz bir konum olarak değil, dinlerin insan, ahlak, beden ve siyaset üzerindeki etkilerini sorgulayan kapsamlı bir proje olarak ele aldı.
+
+Temelinde şu düşünce var: İnsan yaşamını aşkın bir otoriteye teslim etmeden anlamlandırabilir.
+
+Ama yönteminin tartışmalı yanı da burada. Din eleştirisindeki polemik üslup, akademik tarafsızlıktan çok entelektüel mücadeleyi andırıyor. Onfray bir yandan laik ve ateist düşüncenin popülerleşmesine katkı sağlarken, öte yandan tarihsel ve felsefi yorumları akademisyenlerce sert biçimde eleştirildi.
+
+Bu, bütün kariyerinde görülen bir özelliğin örneği: **Onfray felsefeyi yorumlamak istemez, onunla kavga etmek ister.**
+
+## Karşı-tarih
+
+En büyük projelerinden biri *Contre-histoire de la philosophie* — Felsefenin Karşı-Tarihi — dizisi.
+
+Çalışma klasik felsefe tarihinin kanonunu sorguluyor. Geleneksel anlatı Platon, Aristoteles, Descartes, Kant ve Hegel'i merkeze alırken Onfray materyalist, ateist, hedonist ve özgürlükçü düşünürleri görünür kılmaya çalışıyor: Epikuros, Lucretius, Gassendi, La Mettrie, Kirenaikliler.
+
+Temel iddia şu: **Felsefe tarihi, kazananların ve kurumsallaşmış düşüncelerin tarihi değildir.**
+
+Bu iddianın kendisi tartışmalı ama sorduğu soru meşru: Bir kanon nasıl oluşur ve kim dışarıda kalır?
+
+## Freud tartışması
+
+Kariyerindeki en büyük polemiklerden biri *Le Crépuscule d'une idole* — "Bir Putun Alacakaranlığı" — ile yaşandı.
+
+Onfray, Freud'un biyografisini, psikanalitik kuramını ve bilimsel iddialarını sert biçimde eleştirdi. Fransa'da büyük tartışma yarattı.
+
+Freud savunucuları onu tarihsel bağlamı dikkate almamakla ve psikanalizi indirgemeci biçimde değerlendirmekle suçladı. Onfray ise psikanalizin entelektüel bir dogmaya dönüştüğünü savundu.
+
+Tartışma yalnızca Freud hakkında değildi. Asıl mesele, bir düşünürün kültürel otoritesi karşısında felsefenin ne kadar eleştirel olabileceğiydi.
+
+## Sol ile hesaplaşma
+
+Onfray uzun süre kendisini sol gelenek içinde konumlandırdı. Zamanla 1968 sonrası sola, Marksizme, Avrupa Birliği projesine ve Fransız siyasetinin çeşitli unsurlarına yönelik eleştirileri sertleşti.
+
+Bu dönüşüm siyasi konumlandırılmasını zorlaştırdı. Kendisini sağ ya da aşırı sağ kategorileriyle tanımlamayı reddederken; göç, İslam, Avrupa Birliği ve ulusal egemenlik başlıklarındaki görüşleri nedeniyle Fransa'da sağa yaklaşmakla suçlandı.
+
+Onu "sağa kayan eski solcu" diye tanımlamak da, tamamen geleneksel sol içinde değerlendirmek de yetersiz kalıyor. Asıl özelliği, yerleşik siyasi kategorileri sürekli tartışmaya açması.
+
+2020'de kurduğu ve yayın yönetmenliğini üstlendiği *Front populaire* dergisi de bu konumun kurumsal ifadesi.
+
+## Kendi kamusal alanını kurmak
+
+Son dönemin en önemli gelişmesi, Onfray'nin kendi medya ekosistemini kurması.
+
+Kendi internet sitesi ve web televizyonu üzerinden konferanslar, güncel değerlendirmeler ve arşiv içerikleri yayımlıyor; platform düzenli olarak güncelleniyor. Europe 1'de *Face à Michel Onfray* programıyla dinleyici karşısına çıkıyor.
+
+Bu, çağdaş entelektüelin dönüşümü açısından kayda değer.
+
+Yirminci yüzyılın filozofu üniversite, yayınevi, gazete ve televizyon gibi kurumsal aracılara bağımlıydı. Onfray, yirmi birinci yüzyılın filozofunun **kendi aracını kurabileceğini** gösteren örneklerden biri.
+
+Kazanç açık: aracısızlık. Bedeli de açık: dış denetimin ortadan kalkması.
+
+## Yeni proje: dört ciltte Batı düşüncesi
+
+Onfray'nin bugün yürüttüğü en iddialı çalışma, Batı'nın felsefi tarihini yeniden yazma girişimi.
+
+**Déambulation dans les ruines** — "Harabelerde Gezinti" — Albin Michel tarafından yayımlanan **Histoire philosophique de l'Occident** dizisinin ilk cildi. Dizi dört bağımsız ciltten oluşacak.
+
+Projenin çerçevesi Onfray'nin yönteminin özeti gibi: Batı uygarlığının tarihini **fikirler savaşı** üzerinden okumak.
+
+Antikçağdan itibaren dünya görüşleri radikal karşıtlıklarla yapılanmış: Platoncu idealizme karşı Demokritos'un materyalizmi, Pythagorasçı evliliğe karşı Kinik özgürlük, Sokrates'in felsefi yaşamına karşı sofistlerin paralı retoriği, Stoacı erdeme karşı Aristippos'un hazcılığı.
+
+İlk cilt "Anticilerin bilgeliği" alt başlığını taşıyor ve felsefi bir yaşamın ne olabileceğini ilk kez tanımlamaya çalışan düşünürler arasında bir gezinti sunuyor.
+
+Hedef artık tek tek filozoflar değil: **Batı'nın kendisini nasıl düşündüğünü yeniden anlatmak.**
+
+## Filozof mu, polemikçi mi?
+
+Onfray hakkında verilecek en kolay hüküm "çok tartışmalı" olduğudur. Ama bu hüküm meselenin özünü ıskalar.
+
+Onfray'nin felsefesi zaten tartışma üretmek üzerine kurulu. Nietzsche'den aldığı soykütüksel bakışı, ateizm savunusunu, hedonizmi, kurum eleştirisini ve siyasi polemiği bir araya getirerek felsefeyi sakin bir uzmanlık alanı olmaktan çıkarmaya çalışıyor.
+
+Sevenler için felsefeyi halka geri veren özgürlükçü bir düşünür. Eleştirenler için aşırı genelleme yapan, tarihsel ve bilimsel meseleleri polemik uğruna basitleştiren bir entelektüel.
+
+Muhtemelen ikisinde de gerçeklik payı var.
+
+Ama felsefe tarihinin öğrettiği daha önemli bir şey var: **Bir düşünürün etkisi yalnızca ne kadar doğru bulunduğuyla değil, hangi soruları gündeme soktuğuyla da ölçülür.**
+
+Onfray'nin kalıcı mirası belki de burada. Fransız felsefesinin en eski sorularından birini yeniden açtı:
+
+Felsefe yalnızca üniversitede öğretilen bir disiplin mi, yoksa insanın kendi hayatını kurma sanatı mı?
+
+Kırk yıllık bütün serüveni, ikinci cevabı savunma girişimi olarak okunabilir.
+
+## Türkçede
+
+*Bir Hedonist Manifesto*, *Ateoloji Üzerine Bir İnceleme*, *Yaratmaya Var mısınız?* ve *Filozofun Damak Tadı* Türkçeye çevrildi.`,
+  },
+  {
+    title: "Camus'nün arşivi Fransa'ya geçti: 9 milyon euroluk bir edebiyat kararı",
+    slug: "camus-arsivi-bnf-2026",
+    summary:
+      "Fransa Millî Kütüphanesi, Camus arşivini 9 milyon euroya satın aldı — devletin edebî miras alanındaki en büyük edinimi. Koleksiyonda Yabancı'nın bilinen tek çalışma nüshası ve ölüm kazasındaki arabada bulunan İlk Adam müsveddesi var.",
+    seoTitle: "Camus arşivi BnF'ye geçti: 9 milyon euro",
+    metaDescription:
+      "Albert Camus arşivi Fransa Millî Kütüphanesi'ne geçti. Yabancı'nın el yazması, İlk Adam müsveddesi, günlükler ve Direniş dönemi sahte kimlik belgesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Camus.jpg?width=1600",
+    imageCredit: "Albert Camus · Wikimedia Commons",
+    featured: true,
+    sourceName: "Bibliothèque nationale de France",
+    sourceUrl: "https://www.bnf.fr/fr/actualites/entree-du-fonds-albert-camus-dans-les-collections-de-la-bibliotheque-nationale-de-france",
+    publishedAt: "2026-08-30T03:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["arkeoloji", "tarih", "etik", "siyaset-felsefesi", "postkolonyalizm"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Entrée du fonds Albert Camus dans les collections de la Bibliothèque nationale de France",
+        publisher: "BnF",
+        url: "https://www.bnf.fr/fr/actualites/entree-du-fonds-albert-camus-dans-les-collections-de-la-bibliotheque-nationale-de-france",
+        primary: true,
+      },
+      {
+        title: "Que contient le Fonds Albert Camus, acquis par la BnF ?",
+        publisher: "ActuaLitté",
+        url: "https://actualitte.com/article/132459/archives/que-contient-le-fonds-albert-camus-acquis-par-la-bnf",
+      },
+      {
+        title: "Le manuscrit de 'L'Étranger' d'Albert Camus entre à la Bibliothèque nationale de France",
+        publisher: "franceinfo",
+        url: "https://www.franceinfo.fr/culture/livres/le-manuscrit-de-l-etranger-d-albert-camus-entre-a-la-bibliotheque-nationale-de-france_8090057.html",
+      },
+    ],
+    content: `Bir yazarın arşivi, yayımlanmış eserlerinin söylemediğini söyler: metnin nasıl kurulduğunu.
+
+Temmuz başında Fransa, **Albert Camus arşivini** 9 milyon euro karşılığında satın aldı ve Fransa Millî Kütüphanesi'nin (BnF) koleksiyonlarına kattı. Bu, Fransız devletinin **edebî miras alanında bugüne kadar yaptığı en büyük ediniyor**.
+
+Rakamdan daha çarpıcı olan koleksiyonun içeriği.
+
+## Ne var arşivde?
+
+Yaklaşık **250 arşiv kutusu**, elli metreye yakın raf uzunluğu. İçinde el yazmaları, defterler, ajandalar, mektuplar, tiyatro çalışmaları ve fotoğraflar.
+
+İki parça özellikle öne çıkıyor.
+
+**Yabancı**'nın el yazması — 1942'de yayımlanan romanın bilinen **tek çalışma nüshası**. Camus'nün cümleyi nasıl kurduğunu, neyi sildiğini ve edebî bir sezgiyi nasıl düşünsel bir yapıya çevirdiğini gösterecek olan belge bu.
+
+**İlk Adam**'ın tamamlanmamış müsveddesi — Camus'nün Ocak 1960'ta hayatını kaybettiği otomobilde bulunan metin.
+
+Arşivde ayrıca Camus'nün Fransız Direnişi döneminde kullandığı **sahte kimlik belgesi** ve 1950'lere ait günlükler bulunuyor.
+
+Edinim Hermès ve CIC'in destekleriyle gerçekleşti. BnF, koleksiyonun **Mart 2027**'de, Camus'nün Nobel Edebiyat Ödülü'nü alışının yetmişinci yıldönümünde büyük bir sergiyle sunulmasını planlıyor.
+
+## Neden felsefe haberi?
+
+Camus'yü yalnızca romancı sayan alışkanlık, onun asıl meselesini gözden kaçırır.
+
+Camus'nün metinleri ile hayatı arasındaki ilişki, düşüncesini anlamanın anahtarıdır. BnF'nin kendi açıklaması da bunu vurguluyor: Arşiv, edebî çalışmaların yanı sıra dönemin entelektüel ve siyasal hayatındaki angajmanlarına ışık tutuyor.
+
+Yani bu bir edebiyat dosyası kadar bir **siyasal düşünce dosyası**.
+
+## Absürd: son değil, başlangıç
+
+Camus hakkında en yaygın yanlış, absürdü "hayat anlamsızdır, öyleyse hiçbir şeyin önemi yoktur" biçiminde okumaktır.
+
+*Sisifos Söyleni*'nin (1942) mantığı bunun tam tersi.
+
+İnsan anlam arar. Dünya nihai bir anlam sunmaz. Absürd, bu ikisi arasındaki **çatışmadan** doğar — dünyada değil, insanla dünya arasındaki ilişkidedir.
+
+Camus'nün yanıtı ne intihar ne nihilizm. Yanıtı yaşamaya devam etmek ve başkaldırmaktır.
+
+Sisifos figürünün önemi burada. Taşı sonsuza kadar yukarı taşımak zorunda olan insan kaderini değiştiremez; ama kendi durumunun bilincine varabilir. Anlamı bulamayan insan yine de yaşamı seçebilir.
+
+## Meursault neden hâlâ rahatsız edici?
+
+*Yabancı*'da Meursault'nun toplumun beklediği duyguları göstermemesi, romanı psikolojik bir hikâye olmaktan çıkarır.
+
+Camus daha rahatsız edici bir soru sorar: **Toplum insanı yaptığı şey nedeniyle mi yargılar, yoksa olması gerektiğine inandığı insan tipine uymadığı için de cezalandırır mı?**
+
+Meursault'nun mahkeme süreci bir cinayet davası olduğu kadar, toplumun "normal insan" tanımının mahkemesidir. Camus hukuk, ahlak ve toplumsal norm arasındaki ilişkiyi çok erken bir tarihte edebiyatın içine yerleştirmiştir.
+
+## Veba: kötülüğün sıradanlığı
+
+1947 tarihli *Veba*, pandemi sonrasında olağanüstü bir ilgi gördü. Ama romanın gücü salgını anlatmasında değil.
+
+Camus, Oran'daki veba karşısında farklı insan tiplerini karşılaştırır: Doktor Rieux görevini yapar, Tarrou dayanışmanın ahlaki boyutunu düşünür, Rambert kaçmak ister, Cottard krizden kendi çıkarını üretir.
+
+Asıl mesele hastalık değil, **insanın kötülük karşısındaki davranışı**. Nazizm ve totalitarizm bağlamında okunduğunda romanın kapsamı ortaya çıkar.
+
+Camus'nün dünyasında kötülük çoğu zaman olağanüstü canavarların işi değildir. Sıradan insanların suskunluğu, alışkanlığı ve kayıtsızlığıyla büyür.
+
+## Başkaldıran İnsan: kopuş
+
+Asıl kırılma 1951 tarihli *Başkaldıran İnsan* ile geldi. Kitap, Camus ile Sartre çevresi arasındaki büyük ayrışmanın merkezindeydi.
+
+Camus burada devrimci şiddetin meşrulaştırılmasına karşı çıkar. Korktuğu şey nettir: İnsanları gelecekte kurulacak kusursuz toplum adına bugün öldürmeye başladığınızda, geleceğin ideali bugünün cinayetlerini haklı çıkarmanın aracına dönüşür.
+
+İtirazı devrime değil, **insanın bir amaç uğruna araç hâline getirilmesine** yöneliktir. Bu yüzden onu basitçe "anti-komünist" saymak yetersiz kalır.
+
+Tez tek cümlede: **Hiçbir tarihsel ideal, insan hayatını sınırsız harcama yetkisi vermez.**
+
+Sartre'la ayrılığı kişisel bir kavga değildi. Sartre özgürlük ve tarih sorununa güçlü bir siyasal boyut kazandırırken Camus ölçü, sınır ve dayanışma üzerinde ısrar etti.
+
+## Cezayir: en zor miras
+
+Camus'yü bugün okurken en fazla dikkat gerektiren konu Cezayir.
+
+1913'te Fransız Cezayiri'nde, yoksul bir ailede doğdu. Düşüncesinin merkezinde Akdeniz, yoksulluk, sömürgecilik ve Cezayir deneyimi birlikte bulunur.
+
+Bağımsızlık savaşı sırasındaki konumu tartışmalı hâle geldi. Sömürge düzeninin adaletsizliklerini görüyordu; ama Cezayir'in Fransa'dan tamamen kopmasını savunan çizgiyle de özdeşleşmedi. Bu tutum onu her iki tarafla karşı karşıya getirdi.
+
+Camus'nün buradaki ahlaki sıkışması, felsefesinin soyut bir etik sistem olmadığını gösterir. Gerçek hayat filozofun önüne iki "haklı" seçenek değil, **birbiriyle çatışan adalet talepleri** koyar.
+
+Trajedisi biraz da budur.
+
+## Gazeteci Camus
+
+Camus'yü yalnızca romancı ya da filozof olarak okumak, kişiliğinin önemli bir bölümünü kaçırır. O aynı zamanda gazeteciydi.
+
+Savaş yıllarında *Combat* gazetesinde çalıştı ve gazeteciliği haber aktarma faaliyeti olarak değil, **ahlaki bir sorumluluk** olarak gördü.
+
+Sorusu şuydu: Gerçeği söylemek, siyasal sonuçlarından bağımsız bir yükümlülük olabilir mi? Yanıtı büyük ölçüde evetti. Bu nedenle propaganda ile gazetecilik arasındaki ayrım onun için teknik değil ahlaki bir ayrımdı.
+
+Arşivdeki Direniş dönemi sahte kimlik belgesi, bu tercihin bedelini de hatırlatıyor.
+
+## Arşiv ne getirebilir?
+
+Camus'nün düşüncesi bundan sonra yalnızca yayımlanmış metinlerinden değil, **yazma sürecinden** de okunabilecek.
+
+Taslaklar, düzeltmeler, günlükler ve tiyatro notları düşüncenin nasıl biçimlendiğini gösterecek. Büyük yazarların arşivleri açıldığında, bildiğimiz yazar ile belgelerden çıkan yazar arasında bazen önemli farklar bulunur.
+
+2027 sergisinin nostaljik bir anma olması beklenmemeli.
+
+## Bugün ne söylüyor?
+
+Camus'nün bırakabileceği miras karmaşık sistemler değil, birkaç ilkenin ısrarla savunulması:
+
+İnsan hayatının değeri vardır. Özgürlük vazgeçilmezdir. Hiçbir ideoloji cinayeti sınırsız meşrulaştıramaz. Adalet adına adaletsizlik üretilemez. Ve başkaldırı, başkasının insanlığını yok etmek anlamına gelmemelidir.
+
+Absürd başlangıçtır; başkaldırı, dayanışma ve ölçü devamıdır.
+
+Camus 1960'ta, kırk altı yaşındayken bir otomobil kazasında öldü. Geriye tamamlanmış bir sistem değil, sorular bıraktı.
+
+Sisifos taşı hâlâ yukarı itiyor. Ama Camus'nün düşüncesinde mesele artık taşın tepeye ulaşması değil — **insanın taşı iterken insan kalabilmesi.**`,
+  },
+  {
+    title: "Spinoza: aforoz edilen adamın sakin intikamı",
+    slug: "spinoza-etika-tanri-doga",
+    summary:
+      "Yirmi üç yaşında cemaatinden en ağır lanetle atıldı, hayatını mercek yontarak kazandı, başyapıtını sağlığında yayımlamadı. Ama Spinoza'nın asıl radikalliği ateizminde değil: Tanrı'yı reddetmedi, kişi olmaktan çıkardı. Sonuçları hâlâ hesaplanıyor.",
+    seoTitle: "Spinoza: Etika, Deus sive Natura ve conatus",
+    metaDescription:
+      "Spinoza'nın töz anlayışı, Deus sive Natura, conatus, duygular kuramı ve Teolojik-Politik İnceleme. Aforozdan bugünkü Spinoza dönüşüne.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Spinoza.jpg?width=1600",
+    imageCredit: "Baruch Spinoza, yaklaşık 1665 · Herzog August Bibliothek · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: null,
+    publishedAt: "2026-08-30T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["kavram", "din-felsefesi", "etik", "siyaset-felsefesi", "aydinlanma"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Baruch Spinoza",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/spinoza/",
+      },
+    ],
+    content: `27 Temmuz 1656'da Amsterdam'daki Portekiz Yahudi cemaati, yirmi üç yaşındaki bir üyesini cemaatten atan bir *herem* — aforoz — metni okudu.
+
+Metnin dili olağandışı sertlikteydi: Gündüz de gece de lanetlenecek, yatarken ve kalkarken lanetlenecek; kimse onunla dört arşından yakın durmayacak, kimse onunla konuşmayacak, kimse yazdığı hiçbir şeyi okumayacaktı.
+
+Aforoz kararlarında bu ağırlıkta bir dil nadirdi. Ve dikkat çekici olan şu: **Bento de Espinosa o tarihte henüz tek satır yayımlamamıştı.**
+
+Cemaat, kitaplarından değil, konuşmalarından korkuyordu.
+
+## Yayımlanmayan başyapıt
+
+Spinoza aforozdan sonra adını Latinceleştirdi — Benedictus de Spinoza — ve bir daha hiçbir cemaate girmedi. Hiçbir kiliseye de.
+
+Hayatını **mercek yontarak** kazandı. Bu ayrıntı romantik bir detay değil, felsefi bir tercih: Heidelberg Üniversitesi'nden gelen profesörlük teklifini, düşünce özgürlüğünü kısıtlayacağı gerekçesiyle reddetti. Mercek yontmak kimseye hesap vermeyi gerektirmiyordu.
+
+Sağlığında yalnızca iki kitap yayımladı; biri Descartes üzerine, öteki adı olmadan çıkan *Teolojik-Politik İnceleme*.
+
+Başyapıtı **Etika**, ölümünden sonra, 1677'de, arkadaşları tarafından basıldı. Kırk dört yaşında ölmüştü — muhtemelen mercek tozunun akciğerlerinde biriktirdiği hastalıktan.
+
+## Neden geometrik düzen?
+
+*Etika*'yı ilk kez açan herkes aynı şaşkınlığı yaşar. Kitap felsefe metni gibi değil, **geometri kitabı** gibi görünür: tanımlar, aksiyomlar, önermeler, kanıtlar, sonuçlar. Euclid'in *Elemanlar*'ının biçimi.
+
+Bu bir üslup gösterisi değil.
+
+Spinoza'nın iddiası şu: Ahlak ve duygular üzerine düşünürken de, üçgenlerin özellikleri üzerine düşünürken kullandığımız kesinlikle çalışabiliriz. İnsan davranışını "çizgiler, düzlemler ve cisimler söz konusuymuş gibi" incelemek — kendi ifadesi bu.
+
+Bunun ardında bir kabul reddi var: İnsan doğanın içinde bir istisna değildir. Kıskançlık ve nefret, doğanın kusurları değil; anlaşılabilir nedenleri olan doğal olaylardır. Spinoza'nın büyük itirazı, insanı "doğa içinde bir devlet içinde devlet" sayan anlayışa yöneliktir.
+
+## Tek töz
+
+Etika'nın ilk kitabı en zor ve en sonuçlu bölüm.
+
+Descartes iki töz kabul ediyordu: düşünen töz (zihin) ve yer kaplayan töz (madde). İkisinin nasıl etkileştiği ise çözemediği problemdi.
+
+Spinoza sorunu kökünden kesti: **Töz tektir.** Çünkü töz, tanımı gereği kendi başına var olan ve kendisi aracılığıyla kavranan şeydir; iki tözden söz etmek, birinin ötekini sınırlaması demektir — o zaman ikisi de sonsuz olamaz.
+
+Öyleyse var olan tek bir töz vardır ve o sonsuzdur. Adı: **Deus sive Natura** — Tanrı ya da Doğa.
+
+Bu "ya da" felsefe tarihinin en yüklü bağlacıdır. İki adı birbirinin yerine koyar.
+
+## Radikallik nerede?
+
+Spinoza'ya çağında "ateist" dendi, sonraki yüzyıllarda "Tanrı sarhoşu adam" (Novalis). İkisi de yanlış — ve ikisi birden doğru.
+
+Spinoza Tanrı'yı reddetmedi. **Tanrı'yı kişi olmaktan çıkardı.**
+
+Onun Tanrısı yaratmaz, çünkü yaratma bir anda başlamayı gerektirir. Amaç gütmez, çünkü amaç eksiklik varsayar — istediğine sahip olmayan bir varlık amaç güder. Dua duymaz, ödül vermez, ceza kesmez. İnsanı sevmez; Spinoza bunu açıkça yazar: "Tanrı'yı seven kimse, Tanrı'nın onu karşılık olarak sevmesini isteyemez."
+
+Zorunlulukla vardır ve her şey ondan zorunlulukla çıkar. Dünya olabileceğinden başka türlü olamaz.
+
+Bu, on yedinci yüzyılda söylenebilecek en tehlikeli şeydi. *Teolojik-Politik İnceleme* yayımlandığında hem Hollanda hem Katolik dünyada yasaklandı; Spinoza'nın adı yüz yıl boyunca bir hakaret olarak kullanıldı.
+
+## Erek nedenin sonu
+
+Spinoza'nın *Etika*'nın birinci kitabına eklediği ek, kitabın en okunası bölümüdür ve saf polemiktir.
+
+Orada, insanların neden her şeyde bir amaç aradığını açıklar. İnsanlar kendi eylemlerinin amaçlı olduğunu bilir; buradan hareketle doğaya da amaç yükler. Güneş aydınlatmak için, otlar hayvanlar için, hayvanlar insan için vardır sanır.
+
+Sonra bir deprem olur ve iyi insanlar ölür. Şema bozulur. Bunu açıklamak için "Tanrı'nın yolları anlaşılmaz" derler.
+
+Spinoza'nın cümlesi keskindir: Bu, **"bilgisizliğin sığınağıdır"** (*asylum ignorantiae*).
+
+Bilimsel devrimin felsefi ifadesi büyük ölçüde bu paragraftadır: Doğayı "ne için" diye değil, "nasıl" diye sormak.
+
+## Conatus: her şey kendinde direnir
+
+Spinoza'nın en verimli kavramı **conatus**.
+
+Her şey, elinden geldiğince kendi varlığında sürüp gitmeye çabalar. Taş da, bitki de, insan da. Bu çaba dışarıdan verilmiş bir amaç değil, şeyin **fiilî özüdür**.
+
+İnsanda conatus'a *arzu* denir. Ve buradan Spinoza'nın ahlak anlayışının tümü çıkar.
+
+İyi ve kötü, evrende bulunan nitelikler değildir. **İyi**, conatus'umuzu artıran, etkinlik gücümüzü büyüten şeydir; **kötü** azaltandır. Bu yüzden Spinoza'da ahlak buyruk değil, **güç** meselesidir.
+
+Ünlü cümlesi bunu özetler: "Bir şeyi iyi bulduğumuz için istemeyiz; istediğimiz için iyi buluruz."
+
+## Duygular geometrisi
+
+Etika'nın üçüncü kitabı duyguları inceler ve bunu vaaz vermeden yapar.
+
+Temel duygular üçtür: **arzu**, **sevinç** (etkinlik gücünün artışı) ve **keder** (azalışı). Diğer bütün duygular bunların bileşimleridir; Spinoza kırk kadarını tek tek tanımlar.
+
+Buradaki asıl ayrım **edilgin** ile **etkin** duygular arasındadır. Bir duygu, nedenini bilmediğimizde bizi edilgen kılar — sürüklenir, çarparız. Aynı duygunun nedenini kavradığımızda edilgenliği azalır.
+
+Beşinci kitabın tezi budur: **Bir tutkuyu, ona dair açık ve seçik bir fikir oluşturduğumuz anda tutku olmaktan çıkarırız.**
+
+Özgürlük, Spinoza'da nedenlerden kurtulmak değildir — bu imkânsızdır. Özgürlük, kendi nedenlerini anlamaktır. İnsan, taşın havada uçarken kendini özgür sanmasına benzer bir yanılgı içindedir: Arzularını bilir, arzularının nedenlerini bilmez.
+
+## Siyaset: korkuyu azaltmak
+
+*Teolojik-Politik İnceleme*'nin alt başlığı programını verir: Felsefe yapma özgürlüğünün, dindarlığa ve devletin barışına zarar vermeden tanınabileceğini göstermek.
+
+Spinoza kutsal metin eleştirisinin kurucularındandır. Tevrat'ı tarihsel bir belge olarak okur, yazarlık sorunlarını inceler, mucize anlatılarını dönemin anlama biçimine bağlar. Modern filoloji büyük ölçüde buradan doğar.
+
+Siyasal tezi de conatus'tan çıkar. Devletin amacı insanları köle gibi yönetmek değil, **korkudan kurtarmaktır**: "Devletin amacı özgürlüktür."
+
+Demokrasiyi rejimlerin en doğalı sayar, çünkü insanların doğal güçlerini en az bastıran düzendir.
+
+## Neden bugün dönüldü?
+
+Spinoza yüz elli yıl boyunca ismi anılmayan bir düşünürdü. On sekizinci yüzyıl sonunda Alman edebiyat dünyasında patlayan *Pantheismusstreit* — panteizm tartışması — onu geri getirdi; Goethe, Herder, Schelling ve Hegel için Spinoza kaçınılmaz bir muhatap oldu.
+
+Yirminci yüzyıl sonundaki dönüş ise başka nedenlerle geldi.
+
+**Deleuze**, Spinoza'yı "filozofların İsa'sı" diye andı ve conatus'u arzu felsefesinin merkezine yerleştirdi. **Antonio Negri**, *Yaban Kuraldışılık*'ta Spinoza'yı demokratik çokluk kuramının kaynağı olarak okudu.
+
+Sinirbilim tarafında **Antonio Damasio**, *Spinoza'yı Ararken* kitabında duygu kuramının çağdaş bulgularla örtüştüğünü savundu: Beden ile zihnin ayrı iki şey olmadığı, duyguların bilişin engeli değil bileşeni olduğu tezleri.
+
+Ekoloji tartışmasında da adı geçiyor: İnsanı doğanın içinde, ayrıcalıksız bir parça olarak konumlandıran bir metafizik, çevre felsefesi için kullanışlı bir zemin sunuyor.
+
+## Sakin intikam
+
+Spinoza'nın hayatına dair anlatılar hep aynı sıfatı taşır: sakin.
+
+Kırk dört yıl yaşadı. Zenginlik reddetti, miras davasını kazanıp mirası bağışladı, kürsü teklifini geri çevirdi, adını kitaplarından sildi. Öldüğünde eşyası bir masa, bir yatak ve mercek aletlerinden ibaretti.
+
+Ama bu sakinlik teslimiyet değildi. Aforoz metni "kimse yazdığı hiçbir şeyi okumayacak" diyordu.
+
+Üç yüz elli yıl sonra Spinoza, felsefe bölümlerinde en çok okunan on yedinci yüzyıl düşünürlerinden biri.
+
+Aforozun kaldırılıp kaldırılmaması Amsterdam Portekiz Yahudi cemaatinde zaman zaman gündeme geliyor; bugüne kadar kaldırılmadı.
+
+## Türkçede
+
+*Etika*, *Teolojik-Politik İnceleme*, *Kısa İnceleme* ve *Politik İnceleme* Türkçeye çevrildi. Mektupları da Türkçede bulunuyor.`,
+  },
+  {
+    title: "Nolan'ın Odysseus'u neden vicdan azabı çekiyor? Bir filozoftan sert itiraz",
+    slug: "nolan-odysseia-lawson-vicdan-elestirisi",
+    summary:
+      "Etik felsefecisi Kathryn Lawson, Nolan'ın Odysseia uyarlamasına yönelttiği eleştiride Arendt, Levinas ve Weil'i tanık gösteriyor: Homeros'un Odysseus'u şiddetinden dolayı suçluluk duymaz ve bu bir kusur değil, bir uyarıdır. Kahramana vicdan takmak, hikâyenin etik derinliğini kesiyor.",
+    seoTitle: "Nolan'ın Odysseia'sına felsefi itiraz: Kathryn Lawson",
+    metaDescription:
+      "Kathryn Lawson, Nolan'ın Odysseia uyarlamasını Arendt, Levinas ve Simone Weil üzerinden eleştiriyor: Suçluluk duyan kahraman, iktidar eleştirisini zayıflatıyor.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Odysseus_Sirens_BM_E440.jpg?width=1600",
+    imageCredit: "Odysseus ve Sirenler — Attika kırmızı figürlü stamnos, MÖ 480-470 dolayları, British Museum · Wikimedia Commons",
+    featured: true,
+    sourceName: "IAI — Institute of Art and Ideas",
+    sourceUrl: "https://iai.tv/articles/nolans-odyssey-is-naive-about-the-nature-of-guilt-and-power-auid-3665",
+    publishedAt: "2026-08-30T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["etik", "antik-felsefe", "sinema", "siyaset-felsefesi", "estetik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Nolan's Odyssey is naive about the nature of guilt and power",
+        publisher: "IAI TV",
+        url: "https://iai.tv/articles/nolans-odyssey-is-naive-about-the-nature-of-guilt-and-power-auid-3665",
+        primary: true,
+      },
+      {
+        title: "An Uncomplicated Man",
+        publisher: "London Review of Books",
+        url: "https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man",
+      },
+      {
+        title: "Kathryn Lawson",
+        publisher: "IAI TV",
+        url: "https://iai.tv/home/speakers-and-authors/kathryn-lawson",
+      },
+    ],
+    content: `Bir destanı uyarlarken kahramana çağdaş bir vicdan vermek, iyi niyetli bir tercih gibi görünür. Etik felsefecisi **Kathryn Lawson**'a göre bu, Nolan'ın Odysseia'sındaki **en tehlikeli hata**.
+
+Halifax'taki University of King's College'da beşerî bilimler alanında öğretim üyesi olan Lawson, Simone Weil ve Hannah Arendt üzerine iki kitabın yazarı: *Ecological Ethics and the Philosophy of Simone Weil* ve *Hannah Arendt and Simone Weil: Unprecedented Conversations*.
+
+IAI'de yayımlanan yazısında filme yönelttiği itiraz, sinema eleştirisinden çok bir siyaset felsefesi tartışması.
+
+## Önce filmin tezi
+
+Christopher Nolan'ın uyarlaması, yaz gişe filmi olmasına rağmen büyük ölçüde **yabancının etik talebi** üzerine bir düşünme.
+
+Filmin ana teması, konukseverlik yasasını Altın Kural'la birleştiriyor: yabancıya kapıyı kapatma, çünkü kim olduğunu bilemezsin; ve başkalarına sana davranılmasını istediğin gibi davran. Nolan bu ikisini birleştirip "Zeus'un Yasası" adını veriyor.
+
+Klasikçi **Emily Wilson** — *Odysseia*'nın çok tartışılan İngilizce çevirisinin sahibi — London Review of Books'taki yazısında filmi yazımı bakımından sert biçimde eleştirdi; başlığı "Karmaşık Olmayan Bir Adam"dı. **Slavoj Žižek** ise beklediği devasa gişe filmini bulamadığını, karşısına mütevazı bir oda dramı çıktığını yazdı.
+
+Lawson'ın itirazı ise başka bir yerden geliyor.
+
+## Homeros'a dönen üç düşünür
+
+Lawson'ın tanıkları rastgele seçilmemiş. **Hannah Arendt**, **Emmanuel Levinas** ve **Simone Weil** — üçü de dünya savaşlarından sonra, yaşananları anlamlandırmak için Homeros'a döndü.
+
+Weil'in 1940 tarihli *İlyada, ya da Kuvvetin Şiiri* denemesi bu okumanın en bilinen örneği. Sitemizde daha önce [andığımız gibi](/haber/felsefe-tarihinde-bugun-24-agustos-simone-weil), Weil'in tezi şuydu: *İlyada*'nın büyüklüğü, kuvveti ne yüceltmesi ne de gizlemesindedir. Kuvveti tarafsız biçimde, **hem uygulayanı hem uğrayanı şeye dönüştüren** bir mekanizma olarak gösterir.
+
+Arendt ve Weil için Homeros destanları olağanüstüdür çünkü savaşı hem galiplerin hem mağlupların gözünden anlatır. Ozan, yıkılan şehirdeki "düşmanların" insanlığını tanıyabilmektedir. Şiir, kendi işlediği suçları görmenin açtığı uçuruma düşmeden sorumluluk üzerine düşünebilmektedir.
+
+## Kritik nokta: Odysseus suçluluk duymaz
+
+Lawson'ın çözümlemesinin merkezinde tek bir gözlem var.
+
+Homeros'un Odysseus'u işlediği şiddetten dolayı **vicdan azabı çekmez**. Taliplerin katli, hizmetçilerin asılması, yol boyunca dökülen kan — hiçbiri onda bir iç hesaplaşma başlatmaz.
+
+Modern okur bunu destanın ahlaki ilkelliği sayma eğilimindedir. Lawson tersini savunuyor: Bu bir **eksiklik değil, uyarıdır**.
+
+Destanın söylediği şudur: **İktidar kendi zalimliğini nadiren fark eder.** Gücü elinde tutanın kendi kendine dönüp "yanlış yaptım" demesi beklenemez. Şiddeti durduran şey failin vicdanı değil, dışarıdan gelen bir sınırdır — tanrılar, gelenek, konukseverlik yasası, ya da karşı güç.
+
+Weil'in kuvvet çözümlemesi tam olarak bunu söyler. Kuvvet, uygulayanı da bozar; kendini sınırlama kapasitesini de yok eder.
+
+## Nolan'ın hatası
+
+Nolan, Odysseus'a çağdaş bir vicdan taktığında Lawson'a göre hikâyenin etik derinliğini kesiyor.
+
+Ortaya çıkan şey rahatlatıcı bir fantezi: **Güçlü olanlar, ne yaptıklarını anladıklarında kendiliğinden değişecekler.**
+
+Lawson'ın karşı çıktığı tam bu. Gerçeklik başka bir şey gösteriyor. İktidarın kendini sınırladığı örnekler, kavrayışın değil, **dışarıdan gelen bir direncin** sonucudur.
+
+Suçluluk duyan kahraman, seyirciye iyi hissettirir. Ama aynı zamanda dışarıdan sınır koyma ihtiyacını gereksiz kılar. Vicdan yeterliyse, kurumlara, yasalara ve karşı güce ne gerek var?
+
+## Levinas'ın yeri
+
+Lawson'ın üçüncü tanığı Levinas, tartışmaya farklı bir kavram getiriyor: **yüz**.
+
+Levinas'ta etik, ötekinin yüzüyle karşılaşmadan doğar. Yüz, hesaba katılamayan, kategoriye indirgenemeyen bir talep taşır: "Öldürmeyeceksin."
+
+Bu, Odysseus okumasını keskinleştiriyor. Etik talep failin içinden değil, **dışarıdan** gelir. Ötekinin varlığından. İçselleştirilmiş bir vicdan, o dışarıdanlığı ortadan kaldırır — ve etiği failin kendi psikolojisine hapseder.
+
+Nolan'ın Odysseus'u kendisiyle hesaplaşır. Homeros'un Odysseus'u ise başkalarıyla, tanrılarla ve yasayla hesaplaşmak zorundadır.
+
+İkincisi daha az konforlu, ama Lawson'a göre daha gerçekçi.
+
+## Karşı görüş
+
+Lawson'ın tezine yöneltilebilecek itirazlar da var ve onları da kaydetmek gerekir.
+
+Birincisi biçimsel: Bir uyarlama, kaynağın etik yapısını korumakla yükümlü müdür? Sinema kendi araçlarıyla başka bir soru sorabilir.
+
+İkincisi kuramsal: Suçluluğun siyasal olarak işlevsiz olduğu iddiası fazla kesin olabilir. Savaş sonrası Almanya'daki hesaplaşma tartışmaları — Karl Jaspers'ın *Suçluluk Sorunu* kitabı dahil — kolektif suçluluğun kurumsal sonuçlar üretebildiğini gösteriyor.
+
+Üçüncüsü tarihsel: Homeros'un Odysseus'unun vicdan taşımaması, o dönemin ahlaki söz dağarcığının farklılığından da kaynaklanabilir. Antik Yunan'da "suçluluk" kategorisi bizim anladığımız biçimde mevcut değildi; utanç kültürü ile suçluluk kültürü ayrımı klasik filolojinin eski tartışmalarından.
+
+Lawson'ın gücü bu itirazları çürütmesinde değil, soruyu doğru yere koymasında: **Bir anlatının etik değeri, seyirciyi rahatlatmasında mı, yoksa rahatsız etmesinde mi?**
+
+## Eylül'de Londra'da
+
+Emily Wilson, eylül ayında Londra'da düzenlenecek **HowTheLightGetsIn** festivalinde "Ego ve Destan" başlıklı bir tartışmaya katılacak. Kendisini felsefe ve müzik alanındaki en büyük festival olarak tanımlayan etkinlikte Louis Theroux, Roger Penrose ve Mariana Mazzucato gibi isimler de konuşacak.
+
+Homeros tartışmasının bu yıl içinde birden fazla mecrada sürmesi tesadüf değil. Yabancı, konukseverlik ve şiddetin sınırı — üçü de bugünün gündeminde.
+
+---
+
+*Not: Bu yazı filmin bir eleştirisi değil, filmin açtığı felsefi tartışmanın aktarımıdır.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 30 Ağustos: Mary Shelley'nin doğumu",
+    slug: "felsefe-tarihinde-bugun-30-agustos-mary-shelley",
+    summary:
+      "Mary Wollstonecraft Shelley 30 Ağustos 1797'de Londra'da doğdu. On sekiz yaşında yazdığı Frankenstein, iki yüz yıl sonra yapay zekâ etiğinin en çok atıf alan edebî metni oldu. Aynı gün, 1871'de atom çekirdeğini keşfedecek olan Ernest Rutherford doğdu.",
+    seoTitle: "30 Ağustos 1797: Mary Shelley'nin doğumu",
+    metaDescription:
+      "Mary Shelley 30 Ağustos 1797'de doğdu. Frankenstein, yaratıcının sorumluluğu ve yapay zekâ etiğindeki yeri. Ayrıca 30 Ağustos 1871: Ernest Rutherford.",
+    contentType: "TARIH",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Shelley.jpeg?width=1600",
+    imageCredit: "Mary Wollstonecraft Shelley, Richard Rothwell'in portresi · National Portrait Gallery · Wikimedia Commons",
+    featured: true,
+    sourceName: "Britannica",
+    sourceUrl: "https://www.britannica.com/biography/Mary-Wollstonecraft-Shelley",
+    publishedAt: "2026-08-30T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "teknoloji-felsefesi", "etik", "toplumsal-cinsiyet", "risk"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Mary Wollstonecraft Shelley",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Mary-Wollstonecraft-Shelley",
+        primary: true,
+      },
+      {
+        title: "Ernest Rutherford",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Ernest-Rutherford",
+      },
+    ],
+    content: `**Mary Wollstonecraft Godwin**, 30 Ağustos 1797'de Londra'da doğdu. Annesi doğumdan on gün sonra öldü.
+
+Bu iki cümle, bir hayatın çerçevesini kuruyor.
+
+## Ana babası
+
+Annesi **Mary Wollstonecraft**, *Kadın Haklarının Gerekçelendirilmesi*'nin (1792) yazarı — modern feminist siyaset felsefesinin kurucu metni. Babası **William Godwin**, *Siyasal Adalet Üzerine Bir Soruşturma*'nın (1793) yazarı ve anarşist siyaset düşüncesinin ilk sistematik temsilcisi.
+
+Mary Shelley, on sekizinci yüzyıl sonunun en radikal iki siyaset filozofunun çocuğu olarak doğdu. Annesinin mezarı başında okumayı öğrendiği anlatılır.
+
+Bu miras, *Frankenstein*'ı bir korku hikâyesi olarak okumayı güçleştiriyor.
+
+## 1816: Cenevre Gölü
+
+Kitabın doğuş hikâyesi çok anlatıldı ama bir ayrıntısı genellikle atlanır.
+
+1816, "yazsız yıl" olarak bilinir. Endonezya'daki Tambora yanardağının bir yıl önceki patlaması küresel iklimi bozmuş, Avrupa'da yaz gelmemiştir. Byron'ın Cenevre Gölü kıyısındaki villasında sıkışıp kalan grup — Byron, Percy Shelley, Mary Godwin, John Polidori — vakit geçirmek için hayalet hikâyesi yazmaya karar verir.
+
+On sekiz yaşındaki Mary'nin yazdığı metin, iki yıl sonra adı olmadan yayımlanacaktı: *Frankenstein, ya da Modern Prometheus*.
+
+O dönem çevrede konuşulan şey doğaüstü değil, bilimdi: Galvani'nin ölü kurbağa bacaklarını elektrikle kasılmaya zorlayan deneyleri, **galvanizm** ve canlılığın maddi bir açıklamasının mümkün olup olmadığı tartışması.
+
+## Kitabın asıl sorusu
+
+*Frankenstein* yaygın olarak "bilim insanının kibri" hikâyesi diye özetlenir: İnsan Tanrı'yı oynadı, cezasını buldu.
+
+Metnin kendisi bunu söylemez.
+
+Victor Frankenstein'ın hatası yaratmak değildir. Hatası, **yarattığı şeyi terk etmesidir**. Yaratık gözlerini açtığı anda Victor odadan kaçar. Bir daha da sorumluluğunu üstlenmez.
+
+Yaratık canavar doğmaz; **canavarlaştırılır**. Kitabın ortasındaki uzun anlatı bölümü — yaratığın kendi ağzından hikâyesi — bir eğitim romanıdır: Dili öğrenir, Plutarkhos ve Milton okur, bir aileyi gizlice izleyerek şefkati tanır. Ve her karşılaşmada görünüşü nedeniyle reddedilir.
+
+Şiddete başvurması, bu reddedilmelerin sonucudur.
+
+Buradaki tez, annesinin ve babasının siyaset felsefesinden geliyor: **Karakter, doğuştan gelen bir öz değil, koşulların ürünüdür.** Godwin'in bütün siyasal iyimserliği bu ilkeye dayanıyordu.
+
+Mary Shelley aynı ilkeyi alıp karanlık tarafını gösterdi.
+
+## Bugün neden okunuyor?
+
+*Frankenstein* son on yılda yapay zekâ etiği literatüründe en çok atıf alan edebî metin hâline geldi. Nedeni açık.
+
+Tartışmanın merkezindeki sorular kitabın kurduğu sorularla aynı: **Yarattığımız şeye karşı sorumluluğumuz nedir? Sorumluluk yaratma anında biter mi, sürer mi?**
+
+Victor'ın hatası teknik bir hata değildi. Yaratma kararını verirken hiçbir toplumsal denetim aramamış, sonuçlarını düşünmemiş ve ortaya çıkan varlığı öngörülemez bulunca ondan kaçmıştı.
+
+Sitemizde bu ay aktardığımız [yapay zekânın ahlaki statüsü tartışması](/haber/yapay-zeka-ahlaki-statu-tartismasi) ve [MatrAIx simülasyon projesi](/haber/matraix-persona-simulasyonu) da benzer sorular etrafında dönüyor: Ürettiğimiz şeyin bize benzemesi, ona karşı yükümlülük doğurur mu?
+
+Kitabın alt başlığı da bir uyarı taşıyor: *Modern Prometheus*. Prometheus ateşi çaldığı için değil, sonuçlarını üstlendiği için trajik bir figürdür.
+
+## Yalnızca Frankenstein değil
+
+Mary Shelley'yi tek kitaba indirgemek yaygın bir haksızlık.
+
+1826 tarihli **Son İnsan**, bir salgının insanlığı yok edişini anlatan ilk modern kıyamet romanlarından. Kitap uzun süre unutuldu; yirminci yüzyıl sonunda yeniden keşfedildi ve pandemi yıllarında yeniden okundu.
+
+Percy Shelley'nin 1822'deki ölümünden sonra, kocasının şiirlerini derleyip yayına hazırlayan da oydu. Percy Shelley'nin bugünkü edebî konumu büyük ölçüde bu editöryel emeğin ürünü.
+
+## 1871: Ernest Rutherford
+
+Aynı gün, 1871'de Yeni Zelanda'da **Ernest Rutherford** doğdu.
+
+Atom çekirdeğini keşfeden, radyoaktif bozunmayı açıklayan ve ilk yapay element dönüşümünü gerçekleştiren fizikçi. 1908'de Nobel Kimya Ödülü'nü aldı.
+
+Felsefe için önemi iki yönlü.
+
+Birincisi bilgi kuramsal: Rutherford'un 1911'deki altın folyo deneyi, doğrudan gözlenemeyen bir yapının — atom çekirdeğinin — dolaylı kanıtla nasıl kurulabileceğinin ders kitabı örneğidir. Bilim felsefesindeki **gözlenemeyenlerin gerçekliği** tartışması bu tür örnekler üzerinden yürür.
+
+İkincisi ahlaki. Rutherford, atom çekirdeğinden enerji elde etmenin pratik olarak mümkün olduğunu düşünmüyordu; bunu savunanlar için "aymazlık" anlamına gelen bir sözcük kullandığı aktarılır. Öldüğü 1937'den sekiz yıl sonra Hiroşima'ya bomba atıldı.
+
+Bir bilim insanının kendi keşfinin sonuçlarını öngörememesi — Mary Shelley'nin aynı gün doğmuş olması, takvimin ürettiği anlamlı rastlantılardan biri.
+
+## Türkçede
+
+*Frankenstein* Türkçeye defalarca çevrildi; *Son İnsan* da Türkçede bulunuyor. Annesi Mary Wollstonecraft'ın *Kadın Haklarının Gerekçelendirilmesi* ve babası Godwin'in metinleri de Türkçeye kazandırıldı.`,
+  },
+  {
     title: "Bedia Akarsu: Türkçeyi felsefenin dili yapan Cumhuriyet aydını",
     slug: "bedia-akarsu-felsefenin-dili",
     summary:
@@ -9160,6 +10104,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Cumhuriyetin 100. Yılında Türkiye'de Felsefe, 2. Cilt",
+    slug: "cumhuriyetin-100-yilinda-felsefe-2",
+    originalTitle: null,
+    publisher: "Türkiye Felsefe Kurumu Yayınları",
+    translator: null,
+    language: "Türkçe",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Betül Çotuksöken ve İoanna Kuçuradi editörlüğünde hazırlanan iki ciltlik çalışmanın ikinci cildi. Cumhuriyet döneminde Türkiye'de felsefenin kurumsallaşmasını ve birikimini değerlendiriyor. 400 sayfa.",
+    year: 2025,
+    link: "https://www.kitapyurdu.com/kitap/cumhuriyetin-100-yilinda-turkiyede-felsefe-2-cilt/719881.html",
+    philosopherSlug: "ioanna-kucuradi",
+    postSlug: "cumhuriyetin-100-yilinda-turkiyede-felsefe",
+  },
+  {
     title: "Being Reasonable: The Case for a Misunderstood Virtue",
     slug: "being-reasonable-lawlor",
     originalTitle: null,
@@ -9490,6 +10450,33 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "HowTheLightGetsIn Londra 2026",
+    slug: "howthelightgetsin-londra-2026",
+    summary:
+      "Kendisini dünyanın en büyük felsefe ve müzik festivali olarak tanımlayan etkinlik eylülde Londra'da. Emily Wilson, Homeros uyarlamaları üzerine 'Ego ve Destan' oturumunda konuşacak.",
+    description: `HowTheLightGetsIn, felsefe tartışmalarını müzik ve komedi programıyla birleştiren bir festival. Londra ayağı eylül ayında düzenleniyor.
+
+Programda yüzlerce konuşma, tartışma ve performans yer alıyor. Bu yılın konuşmacıları arasında Emily Wilson, Louis Theroux, Roger Penrose ve Mariana Mazzucato bulunuyor.
+
+Sitemizde ayrıca ele aldığımız Homeros uyarlaması tartışması, "Ego ve Destan" başlıklı oturumda ele alınacak.`,
+    kind: "KONFERANS",
+    organizer: "Institute of Art and Ideas",
+    speakers: "Emily Wilson, Louis Theroux, Roger Penrose, Mariana Mazzucato",
+    topic: "Felsefe, bilim, siyaset ve sanat",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-19T00:00:00.000Z",
+    endsAt: "2026-09-20T00:00:00.000Z",
+    hasTime: false,
+    city: "Londra",
+    country: "Birleşik Krallık",
+    registrationUrl: "https://howthelightgetsin.org/",
+    website: "https://howthelightgetsin.org/festivals/london/events/the-ego-vs-the-epic-50028",
+    sourceName: "HowTheLightGetsIn",
+    sourceUrl: "https://howthelightgetsin.org/",
+    featured: true,
+    publishedAt: "2026-08-30T02:00:00.000Z",
+  },
   {
     title: "SPEP — Fenomenoloji ve Varoluşçu Felsefe Derneği 2026 Yıllık Kongresi",
     slug: "spep-2026-chicago",
