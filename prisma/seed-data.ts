@@ -1489,6 +1489,196 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Felsefe şenlik olur mu? PhilFest beşinci yılında 26 Eylül'de Bilkent'te",
+    slug: "bilkent-philfest-26-felsefe-senligi",
+    summary:
+      "Türkiye'nin ilk büyük ölçekli felsefe festivali beşinci kez toplanıyor. Kuantum fiziğinden Lindy Hop'a, PechaKucha sunumlarından senfoni orkestrasına uzanan bir günlük program, dört yılda elli iki topluluğu ve yirmi dört yayıncıyı aynı çim alanda buluşturan bir modelin geldiği noktayı gösteriyor.",
+    seoTitle: "PhilFest'26 Bilkent Felsefe Şenliği — 26 Eylül 2026",
+    metaDescription:
+      "Bilkent PhilFest'26 26 Eylül 2026'da. Program, konuşmacılar, katılımcı topluluklar ve festivalin 2022'den bugüne tarihi.",
+    contentType: "ETKINLIK",
+    coverImage: "https://philfest.bilkent.edu.tr/wp-content/gallery/basin-kiti/Philfest_188.jpg",
+    imageCredit: "PhilFest basın kiti · Bilkent Üniversitesi",
+    featured: true,
+    sourceName: "PhilFest — Bilkent Üniversitesi",
+    sourceUrl: "https://philfest.bilkent.edu.tr/",
+    publishedAt: "2026-08-30T19:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "akademi", "medya", "bilim-felsefesi", "toplumsal-cinsiyet"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "PhilFest'26 Bilkent Üniversitesi Felsefe Şenliği",
+        publisher: "Bilkent Üniversitesi",
+        url: "https://philfest.bilkent.edu.tr/",
+        primary: true,
+      },
+      {
+        title: "PhilFest'26 Basın Kiti",
+        publisher: "Bilkent Üniversitesi",
+        url: "https://philfest.bilkent.edu.tr/basin-kiti/",
+      },
+      {
+        title: "Geçmiş PhilFest'ler — Arşiv",
+        publisher: "Bilkent Üniversitesi",
+        url: "https://philfest.bilkent.edu.tr/arsiv/",
+      },
+      {
+        title: "PhilFest'22: Bilkent Üniversitesi Felsefe Festivali",
+        publisher: "Bilkent Üniversitesi",
+        url: "https://w3.bilkent.edu.tr/www/philfest22-bilkent-universitesi-felsefe-festivali/",
+      },
+      {
+        title: "Felsefenin Şenliği Nasıl Olur? Bilkent PhilFest'25",
+        publisher: "Öncül Analitik Felsefe",
+        url: "https://onculanalitikfelsefe.com/felsefenin-senligi-nasil-olur-bilkent-philfest25-dr-tufan-kiymaz-taner-beyter/",
+      },
+    ],
+    content: `Felsefenin doğduğu yer kütüphane değildi.
+
+Platon'un *Şölen*'i bir içki masasında geçer. Sokrates pazar yerinde, spor salonunda ve sokakta konuşur. Antik Yunan'da felsefi tartışma, festivallerin, yarışmaların ve bayramların içinde yürürdü.
+
+Modern üniversite bu bağı kopardı — muhtemelen iyi nedenlerle. Ama koparmanın bir bedeli oldu: Felsefe, kapıları içeriden kilitlenen bir odaya taşındı.
+
+**PhilFest**, o kapıyı yılda bir gün açma girişimi.
+
+Bilkent Üniversitesi Felsefe Şenliği'nin beşincisi **26 Eylül 2026 Cumartesi** günü, Merkez Kampüs Çim Alanı'nda yapılıyor. Katılım ücretsiz; Bilkent öğrenci ve çalışanları dışındaki ziyaretçilerin kampüse giriş için önceden kayıt yaptırması gerekiyor.
+
+## Bir günde ne oluyor?
+
+Program 11.00'de stantların ve sergi alanının açılışıyla başlıyor ve 18.00'e kadar sürüyor. Ardından akşam, kampüsün konser salonuna taşınıyor.
+
+| Saat | Etkinlik |
+|---|---|
+| 11.15 | **Lindy Hop: Hareketteki Felsefe** — dans atölyesi (Buğra Ulaşoğlu, Mukaddes Uzbay) |
+| 12.00 | **Sinema, Edebiyat ve Mümkün Dünyalar** — Cansu Yüksel (mod. Ufuk Yazlık) |
+| 13.00 | **PechaKucha: Felsefede Kadın** — kadın lisans ve lisansüstü öğrencilerin sunumları (mod. Beyza Taşdemir) |
+| 14.00 | **Canlılık, Doğa ve Felsefe** — Mehmet Elgin (mod. Orkun Küser) |
+| 15.00 | **Bilim İletişiminin Sosyal Epistemolojisi** — Nurcan Seven, Ömer Kamacı (mod. Taner Beyter) |
+| 16.00 | **Felsefe Şenliğinin Felsefesi** — Rektör Orhan Aytür, Tufan Kıymaz |
+| 16.30 | **Kuantum Fiziğine Felsefi Bakış** — Erkcan Özcan, Bayram Tekin (mod. Elif Buğday) |
+| 17.30 | **Ödüllü Felsefe Bilgi Yarışması** |
+| 19.00 | **Bilkent Senfoni Orkestrası ile Anlatımlı Klasik Müzik Konseri** — Odeon |
+
+Gün boyunca kitap fuarı, sergi alanı, yazar imza saatleri, "Gel Tartışalım" (*Change My Mind*) masaları ve çocuklar için P4C sorgulama çemberi etkinlikleri sürüyor.
+
+## Programın felsefi mantığı
+
+Bu takvimi rastgele bir kültür etkinliği listesi olarak okumak yanıltıcı olur. Seçimlerde bir düşünce var.
+
+**Dansla başlaması** tesadüf değil. Lindy Hop atölyesinin başlığı — "Hareketteki Felsefe" — bedenin bilme biçimlerine dair bir iddia taşıyor. Yirminci yüzyıl fenomenolojisinin, özellikle Merleau-Ponty'nin, felsefeye eklediği asıl şey buydu: Bilme, yalnızca kafada olmaz.
+
+**Kuantum fiziği oturumu**, bir fizikçi ile bir kuramsal fizikçiyi karşı karşıya getiriyor. Bu, felsefe festivallerinde sık görülmeyen bir tercih: Ölçüm problemi, belirlenimcilik ve gerçekçilik tartışmaları, felsefecinin fizikçiye anlattığı konular değil; ikisinin birlikte konuşması gereken konular.
+
+**Bilim iletişiminin sosyal epistemolojisi**, muhtemelen programın en güncel başlığı. Soru şu: Bir uzman size bir şey söylediğinde, ona güvenmenizin epistemik gerekçesi nedir? Bu, sitemizde bu hafta aktardığımız [Zeynep Pamuk'un bilim politikası tezinin](/haber/zeynep-pamuk-bilim-demokrasi) doğrudan felsefi karşılığı.
+
+**PechaKucha: Felsefede Kadın** oturumu ise bir biçim tercihi. PechaKucha, yirmi slaytın yirmişer saniye gösterildiği katı bir sunum formatı — toplam altı dakika kırk saniye. Format, kıdemin sağladığı konuşma süresi ayrıcalığını ortadan kaldırıyor: Herkesin süresi aynı.
+
+## Şenliğin felsefesi
+
+Programda her yıl tekrarlanan bir oturum var: **"Felsefe Şenliğinin Felsefesi."** Rektör ile festivalin kurucusu Tufan Kıymaz birlikte konuşuyor.
+
+Bu, kendine dönük bir soru sorma alışkanlığı. Bir felsefe etkinliğinin kendi meşruiyetini yılda bir kez açıkça tartışmaya açması, akademik gelenekte alışıldık değil.
+
+Soru da ciddi: **Felsefe şenlik olur mu?**
+
+Karşı argüman güçlü. Felsefe yavaşlık ister; şenlik hız ve gürültü üretir. Bir kavramı anlamak saatler alır; festival alanında kimse bir yerde saatlerce durmaz. Popülerleştirme, basitleştirmeye kayabilir.
+
+Savunma da güçlü. Felsefenin izleyicisi doğuştan gelmez; birilerinin bir yerde felsefeyle **ilk kez** karşılaşması gerekir. Ve o karşılaşma çoğunlukla bir ders kitabında değil, bir konuşmada, bir tartışmada ya da bir kitap standında olur.
+
+Asıl mesele belki de ikisi arasında seçim yapmak değil. Bir şenlik, kendi başına felsefe yapmaz; **felsefe yapılacak yerlere kapı açar.**
+
+## Sayılar bir şey söylüyor
+
+PhilFest'26'ya katılan dernek, topluluk ve dergi sayısı **elliyi aşıyor**. Kitap fuar alanında **yirmi dörtten fazla** yayıncı ve dergi var.
+
+Listeye bakmak, Türkiye'deki felsefi sivil toplumun haritasını çıkarmak gibi.
+
+**Konu toplulukları:** Türkiye Kant Topluluğu, Türkiye Nietzsche Topluluğu, Türkiye Fenomenoloji Topluluğu, Türkiye Wagner Topluluğu, Türkiye Kadın Felsefeciler Topluluğu.
+
+**Kurumlar:** Türkiye Felsefe Kurumu, Mantık Derneği, Mantık Araştırmaları Derneği, Felsefe Kültür Sanat Derneği, Bilim Akademisi.
+
+**Dergiler:** Öncül Analitik Felsefe, Khora, Caverna, Hodos, Ennoia, Felsefe Bülteni, Ufuk, Pasajlar, Epokhe.
+
+**Yeni kuşak:** AI Safety Türkiye, Efektif Altruizm Türkiye, Bilişsel Hesaplamalı Nörobilim Laboratuvarı, CogIst, Evrim Ağacı, Teyit.
+
+Bu son grup dikkat çekici. Yapay zekâ güvenliği, etkili özgecilik ve doğrulama gazeteciliği — üçü de on yıl önce Türkiye'de yoktu ve üçü de doğrudan felsefi tartışmalardan doğdu.
+
+Sitemizde bu ay ele aldığımız [Türkiye'nin felsefe dergileri haritası](/haber/turkiye-felsefe-dergileri-haritasi) ve [dijital arşiv dosyası](/haber/turkiyede-akademik-felsefenin-dijital-arsivi) ile birlikte okunduğunda tablo tamamlanıyor: Türkiye'de felsefe, üniversite kürsülerinin toplamından daha geniş bir alanda üretiliyor.
+
+## Dört yılın hikâyesi
+
+### 2022: ilk
+
+PhilFest'in ilki **4 Ekim 2022**'de yapıldı ve Türkiye'nin ilk büyük ölçekli felsefe festivali olarak duyuruldu. Düzenleyen isim Tufan Kıymaz'dı.
+
+O ilk programın başlıkları, festivalin baştan beri neyi hedeflediğini gösteriyor: Sürdürülebilirlik ve Uzun Vadecilik, Yapay Zekâ Felsefesi, Türkiye'de Analitik Felsefe — Dün, Bugün, Yarın, Antik Yunan Hekim Filozoflar, ve Bilim Çağında Herkes İçin Felsefe.
+
+Yapı Kredi, İletişim, Ayrıntı, FOL, Alfa, Doğu Batı, İmge, Ginko, Episteme ve Pharmakon gibi yayınevleri ilk yıldan itibaren kampüse geldi. Farklı şehirlerden yoğun katılım oldu.
+
+### 2023-2024: yerleşme
+
+İkinci ve üçüncü yıllarda festival kendi biçimini buldu: kitap fuarı, topluluk stantları, sergi alanı ve tartışma masaları kalıcı bileşenler hâline geldi.
+
+2024'te dikkat çeken bir yenilik vardı: **"Sokrates ile Sohbet"** — Bilkent Bilgisayar Mühendisliği Bölümü'nün, Grafik Tasarım Bölümü'nün desteğiyle geliştirdiği bir sanal gerçeklik uygulaması. Ziyaretçiler VR gözlüğüyle Sokrates'le konuşuyordu.
+
+Bu ayrıntı, festivalin bir felsefe bölümü etkinliği olmaktan çıkıp **üniversite ölçeğinde** bir işbirliğine dönüştüğünü gösteriyor.
+
+### 2025: olgunlaşma
+
+Dördüncü PhilFest **27 Eylül 2025**'te, on bir saat sürecek biçimde yapıldı.
+
+Programı, festivalin ulaştığı genişliği gösteriyor. ODTÜ'den [Ahmet İnam](/haber/ahmet-inam-youtube-dersleri-dijital-arsiv) "Umudun Felsefesi" başlığıyla konuştu. Hacer Foggo, yoksulluğu bir hak ihlali olarak ele aldı. Psikiyatrist Alper Hasanoğlu klinik felsefeyi anlattı. Ezgi Emel çocuklar ve gençler için felsefeyi tartıştı.
+
+Günün en özgün oturumu ise bir dinletiydi: **"Schubert'in Çıkrığı, Schopenhauer'ın Sarkacı"** — soprano ve piyano eşliğinde, anlatımlı bir müzik-felsefe programı. Gün, açık havada *Flow* (2024) gösterimiyle kapandı.
+
+## Bu yılın yeniliği: senfoni orkestrası
+
+PhilFest'26'nın en dikkat çekici adımı, akşam programının **Bilkent Senfoni Orkestrası**'na emanet edilmesi.
+
+Odeon'da yapılacak anlatımlı konserde klasik müzik eserleri, A. Onur Aktaş'ın anlatımıyla felsefi çözümlemeleriyle birlikte dinlenecek. Bu, geçen yılki oda müziği dinletisinin orkestra ölçeğine büyütülmüş hâli.
+
+Fikrin arkasındaki düşünce, festivalin basın metninde açıkça ifade ediliyor: Felsefe ve müzik, insanın kendisini ve dünyadaki yerini anlama çabasının iki farklı dili.
+
+Bu iddianın felsefi bir geçmişi var. Schopenhauer, müziği öteki sanatlardan ayırıp ona ayrıcalıklı bir yer verdi: Müzik, dünyanın görünüşünü değil, doğrudan istencin kendisini taklit eder. Adorno'nun bütün müzik yazıları bu tartışmanın içinde durur.
+
+Konser ücretli; biletler Bilkent Senfoni Orkestrası üzerinden satılıyor.
+
+## Kim düzenliyor?
+
+Festival, Bilkent Üniversitesi Felsefe Bölümü ve Bilkent Felsefe Topluluğu tarafından; Üniversite Kütüphanesi, Psikolojik Danışma ve Gelişim Merkezi ile Öğretim ve Öğrenim Destek Merkezi'nin katkılarıyla düzenleniyor.
+
+Sponsorlar arasında akademik veri tabanı ve yayıncılık şirketleri EBSCO ve Taylor & Francis ile Akademim, Pasajlar ve Meteksan bulunuyor.
+
+Yarışma ödülleri bu yıl Akademim Yayınları'ndan.
+
+## Neden önemli?
+
+Türkiye'de felsefenin kamusal görünürlüğü son yıllarda arttı — ama bu artışın büyük bölümü dijital mecralarda gerçekleşti. Sitemizde ele aldığımız YouTube arşivleri ve dergi ekosistemi bunun kanıtı.
+
+PhilFest'in farkı, **yüz yüze** olması.
+
+Bir video izlemek ile bir tartışma masasında karşınızdaki insana "neden böyle düşünüyorsun?" diye sormak aynı şey değil. Sitemizde bu hafta aktardığımız [Agnes Callard'ın tezi](/haber/agnes-callard-acik-sokrates) tam da buydu: Sokratik yöntem tek başına işlemez; kendi kör noktanızı ancak başkası gösterebilir.
+
+"Gel Tartışalım" masaları, bu tezin bir günlük uygulaması.
+
+## Pratik bilgiler
+
+- **Tarih:** 26 Eylül 2026, Cumartesi
+- **Saat:** 11.00-18.00 (şenlik) · 19.00-20.15 (Odeon konseri)
+- **Yer:** Bilkent Üniversitesi Merkez Kampüs Çim Alanı, Çankaya / Ankara
+- **Ücret:** Şenlik ücretsiz; konser biletli
+- **Kayıt:** Bilkent öğrenci ve çalışanları dışındaki ziyaretçiler için zorunlu
+- **İletişim:** philfest@bilkent.edu.tr
+
+Ayrıntılı program, kayıt bağlantısı ve ulaşım rehberi [philfest.bilkent.edu.tr](https://philfest.bilkent.edu.tr/) adresinde.
+
+---
+
+*Felsefe Haberleri olarak PhilFest'26'yı yerinden izlemeyi planlıyoruz. Türkiye'deki felsefe etkinliklerini duyurmak isteyen kurumlar iletişim sayfamızı kullanabilir.*`,
+  },
+  {
     title: "Felsefe Tarihinde Bugün — 31 Ağustos: Helmholtz'un doğumu, Baudelaire'in ölümü",
     slug: "felsefe-tarihinde-bugun-31-agustos-helmholtz-baudelaire",
     summary:
@@ -11419,6 +11609,41 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "PhilFest'26 — Bilkent Üniversitesi Felsefe Şenliği",
+    slug: "bilkent-philfest-26",
+    summary:
+      "Türkiye'nin ilk büyük ölçekli felsefe festivalinin beşincisi. Söyleşiler, kitap fuarı, elliyi aşkın topluluk standı, tartışma masaları ve akşam Bilkent Senfoni Orkestrası ile anlatımlı konser.",
+    description: `PhilFest, Bilkent Üniversitesi Felsefe Bölümü ve Bilkent Felsefe Topluluğu tarafından düzenleniyor; Üniversite Kütüphanesi, Psikolojik Danışma ve Gelişim Merkezi ile Öğretim ve Öğrenim Destek Merkezi katkı veriyor.
+
+Program: Lindy Hop dans atölyesi; "Sinema, Edebiyat ve Mümkün Dünyalar" (Cansu Yüksel); "Felsefede Kadın" PechaKucha sunumları; "Canlılık, Doğa ve Felsefe" (Mehmet Elgin); "Bilim İletişiminin Sosyal Epistemolojisi" (Nurcan Seven, Ömer Kamacı); "Felsefe Şenliğinin Felsefesi" (Rektör Orhan Aytür, Tufan Kıymaz); "Kuantum Fiziğine Felsefi Bakış" (Erkcan Özcan, Bayram Tekin); ödüllü felsefe bilgi yarışması.
+
+Gün boyunca kitap fuarı, sergi alanı, yazar imza saatleri, "Gel Tartışalım" masaları ve çocuklar için P4C etkinlikleri sürüyor.
+
+Akşam 19.00'da Bilkent Odeon'da, Bilkent Senfoni Orkestrası ile A. Onur Aktaş'ın anlatımıyla klasik müzik konseri var; konser biletli.
+
+Şenliğe katılım ücretsiz. Bilkent öğrenci ve çalışanları dışındaki ziyaretçilerin kampüse giriş için kayıt yaptırması gerekiyor.`,
+    kind: "KONFERANS",
+    organizer: "Bilkent Üniversitesi Felsefe Bölümü · Bilkent Felsefe Topluluğu",
+    speakers: "Mehmet Elgin, Erkcan Özcan, Bayram Tekin, Cansu Yüksel, Nurcan Seven, Ömer Kamacı, Tufan Kıymaz, A. Onur Aktaş",
+    topic: "Felsefe, bilim, sanat ve gündelik yaşam",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-26T08:00:00.000Z",
+    endsAt: "2026-09-26T17:15:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: true,
+    city: "Ankara",
+    country: "Türkiye",
+    venue: "Bilkent Üniversitesi Merkez Kampüs Çim Alanı · Bilkent Odeon",
+    fee: "Şenlik ücretsiz (kayıt zorunlu) · Odeon konseri biletli",
+    registrationUrl: "https://philfest.bilkent.edu.tr/",
+    website: "https://philfest.bilkent.edu.tr/",
+    sourceName: "PhilFest — Bilkent Üniversitesi",
+    sourceUrl: "https://philfest.bilkent.edu.tr/",
+    coverImage: "https://philfest.bilkent.edu.tr/wp-content/gallery/basin-kiti/Philfest_122.jpg",
+    featured: true,
+    publishedAt: "2026-08-30T19:30:00.000Z",
+  },
   {
     title: "83. Venedik Film Festivali — 'The Basics of Philosophy' dünya prömiyeri",
     slug: "venedik-basics-of-philosophy-2026",

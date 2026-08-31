@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "upload.wikimedia.org" },
       // Special:FilePath dosyayı doğrudan sunar; arşiv portreleri buradan gelir.
       { protocol: "https", hostname: "commons.wikimedia.org" },
+      // Kurumların basın kitlerinden alınan, kullanıma açık etkinlik görselleri.
+      { protocol: "https", hostname: "philfest.bilkent.edu.tr" },
     ],
   },
   /**
