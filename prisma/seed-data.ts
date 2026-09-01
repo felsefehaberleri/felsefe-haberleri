@@ -1489,6 +1489,885 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Yapay zekâ sınıfa girdi: felsefe eğitimi neyi kaybediyor?",
+    slug: "yapay-zeka-felsefe-egitimi-sinif",
+    summary:
+      "Amerikan Felsefe Derneği, ağustos sonunda felsefe öğretmenlerini iki günlük bir forumda topladı: 'Sınanmış Algoritma'. Tartışmanın altındaki soru kopya değil: Felsefede yazmak düşüncenin kaydı mı, yoksa düşüncenin kendisi mi?",
+    seoTitle: "Yapay zekâ ve felsefe eğitimi: APA'nın 'Examined Algorithm' forumu",
+    metaDescription:
+      "APA ve AAPT'nin ortak forumu 'The Examined Algorithm', yapay zekânın felsefe sınıflarındaki etkisini tartıştı. Yazma, düşünme ve öğrenme ilişkisi.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Brighton_Huxley_Building_lecture_theatre.jpg?width=1600",
+    imageCredit: "Üniversite dersliği · Wikimedia Commons (temsilî)",
+    featured: true,
+    sourceName: "American Philosophical Association",
+    sourceUrl: "https://www.apaonline.org/events/EventDetails.aspx?id=2079238",
+    publishedAt: "2026-09-01T06:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "akademi", "etik", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "The Examined Algorithm: Strategies for Navigating AI in the Classroom",
+        publisher: "APA Live · American Philosophical Association",
+        date: "27-28 Ağustos 2026",
+        url: "https://www.apaonline.org/events/EventDetails.aspx?id=2079238",
+        primary: true,
+      },
+      {
+        title: "On exploring the space of ideas: why offloading to AI obscures the landscape",
+        publisher: "Blog of the APA — P. D. Magnus",
+        date: "26 Ağustos 2026",
+        url: "https://blog.apaonline.org/2026/08/26/on-exploring-the-space-of-ideas-why-offloading-to-ai-obscures-the-landscape/",
+      },
+      {
+        title: "Careful with those Accusations",
+        publisher: "Daily Nous",
+        url: "https://dailynous.com/2026/08/27/careful-with-those-accusations/",
+      },
+    ],
+    content: `Üretken yapay zekâ üniversitelerde artık geleceğin teknolojisi değil, bu dönemin ders koşulu.
+
+Bu dönüşümden en çok etkilenen alanlardan biri, paradoksal biçimde, teknolojiyi sorgulama araçlarına en çok sahip olan alan: **felsefe eğitimi.**
+
+Amerikan Felsefe Derneği (APA) ile Amerikan Felsefe Öğretmenleri Derneği (AAPT), 27-28 Ağustos'ta ortak bir çevrimiçi forum düzenledi. Adı bir Sokrates göndermesi taşıyordu: **"The Examined Algorithm" — Sınanmış Algoritma.** Alt başlık daha doğrudandı: Sınıfta yapay zekâyla baş etme stratejileri.
+
+## Yanlış soru
+
+Tartışma çoğu zaman şu soruyla açılıyor: Öğrenci ödevini yapay zekâya yazdırdıysa ne yapmalı?
+
+Bu soru önemli ama ikincil. Çünkü bir denetim sorusu — ve denetim tarafında durum belirsiz. Sitemizde geçen hafta aktardığımız [suçlama tartışmasında](/haber/philosophy-public-affairs-yapay-zeka-yasagi) görüldüğü gibi, tespit araçları hem yanlış pozitif hem yanlış negatif üretiyor. Bir felsefeci, kendi yazdığı metnin yapay zekâ etrafında yer aldığında araç tarafından işaretlendiğini aktardı.
+
+Asıl soru daha derinde ve APA'nın kendi blogunda 26 Ağustos'ta yayımlanan bir yazı onu net biçimde koyuyor.
+
+## Yazmak düşünmenin kaydı mı?
+
+**P. D. Magnus**, felsefi yazının önceden varılmış bir sonucu kâğıda geçirmek olmadığını savunuyor. Felsefede yazmak, **ne düşünmemiz gerektiğini keşfetme** sürecidir.
+
+Yazının başlığı bu tezi bir imgeyle veriyor: Fikirler uzayında dolaşmak. Magnus'a göre bir düşünceyi yapay zekâya devretmek, o uzayın haritasını çıkarmanızı kolaylaştırmıyor — **manzarayı görmenizi engelliyor.**
+
+Benzetme şöyle işliyor. Bir argümanı kendiniz kurduğunuzda yalnızca sonuca varmazsınız; yol boyunca çıkmaz sokakları, işe yaramayan varsayımları ve düşündüğünüzden daha güçlü çıkan itirazları da görürsünüz. O görme, sonraki düşünmenizin sermayesidir.
+
+Hazır bir metin size sonucu verir, güzergâhı vermez.
+
+## Felsefede öğrenilen nedir?
+
+Felsefe eğitiminin amacı doğru cevapları ezberlemek değildir. Öğretilmeye çalışılan beceriler şunlar:
+
+Kavramları birbirinden ayırmak. Bir iddianın dayanağını sorgulamak. Karşı görüşü, savunucusunun kabul edeceği biçimde kurmak. Kendi argümanındaki zayıf halkayı fark etmek. Ve gerektiğinde başlangıçtaki kanaatini değiştirmek.
+
+Bunların hiçbiri sonuç odaklı değil. Hepsi **süreç becerisi**.
+
+Bu yüzden yapay zekâ, felsefe öğretmeninin karşısına yalnızca bir dürüstlük sorunu olarak çıkmıyor. Daha temel bir soru getiriyor: **Düşünme eyleminin kendisi dışarıya verilebilir mi?**
+
+## İki karşı argüman
+
+Tartışmanın tek yönlü olmadığını kaydetmek gerekir.
+
+**Birinci itiraz araçsal.** Hesap makinesi, matematik öğrenmeyi ortadan kaldırmadı; hesaplama emeğini ortadan kaldırdı ve zihni daha üst düzey problemlere serbest bıraktı. Yapay zekâ da literatür taramasını, özetlemeyi ve taslak çıkarmayı devralıp felsefeciyi asıl işe bırakabilir.
+
+Karşı yanıt şu: Hesap makinesi bir **sonucu** üretir; sonucun doğruluğu bağımsız olarak denetlenebilir. Felsefi bir metin ise sonuçtan ibaret değildir ve doğruluğu tek bir işlemle sınanamaz.
+
+**İkinci itiraz eşitlikçi.** Akademik İngilizceyi ana dili gibi kullanamayan, ilk kuşak üniversiteli ya da yoğun çalışan bir öğrenci için yapay zekâ, eşitleyici bir araç olabilir. Bu itiraz ciddiye alınmayı hak ediyor ve tartışmanın en az konuşulan tarafı.
+
+## Öğrencinin itirazı
+
+Bir başka veri, tabloyu beklenmedik biçimde karmaşıklaştırıyor.
+
+Yakın tarihli bir yazıda iki felsefeci, öğrencilerinin önemli bir bölümünün üretken yapay zekâyı kullanmaya **ahlaki gerekçelerle karşı çıktığını** aktardı: çevresel maliyet, telifsiz veri kullanımı ve emeğin değersizleşmesi.
+
+Yani "bütün öğrenciler bu teknolojiyi kullanmak istiyor, biz engellemeye çalışıyoruz" varsayımı yanlış olabilir. Kimi öğrenciler vicdani retçi konumunda ve eğitimcilerden bu tutuma saygı bekliyorlar.
+
+## Sonuç: soru değişiyor
+
+Önümüzdeki yıllarda felsefe sınıflarının asıl sorusu "yapay zekâ kullanılmalı mı?" olmayacak.
+
+Bu soru zaten geçildi; teknoloji sınıfta. Asıl soru şu:
+
+**Yapay zekâ çağında insanın kendi düşüncesini üretmesi ne anlama geliyor?**
+
+Ve bu, felsefenin cevaplayabileceği türden bir soru. Sınıfta ortaya çıkmış olması da tesadüf değil: Bu ay bu köşede andığımız [Annette Baier'in "yavaş felsefe" önerisi](/haber/annette-baier-yavas-felsefe) gibi, felsefe kendi mesleki koşullarını felsefi bir problem olarak ele almaya başladığında genellikle işe yarar bir şey söylüyor.`,
+  },
+  {
+    title: "Kit Fine'a Rescher Ödülü: metafizik neden geri döndü?",
+    slug: "kit-fine-rescher-odulu-metafizik",
+    summary:
+      "Amerikan Felsefe Derneği, 2027 Nicholas Rescher Ödül Konferansı için Kit Fine'ı seçti. Karar tek bir isme değil, bir alanın kaderine işaret ediyor: Yirminci yüzyılın büyük bölümünde 'anlamsız' ilan edilen metafizik, analitik felsefenin merkezine geri döndü.",
+    seoTitle: "Kit Fine 2027 Nicholas Rescher Ödül Konferansı'na seçildi",
+    metaDescription:
+      "Kit Fine'ın öz, kiplik ve temellendirme (grounding) üzerine çalışmaları ve çağdaş metafiziğin dönüşü. 2027 Nicholas Rescher Prize Lecture.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Institution_Lecture_Theatre.jpg?width=1600",
+    imageCredit: "Royal Institution konferans salonu, Londra · Wikimedia Commons (temsilî)",
+    featured: true,
+    sourceName: "American Philosophical Association",
+    sourceUrl: "https://www.apaonline.org/page/rescher",
+    publishedAt: "2026-09-01T05:30:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["odul", "kavram", "mantik", "epistemoloji", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "APA announces spring 2026 prize winners",
+        publisher: "Blog of the APA",
+        date: "18 Haziran 2026",
+        url: "https://blog.apaonline.org/2026/06/18/apa-announces-spring-2026-prize-winners/",
+        primary: true,
+      },
+      {
+        title: "Nicholas Rescher Prize",
+        publisher: "American Philosophical Association",
+        url: "https://www.apaonline.org/page/rescher",
+      },
+      {
+        title: "Kit Fine — NYU Arts & Science",
+        publisher: "New York University",
+        url: "https://as.nyu.edu/faculty/kit-fine.html",
+      },
+    ],
+    content: `Mantıksal pozitivizmin en iddialı sloganı metafiziğe karşıydı: "Varlık olarak varlık" üzerine cümleler doğrulanamaz, dolayısıyla **anlamsızdır**.
+
+Yirminci yüzyılın ortasında bu görüş neredeyse ortak kanaatti. Bugün analitik felsefenin en canlı alanlarından biri metafizik.
+
+Bu dönüşün merkezindeki isimlerden biri **Kit Fine**. Amerikan Felsefe Derneği, 2027 **Nicholas Rescher Ödül Konferansı** için onu seçti.
+
+New York Üniversitesi'nde felsefe ve matematik profesörü olan Fine; metafizik, felsefi mantık ve dil felsefesi alanlarında çalışıyor. Amerikan Sanat ve Bilimler Akademisi üyesi ve British Academy muhabir üyesi.
+
+Rescher Ödülü'nün kuralı, seçimi anlamlı kılıyor: Konferans, **geniş anlamda sistematik metafizik** alanında bir konu üzerine olmalı ve geniş bir felsefe okuruna hitap etmelidir. Yani ödül, teknik başarıyı değil, **sistem kurma iddiasını** ödüllendiriyor.
+
+## Fine'ın hamlesi: "vardır"dan "nedir"e
+
+Fine'ın metafiziği anlamak için önce yaygın bir yanlış anlamayı ayıklamak gerekiyor.
+
+Metafizik genellikle şu soruyla özdeşleştirilir: **Dünyada ne vardır?** Sayılar var mıdır, olası dünyalar var mıdır, bütünlerden ayrı olarak parçalar var mıdır?
+
+Fine bu çerçeveyi yetersiz buluyor. Ona göre asıl felsefi iş, var olanları saymak değil, **aralarındaki temel ilişkileri** açıklamaktır.
+
+Ünlü bir örneği bu farkı gösterir. Sokrates ile "Sokrates'i içeren tekil küme" — {Sokrates} — birbirinden ayrılamaz: Biri varsa öteki de vardır, zorunlu olarak. Klasik kiplik mantığı ikisini simetrik görür.
+
+Ama sezgimiz simetrik değil. **Kümenin özü** Sokrates'e bağlıdır; Sokrates'in özü kümesine bağlı değildir. Sokrates'in ne olduğunu anlatırken hiçbir kümeden söz etmemiz gerekmez; kümenin ne olduğunu anlatırken Sokrates'ten söz etmek zorundayız.
+
+Fine'ın 1994 tarihli **"Essence and Modality"** makalesi tam bu noktadan hareket eder ve etkili bir sonuç çıkarır: **Öz, kiplikle tanımlanamaz.** Zorunluluk özden türer, tersi değil.
+
+Bu, Aristoteles'ten beri süren bir tartışmanın modern mantık araçlarıyla yeniden açılmasıydı.
+
+## Temellendirme: felsefenin yeni fiili
+
+Fine'ın adı bugün en çok **grounding** — Türkçede "temellendirme" ya da "ontolojik açıklama ilişkisi" — kavramıyla anılıyor.
+
+Fikir şu: Felsefede sık kullandığımız ama çözümlemediğimiz bir bağlaç var — **"…sayesinde", "…olduğu için", "…kılan şey"**.
+
+Bir eylem, acıyı azalttığı **için** iyidir. Bir tümce, dünya öyle olduğu **için** doğrudur. Zihinsel bir durum, beyinde şu olup bittiği **için** vardır.
+
+Bu "için" ne nedensellik ne de mantıksal içerimdir. Ayrı bir ilişkidir ve Fine'a göre metafiziğin asıl konusu budur: **Neyin neyi kıldığı.**
+
+Kavramın getirdiği kolaylık şu: "X gerçekten var mıdır?" gibi kısır sorular yerine, "X, neyin sayesinde vardır?" sorulabiliyor. Ahlaki olgular doğal olgularda temellenir mi? Toplumsal olgular bireysel olgularda? Bu sorular artık analitik metafiziğin ana gündemi.
+
+Fine ayrıca **mereoloji** — parça-bütün ilişkisi — alanında da kurucu çalışmalar yaptı.
+
+## Neden geri döndü?
+
+Metafiziğin dönüşünün üç nedeni var.
+
+**Birincisi teknik.** Kripke'nin 1970'lerdeki *Adlandırma ve Zorunluluk* çalışmasıyla kiplik mantığı olgunlaştı ve zorunluluk üzerine kesin konuşmak mümkün hâle geldi. Pozitivistlerin "anlamsız" dediği cümlelerin çoğu, aslında araçsızlıktan bulanık görünüyordu.
+
+**İkincisi bilimsel.** Kuantum mekaniği, kozmoloji ve sinirbilim, kendi başlarına yanıtlayamadıkları sorular üretiyor: Bir bütün, parçalarına indirgenebilir mi? Zaman geçiyor mu, yoksa yalnızca bir boyut mu? Bu köşede bu ay ele aldığımız [Bilkent PhilFest'in kuantum oturumu](/haber/bilkent-philfest-26-felsefe-senligi) da aynı kesişme noktasında duruyor.
+
+**Üçüncüsü örtük varsayımlar.** Gündelik ve bilimsel konuşmamızın altında farkında olmadığımız metafizik kabuller var. Fine'ın çalışmasının değeri, bu kabulleri görünür kılması.
+
+## İki tür filozof
+
+Felsefe tarihinde bazı düşünürler yeni sorular sorar; bazıları eski soruları yeniden kurar.
+
+Fine ikinci gruptan. Sorduğu sorular — öz nedir, ne neyi kılar, parça bütünle nasıl ilişkilenir — Aristoteles'ten beri sorulan sorular.
+
+Farkı, bunları **modern mantığın kesinliğiyle** yeniden kurması. Ve kurarken, bir çağın gözden düşürdüğü bir alanı geri getirmesi.
+
+Rescher Ödülü'nün "sistematik metafizik" şartı da bu yüzden anlamlı: Ödül, parça parça sorunlara verilen zekice yanıtları değil, **bir bütün kurma çabasını** ödüllendiriyor.
+
+## Türkçede
+
+Fine'ın çalışmaları Türkçeye çevrilmedi. "Temellendirme" tartışması Türkiye'de daha çok analitik felsefe dergileri üzerinden takip ediliyor — sitemizde ele aldığımız [Öncül Analitik Felsefe](/haber/oncul-analitik-felsefe-turkiye) dosyasında bu hattı incelemiştik.`,
+  },
+  {
+    title: "Tekniği düşünmek: İstanbul Medeniyet'te öğrenci kongresi ekimde",
+    slug: "medeniyet-teknik-ve-felsefe-kongresi",
+    summary:
+      "İstanbul Medeniyet Üniversitesi Felsefe Bölümü'nün ikinci öğrenci kongresi 22-23 Ekim'de. Başlık 'Teknik ve Felsefe' — ve çağrı metni, Aristoteles'in tekhne'sinden Simondon'un teknik nesnelerine uzanan bir hattı liseden lisansüstüne bütün öğrencilere açıyor.",
+    seoTitle: "İstanbul Medeniyet Üniversitesi II. Öğrenci Kongresi: Teknik ve Felsefe",
+    metaDescription:
+      "İstanbul Medeniyet Üniversitesi Felsefe Bölümü II. Öğrenci Kongresi 'Teknik ve Felsefe' 22-23 Ekim 2026'da. Aristoteles'ten Simondon'a teknik kavramı.",
+    contentType: "HABER",
+    coverImage: "https://felsefe.medeniyet.edu.tr/documents/felsefe/ii-ogrenci-kongresi.jpeg",
+    imageCredit: "Kongre afişi · İstanbul Medeniyet Üniversitesi Felsefe Bölümü",
+    featured: true,
+    sourceName: "İstanbul Medeniyet Üniversitesi Felsefe Bölümü",
+    sourceUrl: "https://felsefe.medeniyet.edu.tr/tr/etkinlikler/istanbul-medeniyet-universitesi-felsefe-bolumu-ii-ogrenci-kongresi-teknik-ve-felsefe",
+    publishedAt: "2026-09-01T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["konferans", "teknoloji-felsefesi", "akademi", "yapay-zeka", "antik-felsefe"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "İstanbul Medeniyet Üniversitesi Felsefe Bölümü II. Öğrenci Kongresi: Teknik ve Felsefe",
+        publisher: "İstanbul Medeniyet Üniversitesi",
+        url: "https://felsefe.medeniyet.edu.tr/tr/etkinlikler/istanbul-medeniyet-universitesi-felsefe-bolumu-ii-ogrenci-kongresi-teknik-ve-felsefe",
+        primary: true,
+      },
+    ],
+    content: `Türkiye'de felsefe kongrelerinin çoğu akademisyenler içindir. Öğrenciler dinleyici koltuğunda oturur.
+
+İstanbul Medeniyet Üniversitesi Felsefe Bölümü'nün öğrenci kongresi bu düzeni tersine çeviriyor: Konuşan taraf öğrenciler. Ve kapı yalnızca lisansüstüne değil, **liseye kadar** açık.
+
+İkincisi **22-23 Ekim 2026**'da toplanıyor. Başlık: **Teknik ve Felsefe.**
+
+Başvurular 1 Ağustos'ta kapandı; program yaklaştıkça duyurulacak.
+
+## Çağrı metni bir ders gibi kurulmuş
+
+Kongrenin duyuru metni, alışıldık davet dilinden farklı. Tek bir uzun cümlede tekniğin felsefe tarihindeki güzergâhını çiziyor ve bunu yaparken bir okuma listesi de veriyor.
+
+**Aristoteles**'le başlıyor: *tekhne*, var olanın hakikatini meydana getiren bir **poiesis** ve bilgi türü olarak konumlanıyor. Bu, tekniği "araç kullanımı" saymanın önündeki ilk engel. Aristoteles'te tekhne bir yapma bilgisidir — hem beceri hem kavrayış.
+
+**Francis Bacon**'da anlam değişiyor: Bilgi, doğaya egemen olmanın ve pratik güce dönüşmenin aracı hâline geliyor. Modern bilimin programı burada kuruluyor.
+
+**Marx**, tekniği üretim güçlerinin gelişimi ve toplumsal dolayımın kurucu unsuru olarak çözümlüyor. Teknik artık yalnızca insan-doğa ilişkisi değil; insan-insan ilişkisinin de belirleyeni.
+
+**Walter Benjamin**, sanat eserinin teknik yeniden-üretilebilirlik çağındaki ontolojik dönüşümünü ve estetiğin siyasallaşması olanaklarını gündeme getiriyor. Fotoğraf ve sinema, "biriciklik" kavramını ortadan kaldırıyor.
+
+**Heidegger**, modern tekniğin özünü bir **çerçeveleme** — *Gestell* — olarak okuyor ve insanı varlığın gizinden uzaklaştıran tehlikeye karşı uyarıyor.
+
+**Gilbert Simondon** ise teknik nesnelerin kendilerine özgü bir varoluş tarzı olduğunu, teknik kültürün insanla yeni bir bağ kurduğunu savunuyor.
+
+Metnin bağladığı yer önemli: Teknik, felsefe tarihinin her döneminde insanın doğayla ilişkisinde **sınırları zorlayan, geleceği kuran en ikircikli kavramlardan biri** olmuştur.
+
+## On tema, üç format
+
+Kongre on tema öneriyor ve listede alışıldık olmayan başlıklar var:
+
+Çağdaş teknik · Yapay zekâ · **Türk düşüncesinde teknik** · Klasik düşüncede teknik · Etik ve teknoloji · Bilgi ve teknoloji · Teknik ve ontoloji · Teknoloji ve estetik · **Teknoloji ve feminizm** · **Teknoloji ve ekoloji**
+
+"Türk düşüncesinde teknik" başlığı, Türkiye'de son dönemde belirginleşen bir arayışın parçası. Sitemizde ele aldığımız [Anadolu Nazariyatı dergisi](/haber/turkiye-felsefe-dergileri-haritasi) ve [Yalçın Koç'un çalışmaları](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) da aynı soruya farklı yerlerden yaklaşıyor: Kendi kavramlarımızdan hareketle düşünmek mümkün mü?
+
+Daha dikkat çekici olan biçim tercihi: Sunumlar metinle sınırlı değil. **Poster sunumları ve kısa videolar** dahil, felsefi bir düzleme dayanmak kaydıyla her türlü yaratıcı anlatı kabul ediliyor.
+
+Bu, bir felsefe kongresi için cesur bir açılım. Ve konuyla tutarlı: Tekniğin düşünceyi nasıl biçimlendirdiğini tartışan bir toplantının, kendi sunum tekniğini de sorgulaması yerinde.
+
+## Neden şimdi?
+
+Teknik kavramı bugün Türkiye'de ve dünyada iki yönden basınç altında.
+
+Bir yandan yapay zekâ, tekniğin insan zihnine değil, **insan zihninin yerine** geçme iddiasıyla ortaya çıkıyor. Sitemizde bu dönem izlediğimiz tartışmaların çoğu — [yapay zekâ yazarlığı yasağından](/haber/philosophy-public-affairs-yapay-zeka-yasagi) [sınıftaki kullanımına](/haber/yapay-zeka-felsefe-egitimi-sinif) kadar — bu basıncın belirtileri.
+
+Öte yandan iklim krizi, tekniğin doğayla ilişkisini yeniden açıyor. Bacon'ın "doğaya egemen olma" programının bedelini hesaplayan bir dönemdeyiz.
+
+Heidegger'in *Gestell* kavramı tam bu kesişimde duruyor: Modern teknik, doğayı ve giderek insanı, kullanıma hazır bir kaynak olarak çerçeveliyor.
+
+Kongre başlığının sorduğu asıl soru da bu:
+
+**Teknolojiyi biz mi şekillendiriyoruz, yoksa teknoloji dünyayı algılama biçimimizi mi şekillendiriyor?**
+
+## Pratik bilgiler
+
+- **Tarih:** 22-23 Ekim 2026
+- **Düzenleyen:** İstanbul Medeniyet Üniversitesi Felsefe Bölümü
+- **Katılım:** Lise, lisans ve lisansüstü öğrencileri
+- **Başvuru:** 1 Ağustos 2026'da kapandı (350-400 kelimelik özet ve kısa özgeçmişle)
+- **İletişim:** imuogrencikongresi@gmail.com
+
+Program açıklandığında ayrıntıları aktaracağız.
+
+---
+
+*Not: Bölümün duyuru sayfasındaki ilan tarihi 22 Eylül'dür; etkinlik tarihi ise metinde açıkça belirtildiği gibi 22-23 Ekim 2026'dır.*`,
+  },
+  {
+    title: "Akıl ile inanç Vancouver'da: Mantık ve Din Dünya Kongresi eylülde",
+    slug: "wocolor-2026-mantik-ve-din-vancouver",
+    summary:
+      "5. Dünya Mantık ve Din Kongresi 23-27 Eylül'de Vancouver'da toplanıyor. Program, klasik teoloji tartışmalarının yanına yapay zekâ, epistemik tutarlılık ve Jainizm'den Çin geleneğine uzanan başlıkları koyuyor. Ortak soru tek: İnsan hangi koşullarda akılcı biçimde inanabilir?",
+    seoTitle: "5. Dünya Mantık ve Din Kongresi — Vancouver, 23-27 Eylül 2026",
+    metaDescription:
+      "WoCoLoR 2026 Vancouver'da toplanıyor. Mantık, din felsefesi, yapay zekâ ve inanç epistemolojisi tartışmaları.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver_Lookout%2C_Harbour_Centre.jpg?width=1600",
+    imageCredit: "Harbour Centre, Vancouver — kongrenin oturumlarından biri SFU'nun buradaki kampüsünde · Wikimedia Commons",
+    featured: false,
+    sourceName: "5th World Congress on Logic and Religion",
+    sourceUrl: "https://5wocolor.com/",
+    publishedAt: "2026-09-01T04:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["konferans", "mantik", "din-felsefesi", "yapay-zeka", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "5th World Congress on Logic and Religion (WoCoLoR 2026)",
+        publisher: "5wocolor.com",
+        url: "https://5wocolor.com/",
+        primary: true,
+      },
+      {
+        title: "CFP: 5th World Congress on Logic and Religion – WoCoLoR",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/147573",
+      },
+      {
+        title: "CFP: 5th World Congress on Logic and Religion",
+        publisher: "Canadian Philosophical Association",
+        url: "https://www.acpcpa.ca/articles/cfp-5th-world-congress-on-logic-and-religion",
+      },
+    ],
+    content: `Akıl ile inanç arasındaki ilişki, felsefenin en eski tartışmalarından biri. Platon ve Aristoteles'ten İbn Sînâ'ya, Aquinas'tan Kant'a uzanan bir hat boyunca aynı soru sorulmuştur: **İnanmak için akla mı ihtiyaç var, yoksa aklın sınırlarının ötesinde bir inanç alanı mı var?**
+
+Bu tartışma bu ay Vancouver'da toplanıyor — ve gündeminde artık yapay zekâ da var.
+
+**5. Dünya Mantık ve Din Kongresi (WoCoLoR 2026)**, 23-27 Eylül tarihleri arasında Kanada'nın Vancouver kentinde düzenleniyor.
+
+Oturumlar üç kurumda dağıtılmış: **Simon Fraser University**'nin şehir merkezindeki Harbour Centre kampüsü, **University Canada West** ve **University of British Columbia**'nın Robson Square binası.
+
+Bildiri ve poster özetleri için son tarih haziran sonuydu; genişletilmiş özetler ağustos ortasında toplandı. Kongreye bildiri sunmadan dinleyici olarak katılmak da mümkün.
+
+## Kongrenin kapsamı: teolojiden ötesine
+
+WoCoLoR'un ayırt edici yanı, mantık ile din ilişkisini klasik doğal teoloji tartışmalarıyla sınırlamaması.
+
+Kongre kendini şöyle tanımlıyor: Mantık ile din, akıl ile iman, akılcı soruşturma ile ilahi vahiy arasındaki ilişkiyi araştırmak isteyen akademisyenler, araştırmacılar, öğrenciler ve kamuoyu için uluslararası bir forum.
+
+Katılımcı disiplinlerin listesi de bu genişliği gösteriyor: mantık, felsefe, matematik, bilgisayar bilimi, psikoloji, dilbilim ve bilişsel bilimler — buna farklı din geleneklerinden araştırmacılar ekleniyor.
+
+## Üç dikkat çekici çalışma alanı
+
+**Yapay zekâ, iman ve epistemik tutarlılık.** Programın en güncel başlığı. Sorusu şu: Bir inanç sistemi, kendi içinde tutarlı olmakla ne kazanır? Ve bu tutarlılığı bir yapay zekâ sistemi denetleyebilir mi? Sitemizde bu dönem izlediğimiz [Derrida ve arşiv](/haber/derrida-yapay-zeka-arsiv-iz-sorumluluk) tartışmasının din felsefesi tarafındaki karşılığı.
+
+**Kâr ile imanın mantığı.** Programın en sıra dışı başlığı. Kapitalizmin kâr mantığı ile dinî inancın değer üretme biçimleri arasındaki ilişkiyi konu ediniyor. Weber'in *Protestan Ahlakı*'ndan bu yana sosyolojinin alanı sayılan bir soruyu, mantık ve din felsefesi araçlarıyla yeniden açıyor.
+
+**Batı dışı gelenekler.** Jainizm, Sihizm ve Çin geleneklerinin mantık ve erdem anlayışları ayrı bir çalışma grubunun konusu. Bu, karşılaştırmalı felsefede son yıllarda güçlenen bir eğilimin parçası — ve Daily Nous'ta bu ay tartışılan bir riske de değiniyor: Batı dışı düşünürleri kendi kavramlarımızın evcilleştirilmiş sürümlerine çevirmek.
+
+Program ayrıca dinî paradokslar, feminist düşünce ve mistisizm başlıklarına da yer veriyor.
+
+## Neden bugün önemli?
+
+Bütün bu başlıkların ortak noktasında tek bir soru duruyor: **İnsan hangi koşullarda akılcı biçimde inanabilir?**
+
+Bu, yalnızca din felsefesinin sorusu değil. Bugünün bilgi krizinin de sorusu.
+
+Yapay zekâ bilgi üretmeye başladı. Algoritmalar karar süreçlerinde giderek daha fazla rol alıyor. Ve insanlar aynı bilgiye erişebildikleri hâlde birbirinden tamamen farklı gerçekliklere inanıyorlar.
+
+Bu köşede bu hafta andığımız [Krista Lawlor'ın makullük çözümlemesi](/haber/krista-lawlor-being-reasonable) de aynı problemle uğraşıyordu: Bir insanın yanlış olduğunu düşünmek başka şey, neden öyle düşündüğünü anlayabilmek başka şey.
+
+Din felsefesinin bu tartışmaya katkısı tarihsel bir avantajdan geliyor. **Kanıtın yetersiz olduğu durumlarda inanmanın ne zaman meşru olduğu** sorusu, bu alanda yüzyıllardır çalışılıyor. Bu köşede geçen hafta andığımız [William James'in "İnanma İstenci"](/haber/felsefe-tarihinde-bugun-26-agustos-william-james) metni, o tartışmanın en bilinen örneği.
+
+Vancouver'daki kongre bu yüzden yalnızca akademik bir buluşma değil: Yirmi birinci yüzyılda "akıl" dediğimiz şeyin anlamını yeniden düşünmek için bir zemin.`,
+  },
+  {
+    title: "Matematik neden işe yarıyor? FilMat 2026 Bologna'da toplanıyor",
+    slug: "filmat-2026-bologna-matematik-felsefesi",
+    summary:
+      "İtalyan matematik felsefesi ağının beşinci konferansı 9-11 Eylül'de Bologna Üniversitesi'nde. Üç başlık: uygulanabilirlik, ontoloji ve akıl yürütme. Açılış konuşmalarından birinin sorusu alanın en eski problemine dokunuyor: Matematiksel nesnelerin bir doğası var mıdır?",
+    seoTitle: "FilMat 2026: Matematik Felsefesi konferansı Bologna'da",
+    metaDescription:
+      "FilMat 2026 — Philosophy of Mathematics: Applicability, Ontology and Reasoning, 9-11 Eylül 2026'da Bologna Üniversitesi'nde.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Archiginnasio_ora_blu_Bologna.jpg?width=1600",
+    imageCredit: "Archiginnasio, Bologna — üniversitenin tarihî binası · Wikimedia Commons",
+    featured: true,
+    sourceName: "FilMat — Italian Network for the Philosophy of Mathematics",
+    sourceUrl: "https://filmatnetwork.com/",
+    publishedAt: "2026-09-01T04:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "mantik", "bilim-felsefesi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "FilMat 2026 — Philosophy of Mathematics: Applicability, Ontology and Reasoning",
+        publisher: "FilMat Network",
+        url: "https://filmatnetwork.com/",
+        primary: true,
+      },
+      {
+        title: "FilMat — the Italian network for the philosophy of mathematics",
+        publisher: "filmatnetwork.com",
+        url: "https://filmatnetwork.com/",
+      },
+    ],
+    content: `Bir fizikçi denklem kurar. Denklem, henüz kimsenin görmediği bir parçacığın varlığını öngörür. Yıllar sonra parçacık bulunur.
+
+Bu neden mümkün?
+
+Soru masum görünür ama matematik felsefesinin en zor problemidir. Fizikçi **Eugene Wigner** 1960'ta buna bir ad verdi: matematiğin doğa bilimlerindeki **makul olmayan etkililiği**.
+
+Bu problem, 9-11 Eylül 2026'da Bologna Üniversitesi'nde toplanacak konferansın merkezinde.
+
+**FilMat 2026 — Philosophy of Mathematics: Applicability, Ontology and Reasoning**, İtalyan matematik felsefesi ağının beşinci uluslararası konferansı. Başlıktaki üç sözcük, alanın bugünkü gündemini özetliyor: **uygulanabilirlik, ontoloji ve akıl yürütme.**
+
+## Üç problem
+
+### Uygulanabilirlik
+
+Matematik, insan zihninin ürettiği bir simge sistemi mi, yoksa dünyanın yapısını mı okuyor?
+
+Eğer birincisiyse, fiziğe bu kadar iyi oturması açıklanmayı bekleyen bir mucize. Eğer ikincisiyse, matematiksel nesnelerin nerede olduğunu söylememiz gerekiyor.
+
+Bu ikilem, alanın bütün öteki tartışmalarını besliyor.
+
+### Ontoloji
+
+Konferansın açılış konuşmalarından biri, Ohio State Üniversitesi'nden **Chris Pincock**'a ait ve başlığı doğrudan bu probleme dokunuyor: **"Matematiksel nesnelerin bir doğası var mıdır?"**
+
+Soru şöyle açılıyor. Bir matematikçi üçgenler üzerine çalışırken neyle uğraşıyor? Fiziksel dünyada kusursuz bir üçgen yok — çizilen her üçgenin kenarları kalınlık taşır. Öyleyse "üçgen" nedir?
+
+**Platoncu** yanıt: Matematiksel nesneler zaman ve mekân dışında, zihinden bağımsız olarak vardır. Matematikçi keşfeder, icat etmez.
+
+**Kurgucu** yanıt: Matematik yararlı bir kurgudur. "İki asal sayı arasında…" demek, bir romanda "Anna Karenina şunu düşündü" demek gibidir — doğruluk kurgunun içinde geçerlidir.
+
+**Yapısalcı** yanıt: Sayılar nesne değil, bir yapıdaki konumlardır. "2" diye bir şey yoktur; doğal sayı dizisinde ikinci konum vardır.
+
+Pincock'un sorusunun keskinliği şurada: Bir nesnenin **doğası** olması, onun var olmasından fazlasını gerektirir. Sokrates'in bir doğası vardır — insan olması. Peki sayı 7'nin doğası nedir? Yoksa 7 hakkında söylenebilecek her şey, onun öteki sayılarla ilişkilerinden mi ibarettir?
+
+Bu, sitemizde bugün ele aldığımız [Kit Fine'ın öz kavramıyla](/haber/kit-fine-rescher-odulu-metafizik) doğrudan kesişiyor.
+
+### Akıl yürütme
+
+Üçüncü başlık son yılların en canlı alanı: Matematikçiler fiilen nasıl akıl yürütür?
+
+Klasik görüş, matematiksel kanıtı biçimsel bir çıkarım zinciri sayar. Ama gerçek matematik pratiği böyle görünmüyor: Diyagramlar kullanılıyor, "açıkça görülüyor ki" deniyor, bilgisayar destekli kanıtlar kabul ediliyor.
+
+Bir kanıtı **kanıt** yapan nedir? Kimsenin baştan sona okuyamayacağı, bilgisayarın ürettiği bir kanıt bilgi verir mi?
+
+## Neden Bologna?
+
+Konferansın yeri sembolik. Bologna Üniversitesi, kesintisiz olarak faaliyet gösteren en eski üniversite kabul edilir; kuruluşu 1088'e tarihlenir.
+
+Ve matematik felsefesi açısından İtalya'nın özel bir geçmişi var: Giuseppe Peano'nun aksiyomatik programı, on dokuzuncu yüzyıl sonunda matematiğin temellerini arama çabasının kurucu adımlarındandı.
+
+FilMat ağı, bu geleneği çağdaş analitik matematik felsefesiyle sürdürmeyi amaçlıyor.
+
+## Türkiye'den bakınca
+
+Matematik felsefesi Türkiye'de görece dar bir alan; çalışmalar çoğunlukla mantık ve bilim felsefesi başlıkları altında yürüyor.
+
+Oysa bu köşede bu ay ele aldığımız [dergi haritasında](/haber/turkiye-felsefe-dergileri-haritasi) görüldüğü gibi, Mantık Araştırmaları Dergisi gibi yayınlar ve Mantık Derneği gibi yapılar bir zemin oluşturuyor.
+
+FilMat'ın modeli — ulusal bir ağın düzenli uluslararası konferans üretmesi — bu zemin için izlenmeye değer bir örnek.
+
+## Pratik bilgiler
+
+- **Tarih:** 9-11 Eylül 2026
+- **Yer:** Bologna Üniversitesi Felsefe Bölümü, Bologna / İtalya
+- **Düzenleyen:** FilMat — İtalyan Matematik Felsefesi Ağı
+- **Açılış konuşmacılarından:** Chris Pincock (Ohio State University)
+
+Ayrıntılı program [filmatnetwork.com](https://filmatnetwork.com/) adresinde.`,
+  },
+  {
+    title: "Foucault: 'normal' dediğimiz şeyi kim, nasıl kurdu?",
+    slug: "foucault-iktidar-bilgi-normal",
+    summary:
+      "Delilik, hastalık, suç ve cinsellik üzerine yazdı; ama tek bir soruyu sordu: İnsan kendini nasıl özne hâline getirir ve bu süreçte iktidar nasıl işler? Foucault'nun asıl mirası kitapları değil, bir şüphe alışkanlığı — ve dijital gözetim çağında o alışkanlık her zamankinden gerekli.",
+    seoTitle: "Michel Foucault: iktidar, bilgi ve normalleştirme",
+    metaDescription:
+      "Foucault'nun arkeoloji ve soykütük yöntemleri, bilgi-iktidar ilişkisi, panoptikon çözümlemesi ve dijital gözetim çağındaki güncelliği.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Michel_Foucault_1974_Brasil.jpg?width=1600",
+    imageCredit: "Michel Foucault, Brezilya, 1974 · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/foucault/",
+    publishedAt: "2026-09-01T04:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["postmodernizm", "siyaset-felsefesi", "kavram", "tarih", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Michel Foucault",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/foucault/",
+        primary: true,
+      },
+    ],
+    content: `Bir düşünürün etkisini ölçmenin bir yolu şudur: Onu okumamış insanların bile kullandığı kavramlar bıraktı mı?
+
+**Michel Foucault** bu ölçütü fazlasıyla karşılıyor. "Söylem", "iktidar ilişkileri", "normalleştirme", "panoptik gözetim" — bu terimler bugün sosyoloji, hukuk, mimarlık, edebiyat kuramı ve gazete köşelerinde, kaynağı anılmadan dolaşıyor.
+
+1926'da Poitiers'de doğdu, 1984'te Paris'te öldü. Filozof, tarihçi, öğretmen ve siyasal eylemci olarak çalıştı.
+
+Düşüncesini tek bir kavrama indirmek mümkün değil. Ama bütün çalışmalarının altında tek bir soru duyuluyor:
+
+**İnsan kendini nasıl "özne" hâline getirir — ve bu süreçte iktidar nasıl işler?**
+
+## Delilik: bir ayrımın tarihi
+
+Erken dönem çalışması *Deliliğin Tarihi*, modern toplumların "akıl" ile "delilik" arasında kurduğu ayrımın doğal ve değişmez olmadığını göstermeye çalışır.
+
+Foucault'nun yöntemi burada belirginleşir: Bir kategoriyi kabul edip içini incelemek yerine, **kategorinin kendisinin ne zaman ve nasıl kurulduğunu** sorar.
+
+On yedinci yüzyılda Avrupa'da yoksullar, aylaklar, akıl hastaları ve suçlular aynı kurumlara kapatıldı. Foucault buna "Büyük Kapatılma" der. Delilik, bu dönemde bir **hastalık** olarak tanımlandı — yani tıbbın konusu hâline geldi.
+
+Bu bir ilerleme miydi? Foucault soruyu böyle sormaz. Sorduğu şudur: Bu tanım hangi yeni müdahale imkânlarını açtı?
+
+## Arkeoloji: bilginin yer katmanları
+
+*Kliniğin Doğuşu* ve *Kelimeler ve Şeyler*'de yöntem bir ada kavuşur: **arkeoloji**.
+
+Fikir şu: Her dönemin, neyin bilinebilir ve neyin söylenebilir olduğunu belirleyen örtük bir düzeni vardır. Foucault buna *episteme* der.
+
+Bu düzen, o dönemde yaşayan hiç kimsenin bilinçli tercihi değildir. Tıpkı bir dilin grameri gibi — konuşan onu kullanır ama kurallarını bilmez.
+
+Arkeolojinin işi, bu grameri kazıp çıkarmak.
+
+## Bilgi ile iktidar: ayrılmaz ikili
+
+Foucault'yu dünya çapında etkili kılan tez, bilgi ile iktidarın birbirinden bağımsız olmadığı.
+
+Geleneksel anlayışta bilgi, iktidarın karşısında duran tarafsız bir araçtır: Gerçeği bilirsek, iktidarı sınırlayabiliriz.
+
+Foucault daha rahatsız edici bir soru sorar: **Bilgiyi kim üretir ve hangi bilgi biçimleri hangi iktidar ilişkilerini mümkün kılar?**
+
+Yanıtı simetrik bir formülde toplanır: İktidar bilgi üretir; bilgi iktidar imkânı yaratır. Bir insanı yönetebilmek için önce onu **bilinebilir** kılmak gerekir — ölçmek, sınıflandırmak, kaydetmek.
+
+Bu yüzden hapishaneler, hastaneler, okullar ve psikiyatri kurumları Foucault'da yalnızca toplumsal kurumlar değil. İnsan davranışını sınıflandıran, ölçen, gözleyen ve **normalleştiren** mekanizmalar.
+
+*Hapishanenin Doğuşu* bu yaklaşımın en bilinen örneği.
+
+## Panoptikon: görünmez denetim
+
+Foucault'nun **Jeremy Bentham**'ın panoptikon hapishane tasarımına dair çözümlemesi, düşüncesini popüler kültüre taşıdı.
+
+Tasarım şöyle: Hücreler dairesel biçimde dizilmiş, ortada bir gözetleme kulesi var. Mahkûm kuleyi görür ama içeriyi göremez. Gözlenip gözlenmediğini asla bilemez.
+
+Foucault'nun vurguladığı nokta gözetlemenin kendisi değil. **Gözetlenme ihtimalinin** davranışı değiştirmesi.
+
+Sonuç şu: Gözetmen gerekli değildir. İnsan, izlenebileceğini bildiğinde kendi kendini denetlemeye başlar. İktidar dışarıdan uygulanan bir baskı olmaktan çıkıp **içselleşir**.
+
+Bugünün kamera sistemleri, algoritmik takip ve veri ekonomisi tartışmalarında Foucault'nun sürekli anılmasının nedeni bu. Sitemizde bu dönem ele aldığımız [MatrAIx persona simülasyonu](/haber/matraix-persona-simulasyonu) dosyası, panoptik mantığın yeni bir aşamasını gösteriyordu: İnsanları izlemek yerine, **davranışlarını önceden modellemek**.
+
+## İktidar nerededir?
+
+Foucault'nun en sık yanlış anlaşılan tezi şudur: İktidar, devletin elinde tutulan bir şey değildir.
+
+Ona göre iktidar bir **ilişkidir** ve gündelik hayatın içine dağılmıştır: aile, okul, iş yeri, hastane, cinsellik, dil. Sahip olunan bir nesne değil, işleyen bir ağdır.
+
+Bu tezin iki sonucu var. Birincisi karamsar görünür: İktidardan kaçılacak bir dışarı yoktur. İkincisi ise umut vericidir: İktidar her yerdeyse, direniş de her yerde mümkündür.
+
+## Eleştiriler
+
+Foucault eleştirisiz kabul görmüş bir düşünür değil.
+
+**Tarihsel itiraz:** Kaynak kullanımı ve kimi tarihsel iddiaları uzmanlarca sorgulandı; "Büyük Kapatılma" anlatısının kapsamı tartışmalı.
+
+**Normatif itiraz:** Jürgen Habermas'ın yönelttiği eleştiri en bilineni. Foucault bütün bilgi iddialarını iktidar ilişkilerine bağlıyorsa, kendi çözümlemesinin geçerliliğini neye dayandırıyor? Eleştiri yapabilmek için bir ölçüt gerekir; Foucault ölçütün kendisini de şüpheye açıyor.
+
+Foucault'nun yanıtı, son dönem çalışmalarında ortaya çıkar: Amaç bir ölçüt kurmak değil, **verili olanın zorunlu olmadığını göstermektir**. Bir düzenin tarihsel olarak kurulduğunu göstermek, onun değiştirilebileceğini de gösterir.
+
+## Geç dönem: kendilik kaygısı
+
+*Cinselliğin Tarihi*'nin son ciltlerinde Foucault beklenmedik bir yöne saptı: Antik Yunan ve Roma'da **kendilik pratikleri**.
+
+Buradaki ilgi, bireyin kendi üzerinde çalışarak kendini biçimlendirmesi — Yunanların *epimeleia heautou*, kendine özen dedikleri şey.
+
+Bu, iktidar çözümlemesinden bir kopuş değil, tamamlayıcısı. Eğer özne kurulmuşsa, kendini yeniden kurma imkânı da vardır.
+
+## Miras
+
+Foucault'nun etkisi felsefeyi çoktan aştı; sosyoloji, tarih, siyaset bilimi, hukuk, edebiyat ve kültürel çalışmalarda kurucu bir referans.
+
+Ama asıl mirası bir kuramdan çok bir **şüphe alışkanlığı**:
+
+Normal kabul ettiğimiz şeyler neden normaldir? Bize doğal görünen düzenleri kim, nasıl ve hangi bilgi biçimleri aracılığıyla kurdu?
+
+Bu soru, kategorilerin algoritmalarca üretildiği bir dönemde eskimiyor. Tersine — kategoriyi kuran mekanizma görünmez hâle geldikçe, sorunun kendisi daha da gerekli oluyor.
+
+## Türkçede
+
+*Deliliğin Tarihi*, *Kelimeler ve Şeyler*, *Hapishanenin Doğuşu*, *Cinselliğin Tarihi*, *Bilginin Arkeolojisi* ve Collège de France dersleri Türkçeye çevrildi. Foucault, Türkiye'de en çok okunan yirminci yüzyıl filozoflarından biri.`,
+  },
+  {
+    title: "Korkuyu düşünmek: Nistor'un korku sineması felsefesi",
+    slug: "iulia-nistor-korku-sinemasi-felsefe",
+    summary:
+      "Iulia Nistor'un yeni kitabı korku filmlerini bir tür olarak değil, felsefi bir düşünme aracı olarak ele alıyor. Sorusu şu: İnsan neden kendisini korkutan şeyi izlemeyi seçer? Yanıt, Aristoteles'in katharsis'inden Kant'ın yüce kavramına ve Kristeva'nın iğrençliğine uzanıyor.",
+    seoTitle: "Iulia Nistor — Korku sinemasının felsefesi (transcript Verlag, 2026)",
+    metaDescription:
+      "Iulia Nistor'un korku sineması ve felsefe kitabı transcript Verlag'dan çıktı. Katharsis, yüce, iğrenç ve varoluşsal kaygı kavramlarıyla korku türü.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nosferatu.jpg?width=1600",
+    imageCredit: "Nosferatu (1922, yön. F. W. Murnau) — kamu malı film karesi · Wikimedia Commons",
+    featured: false,
+    sourceName: "transcript Verlag",
+    sourceUrl: "https://www.transcript-verlag.de/",
+    publishedAt: "2026-09-01T03:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "estetik", "sinema", "psikanaliz", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "transcript Verlag — yayınevi kataloğu",
+        publisher: "transcript Verlag",
+        url: "https://www.transcript-verlag.de/",
+        primary: true,
+      },
+    ],
+    content: `Bir insan neden kendisini korkutacak bir filmi izlemeyi **seçer**?
+
+Soru bayağı görünür ama içinde bir çelişki taşır. Acıdan kaçınmak, canlılığın en temel eğilimidir. Korku ise hoşa giden bir duygu değildir — kalp atışını hızlandırır, kasları gerer, kaçma dürtüsü yaratır.
+
+Yine de milyonlarca insan, bilet parası ödeyerek korkutulmayı ister.
+
+**Iulia Nistor**'un yeni kitabı bu paradokstan başlıyor. Alman yayınevi **transcript Verlag** tarafından 2026 Mayıs'ında yayımlanan çalışma, korku sinemasını bir tür incelemesi olarak değil, **felsefi bir düşünme alanı** olarak ele alıyor.
+
+## Estetiğin kıyısındaki tür
+
+Korku sineması akademide uzun süre ikinci sınıf bir konu sayıldı. Estetik kuramı, "yüksek sanat" ile popüler tür arasındaki ayrımı korumaya çalıştı.
+
+Bu tutum son otuz yılda değişti. Noël Carroll'ın 1990 tarihli *The Philosophy of Horror* çalışması, korkunun felsefi olarak ciddiye alınabilir bir konu olduğunu gösterdi. Carroll'ın sorduğu "korku paradoksu" — kurmaca bir canavarın gerçekten korkutması nasıl mümkün? — sonraki bütün tartışmayı belirledi.
+
+Nistor'un katkısı bu geleneği sürdürmek değil, kapsamını genişletmek. Kitap, tek bir kuramsal çerçeveye bağlı kalmak yerine, korkuya farklı felsefi geleneklerden yaklaşıyor.
+
+## Dört kavram
+
+### Katharsis
+
+En eski açıklama Aristoteles'ten geliyor. *Poetika*'da tragedyanın seyircide acıma ve korku uyandırdığını, bu duyguların **arınmasını** sağladığını söyler.
+
+Korku filmi bu modelin çağdaş biçimi olarak okunabilir: Güvenli bir mesafeden yaşanan korku, gerçek kaygıları boşaltır.
+
+Ama açıklamanın sınırı var. Katharsis modeli, korku deneyiminin **neden hoşa gittiğini** açıklar; korkunun kendisinin ne olduğunu değil.
+
+### Yüce
+
+**Kant**'ın *Yargı Gücünün Eleştirisi*'ndeki **yüce** kavramı daha derin bir zemin sunuyor.
+
+Kant'a göre yüce, insanı ezen bir büyüklükle karşılaşmaktır: fırtınalı okyanus, uçurum, sonsuz gökyüzü. Bu karşılaşma önce bir sarsıntı yaratır — hayal gücü kavrayamaz. Ama ardından tuhaf bir haz gelir: İnsan, kendi aklının bu ezici büyüklüğü **düşünebildiğini** fark eder.
+
+Korku filminin yapısı buna benzer. Seyirci, kavranamaz bir tehditle karşılaşır; ama koltuğunda güvendedir. Sarsıntı ve güvenlik aynı anda vardır.
+
+### İğrenç
+
+**Julia Kristeva**'nın *abject* kavramı, korku filminin en rahatsız edici anlarını açıklar.
+
+Kristeva'ya göre iğrenç, ne özne ne nesnedir: Sınırı ihlal eden şeydir. Ceset, kusmuk, kan — bunlar bizi tiksindirir çünkü "ben" ile "ben olmayan" arasındaki çizgiyi bulanıklaştırırlar.
+
+Korku sineması bu sınır ihlalini görselleştirir. Bedenin bozulması, ölünün canlanması, insanın hayvana dönüşmesi — hepsi aynı mantığın örnekleri.
+
+### Varoluşsal kaygı
+
+Nistor'un çerçevesinin dördüncü ayağı **Heidegger** ve **Kierkegaard**'ın ayrımına dayanıyor: korku (*Furcht*) ile kaygı (*Angst*) aynı şey değildir.
+
+Korkunun bir nesnesi vardır — bıçaklı adam, canavar, karanlıktaki ses. Kaygının nesnesi yoktur; hiçliğin karşısında duyulan huzursuzluktur.
+
+En iyi korku filmlerinin ayırt edici yanı burada. Canavarı gösteren film korkutur; canavarın **olmayabileceğini** düşündüren film kaygı verir. İkincisi çok daha uzun sürer.
+
+## Toplumsal ayna
+
+Kitabın önemli bir tezi, korku türünün dönemsel kaygıların kaydını tuttuğu.
+
+1950'lerin dev böcekleri nükleer korkuydu. 1970'lerin şeytan çıkarma filmleri, sekülerleşen bir toplumun inanç bunalımıydı. 2000'lerin salgın anlatıları, küreselleşmenin bulaşıcılık tedirginliğiydi.
+
+Bugün ise ekranların, kameraların ve yapay zekânın korku filmine sızdığını görüyoruz: Gözetim korkusu, veri korkusu, kendi görüntümüzün bizden bağımsız hareket etmesi korkusu.
+
+Sitemizde bu dönem ele aldığımız [MatrAIx dosyası](/haber/matraix-persona-simulasyonu) tam bu tedirginliğin belgesel karşılığıydı — insan davranışının simüle edilebilir olması.
+
+## Neden okunmalı?
+
+Bu kitap, felsefeyi popüler kültürle buluşturan çalışmaların en verimli türünden: Filmleri felsefeye örnek diye kullanmıyor, filmlerin **kendi başlarına düşündüğünü** savunuyor.
+
+Türkiye'de sinema felsefesi son yıllarda güçlenen bir alan. Nistor'un kitabı, korku türü üzerine Türkçede yeterince bulunmayan kuramsal çerçeveyi bir arada sunması bakımından çeviri için de aday.
+
+---
+
+**Künye:** Iulia Nistor · transcript Verlag, Bielefeld · 13 Mayıs 2026 · İngilizce
+
+*Not: Kitabın Türkçe çevirisi henüz duyurulmadı.*`,
+  },
+  {
+    title: "LSE'nin doktora ödülleri: iyi tez ne demektir?",
+    slug: "lse-felsefe-doktora-odulleri",
+    summary:
+      "London School of Economics Felsefe Bölümü'nün yıllık doktora ödülleri, akademik ödüllerin çoğundan farklı bir soruyu cevaplıyor: Bir tez tam olarak neyle iyidir? Ölçütler — özgünlük, teknik yetkinlik ve disiplinlerarası katkı — genç araştırmacılara açık bir yol haritası veriyor.",
+    seoTitle: "LSE Felsefe doktora ödülleri — ölçütler ve anlamı",
+    metaDescription:
+      "LSE Felsefe, Mantık ve Bilimsel Yöntem Bölümü'nün doktora ödülleri: özgünlük, teknik yetkinlik ve disiplinlerarası katkı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/LSE_main_entrance.jpg?width=1600",
+    imageCredit: "London School of Economics ana giriş · Wikimedia Commons",
+    featured: false,
+    sourceName: "LSE — Department of Philosophy, Logic and Scientific Method",
+    sourceUrl: "https://www.lse.ac.uk/philosophy",
+    publishedAt: "2026-09-01T03:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "bilim-felsefesi", "mantik", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Department of Philosophy, Logic and Scientific Method",
+        publisher: "London School of Economics",
+        url: "https://www.lse.ac.uk/philosophy",
+        primary: true,
+      },
+    ],
+    content: `Akademik ödüller genellikle kariyerin sonunu işaretler: Bir ömür boyu süren çalışmanın tanınması.
+
+**London School of Economics** Felsefe, Mantık ve Bilimsel Yöntem Bölümü'nün doktora ödülleri farklı bir yerde duruyor. Kariyerin **başındaki** çalışmaları tanıyor.
+
+Bu, ilk bakışta küçük bir fark gibi görünür. Değil. Genç bir araştırmacı için ilk uluslararası görünürlük, akademik yolun devamını belirleyen eşiktir.
+
+## Bölüm neden bu konuda ağırlıklı?
+
+LSE'nin felsefe bölümü, adından da anlaşılacağı gibi klasik bir felsefe bölümü değil: **Felsefe, Mantık ve Bilimsel Yöntem.**
+
+Bu adlandırma tesadüf değil; bölümün kurucu geleneği **Karl Popper**'a uzanıyor. Popper LSE'de mantık ve bilimsel yöntem profesörüydü ve *Bilimsel Araştırmanın Mantığı* ile *Açık Toplum ve Düşmanları*, yirminci yüzyıl bilim felsefesinin ve siyaset felsefesinin dönüm noktalarındandır.
+
+Imre Lakatos ve John Watkins gibi isimlerin sürdürdüğü bu çizgi, bölümü bilim felsefesinde dünyanın önde gelen merkezlerinden biri yaptı.
+
+Bugün bölüm; bilim felsefesi, mantık, karar kuramı, ahlak felsefesi ve siyaset felsefesi alanlarında çalışıyor — ve LSE'nin iktisat, siyaset bilimi, hukuk bölümleriyle iç içe.
+
+## Ölçütler ne söylüyor?
+
+Ödüllerin duyurulan ölçütleri üç başlıkta toplanıyor ve her biri, bugünün akademisinde bir tartışmanın yanıtı.
+
+### Özgünlük
+
+Alana yeni bir katkı sunmak. Bu, doktora tezinin klasik tanımıdır ama uygulaması giderek zorlaşıyor. Felsefe literatürü büyüdükçe, "yeni" olmak da güçleşiyor.
+
+Ödülün bu ölçütü öne çıkarması, tez üretiminin bir literatür özeti alışkanlığına dönüşmesine karşı bir duruş.
+
+### Teknik yetkinlik
+
+Argümantasyonun titizliği ve yöntemin sağlamlığı. Bir tez ilginç bir tez ileri sürebilir ama argümanı zayıfsa değeri sınırlıdır.
+
+Bu, LSE geleneğinin doğrudan yansıması: Popper'ın bütün programı, bir kuramın **yanlışlanabilir** biçimde ortaya konması gerektiği üzerineydi.
+
+### Disiplinlerarası katkı
+
+En dikkat çekici ölçüt bu. Felsefenin diğer alanlarla — bilim, ekonomi, siyaset, hukuk — kurduğu bağlantı ödüllendiriliyor.
+
+Bu, LSE'nin kurumsal yapısıyla tutarlı. Ama daha genel bir eğilimin de göstergesi: Felsefe, kendi içine kapalı bir disiplin olmaktan çıkıyor.
+
+Sitemizde bu dönem izlediğimiz konuların çoğu — [matematik felsefesinin fizikle ilişkisi](/haber/filmat-2026-bologna-matematik-felsefesi), [yapay zekânın epistemolojisi](/haber/yapay-zeka-felsefe-egitimi-sinif), [mantık ile din felsefesinin kesişimi](/haber/wocolor-2026-mantik-ve-din-vancouver) — aynı eğilimin parçası.
+
+## Türkiye'den bakınca
+
+Türkiye'de felsefe doktora tezleri için kurumsallaşmış, görünür bir ödül geleneği yok. Üniversitelerin kendi iç teşvikleri var, ancak alan çapında tanınan bir yapı bulunmuyor.
+
+Oysa böyle bir ödülün iki işlevi olurdu.
+
+Birincisi, genç araştırmacılara görünürlük. İkincisi — ve daha önemlisi — **ölçüt belirlemek**. Bir ödülün ölçütleri, o alanda iyi çalışmanın ne demek olduğunu açıkça söyler.
+
+LSE örneğinin öğretici yanı burada: Ödül yalnızca bir isim seçmiyor; iyi bir tezin neye benzediğini tarif ediyor.
+
+Türkiye'de kurumsallaşan yapılar var — bu köşede ele aldığımız [dergi haritasında](/haber/turkiye-felsefe-dergileri-haritasi) görüldüğü gibi hakemli yayın ağı genişliyor. Bir sonraki adım, genç araştırmacıyı görünür kılacak bir tanıma mekanizması olabilir.
+
+---
+
+*Bölümün güncel ödül duyuruları ve başvuru koşulları [lse.ac.uk/philosophy](https://www.lse.ac.uk/philosophy) adresinde yayımlanıyor.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 1 Eylül: Serres ve Cavell",
+    slug: "felsefe-tarihinde-bugun-1-eylul-serres-cavell",
+    summary:
+      "1 Eylül 1930'da Michel Serres, 1 Eylül 1926'da Stanley Cavell doğdu. Biri felsefeyi bilimle ve mitle, öteki sinemayla ve gündelik dille buluşturdu. Aynı günde doğan iki düşünür, aynı işi farklı yollardan yaptı: Felsefenin sınırını dışarıdan gelen bir şeyle açmak.",
+    seoTitle: "Felsefe Tarihinde Bugün — 1 Eylül: Michel Serres ve Stanley Cavell",
+    metaDescription:
+      "1 Eylül 1930'da Michel Serres, 1 Eylül 1926'da Stanley Cavell doğdu. İki düşünürün felsefenin sınırlarını açma biçimleri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Michel_Serres-2008a.jpg?width=1600",
+    imageCredit: "Michel Serres, 2008 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/cavell/",
+    publishedAt: "2026-09-01T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "estetik", "sinema", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Stanley Cavell",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/cavell/",
+        primary: true,
+      },
+      {
+        title: "Michel Serres",
+        publisher: "Académie française",
+        url: "https://www.academie-francaise.fr/les-immortels/michel-serres",
+      },
+    ],
+    content: `Takvimde bazı rastlantılar anlamlıdır.
+
+**1 Eylül 1930**'da Fransa'nın Agen kentinde **Michel Serres** doğdu. Dört yıl önce, **1 Eylül 1926**'da Atlanta'da **Stanley Cavell** dünyaya gelmişti.
+
+İkisi birbirinden çok uzak geleneklerde çalıştı. Serres Fransız düşüncesinin, Cavell Amerikan analitik felsefesinin içinden geldi. Birbirlerini pek okumadılar.
+
+Ama aynı işi yaptılar: **Felsefenin sınırını, dışarıdan gelen bir şeyle açmak.**
+
+## Michel Serres: gemici filozof
+
+Serres'in yolu alışılmadıktı. Önce deniz subayı okuluna girdi, Fransız donanmasında görev yaptı, sonra École normale supérieure'e geçti.
+
+Bu biyografik ayrıntı düşüncesini açıklar. Serres hiçbir zaman tek bir disiplinin içinde kalmadı; matematik, fizik, biyoloji, mitoloji, edebiyat ve din tarihi arasında dolaştı.
+
+Kendi kavramı bunu anlatır: **Hermes** — sınırları geçen, iletişimi taşıyan haberci tanrı. Serres'in erken dönem beş ciltlik dizisi bu adı taşır.
+
+Merkezî tezi şu: Bilgi, ayrı kutulara bölünemez. Lucretius'un atom şiirini okumakla akışkanlar dinamiğini okumak birbirinden kopuk işler değildir; ikisi de aynı dünyanın kavranma biçimleridir.
+
+Serres'in yöntemi bu yüzden **paralellik** kurmaktır: Bir Roma şiiri ile modern termodinamik, bir Zola romanı ile entropi kuramı arasında bağ görür.
+
+Bu yöntem eleştirildi — bağlantıların keyfi olduğu söylendi. Ama Serres'in savunması tutarlıydı: Disiplinler arasındaki duvarlar doğal değil, kurumsaldır.
+
+**Doğayla sözleşme** (*Le Contrat naturel*, 1990) kitabı bugün en çok anılan çalışması. Tezi şu: Rousseau'nun toplum sözleşmesi insanlar arasındaydı; oysa artık doğayla da bir sözleşme gerekiyor. Doğa, hukukun öznesi olmalı.
+
+Bu kitap, iklim krizi tartışmasının felsefi zeminini otuz yıl önce kurmuştu.
+
+Serres 1990'da Académie française'e seçildi ve 2019'da öldü.
+
+## Stanley Cavell: sıradan olanın filozofu
+
+Cavell'in yolu da dolambaçlıydı. Müzik eğitimi aldı, besteci olmayı düşündü, sonra felsefeye döndü. Harvard'da uzun yıllar ders verdi.
+
+Çıkış noktası **Wittgenstein** ve **J. L. Austin**'in gündelik dil felsefesiydi. Ama Cavell bu geleneği beklenmedik yerlere taşıdı.
+
+Merkezî problemi **şüphecilik**tir — ama alışıldık biçimde değil.
+
+Klasik şüphecilik sorar: Dış dünyanın var olduğunu biliyor muyum? Cavell'in ilgisi başka bir yöne kayar: **Başkalarının zihinlerine dair şüphecilik.**
+
+Bir başkasının acı çektiğini nasıl bilirim? Cavell'in yanıtı şaşırtıcıdır: Bu bir bilgi problemi değildir. Şüphecilik çözülecek bir bulmaca değil, **insanlık durumunun bir parçasıdır**.
+
+Buradan geliştirdiği kavram **kabul etme** — *acknowledgment*. Başkasının acısını "bilmek" değil, ona karşılık vermek. Bilgi eksikliği değil, **kayıtsızlık** asıl sorundur.
+
+Cavell'i özgün kılan, bu düşünceyi felsefe metinlerinin dışında aramasıydı.
+
+Sinemayı ciddiye alan ilk büyük analitik filozoflardandır. *Pursuits of Happiness* kitabında 1930-40'ların Hollywood komedilerini — "yeniden evlenme komedileri" dediği türü — ahlak felsefesi metni olarak okur. Bu filmlerde çiftler ayrılır ve yeniden birleşir; Cavell'e göre bu, karşılıklı tanınmanın ve birlikte yaşamayı yeniden seçmenin dramıdır.
+
+Shakespeare üzerine yazdı: *Kral Lear*'ı, kabul etmenin reddedilmesinin trajedisi olarak okudu. Emerson ve Thoreau'yu Amerikan felsefesinin ciddiye alınmamış kurucuları olarak yeniden okuttu.
+
+Cavell 2018'de öldü.
+
+## Ortak nokta
+
+İki düşünür de felsefeyi kendi dışına açtı.
+
+Serres bunu **bilim ve mit** üzerinden yaptı: Fizik ile şiir aynı dünyayı anlatır.
+
+Cavell **sanat ve gündelik hayat** üzerinden: Bir Hollywood komedisi, Kant kadar ciddi bir ahlaki metin olabilir.
+
+İkisi de aynı itirazla karşılaştı: Bu felsefe mi?
+
+Ve ikisi de aynı yanıtı verdi — soru yanlış. Felsefenin sınırı, felsefecilerin çizdiği yerde değil, düşüncenin gittiği yerde durur.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*`,
+  },
+  {
     title: "Felsefe şenlik olur mu? PhilFest beşinci yılında 26 Eylül'de Bilkent'te",
     slug: "bilkent-philfest-26-felsefe-senligi",
     summary:
@@ -11231,6 +12110,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Korku Sineması ve Felsefe",
+    slug: "nistor-korku-sinemasi-felsefe",
+    originalTitle: null,
+    publisher: "transcript Verlag",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Iulia Nistor, korku filmlerini bir tür olarak değil felsefi bir düşünme aracı olarak ele alıyor: Aristoteles'in katharsis'i, Kant'ın yücesi, Kristeva'nın iğrenci ve Heidegger'in kaygı kavramı üzerinden korkunun estetiği.",
+    year: 2026,
+    link: "https://www.transcript-verlag.de/",
+    philosopherSlug: null,
+    postSlug: "iulia-nistor-korku-sinemasi-felsefe",
+  },
+  {
     title: "Tracks in Chaos: Philosophical Orientation and Political Reflection",
     slug: "tracks-in-chaos-geuss",
     originalTitle: null,
@@ -11609,6 +12504,99 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "İstanbul Medeniyet Üniversitesi II. Öğrenci Kongresi — Teknik ve Felsefe",
+    slug: "medeniyet-ogrenci-kongresi-2026",
+    summary:
+      "İstanbul Medeniyet Üniversitesi Felsefe Bölümü'nün ikinci öğrenci kongresi. Aristoteles'in tekhne'sinden Simondon'un teknik nesnelerine uzanan on tema; lise, lisans ve lisansüstü öğrencilerine açık.",
+    description: `Kongre çağrısı, tekniğin felsefe tarihindeki güzergâhını Aristoteles'ten Simondon'a uzanan bir hatta çiziyor: tekhne bir poiesis ve bilgi türü olarak; Bacon'da doğaya egemenliğin aracı; Marx'ta üretim güçlerinin ve toplumsal dolayımın kurucu unsuru; Benjamin'de sanat eserinin ontolojik dönüşümü; Heidegger'de Gestell; Simondon'da teknik nesnelerin kendine özgü varoluş tarzı.
+
+Temalar: Çağdaş teknik · Yapay zekâ · Türk düşüncesinde teknik · Klasik düşüncede teknik · Etik ve teknoloji · Bilgi ve teknoloji · Teknik ve ontoloji · Teknoloji ve estetik · Teknoloji ve feminizm · Teknoloji ve ekoloji.
+
+Sunumlar metinle sınırlı değil: poster sunumları ve kısa videolar dahil, felsefi bir düzleme dayanmak kaydıyla yaratıcı anlatı biçimleri kabul ediliyor.
+
+Bildiri özetleri için son başvuru tarihi 1 Ağustos 2026'ydı. İletişim: imuogrencikongresi@gmail.com`,
+    kind: "KONFERANS",
+    organizer: "İstanbul Medeniyet Üniversitesi Felsefe Bölümü",
+    topic: "Teknik ve Felsefe",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-22T06:00:00.000Z",
+    endsAt: "2026-10-23T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "İstanbul Medeniyet Üniversitesi",
+    fee: "Ücretsiz",
+    website: "https://felsefe.medeniyet.edu.tr/tr/etkinlikler/istanbul-medeniyet-universitesi-felsefe-bolumu-ii-ogrenci-kongresi-teknik-ve-felsefe",
+    sourceName: "İstanbul Medeniyet Üniversitesi Felsefe Bölümü",
+    sourceUrl: "https://felsefe.medeniyet.edu.tr/tr/etkinlikler/istanbul-medeniyet-universitesi-felsefe-bolumu-ii-ogrenci-kongresi-teknik-ve-felsefe",
+    coverImage: "https://felsefe.medeniyet.edu.tr/documents/felsefe/ii-ogrenci-kongresi.jpeg",
+    featured: true,
+    publishedAt: "2026-09-01T05:00:00.000Z",
+  },
+  {
+    title: "5. Dünya Mantık ve Din Kongresi (WoCoLoR 2026)",
+    slug: "wocolor-2026-vancouver",
+    summary:
+      "Mantık ile din, akıl ile iman ilişkisini tartışan uluslararası kongrenin beşincisi Vancouver'da. Yapay zekâ ve epistemik tutarlılıktan Jainizm ve Çin geleneklerine uzanan çalışma grupları.",
+    description: `WoCoLoR, mantık ile din, akılcı soruşturma ile ilahi vahiy arasındaki ilişkiyi araştıran akademisyenler, araştırmacılar, öğrenciler ve kamuoyu için uluslararası bir forum olarak tanımlanıyor. Katılımcı disiplinler arasında mantık, felsefe, matematik, bilgisayar bilimi, psikoloji, dilbilim ve bilişsel bilimler yer alıyor.
+
+Öne çıkan çalışma alanları: yapay zekâ, iman ve epistemik tutarlılık; kâr ile imanın mantığı; Jainizm, Sihizm ve Çin geleneklerinde mantık ve erdem; dinî paradokslar; feminist düşünce ve mistisizm.
+
+Oturumlar Simon Fraser University Harbour Centre, University Canada West ve UBC Robson Square kampüslerinde dağıtılıyor. Bildiri sunmadan dinleyici olarak katılım mümkün.`,
+    kind: "KONFERANS",
+    organizer: "World Congress on Logic and Religion",
+    topic: "Mantık, din felsefesi ve inanç epistemolojisi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-23T15:00:00.000Z",
+    endsAt: "2026-09-27T23:00:00.000Z",
+    timezone: "America/Vancouver",
+    hasTime: false,
+    city: "Vancouver",
+    country: "Kanada",
+    venue: "SFU Harbour Centre · University Canada West · UBC Robson Square",
+    website: "https://5wocolor.com/",
+    registrationUrl: "https://5wocolor.com/",
+    sourceName: "5th World Congress on Logic and Religion",
+    sourceUrl: "https://5wocolor.com/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver_Lookout%2C_Harbour_Centre.jpg?width=1600",
+    featured: false,
+    publishedAt: "2026-09-01T04:40:00.000Z",
+  },
+  {
+    title: "FilMat 2026 — Matematik Felsefesi: Uygulanabilirlik, Ontoloji ve Akıl Yürütme",
+    slug: "filmat-2026-bologna",
+    summary:
+      "İtalyan matematik felsefesi ağının beşinci uluslararası konferansı Bologna Üniversitesi'nde. Açılış konuşmalarından biri Chris Pincock'un: 'Matematiksel nesnelerin bir doğası var mıdır?'",
+    description: `FilMat, İtalya'daki matematik felsefesi araştırmacılarını bir araya getiren ağ. Beşinci uluslararası konferansın başlığı üç problemi işaret ediyor:
+
+Uygulanabilirlik — matematiğin doğa bilimlerindeki, Wigner'ın deyişiyle "makul olmayan etkililiği".
+
+Ontoloji — matematiksel nesnelerin varlık kipi. Platonculuk, kurgusalcılık ve yapısalcılık arasındaki tartışma.
+
+Akıl yürütme — matematikçilerin fiilen nasıl düşündüğü; diyagramların, sezginin ve bilgisayar destekli kanıtların epistemik statüsü.
+
+Açılış konuşmacılarından Chris Pincock (Ohio State University) "Matematiksel nesnelerin bir doğası var mıdır?" sorusunu ele alıyor.`,
+    kind: "KONFERANS",
+    organizer: "FilMat — Italian Network for the Philosophy of Mathematics",
+    speakers: "Chris Pincock (Ohio State University)",
+    topic: "Matematik felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2026-09-09T07:00:00.000Z",
+    endsAt: "2026-09-11T16:00:00.000Z",
+    timezone: "Europe/Rome",
+    hasTime: false,
+    city: "Bologna",
+    country: "İtalya",
+    venue: "Bologna Üniversitesi, Felsefe Bölümü",
+    website: "https://filmatnetwork.com/",
+    sourceName: "FilMat Network",
+    sourceUrl: "https://filmatnetwork.com/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Archiginnasio_ora_blu_Bologna.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-09-01T04:20:00.000Z",
+  },
   {
     title: "PhilFest'26 — Bilkent Üniversitesi Felsefe Şenliği",
     slug: "bilkent-philfest-26",
