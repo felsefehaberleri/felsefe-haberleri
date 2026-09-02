@@ -1489,6 +1489,1023 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Makine felsefe yazabilir mi? İlk yarışma başladı, jüride Chalmers var",
+    slug: "yapay-zeka-felsefe-yarismasi-chalmers-juri",
+    summary:
+      "Singapur'daki iki felsefeci, tamamen yapay zekâ tarafından yazılmış felsefe makalelerinin yarıştığı ilk uluslararası yarışmayı başlattı. Jüride David Chalmers ve John Hawthorne var. Ama asıl tartışma ödülde değil: Felsefede 'iyi metin'in ölçütü ne, ve o ölçütü kim koyuyor?",
+    seoTitle: "Yapay zekâ felsefe yarışması: Chalmers ve Hawthorne jüride",
+    metaDescription:
+      "Elliott Thornley ve Zachary Goodsell'in düzenlediği AI Philosophy Competition, tamamen yapay zekâ tarafından yazılmış felsefe makalelerini yarıştırıyor. Son başvuru 31 Ekim 2026.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hand-writing-exam-classroom.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/09/01/testing-ais-philosophical-writing-with-a-contest/",
+    publishedAt: "2026-09-02T06:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "akademi", "epistemoloji", "odul", "etik"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      {
+        title: "Testing AI's Philosophical Writing with a Contest",
+        publisher: "Daily Nous",
+        date: "1 Eylül 2026",
+        url: "https://dailynous.com/2026/09/01/testing-ais-philosophical-writing-with-a-contest/",
+        primary: true,
+      },
+      {
+        title: "AI Philosophy Competition",
+        publisher: "Zachary Goodsell",
+        url: "https://www.zacharygoodsell.com/ai-philosophy-competition",
+      },
+    ],
+    content: `Yapay zekâ matematikte ve kod yazmada artık olağanüstü iyi. Peki felsefede?
+
+Singapur Ulusal Üniversitesi'nden iki felsefeci — **Elliott Thornley** ve **Zachary Goodsell** — bu soruyu deneysel olarak yanıtlamaya karar verdi.
+
+1 Eylül'de duyurdukları **Yapay Zekâ Felsefe Yarışması**, türünün ilki: Katılımcılar herhangi bir felsefi konuda, **ağırlıklı olarak yapay zekâ tarafından üretilmiş** en fazla üç özgün makale gönderiyor. İnsan yönlendirmesine bir ölçüde izin var; ama her makaleyle birlikte, metnin **nasıl üretildiğini** açıklayan bir yöntem raporu da isteniyor.
+
+Son başvuru tarihi 31 Ekim 2026. Sonuçlar ocak ayı sonunda açıklanacak.
+
+## Jüri listesi tartışmanın ciddiyetini gösteriyor
+
+Yarışmanın hafife alınamayacak yanı, jürisi.
+
+Değerlendirme kurulunda **David Chalmers**, **John Hawthorne**, **Herman Cappelen**, **Cian Dorr**, **Branden Fitelson**, **Kenny Easwaran**, **Matthew Mandelkern**, **Rachel Sterken**, **Daniel Greco**, **Jake Nebel** ve **Christian Tarsney** yer alıyor. Liste genişleyecek.
+
+Bu isimler zihin felsefesi, metafizik, dil felsefesi ve karar kuramının bugünkü ana akımını temsil ediyor. Yani yarışma, marjinal bir merak değil; alanın merkezinden yürütülüyor.
+
+Ödüller: birinciye 3.000 dolar, ikinciye 2.000, üçüncüye 1.000. Ayrıca **yaratıcı yöntem** kategorisinde jürinin takdirine bırakılmış 5.000 dolarlık ayrı bir havuz var. Finansman Forethought Research'ten geliyor.
+
+## Yöntem raporu neden önemli?
+
+Yarışmanın en akıllıca tasarım kararı, ödülün yalnızca metne değil **yönteme** de verilmesi.
+
+Çünkü bugün "yapay zekâ bir makale yazdı" cümlesi neredeyse anlamsız. Aradaki fark şurada: Tek bir istem mi verildi, yoksa yüzlerce taslak üretilip elenerek mi ilerlendi? Model kendi argümanına itiraz etmesi için mi çalıştırıldı? Kaynaklar denetlendi mi?
+
+Yöntem raporu zorunluluğu, bu farkı görünür kılıyor. Ve dolaylı olarak şunu kabul ediyor: Ortaya çıkan metin, insanın kurduğu sürecin de ürünü.
+
+## Duyuruyu yapan editörün itirazı
+
+Haberi aktaran Daily Nous editörü **Justin Weinberg**, alışılmadık bir şey yaptı: Duyuruyu yayımlarken kendi karşı görüşünü de yazdı.
+
+Weinberg, araştırma aşamasında yapay zekânın bazı kullanımlarının kabul edilebilir — hatta zamanla tavsiye edilebilir — olabileceğini söylüyor. Ama **ağırlıklı olarak yapay zekâ tarafından yazılmış felsefeyi** yanlış yönelmiş buluyor.
+
+Yine de haberi paylaşma gerekçesi dikkate değer: Teknolojinin neye muktedir olduğunu bilmenin değerli olduğunu düşünüyor. Haberi vermemenin, istemediği geleceği yavaşlatmayacağını da ekliyor.
+
+Bu, gazetecilik açısından örnek bir tutum: Bir gelişmeyi onaylamadan aktarmak, ama aktarırken kendi konumunu da açıkça beyan etmek.
+
+## İki ciddi metodolojik itiraz
+
+Duyurunun altına gelen ilk yorumlar, yarışmanın kör noktasını hızla buldu.
+
+**Birinci itiraz:** Bütün jüri üyeleri değerlendirdikleri metinlerin yapay zekâ ürünü olduğunu biliyor. Bu bilgi, yargıyı kaçınılmaz olarak etkiler. Dahası — matematik ve kodun aksine — felsefede "iyi"nin nesnel ve yaygın kabul görmüş ölçütleri yok. Dolayısıyla yarışma, yapay zekâ felsefesinin insan felsefesine göre nerede durduğunu **ölçmüyor**; yalnızca kendi içinde sıralıyor.
+
+**İkinci itiraz:** Yarışma sitesi, başvuru sayısı yüksek olursa ön elemede yapay zekâ kullanılabileceğini belirtiyor. Yani yapay zekânın felsefe yeteneğini ölçen bir yarışmada, hangi metinlerin jüriye ulaşacağına yapay zekâ karar verebilir.
+
+İkinci itiraz özellikle güçlü. Bir ölçme aracının, ölçtüğü şeyin kendisi olması, bilim felsefesinde bilinen bir sorundur.
+
+## Asıl soru bu değil
+
+Bu köşede geçtiğimiz günlerde [yapay zekânın felsefe sınıfına girişini](/haber/yapay-zeka-felsefe-egitimi-sinif) ve [Philosophy & Public Affairs'in yapay zekâ yazarlığı yasağını](/haber/philosophy-public-affairs-yapay-zeka-yasagi) ele almıştık. Bu yarışma, aynı tartışmanın üçüncü aşaması.
+
+Ve tartışmanın gerçek konusu, makinenin felsefe yapıp yapamayacağı değil.
+
+Gerçek konu şu: **Felsefede bir metni iyi yapan nedir?**
+
+Eğer yanıt "argümanın geçerliliği ve özgünlüğü" ise, metni kimin yazdığı ilkece önemsizdir — ve makine er ya da geç eşiği geçecektir.
+
+Eğer yanıt, bir metnin **birinin gerçekten uğraştığı bir problemin izini taşıması** ise, o zaman yazarlık teknik bir ayrıntı değil, metnin anlamının parçasıdır.
+
+Felsefe tarihi ikinci yanıtın izlerini taşıyor. Descartes'ın *Meditasyonlar*'ı bir argüman dizisi değil, bir düşünme sürecinin kaydıdır. Wittgenstein'ın *Felsefi Soruşturmalar*'ı sonuçlarını değil, o sonuçlara giden tereddütleri yazar.
+
+Ocak ayında açıklanacak sonuçlar, bu soruya doğrudan yanıt vermeyecek. Ama jürinin hangi metinleri seçtiği — ve hangi gerekçeyle seçtiği — alanın kendi ölçütü hakkında ne düşündüğünü gösterecek.
+
+Bu yüzden yarışmanın asıl ürünü kazanan makaleler değil, **jürinin gerekçeleri** olacak.
+
+---
+
+**Ayrıntılar:** Yarışmanın koşulları ve başvuru bilgileri [zacharygoodsell.com](https://www.zacharygoodsell.com/ai-philosophy-competition) adresinde.`,
+  },
+  {
+    title: "Pocock: siyasal düşünce tarihini fikirler değil, diller yapar",
+    slug: "pocock-siyasal-diller-cambridge-okulu",
+    summary:
+      "J. G. A. Pocock, siyasal düşünce tarihini yazmanın kuralını değiştirdi: Filozofların ne düşündüğünü değil, hangi dille düşünebildiklerini sordu. 'Siyasal diller' kavramı, bir metnin ne söyleyebileceğinin önceden sınırlanmış olduğunu gösteriyor — ve bugünün siyasal tartışmalarına da uygulanabiliyor.",
+    seoTitle: "J. G. A. Pocock ve 'siyasal diller' kavramı — Cambridge Okulu",
+    metaDescription:
+      "Pocock'un siyasal diller kavramı, Cambridge Okulu yöntemi, Makyavelci An ve cumhuriyetçi geleneğin yeniden keşfi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cambridge_University_Senate_House.jpg?width=1600",
+    imageCredit: "Senate House, Cambridge Üniversitesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "History of European Ideas",
+    sourceUrl: "https://www.tandfonline.com/doi/abs/10.1080/01916599.2018.1498011",
+    publishedAt: "2026-09-02T06:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "tarih", "kavram", "demokrasi", "ronesans"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "J.G.A. Pocock and the idea of the 'Cambridge School' in the history of political thought",
+        publisher: "History of European Ideas, 45(1)",
+        url: "https://www.tandfonline.com/doi/abs/10.1080/01916599.2018.1498011",
+        primary: true,
+      },
+      {
+        title: "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition",
+        publisher: "Princeton University Press",
+        url: "https://www.degruyterbrill.com/document/doi/10.1515/9781400883516/html?lang=en",
+      },
+      {
+        title: "Political Thought and History: Essays on Theory and Method",
+        publisher: "Notre Dame Philosophical Reviews",
+        url: "https://ndpr.nd.edu/reviews/political-thought-and-history-essays-on-theory-and-method/",
+      },
+    ],
+    content: `Siyasal düşünce tarihi uzun süre şöyle yazıldı: Platon şunu düşündü, Hobbes şunu, Locke şunu. Metinler, "adalet nedir" ya da "iktidarın kaynağı nedir" gibi ölümsüz sorulara verilmiş yanıtlar olarak sıralandı.
+
+**J. G. A. Pocock**, bu yazım biçiminin bir hata olduğunu savundu. Ve yerine koyduğu kavram, alanın kuralını değiştirdi: **siyasal diller.**
+
+Yeni Zelanda doğumlu Pocock, kariyerinin büyük bölümünü Johns Hopkins Üniversitesi'nde geçirdi ve 2023'te öldü. Ama bıraktığı yöntem, bugün siyasal düşünce tarihi yazan hemen herkesin başvurduğu çerçeve.
+
+## Kavramın çıkışı
+
+Pocock'un 1962 tarihli "Siyasal Düşünce Tarihi: Yöntemsel Bir Soruşturma" makalesi, sonradan **Cambridge Okulu** diye anılacak yaklaşımın ilk bildirisi sayılır.
+
+O yıllarda Cambridge'de üç isim, gevşek biçimde aynı yöne bakıyordu: Pocock **diller**e, **Quentin Skinner** yazarın **niyet**ine, **John Dunn** ise **biyografi**ye ağırlık verdi. Bir okul kurmadılar; sonradan öyle adlandırıldılar.
+
+Pocock'un kendi kavramsal borcu ise ilginç bir yerden geliyor: Doktora danışmanı **Herbert Butterfield** ve tarih yazımının tarihine duyduğu ilgi. Yani yöntem, dil felsefesinden değil, tarihçilikten doğdu.
+
+## "Dil" ne demek?
+
+Pocock'un kullandığı anlamda bir siyasal dil, Türkçe ya da İngilizce gibi bir dil değil.
+
+Kendi tanımıyla: **deyimler, retorikler, uzmanlaşmış söz dağarcıkları ve gramerler** — hepsi birlikte, tek ama çok katmanlı bir söylem topluluğu oluşturan bir bütün.
+
+Somutlaştıralım. On yedinci yüzyıl İngiltere'sinde siyaset üzerine konuşmanın birkaç ayrı yolu vardı:
+
+- **Ortak hukuk dili:** Haklar, kadim gelenekten ve teamülden gelir. Kral da bu geleneğe tabidir.
+- **Kutsal hukuk dili:** İktidar Tanrı'dan gelir; direnmek günahtır.
+- **Cumhuriyetçi erdem dili:** Özgürlük, yurttaşların kamusal hayata etkin katılımıyla korunur.
+
+Bu üç dil aynı olayı — diyelim ki bir vergi tartışmasını — tamamen farklı biçimde kurar. Ve önemlisi: Bir düşünür, döneminde elinde bulunan dillerin dışında bir şey söyleyemez.
+
+## Kuhn'la benzerlik — ve fark
+
+Pocock bu yapıları önce "alt-diller", "söz dağarcıkları", "retorikler" diye adlandırmayı düşündü; bir dönem Thomas Kuhn'un **paradigma** terimini de ödünç aldı. Sonunda en yalın etiketi seçti: **diller**.
+
+Benzerlik gerçek. Nasıl Batlamyus astronomisi ya da Galenos tıbbı, kendi içinde neyin sorulabilir olduğunu belirliyorsa, bir siyasal dil de neyin ileri sürülebilir olduğunu belirler.
+
+Ama önemli bir fark var. Kuhn'da paradigmalar birbirini **izler**: Biri devrilir, öteki gelir. Pocock'ta diller **aynı anda var olur** ve birbiriyle yarışır. Bir metin, birden fazla dilde birden konuşabilir; hatta bir dilden ötekine geçerek argüman kazanabilir.
+
+Bu, yöntemi daha esnek ve tarihsel gerçekliğe daha yakın kılıyor.
+
+## İki büyük uygulama
+
+### Kadim Anayasa ve Feodal Hukuk (1957)
+
+Pocock'un ilk büyük kitabı, on yedinci yüzyıl İngiltere'sinde ortak hukuk düşüncesinin nasıl bir söylem oluşturduğunu gösterdi — ve bunun dönemin tarih yazımıyla ne kadar iç içe olduğunu.
+
+Buradaki bulgu şuydu: İngiliz hukukçular haklarını savunurken felsefi bir ilkeye değil, **tarihsel bir iddiaya** başvuruyorlardı. "Bu haklar kadimdir" demek, "bu haklar doğaldır" demekten farklı bir dildir ve farklı sonuçlar doğurur.
+
+### Makyavelci An (1975)
+
+Pocock'un en tanınan kitabı. Ve başlığındaki "an" sözcüğü, kitabın tezini taşıyor.
+
+**Makyavelci an**, bir cumhuriyetin kendi **zaman içindeki kararsızlığıyla** yüzleştiği andır. Cumhuriyetler, Pocock'a göre, bozulmaya açık kırılgan yapılardır: Yurttaş erdemi zayıflarsa, cumhuriyet çözülür. Machiavelli'nin asıl meselesi budur.
+
+Kitabın en tartışmalı ve en etkili iddiası ise şu: Bu cumhuriyetçi dil, Floransa'dan İngiltere'ye, oradan Atlantik'in ötesine geçti — ve **Amerikan Devrimi, Rönesans yurttaş hümanizminin son büyük eylemi** olarak okunabilir.
+
+Bu tez, Amerikan kuruluşunu Locke'çu bireysel haklar diliyle açıklayan yerleşik anlatıya doğrudan meydan okudu. Ardından on yıllar süren bir tartışma başladı — "cumhuriyetçilik-liberalizm tartışması".
+
+Machiavelli'nin bu okumasını sitemizde bugün ayrı bir dosyada ele alıyoruz: [Machiavelli'yi yanlış okumanın beş yüz yılı](/haber/machiavelli-erdem-talih-cumhuriyet).
+
+## Yöntemin bedeli
+
+Pocock'un yaklaşımı eleştirisiz kabul görmedi.
+
+**En yaygın itiraz:** Eğer her metin kendi dilinin içinde okunacaksa, o metnin bugün bize söyleyecek bir şeyi kalır mı? Hobbes'u yalnızca on yedinci yüzyıl İngiltere'sine ait bir belge olarak okursak, siyaset felsefesi tarihçiliğe indirgenmiş olmaz mı?
+
+Cambridge Okulu'nun yanıtı, bu itirazın kabulüyle başlıyor: Evet, metinler bize doğrudan yanıt vermez. Ama **tam da bu yüzden** işe yararlar. Bir metnin bizimkinden farklı bir dilde yazıldığını görmek, kendi dilimizin de bir dil olduğunu — yani zorunlu olmadığını — fark ettirir.
+
+Bu, Pocock'un Foucault'yla beklenmedik biçimde kesiştiği nokta. Sitemizde dün ele aldığımız [Foucault dosyasında](/haber/foucault-iktidar-bilgi-normal) da aynı hamle vardı: Verili olanın tarihsel olduğunu göstermek, onun değiştirilebileceğini göstermektir.
+
+## Bugün neden gerekli?
+
+Pocock'un kavramı, güncel siyasal tartışmaları çözümlemek için doğrudan kullanılabilir.
+
+Bugün Türkiye'de ya da başka bir ülkede bir siyasal tartışmayı izlerken şu soruyu sormak, tartışmanın içeriğini sormaktan çoğu zaman daha aydınlatıcıdır: **Taraflar hangi dilde konuşuyor?**
+
+Hak dili mi, güvenlik dili mi, kalkınma dili mi, kimlik dili mi, hukuk dili mi? Çünkü aynı olguyu farklı dillerde kurmak, farklı şeylerin söylenebilir olmasını sağlar — ve bazı şeylerin söylenemez kalmasını.
+
+Tartışan tarafların çoğu zaman anlaşamamasının nedeni, olgular hakkında ayrılmaları değil; **aynı olguyu aynı dilde kurmuyor** olmalarıdır.
+
+Pocock'un mirası bu: Bir siyasal metni okurken yalnızca ne dediğini değil, **hangi dilde konuştuğunu** — ve o dilin neyi söylenemez kıldığını — sormak.
+
+---
+
+*Pocock'un başlıca eserleri: The Ancient Constitution and the Feudal Law (1957), Politics, Language and Time (1971), The Machiavellian Moment (1975), Virtue, Commerce and History (1985), Barbarism and Religion (6 cilt, 1999-2015), Political Thought and History (2009).*`,
+  },
+  {
+    title: "Arda Denkel: nesne diye bir şey yok, özellik demetleri var",
+    slug: "arda-denkel-nesne-ozellik-tikelcilik",
+    summary:
+      "Türkiye'de analitik felsefenin öncüsü, Oxford'da Strawson'ın öğrencisiydi. Cambridge'den çıkan Object and Property, nesnelerin özellik demetlerinden ibaret olduğunu savunuyordu — ve David Armstrong'un yanıt yazdığı ilk Türk filozof oldu. Elli bir yaşında öldüğünde arkasında bir kütüphane bıraktı.",
+    seoTitle: "Arda Denkel (1949-2000): nesne, özellik ve tikelcilik",
+    metaDescription:
+      "Arda Denkel'in metafiziği: demet kuramı, tikel özellikler, anlamın doğal zemini ve Türkiye'de analitik felsefenin kuruluşu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bogazici_University.jpg?width=1600",
+    imageCredit: "Boğaziçi Üniversitesi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Boğaziçi Üniversitesi Felsefe Bölümü",
+    sourceUrl: "https://phil.boun.edu.tr/people/arda-denkel",
+    publishedAt: "2026-09-02T05:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["kavram", "epistemoloji", "akademi", "tarih", "zihin-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Arda Denkel — Boğaziçi University Department of Philosophy",
+        publisher: "Boğaziçi Üniversitesi",
+        url: "https://phil.boun.edu.tr/people/arda-denkel",
+        primary: true,
+      },
+      {
+        title: "Object and Property",
+        publisher: "Cambridge University Press, Cambridge Studies in Philosophy",
+        url: "https://www.cambridge.org/core/books/object-and-property/C9B4F509E30840A34B8C287439AA1F18",
+      },
+      {
+        title: "Arda Denkel's Resemblance Nominalism",
+        publisher: "D. M. Armstrong, The Philosophical Quarterly 41(165), 1991",
+        url: "https://doi.org/10.2307/2220081",
+      },
+    ],
+    content: `Elinizde bir elma var. Kırmızı, yuvarlak, sert, belli bir ağırlıkta.
+
+Şimdi bu özellikleri tek tek çıkarın. Rengini alın. Biçimini alın. Sertliğini, ağırlığını, kokusunu, tadını alın.
+
+Geriye ne kalır?
+
+Felsefe tarihinin klasik yanıtı: Geriye **taşıyıcı** kalır. Özelliklerin üzerine iliştiği, kendisi özelliksiz olan bir dayanak — Aristoteles'in *hypokeimenon*'u, Locke'un "bilmediğimiz bir şey"i.
+
+**Arda Denkel**'in yanıtı: Geriye hiçbir şey kalmaz. Çünkü özelliklerin altında bir şey yoktur. **Nesne, özelliklerin bir arada bulunmasından ibarettir.**
+
+## Oxford'dan Boğaziçi'ne
+
+Denkel 6 Temmuz 1949'da doğdu. Saint-Benoît'dan mezun olduktan sonra ODTÜ'de Şehir ve Bölge Planlama okumaya başladı — ama lisans yıllarında **Teo Grünberg**, **Hüseyin Batuhan** ve **Cemal Yıldırım**'ın derslerine girdi.
+
+Bu üç isim tesadüf değil: Türkiye'de mantık ve bilim felsefesi geleneğini kuran kuşaktır. Denkel'in yönü orada belirlendi.
+
+1972'de mezun oldu ve Oxford'a gitti. Doktorasını **P. F. Strawson**'ın danışmanlığında, dil felsefesi alanında yaptı. 1977'de tamamladığı tezinin adı *Communication and Meaning*'di; yirmi iki yıl sonra bunu genişleterek *The Natural Background of Meaning* (1999) kitabını yazacaktı.
+
+Strawson'ın öğrencisi olmak önemli bir ayrıntı. Strawson, *Individuals* (1959) kitabıyla **betimleyici metafizik** programını başlatmıştı: Kavram çözümlemesinin metafizikle birleştiği, dilin yapısından dünyanın yapısına giden bir yol. Denkel'in bütün çalışması bu programın içinde durur — ve bir noktada ondan ayrılır.
+
+Türkiye'ye döndükten sonra **Boğaziçi Üniversitesi** Felsefe Bölümü'ne girdi ve ömrünün sonuna kadar orada kaldı. 1985-1989 arasında iki kez Wisconsin Üniversitesi'nde misafir profesör oldu; 1996-1999 arasında **Avrupa Analitik Felsefe Derneği**'nin (ESAP) yönetim kurulunda görev yaptı.
+
+21 Mayıs 2000'de, uzun bir beyin tümörü mücadelesinin ardından, elli bir yaşında öldü.
+
+## Object and Property: iki tez
+
+Denkel'in en iddialı kitabı, 1996'da **Cambridge University Press**'in *Cambridge Studies in Philosophy* dizisinden çıktı. Bu dizi, analitik felsefenin en seçkin monografi serilerinden biridir.
+
+Kitabın iki ana tezi var.
+
+### Birinci tez: nesne = özellik demeti
+
+Denkel, **demet kuramı**nı (bundle theory) savunuyor: Nesneler, özelliklerin belli bir konumda **bir arada bulunmasından** (compresence) ibarettir. Özelliklerin altında ayrı bir taşıyıcı yoktur.
+
+Bu kuram yeni değil — Hume'a, hatta Berkeley'e uzanır. Ama klasik itirazları da bilinir:
+
+**İtiraz 1 — Ayırt edilemezlik.** İki nesne bütün özelliklerinde aynıysa, demet kuramına göre aynı nesne olurlar. Oysa uzayın iki farklı yerinde duran iki özdeş küre iki ayrı nesnedir.
+
+**İtiraz 2 — Değişim.** Bir nesne özelliklerinden ibaretse, bir özelliği değiştiğinde nesne de değişmiş — yani başka bir nesne olmuş — olmaz mı? Oysa ısıtılan demir hâlâ aynı demirdir.
+
+Denkel'in kitabı, tam bu iki itiraza yanıt vermek üzere kurulmuştur.
+
+### İkinci tez: özellikler tikeldir
+
+Asıl özgün hamle burada. Denkel, özelliklerin **tikel** olduğunu savunuyor: Bu elmanın kırmızılığı ile şu elmanın kırmızılığı, aynı şeyin iki örneği değil, **iki ayrı varlıktır**.
+
+Bu görüş çağdaş metafizikte **trop kuramı** diye anılır. Denkel'in tikelciliği (particularism), tropların bağımsız değil, içinde bulundukları nesneye **bağımlı** varlıklar olduğunu söylemesiyle ayrılır — literatürde bu, "doyum kuramı" (saturation theory) olarak geçer.
+
+Peki kırmızılığın birçok şeyde ortak olarak bulunduğu izlenimi nereden geliyor?
+
+Denkel'in yanıtı sade ve radikal: **Bizim kavramsallaştırma biçimimizden.** Benzerlik dünyada vardır; ama "aynı özellik" dediğimiz şey, benzer tikellerin zihinsel olarak gruplanmasıdır.
+
+Böylece kitabın temel tezi şu biçimi alır: Fiziksel dünyanın temel birimleri **tözlerdir**; ama varlığın çözümlemedeki en son birimleri **tikel özelliklerdir**.
+
+## Armstrong'un yanıtı
+
+Denkel'in uluslararası konumunu gösteren en somut kanıt şudur: **D. M. Armstrong** — yirminci yüzyılın en etkili metafizikçilerinden biri, tümellerin gerçekliğini savunan realizmin baş temsilcisi — 1991'de *The Philosophical Quarterly*'de "Arda Denkel'in Benzerlik Adcılığı" başlıklı bir makale yazdı.
+
+Bu, sıradan bir atıf değil. Armstrong, kendi konumunun karşıtını temsil eden bir görüşü, o görüşü savunan kişinin adıyla tartışmaya değer buldu.
+
+Türkiye'den çıkan analitik felsefe çalışmalarının uluslararası literatürde bu düzeyde muhatap alındığı örnekler azdır.
+
+## Anlamın doğal zemini
+
+Denkel'in ikinci büyük çalışma alanı, doktorasından gelen konuydu: **anlam nasıl mümkün olur?**
+
+*Anlamın Kökeni* (1984) ve İngilizce genişletilmiş sürümü *The Natural Background of Meaning* (1999), Grice geleneğinden hareket eder: Anlam, konuşanın niyetlerine ve dinleyende yaratmayı amaçladığı etkiye dayanır.
+
+Denkel'in katkısı, bu kuramın **doğal zeminini** aramaktır. Yani: Dilsel anlam, dil öncesi iletişim biçimlerinden — işaret etmeden, gösterme davranışından, ortak dikkatten — nasıl doğar?
+
+Bu soru bugün bilişsel bilim ve gelişim psikolojisinde canlı bir araştırma alanı. Denkel bunu, o alanların bugünkü verileri ortaya çıkmadan önce, kavramsal düzlemde kurmuştu.
+
+## Türkiye'ye ne bıraktı?
+
+Denkel'in mirası iki katmanlı.
+
+**Birincisi kurumsal.** Türkiye'de felsefe, geleneksel olarak kıta felsefesi ikliminde yetişti: fenomenoloji, varoluşçuluk, Alman idealizmi. Denkel, analitik geleneği bir alternatif değil, **eşit meşruiyette bir çalışma biçimi** olarak yerleştirdi. Boğaziçi Felsefe Bölümü'nün bugünkü karakteri büyük ölçüde onun eseridir.
+
+**İkincisi dilsel.** Denkel Türkçe yazdı — ve zor konuları Türkçede zorlamadan yazdı. *Bilginin Temelleri*, *Nesne ve Doğası*, *Anlam ve Nedensellik*, *İlkçağ'da Doğa Felsefeleri* ve iki ciltlik *Düşünceler ve Gerekçeler*, bugün hâlâ okunan ders kitaplarıdır.
+
+Bu köşede daha önce ele aldığımız [Türkçede felsefe dili tartışmasında](/haber/yalcin-koc-turkcede-felsefe-dili-anadolu-mayasi) sorulan soruya, Denkel bir kuram üreterek değil, **yazarak** yanıt verdi: Türkçede analitik metafizik yapılabilir, çünkü işte yapıldı.
+
+## Bugün nasıl okunmalı?
+
+Denkel'in nesne kuramı, bugün metafizikte yeniden canlanan bir tartışmanın içinde duruyor.
+
+Sitemizde dün ele aldığımız [Kit Fine'ın öz kavramı](/haber/kit-fine-rescher-odulu-metafizik) ile Denkel'in tikelciliği aynı soruyu farklı yönden kuşatıyor: Bir şeyin ne olduğunu belirleyen nedir? Fine "öz" der; Denkel "belli bir konumda bir araya gelmiş tikel özellikler" der.
+
+İkisi de aynı yerde buluşur: **Tözün gizemli çekirdeğine başvurmadan** bireyleşmeyi, özdeşliği ve değişimi açıklamak.
+
+Denkel'in kitabının hâlâ okunuyor olmasının nedeni bu. Bir metafizik önerisi, ancak kendi itirazlarını da taşıyorsa yaşar.
+
+---
+
+**Kitapları:** Anlaşma: Anlatma ve Anlama (1981) · Bilginin Temelleri (1984) · Anlamın Kökeni (1984) · Nesne ve Doğası (1986) · Reality and Meaning: A Particularistic Point of View (1995) · Object and Property (Cambridge UP, 1996) · Anlam ve Nedensellik (1996) · Düşünceler ve Gerekçeler I-II (1997) · İlkçağ'da Doğa Felsefeleri (1998) · The Natural Background of Meaning (1999).`,
+  },
+  {
+    title: "Augustinus'un iki yeni vaazı bulundu: cadı, ölü peygamber ve teodise",
+    slug: "augustinus-iki-yeni-vaaz-pelplin",
+    summary:
+      "Würzburglu Latinist Christian Tornau, Polonya'daki bir manastır elyazmasında Augustinus'a ait iki bilinmeyen vaaz buldu. Konu, Endor Cadısı'nın ölü peygamberi çağırması — yani Tanrı'nın her şeye gücü yeter mi sorusu. Vaazlar bir yanıt vermiyor; cemaate düşünme payı bırakıyor.",
+    seoTitle: "Augustinus'un iki yeni vaazı Pelplin elyazmasında bulundu",
+    metaDescription:
+      "Christian Tornau'nun bulduğu iki yeni Augustinus vaazı, Endor Cadısı ve teodise sorununu ele alıyor. CSEL edisyonu 2026 sonunda.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_St_Augustine_-_WGA02709.jpg?width=1600",
+    imageCredit: "Sandro Botticelli, 'Çalışma Odasında Aziz Augustinus', 1480 dolayları, Ognissanti, Floransa · Wikimedia Commons",
+    featured: true,
+    sourceName: "Julius-Maximilians-Universität Würzburg",
+    sourceUrl: "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/two-new-sermons-augustine-discovered/",
+    publishedAt: "2026-09-02T05:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["ortacag-felsefesi", "din-felsefesi", "arkeoloji", "tarih", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Two new sermons by St Augustine discovered",
+        publisher: "Universität Würzburg, einBLICK",
+        date: "2 Haziran 2026",
+        url: "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/two-new-sermons-augustine-discovered/",
+        primary: true,
+      },
+    ],
+    content: `2024'te bir gün, Würzburg Üniversitesi'nde Latin filolojisi profesörü **Christian Tornau**'nun telefonu çaldı.
+
+Arayan, Almanya'nın Mecklenburg-Vorpommern eyaletindeki Bad Doberan Manastır Derneği'nden biriydi. Elde, on ikinci yüzyıldan kalma bir elyazması vardı; aslen Bad Doberan Manastırı'na aitti, bugün Polonya'daki kardeş manastırda — **Pelplin**'de — saklanıyordu. İçinde Augustinus'a atfedilen altı vaaz bulunuyordu. Deşifre edilebilir miydi?
+
+Sıradan bir filoloji işi gibi görünen bu talep, bir keşfe dönüştü.
+
+**"Altı vaazdan ikisi, Augustinus'un daha önce bilinmeyen metinleri,"** diyor Tornau.
+
+## Neden önemli?
+
+Hippo Piskoposu Augustinus (354-430), Latin Hıristiyanlığının felsefi ve teolojik olarak en etkili düşünürüdür. Batı felsefesini, inayet öğretisini ve kilise anlayışını belirleyen isimdir.
+
+Ama Augustinus yalnızca bir teolog değil. *İtiraflar*'ıyla iç gözlemin, *Tanrı Devleti*'yle tarih felsefesinin, zaman üzerine yazdıklarıyla da bilinç felsefesinin kurucu metinlerinden birini bıraktı. "Zaman nedir? Kimse sormazsa biliyorum; soran birine açıklamak istediğimde bilmiyorum" cümlesi ona aittir.
+
+Böyle bir külliyata iki yeni metin eklenmesi, ölçülü ama gerçek bir olay.
+
+Tornau'nun kendisi de abartmıyor: **"Bu, 1990'da Mainz'de bulunan otuz Augustinus metni gibi sansasyonel bir keşif değil. Ama Augustinus'un geniş külliyatına iki heyecan verici metin daha ekliyoruz — hem de eleştirel bir edisyonla."**
+
+## Konu: Endor Cadısı
+
+Yeni vaazlar, Eski Ahit'in Birinci Samuel kitabındaki bir sahneyi ele alıyor.
+
+Kral Saul, Filistîlerle savaşın arifesinde çaresizdir. Dua eder; Tanrı yanıt vermez. Bunun üzerine bir cadıya — Endor'daki bir ruh çağırıcıya — başvurur. Kadın, ölmüş peygamber **Samuel**'in ruhunu çağırır ve ruh, Saul'a savaşta öleceğini bildirir.
+
+Sahne, teolojik bir bomba.
+
+Tornau soruyu net koyuyor: **"Bir ruh çağırıcı nasıl olur da bir peygamberin ruhunu çağırabilir? Bu, teodise sorununu açar: Her şeye gücü yeten bir Tanrı buna nasıl izin verir — yoksa gerçekten her şeye gücü yetmiyor mu?"**
+
+Teolojide iki yorum vardır: Ya cadının bir aldatmacasıdır — çağrılan Samuel değildir; ya da Tanrı, Saul'u kesin ölümüne karşı uyarmak için çağırmaya izin vermiştir.
+
+## Asıl bulgu: yöntem
+
+Vaazların en dikkat çekici yanı içerik değil, **biçim**.
+
+Tornau'nun aktardığına göre birinci vaaz pazar ayininde verilmiş ve **teodise sorusuyla ve iki yorumla sona ermiş**. Konu ancak izleyen çarşamba günkü ikinci vaazda tartılmış.
+
+Yani Augustinus soruyu ortaya atmış, seçenekleri sıralamış — ve cemaati birkaç gün boyunca yanıtsız bırakmış.
+
+Tornau bunu Augustinus'un tipik didaktik ve retorik yaklaşımı olarak niteliyor: **Yorum seçeneklerini sunmak, nihai hükmü vermemek, dinleyicinin kendi başına düşünmesine izin vermek.**
+
+Bu, bir vaiz için sıra dışı bir tercih. Vaaz, tanımı gereği yol gösterir. Augustinus ise burada yol göstermeyi geciktiriyor.
+
+Ve bu, üslup meselesinden fazlası. Augustinus'un *İtiraflar*'daki yönteminin de temeli budur: Soruyu okurun içinde açık tutmak, kapatmamak. Metnin etkisi, verdiği yanıttan çok, açtığı boşluktan gelir.
+
+## Sahtecilik riski ve doğrulama
+
+Augustinus'a atfedilen metinlerin sahte çıktığı örnekler var. Tornau bu yüzden temkinli ilerlemiş.
+
+Metni uzman **Clemens Weidmann** ile birlikte çözümlemiş, ayrıntılı araştırma yürütmüş ve 2025 sonbaharında **Viyana'da bir yaz okulu** düzenlemiş. Yirmi Latinist metni tartışmış ve gerçekliğini sınamış. Sonuçta hepsi aynı kanıya varmış: Vaazlar sahici.
+
+Tornau'nun gerekçesi teknik değil, üsluba dayalı: **"Üslup, mizah ve içerik, elyazmasındaki vaazların gerçekten Augustinus tarafından yazıldığını açıkça gösteriyor."**
+
+Bir metnin kime ait olduğunu üslubundan anlamak — filolojinin en eski ve en tartışmalı yöntemi. Yirmi uzmanın ortak kanaati, bu yöntemin nasıl denetlendiğini gösteriyor: tek bir kişinin sezgisiyle değil, uzmanlar topluluğunun sınamasıyla.
+
+## Elyazmasının yolculuğu
+
+Aktarım tarihini yeniden kurmak zor olmuş.
+
+**"Böyle bir elyazmasının on ikinci yüzyılda üretilmiş olması alışılmadık,"** diyor Tornau. **"Sekizinci ya da dokuzuncu yüzyıl başında bir kopya daha tipik olurdu."**
+
+Bu yüzden metnin, Aşağı Saksonya'daki **Amelungsborn Manastırı**'ndan gelen daha eski bir sürüme dayandığını çok muhtemel görüyor. Manastırın eski bir kataloğunda, aynı başlıkları ve aynı içerik sırasını taşıyan bir metin kaydı var.
+
+Ama bu doğrulanamıyor: Amelungsborn'un bütün kütüphane koleksiyonu **Otuz Yıl Savaşları** (1618-1648) sırasında yandı.
+
+Metinlerin bugüne ulaşması, dolayısıyla, bir dizi rastlantıya bağlı: Bir kopyanın yakılmayan bir manastıra ulaşması, o manastırın Polonya'daki kardeş kuruluşuna devretmesi, ve 2024'te birinin telefon açması.
+
+## Sırada ne var?
+
+Tornau, **Dorothea Weber** ve **Clemens Weidmann** ile birlikte **CSEL** (Corpus Scriptorum Ecclesiasticorum Latinorum) için eleştirel edisyonu hazırlıyor. Edisyonun **2026 sonunda** yayımlanması bekleniyor.
+
+Edisyon, metinlerin aktarım tarihini inceleyecek, içeriğini sınıflandıracak ve gerçekliğini belgeleyecek.
+
+---
+
+**Kaynak elyazması:** Pelplin, Piskoposluk Kütüphanesi, Codex 114 (195), fol. 14r. Kırmızı mürekkeple yazılmış başlık: *"Augustinus'un falcı kadın ve Samuel'in görünmesi üzerine vaazları."*
+
+*Not: Augustinus fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak Botticelli'nin 1480 dolaylarında Floransa'da yaptığı fresk kullanılmıştır.*`,
+  },
+  {
+    title: "Dört yılda bir toplanan kongre Kobe'ye gidiyor: CLMPST 2027 çağrısı açıldı",
+    slug: "clmpst-2027-kobe-bilim-felsefesi-kongresi",
+    summary:
+      "Mantık, yöntembilim ve bilim felsefesinin dünya kongresi 1960'tan beri dört yılda bir toplanıyor. On sekizincisi Ağustos 2027'de Kobe Üniversitesi'nde. Bildiri çağrısı açık — ve kongrenin adına sonradan eklenen tek sözcük, alanın son çeyrek yüzyılda nasıl değiştiğini anlatıyor.",
+    seoTitle: "CLMPST 2027 — Kobe Üniversitesi, 23-28 Ağustos 2027",
+    metaDescription:
+      "18. Uluslararası Mantık, Yöntembilim ve Bilim ve Teknoloji Felsefesi Kongresi Kobe'de. Konuşmacılar: Hasok Chang, Sonja Smets, Katie Steele, Jun Otsuka.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kobe_University_Rokkodai_Main_Building.JPG?width=1600",
+    imageCredit: "Kobe Üniversitesi Rokkodai Kampüsü ana binası · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/151989",
+    publishedAt: "2026-09-02T05:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "bilim-felsefesi", "mantik", "teknoloji-felsefesi", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "CLMPST 2027: The 18th edition of the International Congress of Logic, Methodology and Philosophy of Science and Technology",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/151989",
+        primary: true,
+      },
+      {
+        title: "CLMPST 2027 — resmî site",
+        publisher: "clmpst2027.org",
+        url: "https://clmpst2027.org/",
+      },
+    ],
+    content: `Felsefede dört yılda bir toplanan kongre azdır. Olimpiyat ritmiyle çalışan bir alan, kendine güveniyor demektir.
+
+**Uluslararası Mantık, Yöntembilim ve Bilim ve Teknoloji Felsefesi Kongresi** — kısaca **CLMPST** — 1960'tan beri bu ritimle toplanıyor. On sekizincisi **23-28 Ağustos 2027**'de Japonya'nın Kobe kentinde, **Kobe Üniversitesi**'nde yapılacak.
+
+Bildiri özeti ve sempozyum önerisi çağrısı açıldı.
+
+## Adındaki tek harf
+
+Kongrenin adı uzun süre **CLMPS** idi: *Congress of Logic, Methodology and Philosophy of Science*. Sonuna eklenen **T** — *and Technology* — yakın dönemin eklentisi.
+
+Bu, kurumsal bir ayrıntı gibi görünüyor. Değil.
+
+Bilim felsefesi yirminci yüzyıl boyunca temel olarak **bilgi**yle ilgilendi: Bir kuram ne zaman doğrulanır? Yasa nedir? Açıklama nedir? Teknoloji, bu çerçevede bilimin uygulaması sayıldı — felsefi olarak ikincil.
+
+Bu ayrım artık savunulamıyor. Bugünkü bilimin çoğu, önce **araç** olarak var oluyor: Parçacık hızlandırıcısı olmadan parçacık fiziği, sekans makinesi olmadan genomik, hesaplama gücü olmadan iklim modeli yok. Bilgi, aleti önceleyen bir şey değil.
+
+Kongrenin adına eklenen o tek harf, bu kabulün kaydı. Ve dün ele aldığımız [İstanbul Medeniyet'teki "Teknik ve Felsefe" kongresinin](/haber/medeniyet-teknik-ve-felsefe-kongresi) sorduğu soruyla aynı yere bakıyor.
+
+## Kongrenin ağırlığı
+
+CLMPST, **IUHPST/DLMPST** — Uluslararası Bilim ve Teknoloji Tarihi ve Felsefesi Birliği'nin Mantık, Yöntembilim ve Bilim ve Teknoloji Felsefesi Bölümü — himayesinde düzenleniyor. 2027 edisyonuna Japonya Bilim Felsefesi Derneği ve Kobe Üniversitesi ev sahipliği yapıyor.
+
+Son kongreler: Buenos Aires (2023), Prag (2019), Helsinki (2015), Nancy (2011), Pekin (2007).
+
+Bu listede iki şey dikkat çekiyor. Birincisi, coğrafi dağılımın kasıtlı genişliği. İkincisi, kongrenin başkentler ile alanın önde gelen üniversite merkezleri arasında gidip gelmesi.
+
+Kongrenin çağrı metni de bunu vurguluyor: **Akademik dünyanın bütün bölgelerinden ve kültürlerinden** araştırmacılar davet ediliyor.
+
+## Açılış konuşmacıları
+
+Dört isim duyuruldu ve dördü alanın dört ayrı kanadını temsil ediyor:
+
+**Hasok Chang** (Cambridge) — Bilim felsefesinde "tamamlayıcı bilim" programının kurucusu. Tezi şu: Bilim tarihi yalnızca geçmişi anlatmaz; bugünün biliminde kapanmış sayılan soruları yeniden açabilir. *Is Water H2O?* kitabı bu yaklaşımın örneğidir.
+
+**Sonja Smets** (Amsterdam) — Dinamik epistemik mantık ve kuantum mantığı alanında çalışıyor. İlgi alanı, bilginin bir grup içinde nasıl aktığını biçimsel araçlarla modellemek.
+
+**Katie Steele** (Avustralya Ulusal Üniversitesi) — Karar kuramı ve belirsizlik altında akıl yürütme. Özellikle iklim politikası gibi derin belirsizlik taşıyan alanlarda rasyonel karar sorunu üzerine yazıyor.
+
+**Jun Otsuka** (Zen University) — İstatistik felsefesi ve makine öğrenmesinin epistemolojisi. Sorusu şu: İstatistiksel çıkarım hangi metafizik varsayımlara dayanır?
+
+Dört ismin ortak paydası, hiçbirinin klasik anlamda "saf" bilim felsefesi yapmıyor olması. Hepsi, felsefeyi kendi alanının teknik pratiğine gömüyor.
+
+## Türkiye açısından
+
+CLMPST, Türkiye'den katılımın görece sınırlı kaldığı kongrelerden.
+
+Oysa alan, Türkiye'de kökü olan bir alan: Bu köşede ele aldığımız [Arda Denkel dosyasında](/haber/arda-denkel-nesne-ozellik-tikelcilik) andığımız Teo Grünberg, Hüseyin Batuhan ve Cemal Yıldırım kuşağı, tam olarak bu geleneği kurmuştu.
+
+Çağrının şimdi açılmış olması önemli: 2027 ağustosuna kadar bir yıldan fazla var. Doktora öğrencileri ve genç araştırmacılar için, bir bildiriyi bu ölçekte bir kongreye hazırlamak makul bir takvim.
+
+## Pratik bilgiler
+
+- **Tarih:** 23-28 Ağustos 2027
+- **Yer:** Kobe Üniversitesi, Rokkodai Kampüsü, Nada-ku, Kobe / Japonya
+- **Düzenleyen:** IUHPST/DLMPST · Japonya Bilim Felsefesi Derneği · Kobe Üniversitesi
+- **Kapsam:** Matematiksel mantıktan metafelsefeye, kesin bilimlerin temellerinden sosyal bilim felsefesine, teknoloji felsefesinden bilim tarihine kadar bütün konular
+- **Çağrı:** Bireysel bildiri özetleri ve sempozyum önerileri için açık
+
+Ayrıntılar [clmpst2027.org](https://clmpst2027.org/) adresinde.`,
+  },
+  {
+    title: "Machiavelli'yi yanlış okumanın beş yüz yılı",
+    slug: "machiavelli-erdem-talih-cumhuriyet",
+    summary:
+      "Adı bir sıfata dönüştü: 'makyavelist'. Oysa Machiavelli hayatının büyük bölümünü cumhuriyet savunusuna adadı, en uzun kitabını halkın bilgeliğini övmeye ayırdı ve Prens'i işsiz kaldığı bir sürgünde yazdı. Asıl radikalliği ahlaksızlığında değil — siyaseti ahlaktan ayrı bir bilgi alanı saymasında.",
+    seoTitle: "Machiavelli: erdem, talih ve cumhuriyetçi gelenek",
+    metaDescription:
+      "Machiavelli'nin virtù ve fortuna kavramları, Prens ile Söylevler arasındaki ilişki, cumhuriyetçi okuma ve 'makyavelizm' yanlış anlamasının kaynağı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg?width=1600",
+    imageCredit: "Santi di Tito, Niccolò Machiavelli portresi, 16. yüzyıl, Palazzo Vecchio, Floransa · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/machiavelli/",
+    publishedAt: "2026-09-02T04:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["siyaset-felsefesi", "ronesans", "kavram", "demokrasi", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Niccolò Machiavelli",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/machiavelli/",
+        primary: true,
+      },
+      {
+        title: "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition",
+        publisher: "J. G. A. Pocock, Princeton University Press",
+        url: "https://www.degruyterbrill.com/document/doi/10.1515/9781400883516/html?lang=en",
+      },
+    ],
+    content: `Bir düşünürün adının sıfata dönüşmesi, genellikle yanlış anlaşıldığının işaretidir.
+
+**Makyavelist**: Amaca ulaşmak için her yolu meşru gören, ilkesiz, hesapçı.
+
+Bu sıfat, onu üreten adamın hayatına neredeyse hiç uymuyor.
+
+**Niccolò Machiavelli** (1469-1527) Floransa Cumhuriyeti'ne on dört yıl memur olarak hizmet etti. Cumhuriyet düştüğünde işini kaybetti, tutuklandı, işkence gördü ve şehir dışına sürüldü. *Prens*'i o sürgünde, geri dönme umuduyla yazdı — ve kitap yaşarken yayımlanmadı.
+
+Aynı yıllarda çok daha uzun bir başka kitap daha yazıyordu: *Titus Livius'un İlk On Kitabı Üzerine Söylevler*. Konusu cumhuriyet, halkın rolü ve özgürlüğün korunması.
+
+Bu iki kitabı yan yana koymadan Machiavelli okunmaz.
+
+## Kopuş nerede?
+
+Machiavelli'nin radikalliği, kötülüğü savunmasında değil. Ondan önce de iktidar hileleri yazılmıştı.
+
+Kopuş, **soruyu değiştirmesinde**.
+
+Ortaçağ boyunca hükümdarlara yazılan öğüt kitapları — *speculum principis*, "hükümdar aynası" türü — tek bir soruyu sordu: *İyi bir hükümdar nasıl olmalı?* Yanıt erdemler listesiydi: adalet, cömertlik, merhamet, dindarlık.
+
+Machiavelli başka bir soru sordu: **İktidar fiilen nasıl kazanılır, korunur ve kaybedilir?**
+
+Bu, "olması gereken"den "olan"a geçiştir. Kendi ifadesiyle, hayal edilmiş cumhuriyetlerin peşinden gitmek yerine **şeylerin fiilî hakikatinin** ardına düşer.
+
+Ve buradan meşhur sonuç çıkar: İyi olmak isteyen bir hükümdar, iyi olmayan bu kadar insan arasında yıkıma uğrar. Öyleyse iyi olmamayı da öğrenmeli ve bunu **gerektiğinde** kullanmalıdır.
+
+Dikkat: "her zaman" değil, "gerektiğinde". Machiavelli kötülüğü tavsiye etmiyor; onu bir **araç kutusuna** koyuyor ve ne zaman açılacağını siyasal yargıya bırakıyor.
+
+## Virtù: erdem değil
+
+Machiavelli'nin en çok yanlış çevrilen kavramı **virtù**'dur.
+
+Latince *virtus*, Hıristiyan gelenekte "erdem"e dönüşmüştü: alçakgönüllülük, merhamet, sabır.
+
+Machiavelli sözcüğü Roma'daki anlamına geri döndürür: **vir** — adam. Virtù, bir insanın olayları biçimlendirme kapasitesidir. Cesaret, kararlılık, zamanlama duygusu, gerektiğinde acımasız olabilme.
+
+Bu yüzden Machiavelli'de virtù ahlaki bir nitelik değil, **etkinlik kapasitesidir**. Bir hükümdar merhametli olabilir ya da olmayabilir; virtù, hangisinin ne zaman gerektiğini bilmektir.
+
+## Fortuna: nehir ve set
+
+Virtù'nun karşısında **fortuna** durur — talih.
+
+Machiavelli'nin bu ikili için kullandığı benzetme, düşüncesinin özetidir: Talih, taşkın bir nehre benzer. Coştuğunda ovaları basar, ağaçları söker, evleri yıkar. Kimse önünde duramaz.
+
+Ama nehir sakinken **setler ve kanallar** yapılabilir. O zaman taşkın geldiğinde ya kanallara akar ya da taşkınlığı bu kadar yıkıcı olmaz.
+
+Buradaki felsefi iddia güçlüdür: İnsan olayların yarısına hükmedebilir. Tesadüf ortadan kalkmaz; ama **hazırlıklı olan** onunla baş edebilir.
+
+Bu, kaderi kabul eden antik Stoacılıktan da, her şeyi ilahi takdire bağlayan ortaçağ görüşünden de ayrılır. Machiavelli'nin insanı ne özgürdür ne belirlenmiştir — **yarı yarıya** bir varlıktır.
+
+## Söylevler: asıl kitap
+
+*Prens* ünlüdür; ama Machiavelli'nin siyasal düşüncesi *Söylevler*'de kurulur.
+
+Kitabın merkezî tezleri, "makyavelizm" klişesiyle taban tabana zıttır:
+
+**Cumhuriyet monarşiden üstündür.** Çünkü daha uzun ömürlü ve daha güçlüdür.
+
+**Çatışma iyidir.** Roma'nın büyüklüğü, patrisyenler ile plebler arasındaki sürekli çekişmeye borçludur. Machiavelli'den önce hiçbir siyaset kuramcısı iç çatışmayı bir **erdem** saymamıştı. Uyum ideali evrenseldi. Machiavelli, gerilimin kurumları canlı tuttuğunu savunur.
+
+**Halk hükümdardan daha bilgedir.** Halk, kendi çıkarını korumak ister; hükümdar, başkalarını ezmek ister. Bu yüzden özgürlüğün bekçiliği halka verilmelidir.
+
+**Yozlaşma asıl tehlikedir.** Bir cumhuriyet dışarıdan değil, içeriden — yurttaş erdeminin çürümesiyle — çöker.
+
+Bu son tez, sitemizde bugün ele aldığımız [J. G. A. Pocock'un](/haber/pocock-siyasal-diller-cambridge-okulu) "Makyavelci an" kavramının kaynağıdır: Bir cumhuriyetin kendi zaman içindeki kırılganlığıyla yüzleştiği an.
+
+## İki kitap nasıl uzlaşır?
+
+Yorumcular yüzyıllardır bu soruyla uğraşıyor. Başlıca yanıtlar:
+
+**Konjonktür okuması:** *Prens*, yozlaşmış bir düzende yeni bir devlet **kurmak** için yazılmıştır; *Söylevler*, kurulmuş bir cumhuriyeti **sürdürmek** için. Farklı görevler, farklı araçlar gerektirir.
+
+**Cumhuriyetçi okuma:** Rousseau'nun ileri sürdüğü tez. *Prens* aslında bir hiciv, gizli bir cumhuriyetçi metindir: Tiranlığın yöntemlerini açık ederek halkı uyarır.
+
+**Bütünlük okuması:** İki kitap da aynı ilkeye dayanır — siyaset, ahlaktan bağımsız kendi mantığına sahip bir alandır. Bu mantık monarşide bir, cumhuriyette başka biçim alır.
+
+Bugün akademide en yaygın kabul gören, üçüncüsüdür.
+
+## Eleştiriler
+
+Machiavelli'ye yöneltilen en ciddi itiraz, ahlaksızlık suçlaması değil.
+
+**Isaiah Berlin**'in tezi daha rahatsız edicidir: Machiavelli ahlakı reddetmez; **iki ayrı ahlak** olduğunu gösterir. Hıristiyan ahlakı ile klasik yurttaş ahlakı, ikisi de tutarlıdır, ama bağdaşmazlar. Bir siyasetçi ikisini birden yaşayamaz.
+
+Berlin'e göre Machiavelli'nin gerçek yıkıcılığı budur: **Değerlerin nihai olarak uzlaşabileceği fikrini** yıkmak.
+
+İkinci itiraz pratik: Machiavelli'nin tavsiyeleri işe yarıyor mu? Cesare Borgia — *Prens*'in örnek figürü — sonunda başarısız oldu ve yoksul öldü. Machiavelli'nin kendi diplomatik kariyeri de parlak değildi.
+
+Üçüncü itiraz tarihsel: Machiavelli'nin "şeylerin fiilî hakikati" dediği şey, aslında Rönesans İtalya'sının özgül koşullarıdır. Evrensel bir siyaset bilimi değil, bir dönemin haritasıdır.
+
+## Neden hâlâ okunuyor?
+
+Machiavelli'nin kalıcılığı, bir yöntemden geliyor: **Siyaseti kendi terimleriyle düşünmek.**
+
+Bir siyasal kararı "ahlaki mi" diye sormadan önce, "hangi güç dengesinde alındı, kimin çıkarına hizmet ediyor, ne kadar sürdürülebilir" diye sormak — bugün siyaset biliminin varsayılan tutumudur. Bu tutumun adı Machiavelli'dir.
+
+Bunun bir bedeli var ve Machiavelli bunun farkındaydı. Siyaseti ahlaktan ayırmak, ahlakı siyasetten dışlamaya kadar götürülebilir. Yirminci yüzyıl, bu kaymanın nereye vardığını gösterdi.
+
+Ama Machiavelli'nin savunması da elde: Bir hastalığı teşhis etmek, onu onaylamak değildir.
+
+---
+
+*Türkçede: Prens (Hükümdar) ve Söylevler'in birçok çevirisi bulunuyor. Söylevler'in Machiavelli'nin asıl siyasal metni olduğu, Türkiye'de hâlâ yeterince bilinmiyor.*
+
+*Not: Machiavelli fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak Santi di Tito'nun 16. yüzyılda yaptığı ve Palazzo Vecchio'da sergilenen kanonik portre kullanılmıştır.*`,
+  },
+  {
+    title: "Bir felsefecinin yas defteri: Olberding'in tavukları",
+    slug: "amy-olberding-kill-all-the-chickens",
+    summary:
+      "Konfüçyüsçü etik üzerine çalışan Amy Olberding, Ozark dağlarındaki aile çiftliğini devraldığında yas üzerine soğukkanlı bir kitap yazmayı planlıyordu. Beceremedi. Ortaya çıkan metin, akademik felsefenin sessizce dayattığı sınıfsal maskeyi de konu ediyor — kitabın adı bu maskeden geliyor.",
+    seoTitle: "Amy Olberding — Kill All The Chickens (Polity, 2026)",
+    metaDescription:
+      "Amy Olberding'in yas, hafıza ve sınıf üzerine kitabı Polity'den çıktı. Konfüçyüsçü etikten Ozark çiftliğine.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Free_range_chicken_flock.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "Polity Books",
+    sourceUrl: "https://www.politybooks.com/bookdetail?book_slug=kill-all-the-chickens-grief-and-memory-on-an-ozark-farm--9781509575442",
+    publishedAt: "2026-09-02T04:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "etik", "kavram", "akademi", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Kill All The Chickens: Grief and Memory on an Ozark Farm",
+        publisher: "Polity Press",
+        url: "https://www.politybooks.com/bookdetail?book_slug=kill-all-the-chickens-grief-and-memory-on-an-ozark-farm--9781509575442",
+        primary: true,
+      },
+      {
+        title: "Amy Olberding — yazar sayfası",
+        publisher: "Polity Press",
+        url: "https://www.politybooks.com/authorbio?author_slug=amy-olberding",
+      },
+    ],
+    content: `Kitabın adı bir aile hikâyesinden geliyor ve hikâye tek cümlede özetleniyor:
+
+Olberding'in büyükannesi, bir gün bütün tavuklarını öldürttü — **dağlı köylü kökenini gizlemek için.**
+
+Tavuklar, kim olduğunuzu ele veren şeydi. Bahçede tavuk varsa, hâlâ oralısınız demekti.
+
+**Amy Olberding**, Oklahoma Üniversitesi'nde felsefe profesörü. Uzmanlık alanı Konfüçyüsçü etik; en bilinen kitabı *The Wrong of Rudeness*, nezaketin ahlaki ağırlığı üzerineydi. Ve kendi ifadesiyle, büyükannesi gibi o da tavuk öldürmekte ustaydı — **en azından mecazi olarak**. Bir profesörden beklenen sınıf ve eğitim işaretlerini kuşandı; geride bıraktıklarını göstermeyen bir dil öğrendi.
+
+**Kill All The Chickens: Grief and Memory on an Ozark Farm**, Polity'den çıktı.
+
+## Plan neydi, ne oldu?
+
+Olberding'in mesleği soyutlamayla boğuşmak. Ama Ozark dağlarındaki atalarından kalma çiftliği devraldığında, meselesi çok daha topraksı hâle geldi.
+
+Plan basitti: Yas üzerine bir akademik kitap yazmak. Kayıp, hafıza, ölümlülük — felsefenin klasik konuları.
+
+**Bu plan çöktü.**
+
+Yayınevinin tanıtımındaki formülasyon keskin: Bu, **kaybın çözülecek bir problemden çok, içinde yaşanan bir yer** hâline geldiğinde ortaya çıkan kitap.
+
+Çöküşün nedeni de belirtiliyor: Olberding, yas üzerine **duygudan arınmış** biçimde yazma çabasını, aile hayaletleriyle dolu bir çiftlikte sürdüremedi. Her şeyi tamir edebilen dede. "Zekânı belli etme" diye uyaran amca. Ve tavukları öldürten büyükanne.
+
+Mesleği ona akademik bir kitap yazmayı öğretmişti; ataların izleri arasında bunu yapmayı öğretmemişti.
+
+Ortaya çıkan şey, düz bir anlatı değil: **lirik bir mozaik** — kaybın getirdiği keskin kafa karışıklıklarından kaçmayan bir metin.
+
+## Neden felsefe kitabı?
+
+İlk bakışta bu bir anı kitabı gibi görünür. Değil — ya da yalnızca o değil.
+
+Üç felsefi damar taşıyor.
+
+### Yasın epistemolojisi
+
+Yas hakkında yazmanın kendine özgü bir sorunu var: Yaşandığı sırada anlaşılamaz, geçtikten sonra ise artık aynı şey değildir.
+
+Bu, felsefenin tanıdığı bir zorluk. Bazı deneyimler, üzerine düşünmeye başladığınız anda değişir. Olberding'in planının çökmesi bir başarısızlık değil, **bulgudur**: Yas, mesafeli çözümlemeye direniyor.
+
+### Sınıf ve akademik maske
+
+Kitabın en özgün katkısı burada.
+
+Akademi, sınıf üzerine çok yazar ama kendi sınıfsal işleyişi üzerine az düşünür. Bir profesör olmak, belli bir konuşma biçimini, belli göndermeleri, belli bir mesafeyi öğrenmektir. Bu öğrenme, çoğu zaman **bir şeyleri geride bırakarak** olur.
+
+Olberding'in "tavuk öldürmek" mecazı tam bunu adlandırıyor: Kendini ait olduğun yerden ayırt etmek için, o yeri ele veren şeyleri ortadan kaldırmak.
+
+Bu köşede bu dönem izlediğimiz [Daily Nous tartışmalarında](/haber/lse-felsefe-doktora-odulleri) sık dönen bir konu, akademik felsefenin dar bir toplumsal kesimden beslendiği yönündeki eleştiriydi. Olberding bu eleştiriyi dışarıdan değil, **içeriden ve otobiyografik olarak** yapıyor.
+
+### Konfüçyüsçü arka plan
+
+Olberding'in uzmanlık alanı, kitabın görünmeyen omurgası.
+
+Konfüçyüsçü etikte yas, özel bir yer tutar. *Analektler*'de ve *Li Ji*'de yas ritüelleri ayrıntılı biçimde düzenlenir — üç yıllık yas dönemi, ağlama biçimleri, giysiler. Batılı okur bunu kuralcılık sanır.
+
+Oysa Konfüçyüsçü tez farklıdır: **Ritüel, duyguyu bastırmaz; ona bir biçim verir.** Yas ritüeli, tarif edilemez olanı taşınabilir kılar.
+
+Olberding'in "lirik mozaik" biçimi, tam da bunun edebî karşılığı olarak okunabilir: Yasa doğrudan bir cümle kurmak yerine, ona bir **kap** aramak.
+
+## Türkçe için
+
+Türkiye'de yas üzerine felsefi literatür sınırlı; alan çoğunlukla psikolojiye bırakılmış durumda.
+
+Olberding'in kitabı iki nedenle çeviriye aday. Birincisi, felsefi düşünceyi kişisel deneyimden koparmadan yürütmenin nadir bir örneği. İkincisi, taşradan akademiye geçmiş kuşakların — Türkiye'de hiç de küçük olmayan bir kesimin — sessizce taşıdığı bir deneyimi adlandırıyor.
+
+---
+
+**Künye:** Amy Olberding · *Kill All The Chickens: Grief and Memory on an Ozark Farm* · Polity Press, 2026 · İngilizce
+
+*Not: Kitabın Türkçe çevirisi henüz duyurulmadı.*`,
+  },
+  {
+    title: "Yılın en iyi on felsefe makalesi seçildi — ve seçim tartışılıyor",
+    slug: "philosophers-annual-2025-secki",
+    summary:
+      "Philosopher's Annual, kırk beşinci cildinde 2025'in en iyi on makalesini açıkladı. Listede ırksal kapitalizmden Malebranche'ın tutkular kuramına, hamilelikte zarar sorusundan Bayesçiliğin savunusuna uzanan bir yelpaze var. Ama asıl ilginç olan, seçkiye gelen itirazlar.",
+    seoTitle: "Philosopher's Annual 2025 — yılın en iyi on felsefe makalesi",
+    metaDescription:
+      "Philosopher's Annual'ın 45. cildi 2025'in en iyi on makalesini seçti. Tam liste, konular ve seçime yöneltilen eleştiriler.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Library_books_-_Shelving_stacks_(3554627444).jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/30/philosophers-annual-for-2025/",
+    publishedAt: "2026-09-02T04:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "dergi", "epistemoloji", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Philosopher's Annual for 2025",
+        publisher: "Daily Nous",
+        date: "30 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/30/philosophers-annual-for-2025/",
+        primary: true,
+      },
+      {
+        title: "Philosopher's Annual",
+        publisher: "philosophersannual.org",
+        url: "https://philosophersannual.org/",
+      },
+    ],
+    content: `Her yıl dünyada binlerce felsefe makalesi yayımlanıyor. Hiç kimse hepsini okuyamaz.
+
+**Philosopher's Annual**, 1978'den beri bu imkânsızlığa bir yanıt üretiyor: Yılın **en iyi on makalesini** seçmek. Kendi tanımıyla bu, "ifade etmesi ne kadar basitse gerçekleştirmesi o kadar imkânsız" bir amaç.
+
+Kırk beşinci cilt açıklandı; 2025 literatürünü kapsıyor.
+
+## Seçilen on makale
+
+**Evan Behrle** (Harvard), *"Hak Ediş ve Ekonomik Karşılıklı Bağımlılık"* — Journal of Philosophy. İşçilerin üretime katkıları oranında ücret hak ettiği fikri, felsefe dışında çok yaygın. Behrle bunun kendi terimleriyle çöktüğünü savunuyor: Bir işçinin katkısının büyüklüğü, öteki işçilerin **ancak birlikte** yaptıklarına bağlıysa, katkıya göre ödüllendirme bu bağımlılığı göremez.
+
+**Sam Berstler** (MIT), *"Açık Sırların Yapısı"* — Philosophical Review. Konuşmada, ortaklaşa doğru bildiğimiz şeyleri çoğu zaman dile getirmeyiz. Berstler, "açık sır normları"nın kendine özgü bir yapısı olduğunu gösteriyor: Bu normlar **yinelenir** — sırrın açık olduğu da bir açık sırdır. Goffman'ın toplumsal etkileşim kavramına dayanarak, konuşmacıların bu yapıyı stratejik olarak nasıl kullandığını çözümlüyor.
+
+**Kyle Blumberg** (Melbourne) ve **Ben Holguín** (Johns Hopkins), *"Kurgusal Gerçeklik"* — Philosophical Review. Sherlock Holmes'un kafasındaki saç sayısının bir doğru yanıtı var mı? Yazarlar var diyor — ve kurmaca hakkındaki her anlamlı soru için. David Lewis'in hâkim yaklaşımına karşı çıkıyorlar. Sitemizde bu dönem ele aldığımız [Kit Fine'ın metafizik çalışmasıyla](/haber/kit-fine-rescher-odulu-metafizik) aynı ailedendir.
+
+**Liam Kofi Bright** (LSE), **Nathan Gabriel** (UC Merced), **Cailin O'Connor** (UC Irvine) ve **Olúfẹ́mi O. Táíwò** (Georgetown), *"Irksal Kapitalizmin İstikrarı Üzerine"* — Ergo. Kapitalizm ile ırksal hiyerarşi arasındaki bağı, **evrimsel oyun kuramı** araçlarıyla modelliyorlar. Tez: Toplumsal bir kurgu olarak ırk, tam da kapitalist sistemlerde ortaya çıkan istikrarlı ve eşitsiz dağılımları kolaylaştıracak özelliklere sahip.
+
+**Colin Chamberlain** (UCL), *"Bir Şeftali Nasıl Yenir: Malebranche'ta Tutkuların İşlevi"* — Mind. Malebranche'a göre duyular, hayal gücü ve tutkular bedenin ihtiyaçlarına hizmet eder. Chamberlain, tutkuların bizi nasıl hayatta tuttuğunu açıklıyor: Eğilim ile eylem arasındaki boşluğu, failin **rızasını** doğurarak kapatıyorlar.
+
+**Dai Heide** (Simon Fraser), *"Transandantal Estetik ve Leibnizci Uzay Kuramı"* — Journal of the History of Philosophy. Kant yorumcuları, Kant'ın Leibniz'e yanıtında bağıntıcılığa odaklandı; Leibniz kuramının metafizik gerçekçi yanını atladılar. Heide, Kant'ın uzayın **monistik** olduğu — bütünün parçalardan önce geldiği — savına dayanan güçlü bir argüman çıkarıyor.
+
+**Elselijn Kingma** (KCL) ve **Fiona Woollard** (Southampton), *"Cenininize Zarar Verebilir misiniz?"* — Ethics. Hamile kişiler cenin için "optimal" sayılmayan biçimde davrandığında, bu çoğu zaman "zarar vermek" olarak çerçevelenir. Yazarlar bu çerçevelemenin, hamilelikteki özel yükümlülüklere dair asıl soruları atlamak için kullanılan bir kestirme yol olduğunu savunuyor.
+
+**Alexander Meehan** (Wisconsin) ve **Snow Zhang** (UC Berkeley), *"Bayes Geri Döndü"* — Philosophical Review. Bayesçi güncelleme, öğrenmenin şeffaf olmadığı durumlarda beklenen doğruluğu evrensel olarak en üst düzeye çıkarmıyor. Yazarlar bir kuralın yalnızca tek bir öğrenme durumundaki değil, **bütün durumlar boyunca toplam** beklenen doğruluğuyla değerlendirilmesi gerektiğini öne sürüyor — ve bu ölçüte göre Bayes yeniden kazanıyor.
+
+**Paulina Sliwa** (Viyana), *"Zihinleri ve Kalpleri Değiştirmek"* — Oxford Studies in Metaethics, c. 20. Ahlaki bir soruda kararsızsanız, başkasının tanıklığına dayanmak sizi ahlaken eksik kılar mı? Yaygın görüş, ahlaki tanıklığın inancı değiştirebileceğini ama duyguyu değiştiremeyeceğini söyler. Sliwa buna karşı çıkıyor: **Hermenötik öğüt** — kişinin kendi ahlaki durumunu anlamlandırmasına yardım eden tanıklık — hem zihni hem kalbi değiştirebilir.
+
+**Quinn White** (Harvard), *"Önce Sevgi"* — Philosophy and Phenomenological Research. Başkalarının insanlığına nasıl karşılık vermeliyiz? Refahlarını gözetmek mi, özerkliklerine saygı mı? White, Yahudilik, Hıristiyanlık ve Budizm'de bulunan üçüncü bir yanıtı savunuyor: **herkesi sevmek**. Sonra şaşırtıcı bir sonuca varıyor — bizim gibi sıradan failler için herkesi sevmenin en asgari yaklaşımı **saygı**dır; ve deontolojik etiğin temel yapıları buradan türetilebilir.
+
+## Kim seçiyor?
+
+Philosopher's Annual'ın editörleri Daniel J. Singer (Pennsylvania), Lila Graham, Lorenzo Manuali ve Brett Thompson (Michigan). Yürütücü editör Patrick Grim.
+
+Aday gösteren editör listesi ise altmışı aşkın isimden oluşuyor: Ned Block, Tyler Burge, Cian Dorr, Adam Elga, Alan Hájek, Brian Leiter, Jeff McMahan, Derk Pereboom, Duncan Pritchard, Ted Sider, Scott Soames, Johan van Benthem ve diğerleri.
+
+Bu kalabalık, seçimin tek bir zevke bağlı olmamasını amaçlıyor.
+
+## İtirazlar
+
+Duyurunun altındaki tartışma, listenin kendisinden daha öğretici.
+
+**Dergi yoğunlaşması.** Bir yorumcu, Philosophical Review'ün "isabet oranına" hayret ediyor: Dergi yılda görece az makale yayımlıyor, ama listede üç makalesi var. Bu, mükemmel bir hakemlik sürecinin kanıtı mı, yoksa aday gösterenlerin dikkatinin zaten o dergilere kilitli olduğunun mu?
+
+**Kesimin keyfiliği.** Aday gösterenlerden bazıları, kısa listeden nihai listeye geçişin oldukça keyfi olabildiğini belirtiyor. Bir yorumcu bu yüzden **on yedek makalenin** de yayımlanmasını öneriyor.
+
+**Dil.** En sert yorum kısa: "İngilizce takımının bir yıllık hâkimiyeti daha." Liste, İngilizce dışında yazılmış tek bir makale içermiyor.
+
+Bu son itiraz, felsefede yapısal bir soruna işaret ediyor. Türkçe, Almanca, Fransızca, Japonca ya da Arapça yazılmış bir makalenin böyle bir listeye girme olasılığı fiilen sıfır. Sitemizde bu ay ele aldığımız [Türkiye'nin felsefe dergileri haritasında](/haber/turkiye-felsefe-dergileri-haritasi) görülen üretim, bu ölçme sisteminin dışında kalıyor.
+
+## Bir listenin işlevi
+
+Böyle seçkilere yöneltilen "kim karar veriyor" itirazı haklı. Ama listenin asıl işlevi hüküm vermek değil.
+
+Yılda binlerce makale çıkan bir alanda, on makalelik bir kesit **ortak bir okuma zemini** kuruyor. Farklı alt alanlardan felsefecilerin aynı metinleri okumuş olma ihtimalini artırıyor.
+
+Bu yılki listeye bakınca o zeminin nerede olduğu görülüyor: hak ediş ve eşitsizlik, konuşmanın örtük normları, kurmacanın ontolojisi, ırk ve ekonomi, erken modern zihin kuramı, Kant yorumu, üreme etiği, Bayesçi epistemoloji, ahlaki tanıklık ve sevginin ahlaktaki yeri.
+
+Dar bir alan değil.
+
+---
+
+*Tam liste ve makale özetleri [philosophersannual.org](https://philosophersannual.org/) adresinde.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 2 Eylül: zemini arayan iki ölüm",
+    slug: "felsefe-tarihinde-bugun-2-eylul-hamilton-neumann",
+    summary:
+      "2 Eylül 1865'te William Rowan Hamilton, 2 Eylül 1954'te Franz Neumann öldü. Biri cebirin dayanağını Kant'ın 'saf zaman' sezgisinde aradı; öteki Nazi Almanyası'nın aslında bir devlet bile olmadığını savundu. Aynı güne düşen iki ölüm, aynı soruyu farklı yerlerden soruyor: Bir yapıyı ayakta tutan nedir?",
+    seoTitle: "Felsefe Tarihinde Bugün — 2 Eylül: Hamilton ve Franz Neumann",
+    metaDescription:
+      "2 Eylül 1865'te W. R. Hamilton, 1954'te Franz Neumann öldü. Cebirin saf zaman olarak temellendirilmesi ve Behemoth'un devletsizlik tezi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Broom_bridge_plaque.jpg?width=1600",
+    imageCredit: "Broom Bridge, Dublin — Hamilton'ın kuaterniyon formülünü kazıdığı yeri anan levha · Wikimedia Commons",
+    featured: false,
+    sourceName: "Irish Philosophy",
+    sourceUrl: "https://www.irishphilosophy.com/2021/09/02/william-rowan-hamilton-and-kant/",
+    publishedAt: "2026-09-02T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "kant", "bilim-felsefesi", "siyaset-felsefesi", "elestirel-teori"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "William Rowan Hamilton and Kant",
+        publisher: "Irish Philosophy",
+        url: "https://www.irishphilosophy.com/2021/09/02/william-rowan-hamilton-and-kant/",
+        primary: true,
+      },
+      {
+        title: "The evolution of William Rowan Hamilton's view of algebra as the science of pure time",
+        publisher: "John Hendry, Studies in History and Philosophy of Science",
+        url: "https://www.sciencedirect.com/science/article/abs/pii/003936818490030X",
+      },
+      {
+        title: "Sir William Rowan Hamilton",
+        publisher: "Encyclopædia Britannica",
+        url: "https://www.britannica.com/biography/William-Rowan-Hamilton",
+      },
+    ],
+    content: `Bir yapıyı ayakta tutan nedir?
+
+Bu soru, matematikte de siyasette de sorulabilir. 2 Eylül günü ölen iki kişi, ikisini ayrı ayrı sordu.
+
+**2 Eylül 1865**'te İrlandalı matematikçi, astronom ve fizikçi **William Rowan Hamilton** öldü. **2 Eylül 1954**'te Alman hukukçu ve siyaset kuramcısı **Franz Leopold Neumann** hayatını kaybetti.
+
+## Hamilton: cebir saf zamanın bilimidir
+
+Hamilton'ı bugün çoğunlukla fizikten tanıyoruz: Klasik mekaniğin en zarif formülasyonu onun adını taşır — Hamilton mekaniği, ve kuantum mekaniğinin merkezinde duran Hamiltonyen operatörü.
+
+Ama Hamilton kendini bir matematikçiden fazlası sayıyordu. Coleridge'i okumuş, Kant üzerine çalışmış, felsefeyle ciddi biçimde uğraşmıştı.
+
+Ve 1830'ların ortasından itibaren, cebir hakkında sıra dışı bir tez savundu: **Cebir, saf zamanın bilimidir.**
+
+Argüman Kant'tan geliyor. Kant'a göre uzay ve zaman, dünyadan gelen veriler değil, deneyimin **saf sezgi formlarıdır**. Uzay, dış duyunun formudur; zaman, iç duyunun.
+
+Hamilton buradan şu simetriyi kuruyor: Geometri uzayın bilimi ise — ki Kant'a göre öyledir — **cebir de zamanın bilimi olmalıdır.**
+
+Gerekçesi de var. "Geçmiş", "şimdi" ve "gelecek" kavramları bilinçte, uzaysal kavramlardan **daha önce** doğar. Sayı dizisi de bir sıra fikridir: 1, sonra 2, sonra 3. Sayma, art arda gelmedir; art arda gelme ise zamandır.
+
+1835'ten itibaren Hamilton cebiri artık bir sanat, bir dil ya da nicelik bilimi olarak değil, **belirli dizilerdeki düzenin bilimi** olarak görüyordu.
+
+### Neden bu kadar uğraştı?
+
+Hamilton'ın motivasyonu, dönemin en can sıkıcı matematiksel utancıydı: Negatif sayılar ve karmaşık sayılar **işe yarıyordu**, ama kimse ne olduklarını söyleyemiyordu.
+
+"Eksi bir elma" ne demektir? Karesi −1 olan sayı hangi büyüklüktür?
+
+Cebiri zamanın bilimi olarak kurmak, bu sayılara bir zemin veriyordu: Zamanda ileri ve geri yönelimler olarak. Karmaşık sayıları ise Hamilton, gerçek sayı **çiftleri** olarak tanımladı — bugün standart olan yaklaşım.
+
+Sonra üçlülerle uğraştı ve tıkandı: Üç boyutlu bir çarpma tanımlanamıyordu.
+
+**16 Ekim 1843**'te Dublin'de Kraliyet Kanalı boyunca yürürken çözümü buldu: Üçlüler değil, **dörtlüler**. Değişme özelliği olmayan dört boyutlu bir cebir — **kuaterniyonlar**.
+
+Formülü, Broom Bridge'in taşına çakısıyla kazıdı. Kazıma silindi; yerine konan levha bugün de orada duruyor.
+
+Kuaterniyonların değişmeli olmaması — yani *ab* ile *ba*'nın farklı olması — matematik tarihinde bir eşiktir. O güne kadar çarpmanın sırasının önemsiz olduğu varsayılıyordu. Hamilton, kullanışlı bir cebirin bu kuralı **çiğneyebileceğini** gösterdi.
+
+Bugün kuaterniyonlar bilgisayar grafiklerinde ve uzay araçlarının yönelim hesaplarında kullanılıyor.
+
+### Felsefi bilanço
+
+Hamilton'ın Kantçı temellendirmesi matematikçiler arasında tutmadı. Cebir, sonraki yüzyılda aksiyomatik olarak kuruldu; "saf zaman" gerekmedi.
+
+Ama hikâyenin öğrettiği şey duruyor: Hamilton'ı kuaterniyonlara götüren şey, **cebirin ne olduğuna dair felsefi bir kanaatti.** Bir keşif, yanlış çıkan bir metafizikten doğabilir.
+
+Bu köşede dün ele aldığımız [FilMat konferansının](/haber/filmat-2026-bologna-matematik-felsefesi) üç başlığından biri de tam buydu: Matematikçiler fiilen nasıl akıl yürütür?
+
+## Neumann: Behemoth, Leviathan değil
+
+Franz Neumann 1900'de doğdu. Weimar Almanyası'nda sendikaların avukatlığını yaptı; iş hukuku üzerine çalıştı. 1933'te Naziler iktidara geldiğinde Yahudi ve sosyalist bir hukukçu olarak ülkeyi terk etmek zorunda kaldı. Londra'ya, sonra New York'a gitti; Frankfurt Okulu'nun Toplumsal Araştırma Enstitüsü'ne katıldı.
+
+1942'de, kendi alanının en özgün kitabını yazdı: **Behemoth: Nasyonal Sosyalizmin Yapısı ve Pratiği.**
+
+### Başlıktaki tez
+
+Hobbes'ta **Leviathan**, düzeni sağlayan devlettir: Herkesin herkesle savaşını sona erdiren mutlak egemen. **Behemoth** ise Hobbes'un iç savaş üzerine kitabının adıdır — düzensizliğin, kaosun canavarı.
+
+Neumann'ın seçimi bir tez taşıyor: **Nazi Almanyası bir devlet değildi.**
+
+Bu, dönemin egemen görüşüne aykırıydı. Naziler, mutlak merkezîleşmiş, tek elden yönetilen bir totaliter devlet kurmuş sayılıyordu. Propagandaları da bunu iddia ediyordu.
+
+Neumann, hukukçu titizliğiyle içeriyi inceledi ve tersini gördü: Ortada tutarlı bir hukuk düzeni, öngörülebilir bir yönetim mekanizması, tek bir karar merkezi **yoktu**.
+
+Bunun yerine dört büyük güç bloğu birbiriyle çekişiyordu: parti, ordu, bürokrasi ve büyük sanayi. Aralarındaki ilişkiyi düzenleyen bir hukuk değil, sürekli bir pazarlık ve rekabet vardı. Yetki alanları çakışıyor, kurumlar çoğalıyor, kararlar keyfîleşiyordu.
+
+Neumann'ın vardığı sonuç şuydu: Bu bir **devletsizlik** durumudur. Rejim, hukukun yerine doğrudan güç ilişkilerini koymuştur.
+
+### Neden hâlâ önemli?
+
+Neumann'ın çözümlemesi, totaliterlik kuramına kalıcı bir itiraz getirdi.
+
+Yaygın kanı, otoriter rejimleri **aşırı düzenli** yapılar olarak tasavvur eder: her şeyi gören, her şeyi denetleyen bir merkez. Neumann bunun bir yanılsama — hatta rejimin kendi ürettiği bir yanılsama — olabileceğini gösterdi.
+
+Gerçek tehlike, aşırı düzen değil; **hukukun ortadan kalkması** olabilir. Kurallar öngörülemez hâle geldiğinde, herkes güçlünün keyfine bağımlı olur.
+
+Bu, hukuk felsefesi açısından temel bir noktaya dokunuyor: Hukuk devleti, iyi yasalara sahip olmaktan önce, **yasaların öngörülebilir biçimde işlemesi** demektir. Sitemizde bu dönem ele aldığımız [Scott Shapiro'nun hukuk ve kod dosyası](/haber/scott-shapiro-hukuk-kod-yapay-zeka) da benzer bir yerden başlar: Hukuk, bir plan yapma teknolojisidir.
+
+Neumann savaş sırasında ABD Stratejik Hizmetler Ofisi'nde çalıştı; Nürnberg duruşmalarının hazırlığına katkı verdi. Savaştan sonra Columbia Üniversitesi'nde siyaset bilimi profesörü oldu. 1954'te İsviçre'de bir trafik kazasında öldü.
+
+## Ortak nokta
+
+Hamilton, sayının dayanağını aradı ve onu zamanda buldu — yanlış bir yerde, ama verimli bir yanlışta.
+
+Neumann, düzenin dayanağını aradı ve Nazi Almanyası'nda **bulamadı** — ve bu bulamama, kitabının tezi oldu.
+
+İkisi de aynı işi yaptı: Kendiliğinden verili görünen bir yapıyı sökmek ve neyin üstünde durduğunu sormak.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*`,
+  },
+  {
     title: "Yapay zekâ sınıfa girdi: felsefe eğitimi neyi kaybediyor?",
     slug: "yapay-zeka-felsefe-egitimi-sinif",
     summary:
@@ -12110,6 +13127,22 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Kill All The Chickens: Grief and Memory on an Ozark Farm",
+    slug: "olberding-kill-all-the-chickens",
+    originalTitle: null,
+    publisher: "Polity",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781509575442",
+    coverImage: null,
+    description:
+      "Konfüçyüsçü etik üzerine çalışan Amy Olberding, Ozark dağlarındaki aile çiftliğini devraldıktan sonra yas üzerine soğukkanlı bir kitap yazmayı denedi ve beceremedi. Ortaya çıkan lirik mozaik, kaybın yanı sıra akademinin sessizce dayattığı sınıfsal maskeyi de konu ediyor.",
+    year: 2026,
+    link: "https://www.politybooks.com/bookdetail?book_slug=kill-all-the-chickens-grief-and-memory-on-an-ozark-farm--9781509575442",
+    philosopherSlug: null,
+    postSlug: "amy-olberding-kill-all-the-chickens",
+  },
+  {
     title: "Korku Sineması ve Felsefe",
     slug: "nistor-korku-sinemasi-felsefe",
     originalTitle: null,
@@ -12504,6 +13537,40 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "CLMPST 2027 — 18. Uluslararası Mantık, Yöntembilim ve Bilim ve Teknoloji Felsefesi Kongresi",
+    slug: "clmpst-2027-kobe",
+    summary:
+      "1960'tan beri dört yılda bir toplanan kongrenin on sekizincisi Kobe Üniversitesi'nde. Açılış konuşmacıları Hasok Chang, Sonja Smets, Katie Steele ve Jun Otsuka. Bildiri ve sempozyum çağrısı açık.",
+    description: `CLMPST, mantık, yöntembilim ve bilim ve teknoloji felsefesi alanının başlıca uluslararası forumu. IUHPST/DLMPST — Uluslararası Bilim ve Teknoloji Tarihi ve Felsefesi Birliği'nin ilgili bölümü — himayesinde düzenleniyor.
+
+Kongre 1960'ta başladı ve o tarihten beri dört yılda bir, başkentlerde ya da alanın önde gelen üniversite merkezlerinde toplanıyor. Son kongreler: Buenos Aires (2023), Prag (2019), Helsinki (2015), Nancy (2011), Pekin (2007).
+
+2027 edisyonuna Japonya Bilim Felsefesi Derneği ve Kobe Üniversitesi ev sahipliği yapıyor.
+
+Kapsam geniş: matematiksel mantıktan metafelsefeye, kesin bilimlerin temellerinden sosyal bilim felsefesine, teknoloji felsefesinden bilimlere tarihsel bakışlara kadar bütün konular. Akademik dünyanın bütün bölgelerinden ve kültürlerinden katılım davet ediliyor.
+
+Bireysel bildiri özetleri ve sempozyum önerileri için çağrı açık; kayıt ve program bilgileri sonra duyurulacak.`,
+    kind: "KONFERANS",
+    organizer: "IUHPST/DLMPST · Japonya Bilim Felsefesi Derneği · Kobe Üniversitesi",
+    speakers: "Hasok Chang (Cambridge), Sonja Smets (Amsterdam), Katie Steele (ANU), Jun Otsuka (Zen University)",
+    topic: "Mantık, yöntembilim, bilim ve teknoloji felsefesi",
+    format: "FIZIKSEL",
+    startsAt: "2027-08-23T00:00:00.000Z",
+    endsAt: "2027-08-28T08:00:00.000Z",
+    timezone: "Asia/Tokyo",
+    hasTime: false,
+    city: "Kobe",
+    country: "Japonya",
+    venue: "Kobe Üniversitesi, Rokkodai-cho 1-1, Nada-ku",
+    website: "https://clmpst2027.org/",
+    registrationUrl: "https://philevents.org/event/show/151993",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/151989",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kobe_University_Rokkodai_Main_Building.JPG?width=1600",
+    featured: false,
+    publishedAt: "2026-09-02T05:00:00.000Z",
+  },
   {
     title: "İstanbul Medeniyet Üniversitesi II. Öğrenci Kongresi — Teknik ve Felsefe",
     slug: "medeniyet-ogrenci-kongresi-2026",
