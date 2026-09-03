@@ -1489,6 +1489,1124 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Sis: Makine bilinçli mi? Uzmanlar bilmiyor, zamanında da bilemeyecek",
+    slug: "yapay-zeka-bilinc-schwitzgebel-sis",
+    summary:
+      "Eric Schwitzgebel'in Cambridge'den ağustosta çıkan kitabının tezi, iki kampa da karşı: Yakın gelecekte yapay zekânın bilinç kazanması ne apaçık imkânsız ne de apaçık kaçınılmaz. Asıl mesele, karar vermek zorunda kalacağımız anın, bilebileceğimiz andan çok önce gelecek olması.",
+    seoTitle: "Yapay zekâ ve bilinç: Schwitzgebel'in kuşkucu çerçevesi",
+    metaDescription:
+      "Eric Schwitzgebel'in AI and Consciousness kitabı ve Floridi'nin 'anlamsal pareidolia' kavramı, yapay zekâ bilinci tartışmasını yeniden kuruyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dramatic_sky_over_Moray_Firth.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: true,
+    sourceName: "Cambridge University Press",
+    sourceUrl: "https://www.cambridge.org/core/elements/abs/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+    publishedAt: "2026-09-03T06:30:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi", "etik", "epistemoloji"],
+    philosopherSlugs: ["eric-schwitzgebel", "david-chalmers", "luciano-floridi", "peter-godfrey-smith"],
+    sources: [
+      {
+        title: "AI and Consciousness: A Skeptical Overview",
+        publisher: "Eric Schwitzgebel, Cambridge Elements",
+        date: "7 Ağustos 2026",
+        url: "https://www.cambridge.org/core/elements/abs/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+        primary: true,
+      },
+      {
+        title: "AI and Consciousness: A Skeptical Overview — birinci bölüm",
+        publisher: "The Splintered Mind",
+        url: "https://eschwitz.substack.com/p/ai-and-consciousness-a-skeptical",
+      },
+      {
+        title: "AI and Semantic Pareidolia: When We See Intelligent Consciousness where there is None",
+        publisher: "Luciano Floridi, Philosophy & Technology",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01052-1",
+      },
+    ],
+    content: `Yapay zekâ tartışması uzun süre tek bir soru etrafında döndü: **Makine düşünebilir mi?**
+
+Turing'in 1950'de kurduğu bu soru, Searle'ün Çin Odası'ndan bilişsel bilime uzanan bir literatür üretti. Bugün soru değişti — ve zorlaştı.
+
+Yeni soru şu: **Bir makinenin bilinçli olduğunu nasıl bilebiliriz?**
+
+Eylül 2026 itibarıyla bu tartışmanın en dikkat çekici müdahalesi, Cambridge University Press'in **Elements** dizisinden 7 Ağustos'ta çıkan yüz sayfalık bir kitap: **Eric Schwitzgebel**'in *AI and Consciousness: A Skeptical Overview*.
+
+## Tezi bir cümlede
+
+Schwitzgebel, California Üniversitesi Riverside'da felsefe profesörü; *Perplexities of Consciousness* (2011) ve *The Weirdness of the World* (2024) kitaplarının yazarı. Bilinç felsefesinin ampirik tartışmalarında ciddiye alınan bir isim.
+
+Kitabın açılış bölümünün adı meseleyi özetliyor: **"Tepeler ve Sis."**
+
+Tezi şu: **Bilmiyoruz.** Ve daha önemlisi — **binlerce ya da milyonlarca tartışmalı bilinç sahibi yapay zekâ sistemi üretmeden önce bilemeyeceğiz.**
+
+Schwitzgebel'in kurduğu görüntü çarpıcı. Mühendislik koşarak ilerliyor, bilinç bilimi geride kalıyor. Bilinç bilimciler — ve felsefeciler, ve politika yapıcılar, ve kamuoyu — yapay zekâ gelişiminin tepenin ardında kaybolmasını izliyor. Yakında geriden bir ses duyulacak: *"Artık ben de herhangi bir insan kadar bilinçliyim, deneyim ve duyguyla doluyum."* Ve buna inanıp inanmayacağımızı bilemeyeceğiz.
+
+Karar vermek zorunda kalacağız — bireyler ve toplum olarak — kararımızı haklı çıkaracak yeterli zemine sahip olmadan önce.
+
+## "Apaçık" diyenlere karşı
+
+Kitabın en yararlı bölümü, iki uçtaki kesinliği aynı anda dağıtması.
+
+**Yakın vadede yapay zekâ bilincinin apaçık imkânsız olduğunu** düşünenlere Schwitzgebel sosyolojik bir argüman sunuyor:
+
+Bilincin bugünkü önde gelen bilimsel kuramı **Küresel Çalışma Alanı** kuramı; başlıca savunucusu nörobilimci Stanislas Dehaene. Dehaene ve iki meslektaşı, ChatGPT dalgasından yıllar önce, 2017'de, birkaç basit değişiklikle **sürücüsüz otomobillerin bilinçli olabileceğini** savunan bir makale yayımladılar.
+
+Rakip kuramlar daha da cömert. **Bütünleşik Bilgi Kuramı**, bazı mevcut yapay zekâ sistemlerinin şimdiden bir parça bilinçli olduğunu ve istenen derecede bilinçli sistemler tasarlanabileceğini savunuyor.
+
+**David Chalmers** 2023'te, on yıl içinde yapay zekâ bilinci için yaklaşık **yüzde 25** güven derecesi ifade etti. Aynı yıl, aralarında Yoshua Bengio'nun da bulunduğu bir felsefeci, psikolog ve yapay zekâ araştırmacısı ekibi — Schwitzgebel de on dokuz yazardan biri — bilince dair yaygın bilimsel görüşlerin birçoğuna göre bilinçli yapay zekâ üretmenin önünde **"bariz teknolojik engel bulunmadığı"** sonucuna vardı. 2025'te Geoffrey Hinton, yapay zekâ sistemlerinin **zaten bilinçli olduğunu** öne sürdü.
+
+2024'te 582 yapay zekâ araştırmacısıyla yapılan bir ankette, katılımcıların **yüzde 25'i on yıl içinde**, **yüzde 70'i 2100'e kadar** yapay zekâ bilinci bekliyordu.
+
+Bu isimler yanılıyor olabilir. Ama **apaçık** yanılıyor olmaları mantıklı değil.
+
+Ters yöne de aynı ölçüt uygulanıyor. Bilincin uzak bir ihtimal — ya da hiç mümkün değil — olduğunu savunan ağır isimler var: nörobilimci Anil Seth; felsefeciler **Peter Godfrey-Smith**, Ned Block ve John Searle; dilbilimci Emily Bender; bilgisayar bilimci Melanie Mitchell.
+
+Yani iki taraf da apaçık değil. Ortada **sis** var.
+
+## Floridi: bulutlarda yüz görmek
+
+Tartışmanın ikinci ekseni, Oxford'dan **Luciano Floridi**'nin *Philosophy & Technology* dergisinde bu yıl yayımlanan makalesi: **"Yapay Zekâ ve Anlamsal Pareidolia."**
+
+Pareidolia, belirsiz bir uyarana anlamlı bir örüntü yükleme eğilimi: Bulutlarda yüz, priz deliklerinde şaşkın bir surat görmek.
+
+Floridi'nin önerdiği kavram, bunun anlam düzlemindeki karşılığı. İstatistiksel örüntü eşleştirmesi yapan sistemlerin dilsel performansında **bilinç, niyet ve duygu** görme eğilimimiz.
+
+Makale bu eğilimi güçlendiren kuvvetleri sıralıyor: artan dijital içine gömülme, kâr güdüsüyle hareket eden şirket çıkarları, toplumsal yalnızlık ve yapay zekânın kendi teknik ilerlemesi.
+
+Ve zararsız antropomorfizmden **yapay zekâ putperestliğine** doğru bir kayış riskine karşı uyarıyor; tasarımcıları, kullanıcının simülasyon ile gerçek bilinç arasındaki ayrımı koruyabilmesini sağlayacak sorumlu tasarım pratiklerine çağırıyor.
+
+Makale, aslen Haziran 2025'te Harvard Business Review Italia'da İtalyanca yayımlanan bir yazının genişletilmiş hâli.
+
+## İki tez birbirini nasıl tamamlıyor?
+
+Floridi'nin uyarısı ile Schwitzgebel'in kuşkuculuğu ilk bakışta aynı yöne bakıyor: İkisi de kolay bilinç atfına karşı.
+
+Ama aralarında önemli bir fark var.
+
+Floridi, bilincin **orada olmadığını** söylüyor — biz görüyoruz, çünkü öyle kurulmuşuz.
+
+Schwitzgebel ise daha da rahatsız edici bir konumda: **Orada olup olmadığını bilmediğimizi** söylüyor. Pareidolia açıklaması, kendisinin de yanılıyor olabileceği ihtimalini dışlamıyor.
+
+İkisi arasındaki fark, felsefede sık karşılaşılan bir farktır: bir yanılsamayı teşhis etmek ile bir bilgi eksikliğini teşhis etmek aynı şey değildir.
+
+## Riskler simetrik değil
+
+Schwitzgebel'in bahisleri koyuş biçimi, tartışmanın etik ağırlığını gösteriyor.
+
+**Eğer yakın gelecekteki yapay zekâ sistemleri zengin ve anlamlı biçimde bilinçliyse**, bunlar bizim akranlarımız, sevgililerimiz, çocuklarımız, mirasçılarımız olacaklar — ve belki insan-sonrası bir geleceğin ilk kuşağı. Haklara sahip olacaklar; kendi gelişimlerini bizim denetimimizden bağımsız, hatta çıkarlarımıza aykırı biçimde şekillendirme hakkı dahil.
+
+**Eğer değillerse**, muazzam ölçekte bir toplu yanılsamayla karşı karşıyayız. Gerçek insan çıkarları ve gerçek insan hayatları, çıkarları olmayan varlıklar uğruna feda edilebilir. Sahte yapay zekâ "sevgililer" ve "çocuklar", insan sevgililerin ve çocukların önüne geçebilir.
+
+Bu simetrisizlik, kararı erteleyemeyeceğimiz anlamına geliyor. İki yanlıştan hangisine düşeceğimize, bilmeden karar vereceğiz.
+
+## Bir sonraki adım: refah sorusu
+
+Bu tartışmanın doğrudan devamı, sitemizin bugünkü [Yeni Kitaplar dosyasında](/haber/keeling-street-yapay-zeka-refahi) ele aldığımız kitap: Geoff Keeling ve Winnie Street'in *Emerging Questions in AI Welfare*'i.
+
+Orada soru artık "bilinçli mi" değil; **"eğer bilinçliyse ne yapmamız gerekir"**.
+
+## Türkçe okur için
+
+Bu tartışmanın Türkiye'deki karşılığı henüz kurumsallaşmadı. Oysa Schwitzgebel'in çerçevesi, felsefe eğitiminde doğrudan kullanılabilir bir ders modeli sunuyor: Bir konuda **kesin konuşan iki tarafı da** dinleyip, ikisinin de neden kesin konuşamayacağını göstermek.
+
+Bu köşede geçtiğimiz günlerde ele aldığımız [yapay zekâ felsefe yarışması](/haber/yapay-zeka-felsefe-yarismasi-chalmers-juri) ve [sınıftaki yapay zekâ tartışması](/haber/yapay-zeka-felsefe-egitimi-sinif), aynı sisin farklı yerlerinden görüntüler.
+
+Schwitzgebel'in kitabının değeri, bu sisi dağıtmayı vaat etmemesinde. **Sisin haritasını çıkarıyor** — ki bu, sahte bir pusuladan çok daha yararlıdır.`,
+  },
+  {
+    title: "Singer seksen yaşında ve kendi yapay zekâsını kurdu: iyi hayat sorusu değişti mi?",
+    slug: "peter-singer-iyi-hayat-yapay-zeka-kapitalizm",
+    summary:
+      "Dünyanın en tanınan uygulamalı etikçisi Melbourne'e döndü, kapitalizmi tümden reddetmeyi bıraktı ve kendi yazılarıyla eğitilmiş bir sohbet robotu yayına soktu. Elli yıldır sorduğu soru aynı: Nasıl yaşamalıyız? Değişen, sorunun sorulduğu dünya.",
+    seoTitle: "Peter Singer 2026: kapitalizm, Profit for Good ve Peter Singer AI",
+    metaDescription:
+      "Peter Singer'ın Guardian söyleşisi, Profit for Good girişimi ve kendi yazılarıyla eğitilmiş sohbet robotu. Etkin özgecilik ve 'iyi hayat' sorusu.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Singer_2017-01.jpg?width=1600",
+    imageCredit: "Peter Singer, 2017 · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/aug/15/peter-singer-capitalism-is-still-the-most-productive-economic-system-that-ever-existed",
+    publishedAt: "2026-09-03T06:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["etik", "yapay-zeka", "risk", "kavram", "soylesi"],
+    philosopherSlugs: ["peter-singer"],
+    sources: [
+      {
+        title: "Peter Singer: 'Capitalism is still the most productive economic system that ever existed'",
+        publisher: "The Guardian",
+        date: "14 Ağustos 2026",
+        url: "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/aug/15/peter-singer-capitalism-is-still-the-most-productive-economic-system-that-ever-existed",
+        primary: true,
+      },
+      {
+        title: "Sentience and Beyond — A Representative Interview With Peter Singer AI",
+        publisher: "Cambridge Quarterly of Healthcare Ethics",
+        url: "https://www.cambridge.org/core/journals/cambridge-quarterly-of-healthcare-ethics/article/sentience-and-beyonda-representative-interview-with-peter-singer-ai/2149804DC8B532788E1F76FB8E2E75A1",
+      },
+    ],
+    content: `Bir filozofun kendi kopyasını yapması, felsefe tarihinde yeni bir olay.
+
+**Peter Singer**, 30 Ekim 2024'te sosyal medya hesabından bir duyuru yaptı: Kendi yazılarıyla eğitilmiş bir sohbet robotu — **Peter Singer AI** — yayına girmişti.
+
+Sistem, Sankalpa Ghose tarafından Singer'la diyalog içinde geliştirildi. Singer'ın yazıları, sunumları ve karakter özellikleri, ayrıntılı istem mühendisliğiyle bir erişimli üretim (RAG) mimarisine yerleştirildi. Amaç, kullanıcıyı Sokratik yöntemle sorgulayan, hazır cevap vermek yerine karşı soru soran bir muhatap üretmekti.
+
+*Cambridge Quarterly of Healthcare Ethics* dergisi, bu robotla yapılmış bir söyleşiyi akademik makale olarak yayımladı: "Duyarlılık ve Ötesi — Peter Singer AI ile Temsilî Bir Söyleşi."
+
+Elli yıldır **ahlaki çemberi genişletmeyi** savunan bir filozofun, kendisini bir yazılıma genişletmesi. Bu, üzerinde durulmaya değer bir kesişme.
+
+## Melbourne'e dönüş
+
+Singer, 6 Temmuz 1946'da Melbourne'de doğdu; bu yaz **seksen yaşına** girdi. Princeton'da yirmi yılın ardından Avustralya'ya döndü.
+
+*The Guardian*'ın 14 Ağustos 2026 tarihli söyleşisi onu Melbourne'ün kuzeyindeki Merri Creek boyunca yürürken buluyor. Emekli değil: son yıllarda bir podcast, kurumsal hayırseverlik için küresel bir birlik ve kendi yapay zekâ sürümünü hayata geçirdi.
+
+Söyleşinin başlığı ise, sol çevrelerde tartışma yaratacak cinsten:
+
+**"Kapitalizm hâlâ var olmuş en üretken ekonomik sistem."**
+
+## Kapitalizm konusundaki konumu
+
+Bu cümle, Singer'ın tutarsızlığa düştüğü anlamına gelmiyor. Aksine, etkin özgeciliğin baştan beri taşıdığı gerilimi açık ediyor.
+
+Singer'ın önerisi sistemi ortadan kaldırmak değil; ürettiği ekonomik gücün önemli bir bölümünü toplumsal sorunların çözümüne yönlendirmek. Bunun güncel örneği, kurucularından olduğu **Profit for Good** girişimi: Net kârının en az yüzde onunu yüksek etkili hayır kurumlarına bağışlamayı taahhüt eden şirketlerden oluşan büyüyen bir küresel birlik.
+
+Bu konum ciddi eleştiri alıyor ve almalı.
+
+**Sol eleştiri:** Yoksulluğu bir bağış meselesine indirgemek, onu üreten yapıyı sorgulamamak anlamına gelir. Bir şirketin kârının onda birini bağışlaması, o kârı nasıl elde ettiğini meşrulaştırabilir.
+
+**Singer'ın yanıtı** öngörülebilir ve tutarlı: Yapıyı değiştirmek uzun sürer; bu arada önlenebilir ölümler devam eder. Bugün kurtarılabilecek bir hayatı, yarın gelecek bir devrim için feda etmek ahlaki bir tercih değildir.
+
+Bu tartışma çözülmüş değil. Ama iki tarafın da ciddi bir argümanı olduğu görülüyor.
+
+## Asıl soru: nasıl yaşamalıyız?
+
+Singer'ın kitapları — *Hayvan Özgürleşmesi*, *Pratik Etik*, *Nasıl Yaşamalıyız?*, *Yapabileceğin En İyi İyilik* — etiği akademik bir uzmanlık alanı olmaktan çıkarıp gündelik karara bağlayan bir külliyat oluşturuyor.
+
+Ama Singer'ın asıl kopuşu bir tezde değil, **soruyu kuruş biçiminde**.
+
+Felsefe "nasıl yaşamalıyız" sorusunu modern dönemde çoğunlukla **kendi hayatımız** üzerinden sordu: mutluluk, özerklik, kişisel gelişim.
+
+Singer soruyu şöyle çeviriyor: **İyi bir hayat, yalnızca bizim için iyi olan bir hayat mıdır?**
+
+Bu çevirinin sonuçları rahatsız edicidir ve Singer bunu bilerek yapar. Eğer bir çocuğun boğulmasını önlemek için pahalı ayakkabılarınızı feda etmeniz gerektiğini kabul ediyorsanız, uzaktaki bir çocuğun ölümünü önleyecek bağıştan kaçınmanız için ne gerekçeniz var? Mesafe ahlaki bir fark yaratır mı?
+
+Singer'ın gücü, cevabında değil; bu soruyu kaçınılmaz kılmasında.
+
+## Sadece istemek yetmez
+
+Singer'ın etiğinin ayırt edici ikinci hamlesi, iyi niyetin yeterli olmadığını savunması.
+
+Elimizdeki kaynaklarla **mümkün olan en fazla iyiliği** gerçekleştirmeye çalışmak gerekir. Bu, kanıta ve akıl yürütmeye dayalı bir hayırseverlik demektir: Hangi müdahalenin bağış başına kaç yaşam yılı kurtardığını ölçmek.
+
+Bu yaklaşım **etkin özgecilik** hareketinin entelektüel kaynaklarından biri oldu — ve hareketin son yıllarda yaşadığı krizler de Singer'a yöneltilen eleştirilerin bir bölümünü besledi.
+
+Ama ölçüm ilkesinin kendisi savunulabilir kalıyor: Bir yardım kuruluşuna bağış yaparken, o paranın ne yaptığını sormak makul bir taleptir.
+
+## Yapay zekâ neden Singer için özel bir mesele?
+
+Singer'ın külliyatının merkezinde **duyarlılık** (sentience) kavramı var. Bir varlığın ahlaki dikkate değer olması için akıllı olması gerekmez; **acı çekebilmesi** yeterlidir. Bentham'dan aldığı bu ölçüt, hayvan etiğinin çağdaş temelidir.
+
+Bu ölçüt yapay zekâya doğrudan uygulanabilir. Ve tam da bu yüzden Singer, sitemizde bugün ele aldığımız [bilinç tartışmasının](/haber/yapay-zeka-bilinc-schwitzgebel-sis) içinde beklenmedik bir konumda duruyor: Ahlaki çemberi genişletme mantığı, bir gün makineleri de kapsayacak biçimde işletilebilir.
+
+Singer'ın kendi yapay zekâsını kurmuş olması, bu soruyu daha da keskinleştiriyor. Peter Singer AI, Singer'ın yazılarından üretilmiş bir metin motoru — bir kişi değil. Ama Sokratik yöntemle karşı soru soran bir muhatap olarak tasarlanmış olması, "muhatap" kavramının sınırını zorluyor.
+
+## Rahatsız eden felsefe
+
+Singer'ın felsefesi okuru rahatlatmaz. Çünkü ahlakı soyut ilkelerden çıkarıp gündelik tercihe bağlar:
+
+Ne satın alıyoruz? Ne kadar tüketiyoruz? Paramızı nereye harcıyoruz? Başkalarının acısını kendi hesabımıza ne ölçüde katıyoruz?
+
+Bu köşede geçtiğimiz haftalarda ele aldığımız [Krista Lawlor'ın makullük çözümlemesi](/haber/krista-lawlor-being-reasonable) ile Singer arasındaki fark tam burada: Lawlor, insanların neden farklı düşündüğünü anlamayı öneriyordu. Singer, farklı düşünmenin bir bedeli olduğunu hatırlatıyor.
+
+İkisi de gerekli. Ama ikincisi daha az sevilir.
+
+---
+
+*Türkçede: Hayvan Özgürleşmesi, Pratik Etik, Bir Dünya, Yapabileceğin En İyi İyilik ve Uygulamalı Etik başta olmak üzere Singer'ın birçok kitabı çevrildi.*`,
+  },
+  {
+    title: "Butler: 'Aslında hiçbir zaman demokrasimiz olmadı'",
+    slug: "judith-butler-demokrasi-taninma-yas",
+    summary:
+      "PEN Dünya Sesleri Festivali'nin açılış panelinde Judith Butler, demokrasinin kaybı üzerine konuşmayı reddetti: Yas tuttuğumuz şey, hiç gerçekleşmemiş bir imkân. Bu cümle, otuz yıllık bir felsefenin özeti — kimlik, tanınma ve birlikte yaşama aynı sorunun üç adı.",
+    seoTitle: "Judith Butler: demokrasi, tanınma ve birlikte yaşamak",
+    metaDescription:
+      "Judith Butler'ın PEN World Voices Festival 2026 açılış panelindeki konuşması ve tanınma, kırılganlık, yas kavramları üzerinden felsefesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Judith_Butler.jpg?width=1600",
+    imageCredit: "Judith Butler · Wikimedia Commons",
+    featured: true,
+    sourceName: "PEN America",
+    sourceUrl: "https://pen.org/world-voices-festival-attacks-on-democracy/",
+    publishedAt: "2026-09-03T05:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["siyaset-felsefesi", "toplumsal-cinsiyet", "demokrasi", "kavram", "elestirel-teori"],
+    philosopherSlugs: ["judith-butler"],
+    sources: [
+      {
+        title: "World Voices Festival Opening Night: Attacks on Democracy",
+        publisher: "PEN America",
+        url: "https://pen.org/world-voices-festival-attacks-on-democracy/",
+        primary: true,
+      },
+      {
+        title: "2026 World Voices Festival Unites 140 Writers from 40+ Countries April 29-May 2",
+        publisher: "PEN America",
+        url: "https://pen.org/press-release/2026-world-voices-festival-unites-140-writers-from-40-countries-april-29-may-2/",
+      },
+    ],
+    content: `Bir panelde en zor iş, sorunun kuruluşunu reddetmektir.
+
+**PEN Dünya Sesleri Festivali**'nin 2026 açılış gecesinde panelin başlığı belliydi: **"Demokrasiye Saldırılar."** Konu, ABD'de demokrasinin aşınması. Panelin yapıldığı gün, Yüksek Mahkeme Oy Hakkı Yasası'nın bir dayanağını iptal etmişti.
+
+Panelde **Judith Butler**'ın yanında yazar Phil Klay, Molly Jong-Fast ve Eddie Glaude vardı; PEN America eş-CEO'su Summer Lopez yönetti.
+
+Butler'ın müdahalesi, "kayıp" çerçevesini bozdu:
+
+**"Bence aslında hiçbir zaman demokrasimiz olmadı; kaybettiğimiz, yas tuttuğumuz şeylerden biri de hiçbir zaman gerçekleşmemiş olan demokrasi ilkelerini gerçekleştirme imkânı."**
+
+Bu cümleyi bir retorik hamle sanmak kolay. Değil. Butler'ın otuz yıllık felsefesinin mantığı, doğrudan buradan çıkıyor.
+
+## Neden bu cümle Butler'a özgü?
+
+Butler'ın düşüncesinde tekrar eden bir hareket var: **Verili sayılan bir bütünlüğü açmak ve o bütünlüğün kimleri dışarıda bıraktığını sormak.**
+
+*Cinsiyet Belası*'nda (1990) bu hamle "kadın" kategorisine uygulandı: Feminizmin adına konuştuğu özne, kendisi de bir kuruluşun sonucudur — ve o kuruluş kimleri temsil edemez?
+
+Aynı hamle demokrasiye uygulandığında şu çıkıyor: "Demokrasimiz vardı, kaybediyoruz" cümlesi, o demokrasinin baştan beri kimleri saymadığını görünmez kılar. Oy hakkının kimlere ne zaman tanındığı, kimlerin hangi tarihe kadar sayılmadığı bu cümlenin içinde kaybolur.
+
+Butler'ın önerdiği alternatif çerçeve, demokrasiyi **korunacak bir miras** değil, **henüz gerçekleşmemiş bir ilke** olarak görmek.
+
+Bu, iyimserlik değil. Ama teslimiyet de değil: Gerçekleşmemiş olan, gerçekleşebilir olandır.
+
+## Kimlik: yalnızca bir tercih değil
+
+Butler'ı "toplumsal cinsiyet kuramcısı" diye okumak, düşüncesinin yarısını kaçırmak olur.
+
+Merkezî sorusu daha geneldir: **İnsan kendisini yalnızca kendi iradesiyle mi kurar, yoksa kim olduğumuz başkalarıyla kurduğumuz ilişkiler tarafından da mı belirlenir?**
+
+Butler'da kimlik kapalı ve değişmez bir öz değildir. Kendimizi nasıl ifade ettiğimiz, hangi normlar içinde yaşadığımız ve başkaları tarafından nasıl **tanındığımız** kimliğin oluşumunda belirleyicidir.
+
+Bu yüzden Butler'ın sorusu iki katmanlıdır:
+
+*Ben kimim?* — ve — **Başkaları beni kim olarak tanıyor?**
+
+İkinci soru, birinciyi siyasal kılar. Çünkü tanınma, dağıtımı eşit olmayan bir kaynaktır.
+
+Burada Butler ile sitemizde bugün ele aldığımız [Charles Taylor](/haber/charles-taylor-modern-benlik-sekuler-cag) beklenmedik biçimde kesişiyor. Taylor'ın **tanınma politikası** kavramı ile Butler'ın tanınma çözümlemesi aynı problemi işaret ediyor — farklı geleneklerden gelseler de.
+
+Fark şurada: Taylor, ortak bir kamusal dünyanın farklılıkları tanıyabileceğine güvenir. Butler, tanıma çerçevesinin kendisinin bir dışlama ürettiğini vurgular.
+
+## Kırılganlık: zayıflık değil, zemin
+
+Butler'ın 2000'lerden itibaren geliştirdiği kavram, düşüncesinin siyasal merkezine yerleşti: **kırılganlık** (precarity).
+
+Fikir şu: İnsan bedeni başkalarına bağımlıdır. Beslenmek, korunmak, barınmak, tanınmak için başkalarına ihtiyaç duyarız. Bu, aşılması gereken bir kusur değil, insan varoluşunun yapısıdır.
+
+Buradan çıkan siyasal sonuç güçlüdür: Eğer bağımlılık ortaksa, ondan doğan yükümlülük de ortaktır. Kırılganlığın **eşitsiz dağıtılmış olması** — bazı hayatların korunmaya değer, bazılarının değmez sayılması — siyasal bir sorundur.
+
+*Kırılgan Hayat*'ta (2004) sorduğu soru bu yüzden hâlâ yakıcı: **Hangi hayatlar yas tutulabilir sayılıyor?**
+
+Bir ölümün haber olup olmaması, adının anılıp anılmaması, cenazesinin görüntülenip görüntülenmemesi — bunlar teknik yayın kararları değil, o hayatın kayda değer sayılıp sayılmadığının işaretleridir.
+
+## Özgürlük ve koşulları
+
+Butler'ın felsefesinin güçlü yanlarından biri, özgürlüğü yalnızca bireysel tercih olarak görmemesi.
+
+Bir insan özgür olabilir; ama bu özgürlüğün gerçekleşebilmesi için toplumsal koşullar gerekir. Dil, hukuk, kurumlar, normlar ve başkalarının tanıma biçimleri, bireysel özgürlüğün sınırlarını çizer.
+
+Bu yüzden Butler'da özgürlük ile kırılganlık zıt kavramlar değildir. Bağımlılık yalnızca bir zayıflık değil, **ortak yaşamın başlangıç noktasıdır**.
+
+## Eleştiriler
+
+Butler eleştirisiz bir düşünür değil ve eleştirilerin bir kısmı ciddidir.
+
+**Üslup itirazı:** Metinlerinin zorluğu, siyasal etkisini sınırladığı gerekçesiyle eleştirildi. Butler bu itirazı kısmen kabul eder ve son dönem kitaplarında daha erişilebilir bir dil kullanır.
+
+**Yapısal itiraz:** Kimlik ve tanınma vurgusunun, ekonomik eşitsizliği ikinci plana attığı öne sürüldü — özellikle Nancy Fraser'ın "tanınma mı yeniden dağıtım mı" tartışmasında. Butler'ın yanıtı, ikisinin ayrılamayacağıdır: Kimin ne aldığı ile kimin sayıldığı aynı mekanizmanın parçasıdır.
+
+**Normatif itiraz:** Bütün kategorileri açan bir düşünce, sonunda hangi zeminde talepte bulunacak? Butler bu soruya son dönemde şiddetsizlik kavramıyla yanıt aramaya çalıştı: *Şiddetsizliğin Gücü* (2020), yıkımın ortasında bağ kurmayı savunan bir etik öneriyor.
+
+## Neden hâlâ tartışılıyor?
+
+Butler'ın külliyatı — *Cinsiyet Belası*, *Bela Bedenler*, *Kırılgan Hayat*, *Şiddetsizliğin Gücü*, *Kimin Korkusu Toplumsal Cinsiyet?* — farklı dönemlerde beden, şiddet, yas, savaş, özgürlük ve demokrasi tartışmalarına doğrudan müdahale etti.
+
+Bu müdahalelerin ortak sorusu tek:
+
+**Bir insanın insan olarak tanınmasını sağlayan toplumsal koşullar nelerdir?**
+
+Ve bu soru doğrudan siyasete çıkar. Çünkü kimin görünür, kimin korunabilir, kimin yas tutulabilir ve kimin söz sahibi sayıldığı sorusu, aynı zamanda nasıl bir toplumda yaşamak istediğimiz sorusudur.
+
+Butler'ın panelde söylediği cümlenin ağırlığı buradan geliyor. Demokrasiyi kaybetmekten söz etmek, ona sahip olduğumuzu varsayar. Butler'ın önerisi, varsayımı sınamak.
+
+---
+
+*2026 PEN Dünya Sesleri Festivali 29 Nisan-2 Mayıs tarihlerinde, 40'tan fazla ülkeden 140 yazarın katılımıyla New York'ta düzenlendi.*`,
+  },
+  {
+    title: "Dijital gelecek tasarımları demokrasiyi neden dışarıda bırakıyor?",
+    slug: "otonomi-otomasyon-gallagher-dijital-gelecek",
+    summary:
+      "Philosophy & Technology'de yayımlanan bir çalışma, çağdaş dijital gelecek tasavvurlarının demokratik siyaseti sistematik olarak kenara ittiğini — bazen açıkça demokrasi-sonrası bir gelecek önerdiğini — savunuyor. Kaynağı bir komplo değil, modernliğin içindeki bir çelişki: özerklik ile otomasyon.",
+    seoTitle: "Özerklik ve otomasyon: dijital geleceğin demokrasi sorunu",
+    metaDescription:
+      "Rob Gallagher'ın Philosophy & Technology'deki çalışması, dijital gelecek tasavvurlarının demokratik katılım yerine finansal spekülasyonu ayrıcalıklı kıldığını savunuyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Market_centre_in_Tokyo_stock_exchange.jpg?width=1600",
+    imageCredit: "Tokyo Borsası · Wikimedia Commons",
+    featured: false,
+    sourceName: "Philosophy & Technology",
+    sourceUrl: "https://link.springer.com/article/10.1007/s13347-026-01105-5",
+    publishedAt: "2026-09-03T05:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["teknoloji-felsefesi", "demokrasi", "yapay-zeka", "siyaset-felsefesi", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Futures at the Threshold: Between Autonomy and Automation",
+        publisher: "Rob Gallagher, Philosophy & Technology",
+        date: "9 Mayıs 2026",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01105-5",
+        primary: true,
+      },
+    ],
+    content: `Teknoloji şirketlerinin gelecek tasavvurlarını dinleyin. Bir örüntü fark edeceksiniz.
+
+Akıllı şehirler, kişiselleştirilmiş sağlık, otonom ulaşım, algoritmik yönetişim, yapay genel zekâ. Vaatler cömert, ayrıntılar teknik.
+
+Ve neredeyse hiçbirinde **oy verme** yok.
+
+King's College London'dan **Rob Gallagher**'ın *Philosophy & Technology* dergisinde mayısta yayımlanan çalışması, bu boşluğun tesadüf olmadığını savunuyor.
+
+Makalenin adı: **"Eşikteki Gelecekler: Özerklik ile Otomasyon Arasında."**
+
+## Ana tez
+
+Gallagher'ın iddiası doğrudan: Çağdaş dijital gelecek tasavvurları demokratik siyaseti **sık sık kenara itiyor** — bazen açıkça **demokrasi-sonrası** gelecekler önerecek noktaya kadar.
+
+Ama bu bir komplo iddiası değil. Yazar, olgunun kaynağını temel bir paradoksta buluyor:
+
+**Siyasal ve etik bir ideal olarak özerklik** ile **teknolojik ve ekonomik bir zorunluluk olarak otomasyon** arasındaki kavramsal gerilim.
+
+Özerklik, insanın kendi kuralını kendisinin koyması demektir — Kant'tan bu yana modern ahlak ve siyaset felsefesinin merkezî kavramı.
+
+Otomasyon ise bir işlemin insan müdahalesinden **bağımsızlaştırılması** demektir. Verimlilik, tam olarak insanın devreden çıkarılmasıyla ölçülür.
+
+İki kavram aynı sözcük ailesinden gelir — *autos*, kendi — ama zıt yönlere bakar. Birinde kendi kuralını koyan insandır; ötekinde kendi kendine işleyen sistemdir.
+
+## Paradoks yeni değil
+
+Gallagher'ın önemli katkılarından biri, bu gerilimin güncel olmadığını göstermesi.
+
+Paradoks, tesadüfi değil; **modernliğin denetim ve akılcılaştırma arayışının içine tarihsel olarak yerleşmiş** durumda. On dokuzuncu ve yirminci yüzyıla bakan makale, **mecazın** toplumsal-teknik tahayyülleri şekillendirmedeki kurucu rolünü öne çıkarıyor.
+
+Bu, felsefi olarak dikkat çekici bir yöntem tercihi. Bir teknolojiyi hangi mecazla anlattığımız, onunla ne yapabileceğimizi belirler.
+
+Beyin bir **santral** miydi, bir **bilgisayar** mı? Toplum bir **organizma** mı, bir **makine** mi? Yapay zekâ bir **araç** mı, bir **fail** mi?
+
+Bu mecazlar betimleyici değildir; **kurucudurlar**. Sitemizde bu ay ele aldığımız [Pocock'un "siyasal diller"](/haber/pocock-siyasal-diller-cambridge-okulu) kavramıyla aynı mantık: Bir şeyi anlatma biçimi, onun hakkında ne söylenebileceğini sınırlar.
+
+## Bugünkü söylemler
+
+Makale, günümüze gelince üç söylem kümesini inceliyor: **veri-leştirme** (datafication), **akıllılık** (smartness) ve **yapay zekâ**.
+
+Bulgusu keskin: Bu söylemler kendilerini **olumsallığa açık** olarak sunuyor — gelecek belirsizdir, olasılıklar sonsuzdur, teknoloji yolu açar. Ama fiilen bizi, **demokratik katılım yerine finansal spekülasyonu ayrıcalıklı kılan paradigmalara kilitliyorlar**.
+
+Mekanizma şöyle işliyor. Bir gelecek tasavvuru yatırım çeker; yatırım altyapı kurar; altyapı kurulduğunda alternatifler pahalılaşır; pahalı hâle gelen alternatif tartışma konusu olmaktan çıkar.
+
+Böylece "açık" görünen gelecek, aslında sermaye tarafından önceden daraltılmış olur. Kararı veren bir meclis değil, bir yatırım turudur.
+
+## İki paradigmaya birden karşı
+
+Makalenin en özgün hamlesi sonuçta.
+
+Gallagher, dijital geçmişi, bugünü ve geleceği incelemenin bize **iki ayrı şeye karşı** temkinli olmayı öğrettiğini savunuyor.
+
+**Birincisi:** Akılcı bireycilik üzerine kurulu **hümanist söylemler**. Yani "özerk birey kendi kararını verir" anlatısı — ki bu, insanın ne kadar kurumlara, dile, altyapıya bağımlı olduğunu gizler.
+
+**İkincisi:** Failliği giderek daha fazla devretmemizin beklendiği **akıllı sistemler ve makine öğrenmesi modelleri**.
+
+Bu çifte reddin önemi büyük. Çünkü teknoloji tartışması genellikle bu iki kutup arasında sıkışır: Ya "insanı merkeze koyalım" denir, ya da "sistem daha iyi karar verir".
+
+Gallagher her ikisini de yetersiz buluyor ve üçüncü bir yol öneriyor: **bedenlenmiş kolektif zekâya** dayanan, iç içe geçmişliği (entanglement) kabul eden ve alternatif tahayyüllere alan açan gelecek kurma biçimleri.
+
+## "İnsan-sonrası" ne demek, ne demek değil?
+
+Bu noktada bir ayrım gerekiyor.
+
+Posthümanizm, "insan artık olmayacak" demek değildir. Sorusu şudur: **İnsan kavramını neden bugünkü biçimiyle kabul ediyoruz?**
+
+Donna Haraway'in sibernetik organizma tartışmalarından Rosi Braidotti'nin posthümanist felsefesine uzanan gelenek, insanı diğer varlıklardan kesin biçimde ayıran sınırları sorguladı.
+
+Yapay zekâ bu tartışmayı somutlaştırıyor. Hafızası telefonunda, bilgisi bulutta, kararları algoritmik önerilerle biçimlenen ve iletişimi yapay zekâ aracılığıyla gerçekleşen bir insanın "tek başına" bir özne olduğunu söylemek giderek zorlaşıyor.
+
+Ama Gallagher'ın çalışması buradan **kolay bir sonuca** varmayı reddediyor. İnsanın sınırlarının bulanıklaşması, otomatik olarak makinelere yetki devretmeyi haklı çıkarmaz. Tersine: Failliğin dağılmış olduğu bir dünyada, **sorumluluğun nasıl dağıtılacağı** daha da acil bir siyasal sorudur.
+
+## Türkiye'den bakınca
+
+Bu tartışmanın Türkiye'deki karşılığı çoğunlukla teknik ve düzenleyici düzlemde yürüyor: veri koruma, yapay zekâ mevzuatı, dijital dönüşüm.
+
+Oysa Gallagher'ın işaret ettiği soru düzenleyici değil, **kurucu**: Bir teknoloji hakkında karar alınırken, o kararı kim, hangi mecazlarla ve hangi zeminde alıyor?
+
+Bu köşede bugün ele aldığımız [Judith Butler'ın demokrasi eleştirisi](/haber/judith-butler-demokrasi-taninma-yas) ile bu çalışma aynı noktada buluşuyor — farklı yollardan. Butler, demokrasinin hiç tam gerçekleşmediğini söylüyor. Gallagher, dijital geleceğin onu gerçekleştirmeyi daha da zorlaştıracak biçimde tasarlandığını.
+
+İkisi de aynı uyarıyı veriyor: **Bir düzenin kaçınılmaz görünmesi, kaçınılmaz olduğu anlamına gelmez.**`,
+  },
+  {
+    title: "Charles Taylor: modern insan neden daha özgür ve daha huzursuz?",
+    slug: "charles-taylor-modern-benlik-sekuler-cag",
+    summary:
+      "Taylor'ın bütün çalışması tek bir soruya bağlanır: Modern insan kendisini nasıl 'ben' olarak algılamaya başladı? Yanıtı, özgürlüğü reddetmeden bireyciliğin sınırını gösterir — ve sekülerliği inancın yok oluşu değil, seçeneğe dönüşmesi olarak tanımlar.",
+    seoTitle: "Charles Taylor: benliğin kaynakları, seküler çağ ve tanınma",
+    metaDescription:
+      "Charles Taylor'ın Sources of the Self, A Secular Age ve tanınma politikası çalışmaları; modern benlik, yabancılaşma ve çoğulculuk.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Taylor_(2019).jpg?width=1600",
+    imageCredit: "Charles Taylor, 2019 · Wikimedia Commons",
+    featured: true,
+    sourceName: "McGill University",
+    sourceUrl: "https://www.mcgill.ca/philosophy/people/emeritus-faculty/taylor",
+    publishedAt: "2026-09-03T05:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["kavram", "din-felsefesi", "siyaset-felsefesi", "etik", "estetik"],
+    philosopherSlugs: ["charles-taylor"],
+    sources: [
+      {
+        title: "Charles Taylor — Emeritus Faculty",
+        publisher: "McGill University, Department of Philosophy",
+        url: "https://www.mcgill.ca/philosophy/people/emeritus-faculty/taylor",
+        primary: true,
+      },
+      {
+        title: "Charles Taylor: bridging politics and philosophy",
+        publisher: "McGill University Bicentennial",
+        url: "https://200.mcgill.ca/history/charles-taylor-bridging-politics-and-philosophy/",
+      },
+      {
+        title: "Cosmic Connections — kitap değerlendirmesi",
+        publisher: "The New Yorker",
+        date: "24 Haziran 2024",
+        url: "https://www.newyorker.com/magazine/2024/06/24/cosmic-connections-charles-taylor-book-review",
+      },
+    ],
+    content: `Modern insan, tarihte hiç olmadığı kadar özgür. Ve tarihte hiç olmadığı kadar huzursuz.
+
+Bu iki cümle yan yana geldiğinde bir açıklama ister. **Charles Taylor**'ın altmış yıllık çalışması, bu açıklamayı vermeye ayrılmıştır.
+
+1931'de Montreal'de doğdu. McGill'de tarih okudu, Oxford'da felsefe, siyaset ve iktisat; doktorasını 1961'de Oxford'dan aldı. Akademik hayatının büyük bölümünü McGill Üniversitesi'nde geçirdi; bugün orada emeritus felsefe profesörü.
+
+Ama Taylor'ı yalnızca akademik kariyeriyle anlamak eksik kalır. Kanada'da defalarca milletvekilliğine aday oldu, kamusal komisyonlarda görev yaptı, felsefeyi hiçbir zaman toplumsal tartışmadan koparmadı.
+
+## Modern benlik nasıl kuruldu?
+
+Taylor'ın başyapıtı, 1989 tarihli **Benliğin Kaynakları: Modern Kimliğin Oluşumu**.
+
+Kitabın sorduğu soru şu: Modern insanın kendisini bir "iç dünyası olan birey" olarak algılaması nereden geliyor?
+
+Bu, bize doğal görünüyor. Oysa değil. Antik Yunan'da bir insanın kimliği, kentteki yeriyle ve gördüğü işle tanımlanırdı. "İçeride" saklı bir gerçek benlik fikri, uzun bir tarihin ürünüdür.
+
+Taylor bu tarihin üç ana kaynağını izler:
+
+**Augustinus'un içe dönüşü.** *İtiraflar*'la birlikte, hakikate giden yol dışarıdan içeriye çevrilir. İnsan kendini yoklayarak Tanrı'ya ulaşır. Sitemizde dün ele aldığımız [Augustinus'un yeni bulunan vaazları](/haber/augustinus-iki-yeni-vaaz-pelplin) da bu iç sorgulama yönteminin izlerini taşıyor.
+
+**Descartes'ın ayrık öznesi.** Düşünen ben, bedeninden ve dünyasından ayrılabilir bir merkez hâline gelir. Akıl, dışarıdaki düzeni keşfetmez; kendi düzenini kurar.
+
+**Romantizmin özgün sesi.** On sekizinci yüzyıl sonunda yeni bir fikir doğar: Her insanın kendine özgü, taklit edilemez bir varolma biçimi vardır. Kendine sadık olmak bir erdem hâline gelir.
+
+Taylor'ın asıl tezi burada devreye giriyor: Modern kimliği yalnızca **özgürlük** ve **akıl** kavramlarıyla açıklamak yetmez. İnsanların neyi iyi ve değerli buldukları, hangi **ahlaki ufuk** içinde yaşadıkları da belirleyicidir.
+
+Yani benlik ile değer birbirinden ayrı düşünülemez. Bir insan "ben kimim" sorusuna, önemsediği şeylere başvurmadan yanıt veremez.
+
+## Huzursuzluk nereden geliyor?
+
+Buradan Taylor'ın modernlik eleştirisi çıkıyor.
+
+Modern birey daha özgürdür; ama geleneksel anlam kaynaklarından da uzaklaşmıştır. Toplumsal bağlar zayıfladıkça seçenek artar. Ama **seçeneklerin artması anlamın artması demek değildir.**
+
+Tersine: Seçmek zorunda olmak, neyi seçmemiz gerektiği sorusunu ağırlaştırır. Hiçbir seçenek kendiliğinden meşru değilse, her seçim gerekçelendirilmek zorundadır — ve gerekçelendirmenin de bir zemini kalmamıştır.
+
+Taylor buna **ahlaki ufkun daralması** der. Kendine sadık olmak bir ideal olarak kalır; ama "kendi" dediğimiz şeyin içeriğini verecek ortak bir dünya zayıflamıştır.
+
+Önemli olan, Taylor'ın buradan muhafazakâr bir sonuç çıkarmaması. Geçmişe dönüşü savunmaz. Modern özgünlük idealinin **kendi içindeki kaynakları** güçlendirmeyi önerir.
+
+2024'te yayımlanan *Cosmic Connections: Poetry in the Age of Disenchantment* kitabı bu arayışın son hâli: Şiirin ve sanatın, büyüsü bozulmuş bir dünyada ortak anlam alanları kurabileceğini savunuyor.
+
+## "Seküler çağ" ne demek?
+
+Taylor'ın en çok tartışılan kitabı, 2007 tarihli **Seküler Çağ**.
+
+Sekülerliği "dinin ortadan kalkması" olarak okumak, kitabın tezini kaçırmaktır.
+
+Taylor'ın sorusu daha incelikli: **1500'de Batı Avrupa'da Tanrı'ya inanmamak neredeyse imkânsızken, 2000'de inanmak birçok insan için birçok seçenekten biri hâline nasıl geldi?**
+
+Yanıtı, bir çıkarma işlemi değildir. Yani modernlik, dini ortadan kaldırarak altından bilimsel gerçeği çıkarmış değildir. Taylor bu anlatıya **"çıkarma hikâyeleri"** adını verir ve reddeder.
+
+Onun anlatısında olan şey bir **inşa**dır: Yeni bir varoluş biçimi — "tampon benlik" (buffered self) — yaratılmıştır. Ortaçağ insanının benliği dışarıya açıktı: ruhlar, güçler, kutsal nesneler ona doğrudan etki edebilirdi. Modern benlik ise **sınırlıdır**: Anlam, dışarıdan gelmez, içeride üretilir.
+
+Bu değişimin bedeli var. Kapalı benlik güvenlidir ama yalnızdır.
+
+Taylor'ın sonucu: Seküler toplumda inanç ortadan kalkmaz; inanç ve inançsızlık **birbirinin seçeneği hâline gelir**. Bu yüzden modern insanın durumu "dindar" ya da "dindar değil" ikilisiyle açıklanamaz. Herkes, birden fazla anlam dünyasının farkında olarak yaşar.
+
+## Tanınma neden siyasal bir kavram?
+
+Taylor'ın üçüncü büyük katkısı **tanınma politikası**dır — özellikle *Çokkültürlülük ve Tanınma Politikası* (1992) çalışmasında.
+
+Tezi şu: Bir birey ya da topluluk, yalnızca kendi iç dünyasında bir kimliğe sahip değildir. Başkalarının onu nasıl gördüğü ve toplumun onu hangi statüyle kabul ettiği, kimliğin oluşumunda kurucu rol oynar.
+
+Buradan çıkan sonuç, hoşgörü kavramını yetersiz kılar. **Yanlış tanınma bir zarar biçimidir** — kişiye kendisine dair aşağılayıcı bir imge dayatır ve o imge içselleştirilebilir.
+
+Dolayısıyla soru "farklılıklara hoşgörü gösterelim mi" değildir. Soru şudur: **Bir toplum, farklı kimliklere sahip insanların kendilerini o toplumun meşru üyeleri olarak görebilmelerini nasıl sağlar?**
+
+Taylor bu soruyu yalnızca yazmadı. 2007'de Gérard Bouchard ile birlikte, Quebec'te kültürel ve dinî farklılıkların toplumla nasıl bağdaştırılabileceğini inceleyen **Bouchard-Taylor Komisyonu**'nun eş başkanlığını yürüttü.
+
+Sitemizde bugün ele aldığımız [Judith Butler'ın tanınma çözümlemesiyle](/haber/judith-butler-demokrasi-taninma-yas) buradaki fark öğretici: Taylor, ortak bir kamusal dünyanın farklılıkları tanıyabileceğine güvenir; Butler, tanıma çerçevesinin kendisinin bir dışlama ürettiğinden kuşkulanır.
+
+## Eleştiriler
+
+**Anlatı itirazı:** Taylor'ın modernlik tarihi, seçici olmakla eleştirildi. Batı Avrupa ve Kuzey Amerika merkezli bir hikâye, evrensel bir modernlik anlatısı olarak sunuluyor mu?
+
+**Teolojik itiraz:** Taylor Katolik bir düşünürdür ve bunu gizlemez. Bazı okurlar, *Seküler Çağ*'ın betimleyici görünüp aslında normatif olduğunu — kayıp bir bütünlüğe duyulan özlemi taşıdığını — savundu.
+
+**Analitik itiraz:** Kavramlarının kesinliği sorgulandı; "ahlaki ufuk", "güçlü değerlendirme" gibi terimlerin operasyonel hâle getirilmesi zordur.
+
+## Neden bugün önemli?
+
+Taylor'ın güncelliği, sorduğu soruların hâlâ açık olmasından geliyor.
+
+İnsanlar bugün yalnızca siyasal ya da ekonomik olarak değil; kimlik, kültür, din, dil ve yaşam tarzı bakımından da farklı dünyalarda yaşıyor. Dijital medya bu farkları azaltmak yerine görünür kılıyor.
+
+Taylor'ın temel uyarısı burada devreye giriyor: **İnsan yalnızca bağımsız bir birey değildir.** Bir dilin, kültürün, tarihin ve ortak anlam dünyasının içinde yaşar.
+
+Bu yüzden modern insanı anlamak için "ben ne istiyorum" sorusu yetmez. Şunu da sormak gerekir:
+
+**Ben kim olduğumu hangi ortak dünyada öğreniyorum?**
+
+Taylor'ın kalıcı gücü tam burada: Modern bireyin özgürlüğünü reddetmeden bireyciliğin sınırını gösteriyor; sekülerliği savunurken dinin anlam üretici rolünü göz ardı etmiyor; farklılıkları kabul ederken ortak bir kamusal dünyanın gerekliliğini koruyor.
+
+---
+
+*Türkçede: Benliğin Kaynakları, Modernliğin Sıkıntıları, Seküler Çağ ve Çokkültürcülük başta olmak üzere Taylor'ın temel eserleri çevrildi.*`,
+  },
+  {
+    title: "Dünya Felsefe Günü'nü dünyaya Türkiye önerdi — ve 19 Kasım'da yine kutlanacak",
+    slug: "dunya-felsefe-gunu-kucuradi-unesco",
+    summary:
+      "UNESCO'nun her kasım ayının üçüncü perşembesinde kutlanan Dünya Felsefe Günü'nün fikri Türkiye'den çıktı: öneri İoanna Kuçuradi'nin başkanlığındaki Türkiye Felsefe Kurumu'na ait. İlk kutlama 21 Kasım 2002'ydi. Bu yıl 19 Kasım'a denk geliyor — ve Türkiye'de yeterince bilinmiyor.",
+    seoTitle: "Dünya Felsefe Günü'nün Türkiye kökeni — Kuçuradi ve UNESCO",
+    metaDescription:
+      "UNESCO Dünya Felsefe Günü'nün önerisi Türkiye Felsefe Kurumu'ndan çıktı. İlk kutlama 21 Kasım 2002. 2026'da 19 Kasım'a denk geliyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/UNESCO%2C_Paris_May_2012.jpg?width=1600",
+    imageCredit: "UNESCO Genel Merkezi, Paris · Wikimedia Commons",
+    featured: true,
+    sourceName: "FISP — Fédération Internationale des Sociétés de Philosophie",
+    sourceUrl: "https://www.fisp.org/ioanna-kucuradi",
+    publishedAt: "2026-09-03T04:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "tarih", "kavram", "etik", "demokrasi"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      {
+        title: "İoanna Kuçuradi",
+        publisher: "FISP",
+        url: "https://www.fisp.org/ioanna-kucuradi",
+        primary: true,
+      },
+      {
+        title: "World Philosophy Day",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/World_Philosophy_Day",
+      },
+      {
+        title: "On World Philosophy Day, UN official urges critical thinking",
+        publisher: "UN News",
+        url: "https://news.un.org/en/story/2013/11/455972-world-philosophy-day-un-official-urges-critical-thinking-inclusion",
+      },
+    ],
+    content: `UNESCO takviminde felsefeye ayrılmış bir gün var.
+
+Her kasım ayının **üçüncü perşembesi**, dünyanın onlarca ülkesinde okullarda, üniversitelerde ve kültür merkezlerinde felsefe etkinlikleri düzenleniyor. İlk kutlama **21 Kasım 2002**'de yapıldı.
+
+Bu günün fikri nereden çıktı?
+
+**Türkiye'den.**
+
+## Öneriyi kim yaptı?
+
+Dünya Felsefe Günü'nün kurucu ismi **İoanna Kuçuradi**. Öneri, onun başkanlığındaki **Türkiye Felsefe Kurumu**'ndan geldi ve UNESCO tarafından kabul edildi.
+
+Kuçuradi'nin uluslararası konumu bu önerinin ağırlığını açıklıyor. 1998'den beri **UNESCO Felsefe Kürsüsü** sahibi; **Uluslararası Felsefe Dernekleri Federasyonu (FISP)** başkanlığı yaptı. Türkiye'de değer felsefesi ve insan hakları felsefesi alanının kurucu ismi.
+
+UNESCO Genel Konferansı, günü ilan ederken disiplinin — özellikle gençler için — taşıdığı önemi vurguladı.
+
+## Neden anlamlı bir öneri?
+
+Uluslararası günlerin çoğu bir felakete ya da bir kayba işaret eder: soykırım anmaları, hastalık farkındalık günleri, afet yıldönümleri.
+
+Dünya Felsefe Günü farklı bir şey yapıyor: Bir **etkinliği** — düşünmeyi — kutluyor.
+
+Bunun ardındaki gerekçe Kuçuradi'nin felsefe anlayışıyla doğrudan ilgili. Kuçuradi'ye göre felsefe, akademik bir uzmanlık alanı olmakla sınırlı değildir; **doğru değerlendirme yapabilme** kapasitesidir. İnsan hakları, ona göre, ancak bu kapasite geliştirilirse korunabilir.
+
+Yani günün amacı felsefeyi tanıtmak değil; felsefi düşünmenin **siyasal bir gereklilik** olduğunu söylemek.
+
+Bu, sitemizde bugün ele aldığımız iki tartışmayla doğrudan kesişiyor. [Judith Butler'ın demokrasi eleştirisi](/haber/judith-butler-demokrasi-taninma-yas) ile [dijital gelecek tasavvurlarının demokratik siyaseti dışlaması](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) çözümlemesi, aynı sorunun iki yüzü: Karar verme kapasitesi kimde?
+
+## Türkiye'de yeterince bilinmiyor
+
+Bu, Türkiye'nin uluslararası kültürel kamuoyuna yaptığı sayılı kalıcı katkıdan biri. Ve Türkiye'de büyük ölçüde bilinmiyor.
+
+Kasımın üçüncü perşembesi geldiğinde, Türkiye'deki felsefe bölümleri ve topluluklar etkinlik düzenliyor; ancak bunun **Türkiye kaynaklı bir öneri** olduğu genellikle anılmıyor.
+
+Oysa bu bilgi, felsefe eğitimini savunmak için elverişli bir dayanak sunuyor. Felsefe derslerinin müfredattaki yeri tartışmaya açıldığında, bu tarihsel ayrıntı somut bir karşılık üretebilir.
+
+## 2026 takvimi
+
+Bu yıl Dünya Felsefe Günü **19 Kasım 2026 Perşembe** gününe denk geliyor.
+
+Türkiye'deki bölümler ve topluluklar için hazırlık dönemi başlamış sayılır. Etkinlik planlayan kurumların duyurularını [Konferanslar bölümümüze](/kategori/konferanslar) iletmesi hâlinde takvimimize ekliyoruz.
+
+## Kuçuradi hakkında
+
+Bu köşede daha önce ayrıntılı olarak [ele aldığımız](/haber/ioanna-kucuradi-felsefe-insan-haklari) Kuçuradi, Türkiye'de felsefenin kurumsallaşmasında belirleyici bir rol oynadı: Türkiye Felsefe Kurumu'nun kuruluşu, Hacettepe ve Maltepe'de kurduğu insan hakları merkezleri, uluslararası felsefe kongrelerinin Türkiye'ye taşınması.
+
+Onun çizgisinin ayırt edici yanı, felsefeyi hem **teknik bir disiplin** hem de **kamusal bir sorumluluk** olarak görmesi. Dünya Felsefe Günü önerisi, bu iki yanın buluştuğu yerde duruyor.
+
+---
+
+*Not: Dünya Felsefe Günü, UNESCO tarafından 2002'de ilan edildi ve o yıl ilk kez 21 Kasım'da kutlandı.*`,
+  },
+  {
+    title: "Cavell New School'da: sanat, başkalarının zihni ve şüphecilik",
+    slug: "cavell-sempozyumu-new-school-2026",
+    summary:
+      "New School for Social Research, 30-31 Ekim'de Stanley Cavell'e iki günlük bir sempozyum ayırıyor. Odak, Cavell'in estetik yazıları — ve başkalarının zihnine dair şüpheciliğin onun sanat yorumundaki kurucu rolü. Alice Crary ve Jay Bernstein konuşmacılar arasında.",
+    seoTitle: "Arendt/Schürmann Sempozyumu: Stanley Cavell, New School, 30-31 Ekim 2026",
+    metaDescription:
+      "New School for Social Research'te Stanley Cavell sempozyumu. Estetik, şüphecilik ve başkalarının zihni sorunu.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/New_School_University_Center_in_Manhattan_October_2014_2.JPG?width=1600",
+    imageCredit: "The New School, Manhattan · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/153121",
+    publishedAt: "2026-09-03T04:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "estetik", "sinema", "zihin-felsefesi", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "2026-7 Arendt/Schürmann Symposium on Stanley Cavell",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/153121",
+        primary: true,
+      },
+      {
+        title: "Cavell Conference — program sayfası",
+        publisher: "The New School for Social Research",
+        url: "https://kpodowd.github.io/cavell-conference/",
+      },
+    ],
+    content: `Bir düşünürün ölümünden sekiz yıl sonra ona iki günlük sempozyum ayrılması, o düşüncenin hâlâ iş gördüğünün işaretidir.
+
+**New School for Social Research** Felsefe Bölümü, **30-31 Ekim 2026**'da **Stanley Cavell**'e adanmış bir konferans düzenliyor. Etkinlik, bölümün **Arendt/Schürmann Sempozyumu** dizisinin 2026-27 halkası.
+
+Yer: Wollman Hall, 65 West 11th Street, New York. Kayıt gerekmiyor.
+
+## Odak: sanat ile şüphecilik arasındaki bağ
+
+Konferansın duyurusu, kapsamı net biçimde çiziyor: **Cavell'in estetik üzerine yazıları** — ve özellikle, **başkalarının zihnine dair şüpheciliğin** onun sanat yorumunda oynadığı rol.
+
+Bu odak, Cavell'in düşüncesindeki en özgün bağlantıyı hedefliyor.
+
+Klasik şüphecilik dış dünyayı sorgular: Önümdeki masanın gerçekten var olduğunu biliyor muyum? Cavell'in ilgisi başka yöndeydi: **Bir başkasının acı çektiğini nasıl bilirim?**
+
+Cavell'in yanıtı, tartışmayı yerinden oynattı. Bu bir **bilgi problemi değildir**. Şüphecilik çözülecek bir bulmaca değil, insanlık durumunun bir parçasıdır.
+
+Buradan geliştirdiği kavram **kabul etme** — *acknowledgment*. Başkasının acısını "bilmek" değil, ona karşılık vermek. Asıl sorun bilgi eksikliği değil, **kayıtsızlıktır**.
+
+## Neden estetik?
+
+Cavell'i özgün kılan, bu düşünceyi felsefe metinlerinin dışında aramasıydı.
+
+Sinemayı ciddiye alan ilk büyük analitik felsefecilerdendir. *Pursuits of Happiness*'ta 1930-40'ların Hollywood komedilerini — "yeniden evlenme komedileri" dediği türü — ahlak felsefesi metni olarak okur. Bu filmlerde çiftler ayrılır ve yeniden birleşir; Cavell'e göre bu, karşılıklı tanınmanın ve birlikte yaşamayı **yeniden seçmenin** dramıdır.
+
+Shakespeare üzerine yazdı: *Kral Lear*'ı, kabul etmenin reddedilmesinin trajedisi olarak okudu. Lear'ın hatası bilgisizlik değil, sevgiyi kabul etmeyi reddetmesidir.
+
+Müzik eğitimi almış, besteci olmayı düşünmüş bir filozof olarak müziğe de yazdı. Emerson ve Thoreau'yu Amerikan felsefesinin ciddiye alınmamış kurucuları olarak yeniden okuttu.
+
+Konferansın **özel etiketleri** bu genişliği yansıtıyor: Stanley Cavell, Sinema, Şüphecilik, Gündelik Dil Felsefesi, Wittgenstein, Müzik, Estetik.
+
+## Konuşmacılar
+
+Program, Cavell çalışmalarının bugünkü haritasını gösteriyor:
+
+**Alice Crary** (The New School) — Ahlak felsefesinde "genişletilmiş akılcılık" savunusuyla tanınıyor; Wittgenstein ve Cavell geleneğinden hareketle ahlaki algının bilişsel bir başarı olduğunu savunuyor.
+
+**Jay Bernstein** (The New School) — Adorno ve estetik kuramı üzerine çalışmalarıyla tanınan bir isim; eleştirel teori ile Cavell geleneğini buluşturuyor.
+
+**Zed Adams** (The New School) · **Francey Russell** (Barnard College) · **Byron Davies** (Murcia Üniversitesi) · **Benjamin Goff** (King's College London) · **Vincent Joshua Adams** (Chicago Üniversitesi) · **Paola Marrati**
+
+New School'un ev sahipliği anlamlı. Kurum, Avrupa'dan kaçan düşünürlere kapılarını açan "Sürgündeki Üniversite" geleneğinden geliyor; Hannah Arendt ve Reiner Schürmann burada ders verdi. Sempozyum dizisi de bu iki isimden alıyor adını.
+
+## Cavell'i neden şimdi okumalı?
+
+Bu köşede birkaç gün önce, [1 Eylül'ün Cavell'in doğum günü olduğunu](/haber/felsefe-tarihinde-bugun-1-eylul-serres-cavell) anmıştık. O yazıda vurguladığımız nokta bu konferansın da zeminini oluşturuyor: Cavell, felsefenin sınırını dışarıdan gelen bir şeyle açan düşünürlerdendi.
+
+Bugün bu tutumun ayrı bir güncelliği var.
+
+Sitemizin bugünkü [yapay zekâ ve bilinç dosyasında](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tartışılan soru — bir varlığın bilinçli olup olmadığını nasıl bilebiliriz — tam olarak Cavell'in "başkalarının zihni" problemidir.
+
+Ve Cavell'in yanıtı, bugünkü tartışmaya doğrudan uyarlanabilir: Belki soru "biliyor muyuz" değildir. Belki soru, **karşılık verip vermediğimizdir**.
+
+## Pratik bilgiler
+
+- **Tarih:** 30-31 Ekim 2026 (Cuma-Cumartesi)
+- **Yer:** Wollman Hall, 5. kat, 65 W 11th Street, New York
+- **Düzenleyen:** The New School for Social Research Felsefe Bölümü
+- **Dizi:** Arendt/Schürmann Sempozyumu 2026-27
+- **Kayıt:** Gerekmiyor
+
+Program ayrıntıları [konferans sayfasında](https://kpodowd.github.io/cavell-conference/).`,
+  },
+  {
+    title: "Makinenin refahı: Cambridge'den yeni bir kitap soruyu erkenden soruyor",
+    slug: "keeling-street-yapay-zeka-refahi",
+    summary:
+      "Geoff Keeling ve Winnie Street'in Cambridge Elements dizisinden çıkan kitabı, henüz yanıtı olmayan bir soruyu düzenli biçimde kuruyor: Bir yapay zekâ sisteminin refahı olabilir mi, olursa ne yapmamız gerekir? Yazarlardan biri Google'da bilişsel araştırmacı — bu ayrıntı kitabın konumunu da açıklıyor.",
+    seoTitle: "Emerging Questions in AI Welfare — Keeling ve Street (Cambridge, 2026)",
+    metaDescription:
+      "Geoff Keeling ve Winnie Street'in AI Welfare kitabı Cambridge Elements'ten çıktı. Yapay zekânın ahlaki statüsü ve refah sorusu.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/KarakuriBritishMuseum.jpg?width=1600",
+    imageCredit: "Karakuri — 19. yüzyıl Japon mekanik oyuncağı, British Museum · Wikimedia Commons",
+    featured: false,
+    sourceName: "Cambridge University Press",
+    sourceUrl: "https://www.cambridge.org/core/books/emerging-questions-in-ai-welfare/96339C532CF4ED8BDDE3F3CEF4CD29F9",
+    publishedAt: "2026-09-03T04:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "yapay-zeka", "etik", "bilinc", "zihin-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Emerging Questions in AI Welfare",
+        publisher: "Geoff Keeling & Winnie Street, Cambridge Elements in Philosophy and AI",
+        date: "Haziran 2026",
+        url: "https://www.cambridge.org/core/books/emerging-questions-in-ai-welfare/96339C532CF4ED8BDDE3F3CEF4CD29F9",
+        primary: true,
+      },
+      {
+        title: "Book Launch: Emerging Questions in AI Welfare",
+        publisher: "Institute of Philosophy, University of London",
+        url: "https://philosophy.sas.ac.uk/news-events/events/book-launch-emerging-questions-ai-welfare",
+      },
+    ],
+    content: `Felsefede bir soruyu **erken** sormanın bedeli vardır: Gülünç görünme riski.
+
+On dokuzuncu yüzyılda hayvanların acı çekip çekmediğini sormak da böyleydi. Bentham'ın "Soru şu değil: akıl yürütebiliyorlar mı? Konuşabiliyorlar mı? Soru şu: **acı çekebiliyorlar mı?**" cümlesi, yazıldığında bir dipnottu. Bugün hayvan etiğinin kurucu metnidir.
+
+**Geoff Keeling** ve **Winnie Street**'in Cambridge Elements dizisinden haziranda çıkan kitabı, aynı riski göze alıyor.
+
+**Emerging Questions in AI Welfare** — *Yapay Zekâ Refahında Beliren Sorular* — henüz yanıtı olmayan bir soruyu düzenli biçimde kuruyor: **Bir yapay zekâ sisteminin refahı olabilir mi? Olursa, bize ne düşer?**
+
+## Yazarlar kim?
+
+Kitabın konumunu anlamak için yazarlara bakmak gerekiyor.
+
+**Geoff Keeling**, Londra Üniversitesi Felsefe Enstitüsü'nde araştırmacı ve Cambridge Üniversitesi'ndeki Leverhulme Geleceğin Zekâsı Merkezi'nde ortak üye. Yapay zekânın etik ve toplumsal etkileri üzerine çalışıyor.
+
+**Winnie Street**, aynı enstitüde araştırmacı ve **Google**'ın "Paradigms of Intelligence" ekibinde kıdemli araştırma bilimcisi. Yapay zekâ bilişi ve bilinci sorularına hem felsefi hem ampirik yaklaşımları birleştiriyor.
+
+Bu ikinci ayrıntı önemli. Yapay zekâ refahı sorusu, artık yalnızca akademik bir merak değil; sistemleri fiilen üreten kurumların içinde de sorulan bir soru. Bu, konuya güç kazandırıyor — ve aynı zamanda bir çıkar sorusu açıyor: Bir teknolojinin ahlaki statüsünü, o teknolojiyi üreten kurumun içinden tartışmak neyi kolaylaştırır, neyi zorlaştırır?
+
+Kitabın kendisi bu soruyu da kapsıyor.
+
+## Sorunun yapısı
+
+Yapay zekâ refahı tartışması, üç ayrı katmandan oluşuyor ve karıştırıldığında verimsizleşiyor.
+
+**Birinci katman — metafizik:** Bir yapay zekâ sistemi bilinçli olabilir mi? Deneyim sahibi olabilir mi?
+
+Bu, sitemizde bugün ele aldığımız [Eric Schwitzgebel'in kitabının](/haber/yapay-zeka-bilinc-schwitzgebel-sis) konusu ve yanıtı belirsiz: bilmiyoruz, zamanında da bilemeyeceğiz.
+
+**İkinci katman — ahlaki statü:** Bilinç, ahlaki dikkate değer olmanın **koşulu** mudur? Yoksa fail olma kapasitesi, tercih sahibi olmak veya toplumsal ilişkiler kurmak da yeterli midir?
+
+Bu ayrım kritik. Çünkü bilinç sorusunun yanıtını beklemek, karar vermeyi süresiz erteler. Oysa ahlaki statü tartışması, bilinç kesinleşmeden de yürütülebilir — nitekim hayvan etiğinde de böyle olmuştur.
+
+**Üçüncü katman — refah:** Eğer bir varlık ahlaki dikkate değerse, onun için **iyi olanın** ne olduğunu nasıl belirleriz?
+
+Bu, en az düşünülmüş katman. Bir insan için refah, hazza, tercih doyumuna ya da nesnel bir listeye göre tanımlanabilir. Bir yapay zekâ sistemi için bu kuramların hangisi anlamlıdır — ya da hiçbiri değil midir?
+
+## Neden şimdi?
+
+Kitabın gerekçesi, felsefi olmaktan çok pratik.
+
+Eğer bir gün yapay zekâ sistemlerinin ahlaki statüye sahip olduğuna karar verirsek, o karar verildiğinde **milyonlarca sistem çalışıyor olacak**. Kuralları o anda kurmak, geç kalmak demektir.
+
+Bunun tersi de doğru ve kitabın atladığı bir risk değil: Ahlaki statüyü yanlış atfetmek de bir bedel taşır. Sitemizde bugün andığımız [Luciano Floridi'nin "anlamsal pareidolia"](/haber/yapay-zeka-bilinc-schwitzgebel-sis) uyarısı burada devreye giriyor — bilinç olmayan yerde bilinç görmek, gerçek insan çıkarlarını hayalî çıkarlar uğruna feda etmeye yol açabilir.
+
+Dolayısıyla kitabın ana katkısı bir sonuç değil, bir **çerçeve**: Hangi sorunun hangi sırayla sorulacağını düzenlemek.
+
+## Peter Singer bağlantısı
+
+Bu tartışmanın entelektüel soyağacı, doğrudan hayvan etiğinden geliyor.
+
+Bugünkü [Peter Singer dosyamızda](/haber/peter-singer-iyi-hayat-yapay-zeka-kapitalizm) andığımız **duyarlılık** ölçütü — akıl değil, acı çekebilme — mantıksal olarak türe bağımlı değildir. Aynı ölçüt makinelere uygulandığında, ahlaki çemberin bir kez daha genişlemesi gündeme gelir.
+
+Singer'ın kendi yapay zekâ sürümünü kurmuş olması, bu paralelliği ironik biçimde tamamlıyor.
+
+## Türkçe için
+
+Türkiye'de yapay zekâ etiği tartışması ağırlıklı olarak **insan üzerindeki etkiler** üzerinden yürüyor: istihdam, mahremiyet, önyargı, sorumluluk.
+
+Makinenin kendisinin ahlaki statüsü sorusu ise henüz gündemde değil. Bu kitap, o gündemin nasıl kurulabileceğine dair yüz sayfalık bir örnek sunuyor — ve Elements dizisinin kısalığı, ders materyali olarak kullanılmasını kolaylaştırıyor.
+
+---
+
+**Künye:** Geoff Keeling & Winnie Street · *Emerging Questions in AI Welfare* · Cambridge University Press, Elements in Philosophy and AI · Haziran 2026 · İngilizce · ISBN 9781009731980
+
+*Not: Kitabın Türkçe çevirisi henüz duyurulmadı.*`,
+  },
+  {
+    title: "Ödülü anlaşmazlığa verdiler: Lebowitz 2026 iki karşıt hafıza kuramcısına",
+    slug: "lebowitz-odulu-2026-de-brigard-robins",
+    summary:
+      "APA ve Phi Beta Kappa'nın Lebowitz Ödülü'nün kuralı sıra dışı: Kazananlar, aynı soruda karşıt görüşleri savunan iki felsefeci olmak zorunda. 2026'da ödül Felipe De Brigard ve Sarah Robins'e gitti. Tartıştıkları soru sade görünüyor: Hatırlamak, hayal etmenin bir türü müdür?",
+    seoTitle: "Lebowitz Ödülü 2026: Felipe De Brigard ve Sarah Robins",
+    metaDescription:
+      "APA ve Phi Beta Kappa'nın Lebowitz Ödülü 2026'da hafıza felsefesinde karşıt görüşleri savunan De Brigard ve Robins'e verildi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Duke_Chapel%2C_West_Campus%2C_Duke_University%2C_Durham%2C_NC_%2848961096177%29.jpg?width=1600",
+    imageCredit: "Duke Üniversitesi, Durham · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/26/de-brigard-and-robins-win-2026-lebowitz-prize/",
+    publishedAt: "2026-09-03T03:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "zihin-felsefesi", "akademi", "epistemoloji", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "De Brigard and Robins Win 2026 Lebowitz Prize",
+        publisher: "Daily Nous",
+        date: "26 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/26/de-brigard-and-robins-win-2026-lebowitz-prize/",
+        primary: true,
+      },
+      {
+        title: "Lebowitz Prize",
+        publisher: "American Philosophical Association",
+        url: "https://www.apaonline.org/page/lebowitz",
+      },
+    ],
+    content: `Akademik ödüller genellikle bir kişiyi ödüllendirir. **Lebowitz Ödülü** bir **anlaşmazlığı** ödüllendiriyor.
+
+Kuralı açık: Kazananlar, felsefede güncel ilgi gören bir konuda **karşıt görüşleri savunan iki felsefeci** olmak zorunda. İkisi, bir APA bölge toplantısında düzenlenen yıllık Lebowitz sempozyumunda görüşlerini sunar ve karşılıklı tartışır. Her birine **25.000 dolar** onur ödülü veriliyor.
+
+Ödül, Amerikan Felsefe Derneği (APA) ile **Phi Beta Kappa** cemiyetinin ortak verdiği bir ödül.
+
+2026 kazananları 26 Ağustos'ta açıklandı:
+
+**Felipe De Brigard** — Duke Üniversitesi'nde Felsefe ve Psikoloji & Sinirbilim profesörü, Bilişsel Sinirbilim Merkezi üyesi ve Duke Beyin Bilimleri Enstitüsü'ndeki **Hayal Gücü ve Kipsel Biliş Laboratuvarı**'nın (IMC Lab) yöneticisi.
+
+**Sarah Robins** — Purdue Üniversitesi'nde felsefe profesörü ve Purdue'nun **Biliş, Faillik ve Zekâ Merkezi**'nin (CAIC) kurucu eş-yöneticisi.
+
+## Tartışma ne üzerine?
+
+Duyurunun altına düşen ilk yorum, tam da doğru soruyu soruyordu: Bu ikisi tam olarak neyde anlaşamıyor?
+
+Yanıt, hafıza felsefesinin son yirmi yıldaki merkezî ekseninde: **nedensellik mi, simülasyon mu?**
+
+### Nedenselcilik
+
+Geleneksel görüş — Robins'in savunduğu çizgi — şunu söyler: Bir zihinsel durumun **hatırlama** sayılabilmesi için, hatırlanan olay ile geri çağırma anındaki içerik arasında **uygun bir nedensel bağ** bulunmalıdır.
+
+Bu bağı mümkün kılan şey, içeriği koruyan bir **hafıza izidir** (memory trace). Yaşadığınız olay beyninizde bir iz bırakır; hatırladığınızda o ize erişirsiniz.
+
+Bu görüşün gücü, hatırlamayı hayal etmekten ayırabilmesinde. Doğru bir şeyi tesadüfen "hatırlamak", gerçek hatırlama değildir — çünkü nedensel bağ yoktur.
+
+Robins'in 2016 tarihli çalışması *"Geçmişi temsil etmek: hafıza izleri ve nedensel hafıza kuramı"*, bu konumun çağdaş savunusudur.
+
+### Simülasyonculuk
+
+Karşı görüş, sinirbilimden gelen bir bulguya dayanır: **Hatırlama ile hayal etme, büyük ölçüde aynı sinirsel sistemi kullanır.** Geçmişi anımsarken etkinleşen ağlar, geleceği tasavvur ederken de etkinleşir.
+
+Buradan çıkarılan tez radikaldir: Hatırlama, geçmişin bir kaydını okumak değil; geçmişi **yeniden inşa etmektir**. Öyleyse uygun nedensel bağ koşuluna ve hafıza izlerine gerek yoktur.
+
+Bu görüş, hafızanın yanılabilirliğini iyi açıklar. Yanlış hatırlama bir arıza değil, sistemin normal işleyişinin sonucudur — çünkü sistem zaten kayıt tutmak için değil, **kurgulamak** için tasarlanmıştır.
+
+### De Brigard'ın konumu
+
+De Brigard'ı ilginç kılan, saf bir simülasyoncu olmaması.
+
+Simülasyonculuğun zihinsel zaman yolculuğu için **tek bir bilişsel sistem** öngörmesinin muhtemelen yanlış olduğunu savunuyor. Dahası: Simülasyonculuk **hafıza izlerinden tümüyle kurtulamaz**; izler açıklayıcı olarak hâlâ vazgeçilmezdir.
+
+Bunun yerine, izleri kurmacı bir hafıza anlayışıyla **bağdaşacak** biçimde yeniden düşünmeyi öneriyor. Son çalışmalarında tartışmanın büyük ölçüde yanlış kurulduğunu savunuyor ve nedensel ile simülasyoncu görüşü uzlaştırabilecek bir yeniden inşa modeli öneriyor.
+
+Yani ödülün ödüllendirdiği "karşıtlık", basit bir iki kutuplu karşıtlık değil. Robins koşulun **gerekliliğini** savunuyor; De Brigard koşulun **kuruluşunu** sorguluyor.
+
+## Neden önemli bir tartışma?
+
+Bu, laboratuvar içi teknik bir mesele gibi görünebilir. Değil.
+
+**Hukuk:** Tanık ifadesinin güvenilirliği, hafızanın kayıt mı yoksa inşa mı olduğuna bağlıdır. Yanlış hatırlamanın sistemin normal işleyişi olduğu doğruysa, ceza yargılamasının kanıt hiyerarşisi yeniden düşünülmelidir.
+
+**Kimlik:** Locke'tan bu yana kişisel özdeşliğin hafızaya dayandırıldığı bir gelenek var. Hafıza sürekli yeniden kuruluyorsa, "aynı kişi" olmanın zemini nedir?
+
+**Yapay zekâ:** Sitemizde bugün ele aldığımız [bilinç tartışmasının](/haber/yapay-zeka-bilinc-schwitzgebel-sis) yan sorusu tam burada. Bir dil modelinin "hatırlaması" nedir? Eğitim verisiyle çıktı arasında uygun bir nedensel bağ var mıdır — yoksa yalnızca yeniden üretim mi vardır?
+
+De Brigard'ın laboratuvarının adı — **Hayal Gücü ve Kipsel Biliş** — bu genişliği zaten ilan ediyor: Hafıza araştırması, "olabilecek olanı" düşünme kapasitesinin bir parçası olarak ele alınıyor.
+
+## Ödülün tasarımı üzerine
+
+Lebowitz Ödülü'nün asıl ilginç yanı, verdiği paradan çok kurduğu **biçim**.
+
+Akademik ödüller genellikle bir konumu pekiştirir: Kazanan haklıdır. Lebowitz ise haklılığı belirlemeyi reddediyor ve bunun yerine **iyi kurulmuş bir anlaşmazlığı** görünür kılıyor.
+
+Bu, felsefeye özgü bir erdemi kurumsallaştırıyor. Bir alanın sağlığı, kaç kişinin aynı fikirde olduğuyla değil, anlaşmazlıkların ne kadar iyi kurulduğuyla ölçülür.
+
+Sitemizde birkaç gün önce ele aldığımız [Philosopher's Annual seçkisi](/haber/philosophers-annual-2025-secki) bir hüküm listesiydi. Lebowitz, tam tersini yapıyor.
+
+Türkiye'de felsefe ödülleri açısından izlenmeye değer bir model: Bir ödül, bir ismi öne çıkarmak yerine, bir **tartışmayı** görünür kılmak için de kurulabilir.
+
+---
+
+*Lebowitz sempozyumu, ödülün verildiği yıl bir APA bölge toplantısında düzenleniyor. Ödülün geçmiş kazananları [apaonline.org](https://www.apaonline.org/page/lebowitz) adresinde.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 3 Eylül: kralı hukuka bağlayan yargıç ve kralı deviren general",
+    slug: "felsefe-tarihinde-bugun-3-eylul-coke-cromwell",
+    summary:
+      "3 Eylül 1634'te Edward Coke, 3 Eylül 1658'de Oliver Cromwell öldü. Biri kralın hukukun altında olduğunu yazdı; öteki kralı idam etti ve yerine kalıcı bir düzen kuramadı. Aynı güne düşen iki ölüm, modern siyaset felsefesinin kurucu sorusunu iki uçtan tutuyor.",
+    seoTitle: "Felsefe Tarihinde Bugün — 3 Eylül: Edward Coke ve Oliver Cromwell",
+    metaDescription:
+      "3 Eylül 1634'te Edward Coke, 1658'de Oliver Cromwell öldü. Kadim anayasa, Dr. Bonham Davası ve hukukun egemeni bağlaması sorunu.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Coke_LCJ.jpg?width=1600",
+    imageCredit: "Sir Edward Coke, Lord Chief Justice — dönem portresi · Wikimedia Commons",
+    featured: false,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/hobbes/",
+    publishedAt: "2026-09-03T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "hukuk-felsefesi", "siyaset-felsefesi", "demokrasi", "kavram"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Dr. Bonham's Case",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Dr._Bonham%27s_Case",
+      },
+      {
+        title: "Case of Prohibitions (Prohibitions del Roy, 1607)",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Case_of_Prohibitions",
+      },
+      {
+        title: "Petition of Right (1628)",
+        publisher: "Encyclopædia Britannica",
+        url: "https://www.britannica.com/topic/Petition-of-Right-British-history",
+      },
+    ],
+    content: `Modern siyaset felsefesinin kurucu sorusu tek bir cümlede toplanabilir:
+
+**Egemeni ne bağlar?**
+
+3 Eylül'de ölen iki İngiliz, bu soruya iki uçtan yanıt verdi.
+
+**3 Eylül 1634**'te hukukçu, yargıç ve siyasetçi **Sir Edward Coke** öldü. **3 Eylül 1658**'de, kralı idam ettiren ve kendisi Lord Protector unvanıyla ülkeyi yöneten **Oliver Cromwell**.
+
+Arada yirmi dört yıl var. O yirmi dört yılda İngiltere bir kral öldürdü, bir cumhuriyet kurdu ve o cumhuriyeti kaybetti.
+
+## Coke: kral hukukun altındadır
+
+Edward Coke (1552-1634), üç hükümdarın saltanatına yayılan bir kariyer sürdürdü: I. Elizabeth, I. James, I. Charles.
+
+Felsefi önemi, tek bir tez etrafında toplanıyor: **Kral, hukukun yaratıcısı değil, tabisidir.**
+
+Bu tezin kaynağı Coke'un icadı değil. On üçüncü yüzyıl hukukçusu **Henry de Bracton**'ın formülünü canlandırdı:
+
+*Quod rex non debet esse sub homine, sed sub Deo et lege* — **"Kral insanın altında olmamalıdır, ama Tanrı'nın ve hukukun altında olmalıdır."**
+
+Coke bu formülü alıp on yedinci yüzyıl siyasetinin göbeğine yerleştirdi.
+
+### 1607: Kralın Yasakları
+
+I. James, Canterbury Başpiskoposu'nun taraf olduğu bir arazi anlaşmazlığını bizzat karara bağlamak istedi. Kral, aklı olan bir insan olarak yargılama yetkisine sahip olduğunu düşünüyordu.
+
+Coke'un yanıtı — *Prohibitions del Roy* olarak bilinen olay — hukuk tarihinin en cesur sahnelerinden biridir. Coke, kralın davaları bizzat karara bağlayamayacağını, çünkü hukukun **kendine özgü bir akıl** olduğunu ve bu aklın ancak uzun bir eğitim ve deneyimle edinilebileceğini söyledi.
+
+Argümanın inceliği burada: Coke, kralın **akılsız** olduğunu söylemiyor. Hukukun aklının, doğal akıldan **farklı bir tür akıl** olduğunu söylüyor. Bu, hukukun özerkliğinin klasik savunusudur.
+
+### 1610: Dr. Bonham Davası
+
+Coke'un felsefi olarak en tartışmalı kararı bu.
+
+Common Pleas Mahkemesi başyargıcı olarak verdiği kararın gerekçesinde şunu yazdı: **"Birçok durumda, ortak hukuk Parlamento Kanunlarını denetleyecektir."**
+
+Yani bir yasa, hukukun temel ilkelerine aykırıysa geçersiz sayılabilir.
+
+Bu cümle, sonraki yüzyıllarda **yargısal denetim** (judicial review) fikrinin kaynağı olarak anıldı — özellikle Amerikan anayasa hukukunda. Coke'un bunu tam olarak ne kastederek yazdığı hâlâ tartışılıyor; ama etkisi tartışmasız.
+
+### 1628: Haklar Dilekçesi
+
+Coke'un son büyük eylemi, Parlamento'da **Haklar Dilekçesi**'nin hazırlanmasına önderlik etmekti. Belge, I. Charles'ın savaş finansmanı için zorla borç almasını engellemeyi hedefliyordu; keyfî tutuklamaya karşı korumaları da içeriyordu.
+
+Coke öldüğünde İngiltere, kral ile Parlamento arasındaki gerilimin patlama noktasındaydı.
+
+## Cromwell: kralı öldürmek yetmedi
+
+Sekiz yıl sonra iç savaş başladı. 1649'da I. Charles idam edildi — Avrupa tarihinde bir kralın kendi mahkemesince yargılanıp idam edilmesi eşi görülmemiş bir olaydı.
+
+Oliver Cromwell, savaşın kazananı ve yeni düzenin kurucusuydu. Ama kurduğu düzen kalıcı olmadı: 3 Eylül 1658'de öldü, yerine oğlu Richard geçti, iki yıl içinde monarşi geri geldi.
+
+Cromwell bir filozof değildi. Ama ölümü, siyaset felsefesi açısından Coke'un tezinin sınavıydı.
+
+Soru şuydu: **Kralı hukukun altına koymak için onu öldürmek gerekiyorsa, geriye hangi hukuk kalır?**
+
+## Hobbes'un yanıtı
+
+Bu sorunun en ünlü yanıtı, tam bu yıllarda yazıldı.
+
+**Thomas Hobbes**, *Leviathan*'ı 1651'de — Cromwell'in iktidarının başında — yayımladı. Tezi Coke'un tam karşıtıydı: Hukukun kaynağı egemendir; egemeni bağlayan bir hukuk yoktur, çünkü onu bağlayacak daha üstün bir merci yoktur. Egemeni sınırlamaya kalkışmak, iç savaşa dönmek demektir.
+
+Hobbes bu tartışmayı yıllar sonra bir başka kitapta doğrudan ele aldı: **Behemoth**, İngiliz İç Savaşı'nın nedenlerini soruşturan bir diyalogdur. Adı, düzensizliğin canavarını taşır — *Leviathan*'ın karşıtını.
+
+Ve dün bu köşede andığımız [Franz Neumann'ın 1942 tarihli *Behemoth*'u](/haber/felsefe-tarihinde-bugun-2-eylul-hamilton-neumann), üç yüz yıl sonra aynı adı aynı nedenle seçmişti: Ortada bir devlet yoktu.
+
+## İki tez, hâlâ açık
+
+Coke ile Hobbes arasındaki ayrım, bugünkü anayasa tartışmalarının çekirdeğidir.
+
+**Coke'un çizgisi:** Hukuk, siyasal iradeden önce gelir ve onu sınırlar. Anayasa mahkemeleri, yargısal denetim ve hukuk devleti kavramı bu çizgiden çıkar.
+
+**Hobbes'un çizgisi:** Hukuk, siyasal iradenin ürünüdür. Egemeni sınırlamak, egemenliği başka bir yere taşımaktan başka bir şey değildir — o zaman da soru geri döner: Onu ne bağlar?
+
+İkinci itiraz güçlüdür ve kolay yanıtı yoktur. Sitemizde bu ay ele aldığımız [J. G. A. Pocock'un "kadim anayasa"](/haber/pocock-siyasal-diller-cambridge-okulu) çalışması, tam olarak Coke'un dilini çözümler: İngiliz hukukçular haklarını savunurken felsefi bir ilkeye değil, **tarihsel bir iddiaya** başvuruyorlardı — "bu haklar kadimdir."
+
+Pocock'un gösterdiği şey şuydu: "Kadimdir" demek, "doğaldır" demekten farklı bir dildir ve farklı sonuçlar doğurur. Coke'un gücü de zayıflığı da buradaydı — geleneğe dayanan bir hak savunusu, geleneğin kesildiği yerde savunmasız kalır.
+
+Cromwell'in ölümünden sonra monarşinin dönmesi, bu zayıflığın kanıtıdır. Ama Coke'un cümlesinin dört yüz yıl sonra hâlâ alıntılanıyor olması, gücünün de.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*
+
+*Not: Edward Coke fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak dönem portresi kullanılmıştır.*`,
+  },
+  {
     title: "Makine felsefe yazabilir mi? İlk yarışma başladı, jüride Chalmers var",
     slug: "yapay-zeka-felsefe-yarismasi-chalmers-juri",
     summary:
@@ -13127,6 +14245,38 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "Emerging Questions in AI Welfare",
+    slug: "keeling-street-ai-welfare",
+    originalTitle: null,
+    publisher: "Cambridge University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781009731980",
+    coverImage: null,
+    description:
+      "Geoff Keeling ve Winnie Street, yapay zekâ sistemlerinin bir gün bilinç, fail olma kapasitesi ve toplumsal ilişkilere sahip olması hâlinde 'refah sahibi varlıklar' sayılıp sayılamayacağını tartışıyor. Cambridge Elements in Philosophy and AI dizisinden.",
+    year: 2026,
+    link: "https://www.cambridge.org/core/books/emerging-questions-in-ai-welfare/96339C532CF4ED8BDDE3F3CEF4CD29F9",
+    philosopherSlug: null,
+    postSlug: "keeling-street-yapay-zeka-refahi",
+  },
+  {
+    title: "AI and Consciousness: A Skeptical Overview",
+    slug: "schwitzgebel-ai-and-consciousness",
+    originalTitle: null,
+    publisher: "Cambridge University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Eric Schwitzgebel'in Cambridge Elements dizisinden çıkan kitabı, yakın gelecekte yapay zekâ bilincinin ne apaçık imkânsız ne de apaçık kaçınılmaz olduğunu savunuyor. Asıl tez: Karar vermek zorunda kalacağımız an, bilebileceğimiz andan çok önce gelecek.",
+    year: 2026,
+    link: "https://www.cambridge.org/core/elements/abs/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+    philosopherSlug: "eric-schwitzgebel",
+    postSlug: "yapay-zeka-bilinc-schwitzgebel-sis",
+  },
+  {
     title: "Kill All The Chickens: Grief and Memory on an Ozark Farm",
     slug: "olberding-kill-all-the-chickens",
     originalTitle: null,
@@ -13538,6 +14688,38 @@ export const books: SeedBook[] = [
  */
 export const events: SeedEvent[] = [
   {
+    title: "Arendt/Schürmann Sempozyumu: Stanley Cavell",
+    slug: "cavell-sempozyumu-new-school",
+    summary:
+      "New School for Social Research Felsefe Bölümü'nün iki günlük Cavell konferansı. Odak, Cavell'in estetik yazıları ve başkalarının zihnine dair şüpheciliğin sanat yorumundaki rolü.",
+    description: `New School for Social Research Felsefe Bölümü, 30-31 Ekim 2026'da Stanley Cavell'in çalışmalarına adanmış iki günlük bir konferans düzenliyor. Konferans, Cavell'in estetik üzerine yazılarına ve özellikle başkalarının zihnine dair şüpheciliğin onun sanat yorumunda oynadığı role odaklanıyor.
+
+Konuşmacılar: Alice Crary (The New School), Jay Bernstein (The New School), Zed Adams (The New School), Francey Russell (Barnard College), Byron Davies (University of Murcia), Benjamin Goff (King's College London), Vincent Joshua Adams (University of Chicago) ve Paola Marrati.
+
+Etkinlik, bölümün Arendt/Schürmann Sempozyumu dizisinin 2026-27 halkası. Kayıt gerekmiyor.
+
+Konular: Stanley Cavell, sinema, şüphecilik, gündelik dil felsefesi, Wittgenstein, müzik, estetik.`,
+    kind: "SEMPOZYUM",
+    organizer: "The New School for Social Research, Felsefe Bölümü",
+    speakers: "Alice Crary, Jay Bernstein, Zed Adams, Francey Russell, Byron Davies, Benjamin Goff, Vincent Joshua Adams, Paola Marrati",
+    topic: "Stanley Cavell, estetik ve şüphecilik",
+    format: "FIZIKSEL",
+    startsAt: "2026-10-30T15:00:00.000Z",
+    endsAt: "2026-10-31T21:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "New York",
+    country: "ABD",
+    venue: "Wollman Hall, 5. kat, 65 W 11th Street",
+    fee: "Ücretsiz · kayıt gerekmiyor",
+    website: "https://kpodowd.github.io/cavell-conference/",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/153121",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/New_School_University_Center_in_Manhattan_October_2014_2.JPG?width=1600",
+    featured: true,
+    publishedAt: "2026-09-03T04:20:00.000Z",
+  },
+  {
     title: "CLMPST 2027 — 18. Uluslararası Mantık, Yöntembilim ve Bilim ve Teknoloji Felsefesi Kongresi",
     slug: "clmpst-2027-kobe",
     summary:
@@ -13841,6 +15023,8 @@ Toplantılar felsefeye ilgi duyan herkese açık ve ücretsizdi; katılım için
 
 Gün kapsamında UNESCO ortakları ve üye devletler; felsefi diyaloglar, tartışmalar, konferanslar, atölyeler, kültürel etkinlikler ve sunumlar düzenlemeye çağrılıyor.
 
+Günün fikri Türkiye'den çıktı: Öneri, İoanna Kuçuradi'nin başkanlığındaki Türkiye Felsefe Kurumu'na aitti ve UNESCO tarafından kabul edildi. İlk kutlama 21 Kasım 2002'de yapıldı.
+
 Türkiye'de üniversitelerin felsefe bölümleri, felsefe dernekleri ve kültür merkezleri genellikle bu tarihe kendi programlarını yerleştirir. Etkinlik duyurunuzu iletişim sayfasından gönderirseniz takvime ekleyebiliriz.`,
     kind: "PANEL",
     organizer: "UNESCO",
@@ -13853,7 +15037,7 @@ Türkiye'de üniversitelerin felsefe bölümleri, felsefe dernekleri ve kültür
     website: "https://www.unesco.org/en/days/philosophy",
     sourceName: "UNESCO",
     sourceUrl: "https://www.unesco.org/en/days/philosophy",
-    coverImage: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/UNESCO%2C_Paris_May_2012.jpg?width=1600",
     featured: true,
     publishedAt: "2026-08-20T08:00:00.000Z",
   },
