@@ -1489,6 +1489,1379 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Oruç Aruoba: Türkçeyle yürüyen filozof",
+    slug: "oruc-aruoba-turkcede-felsefe-yurume",
+    summary:
+      "Psikolojiden felsefeye geçti, Wittgenstein'ı Türkçeye ilk çeviren isim oldu, 1983'te YÖK'ü protesto ederek üniversiteyi bıraktı. Aruoba'nın asıl yaptığı, felsefeyi Türkçede anlatmak değil — Türkçenin kendisini felsefi bir çalışma alanına çevirmekti.",
+    seoTitle: "Oruç Aruoba (1948-2020): Türkçede felsefe yazmanın imkânları",
+    metaDescription:
+      "Oruç Aruoba'nın hayatı, Wittgenstein çevirileri, Yürüme Üçlüsü ve Türkçenin felsefi imkânlarını genişleten yazı biçimi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2015-%20Kuleli%20Military%20High%20School%2C%20Bosphorus%2C%20%C3%87engelk%C3%B6y%2C%20Istanbul%2C%20Turkiye%20(Ank%20Kumar)%2002.jpg?width=1600",
+    imageCredit: "Çengelköy, İstanbul Boğazı — Aruoba'nın 2001'de yayımlanan Çengelköy Defteri'nin coğrafyası · Wikimedia Commons",
+    featured: true,
+    sourceName: "Türk Edebiyatı İsimler Sözlüğü",
+    sourceUrl: "https://teis.yesevi.edu.tr/madde-detay/aruoba-oruc",
+    publishedAt: "2026-09-04T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["kavram", "ceviri", "tarih", "akademi", "estetik"],
+    philosopherSlugs: ["ioanna-kucuradi"],
+    sources: [
+      {
+        title: "Oruç Aruoba",
+        publisher: "Türk Edebiyatı İsimler Sözlüğü, Ahmet Yesevi Üniversitesi",
+        url: "https://teis.yesevi.edu.tr/madde-detay/aruoba-oruc",
+        primary: true,
+      },
+      {
+        title: "Filozof Dedikoduları",
+        publisher: "Açık Radyo",
+        url: "https://acikradyo.com.tr/program/filozof-dedikodulari",
+      },
+      {
+        title: "Oruç Aruoba'ya veda",
+        publisher: "Yeşil Gazete",
+        url: "https://yesilgazete.org/oruc-aruobaya-veda/",
+      },
+    ],
+    content: `Bir filozofun mirasını ölçmenin bir yolu şudur: Ardında bir kuram mı bıraktı, yoksa bir **yazma biçimi** mi?
+
+**Oruç Aruoba** ikincisini bıraktı. Ve Türkiye'de felsefenin Türkçeyle kurduğu ilişkiyi kalıcı biçimde değiştirdi.
+
+Tam adıyla Ahmet Oruç Aruoba, 14 Temmuz 1948'de Kocaeli'nin Karamürsel ilçesinde doğdu; 31 Mayıs 2020'de öldü. Akademisyen, psikolog, filozof, şair, yazar ve çevirmen sıfatlarını aynı hayatın içine sığdırdı.
+
+## Annesinden gelen
+
+Aruoba'nın entelektüel oluşumunu anlamak için bir isme bakmak gerekiyor: annesi **Muazzez Kaptanoğlu**.
+
+İstanbul Üniversitesi Felsefe Bölümü mezunuydu. İlk şiiri on altı yaşında yayımlandı. *Alev*, *Hasret*, *Çile* ve *Beni Kurtar* gibi bazıları sinemaya uyarlanan romanların yazarıydı. *Cumhuriyet*, *Ulus*, *Zafer* gibi dönemin önde gelen gazetelerinde çalıştı. Ankara Radyosu'nda **"Kadın ve Ahlak"** adlı bir programın yapımcılığını ve sunuculuğunu üstlendi. Türkiye Kadınlar Konseyi'nin kurucu üyesiydi; *Türk Kadını* dergisini uzun süre tek başına çıkardı; Macar Gümüş Hürriyet Madalyası'yla onurlandırıldı.
+
+Bu ayrıntı bir biyografi süsü değil. Yıllar sonra oğlu da radyoda felsefe programı yapacaktı. Felsefe mezunu bir gazeteci-yazar annenin evinde büyümek, Aruoba'nın felsefe ile edebiyat arasındaki sınırı hiç ciddiye almamış olmasını açıklıyor.
+
+Babası ordu mensubu İsmail Fahir Aruoba'ydı; üç erkek kardeşin biriydi.
+
+## Psikolojiden felsefeye
+
+Aile Ankara'ya taşındıktan sonra TED Ankara Koleji'nde okudu. Lisansını **Hacettepe Üniversitesi Psikoloji Bölümü**'nde tamamladı.
+
+Yüksek lisans tezi, David Hume'un *İnsanın Anlama Yetisi Üzerine Bir Soruşturma*'sı üzerineydi — ve bu tezi 1976'da Türkçeye kazandırdı. Aynı üniversitenin felsefe bölümünde Hume, Kant ve Wittgenstein üzerine yazdığı tezle doktorasını tamamladı.
+
+Felsefeye giriş kapısını iki isim açtı: hocası **İoanna Kuçuradi** ve **Nietzsche**.
+
+Kuçuradi bağlantısı önemli. Sitemizde dün ele aldığımız [Dünya Felsefe Günü dosyasında](/haber/dunya-felsefe-gunu-kucuradi-unesco) anlattığımız gibi Kuçuradi, Türkiye'de felsefenin kurumsallaşmasını sağlayan isimdir. Aruoba ise o kurumdan çıkıp kurumun dışında felsefe yapan öğrencisi oldu.
+
+## Tübingen ve kaçırılan buluşma
+
+1976'da bir yıllığına **Tübingen Üniversitesi**'nde felsefe semineri üyeliği yaptı. Orada Bruno Baron von Freytag-Loringhoff ve **Ernst Bloch** gibi isimlerden ders aldı; aynı dönemde Goethe Enstitüsü'nde de çalıştı.
+
+Bu sırada **Heidegger'i ziyaret etmek istedi.** Buluşma gerçekleşemedi: Heidegger tam o sırada öldü.
+
+1981'de Yeni Zelanda'ya gitti; Victoria Üniversitesi'nde konuk öğretim üyesi olarak çalıştı.
+
+## 1983: kopuş
+
+Aruoba'nın üniversitedeki görevi 1983'te sona erdi. Ama emekli olmadı, atılmadı: **Yükseköğretim Kurulu'nu protesto ederek ayrıldı** ve İstanbul'a yerleşti.
+
+12 Eylül sonrası üniversite düzenine karşı alınmış bu karar, düşüncesinin biçimini de belirledi. Aruoba artık akademisyen değildi; **felsefeyi yazının içine taşıyan bir filozof-yazar**dı.
+
+Bundan sonrası çeviri, dergicilik ve kendi metinleriyle geçti. *Oluşum*, *Arayış*, *Defter*, *Varlık*, *Gösteri* gibi dergilerde yazdı; yayınevlerinde yayın yönetmenliği ve danışmanlık yaptı.
+
+## Wittgenstein'ı Türkçeye taşıyan ilk isim
+
+Aruoba'nın en somut mirası çevirileridir. Hume, Nietzsche, Kant, Kierkegaard, Marx, Heidegger, Rilke, Von Hentig, Paul Celan ve Matsuo Bashō'yu Türkçeye kazandırdı.
+
+Ama en belirleyicisi şu: **Wittgenstein'ın eserlerini Türkçeye çeviren ilk isim oldu.** *Tractatus Logico-Philosophicus — Mantıksal Felsefe İncelemesi* 1985'te yayımlandı.
+
+Burada bir paralellik var ve Aruoba'nın bütün işini açıklıyor.
+
+Wittgenstein, felsefenin sınırlarını **dil üzerinden** araştırıyordu. *Tractatus*'un son cümlesi — üzerine konuşulamayan hakkında susmak gerektiği — dilin sınırının dünyanın sınırı olduğu tezinin sonucudur.
+
+Aruoba ise **Türkçenin sınırlarını felsefi yazı üzerinden** zorluyordu.
+
+Bir dilde felsefe yapmak, o dilde daha önce söylenmemiş şeyleri söyleyebilmek demektir. Aruoba'nın yaptığı buydu.
+
+## "Türkiye'nin Nietzsche'si" yeterli bir tanım mı?
+
+Aruoba zaman zaman bu sıfatla anıldı. Benzetmenin bir dayanağı var: kısa cümleler, aforizmalar, paradokslar, benlik ve ölüm üzerine düşünme.
+
+Ama bu tanım onu küçültüyor.
+
+Çünkü Aruoba'nın yaptığı, Nietzsche'yi Türkiye'ye taşımak değildi. Asıl başarısı, **felsefi düşünce ile şiirsel dili birbirine yaklaştırmasıydı** — ve bunu ödünç bir üslupla değil, Türkçenin kendi imkânlarıyla yapmasıydı.
+
+## Yürüme Üçlüsü
+
+1990'da yayımlanan ilk kitabı ***tümceler***, okuru bülbüller, ağustos böcekleri, lodos ve boğaz manzarası eşliğinde karşılar. İçinde Cemal Süreya, Edip Cansever ve Haldun Taner'e adanmış tümceler vardır. Noktalama işaretlerinin yoğun ve kasıtlı kullanımı, kitabın kendi biçimsel iddiasıdır.
+
+Ardından ***de ki işte*** (1990) ve ***yürüme*** (1992) geldi. Üçü birlikte **Yürüme Üçlüsü** olarak anılır. Dipnotlarında Sokrates, Platon, Wittgenstein, Hegel, Kant ve Nietzsche'ye göndermeler bulunur — yani metinler şiir gibi görünürken felsefi bir aygıt taşır.
+
+Burada **"yürüme"** yalnızca fiziksel hareket değildir. Yol, yön, uzaklık, yakınlık, ilişki ve zaman, Aruoba'da insan varoluşunun modelleri hâline gelir.
+
+***hani*** (1993), yalnızlık, aşk ve ilişkiler üzerinden insanın varoluş kavgasını odağa alır.
+
+***uzak*** (1995) ve ***yakın*** (1997) ile Aruoba, felsefe ekseninde şiirden düzyazıya doğru kayar. Bu iki kitapta soyut kavramlar metaforlar yoluyla anlamlandırılır; metaforları oluşturan kavramlar Herakleitos, Epiktetos, Nietzsche, Heidegger, Spinoza, Wittgenstein ve Kuçuradi'den alıntılarla açıklanır.
+
+***ile*** (1999) üç bölümden oluşur — 'Önce', 'İlişki Defteri', 'Sonra' — ve okura **doldurması beklenen boşluklar** bırakır. Kitabın kendisi bir ilişki gibi kurgulanmıştır: tamamlanması karşı tarafa bağlıdır.
+
+Aruoba'nın düşüncesini anlamanın anahtarı belki de budur: **İnsan tamamlanmış bir varlık değildir; bir ilişkiler toplamıdır.**
+
+## Haiku ve Türkçe
+
+Aruoba'nın az konuşulan bir katkısı da haiku.
+
+*Ne — Otuz Altı Tanzaku* ve *Ne ki hiç* (1999) ile şiir biçimini haikuyla yeniledi; bu türü Türk edebiyatında uygulayan birkaç isimden biri oldu. Bashō'nun şiirlerini de Türkçeye aktardı (*Başo-Haiku*, 1998; *Kelebek Düşleri*, 2008).
+
+Gerekçesi dilseldi: Türkçeyi **kısa ve derin yazmaya elverişli** buluyordu.
+
+Bu, çeviri tercihinden fazlasıdır. Bir dilin hangi biçimlere elverişli olduğu iddiası, o dilin felsefi kapasitesine dair bir iddiadır.
+
+## Radyoda felsefe — podcast'ten yıllar önce
+
+Aruoba, **Açık Radyo**'da *Filozof Dedikoduları* programını hazırlayıp sundu. Daha sonra *Felsefe Gevezelikleri* gibi programlarla radyoda felsefeyi sürdürdü.
+
+Bugünün podcast kültüründen yıllar önce gerçekleşmiş bir kamusal felsefe deneyi. Ve başlıkların ikisi de aynı şeyi söylüyor: **dedikodu**, **gevezelik**. Yani felsefeyi ciddiyet kisvesinden sıyırıp konuşmanın içine geri koymak.
+
+Bu, 1983'teki kopuşun devamıdır. Felsefe kürsüde duran bir bilgi değil, yaşarken içine girilen bir soruşturmaydı.
+
+## Doğaya çekilme
+
+2001'de yayımlanan ***Çengelköy Defteri***, nisandan kasıma Beylerbeyi Çakarı'nın peşinde okuru Boğaz manzaralarıyla buluşturur. ***Doğançay'ın Çınarları*** (2004) ve ***Meşe Fısıltıları*** (2007) ile doğa duyarlılığı Aruoba şiirinin ayırt edici özelliklerinden biri hâline gelir.
+
+***benlik*** (2005), 'sahicilik' ve 'sahtecilik' kavramları üzerinden benliğin zamana ve mekâna bağlı değişimini sorgular.
+
+***Zilif*** (2010) ise bir babanın, henüz büyümemiş kızına gelecekte okuması için yazdığı mektuptur — bir veda mektubu ya da bir ömrün muhasebesi olarak da okunabilir.
+
+2012'de **Kristal Lale Ödülü**'ne layık görüldü.
+
+## Geriye ne kaldı?
+
+Aruoba'nın mirasını "güzel sözler söyleyen filozof" diye okumak büyük bir haksızlık olur. Onun uğraştığı problemler felsefenin kadim problemleridir: benlik, başkası, ilişki, dil, yalnızlık, ölüm, zaman, yakınlık, uzaklık.
+
+Yaptığı şey, bu problemleri **Türkçenin şiirsel imkânlarıyla yeniden kurmaktı**.
+
+Ve gösterdiği şey şuydu: Felsefenin illa uzun akademik cümlelerle yazılması gerekmez. Bazen tek bir cümle — hatta tek bir sözcük — uzun bir felsefi tartışmayı başlatabilir.
+
+Bu köşede bu hafta ele aldığımız [Arda Denkel dosyasıyla](/haber/arda-denkel-nesne-ozellik-tikelcilik) birlikte okunduğunda, Türkiye'de felsefenin iki ayrı yolu görünür oluyor.
+
+Denkel, Türkçede **analitik metafizik** yapılabileceğini kanıtladı — Cambridge'den kitap çıkararak, uluslararası tartışmaya girerek.
+
+Aruoba, Türkçede **felsefi yazının başka bir biçimi** olabileceğini kanıtladı — akademiden çıkarak, şiire yaklaşarak.
+
+İkisi de aynı yıllarda, aynı ülkede, birbirine hiç benzemeyen iki cevap verdi. Ve ikisi de doğruydu.
+
+---
+
+**Başlıca eserleri:** tümceler (1990) · de ki işte (1990) · yürüme (1992) · hani (1993) · ol/an, kesik esin/tiler, Geç Gelen Ağıtlar, sayıklamalar (1994) · uzak (1995) · yakın (1997) · ile (1999) · Ne ki hiç (1999) · Çengelköy Defteri (2001) · olmayalı (2003) · Doğançay'ın Çınarları (2004) · benlik (2005) · Meşe Fısıltıları (2007) · Zilif (2010).
+
+**Başlıca çevirileri:** Hume, *İnsanın Anlama Yetisi Üzerine Bir Soruşturma* (1976) · Wittgenstein, *Tractatus Logico-Philosophicus* (1985) · Nietzsche, *Deccal* (2003) · Bashō, *Haiku* (1998) ve *Kelebek Düşleri* (2008).`,
+  },
+  {
+    title: "Schopenhauer: acı çeken değil, isteyen insan",
+    slug: "schopenhauer-irade-arzu-merhamet",
+    summary:
+      "'Karamsar filozof' etiketi Schopenhauer'ın en zayıf tarafını öne çıkarır. Asıl tezi daha rahatsız edici: Mutsuzluğumuzun kaynağı dünyanın bize yaptıkları değil, sürekli bir şeyler istemek zorunda oluşumuz olabilir. Ve buradan merhamete çıkan bir yol var.",
+    seoTitle: "Arthur Schopenhauer: irade, arzu döngüsü ve merhamet ahlakı",
+    metaDescription:
+      "Schopenhauer'ın irade metafiziği, arzu-tatmin döngüsü, merhamet ahlakı, sanat ve müzik kuramı, Hint düşüncesiyle ilişkisi ve intihar meselesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Schopenhauer_1852.jpg?width=1600",
+    imageCredit: "Arthur Schopenhauer, 1852 — dagerreyotipi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/schopenhauer/",
+    publishedAt: "2026-09-04T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["kavram", "etik", "estetik", "alman-idealizmi", "nietzsche"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Arthur Schopenhauer",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/schopenhauer/",
+        primary: true,
+      },
+      {
+        title: "Arthur Schopenhauer: The Life and Thought of Philosophy's Greatest Pessimist",
+        publisher: "David Bather Woods, University of Chicago Press",
+        url: "https://www.bibliovault.org/BV.book.epl?ISBN=9780226829760",
+      },
+      {
+        title: "Recently Published Book Spotlight: Arthur Schopenhauer",
+        publisher: "Blog of the APA",
+        date: "26 Haziran 2026",
+        url: "https://blog.apaonline.org/2026/06/26/recently-published-book-spotlight-arthur-schopenhauer-the-life-and-thought-of-philosophys-greatest-pessimist/",
+      },
+    ],
+    content: `Schopenhauer hakkında yazılabilecek en kolay cümle şudur: *"Hayatı acı olarak gören karamsar filozof."*
+
+Doğru. Ve neredeyse hiçbir şey söylemiyor.
+
+Schopenhauer'ın yaptığı iş kötümserlik değildi. Batı felsefesinin yüzyıllardır savunduğu **akıllı, düzenli ve kendini yöneten insan** tasvirini kökünden sarsmaktı.
+
+1788'de Danzig'de doğdu. 1818'de — otuz yaşında — *İstenç ve Tasarım Olarak Dünya*'yı yayımladı. Kitap yıllarca satmadı. Ününü ancak altmışlarında, kısa yazılarla kazandı.
+
+## Asıl düşman "hayat" değil, **istemek**
+
+Schopenhauer'ın kötümserliğini "hayat kötüdür" cümlesinden anlamaya çalışmak yanlış yerden başlamaktır.
+
+Onun problemi **istemenin yapısıdır**.
+
+Şu döngüyü izleyin:
+
+İnsan bir şeyi ister. Ulaşır. Kısa süreli bir tatmin yaşar. Ardından yeni bir eksiklik doğar. Yeni arzu yeni bir hareket başlatır.
+
+İstemek, tanımı gereği **bir eksikliğin duyulmasıdır**. Öyleyse isteyen bir varlık, istediği sürece eksik olmak zorundadır. Ve istemeyi bıraktığında da eksiklik değil, **can sıkıntısı** gelir.
+
+Schopenhauer'ın dünyası bu yüzden bir **eksiklik ekonomisidir**. İnsan mutsuz olduğu için istemez; çoğu zaman **istediği için huzursuzdur.**
+
+Bu, yalnızca bir psikoloji gözlemi değil. Metafizik bir tez.
+
+## Kant'ı aldı, dünyasını tersine çevirdi
+
+Schopenhauer'ı anlamak için Kant'ı bilmek gerekir — ve Schopenhauer kendini Kant'ın tek gerçek mirasçısı sayıyordu.
+
+Kant, dünyayı olduğu gibi değil, zihnimizin formları aracılığıyla bildiğimizi savunmuştu. Görünüş ile kendinde-şey arasındaki ayrım budur.
+
+Schopenhauer bu ayrımı kabul etti: Dünya bize **tasarım** olarak görünür.
+
+Sonra Kant'ın yasakladığı soruyu sordu: *Peki görünüşlerin arkasında ne var?*
+
+Cevabı: **İrade.**
+
+Ama bu, bilinçli bir "istemek" değildir. Kör, amaçsız, doyumsuz bir varoluş itkisidir. Bitkinin ışığa yönelmesinde, taşın düşmesinde, hayvanın avlanmasında, insanın hırsında aynı şey işler.
+
+Schopenhauer'ın erişim iddiası da özgündür: Kendinde-şeye ulaşmanın tek yolu dışarıdan gözlem değil, **kendi bedenimizin içeriden yaşanmasıdır**. Kolumu kaldırdığımda hem bir hareket görürüm hem de istemeyi içeriden yaşarım. Beden, iradenin görünür hâlidir.
+
+Bu hamle, sonraki felsefenin kapısını açtı: Nietzsche'nin güç istenci, Freud'un bilinçdışı, modern psikolojinin insanı bütünüyle rasyonel bir özne saymayan yaklaşımları — hepsinin arkasında Schopenhauer durur.
+
+## Hegel'le kavga
+
+Berlin Üniversitesi'nde ders vermeye başladığında Hegel dönemin felsefi yıldızıydı.
+
+Schopenhauer derslerini **kasten Hegel'in dersleriyle aynı saate koydu.**
+
+Sonuç: Sınıfı boş kaldı.
+
+Bu hikâye bir akademik başarısızlık anekdotundan fazlası. İki dünya tasarımı arasındaki farkı gösterir.
+
+Hegel'de tarih, aklın ve özgürlüğün kendini gerçekleştirmesidir — bir yöne doğru gider.
+
+Schopenhauer'da tarihin altında işleyen güç akıl değil iradedir — ve iradenin bir yönü yoktur. Bu yüzden Schopenhauer için tarih felsefesi diye bir şey mümkün değildir; tarih yalnızca aynı temanın farklı varyasyonlarını gösterir.
+
+Warwick Üniversitesi'nden **David Bather Woods**'un University of Chicago Press'ten çıkan ve APA blogunun bu yıl haziranda tanıttığı felsefi biyografisi, Schopenhauer'ın Hegelci sistem felsefesiyle ilişkisini ve genç Schopenhauer'ın Fichte'nin derslerine yönelik sert tepkisini yeniden gündeme getiriyor.
+
+## En çok ihmal edilen yön: merhamet
+
+Şimdi Schopenhauer'ın klişeyi kıran tarafına geliyoruz.
+
+Eğer bütün bireyler **aynı temel iradenin** görünümleriyse, birey olmak yüzeysel bir durumdur. Zaman ve mekân, bir olanı çok gibi gösteren bir perdedir — Schopenhauer bunu Hint düşüncesinden aldığı terimle **Maya'nın peçesi** diye adlandırır.
+
+Bu peçe aralandığında ne olur?
+
+Başka bir insanın acısı, bütünüyle "başkasının" acısı olmaktan çıkar.
+
+İşte Schopenhauer'ı **merhameti ahlakın temeline yerleştiren** filozoflardan biri yapan düşünce budur. *Ahlakın Temeli Üzerine* denemesinde, ahlaki değeri olan tek güdünün merhamet (*Mitleid*) olduğunu savunur — ödevden ya da çıkardan değil.
+
+Bu, onu Kant'tan da ayırır. Kant'ta ahlak akıldan çıkar. Schopenhauer'da ahlak, **metafizik bir kavrayıştan** çıkar: Öteki, aslında benden ayrı değil.
+
+Dolayısıyla felsefesi şu formüle indirgenemez: *"Hayat kötü, hiçbir şeyin anlamı yok."*
+
+Daha doğru formül şudur: **Arzunun yapısını anladığımızda, başkasının acısına kayıtsız kalamayız.**
+
+Bu, onu nihilistlerden ayırır.
+
+## Sanat neden kurtarıcı?
+
+Schopenhauer'ın sisteminde sanat, gündelik arzunun zincirinden **geçici bir kurtuluş** sağlar.
+
+Mekanizma şu: Estetik deneyimde nesneye "ne işime yarar" diye bakmayız. Çıkarsız seyir, insanı isteyen özne olmaktan çıkarıp **saf bilen özneye** dönüştürür. Arzu bir an durur — ve o an huzurdur.
+
+**Müzik** ise sanatlar arasında ayrıcalıklı yerdedir. Diğer sanatlar dünyadaki nesneleri ya da İdeaları temsil ederken, müzik doğrudan **iradenin kendisinin** ifadesidir. Bu yüzden müzik, bir şeyi anlatmadan bizi bu kadar derinden etkileyebilir.
+
+Bu tez, felsefe dışında da etkili oldu. Wagner üzerindeki etkisi meşhurdur. Nietzsche başlangıçta Schopenhauer'ın öğrencisi sayılabilecek kadar etkilendi — sonra en sert eleştirmeni oldu. Freud, Thomas Mann, Wittgenstein, Borges ve Beckett'e uzanan geniş bir Schopenhauer mirası vardır.
+
+## Hint düşüncesiyle karşılaşma
+
+Schopenhauer'ı çağının Alman filozoflarından ayıran bir başka özellik, Upanişadlar'a ve Budist düşünceye duyduğu ilgiydi.
+
+Burada da basitleştirmeden kaçınmak gerekiyor. **Schopenhauer Budist değildi.**
+
+Hint düşüncesini, kendi metafizik sistemini destekleyecek biçimde okudu — Avrupa felsefesinin problemleri üzerinden. Dolayısıyla bu ilişki, modern anlamda bir Budist kimlikten çok, **Batı metafiziğini aşma arayışının** parçası olarak görülmelidir.
+
+Yine de tarihsel önemi büyük: On dokuzuncu yüzyılda Doğu düşüncesini ciddiye alan ilk büyük Avrupalı filozoflardan biriydi.
+
+## İntihar neden çözüm değil?
+
+Schopenhauer hakkındaki en yaygın yanlış anlamalardan biri budur. Hayat acıysa, neden intiharı savunmadı?
+
+Cevabı tutarlı: **İntihar iradeyi ortadan kaldırmaz.** Yalnızca iradenin bireysel görünümlerinden birini ortadan kaldırır.
+
+Dahası Schopenhauer için intihar, iradenin **reddi değil, olumlanmasıdır**: İntihar eden kişi yaşamı değil, yaşamın kendisine verdiği koşulları reddeder. Yani hâlâ istiyordur — sadece başka bir şey.
+
+Bu yüzden önerdiği çözüm hayattan çıkmak değil, **istemeyi susturmak**: arzunun tahakkümünü azaltmak, bireysel egonun sınırlarını aşmak. Çileci geleneklerde gördüğü şey buydu.
+
+## Eleştiriler
+
+Schopenhauer eleştirisiz bir filozof değil.
+
+**Tutarlılık itirazı:** Eğer irade akıl-dışı ve bilinemezse, onun hakkında nasıl bilgi iddiasında bulunabiliyoruz? Kendinde-şeye erişilemeyeceğini söyleyen Kantçı çerçeveyi kabul edip sonra kendinde-şeyi adlandırmak çelişki değil mi?
+
+**Ahlaki itiraz:** Merhamet ahlakı, adalet kavramını yeterince açıklamıyor. Acıya karşılık vermek başka şey, hakları düzenlemek başka şey.
+
+**Toplumsal itiraz:** Kadınlar üzerine yazdıkları, kendi çağında bile sert bulunacak ölçüde önyargılıdır ve savunulabilir değildir.
+
+## Neden bugün okunuyor?
+
+Schopenhauer'ın bazı soruları modern dünyada daha görünür hâle geldi.
+
+Sosyal medya daha fazla istemeyi öğretiyor. Tüketim ekonomisi tatminin hemen ardından yeni bir arzu üretiyor. Öneri algoritmaları dikkati sürekli yeni uyaranlara yöneltiyor. Çalışma kültürü sürekli daha fazlasını istemeyi zorunlu kılıyor.
+
+Bu açıdan Schopenhauer'ın **arzu → tatmin → yeni arzu** döngüsü, yirmi birinci yüzyıl dikkat ekonomisinin neredeyse felsefi bir anatomisi gibi okunabilir.
+
+Sitemizde bu hafta ele aldığımız [dijital gelecek tasavvurları](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) dosyasıyla birlikte okunduğunda, tablo tamamlanıyor: Bir yanda arzuyu üretmek üzerine kurulmuş bir ekonomi, öte yanda o arzunun yapısını iki yüz yıl önce çözümlemiş bir filozof.
+
+## Sonuç
+
+Schopenhauer'ı yalnızca *"hayat acıdır"* diyen filozof olarak okumak, felsefesinin en önemli kısmını kaçırmaktır.
+
+Asıl sorusu daha rahatsız edici:
+
+**Ya mutsuzluğumuzun önemli bir kısmının kaynağı, dış dünyanın bize yaptıkları değil, sürekli bir şeyler istemek zorunda oluşumuzsa?**
+
+Bu soru hâlâ açık. Ve Schopenhauer'ın gerçek modernliği belki de burada başlıyor.
+
+---
+
+*Türkçede: İstemek ve Tasarım Olarak Dünya, Aşkın Metafiziği, Yaşam Bilgeliği Üzerine Aforizmalar, Okumak Yazmak ve Yaşamak Üzerine ve Ahlakın Temeli Üzerine gibi eserleri çevrildi.*
+
+*Not: Kapak görseli, Schopenhauer'ın 1852'de çekilmiş dagerreyotipidir — yani gerçek bir fotoğraftır; fotoğrafın icadını görecek kadar uzun yaşamış ilk büyük filozoflardan biriydi.*`,
+  },
+  {
+    title: "Chalmers otuz yıl sonra: soruyu çözmedi, unutulmasına izin vermedi",
+    slug: "david-chalmers-zor-problem-otuz-yil",
+    summary:
+      "1996'da 'bilincin zor problemi'ni ortaya attığında yapay zekâ henüz laboratuvar konusuydu. Haziranda Bochum'da o kitabın otuzuncu yılı tartışıldı. Chalmers bugün sanal gerçekliğin gerçek olduğunu, yapay bilincin ilkece mümkün olduğunu ve asıl tehlikenin yanlış yönde hata yapmak olduğunu savunuyor.",
+    seoTitle: "David Chalmers: zor problem, yapay bilinç ve Reality+",
+    metaDescription:
+      "David Chalmers'ın zor problem kavramı, felsefi zombi argümanı, yapay bilinç çalışmaları ve Reality+ kitabındaki sanal gerçeklik tezi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/David_Chalmers_TASC2008.JPG?width=1600",
+    imageCredit: "David Chalmers, TASC 2008 · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Conscious Mind at 30",
+    sourceUrl: "https://luciamelloni.github.io/conscious-mind-at-30/",
+    publishedAt: "2026-09-04T02:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["bilinc", "zihin-felsefesi", "yapay-zeka", "kavram", "epistemoloji"],
+    philosopherSlugs: ["david-chalmers", "eric-schwitzgebel", "peter-godfrey-smith"],
+    sources: [
+      {
+        title: "The Conscious Mind at 30 — Bochum, 18-19 June 2026",
+        publisher: "Ruhr-Universität Bochum",
+        url: "https://luciamelloni.github.io/conscious-mind-at-30/",
+        primary: true,
+      },
+      {
+        title: "The Conscious Mind at 30",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/144830",
+      },
+      {
+        title: "David Chalmers — kişisel akademik arşiv",
+        publisher: "consc.net",
+        url: "https://consc.net/",
+      },
+    ],
+    content: `Felsefede bazı kavramlar vardır: Onları ortaya atan kişinin adı, zamanla kavramın önüne geçer.
+
+**"Zor problem"** bunlardan biri.
+
+Ama David Chalmers'ı yalnızca "bilincin zor problemini ortaya atan filozof" diye tanımlamak, altmışına yaklaşan Avustralyalı filozofun bugün yaptığı işi kaçırmak demektir.
+
+Çünkü Chalmers artık yalnızca bilincin ne olduğunu sormuyor. Daha büyük bir soru soruyor: **Gerçeklik dediğimiz şeyin sınırlarını hangi gerekçeyle çiziyoruz?**
+
+## Matematikçiden bilinç filozofuna
+
+Chalmers 1966'da Avustralya'da doğdu. İlk tutkusu felsefe değil, **matematik**ti.
+
+Adelaide Üniversitesi'nde matematik okudu, ardından Oxford'a gitti. Oxford sonrası yönünü değiştirdi ve Indiana Üniversitesi'nde felsefe ve bilişsel bilim doktorasına başladı. Çalışmasını, yapay zekâ tartışmalarının önemli isimlerinden **Douglas Hofstadter**'ın yönettiği Kavramlar ve Biliş Araştırma Merkezi'nde yaptı; 1993'te tamamladı.
+
+Bu biyografik ayrıntı önemsiz değil. Chalmers'ın felsefesinde iki dünya sürekli yan yana durur: **matematiksel kesinlik arayışı** ve **öznel deneyimin açıklanamaz görünen niteliği.**
+
+## 1996: felsefenin ortasına bırakılan soru
+
+*The Conscious Mind: In Search of a Fundamental Theory*, 1996'da Oxford University Press'ten çıktı ve Chalmers'ı bir anda çağdaş zihin felsefesinin merkezine taşıdı.
+
+Dönemin beklentisi şuydu: Biraz daha nörobilim, biraz daha bilişsel bilim — ve bilinç de açıklanacak.
+
+Chalmers'ın itirazı buydu: Beynin bilgi işleme süreçlerini açıklamak **başka bir iş**, bu süreçlerin neden bir **deneyim** ürettiğini açıklamak başka bir iş.
+
+### Kolay problemler, zor problem
+
+Chalmers'ın yaptığı ayrım şudur.
+
+**Kolay problemler:** Beyin bilgiyi nasıl ayırt eder, nasıl bütünleştirir, nasıl raporlar, dikkat nasıl işler, uyanıklık ile uyku arasındaki fark nedir. Bunlar teknik olarak zordur ama **türü bakımından** çözülebilirdir: Bir mekanizma bulunur, iş biter.
+
+**Zor problem:** Bütün bu işlevler yerine getirilirken, neden ayrıca **bir şey gibi olmak** vardır?
+
+Bir bilgisayar kırmızıyı tanıyabilir. Bir kamera kırmızı dalga boyunu ölçebilir. Bir sistem "kırmızı" sözcüğünü doğru yerde kullanabilir. Ama bunlardan herhangi birinin kırmızıyı **yaşayıp yaşamadığını** nasıl bileceğiz?
+
+Ayrımın gücü şurada: Kolay problemlerin hepsi çözülse bile, zor problem olduğu yerde kalır.
+
+## Zombi neden önemli?
+
+Chalmers'ın en tartışmalı düşünce deneyi **felsefi zombi**dir.
+
+Sizinle fiziksel olarak zerre kadar farkı olmayan bir varlık düşünün. Konuşuyor, acıdan şikâyet ediyor, kırmızıyı tarif ediyor, korkuyor, gülüyor. Beyni sizinkiyle atom atom aynı.
+
+Ama içeride hiçbir şey yok. Hiçbir öznel deneyim.
+
+Chalmers'a göre böyle bir varlığın **kavramsal olarak düşünülebilir olması** bile felsefi bir problem yaratır. Çünkü fiziksel gerçekler bilinci mantıksal olarak zorunlu kılmıyorsa, bilinç fiziksel gerçeklerden **çıkarılamıyor** demektir.
+
+Buradan onun konumu doğar: Bilinçli deneyime ilişkin özellikler, fiziksel açıklamanın yanında **temel** gerçeklik özellikleri olabilir.
+
+Bu argümanın en güçlü karşı itirazı da bilinir: **Düşünülebilirlik, mümkünlük anlamına gelir mi?** Bir şeyi tutarlı biçimde hayal edebilmek, onun gerçekten mümkün olduğunu göstermez. Su'yun H₂O olmadığını hayal edebiliriz; ama değildir.
+
+Tartışma otuz yıldır bu eksende sürüyor.
+
+## Chalmers "bilim bilinci açıklayamaz" mı diyor?
+
+Hayır. Bu, hakkında yapılan en sık basitleştirme.
+
+Chalmers bilim karşıtı değil; tersine, **bilinç biliminin kurulması gerektiğini** savunuyor. İtirazı, üçüncü şahıs bilimsel açıklamalarının birinci şahıs deneyimin tamamını açıklamaya yetip yetmediğine dair.
+
+Kendi önerisi, bilinç biliminin hem **üçüncü şahıs verilerini** — davranış ve beyin süreçleri — hem de **birinci şahıs verilerini** — öznel deneyim — dikkate alması gerektiği.
+
+Yani soru "beyni araştırmayalım mı" değil. Soru şu: *Beyni ne kadar iyi açıklarsak açıklayalım, deneyimin kendisini açıklamış olacak mıyız?*
+
+## Haziran 2026: kitap otuz yaşında
+
+18-19 Haziran 2026'da Bochum'daki Kunstmuseum'da **"The Conscious Mind at 30"** başlıklı bir konferans toplandı. Otuz yıl sonra ne öğrendiğimizi ve neyin hâlâ zor olduğunu tartışmak için.
+
+Program, tartışmanın bugünkü cephelerini gösteriyor: Chalmers'ın yanı sıra **Anil Seth** (Sussex Bilinç Araştırmaları Merkezi), **Keith Frankish** (Sheffield), François Kammerer (CNRS), Martine Nida-Rümelin (Fribourg), Hedda Hassel Mørch, Johannes Kleiner ve Christian List (LMU Münih), Tobias Schlicht (Bochum) ve Lucia Melloni.
+
+Bu isimlerin bir arada olması anlamlı. Frankish **yanılsamacılık** savunucusudur: Ona göre zor problem bir yanılsamadır; asıl açıklanması gereken, neden bilince dair bu kadar gizemli bir izlenime sahip olduğumuzdur. Nida-Rümelin ve Mørch ise karşı uçta, deneyimin indirgenemezliğini savunur.
+
+Konferansın varlığı bile bir şey söylüyor. 1996'da "zor problem" yeni ve tartışmalı bir müdahaleydi. 2026'da bilinç araştırmalarının tarihini anlatırken başvurulan temel referanslardan biri.
+
+**Ama problem çözülmedi.** Chalmers'ın belki de en büyük başarısı burada: Çözülemeyen bir soruyu felsefenin merkezinde tutmayı başardı.
+
+## İkinci hayat: yapay zekâ
+
+Chalmers'ın hikâyesi burada bitmiyor. Asıl ilginç dönem belki de şimdi başlıyor.
+
+1990'larda yapay zekâ laboratuvar konusuydu. Bugün milyarlarca insanın gündelik hayatında. Ve eski soruyu yeni bir biçimde geri getiriyor: **Bir sistem akıllı olup bilinçli olmayabilir mi?**
+
+Chalmers'ın güncel çalışma listesi bu yönü açıkça gösteriyor: *Büyük bir dil modeli bilinçli olabilir mi?*, *Yapay zekâ sistemlerinde bilinç göstergelerini belirlemek*, *Yapay zekâ refahını ciddiye almak*, *Düşünmek duyusal temellendirme gerektirir mi?*
+
+Yani mesele artık yalnızca "bilinç nedir" değil. **"Bilinç için hangi göstergelere bakmalıyız?"**
+
+## Chalmers'ın radikal hamlesi: kapıyı kapatmıyor
+
+Chalmers'ın yapay bilinç konusundaki konumunu anlamak için önemli bir ayrıntı var: **"Bilgisayarlar bilinçli olamaz" görüşünü kabul etmiyor.**
+
+Çünkü onun felsefesinde belirleyici olan malzeme değil, **işlevsel ve nedensel örgütlenme**. Silikon mu karbon mu sorusu ikincildir; soru, sistemin doğru türden nedensel yapıya sahip olup olmadığıdır.
+
+Bu, yapay bilinç ihtimalini ilkece açık bırakır. Ve buradan rahatsız edici bir sonuç çıkar: Gelecekte bilinçli bir makine yaratabiliriz — ama asıl problem ondan sonra başlar.
+
+## En tehlikeli hata hangisi?
+
+Burada 2026 tartışmasının en ciddi noktası duruyor. İki hata ihtimalimiz var ve **simetrik değiller**.
+
+**Birinci hata:** Bilinçli olmayan bir makineyi bilinçli sanmak. Sonucu: Makineye gereksiz ahlaki statü vermek, insan sorumluluğunu makinelere aktarmak, şirketlerin "yapay zekâ kişiliği" anlatılarına kapılmak.
+
+**İkinci hata:** Bilinçli bir makineyi bilinçsiz sanmak. Sonucu çok daha ağır: Farkında olmadan acı çekebilen varlıklar yaratmış ve onları yazılım muamelesine tabi tutmuş olmak.
+
+Chalmers'ın 2025-2027 döneminde Ned Block ve Claudia Passos-Ferreira ile yürüttüğü "Yapay Bilinç" araştırması ve 2026-2027 için desteklenen "Yapay Bilinç ve Bilinç Kuramları" projesi tam bu alanda.
+
+Sitemizde dün ele aldığımız [Keeling ve Street'in AI refahı kitabı](/haber/keeling-street-yapay-zeka-refahi) da aynı problemi kuruyor. Ve bir gün önce ele aldığımız [Eric Schwitzgebel'in kuşkuculuğu](/haber/yapay-zeka-bilinc-schwitzgebel-sis) bu tartışmanın epistemik zeminini veriyor: Bilemeyeceğiz — ama karar vermek zorunda kalacağız.
+
+## İkinci büyük fikir: sanal dünya sahte değildir
+
+Chalmers'ın 2022 tarihli *Reality+: Virtual Worlds and the Problems of Philosophy* kitabı, provokatif bir tez savunuyor: **Sanal gerçeklik gerçekliktir.**
+
+Cümleyi yanlış anlamamak gerekiyor. Chalmers "sanal dünya fiziksel dünyayla aynıdır" demiyor. Daha incelikli bir şey söylüyor: **Bir nesnenin dijital olması, onun gerçek olmadığı anlamına gelmez.**
+
+Üç iddiayı birbirinden ayırıyor:
+
+- Sanal dünyalardaki nesne ve olaylar gerçektir.
+- İçinde bulunduğumuz dünyanın sanal olmadığını kesin olarak bilemeyebiliriz.
+- Sanal bir dünyada da anlamlı bir hayat yaşanabilir.
+
+Buradaki felsefi hamle şu: Asıl karşıtlık **sanal / fiziksel** değil, **gerçek / yanılsama** arasında kurulmalıdır. Bir simülasyonun içindeki bir sandalye, o dünyanın nedensel yapısında gerçekten bir şey yapıyorsa, gerçektir.
+
+Bu tez, bilinç felsefesiyle doğrudan bağlanıyor. Biz dünyayı doğrudan mı deneyimliyoruz, yoksa beynimiz bir model mi kuruyor? İkincisi doğruysa, fiziksel ile sanal arasındaki sınır düşündüğümüz kadar keskin olmayabilir.
+
+Chalmers bu yaklaşımı **teknofelsefe** olarak adlandırıyor: Teknoloji felsefi soruları aydınlatırken, felsefe de teknoloji hakkında düşünmemize yardım ediyor.
+
+Görüş eleştirisiz kabul görmedi; özellikle sanal gerçeklik ile geleneksel video oyunları arasındaki "içine girme" ayrımına dayandırdığı gerçeklik iddiası sorgulandı.
+
+Ama felsefede önemli olmak, her zaman haklı olmak demek değildir. İyi filozof bazen doğru cevabı bulan değil, **herkesin cevabını verdiğini sandığı soruyu yeniden açandır.**
+
+## Az bilinen bir taraf: felsefenin altyapısını kurmak
+
+Chalmers yalnızca kitaplarıyla değil, çalışma biçimiyle de farklı.
+
+Kişisel web sitesinin geçmişi 1994'e gidiyor; internette kişisel sitesi bulunan ilk filozoflardandı. Yıllar içinde bu siteyi makaleler, bibliyografyalar ve tartışmalar için geniş bir arşive çevirdi.
+
+Daha sonra **PhilPapers** vakfının kurucularından biri oldu — bugün felsefe literatürünün en kapsamlı dizini. Sitemizin konferans haberlerinde sürekli kaynak gösterdiğimiz PhilEvents de aynı ailenin parçası.
+
+Yani Chalmers yalnızca felsefe yapan biri değil; **felsefenin altyapısını kuran** isimlerden.
+
+## Bugünkü en güçlü rakip: biyoloji
+
+Chalmers'ın konumuna karşı en güçlü itiraz bugün biyolojik bilinç yaklaşımlarından geliyor.
+
+**Anil Seth** gibi araştırmacılar, insan bilincinin soyut bilgi işleme süreçlerine indirgenemeyeceğini; beynin beden, metabolizma ve çevreyle ilişkilerinin belirleyici olabileceğini savunuyor. Bu görüşe göre bilinç, canlı olmanın bir sonucudur.
+
+Ayrım pratikte belirleyici:
+
+**Bilinç bir hesaplama ise** — yeterince iyi bir bilgisayar bilinçli olabilir.
+
+**Bilinç canlı olmanın sonucu ise** — en gelişmiş bilgisayar bile bilinçsiz kalır.
+
+**Ya ikisi de eksikse?** İşte Chalmers'ın felsefesinin ilginç tarafı burada yeniden ortaya çıkıyor: Henüz kapanmamış bir kapının önünde duruyor.
+
+## Miras: bir cevap değil, bir şüphe
+
+Chalmers'ın otuz yıllık kariyerine bakıldığında üç sınırı aynı anda zorladığı görülüyor: felsefe-bilim sınırı, felsefe-teknoloji sınırı ve fiziksel gerçeklik-deneyim sınırı.
+
+Ve bunu yaparken analitik felsefenin klasik araçlarını kullanıyor: düşünce deneyleri, kavramsal çözümleme, kipsel akıl yürütme.
+
+Bugün herkes *"Yapay zekâ bilinçli mi?"* diye soruyor. Chalmers'ın otuz yıldır hatırlattığı şey daha temel: **Önce bilincin ne olduğunu anlamamız gerekiyor.**
+
+Bilinç için üzerinde uzlaşılmış tek bir bilimsel kuram yok. Dolayısıyla yapay zekâ hakkında kesin konuşmak kolay; felsefi olarak savunmak çok daha zor.
+
+Belki de bu yüzden Chalmers'ın en önemli mirası bir cevap değil, **yöntemsel bir şüphe**:
+
+Bir sistem çok akıllı olabilir. Çok iyi konuşabilir. Problem çözebilir. Kendisinden söz edebilir. Hatta size bilinçli olduğunu söyleyebilir.
+
+Bütün bunlar hâlâ tek bir soruyu cevaplamayabilir:
+
+**İçeride gerçekten biri var mı?**`,
+  },
+  {
+    title: "Ahtapot, arı, karga: bilinç tartışması insanın dışına çıktı",
+    slug: "hayvan-bilinci-new-york-bildirisi",
+    summary:
+      "2024'te New York'ta imzalanan bildiri, kuşlarda ve memelilerde bilincin güçlü bilimsel desteği olduğunu; balıklarda, sürüngenlerde, kafadanbacaklılarda ve böceklerde ise 'gerçekçi bir ihtimal' bulunduğunu ilan etti. Kasımda Duke'ta toplanacak konferans, sıradaki soruyu soruyor: Refah nedir ve nasıl ölçülür?",
+    seoTitle: "New York Hayvan Bilinci Bildirisi ve hayvan refahının felsefesi",
+    metaDescription:
+      "2024 New York Hayvan Bilinci Bildirisi, imzacıları ve Duke Üniversitesi'nde Kasım 2026'da toplanacak Philosophy of Animal Welfare konferansı.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pulpo%20com%C3%BAn%20(Octopus%20vulgaris)%2C%20Parque%20natural%20de%20la%20Arr%C3%A1bida%2C%20Portugal%2C%202020-07-21%2C%20DD%2046.jpg?width=1600",
+    imageCredit: "Adi ahtapot (Octopus vulgaris), Arrábida Doğal Parkı, Portekiz · Wikimedia Commons",
+    featured: true,
+    sourceName: "The New York Declaration on Animal Consciousness",
+    sourceUrl: "https://sites.google.com/nyu.edu/nydeclaration/declaration",
+    publishedAt: "2026-09-04T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["bilinc", "etik", "zihin-felsefesi", "bilim-felsefesi", "risk"],
+    philosopherSlugs: ["david-chalmers", "peter-godfrey-smith", "peter-singer"],
+    sources: [
+      {
+        title: "The New York Declaration on Animal Consciousness",
+        publisher: "NYU",
+        date: "19 Nisan 2024",
+        url: "https://sites.google.com/nyu.edu/nydeclaration/declaration",
+        primary: true,
+      },
+      {
+        title: "Philosophy of Animal Welfare Conference",
+        publisher: "Duke University School of Law",
+        url: "https://law.duke.edu/laweconomicsandpublicpolicy/conferences/animalphilosophy26",
+      },
+    ],
+    content: `Bilinç tartışmasının bu haftaki bütün cepheleri aynı sınıra bakıyordu: makine ile insan arasındaki sınır.
+
+Ama tartışmanın öteki sınırı çok daha eski ve çok daha somut: **insan ile hayvan arasındaki sınır.**
+
+Ve orada, 2024'te sessizce önemli bir şey oldu.
+
+## Bildiri
+
+**19 Nisan 2024**'te New York'ta, kırk bilim insanı ve felsefecinin imzasıyla bir metin yayımlandı: **New York Hayvan Bilinci Bildirisi**. İmzacı sayısı sonradan seksenin üzerine çıktı.
+
+Metin kısa ve dikkatle kurulmuş. İki şey söylüyor:
+
+**Birincisi:** Diğer memelilere ve **kuşlara** bilinçli deneyim atfetmek için **güçlü bilimsel destek** var.
+
+**İkincisi:** Ampirik kanıtlar, **bütün omurgalılarda** — sürüngenler, iki yaşamlılar ve balıklar dahil — ve **birçok omurgasızda** — en azından kafadanbacaklı yumuşakçalar, on ayaklı kabuklular ve **böcekler** — bilinçli deneyimin **gerçekçi bir ihtimal** olduğunu gösteriyor.
+
+## Neden bu kadar dikkatli bir dil?
+
+Bildirinin gücü, iddia ettiğinden çok **iddia etmediğinde**.
+
+"Böcekler bilinçlidir" demiyor. "Gerçekçi bir ihtimal var" diyor.
+
+Bu, bilimsel temkinlilik değil yalnızca; **etik bir hamle**. Çünkü ahlaki karar için kesinlik gerekmez. Bir varlığın acı çekebilme ihtimali yeterince ciddiyse, o ihtimali hesaba katmamak savunulabilir bir tutum değildir.
+
+Bu, ceza hukukundaki "makul şüphe" mantığının tersine çevrilmiş hâli: Orada kesinlik olmadan mahkûm edilmez; burada kesinlik olmadan **kayıtsız kalınmaz**.
+
+## İmza listesi neyi gösteriyor?
+
+İlk kırk imzacı arasında insan bilinci uzmanları — Christof Koch, **Anil Seth**, **David Chalmers** — kuş uzmanları — Nicola Clayton, Irene Pepperberg — balık uzmanları — Culum Brown, Becca Franks — ahtapot uzmanları — Jennifer Mather, Robyn Crook, **Peter Godfrey-Smith** — ve böcek uzmanları — Lars Chittka, Andrew Barron, Martin Giurfa — bulunuyor.
+
+Bu liste, tartışmanın yapısını da anlatıyor.
+
+Chalmers ve Seth, sitemizde bugün ele aldığımız [zor problem dosyasında](/haber/david-chalmers-zor-problem-otuz-yil) **karşı kamplarda** duruyor: Biri işlevsel örgütlenmenin belirleyici olduğunu, öteki biyolojinin vazgeçilmez olduğunu savunuyor.
+
+Ama hayvan bilinci konusunda **aynı metni imzalıyorlar.**
+
+Bu tesadüf değil. Yapay zekâda anlaşamamalarının nedeni, silikonun karbonun yerini tutup tutmayacağı sorusu. Hayvanlarda böyle bir sorun yok: Ahtapotun da bizim de karbon temelli, metabolizması olan, çevresiyle etkileşen bir bedeni var.
+
+**Peter Godfrey-Smith**'in *Other Minds* kitabı bu noktayı en iyi anlatan çalışmadır: Ahtapot, bizden **bağımsız olarak** karmaşık bir sinir sistemi evrimleştirmiş bir canlıdır. Ortak atamız yarım milyar yıl öncesine dayanır ve neredeyse hiç sinir sistemi yoktu. Yani ahtapot, zekânın ikinci bir kez, ayrı bir yoldan icat edilmesidir.
+
+Godfrey-Smith'in formülüyle: Bir ahtapotla karşılaşmak, uzaylı bir zekâyla karşılaşmaya en çok yaklaştığımız andır.
+
+## "Ne kadar beyin gerekir?"
+
+Bildiriyi asıl kışkırtıcı kılan, **böcekler**.
+
+Bir bal arısının beyninde yaklaşık bir milyon nöron var. İnsanda seksen altı milyar. Oran, aklın alamayacağı kadar büyük.
+
+Ama Lars Chittka'nın laboratuvarındaki çalışmalar, arıların top yuvarlamayı öğrenebildiğini, birbirlerinden öğrendiklerini, oyun benzeri davranışlar gösterdiklerini ve olumsuz duruma benzer durumlar yaşadıklarını gösteriyor.
+
+Buradan çıkan soru sadedir ve zordur: **Bilinç için ne kadar beyin gerekir?**
+
+Eğer yanıt "bir milyon nöron yeterli olabilir" ise, bilinç sandığımızdan çok daha yaygın demektir. Eğer "hayır, ölçek belirleyicidir" ise, o ölçeğin nerede olduğunu söylememiz gerekir.
+
+Her iki durumda da elimizde bir ölçüt yok.
+
+## Kasım: sıradaki soru
+
+Bildiri "kimler bilinçli olabilir" sorusuna baktı. Sıradaki soru daha zor.
+
+**20-21 Kasım 2026**'da Duke Üniversitesi'nde **Philosophy of Animal Welfare** başlıklı bir konferans toplanıyor. Duke Hukuk, İktisat ve Kamu Politikası Merkezi (CLEPP) ile NYU Zihin, Etik ve Politika Merkezi ortak düzenliyor.
+
+Konferansın odağı, hayvan refahının **doğası, ölçümü ve ahlaki önemi**.
+
+Çağrı metnindeki sorular, meselenin ne kadar açık olduğunu gösteriyor:
+
+- Hangi hayvanlar **refah öznesidir**?
+- İnsan olmayan hayvanlar için doğru **iyi olma** kuramı hangisidir?
+- Aynı kuram hem insanlara hem hayvanlara uygulanabilir mi?
+- Hayvan refahı **nasıl ölçülmelidir**?
+
+Üçüncü soru özellikle çetin. İnsan refahı kuramları — hazcılık, tercih doyumu, nesnel liste — insanın kendi hayatı hakkında düşünebilmesini varsayar. Bir ahtapot için "tercih doyumu" ne demektir?
+
+## Yapay zekâyla bağlantı
+
+Bu tartışmanın yapay zekâ tartışmasıyla ilişkisi rastlantısal değil. Duke konferansının ortak düzenleyicisi olan NYU Zihin, Etik ve Politika Merkezi, aynı zamanda yapay zekâ refahı çalışmalarının merkezlerinden.
+
+Mantık aynı: **Bir varlığın ahlaki dikkate değer olması için akıl yürütmesi gerekmez; acı çekebilmesi yeterlidir.**
+
+Bu ölçüt Bentham'a dayanır, sitemizde bu hafta ele aldığımız [Peter Singer'ın](/haber/peter-singer-iyi-hayat-yapay-zeka-kapitalizm) çalışmasıyla çağdaş etiğin merkezine yerleşti — ve şimdi [makinelere doğru genişletiliyor](/haber/keeling-street-yapay-zeka-refahi).
+
+Hayvan bilinci tartışması, bu genişlemenin **provasıdır**. Çünkü orada elimizde en azından evrimsel bir akrabalık, bir sinir sistemi, gözlemlenebilir bir davranış repertuvarı var.
+
+Yapay sistemlerde bunların hiçbiri yok.
+
+Eğer hayvan bilinci konusunda hâlâ ölçüt üretemiyorsak, makine bilinci konusunda kesin konuşan herkesin bir açıklama borcu var demektir.
+
+## Türkiye'den bakınca
+
+Türkiye'de hayvan etiği tartışması ağırlıklı olarak hukuki düzlemde yürüyor: hayvan hakları yasası, sokak hayvanları, barınaklar.
+
+Felsefi zemin ise büyük ölçüde boş. Oysa "hangi varlıklar ahlaki topluluğa dahildir" sorusu, hukuki düzenlemenin **önünde** gelmesi gereken bir sorudur.
+
+Sitemizde bu hafta andığımız [Albert Schweitzer'in "yaşama saygı" ilkesi](/haber/felsefe-tarihinde-bugun-4-eylul-illich-schweitzer) de tam bu soruyu, bilimsel kanıt tartışmasından çok önce sormuştu.`,
+  },
+  {
+    title: "Reichenbach doksan üç yıl sonra İstanbul'a dönüyor",
+    slug: "reichenbach-kongresi-istanbul-2026",
+    summary:
+      "1933'te Nazi Almanyası'ndan kaçıp İstanbul Üniversitesi'ne gelen Hans Reichenbach, beş yıl burada ders verdi. Kasımda aynı fakültede adına uluslararası bir kongre toplanıyor. Bildiri dili Türkçe ve İngilizce — ve konu listesi, Türkiye'de bilim felsefesinin kayıp halkasını işaret ediyor.",
+    seoTitle: "Uluslararası Hans Reichenbach Kongresi — İstanbul, 5-6 Kasım 2026",
+    metaDescription:
+      "Reichenbach in İstanbul kongresi 5-6 Kasım 2026'da İstanbul Üniversitesi Edebiyat Fakültesi'nde. Reichenbach'ın 1933-1938 İstanbul yılları ve mirası.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/H_Reichenbach.jpg?width=1600",
+    imageCredit: "Hans Reichenbach (1891-1953) · Wikimedia Commons",
+    featured: true,
+    sourceName: "Association for Research in Logic (Türkiye)",
+    sourceUrl: "https://logic.tr/2026/06/19/international-congress-on-hans-reichenbach-5-6-november-2026-reichenbach-in-istanbul/",
+    publishedAt: "2026-09-04T02:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "bilim-felsefesi", "mantik", "epistemoloji", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "International Hans Reichenbach Congress (5-6 November 2026): Reichenbach in İstanbul",
+        publisher: "Association for Research in Logic (Türkiye)",
+        date: "19 Haziran 2026",
+        url: "https://logic.tr/2026/06/19/international-congress-on-hans-reichenbach-5-6-november-2026-reichenbach-in-istanbul/",
+        primary: true,
+      },
+      {
+        title: "Philosophy of Animal Welfare Conference",
+        publisher: "Duke University School of Law",
+        url: "https://law.duke.edu/laweconomicsandpublicpolicy/conferences/animalphilosophy26",
+      },
+      {
+        title: "2026-7 Arendt/Schürmann Symposium on Stanley Cavell",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/153121",
+      },
+    ],
+    content: `1933'te Almanya'da bir yasa çıktı ve üniversiteler binlerce akademisyeni işten attı.
+
+Aynı yıl Türkiye'de üniversite reformu yapılıyordu. Darülfünun kapatıldı, İstanbul Üniversitesi kuruldu — ve Türk hükümeti, Almanya'dan kovulan bilim insanlarını davet etti.
+
+Gelenler arasında yirminci yüzyıl bilim felsefesinin kurucu isimlerinden biri vardı: **Hans Reichenbach.**
+
+Doksan üç yıl sonra, aynı fakültede adına uluslararası bir kongre toplanıyor.
+
+## Kongre
+
+**Uluslararası Hans Reichenbach Kongresi — Reichenbach in İstanbul**, 5-6 Kasım 2026'da **İstanbul Üniversitesi Edebiyat Fakültesi**'nde düzenleniyor.
+
+Düzenleyiciler: **İstanbul Üniversitesi Felsefe Bölümü** ve **Mantık Araştırmaları Derneği** (Association for Research in Logic, Türkiye).
+
+Yer: Edebiyat Fakültesi Genel Kurul Salonu.
+
+Bildiri önerileri **Türkçe veya İngilizce** kabul edildi; son başvuru 31 Ağustos'ta doldu, kabul bildirimleri 7 Eylül'de yapılıyor.
+
+## Reichenbach kimdi ve neden İstanbul'a geldi?
+
+Hans Reichenbach (1891-1953), **mantıkçı deneycilik** geleneğinin — Viyana Çevresi'nin Berlin'deki kardeş kolunun — kurucusuydu. Berlin Deneysel Felsefe Derneği'ni kurdu, Rudolf Carnap'la birlikte *Erkenntnis* dergisini çıkardı.
+
+Katkıları geniş bir alana yayılır: bilim felsefesi, fizik felsefesi, mantık, epistemoloji ve olasılık kuramı.
+
+Özellikle iki alanda belirleyici oldu.
+
+**Görelilik kuramının felsefi temelleri.** Einstein'ın derslerine katılan ilk kuşaktandı ve göreliliğin felsefi anlamını çözümleyen ilk ciddi çalışmaları yazdı. *Uzay ve Zaman Felsefesi* bugün hâlâ okunur.
+
+**Olasılık ve tümevarım.** Bilimsel çıkarımın kesinlik değil olasılık üzerine kurulduğunu savundu; tümevarımın "haklılandırılması" problemine sıklık yorumuna dayanan bir çözüm önerdi.
+
+Bir de bugün her felsefe öğrencisinin bildiği bir ayrım: **keşif bağlamı** ile **haklılandırma bağlamı**. Bir fikrin nasıl akla geldiği (rüyada, tesadüfen, önyargıyla) ile o fikrin nasıl gerekçelendirildiği ayrı sorulardır. Bu ayrım, yirminci yüzyıl bilim felsefesinin çalışma programını belirledi — ve sonradan Kuhn'un tarihselci itirazının hedefi oldu.
+
+1933'te Yahudi kökeni nedeniyle Berlin'deki görevinden uzaklaştırıldı. Türk hükümetinin davetini kabul etti ve İstanbul Üniversitesi'nde ders vermeye geldi. 1938'de ABD'ye, UCLA'ya geçti.
+
+## İstanbul yılları: neden önemli?
+
+Bu, Türkiye felsefe tarihinin en az konuşulan bölümlerinden biri.
+
+Reichenbach'ın İstanbul'daki beş yılı, Türkiye'de **modern mantık ve bilim felsefesinin** kurulmasında bir başlangıç noktasıdır. Ders verdiği kuşak, sonraki on yıllarda alanı taşıyan isimleri yetiştirdi.
+
+Sitemizde bu hafta ele aldığımız [Arda Denkel dosyasında](/haber/arda-denkel-nesne-ozellik-tikelcilik) andığımız **Teo Grünberg**, **Hüseyin Batuhan** ve **Cemal Yıldırım** kuşağı, bu hattın devamıdır. Denkel'i analitik felsefeye çeken dersler, o hattan geliyordu.
+
+Yani Reichenbach kongresi bir yabancı filozofu anma töreni değil. Türkiye'de bir geleneğin **kendi kökenine dönmesi**.
+
+## Kongrenin konu başlıkları
+
+Çağrı metni geniş bir alan açıyor:
+
+Reichenbach'ın felsefesi · Bilim felsefesi · Fizik felsefesi · Mantık · Epistemoloji · Olasılık kuramı · **Nedensellik** · Zaman ve mekân felsefesi · **Görelilik kuramının felsefi temelleri** · Metafizik · Bilim ve etik · Reichenbach'ın çağdaş felsefe için önemi
+
+Bu liste, bu hafta sitemizde izlediğimiz tartışmalarla doğrudan kesişiyor. [Nedensellik ve hafıza tartışması](/haber/lebowitz-odulu-2026-de-brigard-robins), [matematik felsefesi](/haber/filmat-2026-bologna-matematik-felsefesi), [bilim ve demokrasi](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) — hepsi Reichenbach'ın kurduğu çerçevenin mirasçısı.
+
+## Sonbahar takvimi: doğrulanmış diğer toplantılar
+
+Aynı dönemde izlediğimiz üç uluslararası toplantı:
+
+**30-31 Ekim — Arendt/Schürmann Sempozyumu: Stanley Cavell**
+New School for Social Research, New York. Cavell'in estetik yazıları ve başkalarının zihnine dair şüpheciliğin sanat yorumundaki rolü. Alice Crary ve Jay Bernstein konuşmacılar arasında. Ayrıntılar [dünkü haberimizde](/haber/cavell-sempozyumu-new-school-2026).
+
+**19 Kasım — Dünya Felsefe Günü**
+UNESCO takvimi. Önerisi Türkiye Felsefe Kurumu'na ait; ayrıntılar [bu köşedeki dosyamızda](/haber/dunya-felsefe-gunu-kucuradi-unesco).
+
+**20-21 Kasım — Philosophy of Animal Welfare**
+Duke Üniversitesi, Durham. Duke Hukuk, İktisat ve Kamu Politikası Merkezi ile NYU Zihin, Etik ve Politika Merkezi ortak düzenliyor. Konu: hayvan refahının doğası, ölçümü ve ahlaki önemi. Bugünkü [Dünya haberimizde](/haber/hayvan-bilinci-new-york-bildirisi) ele aldık.
+
+Ayrıca daha uzak vadede iki büyük kongre: **9-11 Eylül FilMat 2026** (Bologna, matematik felsefesi) ve **23-28 Ağustos 2027 CLMPST** (Kobe, mantık ve bilim felsefesi).
+
+## Pratik bilgiler
+
+- **Tarih:** 5-6 Kasım 2026
+- **Yer:** İstanbul Üniversitesi Edebiyat Fakültesi, Genel Kurul Salonu
+- **Düzenleyen:** İÜ Felsefe Bölümü · Mantık Araştırmaları Derneği
+- **Diller:** Türkçe ve İngilizce
+- **Konaklama ve ulaşım:** Katılımcılara ait
+
+Program açıklandığında ayrıntıları aktaracağız.
+
+---
+
+*Editör notu: Elimize ulaşan sonbahar takvimlerinde yer alan bazı yurt içi toplantıları — İstanbul Üniversitesi'nde 26-27 Ekim'de düzenleneceği belirtilen "1. Ulusal İslam Felsefesi Sempozyumu" dahil — bağımsız kaynaklardan doğrulayamadığımız için bu listeye almadık. Düzenleyicilerin duyuru bağlantısı iletmesi hâlinde takvimimize ekleriz.*`,
+  },
+  {
+    title: "2026'nın felsefe kitapları üç sözcükte toplanıyor: bilinç, kehanet, yapay devlet",
+    slug: "2026-felsefe-kitaplari-secki",
+    summary:
+      "Yılın öne çıkan kitaplarına birlikte bakıldığında bir örüntü çıkıyor. Pollan bilincin haritasını çıkarıyor, Véliz tahminin bir bilgi değil bir iktidar aracı olduğunu savunuyor, Lepore ise ulus-devletin yerini alan şeye ad koyuyor: Yapay Devlet.",
+    seoTitle: "2026'nın öne çıkan felsefe kitapları: Pollan, Véliz, Lepore",
+    metaDescription:
+      "2026'da yayımlanan felsefe kitapları: Michael Pollan A World Appears, Carissa Véliz Prophecy, Jill Lepore The Rise and Fall of the Artificial State.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Library_books_-_Shelving_stacks_%283554627444%29.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: false,
+    sourceName: "Penguin Random House",
+    sourceUrl: "https://www.penguinrandomhouse.com/books/646644/a-world-appears-by-michael-pollan/",
+    publishedAt: "2026-09-04T01:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "bilinc", "yapay-zeka", "demokrasi", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "A World Appears: A Journey into Consciousness",
+        publisher: "Michael Pollan, Penguin Press",
+        date: "24 Şubat 2026",
+        url: "https://www.penguinrandomhouse.com/books/646644/a-world-appears-by-michael-pollan/",
+        primary: true,
+      },
+      {
+        title: "Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI",
+        publisher: "Carissa Véliz, Doubleday",
+        date: "21 Nisan 2026",
+        url: "https://www.penguinrandomhouse.com/books/759692/prophecy-by-carissa-veliz/",
+      },
+      {
+        title: "The Rise and Fall of the Artificial State",
+        publisher: "Jill Lepore",
+        date: "25 Ağustos 2026",
+        url: "https://www.penguin.co.uk/books/483176/the-rise-and-fall-of-the-artificial-state-by-lepore-jill/9780241836552",
+      },
+    ],
+    content: `Bir yılın felsefe yayıncılığına bakmanın iki yolu var. Kitapları tek tek okumak — ya da hangi sözcüklerin tekrarlandığına bakmak.
+
+2026'da üç sözcük tekrarlanıyor: **bilinç**, **kehanet**, **yapay devlet**.
+
+Aşağıdaki seçki, "en çok satan" değil; akademik ağırlık, güncellik ve tartışma yaratma potansiyeli ölçütleriyle hazırlandı.
+
+---
+
+## 1. Michael Pollan — *A World Appears: A Journey into Consciousness*
+
+**Penguin Press · 24 Şubat 2026**
+
+Pollan'ın onuncu kitabı ve alanının en beklenmedik girişi.
+
+Yiyecek ve bitkiler üzerine yazdığı kitaplarla tanınan Pollan, bu kez bilinci ele alıyor — ve yöntemi bir felsefe kitabından çok bir **keşif seyahatnamesi**.
+
+Kitap, deneyimin giderek daha karmaşık katmanlarını ele alan bir sorular dizisi olarak kuruluyor. Pollan bilinci bilimsel, felsefi, edebî, manevi ve psikedelik perspektiflerden aynı anda soruyor.
+
+Karşılaştığı kişiler listesi kitabın kapsamını gösteriyor: bitkilerde bilincin ilk kıvılcımını arayan **"bitki nörobiyologları"**; yapay zekâya duygu mühendisliği yapmaya çalışan bilim insanları; bilinç akışının yaşanmış hâlini yakalamaya çalışan psikologlar ve romancılar.
+
+Kitap New York Times çok satanlar listesine girdi ve Kirkus Ödülü finalistleri arasında yer aldı.
+
+**Neden önemli:** Sitemizde bu hafta ele aldığımız [Schwitzgebel'in kuşkuculuğu](/haber/yapay-zeka-bilinc-schwitzgebel-sis) ve [Chalmers'ın zor problemi](/haber/david-chalmers-zor-problem-otuz-yil) akademik tartışmayı temsil ediyor. Pollan'ın kitabı, aynı problemin **kamusal dile çevrilmiş** hâli. İkisi birlikte okunduğunda, bir felsefi problemin nasıl kamusal bir mesele hâline geldiği görülüyor.
+
+---
+
+## 2. Carissa Véliz — *Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI*
+
+**Doubleday · 21 Nisan 2026** (Birleşik Krallık: Swift Press, 7 Mayıs)
+
+Oxford'dan felsefeci Carissa Véliz, mahremiyet üzerine yazdığı *Privacy Is Power* ile tanınıyordu. Yeni kitabı daha büyük bir hedefe yöneliyor.
+
+Ana tez, kitabın en güçlü cümlesinde: **Tahminin asıl vaadi geleceği bilmek değil, başkaları üzerinde iktidar kurmaktır.**
+
+Véliz, tahmin meselesini Antik Yunan kehanetlerinden modern algoritmalara kadar izliyor. Tıp, iklim, teknoloji ve toplum alanlarından örneklerle dört sonuca varıyor:
+
+- İnsanlar hakkındaki tahminler **kendini gerçekleştirme** eğilimindedir.
+- Daha fazla veri, daha iyi sonuç garantisi vermez.
+- Yapay zekâ riski azaltmaktan çok **artırma** ihtimali taşır.
+- Özgür ve dayanıklı bir toplum, daha fazla tahmine değil, daha iyi **hazırlığa** ihtiyaç duyar.
+
+Birinci madde felsefi olarak en ilginci. Bir insan hakkında yapılan tahmin — kredi notundan suç riskine, iş performansından sağlık öngörüsüne — o insana yapılan muameleyi değiştirir; muamele değişince davranış değişir; davranış değişince tahmin "doğrulanır".
+
+Böylece tahmin, geleceği **öngörmez, üretir**.
+
+---
+
+## 3. Jill Lepore — *The Rise and Fall of the Artificial State*
+
+**25 Ağustos 2026**
+
+Harvard tarihçisi Jill Lepore, yapay zekâyı bir teknoloji olarak değil, **devlet ve demokrasi fikrini dönüştüren siyasal bir güç** olarak ele alıyor.
+
+Kitabın tablosu ağır: Siyasal kampanyalar dikkat madenciliği yapan algoritmalara indirgendi; çok uluslu şirketler kamusal tartışmayı denetliyor; liberal ulus-devlet çağı sona eriyor ve yerini yapay zekânın yönetimi alıyor.
+
+Ve en dikkat çekici kavram: İktidar **mistifikasyonla** sürdürülüyor — makinelerin, insanların bilemeyeceği şeyleri bildiği söyleniyor.
+
+Bu formülasyon önemli. Lepore'a göre yapay zekânın siyasal gücü, gerçekten daha iyi bilmesinden değil, **daha iyi bildiğine inanılmasından** geliyor. Kâhin ile algoritma arasındaki süreklilik tam burada — ve Véliz'in kitabıyla doğrudan konuşuyor.
+
+Lepore karamsar bir kitap yazmadığını vurguluyor: Yıkıcı olarak yapılan her şeyin geri alınabileceğini, Yapay Devlet'in kökenlerini aydınlatarak farklı bir gelecek tahayyül edebileceğimizi savunuyor.
+
+**Bağlantı:** Sitemizde bu hafta ele aldığımız [Rob Gallagher'ın "özerklik ve otomasyon"](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) çalışması ve [Judith Butler'ın demokrasi eleştirisi](/haber/judith-butler-demokrasi-taninma-yas) ile birlikte okunduğunda, 2026'nın siyaset felsefesi gündemi netleşiyor.
+
+---
+
+## Ayrıca izlediklerimiz
+
+**Eric Schwitzgebel — *AI and Consciousness: A Skeptical Overview*** (Cambridge Elements, Ağustos 2026). Yakın gelecekte yapay zekâ bilincinin ne apaçık imkânsız ne de apaçık kaçınılmaz olduğunu savunan yüz sayfalık müdahale. [Ayrıntılı dosyamız](/haber/yapay-zeka-bilinc-schwitzgebel-sis).
+
+**Geoff Keeling & Winnie Street — *Emerging Questions in AI Welfare*** (Cambridge Elements, Haziran 2026). Bir yapay zekâ sisteminin refahı olabilir mi ve olursa ne yapmalıyız? [Ayrıntılı dosyamız](/haber/keeling-street-yapay-zeka-refahi).
+
+**Amy Olberding — *Kill All The Chickens*** (Polity, 2026). Konfüçyüsçü etikçinin yas, hafıza ve sınıf üzerine lirik mozaiği. [Ayrıntılı dosyamız](/haber/amy-olberding-kill-all-the-chickens).
+
+**Iulia Nistor — korku sineması ve felsefe** (transcript Verlag, Mayıs 2026). Katharsis'ten iğrence, korku türünün felsefi çerçevesi. [Ayrıntılı dosyamız](/haber/iulia-nistor-korku-sinemasi-felsefe).
+
+**David Bather Woods — *Arthur Schopenhauer: The Life and Thought of Philosophy's Greatest Pessimist*** (University of Chicago Press). Schopenhauer'ın kötümserliğini hayat deneyimleri bağlamında yeniden değerlendiren felsefi biyografi; APA blogu bu yıl haziranda tanıttı. Bugünkü [Schopenhauer dosyamız](/haber/schopenhauer-irade-arzu-merhamet) bu okumadan da yararlanıyor.
+
+---
+
+## Ortaya çıkan tablo
+
+Bu kitapların hepsi aynı yıl içinde, birbirinden habersiz yazıldı. Ama üçü de aynı boşluğa bakıyor.
+
+Pollan soruyor: **Deneyim nedir?**
+
+Véliz soruyor: **Gelecek hakkındaki iddialar kime güç verir?**
+
+Lepore soruyor: **Karar verme yetkisi nereye gitti?**
+
+Üç soru birleştiğinde tek bir soru çıkıyor — ve bu, sitemizin bu haftaki bütün dosyalarının altında duran soru:
+
+**Düşünen bir varlık olmakla, hakkında karar verilen bir nesne olmak arasındaki fark nedir?**
+
+Türkçe yayıncılık açısından not: Bu kitapların hiçbirinin Türkçe çevirisi henüz duyurulmadı. Pollan'ın önceki kitapları Türkçede geniş okur bulmuştu; *A World Appears* için de benzer bir ilgi beklenebilir.`,
+  },
+  {
+    title: "Türkiye'nin mantık ödülü: Teo Grünberg'in adını taşıyor, kazananı dünyaya gidiyor",
+    slug: "teo-grunberg-mantik-odulu",
+    summary:
+      "Mantık Araştırmaları Derneği'nin verdiği ödül, Türkiye'de az bilinen ama işleyişi sıra dışı bir yapı: Kazanan makale, uluslararası bir yayında çıktıktan sonra Dünya Mantık Ödülleri Yarışması'nda Türkiye'yi temsil ediyor. 2025 ödülü Sinop Üniversitesi'nden Ezgi Iraz Su'ya gitti.",
+    seoTitle: "Teo Grünberg Mantık Araştırma Ödülü — 2025 kazananı Ezgi Iraz Su",
+    metaDescription:
+      "Mantık Araştırmaları Derneği'nin Teo Grünberg Ödülü, kazananı UNILOG Dünya Mantık Ödülleri Yarışması'nda Türkiye'yi temsil ediyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/METU_Library_-_14663259627.jpg?width=1600",
+    imageCredit: "ODTÜ Kütüphanesi — Teo Grünberg akademik hayatının büyük bölümünü ODTÜ'de geçirdi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Association for Research in Logic (Türkiye)",
+    sourceUrl: "https://logic.tr/2025/10/13/teo-grunberg-prize-for-research-in-logic-2025/",
+    publishedAt: "2026-09-04T01:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "mantik", "akademi", "yapay-zeka", "epistemoloji"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Teo Grünberg Prize for Research in Logic 2025",
+        publisher: "Association for Research in Logic (Türkiye)",
+        date: "13 Ekim 2025",
+        url: "https://logic.tr/2025/10/13/teo-grunberg-prize-for-research-in-logic-2025/",
+        primary: true,
+      },
+      {
+        title: "World Logic Prizes Contest — UNILOG 2025",
+        publisher: "UNILOG",
+        url: "https://sites.google.com/view/unilog2025/logic-prizes",
+      },
+    ],
+    content: `Türkiye'de felsefe ödülleri konusunda genel kanı şudur: Kurumsallaşmış, görünür bir yapı yok.
+
+Bu büyük ölçüde doğru. Ama bir istisna var — ve tasarımı, benzerlerinden daha akıllıca.
+
+**Teo Grünberg Mantık Araştırma Ödülü**, Mantık Araştırmaları Derneği tarafından veriliyor. Sıra dışı yanı, ödülün nerede bittiği değil, **nereye açıldığı**.
+
+Kazanan makale, uluslararası bir dergide yayımlandıktan sonra **Dünya Mantık Ödülleri Yarışması**'nda **Türkiye'yi temsil ediyor** — UNILOG (Dünya Evrensel Mantık Kongresi ve Okulu) kapsamında düzenlenen yarışmada.
+
+Yani ödül, bir ismi onurlandırmakla kalmıyor; Türkiye'yi uluslararası bir mantık ligine bağlıyor.
+
+## 2025 kazananı
+
+Jüri 11 Ekim 2025'te toplandı ve üç başvuru arasından **Dr. Öğr. Üyesi Ezgi Iraz Su**'yu (Sinop Üniversitesi) seçti.
+
+Ödüllendirilen makale: **"Splitting Property for Epistemic Equilibrium Logics"** — *Logica Universalis* dergisinde yayımlanacak.
+
+Konu, ilk bakışta çok teknik görünüyor. Ama meselesi bugünün yapay zekâ tartışmasının tam ortasında.
+
+## Makale ne yapıyor?
+
+Kısa bir çeviri denemesi.
+
+**Yanıt kümesi programlama** (ASP), yapay zekânın mantığa dayalı kolunda kullanılan bir yöntem. Problemler mantıksal programlar olarak temsil ediliyor, çözümler "yanıt kümeleri" aracılığıyla bulunuyor.
+
+Bu yöntemin bilinen bir sınırı var: **Eksik bilgiyi** temsil etmekte ve onun hakkında akıl yürütmekte yetersiz kalıyor.
+
+Bir örnek: Bir sistem, elindeki verilerden bir sonuca varamıyorsa, "bunu bilmiyorum" diyebilmelidir. Ama "bilmiyorum" demek, sıradan bir önerme değildir — sistemin **kendi bilgi durumu hakkında** bir ifadedir.
+
+Bu yüzden alanda yaygın kabul, ASP'nin **epistemik kiplik operatörleriyle** güçlü bir iç-gözlemsel akıl yürütmeye ihtiyaç duyduğu yönünde. **Epistemik belirtimler** (ES) bu ihtiyaçtan doğdu: Bir önermenin, programın **her** yanıt kümesinde mi yoksa **bazı** yanıt kümelerinde mi doğru olduğunu denetleyebilmek.
+
+Ancak bu genişletmenin anlamının nasıl yakalanacağı konusunda uzun süredir uzlaşma yok.
+
+Yakın dönemde Cabalar ve arkadaşları, bu araştırmanın **test örneklerine değil biçimsel sağlamlığa** dayanması gerektiğini savundu ve **epistemik bölünme özelliği** (E-SP) adını verdikleri yapısal bir ilkeyi zorunlu ölçütlerden biri olarak önerdi.
+
+Su'nun makalesi, bu yaklaşımı ASP'nin özgün bölünme özelliğinin daha kapsamlı ve daha ihtiyatlı bir genişletmesine taşıyor.
+
+## Neden felsefi bir mesele?
+
+Buradaki asıl soru teknik değil, epistemolojik:
+
+**Bir sistem, kendi bilmediğini bilebilir mi — ve bu bilgi hangi mantıkla ifade edilir?**
+
+Sitemizde bu hafta izlediğimiz [yapay zekâ bilinci tartışmasının](/haber/yapay-zeka-bilinc-schwitzgebel-sis) daha az konuşulan ama daha somut versiyonu bu. Bir sistemin "deneyim" sahibi olup olmadığını bilemeyebiliriz; ama **kendi bilgi durumunu temsil edip edemediği** biçimsel olarak sınanabilir bir sorudur.
+
+Cabalar ve arkadaşlarının önerisindeki metodolojik ilke de dikkat çekici: **Bir semantiği örneklerle değil, yapısal ilkelerle sınamak.** Bu, felsefede sık karşılaşılan bir tercih — sezgilere uymak ile teorik tutarlılığı korumak arasındaki gerilim.
+
+## Jüri
+
+Ödül jürisi, Türkiye'de mantık alanının bugünkü haritasını gösteriyor:
+
+Prof. Dr. Ahmet Ayhan Çitil (İstanbul 29 Mayıs Üniversitesi) · Prof. Dr. H. Bülent Gözkân (Mimar Sinan Güzel Sanatlar Üniversitesi) · Prof. Dr. **David Grünberg** (ODTÜ) · Prof. Dr. Özgüç Güven (İstanbul Üniversitesi) · Prof. Dr. M. Nazlı İnönü (İstanbul Üniversitesi) · Prof. Dr. Halit Oğuztüzün (ODTÜ) · Prof. Dr. Yücel Yüksel (İstanbul Üniversitesi)
+
+## Ödülün adını taşıdığı isim
+
+**Teo Grünberg** (1927-2020), Türkiye'de modern mantığın kurucusu sayılır.
+
+1927'de İstanbul'da doğdu, doktorasını 1964'te İstanbul Üniversitesi'nde tamamladı. 1966-82 arasında ODTÜ'de, kurucusu olduğu **Beşeri Bilimler Bölümü**'nün başkanlığını yaptı.
+
+Ama asıl etkisi kurumsal görevlerinden değil, bir reformdan geliyor.
+
+**1966'dan itibaren, meslektaşı Hüseyin Batuhan ile birlikte, Milli Eğitim Bakanlığı'nın lise öğretiminde yürüttüğü modern mantık reformunu başlattılar.** 1968-76 arasında Bakanlığın düzenlediği yaz kurslarında lise öğretmenlerine modern mantık okuttular.
+
+Yani Türkiye'de bir kuşağın liseye kadar inen mantık eğitimi, doğrudan bu iki isme dayanıyor. Grünberg ayrıca modern mantığın çeşitli üniversitelerde öğretilmesini başlattı ve çok sayıda öğretim üyesinin yetişmesine katkı verdi.
+
+On beşten fazla kitap ve otuz beş makale yazdı.
+
+## Bağlantı: Denkel, Aruoba, Grünberg
+
+Bu isim, sitemizde bu hafta ele aldığımız iki dosyayla kesişiyor.
+
+[Arda Denkel](/haber/arda-denkel-nesne-ozellik-tikelcilik), ODTÜ'de lisans öğrencisiyken **Teo Grünberg, Hüseyin Batuhan ve Cemal Yıldırım**'ın derslerine girdi — ve yönü orada belirlendi.
+
+Bugün ele aldığımız [Oruç Aruoba](/haber/oruc-aruoba-turkcede-felsefe-yurume) ise aynı yıllarda Hacettepe'de, Kuçuradi'nin öğrencisi olarak bambaşka bir yola girdi.
+
+Türkiye'de felsefenin iki damarı — analitik-mantıksal olan ile şiirsel-varoluşsal olan — aynı on yılda, aynı ülkede kuruldu.
+
+Grünberg'in adını taşıyan bir ödülün bugün epistemik mantık ve yapay zekâ kesişimindeki bir çalışmaya verilmesi, o damarın kesintisiz sürdüğünü gösteriyor.
+
+## Neden daha çok bilinmeli?
+
+Bu ödülün tasarımında, Türkiye'deki başka ödüller için de örnek alınabilecek üç özellik var:
+
+**Somut bir çıktıyı ödüllendiriyor** — bir kariyeri değil, tek bir makaleyi.
+
+**Uluslararası bir kanala bağlıyor** — kazanan, dünya çapında bir yarışmaya giriyor.
+
+**Ölçütü açık** — biçimsel sağlamlık.
+
+Sitemizde bu hafta ele aldığımız [LSE doktora ödülleri](/haber/lse-felsefe-doktora-odulleri) ve [Lebowitz Ödülü](/haber/lebowitz-odulu-2026-de-brigard-robins) dosyalarında sorduğumuz soru buydu: Bir ödül, iyi çalışmanın ne demek olduğunu tarif edebilir mi?
+
+Teo Grünberg Ödülü, Türkiye'de bunu yapan az sayıdaki yapıdan biri.
+
+---
+
+*Ödülün duyuruları ve başvuru koşulları [logic.tr](https://logic.tr/) adresinde yayımlanıyor. Aynı dernek, bu yıl kasımda [Hans Reichenbach Kongresi'ni](/haber/reichenbach-kongresi-istanbul-2026) düzenliyor.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 4 Eylül: modern uygarlığın iki eleştirmeni",
+    slug: "felsefe-tarihinde-bugun-4-eylul-illich-schweitzer",
+    summary:
+      "4 Eylül 1926'da Ivan Illich doğdu, 4 Eylül 1965'te Albert Schweitzer öldü. Biri insan için kurulmuş kurumların insanı yönetmeye ne zaman başladığını sordu; öteki ahlaki topluluğun sınırını bütün canlılara açtı. İkisi de 'ilerleme' fikrine eleştirel mesafeden bakıyordu.",
+    seoTitle: "Felsefe Tarihinde Bugün — 4 Eylül: Ivan Illich ve Albert Schweitzer",
+    metaDescription:
+      "4 Eylül 1926'da Ivan Illich doğdu, 1965'te Albert Schweitzer öldü. Karşı-üretkenlik, okulsuz toplum ve yaşama saygı ilkesi.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Schweitzer_1955.jpg?width=1600",
+    imageCredit: "Albert Schweitzer, 1955 · Wikimedia Commons",
+    featured: false,
+    sourceName: "Nobel Prize",
+    sourceUrl: "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/",
+    publishedAt: "2026-09-04T01:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "etik", "kavram", "din-felsefesi", "teknoloji-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Ivan Illich",
+        publisher: "Encyclopædia Britannica",
+        url: "https://www.britannica.com/biography/Ivan-Illich",
+        primary: true,
+      },
+      {
+        title: "Albert Schweitzer — Biographical",
+        publisher: "The Nobel Prize",
+        url: "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/",
+      },
+    ],
+    content: `Aynı güne düşen iki tarih, birbirini tamamlayan iki eleştiri.
+
+**4 Eylül 1926**'da Viyana'da **Ivan Illich** doğdu. **4 Eylül 1965**'te Gabon'un Lambaréné kentinde **Albert Schweitzer** öldü.
+
+İkisi de rahipti — biri Katolik papaz, öteki Protestan ilahiyatçı. İkisi de akademik kariyeri bırakıp başka bir hayat kurdu. Ve ikisi de yirminci yüzyılın en güçlü inancına, **ilerleme** fikrine, eleştirel mesafeden baktı.
+
+## Illich: kurum ne zaman efendi olur?
+
+Ivan Illich, Avusturyalı bir filozof, Katolik papaz ve toplum eleştirmeniydi. New York'ta ve Porto Riko'da çalıştı, sonra Meksika'da Cuernavaca'da bir araştırma merkezi kurdu.
+
+Ünü iki kitaptan geliyor.
+
+**Okulsuz Toplum** (*Deschooling Society*, 1971), okul kurumunu hedef aldı. Tezi şuydu: Okul, eğitimi sağlamaz — eğitimi **tekelleştirir**. Öğrenmeyi öğretimle, yeterliliği diplomayla, konuşma becerisini yeni bir şey söyleme yeteneğiyle karıştırmayı öğretir.
+
+Illich'in ayrımı keskin: Öğrenmenin çoğu okulda gerçekleşmez; okul, öğrenmenin ancak kendi çatısı altında gerçek sayılacağını dayatır.
+
+**Sağlığın Gaspı** (*Medical Nemesis*, 1975), aynı çözümlemeyi tıbba uyguladı. Modern tıbbın kendisinin bir hastalık kaynağı hâline geldiğini — **iyatrojenez**, yani hekim kaynaklı hastalık — savundu. Üç düzey ayırt etti: klinik (tedavinin doğrudan zararı), toplumsal (sağlığın tıbbileştirilmesi) ve kültürel (acıyla, hastalıkla ve ölümle baş etme kapasitesinin yitirilmesi).
+
+Üçüncüsü en radikali. Illich'e göre modern tıp, insanı acıdan kurtarmakla kalmıyor; **acıya anlam verme geleneğini** de ortadan kaldırıyor.
+
+### Asıl kavram: karşı-üretkenlik
+
+Illich'i yalnızca eğitim ya da sağlık eleştirmeni saymak yanlış olur. Bütün çalışmasının altında tek bir kavram var: **karşı-üretkenlik** (counterproductivity).
+
+Fikir şu: Her kurum ve teknoloji, belli bir eşiğe kadar amacına hizmet eder. O eşik aşıldığında **kendi amacının tersini üretmeye** başlar.
+
+Örnekleri sadedir. Otomobil hızlandırmak için icat edildi; yeterince yaygınlaştığında trafik yarattı ve ortalama hızı düşürdü. Okul öğretmek için kuruldu; tekelleştiğinde öğrenmeyi engelledi. Tıp iyileştirmek için kuruldu; her şeyi tıbbileştirdiğinde hastalık üretti.
+
+Illich'in asıl sorusu bu yüzden şudur:
+
+**İnsan için kurulmuş kurumlar hangi noktada insanın kendisini yönetmeye başlar?**
+
+Bu soru, sitemizde bu hafta ele aldığımız [dijital gelecek tasavvurları](/haber/otonomi-otomasyon-gallagher-dijital-gelecek) dosyasının sorduğu soruyla neredeyse aynı. Otomasyon verimlilik için kuruldu; eşik aşıldığında insan özerkliğini azaltmaya başlıyor mu?
+
+Illich, algoritmik yönetimi görmeden öldü — 2002'de. Ama kavramı, bugünkü tartışmanın en kullanışlı araçlarından biri olarak duruyor.
+
+## Schweitzer: ahlaki topluluğun sınırı nerede?
+
+Albert Schweitzer 14 Ocak 1875'te Alsace'de doğdu ve 4 Eylül 1965'te Lambaréné'de öldü.
+
+Hayatı, tek bir insanın kaç ayrı alanda birinci sınıf olabileceğinin sınırını zorlar: ilahiyatçı, filozof, **Bach yorumcusu org sanatçısı**, orgların yapımı üzerine uzman, ve hekim.
+
+Otuzunda tıp okumaya başladı ve 1913'te bugünkü Gabon'da bir hastane kurdu. Ömrünün geri kalanını orada geçirdi. 1952 Nobel Barış Ödülü'ne layık görüldü; ödül o yıl saklı tutulduğu için kendisine 10 Aralık 1953'te takdim edildi.
+
+### Yaşama saygı
+
+Schweitzer'ın felsefi katkısı tek bir ilkede toplanır: **Yaşama saygı** (*Ehrfurcht vor dem Leben*).
+
+İlkenin formülasyonu sadedir ve tam da bu yüzden güçlüdür: *Ben yaşamak isteyen bir yaşamım — yaşamak isteyen yaşamların ortasında.*
+
+Buradan çıkan ahlaki sonuç: İyi olan, yaşamı korumak ve geliştirmektir; kötü olan, yaşamı yok etmek ve engellemektir.
+
+Ve kapsam: Bu ilke **insan topluluğuyla sınırlı değildir.**
+
+Schweitzer'ın Batı ahlak felsefesine itirazı buydu. Kant'tan Mill'e uzanan gelenek, ahlaki dikkatin sınırını akıl yürüten varlıklarla çizmişti. Schweitzer bu sınırı, **yaşama istenci** ölçütüyle genişletti.
+
+Bu, Schopenhauer'ın etkisini taşır — bugün sitemizde ele aldığımız [Schopenhauer dosyasında](/haber/schopenhauer-irade-arzu-merhamet) anlattığımız gibi, merhameti ahlakın temeline koyan çizgidir.
+
+### Ve bugün
+
+Schweitzer'ın ilkesi, sitemizde bugün ele aldığımız [hayvan bilinci tartışmasının](/haber/hayvan-bilinci-new-york-bildirisi) yüz yıl öncesinden bir habercisi.
+
+New York Bildirisi, bir varlığın bilinçli olup olmadığını **bilimsel kanıtla** belirlemeye çalışıyor. Schweitzer'ın önerisi, bu kanıtı beklemeden ahlaki tutum almaktı: Yaşama istenci gözlemlenebilir; ahlaki dikkat için bu yeter.
+
+İki yaklaşımın gerilimi verimlidir. Bildirinin dikkatli dili — "gerçekçi bir ihtimal" — bilimsel temkinliliği korurken ahlaki sonucu açık bırakıyor. Schweitzer ise ölçütü baştan geniş tutup, sonucu net bırakıyordu.
+
+### Eleştiriler
+
+Schweitzer eleştirisiz bir figür değil.
+
+**Uygulanabilirlik itirazı:** Bütün yaşamı korumak fiilen imkânsızdır. Beslenmek, hastalıkla savaşmak, hatta yürümek yaşam yok eder. Schweitzer bunu kabul eder ve bir hiyerarşi vermeyi reddeder — sonuç olarak ilkenin kılavuz gücü zayıflar.
+
+**Sömürgecilik itirazı:** Lambaréné'deki hastanesinin işleyişi ve Afrikalılara yaklaşımı, sonraki on yıllarda haklı olarak eleştirildi. "Büyük ağabey" tutumunun sömürgeci düşünce kalıplarını taşıdığı savunuldu.
+
+Bu eleştiri ciddi ve göz ardı edilemez. Ama ilkenin kendisi, onu formüle edenin sınırlarından bağımsız olarak tartışılmaya devam ediyor.
+
+## Ortak nokta
+
+İki isim birbirini muhtemelen hiç okumadı. Ama aynı yerden bakıyorlardı.
+
+Illich sordu: **Kurumlar insanı ne zaman ele geçirir?**
+
+Schweitzer sordu: **Ahlaki dikkat nerede biter?**
+
+Birincisi, ilerlemenin **araçlarını** sorguladı. İkincisi, ilerlemenin **sınırlarını**.
+
+Ve ikisi de aynı şüpheyi taşıyordu: Bir şeyi yapabiliyor olmak, onu yapmamız gerektiği anlamına gelmez.
+
+Bu şüphe, yapay zekâ çağında hiç olmadığı kadar gerekli.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*`,
+  },
+  {
+    title: "Felsefe nereye baktı? 2026'nın haritası",
+    slug: "felsefe-2026-haritasi-canli-alanlar",
+    summary:
+      "Felsefenin merkezi kayıyor. Bir hafta boyunca izlediğimiz kongre çağrıları, yeni kitaplar, ödüller ve makaleler bir araya konduğunda net bir tablo çıkıyor: Alanın en canlı sekiz cephesi var ve neredeyse hepsi aynı üç soruya bağlanıyor.",
+    seoTitle: "Felsefenin 2026 haritası: yapay bilinçten iklim felsefesine",
+    metaDescription:
+      "2026'da felsefenin en canlı alanları: yapay zekâ felsefesi, yapay bilinç, hayvan bilinci, AI epistemolojisi, algoritmik demokrasi, iklim felsefesi, posthümanizm ve yeni metafizik.",
+    contentType: "ANALIZ",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Planisph%C3%A6ri_c%C5%93leste.jpg?width=1600",
+    imageCredit: "Frederik de Wit, 17. yüzyıl gök haritası · Wikimedia Commons",
+    featured: true,
+    sourceName: "Felsefe Haberleri",
+    sourceUrl: "https://www.felsefehaberleri.com/",
+    publishedAt: "2026-09-04T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "bilinc", "demokrasi", "kavram", "akademi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "AI and Consciousness: A Skeptical Overview",
+        publisher: "Eric Schwitzgebel, Cambridge Elements",
+        url: "https://www.cambridge.org/core/elements/abs/ai-and-consciousness/E77C92088DA3C9F89E7FE7C75CBB1896",
+        primary: true,
+      },
+      {
+        title: "The New York Declaration on Animal Consciousness",
+        publisher: "NYU",
+        url: "https://sites.google.com/nyu.edu/nydeclaration/declaration",
+      },
+      {
+        title: "Futures at the Threshold: Between Autonomy and Automation",
+        publisher: "Rob Gallagher, Philosophy & Technology",
+        url: "https://link.springer.com/article/10.1007/s13347-026-01105-5",
+      },
+    ],
+    content: `Bir alanın nereye baktığını anlamak için manifestolara bakmak gerekmez. Kongre çağrılarına, yeni kitap kataloglarına ve ödül gerekçelerine bakmak yeter.
+
+Bu köşede son bir haftada izlediğimiz malzeme — Cambridge'in yeni kitapları, Kobe'den Bologna'ya kongre duyuruları, Philosopher's Annual seçkisi, Lebowitz ve Teo Grünberg ödülleri, *Philosophy & Technology* ve *Ergo* makaleleri — bir araya konduğunda tablo netleşiyor.
+
+Felsefenin merkezi kayıyor. Ve nereye kaydığı, sekiz başlıkta toplanabilir.
+
+---
+
+## 1. Yapay zekâ felsefesi — ama artık yalnızca etik değil
+
+Alanın bir numarası. Ama tartışma çoktan "yapay zekâ etik midir" sorusunun ötesine geçti.
+
+Bugün sorulan sorular epistemoloji, metafizik ve zihin felsefesinin içine giriyor:
+
+Yapay zekâ **anlayabilir mi**? Büyük dil modelleri gerçekten **akıl yürütüyor mu**? Bir yapay sistemin **inançları** olabilir mi? Bir makineye güvenmek **rasyonel** midir? Yapay zekâ **epistemik otorite** hâline geliyor mu?
+
+Bu genişleme, yapay zekânın felsefede bir "uygulama alanı" olmaktan çıkıp **kuramsal bir sınama aracına** dönüştüğünü gösteriyor. Bir zihin kuramı, yapay sistemlere uygulandığında ne diyor? Cevap veremiyorsa, kuram eksiktir.
+
+## 2. Yapay bilinç — yılın en büyük sorusu
+
+Bize göre 2026'nın merkezî felsefi meselesi bu.
+
+Nedeni şu: İlk kez teknoloji şirketleri, sinirbilimciler ve felsefeciler **aynı soruya aynı ciddiyetle** bakıyor.
+
+Bu hafta ele aldığımız [Eric Schwitzgebel'in kitabı](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tartışmanın epistemik zeminini kuruyor: Bilmiyoruz — ve karar vermek zorunda kalacağımız an, bilebileceğimiz andan önce gelecek.
+
+[David Chalmers](/haber/david-chalmers-zor-problem-otuz-yil) otuz yıldır aynı ayrımı hatırlatıyor: Bir davranışı açıklamak, o davranışın arkasındaki deneyimi açıklamak değildir.
+
+Ve [Luciano Floridi](/haber/yapay-zeka-bilinc-schwitzgebel-sis) ters yönden uyarıyor: Bulutlarda yüz gördüğümüz gibi, istatistiksel örüntülerde de bilinç görebiliriz.
+
+Üç konum, üç ayrı hata riskine işaret ediyor. Ve hiçbiri ötekini çürütmüyor.
+
+## 3. Hayvan bilinci — insan dışına çıkan tartışma
+
+Bilinç araştırması artık insanla sınırlı değil.
+
+Bugün ele aldığımız [New York Hayvan Bilinci Bildirisi](/haber/hayvan-bilinci-new-york-bildirisi), kuşlarda ve memelilerde bilincin güçlü bilimsel desteği olduğunu; bütün omurgalılarda ve **böcekler dahil** birçok omurgasızda "gerçekçi bir ihtimal" bulunduğunu ilan etti.
+
+Buradaki felsefi soru sade ve zor: **Bilinç için ne kadar beyin gerekir?**
+
+Ve ardından gelen: **Bir canlı acı çekebiliyorsa, ona karşı yükümlülüğümüz nedir?**
+
+Kasımda Duke'ta toplanacak *Philosophy of Animal Welfare* konferansının doğrudan bu soruya odaklanması, tartışmanın bildiriden **ölçüm ve politika** aşamasına geçtiğini gösteriyor.
+
+## 4. Yapay zekâ ve epistemoloji — en az fark edilen cephe
+
+Belki de listenin en önemli ama en az konuşulan başlığı.
+
+Artık bir arama motoruna sormuyoruz. **Makineye soruyoruz.**
+
+Klasik epistemoloji sorusu — "bilgiyi nasıl biliyoruz" — yerini şuna bırakıyor:
+
+**Bir makinenin verdiği cevabın bilgi olduğunu nasıl anlayacağız?**
+
+Bu, teknik bir sorun değil. Tanıklığa dayalı bilginin (testimony) yüzyıllardır tartışılan koşulları — kaynağın güvenilirliği, hesap verebilirliği, hata durumunda düzeltilebilirliği — makineler için nasıl kurulacak?
+
+Bu hafta ele aldığımız [Teo Grünberg Ödülü](/haber/teo-grunberg-mantik-odulu) tam bu kesişimde bir çalışmayı ödüllendirdi: Bir sistemin **kendi bilmediğini** hangi mantıkla ifade edebileceği sorusu.
+
+Parlamentolara sunulan yapay zekâ üretimi sahte kaynakların ve uydurma akademik atıfların ortaya çıkması ise meselenin artık kuramsal olmadığını gösteriyor.
+
+## 5. Yapay zekâ ve demokrasi — yeni bir siyaset felsefesi
+
+Doğmakta olan alt-alan: **algoritmik demokrasi felsefesi**.
+
+Sorular somut: Algoritmalar seçmen davranışını etkileyebilir mi? Deepfake gerçeklik duygusunu aşındırır mı? Demokratik kararları algoritmalara bırakabilir miyiz?
+
+Ama daha derin bir soru var ve bu hafta iki ayrı yerden karşımıza çıktı.
+
+[Rob Gallagher'ın çalışması](/haber/otonomi-otomasyon-gallagher-dijital-gelecek), dijital gelecek tasavvurlarının demokratik siyaseti **sistematik olarak** kenara ittiğini savunuyor — bazen açıkça demokrasi-sonrası gelecekler önererek.
+
+Bugün ele aldığımız [Jill Lepore'un yeni kitabı](/haber/2026-felsefe-kitaplari-secki) buna bir ad koyuyor: **Yapay Devlet**. Ve mekanizmayı tarif ediyor: İktidar, makinelerin insanların bilemeyeceğini bildiği söylenerek — yani **mistifikasyonla** — sürdürülüyor.
+
+Carissa Véliz'in *Prophecy*'si aynı noktaya başka yönden geliyor: Tahminin asıl vaadi geleceği bilmek değil, **başkaları üzerinde iktidar kurmaktır**.
+
+## 6. İklim felsefesi
+
+İklim değişikliği artık yalnızca çevre etiğinin konusu değil.
+
+Sorular metafiziğe ve siyaset felsefesine taşınıyor: Gelecek kuşaklara karşı borcumuz nedir? Henüz doğmamış insanların hakları olabilir mi? Bir ülkenin tarihsel karbon borcu nasıl hesaplanır?
+
+Bu son soru özellikle çetin. Sitemizde bu hafta ele aldığımız [Philosopher's Annual seçkisinde](/haber/philosophers-annual-2025-secki) yer alan Evan Behrle'in "hak ediş ve ekonomik karşılıklı bağımlılık" makalesi, aynı problem ailesinden: Bir katkının büyüklüğü başkalarının **birlikte** yaptıklarına bağlıysa, sorumluluk nasıl paylaştırılır?
+
+## 7. Posthümanizm
+
+İnsan artık felsefenin tartışılmaz merkezi değil.
+
+Soru şuna dönüşüyor: *"İnsan nedir?"* yerine **"İnsan dışındaki varlıklarla aynı dünyanın içinde nasıl yaşamalıyız?"**
+
+Ama burada bir uyarı gerekiyor — ve Gallagher'ın çalışması bunu iyi kuruyor: İnsanın sınırlarının bulanıklaşması, otomatik olarak makinelere yetki devretmeyi haklı çıkarmaz. Failliğin dağıldığı bir dünyada, **sorumluluğun nasıl dağıtılacağı** daha da acil bir soru hâline gelir.
+
+## 8. Yeni metafizik
+
+Bir dönem "metafizik öldü" deniyordu. Bugün yeniden güçleniyor.
+
+Canlı alt-alanlar: spekülatif realizm, yeni materyalizm, panpsişizm, süreç felsefesi, zaman metafiziği, kipsel metafizik, bilinç metafiziği.
+
+Bu hafta izlediğimiz üç ayrı olay bunu doğruluyor: [Kit Fine'ın öz kavramıyla aldığı ödül](/haber/kit-fine-rescher-odulu-metafizik), [Bologna'daki matematik felsefesi konferansının "matematiksel nesnelerin doğası var mıdır" sorusu](/haber/filmat-2026-bologna-matematik-felsefesi), ve [Arda Denkel'in nesne-özellik kuramının](/haber/arda-denkel-nesne-ozellik-tikelcilik) hâlâ tartışılıyor olması.
+
+Kasımda İstanbul'da toplanacak [Reichenbach Kongresi'nin](/haber/reichenbach-kongresi-istanbul-2026) konu listesinde metafiziğin yer alması da anlamlı: Mantıkçı deneyciliğin metafiziği reddettiği düşünüldüğünde, bu bir dönüşün işareti.
+
+---
+
+## Büyük resim: üç soru
+
+Sekiz başlık, üç soruya bağlanıyor.
+
+**1. Zihin nedir?**
+Yapay zekâ, bilinç, hayvan zihinleri, hafıza. Bu hafta ele aldığımız [Lebowitz Ödülü](/haber/lebowitz-odulu-2026-de-brigard-robins) — hatırlamak hayal etmenin bir türü müdür — bu sorunun bir alt dalı.
+
+**2. Gerçeklik nedir?**
+Bilinç, fizik, metafizik, sanal dünyalar. Chalmers'ın *Reality+*'ı ile FilMat'ın ontoloji başlığı aynı soruya bakıyor.
+
+**3. Birlikte nasıl yaşayacağız?**
+Demokrasi, iklim, hayvanlar, teknoloji, adalet. Butler'dan Lepore'a, Singer'dan New York Bildirisi'ne uzanan hat.
+
+## Paradoks
+
+Buradaki asıl gözlem şu: **Teknoloji ilerledikçe felsefe daha da önemli hâle geliyor.**
+
+Bu sezgiye aykırı görünebilir. Teknik sorunlar arttıkça teknik yanıtlar gerekir; felsefe geride kalır.
+
+Ama olan bu değil. Çünkü teknoloji bize **ne yapabileceğimizi** söylüyor — ve bu bilgi arttıkça, cevaplanmamış soru daha görünür hâle geliyor:
+
+**Yapabiliyor olmamız, yapmamız gerektiği anlamına gelir mi?**
+
+Bu köşede bugün andığımız [Ivan Illich'in "karşı-üretkenlik"](/haber/felsefe-tarihinde-bugun-4-eylul-illich-schweitzer) kavramı, o soruyu elli yıl önce sormuştu: Her kurum ve teknoloji, belli bir eşiği aştığında kendi amacının tersini üretmeye başlar.
+
+O eşiğin nerede olduğunu ölçmek mühendisliğin işi değil.
+
+---
+
+## Türkiye açısından
+
+Bu sekiz başlıktan kaçında Türkiye'de canlı bir tartışma var?
+
+Yapay zekâ etiği, evet — ama ağırlıklı olarak hukuki ve düzenleyici düzlemde. Mantık ve bilim felsefesi, evet — Reichenbach'tan Grünberg'e uzanan bir hat var. Metafizik, kısmen.
+
+Yapay bilinç, hayvan bilinci, algoritmik demokrasi ve iklim felsefesi ise büyük ölçüde boş.
+
+Bu boşluk bir eksiklik olduğu kadar bir imkân: Bu alanlarda henüz kurulmuş bir literatür yok. Türkiye'den çıkacak ilk ciddi çalışmalar, kurucu çalışmalar olur.
+
+---
+
+*Bu köşede her hafta, felsefenin gündemini takip etmeye devam ediyoruz.*`,
+  },
+  {
     title: "Sis: Makine bilinçli mi? Uzmanlar bilmiyor, zamanında da bilemeyecek",
     slug: "yapay-zeka-bilinc-schwitzgebel-sis",
     summary:
@@ -14245,6 +15618,54 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "A World Appears: A Journey into Consciousness",
+    slug: "pollan-a-world-appears",
+    originalTitle: null,
+    publisher: "Penguin Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781984881991",
+    coverImage: null,
+    description:
+      "Michael Pollan'ın onuncu kitabı, bilinci bilimsel, felsefi, edebî, manevi ve psikedelik perspektiflerden aynı anda soruyor. Bitkilerde bilincin ilk kıvılcımını arayan araştırmacılardan yapay zekâya duygu mühendisliği yapmaya çalışan bilim insanlarına uzanan bir keşif anlatısı.",
+    year: 2026,
+    link: "https://www.penguinrandomhouse.com/books/646644/a-world-appears-by-michael-pollan/",
+    philosopherSlug: null,
+    postSlug: "2026-felsefe-kitaplari-secki",
+  },
+  {
+    title: "Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI",
+    slug: "veliz-prophecy",
+    originalTitle: null,
+    publisher: "Doubleday",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780385550970",
+    coverImage: null,
+    description:
+      "Oxford'dan Carissa Véliz, tahmin meselesini Antik Yunan kehanetlerinden algoritmalara izliyor. Ana tez: Tahminin asıl vaadi geleceği bilmek değil, başkaları üzerinde iktidar kurmaktır. İnsanlar hakkındaki tahminler kendini gerçekleştirme eğilimindedir.",
+    year: 2026,
+    link: "https://www.penguinrandomhouse.com/books/759692/prophecy-by-carissa-veliz/",
+    philosopherSlug: null,
+    postSlug: "2026-felsefe-kitaplari-secki",
+  },
+  {
+    title: "The Rise and Fall of the Artificial State",
+    slug: "lepore-artificial-state",
+    originalTitle: null,
+    publisher: "W. W. Norton",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9781324098423",
+    coverImage: null,
+    description:
+      "Jill Lepore, yapay zekâyı bir teknoloji olarak değil devlet ve demokrasi fikrini dönüştüren siyasal bir güç olarak ele alıyor. Kitabın kilit kavramı mistifikasyon: İktidar, makinelerin insanların bilemeyeceğini bildiği söylenerek sürdürülüyor.",
+    year: 2026,
+    link: "https://www.penguin.co.uk/books/483176/the-rise-and-fall-of-the-artificial-state-by-lepore-jill/9780241836552",
+    philosopherSlug: null,
+    postSlug: "2026-felsefe-kitaplari-secki",
+  },
+  {
     title: "Emerging Questions in AI Welfare",
     slug: "keeling-street-ai-welfare",
     originalTitle: null,
@@ -14687,6 +16108,68 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "Uluslararası Hans Reichenbach Kongresi: Reichenbach in İstanbul",
+    slug: "reichenbach-kongresi-istanbul",
+    summary:
+      "1933'te Nazi Almanyası'ndan kaçıp İstanbul Üniversitesi'ne gelen Hans Reichenbach'ın adına, aynı fakültede düzenlenen uluslararası kongre. Bildiri dilleri Türkçe ve İngilizce.",
+    description: `İstanbul Üniversitesi Felsefe Bölümü ve Mantık Araştırmaları Derneği (Türkiye) tarafından düzenleniyor.
+
+Hans Reichenbach, yirminci yüzyılın önde gelen filozoflarındandır; bilim felsefesi, fizik felsefesi, mantık, epistemoloji ve olasılık kuramına katkılarıyla çağdaş felsefi tartışmalarda kalıcı iz bırakmıştır. Düşüncesi yalnızca mantıkçı deneycilik geleneği içinde değil, bilimsel açıklama, nedensellik, zaman, mekân, görelilik kuramı ve bilginin yapısına ilişkin güncel tartışmalarda da önemini koruyor.
+
+Kongre, Reichenbach'ın felsefi mirasını hem tarihsel hem sistematik açıdan yeniden değerlendirmeyi ve katkılarının çağdaş felsefi problemler için taşıdığı anlamı araştırmayı amaçlıyor.
+
+Konu başlıkları: Reichenbach'ın felsefesi · Bilim felsefesi · Fizik felsefesi · Mantık · Epistemoloji · Olasılık kuramı · Nedensellik · Zaman ve mekân felsefesi · Görelilik kuramının felsefi temelleri · Metafizik · Bilim ve etik.
+
+Bildiri son başvuru tarihi 31 Ağustos 2026, kabul bildirimi 7 Eylül 2026. Konaklama ve ulaşım katılımcılara ait.`,
+    kind: "KONFERANS",
+    organizer: "İstanbul Üniversitesi Felsefe Bölümü · Mantık Araştırmaları Derneği",
+    topic: "Bilim felsefesi, mantık, epistemoloji",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-05T06:00:00.000Z",
+    endsAt: "2026-11-06T15:00:00.000Z",
+    timezone: "Europe/Istanbul",
+    hasTime: false,
+    city: "İstanbul",
+    country: "Türkiye",
+    venue: "İstanbul Üniversitesi Edebiyat Fakültesi, Genel Kurul Salonu",
+    website: "https://logic.tr/2026/06/19/international-congress-on-hans-reichenbach-5-6-november-2026-reichenbach-in-istanbul/",
+    sourceName: "Association for Research in Logic (Türkiye)",
+    sourceUrl: "https://logic.tr/2026/06/19/international-congress-on-hans-reichenbach-5-6-november-2026-reichenbach-in-istanbul/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/H_Reichenbach.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-09-04T05:00:00.000Z",
+  },
+  {
+    title: "Philosophy of Animal Welfare",
+    slug: "duke-hayvan-refahi-felsefesi-2026",
+    summary:
+      "Duke Üniversitesi'nde hayvan refahının doğası, ölçümü ve ahlaki önemi üzerine iki günlük konferans. Duke Hukuk, İktisat ve Kamu Politikası Merkezi ile NYU Zihin, Etik ve Politika Merkezi ortak düzenliyor.",
+    description: `Konferans, hayvan refahının doğası, ölçümü ve ahlaki önemine odaklanıyor.
+
+Çağrı metnindeki başlıca sorular: Hangi hayvanlar refah öznesidir? İnsan olmayan hayvanlar için doğru iyi olma kuramı hangisidir? Aynı kuram hem insanlara hem insan olmayanlara uygulanabilir mi? Hayvan refahı nasıl ölçülmelidir?
+
+Toplantı, 2024'te yayımlanan New York Hayvan Bilinci Bildirisi'nin açtığı tartışmanın devamı olarak okunabilir: Bildiri hangi canlıların bilinçli olabileceğini ele alıyordu; bu konferans, bilinçli varsayılan canlılar için "iyi olan"ın ne olduğunu soruyor.
+
+Ortak düzenleyici NYU Zihin, Etik ve Politika Merkezi, aynı zamanda yapay zekâ refahı çalışmalarının merkezlerinden biri.`,
+    kind: "KONFERANS",
+    organizer: "Duke Center for Law, Economics and Public Policy · NYU Center for Mind, Ethics, and Policy",
+    topic: "Hayvan refahı, bilinç ve ahlaki statü",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-20T14:00:00.000Z",
+    endsAt: "2026-11-21T22:00:00.000Z",
+    timezone: "America/New_York",
+    hasTime: false,
+    city: "Durham, NC",
+    country: "ABD",
+    venue: "Duke University School of Law",
+    website: "https://law.duke.edu/laweconomicsandpublicpolicy/conferences/animalphilosophy26",
+    sourceName: "Duke University School of Law",
+    sourceUrl: "https://law.duke.edu/laweconomicsandpublicpolicy/conferences/animalphilosophy26",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pulpo%20com%C3%BAn%20(Octopus%20vulgaris)%2C%20Parque%20natural%20de%20la%20Arr%C3%A1bida%2C%20Portugal%2C%202020-07-21%2C%20DD%2046.jpg?width=1600",
+    featured: false,
+    publishedAt: "2026-09-04T05:20:00.000Z",
+  },
   {
     title: "Arendt/Schürmann Sempozyumu: Stanley Cavell",
     slug: "cavell-sempozyumu-new-school",
