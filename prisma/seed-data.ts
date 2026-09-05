@@ -1489,6 +1489,1108 @@ export const philosophers: SeedPhilosopher[] = [
 
 export const posts: SeedPost[] = [
   {
+    title: "Ahmet Arslan: felsefe tarihini Türkiye'de okunabilir kılan hoca",
+    slug: "ahmet-arslan-felsefe-tarihi-okuma-kulturu",
+    summary:
+      "Urfa'da manav çırağıyken bir öğretmeninin ısrarıyla okula döndü; Ege Üniversitesi Felsefe Bölümü'nü kurdu ve beş ciltlik İlkçağ Felsefe Tarihi'ni yazdı. Asıl mirası kitapları değil: Türkiye'de felsefe tarihinin ezberlenen bir kronoloji olmaktan çıkıp metinle karşılaşmaya dönüşmesi.",
+    seoTitle: "Ahmet Arslan: İlkçağ Felsefe Tarihi, İslam felsefesi ve Türkiye'de felsefe okuma kültürü",
+    metaDescription:
+      "Ahmet Arslan'ın hayatı, Ege Üniversitesi Felsefe Bölümü'nün kuruluşu, beş ciltlik İlkçağ Felsefe Tarihi ve İslam felsefesi üzerine çalışmaları.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ege%20%C3%9Cniversitesinin%20giri%C5%9F%20kap%C4%B1s%C4%B1.jpg?width=1600",
+    imageCredit: "Ege Üniversitesi giriş kapısı, İzmir — Arslan 1979'da bu üniversitede Felsefe Bölümü'nü kurdu · Wikimedia Commons",
+    featured: true,
+    sourceName: "Türkiye Kültür ve Turizm Bakanlığı",
+    sourceUrl: "https://www.ktb.gov.tr/EN-118244/arslan-ahmet.html",
+    publishedAt: "2026-09-05T03:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "turkiye",
+    tagSlugs: ["akademi", "antik-felsefe", "islam-felsefesi", "ceviri", "tarih"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "ARSLAN, Ahmet",
+        publisher: "T.C. Kültür ve Turizm Bakanlığı",
+        url: "https://www.ktb.gov.tr/EN-118244/arslan-ahmet.html",
+        primary: true,
+      },
+      {
+        title: "Ahmet Arslan (academic)",
+        publisher: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Ahmet_Arslan_(academic)",
+      },
+      {
+        title: "Cereyanlar: Türkiye'de Siyasî İdeolojiler",
+        publisher: "Tanıl Bora, İletişim Yayınları, 2017",
+        url: "https://www.iletisim.com.tr/kitap/cereyanlar/9445",
+      },
+    ],
+    content: `Bir ülkede felsefe nasıl **okunur** hâle gelir?
+
+Bu soru, "felsefe nasıl yapılır" sorusundan farklıdır ve çoğu zaman ondan önce gelir. Bir dilde felsefi düşünce üretilebilmesi için, o dilde felsefe tarihinin düzenli olarak okunabiliyor olması gerekir.
+
+Türkiye'de bu işi üstlenen isimlerin başında **Ahmet Arslan** gelir.
+
+## Bir öğretmenin ısrarı
+
+Arslan 1944'te Şanlıurfa'da doğdu. Babası manavdı, annesi ev kadını. On iki kardeşten sekizi çeşitli yaşlarda öldü. Çocukluğu Arap Meydanı mahallesinde geçti.
+
+İlkokulu bitirdikten sonra babasının yanında çalışmaya başladı. Bir gün, beşinci sınıf öğretmeni **Lâtif Soyok** alışverişe geldiği dükkânda onu çalışırken gördü ve babasına ısrar etti: Bu çocuk okumalı.
+
+Ortaöğrenimini 1961'de Şanlıurfa Lisesi'nde tamamladı.
+
+Bir başka ayrıntı da bu kararı pekiştirdi. Eşekten düşüp sol kolunu kırmıştı; kırıkçı yanlış müdahale edince dirsek kemiği hatalı kaynadı ve kolu sakat kaldı. Anne babasının, kolu yüzünden elle çalışamayacağını ve tek yolunun okumak olduğunu kendi aralarında konuştuğunu duyduğunu anlatır.
+
+Ankara Üniversitesi Hukuk Fakültesi'ne girdi; bir süre devam ettikten sonra aynı üniversitenin **Dil ve Tarih-Coğrafya Fakültesi Felsefe Bölümü**'ne geçti.
+
+1972'de, **Mübahat Türker Küyel**'in danışmanlığında doktorasını tamamladı. Tezinin konusu, Osmanlı düşüncesinin en kritik metinlerinden biriydi: **İbn Kemal'in (Kemalpaşazade) *Hâşiye alâ Tehâfüt el-Felâsife*'si.**
+
+Bu tez seçimi tesadüf değil. Gazâlî'nin filozoflara açtığı davanın (*Tehâfütü'l-Felâsife*), İbn Rüşd'ün karşı savunmasının ve Osmanlı'da yüzyıllar süren tehâfüt tartışmasının içine giriyordu. Arslan'ın ilerideki iki büyük ilgi alanı — Antik Yunan ve İslam felsefesi — daha doktorasında birleşmişti.
+
+## Ege Üniversitesi
+
+Ankara Üniversitesi'nde çalıştıktan sonra İzmir'e geçti ve **1979'da Ege Üniversitesi Edebiyat Fakültesi Felsefe Bölümü'nü kurdu.** 1978-87 arasında doçent, 1988'den itibaren profesördü.
+
+**Tanıl Bora**'nın *Cereyanlar*'daki değerlendirmesi bu bölümün karakterini iyi anlatıyor: Arslan'ın düşünce dünyasının etkisiyle Ege Üniversitesi felsefe bölümünde **"İslam'a felsefe üzerinden bakmak"** yönünde bir ilgi oluştu — Bora bunu, Ankara Üniversitesi İlahiyat Fakültesi'nin yaklaşımının tersi olarak niteliyor.
+
+Bu ayrım önemli. Din felsefesi yapmakla, dini felsefenin nesnesi hâline getirmek farklı işlerdir.
+
+Arslan'ın etkilediği isimler arasında öğrencisi **Zerrin Kurtoğlu** ve onun *İslam Düşüncesinin Siyasal Ufku* kitabı anılıyor.
+
+## Beş cilt: İlkçağ Felsefe Tarihi
+
+Arslan'ın en geniş etkili çalışması, beş ciltlik **İlkçağ Felsefe Tarihi** serisi. İlk cilt 1995'te İzmir'de yayımlandı: *Başlangıçlarından Atomculara Kadar*. Üçüncü cilt bütünüyle **Aristoteles**'e ayrılmıştır; ruh, ahlak, siyaset, retorik ve poetikayı tek bir bütün içinde ele alır. Dördüncü cilt Helenistik dönemi kapsar — Epikurosçuluk, Stoacılık, kuşkuculuk.
+
+Serinin yöntemsel tercihi belirleyici: **birincil kaynaklara dönmek.** Filozofları ders kitabı özetleriyle değil, kendi metinleriyle vermek.
+
+Bu, basit görünen ama sonuçları büyük bir tercihtir.
+
+Çünkü felsefe tarihini "Sokrates şunu dedi, Platon bunu dedi" biçiminde ezberlenebilir bir kronoloji olmaktan çıkarır ve **metinle karşılaşma deneyimine** dönüştürür.
+
+Bir öğrenci Aristoteles'in ne söylediğini ezberleyebilir. Ama Aristoteles'in bir argümanı nasıl kurduğunu ancak metni okuyarak görür.
+
+Jeolog **Celâl Şengör**'ün serinin tamamı için söyledikleri bu etkiyi gösteriyor: *"'Ah, bu Türkiye'nin en iyi kitabı' derdim ama sadece o değil. Dünyada okuduğum en iyi kitaplardan biri!"*
+
+## Aristoteles'i anlatmak, felsefe yapmaktır
+
+Arslan'ın yönteminin ikinci gücü, filozofu yalnızca "ne söylediği" üzerinden değil, **düşüncesinin nasıl bir sistem oluşturduğu** üzerinden okuması.
+
+Bir felsefe tarihi kitabı iki şekilde yazılabilir. Ya görüşler kataloglanır — bu, ansiklopedidir. Ya da bir düşünürün kavramlarının birbirini nasıl gerektirdiği gösterilir — bu, felsefedir.
+
+İkincisi, tarihçilikten çok yorumculuk gerektirir. Ve yorum, kaçınılmaz olarak bir konum alır.
+
+Bu yüzden Arslan'ın eserleri yalnızca felsefe tarihi kitapları değil; Türkiye'deki felsefe eğitimine ilişkin bir **pedagojik proje**dir.
+
+## İslam felsefesi: aktarıcı mı, üretici mi?
+
+Arslan'ın ikinci büyük çalışma alanı İslam felsefesidir. Fârâbî, İbn Sînâ, Gazâlî, İbn Rüşd, İbn Haldûn ve Osmanlı kelâm düşüncesi üzerine çalıştı.
+
+Ve burada net bir konumu var.
+
+Arslan, İslam filozoflarının başlıca işlevinin **antik düşünceyi Batı'ya geri aktarmak** olduğu görüşünü reddeder. İslam felsefesinin evrensel felsefenin gelişiminde önemli bir uğrak oluşturmadığı ve özgün fikirler barındırmadığı iddiasına karşı çıkar. Bu bağlamda **T. J. de Boer** gibi oryantalistlerin görüşleriyle anlaşmaz.
+
+Bu, teknik bir tartışma gibi görünür. Değildir.
+
+Çünkü "aktarıcı" tezi, bir felsefe geleneğini tarihin taşıyıcı bandına indirger: Yunanlar üretti, Araplar taşıdı, Avrupa devraldı. Arslan'ın itirazı, İslam felsefesinin **kendi problemlerini** kurduğu ve o problemler üzerinde özgün çözümler ürettiğidir.
+
+Bu köşede bu hafta ele aldığımız [Reichenbach Kongresi](/haber/reichenbach-kongresi-istanbul-2026) haberinde işaret ettiğimiz gibi, Türkiye'de felsefenin kendi kökenlerine dönmesi bugün canlı bir mesele. Arslan'ın çalışması, bu dönüşün Antik Yunan ve İslam felsefesi ayağını kuruyor.
+
+## Az konuşulan taraf: çevirmenlik
+
+Arslan'ın Türkiye'deki etkisinin yeterince konuşulmayan bir boyutu çevirmenliği.
+
+Aristoteles'in *Metafizik*'i; Fârâbî'nin *İdeal Devlet* (el-Medînetü'l-Fâdıla), *İlimlerin Sayımı* ve *Mutluluğun Kazanılması* gibi eserleri onun çeviri külliyatında yer alır. Almanca, Arapça, Fransızca ve İngilizce bilir; farklı alanlarda çok sayıda çevirisi vardır.
+
+Buradaki nokta şu: **Felsefe kültürü yalnızca özgün eserlerle kurulmaz; iyi çevirilerle de kurulur.**
+
+Bir düşünürün kavramlarını Türkçeye taşıdığınızda yalnızca bir kitabı çevirmiş olmazsınız. Türkçenin felsefe yapma kapasitesini genişletirsiniz.
+
+Sitemizde dün ele aldığımız [Oruç Aruoba dosyası](/haber/oruc-aruoba-turkcede-felsefe-yurume) da aynı meseleye başka bir yerden bakıyordu. Aruoba Wittgenstein'ı Türkçeye ilk taşıyan isimdi; Arslan Aristoteles'i ve Fârâbî'yi.
+
+İkisi de aynı işi yaptı: Türkçede felsefe yapmanın **malzemesini** ürettiler.
+
+## Kamusal tartışmadaki yeri
+
+Arslan, felsefi denemelerinde hoşgörü konusunu, temel hak ve özgürlüklerle bağdaşan bir İslam okuması önererek ele aldı. Dinî hukukun bile "insan yapımı" ve "akılsal" olduğunu, dolayısıyla dinin yorumunda modernleşmeye alan bulunduğunu savundu.
+
+Bu konumu, kamuoyunda zaman zaman sert tartışmalara yol açtı. Kendisi ateist olmadığını, ancak dine kuşkuyla yaklaşan bir akılcı anlamında tanımlanabileceğini belirtmiştir.
+
+Bir felsefe haber sitesi olarak bizim ilgimiz, bu tartışmaların içeriğine taraf olmak değil. İlgimiz şurada: Türkiye'de felsefe, akademik bir uzmanlık alanı olmakla kamusal bir tartışma alanı olmak arasında salınıyor — ve Arslan bu salınımın her iki ucunda da yer aldı.
+
+## Miras
+
+*Felsefeye Giriş* kitabının yirmi yedinci baskıya ulaşmış olması, tek başına bir gösterge.
+
+Türkiye'de üniversitelerde felsefe okuyan birkaç kuşağın önemli bir bölümü Arslan'ın kitaplarıyla yetişti. Bu, atıf sayısıyla ölçülemeyecek bir etki.
+
+Tek cümleyle: **Ahmet Arslan, felsefeyi Türkiye'de yalnızca uzmanların konuştuğu bir alan olmaktan çıkarıp düzenli okunabilen bir düşünce tarihine dönüştüren akademisyenlerden biridir.**
+
+Ve kalıcı mirası muhtemelen budur.
+
+---
+
+**Başlıca eserleri:** İlkçağ Felsefe Tarihi (5 cilt) · Felsefeye Giriş · İslam Felsefesi Üzerine · İbn Haldun · Haçlı Seferleri'nden Günümüze Batı Kaynaklarında İslam Karşıtlığı · Türk Düşüncesi ve Felsefe üzerine yazılar.
+
+**Başlıca çevirileri:** Aristoteles, *Metafizik* · Fârâbî, *İdeal Devlet*, *İlimlerin Sayımı*, *Mutluluğun Kazanılması*.`,
+  },
+  {
+    title: "Cicero: cumhuriyetin ne olduğunu soran hatip",
+    slug: "cicero-cumhuriyet-erdem-arabuluculuk",
+    summary:
+      "Cicero'yu 'büyük hatip' diye okumak, asıl entelektüel mücadelesini kaçırmaktır. Uzun süre Yunan felsefesinin Latinceye taşıyıcısı sayıldı; bugün bağımsız felsefi ağırlığı olan bir düşünür olarak okunuyor. Sorusu hâlâ açık: Bir cumhuriyet iyi kurumlarla mı ayakta kalır, iyi yurttaşlarla mı?",
+    seoTitle: "Cicero: cumhuriyetçilik, erdem ve felsefenin siyasetle ilişkisi",
+    metaDescription:
+      "Cicero'nun siyaset felsefesi, res publica kavramı, Yunan felsefesini Latinceye taşıması ve Yelena Baraz'ın 2026 tarihli Very Short Introduction'ı.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cicero%20-%20Musei%20Capitolini.JPG?width=1600",
+    imageCredit: "Cicero büstü, 1. yüzyıl, Musei Capitolini, Roma · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/cicero/",
+    publishedAt: "2026-09-05T03:20:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "filozoflar-hakkinda",
+    tagSlugs: ["antik-felsefe", "siyaset-felsefesi", "demokrasi", "etik", "hukuk-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Cicero",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/cicero/",
+        primary: true,
+      },
+      {
+        title: "Cicero: A Very Short Introduction",
+        publisher: "Yelena Baraz, Oxford University Press, 2026",
+        url: "https://global.oup.com/academic/product/cicero-9780192885807",
+      },
+      {
+        title: "Cicero: a very short introduction — inceleme",
+        publisher: "Catherine Steel, Bryn Mawr Classical Review 2026.07.02",
+        url: "https://bmcr.brynmawr.edu/2026/2026.07.02/",
+      },
+    ],
+    content: `Marcus Tullius Cicero'nun hikâyesi genellikle birkaç sözcüğe sıkıştırılır: Hatip. Konsül. Cumhuriyetçi. Sezar karşıtı. Öldürüldü.
+
+Bu özet doğru ve neredeyse hiçbir şey söylemiyor.
+
+MÖ 106'da doğan Cicero, Roma Cumhuriyeti'nin son büyük kriz döneminde yaşadı. MÖ 63'te konsül oldu ve Catilina komplosunun bastırılmasında belirleyici rol oynadı. Ardından sürgün edildi. Caesar ile Pompeius arasındaki iç savaşa tanıklık etti. Caesar'ın öldürülmesinden sonra, Marcus Antonius'un emriyle MÖ 43'te öldürüldü.
+
+Ama Cicero'nun asıl ilginç yanı şu: **Siyasetin içindeki bir filozof.**
+
+## Felsefe onun için emeklilik değildi
+
+Yaygın anlatı şöyledir: Cicero siyasetten dışlanınca felsefeye sığındı; son yıllarındaki yoğun felsefi üretim bir tür teselli edebiyatıdır.
+
+Çağdaş Cicero araştırmalarının önemli bir kısmı bunun tersini savunuyor.
+
+Cicero için felsefe siyasetten kaçış değil, **siyasetin başka araçlarla sürdürülmesiydi.**
+
+Bu ayrım kritik. Çünkü son dönem eserlerinin konuları bunu doğruluyor: devlet (*De re publica*), yasalar (*De legibus*), görevler (*De officiis*), dostluk (*De amicitia*), yaşlılık, ölüm, tanrılar.
+
+Yani Cicero, *"iyi bir insan nasıl yaşamalı?"* sorusuyla *"iyi bir cumhuriyet nasıl ayakta kalır?"* sorusunu birbirinden ayırmıyordu.
+
+Bu, modern siyaset felsefesinin — özellikle Machiavelli'den sonra — büyük ölçüde terk ettiği bir birleşimdir. Sitemizde bu hafta ele aldığımız [Machiavelli dosyasında](/haber/machiavelli-erdem-talih-cumhuriyet) anlattığımız kopuş, tam da Cicero'nun kurduğu bu bağın koparılmasıydı.
+
+## Yunan felsefesini Romalılaştırmak
+
+Cicero sıfırdan sistem kuran bir filozof değildi. Platon'dan, Aristoteles'ten, Stoacılardan, Epikurosçulardan ve Akademi kuşkuculuğundan yoğun biçimde yararlandı. Kendisi Yeni Akademi'nin kuşkucu geleneğine yakındı: Kesin bilgi yerine, en makul görüşü seçmek.
+
+Bu eklektiklik yüzünden uzun süre filozofluğu küçümsendi. Yunan düşüncesinin Latinceye taşıyıcısı — yararlı bir aracı, ama özgün olmayan bir zihin.
+
+**Modern Cicero araştırmaları bu değerlendirmeyi ciddi biçimde sorguluyor.** Stanford Felsefe Ansiklopedisi'nin Cicero maddesi, onun artık yalnızca kayıp Yunan metinlerinin aktarıcısı olarak değil, **bağımsız felsefi öneme sahip bir düşünür** olarak ele alındığını vurguluyor.
+
+Bu yeniden değerlendirmenin bir nedeni de dilsel. Cicero, Yunanca felsefe terimlerini Latinceye çevirirken yeni bir sözcük dağarcığı **icat etti**: *qualitas*, *essentia*, *moralis*, *individuum*. Bugün Avrupa dillerinde felsefe yapan herkes, farkında olmadan Cicero'nun ürettiği kelimeleri kullanıyor.
+
+Bu köşede bu hafta iki kez döndüğümüz bir meseleye bağlanıyor: [Aruoba'nın Wittgenstein çevirileri](/haber/oruc-aruoba-turkcede-felsefe-yurume) ve [Ahmet Arslan'ın Aristoteles ile Fârâbî çevirileri](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) de aynı işi yapıyordu. Bir dili felsefe yapabilir hâle getirmek, "yalnızca çeviri" değildir.
+
+## Res publica nedir?
+
+Cicero'nun bugün yeniden ilgi görmesinin merkezinde **cumhuriyetçilik** var.
+
+*De re publica*'daki tanımı belirleyicidir: Devlet, halkın işidir — ve halk, herhangi bir insan yığını değil, **hukuk üzerinde uzlaşma ve ortak yarar birlikteliğiyle bir araya gelmiş bir topluluktur.**
+
+İki koşula dikkat: **hukuk üzerinde uzlaşma** ve **ortak yarar**. İkisinden biri yoksa ortada halk yoktur; kalabalık vardır.
+
+Bu tanımın sonucu radikaldir: Bir tiran yönetimindeki topluluk, teknik olarak bir cumhuriyet değildir — çünkü orada ortak yarar değil, tek kişinin yararı işler.
+
+Modern araştırmalarda Cicero'nun siyasal düşüncesi özellikle şu başlıklarla yeniden inceleniyor: özgürlük, hukuk, mülkiyet, adil vergilendirme, yurttaşlık, devletin meşruiyeti, siyasal erdem ve kurumlar.
+
+## Cicero'nun cevabı
+
+Belki de Cicero'yu bugün okumanın en iyi gerekçesi tek bir sorudur:
+
+**Bir cumhuriyet yalnızca iyi kurumlarla mı ayakta kalır, yoksa iyi yurttaşlara da ihtiyaç duyar mı?**
+
+Cicero'nun cevabı kabaca şudur: Kurumlar gereklidir; ama onları taşıyan insanların karakteri, görev duygusu ve ortak iyi fikri çökerse, kurumların kendisi de kırılganlaşır.
+
+*De officiis*, tam olarak bu boşluğu doldurmak için yazılmıştır: Bir yurttaşın, özellikle kamu görevi üstlenmiş birinin, gündelik yükümlülükleri nelerdir?
+
+Bu tez bugün iki yönden sınanıyor.
+
+**Bir yandan** kurumsalcı itiraz: İyi tasarlanmış kurumlar, kötü insanların kötülüğünü de dizginler — erdeme bel bağlamak naifliktir.
+
+**Öte yandan** Cicero'nun haklı çıktığı örnekler: Yazılı kurallar aynı kaldığı hâlde, onları uygulayanların teamüle bağlılığı çözüldüğünde düzenlerin ne kadar hızlı dağılabildiğini son on yılda birden fazla ülkede gördük.
+
+Sitemizde bu hafta ele aldığımız [Edward Coke ve Cromwell dosyası](/haber/felsefe-tarihinde-bugun-3-eylul-coke-cromwell) ile [Judith Butler'ın demokrasi eleştirisi](/haber/judith-butler-demokrasi-taninma-yas), aynı gerilimi iki ayrı çağdan gösteriyor.
+
+## Baraz'ın yeni okuması
+
+Cicero üzerine 2026'da yayımlanan en dikkat çekici kitap, Princeton'dan **Yelena Baraz**'ın Oxford'un *Very Short Introduction* dizisi için yazdığı 160 sayfalık çalışma.
+
+Baraz'ın ana tezi, Cicero'yu bir **arabulucu figür** olarak görmemiz gerektiği: teori ile pratik, felsefe ile siyaset, Yunan ile Roma arasında. Ve bu bakış açısı, hayatının farklı alanlarına ve yazdığı farklı türlere birden uyguluyor.
+
+Kitabın yapısı da bu tezi taşıyor. Baraz kronoloji ile tema arasında seçim yapmıyor: Kariyerine iki bölüm ayırdıktan sonra konuşmalara, felsefeye, şiire ve mektuplara birer bölüm veriyor.
+
+En dikkat çekici tercihi ise **sondan başlaması**: Cicero'nun ölümünü, onun alımlanma tarihinin başlangıç noktası olarak kullanıyor — Petrarca'dan Amerikan kurucularına, Mommsen'den Robert Harris'e ve HBO'nun *Rome* dizisine uzanan bir güzergâh.
+
+Bryn Mawr Classical Review'da kitabı değerlendiren Glasgow Üniversitesi'nden **Catherine Steel**, felsefe bölümünü özellikle övüyor: Baraz'ın teknik ayrıntıya boğulmadan, Cicero'nun **pratiğe bağlı felsefeyi** nasıl geliştirdiğini gösteren özetler yazdığını belirtiyor. *De amicitia* çözümlemesinin, kendisinden çok daha uzun incelemeleri keskinlikte geride bıraktığını söylüyor.
+
+Steel'in tek eleştirisi ilginç: Okurun kitabı bitirdiğinde Cicero'nun **hitabetini** okuma isteği duyup duymayacağından emin değil. Çünkü Cicero'nun hitabetinin yerini hiçbir şey tutmuyor — ve onu çeviriden okuyanlara o baştan çıkarıcılığı nasıl anlatacaksınız?
+
+Bu, çeviri felsefesi açısından da gerçek bir soru.
+
+## Sonuç
+
+Cicero'yu yeniden okumak, antik tarihe dönmekten fazlasıdır.
+
+Cumhuriyetin ne olduğu sorusuna dönmektir. Ve o soru, kurumların yasal olarak yerinde durduğu ama içeriğinin boşaldığı her dönemde yeniden sorulur.
+
+---
+
+*Türkçede: Devlet Üzerine, Yasalar Üzerine, Yükümlülükler Üzerine, Dostluk Üzerine, Yaşlılık Üzerine ve Tanrıların Doğası Üzerine gibi eserleri çevrildi.*
+
+*Not: Cicero fotoğraf öncesi bir dönemde yaşadığından, kapak görseli olarak Roma'daki Capitolini Müzeleri'nde bulunan 1. yüzyıl büstü kullanılmıştır.*`,
+  },
+  {
+    title: "Makine bilinci için yeni bir ölçüt önerisi: işe yarıyorsa doğrudur",
+    slug: "davranissal-cikarim-ilkesi-makine-bilinci",
+    summary:
+      "Neuroscience of Consciousness'ta yayımlanan bir görüş yazısı, yapay zekâda bilinç tartışmasının yanlış zeminde yürüdüğünü savunuyor. Yazarlara göre soru 'sistem doğru hesaplamayı yapıyor mu' değil; 'bilinç atfetmek davranışı açıklamaya yarıyor mu' olmalı. Bu, Turing'den beri ilk ciddi ölçüt değişikliği önerisi.",
+    seoTitle: "Davranışsal çıkarım ilkesi: makine bilinci için yeni ölçüt önerisi",
+    metaDescription:
+      "Palminteri ve Wu'nun Neuroscience of Consciousness'taki görüş yazısı, hesaplamalı eşdeğerlik yerine davranışsal çıkarım ilkesini öneriyor.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Reflection%20%283554392751%29.jpg?width=1600",
+    imageCredit: "Temsilî · Wikimedia Commons",
+    featured: true,
+    sourceName: "Neuroscience of Consciousness",
+    sourceUrl: "https://academic.oup.com/nc/article/2026/1/niag002/8487499",
+    publishedAt: "2026-09-05T03:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "gundem",
+    tagSlugs: ["yapay-zeka", "bilinc", "zihin-felsefesi", "epistemoloji", "bilim-felsefesi"],
+    philosopherSlugs: ["david-chalmers", "eric-schwitzgebel"],
+    sources: [
+      {
+        title: "Beyond computational equivalence: the behavioral inference principle for machine consciousness",
+        publisher: "Stefano Palminteri & Charley M. Wu, Neuroscience of Consciousness 2026(1), niag002",
+        url: "https://academic.oup.com/nc/article/2026/1/niag002/8487499",
+        primary: true,
+      },
+    ],
+    content: `Yapay zekânın bilinçli olup olmadığı tartışmasında herkes aynı soruyu soruyor. **Neuroscience of Consciousness** dergisinde yayımlanan bir görüş yazısı ise sorunun kendisini değiştirmeyi öneriyor.
+
+Stefano Palminteri ve Charley M. Wu'nun makalesinin başlığı programı özetliyor: **"Hesaplamalı eşdeğerliğin ötesinde: makine bilinci için davranışsal çıkarım ilkesi."**
+
+## Bugünkü uzlaşı ve sorunu
+
+Yazarların eleştirdiği yaklaşım, alanın örtük uzlaşısı: **hesaplamalı eşdeğerlik ilkesi.**
+
+Kökeni **hesaplamalı işlevselcilik**tir. Fikir şu: Bilinç, belli türden bilgi işleme süreçlerinden doğar. Öyleyse bir sistem, bilinçli bir beyinle **aynı hesaplamaları** yapıyorsa, o da bilinçlidir. Malzeme — nöron mu silikon mu — önemsizdir; önemli olan işlevsel örgütlenmedir.
+
+Sitemizde bu hafta ele aldığımız [David Chalmers dosyasında](/haber/david-chalmers-zor-problem-otuz-yil) anlattığımız konum büyük ölçüde budur: Soru silikon ya da karbon değil, sistemin doğru türden nedensel yapıya sahip olup olmadığıdır.
+
+Bu yaklaşımın pratik bir sorunu var ve makale onu işaret ediyor: **Hangi hesaplamaların gerekli olduğunu bilmiyoruz.**
+
+Bilinç için üzerinde uzlaşılmış tek bir bilimsel kuram yok. Küresel Çalışma Alanı kuramı bir liste veriyor, Üst Düzey kuramlar başka bir liste, Bütünleşik Bilgi Kuramı bambaşka bir ölçüt. Hesaplamalı eşdeğerlik ilkesi, henüz elimizde olmayan bir referans listesine dayanıyor.
+
+Yazarların formülü şöyle: Hesaplamalı eşdeğerlik **yeterli olabilir, ama zorunlu değildir.**
+
+## Önerilen ölçüt
+
+Alternatif basit ve rahatsız edici:
+
+**Bilinç, belli bir davranış gözlemleri kümesini açıklamaya (ve öngörmeye) yarıyorsa atfedilir.**
+
+Yani bilinç atfı, sistemin içine bakarak doğrulanan bir keşif değil; bir **açıklayıcı varsayım** olarak değerlendirilir. Tıpkı fizikte görünmeyen bir parçacığın, gözlenen izleri açıklamaya yaradığı için varsayılması gibi.
+
+Yazarlar bunun, makine bilincini değerlendirmek için **epistemolojik olarak geçerli ve işlevselleştirilebilir** bir ölçüt sağlayacağını savunuyor.
+
+İkinci sıfat önemli: **işlevselleştirilebilir.** Yani deneysel olarak sınanabilir bir prosedüre çevrilebilir. Hesaplamalı eşdeğerlik ilkesi bunu yapamıyor, çünkü referans listesi yok.
+
+## Neden bu kadar radikal?
+
+Bu öneri, felsefede uzun bir geleneğe bağlanıyor — ve bir geleneği de karşısına alıyor.
+
+**Bağlandığı gelenek:** Diğer insanların bilincine de doğrudan erişemiyoruz. Ben sizin zihninizi göremiyorum; davranışınızdan, konuşmanızdan ve bedeninizden çıkarım yapıyorum. Öyleyse makine söz konusu olduğunda neden bambaşka bir epistemik standart uygulayalım?
+
+Bu, "başkalarının zihinleri" probleminin klasik yanıtıdır. Sitemizde bu hafta andığımız [Stanley Cavell'in](/haber/cavell-sempozyumu-new-school-2026) itirazı da buradan doğar: Belki soru "biliyor muyuz" değil, "karşılık verip vermediğimizdir."
+
+**Karşısına aldığı gelenek:** Chalmers'ın felsefi zombi argümanı. Zombi, tanımı gereği bütün davranışsal ölçütleri geçer ama bilinçsizdir. Davranışsal çıkarım ilkesi doğruysa, zombiye bilinç atfetmemiz gerekir — ve bu, argümanın hedeflediği ayrımı ortadan kaldırır.
+
+Yazarların yanıtı örtük ama açık: Eğer bilinç atfı bir açıklayıcı varsayımsa, "gerçekten bilinçli mi" sorusu — açıklama gücünün ötesinde — sorulabilir bir soru olmaktan çıkar.
+
+Bu, felsefede **araçsalcı** (instrumentalist) bir tutumdur ve maliyeti vardır: Zor problemi çözmez; onu sorulamaz ilan eder.
+
+## Odadaki fil
+
+Makalenin bölüm başlıklarından biri doğrudan bunu adlandırıyor: **"Odadaki fil."**
+
+Fil şudur: Büyük dil modelleri, tasarımcılarının başlangıçta öngörmediği yetenekler gösteriyor. Bazıları bunda "yapay genel zekânın kıvılcımlarını" görüyor. Sınırsız görünen konuşma ve akıl yürütme kapasiteleri, yapay varlıklara bilinç atfedip atfetmememiz gerektiği konusunda acil bir tartışma başlattı.
+
+Ve bu sistemler, tam olarak **insan davranışını taklit etmek üzere** eğitildiler.
+
+Dolayısıyla davranışsal ölçüt, bir tuzağa açık: İnsan gibi konuşmak üzere optimize edilmiş bir sistemde, insan gibi konuşmayı bilinç kanıtı saymak döngüseldir.
+
+Sitemizde ele aldığımız [Luciano Floridi'nin "anlamsal pareidolia"](/haber/yapay-zeka-bilinc-schwitzgebel-sis) uyarısı tam bu noktaya iniyor.
+
+Palminteri ve Wu'nun ölçütünün bu itiraza yanıtı, "açıklama" kavramında saklı: Bir davranışı **taklit varsayımıyla** açıklayabiliyorsanız, bilinç varsayımına ihtiyacınız yoktur. Bilinç atfı ancak **daha basit açıklamalar tükendiğinde** devreye girer.
+
+Bu, Occam usturasının bilince uygulanmış hâli. Ve pratikte şu anlama gelir: Bir dil modelinin "üzgünüm" demesi, eğitim verisiyle açıklanabildiği sürece bilinç kanıtı değildir.
+
+## Neden atfetmek zorundayız?
+
+Makalenin bir başka bölümü şunu soruyor: **Bilinci neden atfetmemiz gerekiyor?**
+
+Soru masum değil. Çünkü yanıt, bilinç atfının **pratik bir işlevi** olduğunu ima ediyor: Başkalarına bilinç atfederiz, çünkü onlarla ilişki kurabilmek, davranışlarını öngörebilmek ve ahlaki muamele belirleyebilmek için buna ihtiyacımız var.
+
+Bu, tartışmayı metafizikten pragmatiğe kaydırıyor.
+
+Ve kaydırma bir bedel getiriyor. Sitemizde bu hafta ele aldığımız [Eric Schwitzgebel'in kuşkuculuğu](/haber/yapay-zeka-bilinc-schwitzgebel-sis) tam da bu bedele işaret ediyordu: İki hata yönü var ve **simetrik değiller**. Bilinci olmayan bir sisteme bilinç atfetmek bir tür yanılsamadır; bilinçli bir sistemi bilinçsiz saymak ise bir tür kayıtsızlıktır.
+
+Bir açıklayıcı varsayım hatası ile bir ahlaki hata aynı ağırlıkta değildir.
+
+## Değerlendirme
+
+Bu makale bir çözüm sunmuyor — bir görüş yazısı ve öyle olduğunu da söylüyor.
+
+Ama önerdiği ölçüt değişikliği ciddiye alınmayı hak ediyor, çünkü mevcut tartışmanın gerçek bir tıkanıklığına dokunuyor: Bilinç için hangi hesaplamaların gerektiğini bilmediğimiz sürece, hesaplamalı eşdeğerlik ilkesi bir ölçüt değil, bir borç senedidir.
+
+Davranışsal çıkarım ilkesi ise sınanabilir. Zayıflığı, sınanabilir olmayı **doğru olmakla** karıştırma riski.
+
+Turing'in 1950'de yaptığı hamlenin de aynı yapıda olduğunu hatırlamakta yarar var: O da "düşünüyor mu" sorusunu, sınanabilir bir davranış testine çevirmişti. Yetmiş altı yıl sonra, aynı hamle bilinç için öneriliyor.
+
+Soru şu: Bu bir ilerleme mi, yoksa zor sorudan ikinci kez kaçış mı?`,
+  },
+  {
+    title: "Bir felsefe bölümü kurtuldu — ve felsefe kendini nasıl savunacağını tartışıyor",
+    slug: "dundee-felsefe-bolumu-kamuoyu-x-phi",
+    summary:
+      "Dundee Üniversitesi'nde kapatılma sırasındaki felsefe programı kısmen kurtarıldı. Aynı haftalarda yayımlanan bir kamuoyu araştırması, halkın üniversitelerde felsefe bölümü bulunmasını ne kadar önemsediğini ölçtü. Ve alanın içinde eski bir kavga yeniden alevlendi: Deneysel felsefe gerçekten felsefe mi?",
+    seoTitle: "Dundee'de felsefe kurtuldu, deneysel felsefe tartışması alevlendi",
+    metaDescription:
+      "Dundee Üniversitesi felsefe programının kısmen kurtarılması, felsefe bölümleri hakkındaki kamuoyu araştırması ve deneysel felsefe tartışması.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Dundee%20-%20Tower%20Building.jpg?width=1600",
+    imageCredit: "Dundee Üniversitesi Tower Building, İskoçya · Wikimedia Commons",
+    featured: true,
+    sourceName: "Daily Nous",
+    sourceUrl: "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+    publishedAt: "2026-09-05T02:40:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "dunya",
+    tagSlugs: ["akademi", "epistemoloji", "kavram", "bilim-felsefesi", "medya"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Philosophy at Dundee Saved—In Part, For Now (guest post)",
+        publisher: "Daily Nous",
+        date: "28 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+        primary: true,
+      },
+      {
+        title: "The Public's Opinion about Philosophy in Universities",
+        publisher: "Daily Nous",
+        date: "27 Ağustos 2026",
+        url: "https://dailynous.com/2026/08/27/the-publics-opinion-about-philosophy-in-universities/",
+      },
+      {
+        title: "Free to Be Experimental Philosophy",
+        publisher: "Daily Nous",
+        date: "4 Eylül 2026",
+        url: "https://dailynous.com/2026/09/04/free-to-be-experimental-philosophy/",
+      },
+    ],
+    content: `Felsefe bölümleri kapanıyor. Bu, on yıldır Britanya'dan Avustralya'ya, ABD'den Hollanda'ya uzanan bir eğilim ve genellikle tek bir gerekçeyle açıklanıyor: öğrenci sayısı.
+
+Ağustos sonunda bu eğilimin dışına çıkan bir haber geldi.
+
+## Dundee: kısmen, şimdilik
+
+**Dundee Üniversitesi**'ndeki felsefe programı kapatılma listesindeydi. Daily Nous'ta yayımlanan konuk yazının başlığı sonucu özetliyor: **"Dundee'de Felsefe Kurtuldu — Kısmen, Şimdilik."**
+
+Yazının vurgusu şu: **Küçük ama uluslararası erişimi geniş bir program**, sanat ve beşerî bilimlerdeki kapanma eğilimini tersine çevirdi.
+
+İki nitelemeye dikkat: *kısmen* ve *şimdilik*. Bu, zafer ilanı değil; bir erteleme.
+
+Ama Dundee örneğinin öğretici yanı, **hangi argümanın işe yaradığı**.
+
+Bir bölümün savunmasında iki tür gerekçe kullanılabilir. Birincisi içsel: Felsefe önemlidir, düşünmeyi öğretir, bir uygarlığın temelidir. İkincisi dışsal ve ölçülebilir: Uluslararası öğrenci çekiyor, yayın üretiyor, disiplinlerarası programları besliyor, mezunları iş buluyor.
+
+İçsel gerekçe doğrudur ve tek başına neredeyse hiç işe yaramaz. Çünkü bütçe kararı verenler o dili konuşmuyor.
+
+Dundee'de sonucu belirleyen ikinci tür oldu.
+
+## Halk ne düşünüyor?
+
+Bir gün önce Daily Nous'ta yayımlanan bir başka içerik, tartışmanın öteki ayağını veriyor: **kamuoyu araştırması**.
+
+Sorulan soru şuydu: *"Tipik bir üniversitenin şu alanların her birinde bir bölüm sürdürmesi ne kadar önemlidir?"*
+
+Bu soru formülasyonu, felsefenin savunusunda alışıldık argümanların işe yaramadığı yeri gösteriyor.
+
+Çünkü mesele felsefenin **değerli olup olmadığı** değil. Kimse felsefenin değersiz olduğunu söylemiyor. Mesele, **her üniversitede ayrı bir bölüm olarak bulunmasının** gerekli görülüp görülmediği.
+
+Bu ayrım, Türkiye'deki tartışma için de geçerli. Felsefe derslerinin müfredattaki yerini savunmakla, felsefe bölümlerinin sayısını savunmak farklı işlerdir ve farklı argümanlar gerektirir.
+
+## Ve içeriden bir kavga
+
+Aynı hafta, alanın kendi içindeki en eski gerilimlerinden biri yeniden alevlendi.
+
+4 Eylül'de Daily Nous'ta yayımlanan **"Deneysel Felsefe Özgür Olsun"** yazısı, tek bir soruyla açılıyor:
+
+**"Ama bu gerçekten felsefe mi?"**
+
+Yazı, otuz beşten fazla yorum aldı — ve yorumlar tartışmanın gerçek düğümünü gösteriyor.
+
+**Deneysel felsefe** (x-phi), felsefi sezgilerin ampirik olarak incelenmesini önerir. Klasik yöntem şudur: Bir filozof bir düşünce deneyi kurar ve "sezgimiz şunu söyler" der. Deneysel felsefeciler soruyor: *Kimin sezgisi?* Ve gidip anket yapıyorlar.
+
+Bulgular çoğu zaman rahatsız edici oldu: Sezgiler kültüre, sosyoekonomik konuma, hatta soruların sırasına göre değişebiliyor.
+
+İtiraz da hazır: Bu psikolojidir, felsefe değil.
+
+## Yorumlar ne gösteriyor?
+
+Tartışmanın seyri, bir felsefe sitesinin izlemesi gereken türden.
+
+**Kenny Easwaran**'ın müdahalesi keskin: Bu çalışmayı "bilim" diye etiketlemek, onun "felsefe" sayılıp sayılmayacağı sorusunu **cevaplamıyor**. Ve ekliyor: Bir şeyin X disiplinine ait olup olmadığını belirleyen ölçüt nedir?
+
+Kendi önerisi ilişkiseldir: Alt alanlar birbirine **geçişli olarak bağlı** kaldıkları sürece tek bir disiplin olarak kalabilirler; o bağlantı koptuğunda ayrı disiplin olmaları daha anlamlı hâle gelir.
+
+Bu, disiplin sınırlarına dair olağanüstü pratik bir ölçüt. Bir felsefe bölümündeki mantıkçı ile Heidegger uzmanı birbirini okumuyor olabilir; ama ikisinin de okuduğu bir üçüncü kişi varsa, bağ sürüyordur.
+
+Bir başka yorumcu ise gerilimin kaynağını adlandırıyor: Tartışanlar, **kavram çözümlemesinin** ve **deneysel felsefenin** ne olduğu konusunda farklı şeyler anladıkları için birbirlerini ıskalıyorlar.
+
+## Üç haber, tek mesele
+
+Bu üç gelişme ayrı görünüyor. Değiller.
+
+Dundee, felsefenin **kurumsal** varlığını savunma sorunudur.
+
+Kamuoyu araştırması, felsefenin **toplumsal** meşruiyetini ölçme sorunudur.
+
+Deneysel felsefe tartışması ise felsefenin **kendi sınırlarını** çizme sorunudur.
+
+Ve üçü birbirine bağlı: Bir alan, kendi sınırlarının nerede olduğu konusunda anlaşamıyorsa, dışarıya karşı savunmasını kurmakta da zorlanır.
+
+Bu, felsefeye özgü bir zayıflık değil — tersine, felsefenin tanımlayıcı özelliği. Felsefe, kendi tanımının kendi konusu olduğu tek disiplindir. Fizikçiler "fizik nedir" sorusunu tartışmaz; felsefeciler "felsefe nedir" sorusunu iki bin beş yüz yıldır tartışıyor.
+
+Sitemizde dün ele aldığımız [2026 haritası dosyasında](/haber/felsefe-2026-haritasi-canli-alanlar) yazdığımız gibi, alanın merkezi kayıyor. Merkez kayarken sınır tartışmasının kızışması şaşırtıcı değil.
+
+## Türkiye'den bakınca
+
+Türkiye'de felsefe bölümleri kapanmıyor; sayıları artıyor. Ama bu, sorunun burada olmadığı anlamına gelmiyor.
+
+Buradaki sorun kontenjan ve istihdam: Bölüm sayısı artarken mezunların akademi dışında ne yapacağı sorusu yeterince tartışılmıyor.
+
+Dundee örneğinin çıkarılabilecek dersi şu: Bir bölümün savunulabilirliği, ürettiği **görünür ve ölçülebilir çıktıya** bağlı hâle geldi. Bu ölçütü beğenmek zorunda değiliz. Ama görmezden gelmek, bölüm kapandığında da elimizde bir argüman bırakmıyor.`,
+  },
+  {
+    title: "Burge, Descartes'a 688 sayfayla cevap veriyor",
+    slug: "tyler-burge-answering-scepticism-anlama",
+    summary:
+      "Zihin felsefesinin en etkili tezlerinden birinin sahibi — düşüncelerimizin içeriği kafamızın içinde belirlenmez — ağustosta yeni kitabını yayımladı. Burge, Descartes'tan beri süren iki şüpheciliğe iki ayrı cevap veriyor ve ikisi de aynı yerden çıkıyor: anlamak, sanılandan çok daha güçlü bir başarıdır.",
+    seoTitle: "Tyler Burge — Answering Scepticism (Oxford, 2026)",
+    metaDescription:
+      "Tyler Burge'ün yeni kitabı Answering Scepticism, Descartes'ın iki şüpheciliğine anlama ve akıl üzerinden yanıt veriyor. Anti-bireycilik ve algı felsefesi.",
+    contentType: "PORTRE",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20UCLA%20Royce%20Hall%202.jpg?width=1600",
+    imageCredit: "UCLA, Royce Hall — Burge yarım yüzyıla yakındır bu üniversitede · Wikimedia Commons",
+    featured: true,
+    sourceName: "Oxford University Press",
+    sourceUrl: "https://global.oup.com/academic/product/answering-scepticism-9780198969334",
+    publishedAt: "2026-09-05T02:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "cagdas-filozoflar",
+    tagSlugs: ["epistemoloji", "zihin-felsefesi", "kavram", "akademi", "yeni-kitap"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Answering Scepticism: Understanding Understanding, Understanding Reason",
+        publisher: "Tyler Burge, Oxford University Press",
+        date: "21 Ağustos 2026",
+        url: "https://global.oup.com/academic/product/answering-scepticism-9780198969334",
+        primary: true,
+      },
+      {
+        title: "Perception: First Form of Mind",
+        publisher: "Tyler Burge, Oxford University Press",
+        url: "https://global.oup.com/academic/product/perception-9780198871002",
+      },
+    ],
+    content: `Çağdaş felsefede etkisi büyük ama adı kamuoyunda az bilinen isimler vardır. **Tyler Burge** bunların başında gelir.
+
+UCLA'da Flint Felsefe Profesörü olan Burge, 1979'da yayımladığı tek bir makaleyle zihin felsefesinin gündemini değiştirdi. Ağustos ayında, aynı problem ailesine yönelik **688 sayfalık** yeni bir kitap yayımladı: ***Answering Scepticism: Understanding Understanding, Understanding Reason*** (Oxford University Press, 21 Ağustos 2026).
+
+## Önce 1979: düşünceler kafanın içinde mi?
+
+Burge'ün adı bir tezle anılır: **anti-bireycilik** (anti-individualism) — ya da yaygın adıyla **dışsalcılık**.
+
+Tez şudur: Bir kişinin düşüncelerinin **içeriği**, yalnızca o kişinin kafasının içindeki durumlarla belirlenmez. Çevre — fiziksel çevre ve **dilsel topluluk** — içeriğin belirlenmesine kurucu olarak katılır.
+
+Burge'ün ünlü düşünce deneyi bunu gösterir.
+
+Bir adam kolunun ağrıdığını düşünüyor ve doktoruna "artritim koluma yayıldı" diyor. Doktor düzeltiyor: Artrit yalnızca eklemleri etkiler; kasa yayılmaz. Adam yanılmıştır — ama **artrit hakkında** yanılmıştır.
+
+Şimdi tıpatıp aynı adamı, tıpatıp aynı bedensel durumlarla, ama "artrit" sözcüğünün hem eklemleri hem kasları kapsayacak biçimde kullanıldığı bir dilsel toplulukta düşünün. Bu adam, aynı cümleyi kurduğunda **yanılmıyor** — ve düşündüğü şey de artık artrit değil, başka bir kavramdır.
+
+İki adamın kafasının içi aynı. Düşünceleri farklı.
+
+Sonuç: Zihinsel içerik, bireyin içindeki olgularla tüketilemez. Bir düşünceye sahip olmak, **bir topluluğa ait olmayı** gerektirir.
+
+Bu tez Hilary Putnam'ın "İkiz Dünya" argümanıyla birlikte anılır; ama Burge'ün versiyonu daha geniştir. Putnam'ınki doğal türlerle sınırlıydı; Burge'ünki **her kavrama** uygulanır — hukukî, matematiksel, sıradan.
+
+Etkisi kalıcı oldu. Bugün "genişletilmiş zihin", "toplumsal epistemoloji" ve "kavramsal mühendislik" başlıkları altında yürüyen tartışmaların çoğu bu tezin çocuklarıdır.
+
+## Sonra algı
+
+Burge'ün ikinci büyük projesi 2010'da yayımlanan *Origins of Objectivity* ve 2022'de yayımlanan ***Perception: First Form of Mind*** ile şekillendi.
+
+Buradaki soru şu: **Zihin nerede başlar?**
+
+Burge'ün yanıtı beklenmedik: Dilde değil, kavramda da değil — **algıda**. Bir organizmanın çevresindeki nesneleri **nesne olarak** temsil edebilmesi, zihnin ilk biçimidir. Ve bu, dil öncesidir: Bebeklerde ve birçok hayvanda vardır.
+
+Bu tezin sonucu, sitemizde bu hafta ele aldığımız [hayvan bilinci tartışmasına](/haber/hayvan-bilinci-new-york-bildirisi) doğrudan bağlanıyor: Nesnellik dile bağlı değilse, zihinsel yaşamın alanı sandığımızdan çok daha geniştir.
+
+## Ve şimdi: şüphecilik
+
+Yeni kitap, Descartes'tan beri süren **iki ayrı** klasik şüpheciliğe cevap veriyor.
+
+**Birinci şüphecilik:** Dış dünyanın var olduğunu gerçekten biliyor muyuz?
+
+**İkinci şüphecilik:** Şu anda çevremizde olup biten hakkında herhangi bir şey biliyor muyuz?
+
+Ayrım incelikli ama önemli. Birincisi ontolojiktir: Dışarıda bir dünya var mı? İkincisi somuttur: Var olsa bile, şu anda bu masanın burada olduğunu biliyor muyum?
+
+Burge'ün iki argümanı sırasıyla **anlama** ve **akıl** üzerine kuruluyor.
+
+Kitabın alt başlığı bu yüzden tekrar içeriyor: *Understanding Understanding, Understanding Reason* — "anlamayı anlamak, aklı anlamak."
+
+Buradaki strateji, anti-bireyciliğin doğal devamıdır. Eğer bir düşünceye sahip olmak zaten çevreyle kurulmuş bir ilişkiyi gerektiriyorsa, "belki dış dünya yoktur ama düşüncelerim aynı kalırdı" varsayımı **baştan tutarsızdır**. Şüpheci, kendi şüphesini formüle edebilmek için, şüphe ettiği şeyi varsaymak zorundadır.
+
+Bu, Descartes'a verilen cevapların en güçlü biçimlerinden biridir: Şüpheciyi çürütmek değil, **şüphenin kurulabilmesinin koşullarını** göstermek.
+
+Kitabın etkisi tek bir alanla sınırlı değil. Yayıncının tanıtımına göre epistemoloji ve meta-epistemolojinin yanı sıra zihin felsefesi, metafizik, algı felsefesi, matematik ve mantık felsefesi, akıl yürütme kuramı, dil felsefesi, eylem felsefesi ve felsefe tarihine katkı veriyor.
+
+## Kim için yazılmış?
+
+Açık konuşmak gerekir: Bu kitap popüler bir çalışma değil.
+
+688 sayfa, yoğun argüman, teknik terminoloji. Felsefecilerin felsefeciler için okuduğu türden bir metin.
+
+Ama bu, onu önemsiz kılmıyor — tersine. Sitemizde bu hafta ele aldığımız [Michael Pollan'ın bilinç kitabı](/haber/2026-felsefe-kitaplari-secki) ile Burge'ün kitabı, aynı disiplinin iki ayrı işlevini gösteriyor.
+
+Pollan, felsefi bir problemi kamusal dile çeviriyor. Burge, o problemin teknik zeminini kuruyor.
+
+İkisi de gerekli. Ama sırası önemli: Kamusal çeviri, arkasında teknik bir zemin olduğu sürece değerlidir.
+
+## Türkiye'den bakınca
+
+Burge'ün Türkçede karşılığı yok denecek kadar az. *Individualism and the Mental* çevrilmedi; *Origins of Objectivity* ve *Perception* de öyle.
+
+Bu bir eksiklik, çünkü Burge'ün tezi Türkiye'deki felsefe tartışmasına doğrudan dokunuyor.
+
+Sitemizde bu hafta ele aldığımız [Arda Denkel dosyasını](/haber/arda-denkel-nesne-ozellik-tikelcilik) hatırlayalım: Denkel, Oxford'da **P. F. Strawson**'ın öğrencisiydi ve doktorasını dil felsefesinde, anlamın doğal zemini üzerine yaptı. Burge'ün anti-bireyciliği, tam olarak Denkel'in çalıştığı problem alanının bir sonraki kuşağıdır.
+
+Ve dil bilincinin merkezinde olduğu bir felsefe geleneği için — [Aruoba'nın Türkçede felsefe yazma projesini](/haber/oruc-aruoba-turkcede-felsefe-yurume) düşünün — Burge'ün tezi doğrudan bir iddia taşıyor:
+
+**Bir dilde düşünmek, o dilin topluluğuna ait olmaktır.** Düşüncenin içeriği, o topluluğun kavramları nasıl kullandığına bağlıdır.
+
+Bu doğruysa, "Türkçede felsefe yapmak" ifadesi bir üslup tercihini değil, **düşüncenin içeriğine dair bir olguyu** anlatıyor demektir.
+
+---
+
+**Künye:** Tyler Burge · *Answering Scepticism: Understanding Understanding, Understanding Reason* · Oxford University Press · 21 Ağustos 2026 · 688 sayfa · İngilizce · ISBN 9780198969334
+
+*Not: Kitabın Türkçe çevirisi henüz duyurulmadı.*`,
+  },
+  {
+    title: "Oxford'un doktora öğrencisi konferansı otuz yaşında — açılışta Chalmers var",
+    slug: "oxford-lisansustu-felsefe-konferansi-30",
+    summary:
+      "Oxford Üniversitesi'nin doktora öğrencilerine ayrılmış felsefe konferansı 13-14 Kasım'da otuzuncu kez toplanıyor. Ana konuşmacılar David Chalmers, Monima Chadha ve Rob Simpson. Tasarımdaki bir ayrıntı, konferansı sıradan bir öğrenci toplantısından ayırıyor: Her bildiriye Oxford öğretim üyelerinden biri yanıt veriyor.",
+    seoTitle: "30. Oxford Lisansüstü Felsefe Konferansı — 13-14 Kasım 2026",
+    metaDescription:
+      "Oxford Üniversitesi'nin 30. Lisansüstü Felsefe Konferansı 13-14 Kasım 2026'da. Ana konuşmacılar David Chalmers, Monima Chadha ve Rob Simpson.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars%20Chapel%2C%20Oxford.jpg?width=1600",
+    imageCredit: "Blackfriars, Oxford — konferansın iki mekânından biri · Wikimedia Commons",
+    featured: false,
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/145358",
+    publishedAt: "2026-09-05T02:00:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "konferanslar",
+    tagSlugs: ["konferans", "akademi", "zihin-felsefesi", "bilinc", "kavram"],
+    philosopherSlugs: ["david-chalmers"],
+    sources: [
+      {
+        title: "University of Oxford's 30th Annual Graduate Philosophy Conference",
+        publisher: "PhilEvents",
+        url: "https://philevents.org/event/show/145358",
+        primary: true,
+      },
+      {
+        title: "Oxford Philosophy Graduate Conference",
+        publisher: "University of Oxford, Faculty of Philosophy",
+        url: "https://www.philosophy.ox.ac.uk/oxford-philosophy-graduate-conference",
+      },
+    ],
+    content: `Akademide doktora öğrencilerine ayrılmış konferanslar yaygındır. Çoğu, kıdemli akademisyenlerin uğramadığı, birbirini dinleyen genç araştırmacılardan oluşur.
+
+Oxford'un otuz yıldır sürdürdüğü konferans farklı bir model kuruyor.
+
+**Oxford Üniversitesi 30. Yıllık Lisansüstü Felsefe Konferansı**, 13-14 Kasım 2026'da Blackfriars Hall ve Regent's Park College'da toplanıyor.
+
+## Ana konuşmacılar
+
+Üç isim duyuruldu ve üçü de farklı bir cepheyi temsil ediyor:
+
+**David Chalmers** (New York Üniversitesi) — Bilinç felsefesinin merkezî figürü. Sitemizde dün ayrıntılı olarak [ele aldığımız gibi](/haber/david-chalmers-zor-problem-otuz-yil), "zor problem" kavramının otuzuncu yılı bu yıl kutlandı ve Chalmers'ın güncel çalışmaları yapay bilinç ile sanal gerçekliğe kaymış durumda.
+
+**Monima Chadha** (Oxford Üniversitesi) — Hint felsefesi ve zihin felsefesi kesişiminde çalışıyor. Özellikle **Budist benlik kuramları** üzerine yaptığı çalışmalarla tanınıyor: Budist geleneğin "benlik yoktur" tezinin, çağdaş zihin felsefesindeki kişisel özdeşlik tartışmasına ne söylediği.
+
+Chadha'nın programda olması, tesadüfi bir çeşitlilik jesti değil. Sitemizde bu hafta ele aldığımız [Philosopher's Annual seçkisine](/haber/philosophers-annual-2025-secki) gelen en sert eleştiri, listenin İngilizce dışında yazılmış tek bir makale içermemesiydi. Batı dışı geleneklerin, egzotik bir ek olarak değil **aynı problem üzerinde çalışan taraf** olarak programa girmesi, o eleştiriye verilmiş somut bir yanıt.
+
+**Rob Simpson** (University College London) — İfade özgürlüğü, akademik özgürlük ve konuşmanın düzenlenmesi üzerine çalışıyor. Sitemizde bu hafta izlediğimiz [felsefe bölümlerinin savunusu](/haber/dundee-felsefe-bolumu-kamuoyu-x-phi) tartışmasıyla doğrudan kesişen bir alan.
+
+## Tasarımdaki ayrıntı
+
+Konferansın asıl ilginç yanı program değil, **biçim**.
+
+Seçilen her doktora öğrencisi bildirisini 30-40 dakikalık bir sunumla veriyor. Ve her sunumun ardından bir **yanıt** geliyor — tipik olarak Oxford Felsefe Fakültesi üyelerinden biri tarafından.
+
+Bu, öğrenci konferanslarının en yaygın zayıflığını gideriyor.
+
+Sıradan bir öğrenci konferansında bildiri sunulur, birkaç soru sorulur, sıradaki konuşmacıya geçilir. Öğrenci geriye bir sunum deneyimiyle döner — ama çalışması hakkında ciddi bir değerlendirme almaz.
+
+Yapılandırılmış yanıt ise farklı bir şey üretir: Bildiri, alanında çalışan biri tarafından **okunmuş ve karşı argüman geliştirilmiş** olarak geri gelir.
+
+Bir doktora öğrencisi için bu, kabul mektubundan daha değerlidir.
+
+## Kapsam
+
+Çağrı, felsefede çalışan bütün lisansüstü öğrencilere açık. Bildiriler herhangi bir konuda olabilir; amaç **teorik felsefe, pratik felsefe ve felsefe tarihi** boyunca geniş bir tartışma yelpazesini temsil etmek.
+
+Bu üçlü ayrım, "her konuya açığız" demenin daha dikkatli bir hâli: Bir konferansın kapsayıcılığı, çağrının genişliğiyle değil, kabul edilen bildirilerin dağılımıyla ölçülür.
+
+## Türkiye'den katılım
+
+Türkiye'deki felsefe doktora öğrencileri için bu tür konferanslar, uluslararası görünürlüğün en erişilebilir kapılarından biri.
+
+Nedeni yapısal: Bir dergiye makale kabul ettirmek yıllar alabilir; bir konferans bildirisi ise birkaç ay içinde sonuçlanır ve doğrudan geri bildirim getirir.
+
+Sitemizde bu hafta ele aldığımız [Sanders Ödülleri dosyasında](/haber/sanders-odulleri-genc-arastirmacilar) da işaret ettiğimiz gibi, bu kanalların çoğu Türkiye'de yeterince bilinmiyor.
+
+## Pratik bilgiler
+
+- **Tarih:** 13-14 Kasım 2026
+- **Yer:** Blackfriars Hall ve Regent's Park College, Oxford
+- **Ana konuşmacılar:** David Chalmers (NYU), Monima Chadha (Oxford), Rob Simpson (UCL)
+- **Kimler başvurabilir:** Felsefede çalışan bütün lisansüstü öğrenciler
+- **Sunum biçimi:** 30-40 dakika bildiri + Oxford öğretim üyesinden yanıt
+
+Ayrıntılar Oxford Felsefe Fakültesi'nin [konferans sayfasında](https://www.philosophy.ox.ac.uk/oxford-philosophy-graduate-conference).
+
+---
+
+**Takvimimizdeki diğer yaklaşan toplantılar:** [Cavell Sempozyumu](/haber/cavell-sempozyumu-new-school-2026) (30-31 Ekim, New York) · [Reichenbach Kongresi](/haber/reichenbach-kongresi-istanbul-2026) (5-6 Kasım, İstanbul) · [Dünya Felsefe Günü](/haber/dunya-felsefe-gunu-kucuradi-unesco) (19 Kasım) · [Hayvan Refahı Felsefesi](/haber/hayvan-bilinci-new-york-bildirisi) (20-21 Kasım, Duke).`,
+  },
+  {
+    title: "Yedi ödül, beşer bin dolar — ve akademik kadro şartı yok",
+    slug: "sanders-odulleri-genc-arastirmacilar",
+    summary:
+      "Marc Sanders Vakfı'nın yedi ayrı alanda verdiği makale ödülleri, çağdaş felsefede genç araştırmacılar için en somut kanallardan biri. Ayırt edici yanı bir cümlede: Bağımsız araştırmacılar da başvurabiliyor. Erken Modern Felsefe ödülünün son başvuru tarihi 1 Ekim.",
+    seoTitle: "Sanders Ödülleri: yedi alanda 5.000 dolarlık felsefe makale ödülleri",
+    metaDescription:
+      "Marc Sanders Vakfı'nın metafizik, epistemoloji, zihin felsefesi, metaetik, siyaset felsefesi, din felsefesi ve erken modern felsefe ödülleri.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/NautilusCutawayLogarithmicSpiral.jpg?width=1600",
+    imageCredit: "Nautilus kabuğu — Marc Sanders Vakfı'nın amblemi · Wikimedia Commons",
+    featured: true,
+    sourceName: "The Marc Sanders Foundation",
+    sourceUrl: "https://marcsandersfoundation.org/sanders-prizes/",
+    publishedAt: "2026-09-05T01:40:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "oduller",
+    tagSlugs: ["odul", "akademi", "kavram", "epistemoloji", "etik"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Philosophical Excellence — Sanders Prizes",
+        publisher: "The Marc Sanders Foundation",
+        url: "https://marcsandersfoundation.org/sanders-prizes/",
+        primary: true,
+      },
+      {
+        title: "Sanders Prize in the History of Early Modern Philosophy",
+        publisher: "The Marc Sanders Foundation",
+        url: "https://marcsandersfoundation.org/early-modern-philosophy/",
+      },
+    ],
+    content: `Türkiye'de felsefe alanında çalışan genç bir araştırmacının uluslararası görünürlük kazanması için hangi kanallar var?
+
+Yanıt genellikle iki maddeyle sınırlanır: hakemli dergiye makale göndermek, konferansa bildiri sunmak.
+
+Üçüncü bir kanal var ve Türkiye'de neredeyse hiç bilinmiyor: **makale ödülleri.**
+
+## Sanders Ödülleri
+
+**Marc Sanders Vakfı**, çağdaş felsefenin birçok temel alanında **iki yılda bir** verilen makale ödülleri düzenliyor. Ödüller, dünyanın önde gelen felsefecilerinden bazıları tarafından yönetiliyor.
+
+Yedi alan ve her biri **5.000 dolar**:
+
+**Metafizik** — Dean Zimmerman (Rutgers)
+**Epistemoloji** — Tamar Szabó Gendler (Yale)
+**Zihin Felsefesi** — David Sosa (Texas, Austin)
+**Metaetik** — Russ Shafer-Landau (Wisconsin-Madison)
+**Siyaset Felsefesi** — Peter Vallentyne (Missouri)
+**Din Felsefesi** — Dean Zimmerman (Rutgers)
+**Erken Modern Felsefe Tarihi** — Donald Rutherford (UC San Diego)
+
+Bu isimler alanlarının merkezinde duruyor. Sitemizde bu hafta ele aldığımız [Philosopher's Annual seçkisinde](/haber/philosophers-annual-2025-secki) yer alan Paulina Sliwa'nın makalesinin, Shafer-Landau'nun editörlüğünü yaptığı *Oxford Studies in Metaethics*'te yayımlandığını hatırlatalım — aynı ekosistem.
+
+## Asıl haber: kim başvurabilir?
+
+Ödüllerin koşulu iki grubu kapsıyor:
+
+- Doktorasını almasının üzerinden **on beş yıldan az** geçmiş araştırmacılar
+- Hâlihazırda bir **lisansüstü programa kayıtlı** öğrenciler
+
+Ve kritik cümle: **Bağımsız araştırmacılar da uygun olabilir.**
+
+Bu, Türkiye bağlamında önemsiz bir ayrıntı değil.
+
+Türkiye'de felsefe doktorası yapıp akademik kadro bulamayan, başka bir işte çalışırken felsefe üretmeye devam eden çok sayıda araştırmacı var. Uluslararası çağrıların çoğu kurumsal aidiyet ister; bu ödüller istemiyor.
+
+Erken Modern Felsefe ödülü için bağımsız araştırmacıların, *Oxford Studies in Early Modern Philosophy* editörü Donald Rutherford'a doğrudan başvurması isteniyor.
+
+## Ödülün asıl değeri paradan büyük
+
+5.000 dolar iyi bir tutar. Ama ödülün asıl getirisi başka.
+
+**Kazanan makaleler, ilgili *Oxford Studies* cildinde yayımlanıyor.**
+
+Oxford Studies dizileri — *in Metaphysics*, *in Epistemology*, *in Metaethics*, *in Political Philosophy*, *in Early Modern Philosophy* — çağdaş analitik felsefenin en yüksek görünürlüklü yıllık yayınları arasında. Bir yayının bu dizilerde çıkması, alanın merkezine doğrudan girmek demek.
+
+Yani ödül bir para transferi değil, bir **yayın kanalı**.
+
+Sitemizde bu hafta ele aldığımız [Teo Grünberg Mantık Ödülü](/haber/teo-grunberg-mantik-odulu) de aynı tasarımı taşıyordu: Kazanan makale önce uluslararası bir dergide yayımlanıyor, sonra Dünya Mantık Ödülleri Yarışması'nda Türkiye'yi temsil ediyor.
+
+İyi tasarlanmış bir ödülün ortak özelliği bu: **Ödül, kapanan bir kapı değil; açılan bir kapıdır.**
+
+## Yaklaşan tarih
+
+**Erken Modern Felsefe Tarihi Ödülü** için son başvuru tarihi **1 Ekim 2026**.
+
+Alan geniş: on yedinci ve on sekizinci yüzyıl felsefesi — Descartes'tan Hume'a, Spinoza'dan Kant öncesine, Leibniz'den Malebranche'a.
+
+Sitemizde bu hafta andığımız [Philosopher's Annual seçkisinde](/haber/philosophers-annual-2025-secki) yer alan Colin Chamberlain'in Malebranche makalesi — "Bir Şeftali Nasıl Yenir" — tam bu alanın nasıl canlı bir tartışma alanı olduğunu gösteriyor.
+
+## APA lisansüstü ödülleri
+
+Vakıf ayrıca **Amerikan Felsefe Derneği**'nin Doğu Bölümü ile ortaklaşa üç yıllık lisansüstü öğrenci ödülü veriyor: zihin, metafizik, epistemoloji veya etik alanlarında en iyi makaleler için.
+
+Kazananlar **1.000 dolar** ve makalelerini APA Doğu Bölümü toplantısında sunma hakkı alıyor.
+
+Başvurular doğrudan APA Doğu Bölümü Program Komitesi'ne yapılıyor.
+
+## Vakfın öteki işi
+
+Marc Sanders Vakfı yalnızca ödül vermiyor. **Kamusal Felsefe** programı altında yürüttüğü işler, bir felsefe haber sitesi açısından ayrıca ilgi çekici:
+
+**Medyada Felsefe Girişimi** — felsefecilerin kamusal tartışmaya katılımını destekleyen bir burs programı.
+
+**Ulusal Lise Etik Yarışması** (NHSEB) — lise öğrencileri için etik tartışma turnuvası.
+
+**MAP** (Minorities and Philosophy) ve **Athena in Action** — alandaki temsil dengesizliğine yönelik programlar.
+
+Bu köşede geçen ay ele aldığımız [İstanbul Medeniyet öğrenci kongresi](/haber/medeniyet-teknik-ve-felsefe-kongresi), lise öğrencilerine de açık olmasıyla NHSEB modeline yaklaşan nadir örneklerdendi.
+
+## Türkiye için ne anlamı var?
+
+Üç pratik sonuç:
+
+**Birincisi:** Bu ödüller, akademik kadroya bağlı olmayan bir görünürlük kanalı sunuyor.
+
+**İkincisi:** Doktorasını yeni bitirmiş biri için, elindeki tez bölümlerinden birini makaleye çevirip göndermek somut bir hedef.
+
+**Üçüncüsü:** Türkiye'de kurulacak ödüller için izlenebilir bir model. Ödülü bir yayın kanalına bağlamak, ödülün ömrünü ödül töreninden uzun kılıyor.
+
+---
+
+*Ödüllerin güncel koşulları ve son başvuru tarihleri [marcsandersfoundation.org](https://marcsandersfoundation.org/sanders-prizes/) adresinde yayımlanıyor.*`,
+  },
+  {
+    title: "Kavram nedir? Cambridge'den yirmi iki bölümlük bir soruşturma",
+    slug: "kavramin-felsefi-tarihi-schmid-taieb",
+    summary:
+      "Felsefenin en çok kullandığı ama en az sorguladığı sözcüklerden biri 'kavram'. Cambridge'den çıkan derleme, bu sözcüğün tarihini Antik Yunan'dan Çin ve Hint düşüncesine, İslam felsefesinden Kant'a ve kavramsal mühendisliğe kadar izliyor. Sonuç, bir felsefe tarihi değil — felsefenin kendi aletine bakışı.",
+    seoTitle: "A Philosophical History of the Concept — Schmid & Taieb (Cambridge, 2026)",
+    metaDescription:
+      "Stephan Schmid ve Hamid Taieb'in derlediği A Philosophical History of the Concept, 'kavram' kavramının felsefe tarihindeki serüvenini izliyor.",
+    contentType: "KITAP",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Duke%20Humfrey%27s%20Library-14771061354.jpg?width=1600",
+    imageCredit: "Duke Humfrey Kütüphanesi, Bodleian, Oxford · Wikimedia Commons",
+    featured: false,
+    sourceName: "Cambridge University Press",
+    sourceUrl: "https://www.cambridge.org/core/books/abs/philosophical-history-of-the-concept/A3661F0A8F7DDACFB370C5B90820B75E",
+    publishedAt: "2026-09-05T01:20:00.000Z",
+    authorSlug: "dis-haberler",
+    categorySlug: "yeni-kitaplar",
+    tagSlugs: ["yeni-kitap", "kavram", "tarih", "islam-felsefesi", "zihin-felsefesi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "A Philosophical History of the Concept",
+        publisher: "Stephan Schmid & Hamid Taieb (ed.), Cambridge University Press",
+        date: "30 Ocak 2026",
+        url: "https://www.cambridge.org/core/books/abs/philosophical-history-of-the-concept/A3661F0A8F7DDACFB370C5B90820B75E",
+        primary: true,
+      },
+    ],
+    content: `Felsefede en sık kullanılan sözcüklerden biri **kavram**.
+
+"Adalet kavramı", "kavramsal çözümleme", "kavram karışıklığı", "kavramları netleştirmek". Bir felsefe metninde bu sözcüğe rastlamamak neredeyse imkânsız.
+
+Peki kavram nedir?
+
+Cambridge University Press'ten bu yıl ocak ayında çıkan derleme, tam olarak bu soruyu soruyor: ***A Philosophical History of the Concept*** — *Kavramın Felsefi Tarihi*.
+
+Editörler: **Stephan Schmid** (Hamburg Üniversitesi) ve **Hamid Taieb** (Humboldt Üniversitesi, Berlin).
+
+## Neden bir tarih?
+
+Kitabın çıkış noktası, editörlerin giriş metninde kurduğu gözlem: Kavramlar Batı felsefesinde ve tarihinde merkezî bir rol oynuyor; mantık, epistemoloji ve zihin felsefesi gibi birçok temel alt alan doğrudan kavramları konu ediniyor.
+
+Ama "kavram" teriminin kendisi, felsefe tarihi boyunca **aynı şeyi** anlatmadı.
+
+Bu, sıradan bir terminoloji gözlemi değil. Çünkü kavramı ne saydığınız, felsefeyi ne saydığınızı belirler.
+
+Birkaç örnek:
+
+**Kavram zihinsel bir imge ise**, felsefe bir tür iç gözlem olur.
+
+**Kavram bir dilsel yeterlilikse**, felsefe dil çözümlemesidir.
+
+**Kavram zihinden bağımsız bir soyut nesneyse**, felsefe bir keşif faaliyetidir.
+
+**Kavram bir çıkarım kuralıysa**, felsefe mantığa yaklaşır.
+
+Aynı sözcük, dört farklı disiplin tarifi üretiyor.
+
+## Kapsam: neredeyse dünya çapında
+
+Kitabın en dikkat çekici yanı, kapsamının Batı felsefe tarihiyle sınırlı olmaması.
+
+Yirmi iki bölümlük hacim, Antik Yunan'dan başlayıp **Çin felsefesi**, **Budist ve Brahmanik düşünce**, **İslam felsefesi**, Ortaçağ skolastiği, Descartes, Kant, Alman idealizmi, fenomenoloji, analitik felsefe, Heidegger, postyapısalcılık ve nihayet **kavramsal mühendislik** başlıklarına uzanıyor.
+
+Bu son başlık güncel: **Kavramsal mühendislik** (conceptual engineering), son on yılda hızla büyüyen bir alt alan. Sorusu şu: Kavramlarımızı yalnızca çözümlemekle yetinmeli miyiz, yoksa onları **daha iyi hâle getirmeye** de çalışmalı mıyız?
+
+Örnek: "Bilgi" kavramını mevcut kullanımına sadık kalarak tanımlamak bir iştir. "Bilgi" kavramını, bilgi üretiminin adaletsizliklerini görünür kılacak biçimde **yeniden tasarlamak** başka bir iştir.
+
+İkincisi, felsefenin betimleyici değil **kurucu** bir faaliyet olduğunu varsayar.
+
+## İslam felsefesi neden bu kitapta önemli?
+
+Derlemenin İslam felsefesine bölüm ayırması, sitemizde bugün ele aldığımız [Ahmet Arslan dosyasıyla](/haber/ahmet-arslan-felsefe-tarihi-okuma-kulturu) doğrudan kesişiyor.
+
+Arslan'ın oryantalist "aktarıcılık" tezine itirazını hatırlayalım: İslam filozoflarının işlevi antik düşünceyi Batı'ya taşımak değildi; kendi problemlerini kurdular ve özgün çözümler ürettiler.
+
+Kavram tartışması bunun somut kanıtlarından birini sunuyor. Fârâbî ve İbn Sînâ'nın *ma'nâ* ve *taṣavvur* terimleri etrafında geliştirdiği kuram, Aristoteles'in kavram anlayışının basit bir tercümesi değil. İbn Sînâ'nın zihinsel varlık (*el-vücûdü'z-zihnî*) öğretisi, Latin skolastiğine geçtiğinde Ortaçağ'ın kavram tartışmasını yeniden kurdu.
+
+Yani "kavram"ın tarihi, Bağdat'tan geçmeden yazılamaz.
+
+## Neden bir felsefe haber sitesi için önemli?
+
+Bu kitap, felsefenin kendi aletlerine baktığı bir çalışma — literatürde **metafelsefe** denen alan.
+
+Ve metafelsefe, bu köşede bu hafta izlediğimiz iki tartışmanın merkezinde duruyor.
+
+Birincisi, bugün ele aldığımız [deneysel felsefe kavgası](/haber/dundee-felsefe-bolumu-kamuoyu-x-phi): Tartışanlar, "kavram çözümlemesi" ile ne kastedildiği konusunda anlaşamadıkları için birbirlerini ıskalıyorlar.
+
+İkincisi, [makine bilinci ölçütü tartışması](/haber/davranissal-cikarim-ilkesi-makine-bilinci): Bir sisteme "bilinç" kavramını uygulamanın koşulları ne?
+
+İkisi de aynı zemine bakıyor: Bir kavramı uygulamak ne demektir?
+
+## Ayrıca izlediğimiz
+
+**Eric Dietrich, Chris Fields, John P. Sullins, Bram Van Heuveln ve Robin Zebrowski — *Great Philosophical Objections to Artificial Intelligence*** (2. baskı, 2026).
+
+Yapay zekânın yetenekleri üzerine yetmiş yıldır sürdürülen felsefi itirazları derleyen kitabın genişletilmiş baskısı. Gödel'den Turing'e uzanan klasik argümanları — anlam, zihin, bilinç, yaratıcılık ve etik — büyük dil modelleri ve üretken yapay zekâ bağlamında yeniden kuruyor.
+
+Sitemizde bu hafta izlediğimiz yapay bilinç tartışmasının tarihsel arka planını arayanlar için elverişli bir giriş.
+
+## Türkçe için
+
+*A Philosophical History of the Concept*, ders kitabı olarak kullanılabilecek türden bir derleme değil — hacmi ve teknik yoğunluğu buna elverişsiz.
+
+Ama bölüm bazında Türkçeye kazandırılabilir. Özellikle İslam felsefesi, Çin düşüncesi ve kavramsal mühendislik bölümleri, Türkiye'deki lisansüstü seminerlerde doğrudan kullanılabilir nitelikte.
+
+---
+
+**Künye:** Stephan Schmid & Hamid Taieb (ed.) · *A Philosophical History of the Concept* · Cambridge University Press · Çevrim içi yayın: 30 Ocak 2026 · İngilizce
+
+*Not: Kitabın Türkçe çevirisi henüz duyurulmadı.*`,
+  },
+  {
+    title: "Felsefe Tarihinde Bugün — 5 Eylül: bilimi din yapan adam ve bilime dergi kuran adam",
+    slug: "felsefe-tarihinde-bugun-5-eylul-comte-oldenburg",
+    summary:
+      "5 Eylül 1857'de Auguste Comte, 5 Eylül 1677'de Henry Oldenburg öldü. Biri pozitivizmi kurdu, sonra 'İnsanlık Dini'ni. Öteki hiç kuram üretmedi ama bilimsel bilginin bugünkü dolaşım biçimini — dergi, hakemlik, uluslararası yazışma — icat etti.",
+    seoTitle: "Felsefe Tarihinde Bugün — 5 Eylül: Auguste Comte ve Henry Oldenburg",
+    metaDescription:
+      "5 Eylül 1857'de Auguste Comte, 1677'de Henry Oldenburg öldü. Pozitivizm, üç hâl yasası, İnsanlık Dini ve hakemli yayının doğuşu.",
+    contentType: "HABER",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Auguste%20Comte%20daguerreotype.jpeg?width=1600",
+    imageCredit: "Auguste Comte, 1849 dolayları — dagerreyotipi · Wikimedia Commons",
+    featured: true,
+    sourceName: "Stanford Encyclopedia of Philosophy",
+    sourceUrl: "https://plato.stanford.edu/entries/comte/",
+    publishedAt: "2026-09-05T01:00:00.000Z",
+    authorSlug: "haber-merkezi",
+    categorySlug: "felsefe-tarihinde-bugun",
+    tagSlugs: ["tarih", "bilim-felsefesi", "din-felsefesi", "acik-erisim", "dergi"],
+    philosopherSlugs: [],
+    sources: [
+      {
+        title: "Auguste Comte",
+        publisher: "Stanford Encyclopedia of Philosophy",
+        url: "https://plato.stanford.edu/entries/comte/",
+        primary: true,
+      },
+      {
+        title: "Henry Oldenburg",
+        publisher: "Encyclopaedia.com",
+        url: "https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/henry-oldenburg",
+      },
+      {
+        title: "Henry Oldenburg (and the Philosophical Transactions)",
+        publisher: "Digitens",
+        url: "https://www.digitens.org/en/notices/henry-oldenburg-and-philosophical-transactions.html",
+      },
+    ],
+    content: `5 Eylül, felsefe takviminin büyük yıldönümlerinden biri değil. Ama aynı güne düşen iki ölüm, modern bilginin iki ayrı yüzünü gösteriyor.
+
+**5 Eylül 1857**'de Paris'te **Auguste Comte** öldü; Père Lachaise'e gömüldü.
+
+**5 Eylül 1677**'de Londra'da **Henry Oldenburg** öldü; Bexley'de gömüldü.
+
+Biri bilime bir felsefe kurdu. Öteki bilime bir **altyapı** kurdu.
+
+## Comte: üç hâl ve sonra bir din
+
+Auguste Comte (1798-1857), pozitivizmin kurucu figürü ve modern bilim felsefesinin öncülerinden.
+
+Terminolojik bir katkısı bugün her yerde: **sosyoloji** sözcüğünü o türetti — insan toplumunun bilimsel incelemesi için.
+
+Ama önemi sözcük icadından fazlası.
+
+### Üç hâl yasası
+
+Comte'un ünlü tezine göre insan düşüncesi üç aşamadan geçer:
+
+**Teolojik aşama** — Olaylar iradeli varlıklarla açıklanır. Yıldırım, öfkeli bir tanrının işidir.
+
+**Metafizik aşama** — Tanrılar soyut ilkelerle değiştirilir. Yıldırım, "elektriksel bir öz"ün eseridir. Comte'a göre bu, teolojik aşamanın soyutlaştırılmış hâlidir; açıklayıcı gücü aynı ölçüde zayıftır.
+
+**Pozitif aşama** — "Neden" sorusu terk edilir, "nasıl" sorusu sorulur. Olgular arasındaki düzenlilikler saptanır, yasalar formüle edilir.
+
+Comte'un asıl iddiası, bu üçlünün yalnızca insanlık tarihi için değil, **her bilim dalı için ayrı ayrı** geçerli olduğuydu. Astronomi pozitif aşamaya erken geçti; kimya sonra; biyoloji daha sonra. Ve toplum bilimi henüz geçmemişti — Comte'un kendine biçtiği görev buydu.
+
+### Ve sonra: İnsanlık Dini
+
+Comte'un hikâyesi burada bitseydi, düzgün bir Aydınlanma sonrası düşünür portresi olurdu.
+
+Bitmedi.
+
+Hayatının son döneminde, bilimi merkeze alan düşünür, bir **seküler din** kurmaya yöneldi: **İnsanlık Dini** (*Religion de l'Humanité*).
+
+Ve bunu tam anlamıyla bir din olarak tasarladı: bir takvim (aylar filozofların ve bilim insanlarının adını taşıyordu), bir rahiplik sınıfı, ayinler, azizler listesi, ibadet nesnesi olarak "Büyük Varlık" — yani insanlığın kendisi. Tapınaklar kuruldu; Brezilya'da bugün de ayakta olanı var.
+
+Çağdaşlarının çoğu bunu bir çöküş saydı. Thomas Huxley'in ünlü nitelemesi acımasızdı: *Hıristiyanlık eksi Hıristiyanlık.*
+
+### Paradoks
+
+Comte'un hayatı, modern düşüncenin ilginç bir paradoksunu gösterir: **Metafiziği ve dini eleştiren filozof, sonunda insanlık için yeni bir manevi düzen tasarladı.**
+
+Bu, kolayca alay konusu edilebilir. Ama bir soruyu da açıyor ve soru hâlâ açık:
+
+Bilim, dünyanın nasıl işlediğini açıklar. Peki insanların bir arada yaşamasını sağlayan **ortak bağlılıkları** ne sağlayacak?
+
+Comte'un yanıtı yanlış olabilir. Sorusu değil.
+
+Sitemizde bu hafta ele aldığımız [Charles Taylor dosyası](/haber/charles-taylor-modern-benlik-sekuler-cag), aynı soruyu yüz elli yıl sonra soruyordu: Seküler bir çağda anlam nereden gelir? Taylor'ın yanıtı Comte'unkinden çok daha incelikli — ama sorunun kendisi aynı soruydu.
+
+## Oldenburg: kuram yok, altyapı var
+
+Henry Oldenburg (yaklaşık 1619-1677), Almanya doğumlu bir doğa filozofu, diplomat ve ilahiyatçıydı. Londra'ya yerleşti.
+
+Adı, felsefe tarihi ders kitaplarında geçmez. Oysa bugün bilim dünyasının doğal saydığı hemen her şeyin arkasında o var.
+
+### Royal Society'nin ilk sekreteri
+
+Oldenburg, Londra Royal Society'nin ilk sekreteri oldu ve **Philosophical Transactions**'ın kurucu editörlüğünü yaptı — dünyanın bilinen en eski bilimsel dergisi.
+
+Ama asıl yeniliği daha teknik ve daha kalıcıydı.
+
+**Oldenburg, kendisine gönderilen elyazmalarını, yayımlanmadan önce kalitesini değerlendirebilecek uzmanlara gönderme pratiğini başlattı.**
+
+Bu, hem modern bilimsel derginin hem de **hakemlik** (peer review) uygulamasının başlangıcıdır.
+
+### Neden felsefi bir olay?
+
+Çünkü bilgi iddiasının ne zaman **kabul edilebilir** sayılacağı, epistemolojinin merkezî sorusudur.
+
+On yedinci yüzyıla kadar bilgi iddiası kişisel otoriteye, hâmiliğe ya da yayın imkânına bağlıydı. Oldenburg'un getirdiği düzen, iddiayı kişiden ayırdı ve **topluluğun denetimine** verdi.
+
+Bir iddia artık şu yüzden kabul edilmiyordu: Onu söyleyen kişi saygın biri. Şu yüzden kabul ediliyordu: Alanı bilen başkaları inceledi ve itiraz etmedi.
+
+Bu, **toplumsal epistemolojinin** doğuşudur. Bilgi, bireyin başarısı olmaktan çıkıp bir kurumun ürünü hâline gelir.
+
+Oldenburg ayrıca Avrupa çapında bir bilimsel yazışma ağı kurdu; Spinoza, Leibniz, Huygens ve Leeuwenhoek onun muhabirleri arasındaydı. Bu ağ, hollandalı bir mercek ustasının mikroskopta gördüklerini Londra'ya, oradan da bütün Avrupa'ya taşıdı.
+
+### Bugüne bağlantı
+
+Oldenburg'un kurduğu düzen, üç yüz elli yıl sonra ilk kez ciddi biçimde sarsılıyor.
+
+Sitemizde bu dönem izlediğimiz tartışmaların çoğu doğrudan bu sarsıntıya bakıyor: [Philosophy & Public Affairs'in yapay zekâ yazarlığını yasaklaması](/haber/philosophy-public-affairs-yapay-zeka-yasagi), [yapay zekâ ile yazılmış metinler için başlatılan yarışma](/haber/yapay-zeka-felsefe-yarismasi-chalmers-juri) ve dergilerin yapay zekâ suçlamaları konusundaki tereddüdü.
+
+Sorulan soru, Oldenburg'un çözdüğü sorunun aynısıdır — yeni koşullarda:
+
+**Bir metnin kabul edilebilir olduğunu ne belirler?**
+
+Oldenburg'un yanıtı bir prosedürdü: uzman denetimi. O prosedürün varsayımı, metnin arkasında **hesap verebilir bir yazar** olduğuydu.
+
+Bugün tartışılan tam olarak bu varsayım.
+
+## İki ölüm, iki miras
+
+Comte, bilimin **ne olduğuna** dair bir kuram bıraktı. Kuramın büyük bölümü aşıldı; ama sosyoloji adını ve bilimlerin hiyerarşisi fikrini o kurdu.
+
+Oldenburg, bilimin **nasıl işlediğine** dair bir düzen bıraktı. Hiçbir kuram üretmedi; ama kurduğu düzen bugün hâlâ ayakta.
+
+Felsefe tarihi genellikle birincileri anar. İkincilerin işi, unutulduğunda fark edilir.
+
+---
+
+*Bu köşede her gün, felsefe tarihinde o güne düşen bir olayı ele alıyoruz.*
+
+*Not: Comte'un kapak görseli 1849 dolaylarında çekilmiş bir dagerreyotiptir — yani gerçek bir fotoğraf.*`,
+  },
+  {
     title: "Oruç Aruoba: Türkçeyle yürüyen filozof",
     slug: "oruc-aruoba-turkcede-felsefe-yurume",
     summary:
@@ -15618,6 +16720,54 @@ Ama tartışma orada kalmadı. **Amartya Sen**, Arrow'un koşullarından bazıla
 
 export const books: SeedBook[] = [
   {
+    title: "A Philosophical History of the Concept",
+    slug: "schmid-taieb-history-of-the-concept",
+    originalTitle: null,
+    publisher: "Cambridge University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: null,
+    coverImage: null,
+    description:
+      "Stephan Schmid ve Hamid Taieb'in derlediği yirmi iki bölümlük çalışma, 'kavram' teriminin felsefe tarihindeki serüvenini izliyor: Antik Yunan'dan Çin ve Hint düşüncesine, İslam felsefesinden Kant'a, fenomenolojiden kavramsal mühendisliğe.",
+    year: 2026,
+    link: "https://www.cambridge.org/core/books/abs/philosophical-history-of-the-concept/A3661F0A8F7DDACFB370C5B90820B75E",
+    philosopherSlug: null,
+    postSlug: "kavramin-felsefi-tarihi-schmid-taieb",
+  },
+  {
+    title: "Answering Scepticism: Understanding Understanding, Understanding Reason",
+    slug: "burge-answering-scepticism",
+    originalTitle: null,
+    publisher: "Oxford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780198969334",
+    coverImage: null,
+    description:
+      "Tyler Burge'ün 688 sayfalık çalışması, Descartes'tan beri süren iki klasik şüpheciliğe — dış dünyanın varlığı ve şu anki çevremiz hakkındaki bilgi — anlama ve akıl üzerinden iki ayrı yanıt veriyor.",
+    year: 2026,
+    link: "https://global.oup.com/academic/product/answering-scepticism-9780198969334",
+    philosopherSlug: null,
+    postSlug: "tyler-burge-answering-scepticism-anlama",
+  },
+  {
+    title: "Cicero: A Very Short Introduction",
+    slug: "baraz-cicero-vsi",
+    originalTitle: null,
+    publisher: "Oxford University Press",
+    translator: null,
+    language: "İngilizce",
+    isbn: "9780192885807",
+    coverImage: null,
+    description:
+      "Princeton'dan Yelena Baraz'ın 160 sayfalık çalışması, Cicero'yu teori ile pratik, felsefe ile siyaset, Yunan ile Roma arasında bir arabulucu figür olarak okuyor. Kitap, Cicero'nun ölümü ve alımlanma tarihiyle başlıyor.",
+    year: 2026,
+    link: "https://global.oup.com/academic/product/cicero-9780192885807",
+    philosopherSlug: null,
+    postSlug: "cicero-cumhuriyet-erdem-arabuluculuk",
+  },
+  {
     title: "A World Appears: A Journey into Consciousness",
     slug: "pollan-a-world-appears",
     originalTitle: null,
@@ -16108,6 +17258,38 @@ export const books: SeedBook[] = [
  * Tarihi geçmiş etkinlikler silinmez; arayüz onları "geçmiş" olarak listeler.
  */
 export const events: SeedEvent[] = [
+  {
+    title: "30. Oxford Lisansüstü Felsefe Konferansı",
+    slug: "oxford-lisansustu-felsefe-konferansi-2026",
+    summary:
+      "Oxford Üniversitesi'nin doktora öğrencilerine ayrılmış felsefe konferansı otuzuncu kez toplanıyor. Ana konuşmacılar David Chalmers, Monima Chadha ve Rob Simpson. Her bildiriye Oxford öğretim üyelerinden biri yanıt veriyor.",
+    description: `Konferans, felsefede çalışan bütün lisansüstü öğrencilere açık. Bildiriler herhangi bir konuda olabilir; amaç teorik felsefe, pratik felsefe ve felsefe tarihi boyunca geniş bir tartışma ve gelenek yelpazesini temsil etmek.
+
+Seçilen her lisansüstü öğrenci, bildirisini 30-40 dakikalık bir sunumla veriyor. Her sunumun ardından bir yanıt geliyor — tipik olarak Oxford Felsefe Fakültesi üyelerinden biri tarafından. Bu yapılandırılmış yanıt, konferansı sıradan öğrenci toplantılarından ayıran temel özellik.
+
+Ana konuşmacılar: David Chalmers (New York Üniversitesi), Monima Chadha (Oxford Üniversitesi) ve Rob Simpson (University College London).
+
+Mekânlar: Blackfriars Hall ve Regent's Park College.`,
+    kind: "KONFERANS",
+    organizer: "University of Oxford, Faculty of Philosophy",
+    speakers: "David Chalmers (NYU), Monima Chadha (Oxford), Rob Simpson (UCL)",
+    topic: "Felsefenin bütün alanları — lisansüstü konferansı",
+    format: "FIZIKSEL",
+    startsAt: "2026-11-13T09:00:00.000Z",
+    endsAt: "2026-11-14T18:00:00.000Z",
+    timezone: "Europe/London",
+    hasTime: false,
+    city: "Oxford",
+    country: "Birleşik Krallık",
+    venue: "Blackfriars Hall ve Regent's Park College",
+    website: "https://www.philosophy.ox.ac.uk/oxford-philosophy-graduate-conference",
+    registrationUrl: "https://philevents.org/event/show/145362",
+    sourceName: "PhilEvents",
+    sourceUrl: "https://philevents.org/event/show/145358",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars%20Chapel%2C%20Oxford.jpg?width=1600",
+    featured: true,
+    publishedAt: "2026-09-05T02:00:00.000Z",
+  },
   {
     title: "Uluslararası Hans Reichenbach Kongresi: Reichenbach in İstanbul",
     slug: "reichenbach-kongresi-istanbul",
